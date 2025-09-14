@@ -5,6 +5,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import argparse
 import csv
 import os
+from dotenv import load_dotenv, find_dotenv  
+load_dotenv(find_dotenv(), override=False)
 
 def validate_xml(xml_content: str) -> tuple[bool, str]:
     """Validate if the XML content is well-formed and collect all errors."""
