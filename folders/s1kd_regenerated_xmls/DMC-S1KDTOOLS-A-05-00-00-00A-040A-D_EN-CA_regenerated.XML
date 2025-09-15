@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <introduction>
+        <title>Introduction to s1kd-upissue</title>
+        <paragraph>The <command>s1kd-upissue</command> command is used to update the issue and inwork numbers of S1000D data modules. This document provides an overview of the command, its options, and examples of how to use it.</paragraph>
+    </introduction>
+    <section>
+        <title>Options</title>
+        <subsection>
+            <title>General Options</title>
+            <itemizedlist>
+                <listitem>
+                    <para>-i: Make the new issue official.</para>
+                </listitem>
+                <listitem>
+                    <para>-N: Do not add issue/inwork numbers to the filename if they are not already present.</para>
+                </listitem>
+                <listitem>
+                    <para>-v, --verbose: Verbose output.</para>
+                </listitem>
+                <listitem>
+                    <para>-w, --lock: Make the old issue file read-only after upissuing. Official issues will also be made read-only when they are created.</para>
+                </listitem>
+            </itemizedlist>
+        </subsection>
+        <subsection>
+            <title>Issue Type Options</title>
+            <itemizedlist>
+                <listitem>
+                    <para>-z, --issue-type &lt;type&gt;: Set the issue type of the new issue.</para>
+                </listitem>
+                <listitem>
+                    <para>If not specified, the issue type will default to "status" for official issues or be the same as the previous issue for inwork issues.</para>
+                </listitem>
+            </itemizedlist>
+        </subsection>
+        <subsection>
+            <title>Date and Time Options</title>
+            <itemizedlist>
+                <listitem>
+                    <para>-s, --keep-date: Keep the date of the previous inwork or official issue. In -m mode, this option has the opposite effect.</para>
+                </listitem>
+                <listitem>
+                    <para>-t, --type &lt;urt&gt;: Set the updateReasonType of the last specified reason for update.</para>
+                </listitem>
+            </itemizedlist>
+        </subsection>
+        <subsection>
+            <title>XML Parser Options</title>
+            <itemizedlist>
+                <listitem>
+                    <para>--dtdload: Load the external DTD.</para>
+                </listitem>
+                <listitem>
+                    <para>--huge: Remove any internal arbitrary parser limits.</para>
+                </listitem>
+                <listitem>
+                    <para>--net: Allow network access to load external DTD and entities.</para>
+                </listitem>
+                <listitem>
+                    <para>--noent: Resolve entities.</para>
+                </listitem>
+                <listitem>
+                    <para>--parser-errors: Emit errors from parser.</para>
+                </listitem>
+                <listitem>
+                    <para>--parser-warnings: Emit warnings from parser.</para>
+                </listitem>
+                <listitem>
+                    <para>--xinclude: Do XInclude processing.</para>
+                </listitem>
+                <listitem>
+                    <para>--xml-catalog &lt;file&gt;: Use an XML catalog when resolving entities. Multiple catalogs may be loaded by specifying this option multiple times.</para>
+                </listitem>
+            </itemizedlist>
+        </subsection>
+        <subsection>
+            <title>Other Options</title>
+            <itemizedlist>
+                <listitem>
+                    <para>-c, --clean-rfus: Remove RFUs which are not associated with any change markup.</para>
+                </listitem>
+                <listitem>
+                    <para>-^, --remove-deleted: Remove elements with change type of "delete".</para>
+                </listitem>
+                <listitem>
+                    <para>-r, --keep-changes: Keep the current RFUs and change marks. In -m mode, this option has the opposite effect.</para>
+                </listitem>
+            </itemizedlist>
+        </subsection>
+    </section>
+    <section>
+        <title>Examples</title>
+        <subsection>
+            <title>Data Module with Issue/Inwork in Filename</title>
+            <example>
+                <para>$ ls</para>
+                <para>DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_000-01_EN-CA.XML</para>
+                <para>$ s1kd-upissue DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_000-01_EN-CA.XML</para>
+                <para>$ ls</para>
+                <para>DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_000-01_EN-CA.XML</para>
+                <para>DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_000-02_EN-CA.XML</para>
+                <para>$ s1kd-upissue -i DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_000-02_EN-CA.XML</para>
+                <para>$ ls</para>
+                <para>DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_000-01_EN-CA.XML</para>
+                <para>DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_000-02_EN-CA.XML</para>
+                <para>DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_001-00_EN-CA.XML</para>
+            </example>
+        </subsection>
+        <subsection>
+            <title>Data Module without Issue/Inwork in Filename</title>
+            <example>
+                <para>$ ls</para>
+                <para>DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_EN-US.XML</para>
+                <para>$ s1kd-metadata DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_EN-CA.XML -n issueInfo</para>
+                <para>000-01</para>
+                <para>$ s1kd-upissue -N DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_EN-CA.XML</para>
+                <para>$ s1kd-metadata DMC-S1KDTOOLS-A-00-00-00-00A-040A-D_EN-CA.XML -n issueInfo</para>
+                <para>000-02</para>
+            </example>
+        </subsection>
+        <subsection>
+            <title>Non-XML File with Issue/Inwork in Filename</title>
+            <example>
+                <para>$ ls</para>
+                <para>TXT-S1KDTOOLS-KHZAE-FOOBAR_000-01_EN-CA.TXT</para>
+                <para>$ s1kd-upissue TXT-S1KDTOOLS-KHZAE-00001_000-01_EN-CA.TXT</para>
+                <para>$ ls</para>
+                <para>TXT-S1KDTOOLS-KHZAE-FOOBAR_000-01_EN-CA.TXT</para>
+                <para>TXT-S1KDTOOLS-KHZAE-FOOBAR_000-02_EN-CA.TXT</para>
+            </example>
+        </subsection>
+    </section>
+</document>

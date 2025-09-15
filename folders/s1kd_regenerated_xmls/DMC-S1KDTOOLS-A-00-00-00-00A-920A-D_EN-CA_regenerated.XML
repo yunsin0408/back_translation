@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <title>DMC-S1KDTOOLS-A-00-00-00-00A-920A-D_EN-CA</title>
+  <section>
+    <title>Introduction to S1KD Tools</title>
+    <p>The s1kd-tools are a set of software tools used for building, installing, and uninstalling. This document provides guidelines on how to install, upgrade, or uninstall the s1kd-tools using a package manager or by building from source.</p>
+  </section>
+  <section>
+    <title>Identifiers and Status</title>
+    <ul>
+      <li><strong>Model Identifier Code:</strong> S1KDTOOLS</li>
+      <li><strong>System Difference Code:</strong> A</li>
+      <li><strong>System Code:</strong> 00</li>
+      <li><strong>Sub-System Code:</strong> 0</li>
+      <li><strong>Sub-Sub-System Code:</strong> 0</li>
+      <li><strong>Assembly Code:</strong> 00</li>
+      <li><strong>Disassembly Code:</strong> 00</li>
+      <li><strong>Disassembly Code Variant:</strong> A</li>
+      <li><strong>Info Code:</strong> 920</li>
+      <li><strong>Info Code Variant:</strong> A</li>
+      <li><strong>Item Location Code:</strong> D</li>
+      <li><strong>Language:</strong> English (en)</li>
+      <li><strong>Country:</strong> Canada (CA)</li>
+      <li><strong>Issue Number:</strong> 007</li>
+      <li><strong>In Work:</strong> 00</li>
+    </ul>
+  </section>
+  <section>
+    <title>Status Information</title>
+    <ul>
+      <li><strong>Issue Type:</strong> status</li>
+      <li><strong>Security Classification:</strong> 01</li>
+      <li><strong>Responsible Partner Company:</strong> khzae.net</li>
+      <li><strong>Originator:</strong> khzae.net</li>
+      <li><strong>Application:</strong> All</li>
+      <li><strong>Quality Assurance:</strong> Unverified</li>
+      <li><strong>Reason for Update:</strong> Upissue</li>
+    </ul>
+  </section>
+  <section>
+    <title>Content</title>
+    <section>
+      <title>Description</title>
+      <section>
+        <title>General</title>
+        <p>There are multiple ways to install the s1kd-tools:</p>
+        <ul>
+          <li>Using a package manager and pre-compiled Debian (.deb) or Red Hat (.rpm) packages</li>
+          <li>Building from source</li>
+        </ul>
+      </section>
+      <section>
+        <title>Using a Package Manager</title>
+        <p>Debian (.deb) and Red Hat (.rpm) packages are provided to easily install, upgrade, or uninstall the s1kd-tools on Linux systems using a package manager.</p>
+        <section>
+          <title>Installing</title>
+          <p>To install the s1kd-tools using a package manager:</p>
+          <ol>
+            <li>Download the latest release from <a href="http://khzae.net/1/s1000d/s1kd-tools/releases/latest">http://khzae.net/1/s1000d/s1kd-tools/releases/latest</a></li>
+            <li>Use one of the following commands to install:
+              <ul>
+                <li><strong>Debian:</strong> <code># dpkg -i s1kd-tools_[version]_[arch].deb</code></li>
+                <li><strong>Red Hat:</strong> <code># rpm -i s1kd-tools.[version].[arch].rpm</code></li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section>
+          <title>Uninstalling</title>
+          <p>To uninstall using the package manager, use one of the following commands:</p>
+          <ul>
+            <li><strong>Debian:</strong> <code># dpkg -r s1kd-tools</code></li>
+            <li><strong>Red Hat:</strong> <code># rpm -e s1kd-tools</code></li>
+          </ul>
+        </section>
+      </section>
+      <section>
+        <title>Building from Source</title>
+        <p>To build the executables from source:</p>
+        <section>
+          <title>Requirements</title>
+          <p>The following are required to build the executables:</p>
+          <ul>
+            <li>coreutils and binutils</li>
+            <li>xxd</li>
+            <li>pkg-config</li>
+            <li><a href="http://xmlsoft.org">libxml2, libxslt, libexslt</a></li>
+          </ul>
+          <p>To build the documentation from source:</p>
+          <ul>
+            <li><a href="http://github.com/kibook/s1kd2db">s1kd2db</a></li>
+            <li><a href="https://pandoc.org/">pandoc</a></li>
+          </ul>
+        </section>
+        <section>
+          <title>Windows Build Environment</title>
+          <p>To build the executables on Windows, an environment such as MinGW or Cygwin is recommended.</p>
+        </section>
+        <section>
+          <title>Building and Installing</title>
+          <p>Run the following commands to build the executables and install both the executables and documentation:</p>
+          <pre>$ make
+# make install</pre>
+          <p>To change where these are installed, specify the PREFIX make variable. The default value of this variable is <code>/usr/local</code>.</p>
+          <p>For example:</p>
+          <pre># make PREFIX=/usr install</pre>
+        </section>
+        <section>
+          <title>Uninstalling</title>
+          <p>To uninstall the executables and documentation:</p>
+          <pre># make uninstall</pre>
+          <p>Remember to specify the PREFIX make variable if a different prefix was used during installation.</p>
+        </section>
+      </section>
+    </section>
+  </section>
+  <section>
+    <title>References</title>
+    <p>The s1kd-tools reference the same schema as the original XML file, which can be found at <a href="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd</a>.</p>
+  </section>
+</root>

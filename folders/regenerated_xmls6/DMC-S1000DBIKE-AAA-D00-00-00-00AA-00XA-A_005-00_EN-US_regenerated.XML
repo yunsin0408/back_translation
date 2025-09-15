@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-00XA-A_005-00_EN-US</title>
+    <introduction>
+        <paragraph>The XML document DMC-S1000DBIKE-AAA-D00-00-00-00AA-00XA-A_005-00_EN-US.XML is a S1000D data module that provides information about bicycle controls and indicators.</paragraph>
+    </introduction>
+    <identifiersAndStatusSection>
+        <dmIdent>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>00X</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>A</itemLocationCode>
+        </dmIdent>
+        <language>
+            <countryIsoCode>US</countryIsoCode>
+            <languageIsoCode>en</languageIsoCode>
+        </language>
+        <issueInfo>
+            <issueNumber>005</issueNumber>
+            <inWork>00</inWork>
+        </issueInfo>
+    </identifiersAndStatusSection>
+    <contentSection>
+        <commonRepository>
+            <introductionToControlsAndIndicators>
+                <paragraph>The following table(s) and illustration(s) provide the description and use of the controls and indicators pertaining to the mountain bicycle(s). Some controls and indicators may differ depending on the model.</paragraph>
+            </introductionToControlsAndIndicators>
+            <figure id="fig-0001">
+                <title>Bicycle Controls and Indicators</title>
+                <graphicEntityIdent>ICN-07GB6-BIKECI0001-001-01</graphicEntityIdent>
+            </figure>
+        </commonRepository>
+        <controlIndicatorRepository>
+            <controlIndicatorGroup>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Control Indicator Key</th>
+                            <th>Control Indicator Name</th>
+                            <th>Control Indicator Function</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>LED Taillight</td>
+                            <td>Lights illuminate automatically when brakes are engaged.</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Chrome Bell</td>
+                            <td>Press to sound bell. Normally used to signal a need for attention.</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>LED Headlight</td>
+                            <td>Push button to turn light on or off.</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Platform Pedals</td>
+                            <td>Control the acceleration of the bicycle.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </controlIndicatorGroup>
+        </controlIndicatorRepository>
+    </contentSection>
+    <dataRestrictions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+    </dataRestrictions>
+    <copyrightInformation>
+        <copyrightNotice>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightNotice>
+        <publishers>
+            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+            <publisher>Aerospace Industries Association of America</publisher>
+            <publisher>ATA e-Business Program</publisher>
+        </publishers>
+        <limitationsOfLiability>
+            <paragraph>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</paragraph>
+            <paragraph>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</paragraph>
+            <paragraph>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</paragraph>
+        </limitationsOfLiability>
+    </copyrightInformation>
+    <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+    <dataConditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConditions>
+</document>

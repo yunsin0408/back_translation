@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <introduction>
+        <para>The provided S1000D XML document appears to be a technical manual for the installation of a bicycle fork. The document contains various sections, including preliminary requirements, main procedure, and closing requirements.</para>
+    </introduction>
+    <preliminaryRequirements>
+        <requiredConditions>
+            <para>None specified</para>
+        </requiredConditions>
+        <requiredPersonnel>
+            <para>None specified</para>
+        </requiredPersonnel>
+        <technicalInformation>
+            <item>
+                <para>Stem install procedure: Refer to <internalRef internalRefId="DM Ref: S1000DBIKE-DA2-1-0-AA-720-A"/></para>
+            </item>
+            <item>
+                <para>Headset install procedure: Refer to <internalRef internalRefId="DM Ref: S1000DBIKE-DA2-3-0-AA-720-A"/></para>
+            </item>
+            <item>
+                <para>Spacer install procedure: Refer to <internalRef internalRefId="DM Ref: S1000DBIKE-DA2-4-0-AA-720-A"/></para>
+            </item>
+        </technicalInformation>
+        <supportEquipment>
+            <para>None specified</para>
+        </supportEquipment>
+        <supplies>
+            <item>
+                <para>General grease (KZ222, LL-005): As required</para>
+            </item>
+        </supplies>
+        <spares>
+            <item>
+                <para>Fork set (KZ666, SPA-1000-1): 1 EA</para>
+                <embeddedSpare>
+                    <para>Fork (KZ666, FK-TEL1001): 1 EA</para>
+                </embeddedSpare>
+            </item>
+        </spares>
+        <safetyPrecautions>
+            <para>None specified</para>
+        </safetyPrecautions>
+    </preliminaryRequirements>
+    <mainProcedure>
+        <proceduralStep>
+            <para>Apply grease on the headset.</para>
+        </proceduralStep>
+        <proceduralStep>
+            <para>Install the headset by referring to <internalRef internalRefId="DM Ref: S1000DBIKE-DA2-3-0-AA-720-A"/>.</para>
+        </proceduralStep>
+        <proceduralStep>
+            <para>Install the spacers by referring to <internalRef internalRefId="DM Ref: S1000DBIKE-DA2-4-0-AA-720-A"/>.</para>
+        </proceduralStep>
+        <proceduralStep>
+            <para>Install the stem by referring to <internalRef internalRefId="DM Ref: S1000DBIKE-DA2-1-0-AA-720-A"/>.</para>
+        </proceduralStep>
+        <proceduralStep>
+            <para>Install the fork.</para>
+        </proceduralStep>
+    </mainProcedure>
+    <closingRequirements>
+        <requiredConditions>
+            <para>None specified</para>
+        </requiredConditions>
+    </closingRequirements>
+    <exampleUseCases>
+        <para>This document can be used as a reference guide for bicycle mechanics or enthusiasts who need to install a new fork on their bicycle. The detailed step-by-step instructions and references to other DM Refs provide a comprehensive understanding of the installation process.</para>
+    </exampleUseCases>
+    <apiDocumentation>
+        <item>
+            <para>Get Preliminary Requirements: Retrieve the preliminary requirements for the installation process.</para>
+        </item>
+        <item>
+            <para>Get Main Procedure: Retrieve the main procedure steps for the installation process.</para>
+        </item>
+        <item>
+            <para>Get Closing Requirements: Retrieve the closing requirements after completing the installation process.</para>
+        </item>
+    </apiDocumentation>
+    <commitMessageGuidelines>
+        <para>When committing changes to this document, please follow these guidelines:</para>
+        <item>
+            <para>Use a clear and concise commit message that describes the changes made.</para>
+        </item>
+        <item>
+            <para>Include relevant keywords or phrases, such as "installation procedure" or "bicycle fork".</para>
+        </item>
+        <item>
+            <para>Keep the commit message under 50 characters.</para>
+        </item>
+    </commitMessageGuidelines>
+</proced>

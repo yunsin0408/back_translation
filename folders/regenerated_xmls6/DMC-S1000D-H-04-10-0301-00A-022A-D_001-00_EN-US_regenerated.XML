@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>BREX Rules</title>
+  <para>The following rules are defined for the BREX (Business Rule eXchange) system.</para>
+  <contextRules>
+    <title>Context Rules</title>
+    <para>These rules apply to specific contexts within the system.</para>
+    <structureObjectRuleGroup>
+      <title>Structure Object Rule Group</title>
+      <para>This group contains rules related to structure objects.</para>
+      <attributes>
+        <title>Attributes</title>
+        <para>The following attributes have predefined values:</para>
+        <attribute>
+          <name>supplyType</name>
+          <value>st01</value>
+          <description>Initial provision</description>
+        </attribute>
+        <attribute>
+          <name>supplyType</name>
+          <value>st02</value>
+          <description>Update</description>
+        </attribute>
+        <attribute>
+          <name>supplyType</name>
+          <value>st03</value>
+          <description>Correction</description>
+        </attribute>
+        <attribute>
+          <name>supplyType</name>
+          <value>st04</value>
+          <description>Obsolescence</description>
+        </attribute>
+        <attribute>
+          <name>supplyType</name>
+          <value>st05</value>
+          <description>Deletion</description>
+        </attribute>
+        <attribute>
+          <name>supplyType</name>
+          <value>st51-st99</value>
+          <description>Available for project-specific allocation</description>
+        </attribute>
+        <attribute>
+          <name>issueType</name>
+          <value>it01</value>
+          <description>Initial issue</description>
+        </attribute>
+        <attribute>
+          <name>issueType</name>
+          <value>it02</value>
+          <description>Update</description>
+        </attribute>
+        <attribute>
+          <name>issueType</name>
+          <value>it03</value>
+          <description>Correction</description>
+        </attribute>
+        <attribute>
+          <name>issueType</name>
+          <value>it04</value>
+          <description>Obsolescence</description>
+        </attribute>
+        <attribute>
+          <name>issueType</name>
+          <value>it05</value>
+          <description>Deletion</description>
+        </attribute>
+        <attribute>
+          <name>issueType</name>
+          <value>it51-it99</value>
+          <description>Available for project-specific allocation</description>
+        </attribute>
+        <attribute>
+          <name>updateReasonType</name>
+          <value>urt01</value>
+          <description>Editorial change</description>
+        </attribute>
+        <attribute>
+          <name>updateReasonType</name>
+          <value>urt02</value>
+          <description>Technical change</description>
+        </attribute>
+        <attribute>
+          <name>updateReasonType</name>
+          <value>urt03</value>
+          <description>Markup change</description>
+        </attribute>
+        <attribute>
+          <name>updateReasonType</name>
+          <value>urt04</value>
+          <description>Applicability change</description>
+        </attribute>
+        <attribute>
+          <name>updateReasonType</name>
+          <value>urt05</value>
+          <description>Unique identifier of the referencing structure has changed</description>
+        </attribute>
+        <attribute>
+          <name>updateReasonType</name>
+          <value>urt51-urt99</value>
+          <description>Available for project-specific allocation</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs01</value>
+          <description>Generic verbatim</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs02</value>
+          <description>Filename</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs11</value>
+          <description>XML/SGML markup</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs12</value>
+          <description>XML/SGML element name</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs13</value>
+          <description>XML/SGML attribute name</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs14</value>
+          <description>XML/SGML attribute value</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs15</value>
+          <description>XML/SGML entity name</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs16</value>
+          <description>XML/SGML processing instruction</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs21</value>
+          <description>Program prompt</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs22</value>
+          <description>User input</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs23</value>
+          <description>Computer output</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs24</value>
+          <description>Program listing</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs25</value>
+          <description>Program variable name</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs26</value>
+          <description>Program variable value</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs27</value>
+          <description>Constant</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs28</value>
+          <description>Class name</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs29</value>
+          <description>Parameter name</description>
+        </attribute>
+        <attribute>
+          <name>verbatimStyle</name>
+          <value>vs51-vs99</value>
+          <description>Available for project-specific allocation</description>
+        </attribute>
+      </attributes>
+      <quantityUnitOfMeasure>
+        <title>Quantity Unit of Measure</title>
+        <para>The attribute quantityUnitOfMeasure has predefined values, and values within the range um51-um99 can be allocated and defined by projects or organizations.</para>
+      </quantityUnitOfMeasure>
+    </structureObjectRuleGroup>
+    <nonPredefinedAttributes>
+      <title>Non-Predefined Attributes</title>
+      <para>The following attributes do not have predefined values:</para>
+      <attribute>
+        <name>supplyType</name>
+        <value>st51-st99</value>
+        <description>Available for project-specific allocation</description>
+      </attribute>
+      <attribute>
+        <name>issueType</name>
+        <value>it51-it99</value>
+        <description>Available for project-specific allocation</description>
+      </attribute>
+      <attribute>
+        <name>updateReasonType</name>
+        <value>urt51-urt99</value>
+        <description>Available for project-specific allocation</description>
+      </attribute>
+      <attribute>
+        <name>verbatimStyle</name>
+        <value>vs51-vs99</value>
+        <description>Available for project-specific allocation</description>
+      </attribute>
+    </nonPredefinedAttributes>
+  </contextRules>
+  <nonContextRules>
+    <title>Non-Context Rules</title>
+    <para>These rules apply regardless of context.</para>
+    <deletionOfDataModules>
+      <title>Deletion of Data Modules</title>
+      <para>Deletion of data modules is treated as a special case of update. The data module itself is not physically deleted from the CSDB but marked as deleted.</para>
+    </deletionOfDataModules>
+  </nonContextRules>
+  <tablesAndReferences>
+    <title>Tables and References</title>
+    <para>For more information, refer to the following tables and chapters:</para>
+    <reference>
+      <chapter>Chapter 3.9.5.1, Para 2.2</chapter>
+    </reference>
+    <reference>
+      <chapter>Chapter 3.9.6.1, Table 2</chapter>
+    </reference>
+    <reference>
+      <chapter>Chapter 3.9.6.2, Table 2</chapter>
+    </reference>
+  </tablesAndReferences>
+</proced>

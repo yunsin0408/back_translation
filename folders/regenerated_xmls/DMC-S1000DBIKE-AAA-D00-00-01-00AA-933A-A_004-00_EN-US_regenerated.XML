@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+           xmlns:xlink="http://www.w3.org/1999/xlink" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <title>Procedure Documentation</title>
+  <introduction>
+    <para>This procedure outlines the steps required to replace a fork on a motorcycle. The document includes preliminary requirements, main procedures, and closing requirements.</para>
+  </introduction>
+  <preliminaryRequirements>
+    <requiredToolsAndMaterials>
+      <item>Front wheel removal tool</item>
+      <item>Front brake removal tool</item>
+      <item>Fork removal tool</item>
+      <item>New fork</item>
+      <item>Bike axis replacement tool</item>
+    </requiredToolsAndMaterials>
+    <safetyPrecautions>
+      <para>No specific safety precautions are mentioned in the procedure.</para>
+    </safetyPrecautions>
+    <supportEquipment>
+      <item>Saw horses or a motorcycle lift</item>
+      <item>Wheel chocks</item>
+    </supportEquipment>
+  </preliminaryRequirements>
+  <mainProcedure>
+    <preparation>
+      <step>
+        <title>Remove Front Wheel</title>
+        <para>Remove the front wheel, referring to <xref href="#">Front Wheel Removal Procedure</xref>.</para>
+      </step>
+      <step>
+        <title>Remove Front Brakes</title>
+        <para>Remove the front brakes, referring to <xref href="#">Front Brake Removal Procedure</xref>.</para>
+      </step>
+    </preparation>
+    <procedureSteps>
+      <step>
+        <title>Remove Fork</title>
+        <para>Remove the fork, referring to <xref href="#">Fork Removal Procedure</xref>.</para>
+      </step>
+      <step>
+        <title>Change Bike Axis</title>
+        <para>Change the bike axis, referring to <xref href="#">Bike Axis Replacement Procedure</xref>.</para>
+      </step>
+      <step>
+        <title>Install New Fork</title>
+        <para>
+          <item_For_Configuration_A>For configuration A: Install the new fork, referring to <xref href="#">New Fork Installation Procedure for Configuration A</xref>.</item_For_Configuration_A>
+          <item_For_Configuration_B>For configuration B: Install the new fork, referring to <xref href="#">New Fork Installation Procedure for Configuration B</xref>.</item_For_Configuration_B>
+        </para>
+      </step>
+      <step>
+        <title>Install Front Brakes</title>
+        <para>Install the front brakes, referring to <xref href="#">Front Brake Installation Procedure</xref>.</para>
+      </step>
+      <step>
+        <title>Install Front Wheel</title>
+        <para>Install the front wheel, referring to <xref href="#">Front Wheel Installation Procedure</xref>.</para>
+      </step>
+    </procedureSteps>
+    <testProcedure>
+      <step>
+        <title>Test Fork Installation</title>
+        <para>Test that the fork is properly installed, referring to <xref href="#">Fork Installation Test Procedure</xref>.</para>
+      </step>
+      <step>
+        <title>Front Brakes Test</title>
+        <para>Perform a front brakes test, referring to <xref href="#">Front Brake Test Procedure</xref>.</para>
+      </step>
+    </testProcedure>
+  </mainProcedure>
+  <closingRequirements>
+    <para>No specific closing requirements are mentioned in the procedure.</para>
+  </closingRequirements>
+  <notes>
+    <item>This procedure assumes that the user has basic knowledge of motorcycle maintenance and repair.</item>
+    <item>It is recommended to consult the motorcycle's manual for specific instructions on fork replacement.</item>
+    <item>Always follow proper safety protocols when working with power tools and machinery.</item>
+  </notes>
+</procedure>

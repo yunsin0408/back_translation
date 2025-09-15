@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm identAndStatusSection="true" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdentification modelIdentCode="S1KDTOOLS" systemDiffCode="A" systemCode="21" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+            <language languageIsoCode="en" countryIsoCode="CA"/>
+            <issueInfo issueNumber="033" inWork="00"/>
+            <dmAddressItems>
+                <issueDate>2020-09-01</issueDate>
+                <dmTitle>
+                    <techName>s1kd-newdml</techName>
+                    <infoName>Description</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <issueTypeAndSecurityClassification issueType="changed" securityClassification="01"/>
+            <responsiblePartnerCompanyAndOriginator enterpriseName="khzae.net" originator="khzae.net"/>
+            <applicabilityAndBREXDMReference>
+                <applic displayText="All"/>
+                <brexDmRef>
+                    <dmRefIdent modelIdentCode="S1KDTOOLS" systemDiffCode="A" systemCode="07" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+                </brexDmRef>
+            </applicabilityAndBREXDMReference>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <description>
+            <introduction>The s1kd-newdml command is used to create a new data management list (DML).</introduction>
+            <usage>The usage of the command is as follows: $ s1kd-newdml [options]</usage>
+            <options>
+                <option name="-#" description="Specify the DML number."/>
+                <option name="--version" description="Show version information."/>
+                <option name="--help" description="Display help and exit."/>
+                <option name="--dtdload" description="Load the external DTD."/>
+                <option name="--huge" description="Remove any internal arbitrary parser limits."/>
+                <option name="--net" description="Allow network access to load external DTD and entities."/>
+                <option name="--noent" description="Resolve entities."/>
+                <option name="--parser-errors" description="Emit errors from parser."/>
+                <option name="--parser-warnings" description="Emit warnings from parser."/>
+                <option name="--xinclude" description="Do XInclude processing."/>
+                <option name="--xml-catalog" description="Use an XML catalog when resolving entities."/>
+            </options>
+            <defaultsFile>Refer to the s1kd-newdm documentation for information on the .defaults file, which is used by all the s1kd-new* commands.</defaultsFile>
+            <example>An example usage of the command is as follows: $ s1kd-newdml -# EX-12345-C-2018-00001</example>
+        </description>
+    </content>
+</dm>

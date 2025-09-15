@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <Introduction>
+        The following document is based on the XML file DMC-S1KDTOOLS-A-00-00-00-00A-022A-D_EN-CA.XML. This markdown document aims to provide a clear and readable representation of the original XML content.
+    </Introduction>
+    <IdentAndStatusSection>
+        <DMAddress>
+            <dmIdent modelIdentCode="S1KDTOOLS" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D">
+                <language>English (en) - Canada (CA)</language>
+                <issueNumber>001</issueNumber>
+                <inWork>01</inWork>
+            </dmIdent>
+            <dmAddressItems issueDate="2018-09-21">
+                <dmTitle>
+                    <technicalName>s1kd-tools</technicalName>
+                    <informationName>Business rules</informationName>
+                </dmTitle>
+            </dmAddressItems>
+        </DMAddress>
+        <DMStatus issueType="changed" securityClassification="01" responsiblePartnerCompany="khzae.net" originator="khzae.net" applic="All">
+            <brexDMRef>
+                <dmRefIdent modelIdentificationCode="S1KDTOOLS" systemDifferenceCode="A" systemCode="00" subsystemCode="0" subSubsystemCode="0" assemblyCode="00" disassemblyCode="00" disassemblyCodeVariant="A" informationCode="022" informationCodeVariant="A" itemLocationCode="D"/>
+            </brexDMRef>
+        </DMStatus>
+    </IdentAndStatusSection>
+    <Content>
+        <brex>
+            <snsRules>
+                <snsDescription>
+                    <snsSystems>
+                        <snsSystem snsCode="00" snsTitle="s1kd-tools"/>
+                        <snsSystem snsCode="01" snsTitle="s1kd-syncrefs"/>
+                        <snsSystem snsCode="02" snsTitle="s1kd-validate"/>
+                        <snsSystem snsCode="03" snsTitle="s1kd-instance"/>
+                        <snsSystem snsCode="04" snsTitle="s1kd-brexcheck"/>
+                        <snsSystem snsCode="05" snsTitle="s1kd-upissue"/>
+                        <snsSystem snsCode="06" snsTitle="s1kd-ls"/>
+                        <snsSystem snsCode="07" snsTitle="s1kd-newdm"/>
+                        <snsSystem snsCode="08" snsTitle="s1kd-ref"/>
+                        <snsSystem snsCode="09" snsTitle="s1kd-metadata"/>
+                        <snsSystem snsCode="12" snsTitle="s1kd-newpm"/>
+                        <snsSystem snsCode="13" snsTitle="s1kd-newimf"/>
+                        <snsSystem snsCode="14" snsTitle="s1kd-neutralize"/>
+                        <snsSystem snsCode="15" snsTitle="s1kd-transform"/>
+                        <snsSystem snsCode="16" snsTitle="s1kd-newcom"/>
+                        <snsSystem snsCode="17" snsTitle="s1kd-newddn"/>
+                        <snsSystem snsCode="19" snsTitle="s1kd-checkrefs"/>
+                        <snsSystem snsCode="20" snsTitle="s1kd-acronyms"/>
+                        <snsSystem snsCode="21" snsTitle="s1kd-newdml"/>
+                        <snsSystem snsCode="22" snsTitle="s1kd-dmrl"/>
+                        <snsSystem snsCode="23" snsTitle="s1kd-flatten"/>
+                        <snsSystem snsCode="25" snsTitle="s1kd-refls"/>
+                        <snsSystem snsCode="26" snsTitle="s1kd-aspp"/>
+                        <snsSystem snsCode="27" snsTitle="s1kd-addicn"/>
+                        <snsSystem snsCode="28" snsTitle="s1kd-index"/>
+                        <snsSystem snsCode="30" snsTitle="s1kd-defaults"/>
+                        <snsSystem snsCode="31" snsTitle="s1kd-newupf"/>
+                        <snsSystem snsCode="32" snsTitle="s1kd-icncatalog"/>
+                        <snsSystem snsCode="33" snsTitle="s1kd-fmgen"/>
+                        <snsSystem snsCode="34" snsTitle="s1kd-sns"/>
+                        <snsSystem snsCode="35" snsTitle="s1kd-newsmc"/>
+                    </snsSystems>
+                </snsDescription>
+            </snsRules>
+            <contextRules>
+                <structureObjectRuleGroup>
+                    <structureObjectRule objectPath="//dmIdent/dmCode/@modelIdentCode" allowedObjectFlag="2">
+                        <objectUse>The model identification code must be S1KDTOOLS.</objectUse>
+                        <objectValue>s1kd-tools</objectValue>
+                    </structureObjectRule>
+                    <structureObjectRule objectPath="//dmIdent/dmCode/@systemDiffCode" allowedObjectFlag="2">
+                        <objectUse>The system difference code must be A.</objectUse>
+                        <objectValue>Default system diff code</objectValue>
+                    </structureObjectRule>
+                    <structureObjectRule objectPath="//dmIdent/dmCode/@disassyCodeVariant" allowedObjectFlag="2">
+                        <objectUse>The disassembly code variant must be a single alpha character.</objectUse>
+                        <objectValue>Alpha character</objectValue>
+                    </structureObjectRule>
+                    <structureObjectRule objectPath="//dmIdent/dmCode/@infoCodeVariant" allowedObjectFlag="2">
+                        <objectUse>The information code variant must be a single alpha character.</objectUse>
+                        <objectValue>Alpha character</objectValue>
+                    </structureObjectRule>
+                </structureObjectRuleGroup>
+            </contextRules>
+        </brex>
+    </Content>
+</dm>

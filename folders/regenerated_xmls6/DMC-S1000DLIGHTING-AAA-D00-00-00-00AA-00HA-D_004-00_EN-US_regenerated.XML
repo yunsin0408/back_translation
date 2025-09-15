@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>00H</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmIdent>
+      <language>
+        <languageIsoCode>en</languageIsoCode>
+        <countryIsoCode>US</countryIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>004</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+      <dmTitle>
+        <techName>Lighting</techName>
+        <infoName>Zones common information repository</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </identAndStatusSection>
+  <dmStatus>
+    <issueType>revised</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </security>
+    <dataRestrictions>
+      <restrictionInstructions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStatement>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </restrictionInstructions>
+      <restrictionInfo>
+        <copyright>
+          <copyrightParagraph>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightParagraph>
+          <publishers>
+            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+            <publisher>Aerospace Industries Association of America</publisher>
+            <publisher>ATA e-Business Program</publisher>
+          </publishers>
+          <limitationsOfLiability>
+            <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+            <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+            <limitation>Revisions may occur and therefore users should check the document's currency before relying on it.</limitation>
+          </limitationsOfLiability>
+        </copyright>
+        <policyInfo>There are no policy information available.</policyInfo>
+      </restrictionInfo>
+    </dataRestrictions>
+    <responsibleOrganization>
+      <enterpriseId>Not specified</enterpriseId>
+    </responsibleOrganization>
+  </dmStatus>
+  <applicability/>
+  <content>
+    <referencedApplicGroup>
+      <applic id="app-0001">
+        <displayText>Mountain storm Mk1</displayText>
+        <assert>
+          <applicPropertyIdent>model</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Mountain storm</applicPropertyValues>
+        </assert>
+        <assert>
+          <applicPropertyIdent>version</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Mk1</applicPropertyValues>
+        </assert>
+      </applic>
+      <applic id="app-0002">
+        <displayText>Brook trekker Mk9</displayText>
+        <assert>
+          <applicPropertyIdent>model</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Brook trekker</applicPropertyValues>
+        </assert>
+        <assert>
+          <applicPropertyIdent>version</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Mk9</applicPropertyValues>
+        </assert>
+      </applic>
+      <applic id="app-0003">
+        <displayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</displayText>
+        <assert>
+          <applicPropertyIdent>type</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Mountain bicycle</applicPropertyValues>
+        </assert>
+        <assert>
+          <applicPropertyIdent>model</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Mountain storm</applicPropertyValues>
+        </assert>
+        <assert>
+          <applicPropertyIdent>version</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Mk1</applicPropertyValues>
+        </assert>
+        <assert>
+          <applicPropertyIdent>model</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Brook trekker</applicPropertyValues>
+        </assert>
+        <assert>
+          <applicPropertyIdent>version</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Mk9</applicPropertyValues>
+        </assert>
+      </applic>
+    </referencedApplicGroup>
+    <commonRepository>
+      <zoneRepository>
+        <zone id="100">
+          <zoneNumber>100</zoneNumber>
+          <zoneType>majorzone</zoneType>
+          <zoneRefGroup>
+            <zoneRefType>contains</zoneRefType>
+            <zoneRefNumber>110</zoneRefNumber>
+            <zoneRefNumber>130</zoneRefNumber>
+          </zoneRefGroup>
+          <zoneAlts>
+            <applicRefId>app-0002</applicRefId>
+            <itemDescr>FRONT ZONE BEGINS BY FRONT TIRE. IT STARTS FROM LENGTH "0 cm" TO LENGTH "50 cm"</itemDescr>
+          </zoneAlts>
+        </zone>
+        <zone id="110">
+          <zoneNumber>110</zoneNumber>
+          <zoneType>subzone</zoneType>
+          <zoneRefGroup>
+            <zoneRefType>belongsto</zoneRefType>
+            <zoneRefNumber>100</zoneRefNumber>
+          </zoneRefGroup>
+          <zoneAlts>
+            <applicRefId>app-0002</applicRefId>
+            <itemDescr>TIRE ZONE</itemDescr>
+          </zoneAlts>
+        </zone>
+        <zone id="130">
+          <zoneNumber>130</zoneNumber>
+          <zoneType>majorzone</zoneType>
+          <zoneRefGroup>
+            <zoneRefType>belongsto</zoneRefType>
+            <zoneRefNumber>100</zoneRefNumber>
+          </zoneRefGroup>
+          <zoneAlts>
+            <applicRefId>app-0002</applicRefId>
+            <itemDescr>MIDDLE ZONE. IT STARTS FROM LENGTH "50 cm" TO LENGTH "100 cm"</itemDescr>
+          </zoneAlts>
+        </zone>
+        <zone id="200">
+          <zoneNumber>200</zoneNumber>
+          <zoneType>majorzone</zoneType>
+          <zoneAlts>
+            <applicRefId>app-0002</applicRefId>
+            <itemDescr>MIDDLE ZONE. IT STARTS FROM LENGTH "50 cm" TO LENGTH "100 cm"</itemDescr>
+          </zoneAlts>
+        </zone>
+        <zone id="300">
+          <zoneNumber>300</zoneNumber>
+          <zoneType>majorzone</zoneType>
+          <zoneAlts>
+            <applicRefId>app-0001</applicRefId>
+            <itemDescr>BACK ZONE. IT STARTS FROM LENGTH "100 cm" TO LENGTH "150 cm"</itemDescr>
+          </zoneAlts>
+        </zone>
+      </zoneRepository>
+    </commonRepository>
+  </content>
+</proced>

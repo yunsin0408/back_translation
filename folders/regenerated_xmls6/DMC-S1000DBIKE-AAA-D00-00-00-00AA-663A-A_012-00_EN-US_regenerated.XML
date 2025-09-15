@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmod xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <introduction>
+    This document outlines the procedures for repairing a punctured bicycle tire.
+  </introduction>
+  <identificationAndStatusSection>
+    <documentInformation>
+      <documentType>Repair Manual</documentType>
+      <model>S1000DBIKE</model>
+      <systemDifferenceCode>AAA</systemDifferenceCode>
+      <systemCode>DA0</systemCode>
+      <subSystemCode>2</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assemblyCode>00</assemblyCode>
+      <disassemblyCode>00</disassemblyCode>
+      <disassemblyVariantCode>AA</disassemblyVariantCode>
+      <informationCode>520</informationCode>
+      <informationVariantCode>A</informationVariantCode>
+      <itemLocationCode>A</itemLocationCode>
+    </documentInformation>
+    <statusInformation>
+      <status>Approved</status>
+      <approvalDate>Not specified</approvalDate>
+      <effectiveDate>Not specified</effectiveDate>
+      <revisionNumber>Not specified</revisionNumber>
+    </statusInformation>
+  </identificationAndStatusSection>
+  <contentSection>
+    <preliminaryRequirements>
+      <requiredConditions>
+        None
+      </requiredConditions>
+      <requiredPersonnel>
+        <person>
+          <name>A</name>
+          <category>Operator</category>
+          <skillLevel>sk01</skillLevel>
+          <trade>Bike Rider</trade>
+          <estimatedTime>0.5 hours</estimatedTime>
+        </person>
+      </requiredPersonnel>
+      <requiredSupportEquipment>
+        <equipment>
+          <name>Tire Lever</name>
+          <manufacturerCode>KZ666</manufacturerCode>
+          <partNumber>BSK-TLST-001-04</partNumber>
+          <quantity>1 EA</quantity>
+        </equipment>
+        <equipment>
+          <name>Foot Pump</name>
+          <manufacturerCode>KZ666</manufacturerCode>
+          <partNumber>BSK-TLST-001-05</partNumber>
+          <quantity>1 EA</quantity>
+        </equipment>
+        <equipment>
+          <name>Marker Pen</name>
+          <manufacturerCode>KZ666</manufacturerCode>
+          <partNumber>BSK-TLST-001-07</partNumber>
+          <quantity>1 EA</quantity>
+        </equipment>
+        <equipment>
+          <name>Tube Patch Kit</name>
+          <manufacturerCode>KZ666</manufacturerCode>
+          <partNumber>BSK-TLST-001-07</partNumber>
+          <quantity>1 EA</quantity>
+        </equipment>
+      </requiredSupportEquipment>
+      <requiredSpares>
+        <spare>
+          <name>Inner Tube</name>
+          <manufacturerCode>KZ666</manufacturerCode>
+          <partNumber>IT-001</partNumber>
+          <quantity>1 EA</quantity>
+        </spare>
+      </requiredSpares>
+      <safetyRequirements>
+        When removing the rear wheel to repair a puncture, disconnect the brake arm from the chain stay.
+      </safetyRequirements>
+    </preliminaryRequirements>
+    <mainProcedure>
+      <step>
+        <description>Remove Rear Wheel</description>
+        <instruction>Refer to DMOD Document for instructions.</instruction>
+      </step>
+      <step>
+        <description>Deflate Tube</description>
+        <instruction>
+          Loosen cap on valve stem.
+          Push valve stem core down to bleed all air.
+        </instruction>
+      </step>
+      <step>
+        <description>Unseat Tire Bead</description>
+        <instruction>
+          Use tire lever (seq-0001) to move tire bead out of its seat.
+          Lift tire bead above lip of rim.
+        </instruction>
+      </step>
+      <step>
+        <description>Remove Tube</description>
+        <instruction>Remove tube from wheel.</instruction>
+      </step>
+      <step>
+        <description>Inflate and Inspect Tube</description>
+        <instruction>
+          Inflate tube (not fully) using foot pump (seq-0002).
+          Examine tube for leaks.
+        </instruction>
+      </step>
+      <step>
+        <description>Identify Leaks</description>
+        <instruction>
+          If leak is found, identify it with a circle made with marker pen (seq-0003).
+        </instruction>
+      </step>
+      <step>
+        <description>Prepare Area for Patch</description>
+        <instruction>
+          Release most of air from tube.
+          Use sandpaper from patch kit (seq-0004) to roughen area around hole.
+        </instruction>
+      </step>
+      <step>
+        <description>Apply Glue and Patch</description>
+        <instruction>
+          Apply thin layer of glue from patch kit on and around hole.
+          Let glue dry for 5 minutes until it becomes tacky and dim.
+          Remove rear foil from patch and push patch into position.
+        </instruction>
+      </step>
+      <step>
+        <description>Apply Pressure to Tube</description>
+        <instruction>
+          Push with thumbs from center of patch to outer part of applied area.
+        </instruction>
+      </step>
+      <step>
+        <description>Finish Repair</description>
+        <instruction>
+          Remove thin cover from patch.
+          Put very thin layer of talcum powder on and around patch.
+          Inflate (not fully) repaired tube using foot pump.
+        </instruction>
+      </step>
+    </mainProcedure>
+    <closingRequirements>
+      None
+    </closingRequirements>
+  </contentSection>
+  <references>
+    <reference>
+      <title>DMOD Document</title>
+      <link>#</link>
+    </reference>
+  </references>
+</dmod>

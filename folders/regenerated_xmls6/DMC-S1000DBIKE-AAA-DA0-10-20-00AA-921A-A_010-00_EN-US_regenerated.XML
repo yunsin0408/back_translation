@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>921</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+        <language>
+          <countryISOCode>US</countryISOCode>
+          <languageISOCode>en</languageISOCode>
+        </language>
+        <issueInfo>
+          <issueNumber>010</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+      <dmTitle>
+        <techName>Tire</techName>
+        <infoName>Remove and install a new item</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </identAndStatusSection>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </security>
+    <dataRestrictions>
+      <restrictionInstructions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStatement>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataSafety>No safety requirements specified</dataSafety>
+      </restrictionInstructions>
+      <restrictionData>
+        <noRestrictionsSpecified/>
+      </restrictionData>
+    </dataRestrictions>
+  </dmStatus>
+  <content>
+    <references>
+      <reference>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>041</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </reference>
+      <reference>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>215</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </reference>
+      <reference>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA1</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>341</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </reference>
+    </references>
+    <procedure>
+      <preliminaryRequirements>
+        <noConditions/>
+        <personnel>
+          <personCategory>Basic user</personCategory>
+          <trade>Operator</trade>
+          <estimatedTime>0.3 hours</estimatedTime>
+        </personnel>
+        <supportEquipment>
+          <specialistToolset>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001</partNumber>
+            <quantity>1</quantity>
+          </specialistToolset>
+          <tireLever>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001-04</partNumber>
+            <quantity>1</quantity>
+          </tireLever>
+          <tirePressureGauge>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001-01</partNumber>
+            <quantity>1</quantity>
+          </tirePressureGauge>
+        </supportEquipment>
+        <spares>
+          <tire>
+            <manufacturerCode>KT666</manufacturerCode>
+            <partNumber>TIRES-010101</partNumber>
+            <quantity>1</quantity>
+          </tire>
+        </spares>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step>Lift and turn the bicycle and make sure the bicycle is held safely in this position.</step>
+        <step>Use a standard wrench from the specialist toolset (seq-0001) and loosen the brake caliper.</step>
+        <step>Remove the axle bolt.</step>
+        <step>Remove the wheel.</step>
+        <step>Deflate the tire.</step>
+        <step>Use the tire lever (seq-0002) from the specialist toolset (seq-0001) and remove the old tire from the wheel.</step>
+        <step>Use the tire lever (seq-0002) from the specialist toolset (seq-0001) and attach the new tire (spa-0001) to the wheel. Refer to Reference 1.</step>
+        <step>Inflate the tire (refer to Reference 2).</step>
+        <step>Install the wheel.</step>
+        <step>Tighten the axle bolt.</step>
+        <step>Tighten the brake caliper.</step>
+      </mainProcedure>
+      <closeRequirements>
+        <closeConditions>
+          <condition>Lift and turn the bicycle to the correct position.</condition>
+          <condition>Do a test of the brakes as given in the brake test procedure (Reference 3).</condition>
+        </closeConditions>
+      </closeRequirements>
+    </procedure>
+    <referenceDetails>
+      <reference>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>041</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </reference>
+      <reference>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>215</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </reference>
+      <reference>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA1</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>341</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </reference>
+    </referenceDetails>
+  </content>
+</proced>

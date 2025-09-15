@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmData xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <introduction>
+    <para>The provided data is in XML format and appears to be related to product maintenance (PM) for a lighting system. The following sections will break down the key components of this data.</para>
+  </introduction>
+  <identifyingKeyComponents>
+    <applicabilityStatements>
+      <statement id="app-001">Applies to Mountain Bikes with Disc Brakes and 26" Wheels</statement>
+      <statement id="app-002">Applies to Road Bikes with Rim Brakes and 700c Wheels</statement>
+      <statement id="app-003">Applies to All Bike Models</statement>
+    </applicabilityStatements>
+    <maintenanceEntries>
+      <entry>
+        <taskIdentifier>task-001</taskIdentifier>
+        <taskDescription>Lubricating the chain</taskDescription>
+        <toolsRequired>
+          <tool>Chain lube</tool>
+          <tool>Rag</tool>
+        </toolsRequired>
+        <safetyPrecautions>Wear gloves when handling chains and lubricants.</safetyPrecautions>
+      </entry>
+      <entry>
+        <taskIdentifier>task-002</taskIdentifier>
+        <taskDescription>Checking tire pressure</taskDescription>
+        <toolsRequired>
+          <tool>Tire pressure gauge</tool>
+        </toolsRequired>
+        <safetyPrecautions>Always check tire pressure when tires are cold (not driven for at least three hours).</safetyPrecautions>
+      </entry>
+    </maintenanceEntries>
+  </identifyingKeyComponents>
+  <exampleMaintenanceTasks>
+    <task id="task-1">
+      <appliesTo>app-001, app-002</appliesTo>
+      <description>Apply lubricant to the bike chain to reduce wear and improve performance.</description>
+      <toolsRequired>
+        <tool>Chain lube</tool>
+        <tool>Rag</tool>
+      </toolsRequired>
+      <safetyPrecautions>Wear gloves when handling chains and lubricants.</safetyPrecautions>
+    </task>
+    <task id="task-2">
+      <appliesTo>app-003</appliesTo>
+      <description>Ensure tire pressure is at the recommended level for optimal performance and safety.</description>
+      <toolsRequired>
+        <tool>Tire pressure gauge</tool>
+      </toolsRequired>
+      <safetyPrecautions>Always check tire pressure when tires are cold (not driven for at least three hours).</safetyPrecautions>
+    </task>
+  </exampleMaintenanceTasks>
+  <conclusion>
+    <para>The provided PM data outlines a structured approach to maintaining lighting systems, focusing on clear applicability statements, detailed task descriptions, necessary tools, and crucial safety precautions. This information is vital for ensuring the longevity and efficiency of these systems.</para>
+  </conclusion>
+  <references>
+    <reference>For more detailed instructions or specific requirements, refer to the original XML document or consult with a professional in the field.</reference>
+  </references>
+</pmData>

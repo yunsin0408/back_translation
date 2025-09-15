@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>01</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>040</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmIdent>
+      <language>
+        <languageIsoCode>en</languageIsoCode>
+        <countryIsoCode>CA</countryIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>019</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2020</year>
+        <month>09</month>
+        <day>01</day>
+      </issueDate>
+      <dmTitle>
+        <techName>s1kd-syncrefs</techName>
+        <infoName>Description</infoName>
+      </dmTitle>
+    </dmAddressItems>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+      </security>
+      <responsiblePartnerCompany>
+        <enterpriseName>khzae.net</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>khzae.net</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode>
+              <modelIdentCode>S1KDTOOLS</modelIdentCode>
+              <systemDiffCode>A</systemDiffCode>
+              <systemCode>00</systemCode>
+              <subSystemCode>0</subSystemCode>
+              <subSubSystemCode>0</subSubSystemCode>
+              <assyCode>00</assyCode>
+              <disassyCode>00</disassyCode>
+              <disassyCodeVariant>A</disassyCodeVariant>
+              <infoCode>022</infoCode>
+              <infoCodeVariant>A</infoCodeVariant>
+              <itemLocationCode>D</itemLocationCode>
+            </dmCode>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+      <reasonForUpdate>
+        <id>rfu-xml-catalog</id>
+        <updateHighlight>1</updateHighlight>
+        <updateReasonType>urt02</updateReasonType>
+        <simplePara>Add --xml-catalog parser option.</simplePara>
+      </reasonForUpdate>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <general>
+        <para>The s1kd-syncrefs tool copies all external references (dmRef, pmRef, externalPubRef) within the content of a data module and uses them to generate the &lt;refs&gt; element. Each unique reference is copied, sorted, and placed in to the &lt;refs&gt; element. If a &lt;refs&gt; element already exists, it is overwritten.</para>
+      </general>
+      <usage>
+        <para>s1kd-syncrefs [-dflqvh?] [-o &lt;out&gt;} [&lt;data module&gt;...]</para>
+      </usage>
+      <options>
+        <option>
+          <name>-d, --delete</name>
+          <description>Delete the &lt;refs&gt; element.</description>
+        </option>
+        <option>
+          <name>-f, --overwrite</name>
+          <description>Overwrite the data modules automatically.</description>
+        </option>
+        <option>
+          <name>-h, -?, --help</name>
+          <description>Show help/usage message.</description>
+        </option>
+        <option>
+          <name>-l, --list</name>
+          <description>Treat input (stdin or arguments) as lists of data modules to synchronize references in, rather than data modules themselves.</description>
+        </option>
+        <option>
+          <name>-o, --out &lt;out&gt;</name>
+          <description>The resulting XML is written to &lt;out&gt; instead of stdout.</description>
+        </option>
+        <option>
+          <name>-q, --quiet</name>
+          <description>Quiet mode. Errors are not printed.</description>
+        </option>
+        <option>
+          <name>-v, --verbose</name>
+          <description>Verbose output.</description>
+        </option>
+        <option>
+          <name>--version</name>
+          <description>Show version information.</description>
+        </option>
+        <option>
+          <name>&lt;data module&gt;...</name>
+          <description>The data module(s) to synchronize references in. Default is to read from stdin.</description>
+        </option>
+      </options>
+      <xmlParserOptions>
+        <option>
+          <name>--dtdload</name>
+          <description>Load the external DTD.</description>
+        </option>
+        <option>
+          <name>--huge</name>
+          <description>Remove any internal arbitrary parser limits.</description>
+        </option>
+        <option>
+          <name>--net</name>
+          <description>Allow network access to load external DTD and entities.</description>
+        </option>
+        <option>
+          <name>--noent</name>
+          <description>Resolve entities.</description>
+        </option>
+        <option>
+          <name>--parser-errors</name>
+          <description>Emit errors from parser.</description>
+        </option>
+        <option>
+          <name>--parser-warnings</name>
+          <description>Emit warnings from parser.</description>
+        </option>
+        <option>
+          <name>--xinclude</name>
+          <description>Do XInclude processing.</description>
+        </option>
+        <option>
+          <name>--xml-catalog &lt;file&gt;</name>
+          <description>Use an XML catalog when resolving entities. Multiple catalogs may be loaded by specifying this option multiple times.</description>
+        </option>
+      </xmlParserOptions>
+      <exitStatus>
+        <code>
+          <value>0</value>
+          <description>No errors.</description>
+        </code>
+        <code>
+          <value>1</value>
+          <description>Invalid data module.</description>
+        </code>
+        <code>
+          <value>2</value>
+          <description>Number of references in a data module exceeded the available memory.</description>
+        </code>
+      </exitStatus>
+      <example>
+        <para>$ s1kd-syncrefs -f DMC-EX-A-00-00-00-00A-040A-D_000-01_EN-CA.XML</para>
+      </example>
+    </description>
+  </content>
+</dm>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <title>Business Rules Document</title>
+  <section>
+    <title>Introduction</title>
+    <paragraph>This document outlines the business rules for the Bike data set. These rules are designed to ensure consistency and quality in the data.</paragraph>
+  </section>
+  <section>
+    <title>Decision Table</title>
+    <subsection>
+      <title>BIKE-BR-00070: Maintenance Level</title>
+      <itemizedlist>
+        <listitem><para>The maintenance level will be one of the following:</para></listitem>
+        <listitem><para>Level 1 (home)</para></listitem>
+        <listitem><para>Level 2 (authorized workshop)</para></listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection>
+      <title>BIKE-BR-00071: Origin of Equipment/Harness/Wire</title>
+      <itemizedlist>
+        <listitem><para>The origin of equipment/harness/wire will be one of the following:</para></listitem>
+        <listitem><para>Manufacturer</para></listitem>
+        <listitem><para>Vendor</para></listitem>
+        <listitem><para>Partner</para></listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection>
+      <title>BIKE-BR-00072: Task Code</title>
+      <itemizedlist>
+        <listitem><para>The task code will be one of the following:</para></listitem>
+        <listitem><para>Detailed inspection (DET)</para></listitem>
+        <listitem><para>Discard (DIS)</para></listitem>
+        <listitem><para>Functional Check (FNC)</para></listitem>
+        <listitem><para>General visual inspection (GVI)</para></listitem>
+        <listitem><para>Lubrication (LUB)</para></listitem>
+        <listitem><para>Operational check (OPC)</para></listitem>
+        <listitem><para>Restoration (RST)</para></listitem>
+        <listitem><para>Servicing (SVC)</para></listitem>
+        <listitem><para>Visual check (VCK)</para></listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection>
+      <title>BIKE-BR-00073: Limit Type</title>
+      <itemizedlist>
+        <listitem><para>The limit type will be one of the following:</para></listitem>
+        <listitem><para>Time between overhaul</para></listitem>
+        <listitem><para>Hard time</para></listitem>
+        <listitem><para>Since last maintenance</para></listitem>
+        <listitem><para>Out time limit</para></listitem>
+        <listitem><para>On condition</para></listitem>
+        <listitem><para>Check maintenance</para></listitem>
+        <listitem><para>Functional check</para></listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection>
+      <title>BIKE-BR-00074: Unit of Measurement for Threshold Interval</title>
+      <itemizedlist>
+        <listitem><para>The unit of measurement for the threshold interval will be one of the following:</para></listitem>
+        <listitem><para>Months</para></listitem>
+        <listitem><para>Weeks</para></listitem>
+        <listitem><para>Years</para></listitem>
+        <listitem><para>Days</para></listitem>
+        <listitem><para>Shop visits</para></listitem>
+        <listitem><para>Auxiliary power unit change</para></listitem>
+        <listitem><para>Wheel change</para></listitem>
+        <listitem><para>Kilometer</para></listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection>
+      <title>BIKE-BR-00075: Attribute SourceTypeCode</title>
+      <itemizedlist>
+        <listitem><para>The attribute sourceTypeCode will be one of the following:</para></listitem>
+        <listitem><para>fec</para></listitem>
+        <listitem><para>sample</para></listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection>
+      <title>BIKE-BR-00076: Attribute SourceCriticality</title>
+      <itemizedlist>
+        <listitem><para>The attribute sourceCriticality will be one of the following:</para></listitem>
+        <listitem><para>Evident, Safety</para></listitem>
+        <listitem><para>Evident, operational</para></listitem>
+        <listitem><para>Evident, Economic</para></listitem>
+        <listitem><para>Hidden, Safety</para></listitem>
+        <listitem><para>Hidden, Non-Safety</para></listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection>
+      <title>BIKE-BR-00077: Review and Approval Process</title>
+      <paragraph>Bike data modules must be reviewed and approved by EPWG before publishing.</paragraph>
+    </subsection>
+    <subsection>
+      <title>BIKE-BR-00078: Content Requirements</title>
+      <paragraph>The Bike data set must contain examples of how to apply constructs and principles representing various levels of concept sophistication.</paragraph>
+    </subsection>
+  </section>
+  <section>
+    <title>Conclusion</title>
+    <paragraph>These business rules are designed to ensure the quality and consistency of the Bike data set. They cover a range of topics, including maintenance level, origin of equipment/harness/wire, task code, limit type, unit of measurement for threshold interval, attribute sourceTypeCode, attribute sourceCriticality, review and approval process, and content requirements.</paragraph>
+  </section>
+  <section>
+    <title>References</title>
+    <itemizedlist>
+      <listitem><para>S1000D Issue 4.1</para></listitem>
+      <listitem><para>ASD S3000L Issue 6.2</para></listitem>
+      <listitem><para>ATA iSpec 2200 Issue 3.0</para></listitem>
+    </itemizedlist>
+    <note>The references provided are examples and may need to be updated based on the specific requirements of your project.</note>
+  </section>
+</document>

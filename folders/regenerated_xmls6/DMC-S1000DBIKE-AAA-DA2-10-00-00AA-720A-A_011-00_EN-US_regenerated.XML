@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <dmCode>
+                    <modelIdentCode>S1000DBIKE</modelIdentCode>
+                    <systemDiffCode>AAA</systemDiffCode>
+                    <systemCode>DA2</systemCode>
+                    <subSystemCode>1</subSystemCode>
+                    <subSubSystemCode>0</subSubSystemCode>
+                    <assyCode>00</assyCode>
+                    <disassyCode>00</disassyCode>
+                    <disassyCodeVariant>AA</disassyCodeVariant>
+                    <infoCode>720</infoCode>
+                    <infoCodeVariant>A</infoCodeVariant>
+                    <itemLocationCode>A</itemLocationCode>
+                </dmCode>
+                <language>
+                    <countryIsoCode>US</countryIsoCode>
+                    <languageIsoCode>en</languageIsoCode>
+                </language>
+                <issueInfo>
+                    <issueNumber>011</issueNumber>
+                    <inWork>00</inWork>
+                </issueInfo>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate>
+                    <year>2024</year>
+                    <month>06</month>
+                    <day>19</day>
+                </issueDate>
+                <dmTitle>
+                    <techName>Stem</techName>
+                    <infoName>Install procedures</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <issueType>changed</issueType>
+            <security>
+                <securityClassification>01</securityClassification>
+                <commercialClassification>cc51</commercialClassification>
+                <caveat>cv51</caveat>
+            </security>
+            <dataRestrictions>
+                <restrictionInstructions>
+                    <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+                    <exportControl>
+                        <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+                    </exportControl>
+                    <dataSafety>
+                        <dataHandlingInstruction>Not specified</dataHandlingInstruction>
+                    </dataSafety>
+                    <otherRestrictions>
+                        <otherRestrictionStmt>Not specified</otherRestrictionStmt>
+                    </otherRestrictions>
+                </restrictionInstructions>
+                <dataClassification>
+                    <classificationLevel>Not specified</classificationLevel>
+                </dataClassification>
+            </dataRestrictions>
+            <responsibleParties>
+                <originator>Not specified</originator>
+                <authenticator>Not specified</authenticator>
+            </responsibleParties>
+            <applicability>
+                <applicableOrganizations>Not specified</applicableOrganizations>
+                <applicableSystems>Not specified</applicableSystems>
+            </applicability>
+            <references>
+                <referenceDocuments>Not specified</referenceDocuments>
+            </references>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <references>
+            <dmRef>
+                <modelIdentCode>S1000DBIKE</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>DA2</systemCode>
+                <subSystemCode>2</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>720</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+            </dmRef>
+        </references>
+        <procedure>
+            <preliminaryRequirements>
+                <requiredConditions>
+                    <condition>Make sure the bicycle is held safely on a work stand with the front wheel free of the ground.</condition>
+                </requiredConditions>
+                <requiredPersons>
+                    <person>
+                        <personCategory>Bike Rider</personCategory>
+                        <personSkill>sk02</personSkill>
+                        <trade>Operator</trade>
+                        <estimatedTime>1.0 h</estimatedTime>
+                    </person>
+                </requiredPersons>
+                <requiredSupportEquipment>
+                    <equipment>
+                        <description>Clean dry cloth</description>
+                        <manufacturerCode>KZ666</manufacturerCode>
+                        <partNumber>BSK-TLST-001-12</partNumber>
+                        <quantity>1 EA</quantity>
+                    </equipment>
+                    <equipment>
+                        <description>Work stand</description>
+                        <manufacturerCode>KZ555</manufacturerCode>
+                        <partNumber>Stand-001</partNumber>
+                        <quantity>1 EA</quantity>
+                    </equipment>
+                </requiredSupportEquipment>
+                <requiredSupplies>
+                    <supply>
+                        <description>Rubbing alcohol</description>
+                        <manufacturerCode>KZ222</manufacturerCode>
+                        <partNumber>LL-002</partNumber>
+                        <quantity>1 L</quantity>
+                    </supply>
+                    <supply>
+                        <description>General lubricant</description>
+                        <manufacturerCode>KZ222</manufacturerCode>
+                        <partNumber>LL-001</partNumber>
+                        <quantity>1 L</quantity>
+                    </supply>
+                </requiredSupplies>
+                <requiredSpares>
+                    <spare>
+                        <description>Stem</description>
+                        <manufacturerCode>KZ555</manufacturerCode>
+                        <partNumber>St-001</partNumber>
+                        <quantity>1 EA</quantity>
+                    </spare>
+                    <spare>
+                        <description>Stem bolt</description>
+                        <manufacturerCode>KZ555</manufacturerCode>
+                        <partNumber>St-001-01</partNumber>
+                        <quantity>1 EA</quantity>
+                    </spare>
+                </requiredSpares>
+                <safetyRequirements>
+                    <caution>Do not tighten the stem bolt too much. You can cause damage to the headset bearings if you tighten the stem too much.</caution>
+                    <caution>The stem bolt does not safety the stem.</caution>
+                    <note>The stem must point forward in alignment with the wheel.</note>
+                </safetyRequirements>
+            </preliminaryRequirements>
+            <mainProcedure>
+                <step>
+                    <description>Remove all the rust and the corrosion with a clean dry cloth and rubbing alcohol.</description>
+                </step>
+                <step>
+                    <description>Install the stem.</description>
+                    <subStep>
+                        <description>Use general lubricant and lubricate:</description>
+                        <item>The threads of the stem and stem bolt</item>
+                        <item>The sides</item>
+                        <item>The top of the wedge</item>
+                    </subStep>
+                    <subStep>
+                        <description>Install the stem in the steerer tube.</description>
+                    </subStep>
+                    <subStep>
+                        <description>Adjust to align the stem with the wheel and tighten the stem bolt firmly.</description>
+                    </subStep>
+                </step>
+                <step>
+                    <description>Install the handlebars (refer to DM Ref).</description>
+                </step>
+            </mainProcedure>
+            <closeRequirements>
+                <requiredConditions>
+                    <condition>None</condition>
+                </requiredConditions>
+            </closeRequirements>
+        </procedure>
+    </content>
+</proced>

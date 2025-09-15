@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <Introduction>
+    <paragraph>The provided XML document contains rules for creating bike data modules. These rules are divided into two categories: context rules and non-context rules.</paragraph>
+  </Introduction>
+  <ContextRules>
+    <description>Context rules define the structure and content of bike data modules. They include:</description>
+    <StructureObjectRuleGroup>
+      <description>This group contains 24 structure object rules that specify the allowed values for various elements in the data module. Some examples include:</description>
+      <examples>
+        <example>Maintenance level (e.g., maintenance, repair)</example>
+        <example>Originator code (e.g., EPWG)</example>
+        <example>Limit type (e.g., time between overhaul, hard time)</example>
+        <example>Unit of measurement for threshold intervals (e.g., months, weeks)</example>
+      </examples>
+    </StructureObjectRuleGroup>
+    <NotationRuleList>
+      <description>This list contains one notation rule that specifies the allowed notation for encoding 3D models. In this case, Flash animation is not allowed in the project.</description>
+    </NotationRuleList>
+  </ContextRules>
+  <NonContextRules>
+    <description>Non-context rules are general guidelines that apply to all bike data modules. There are two non-context rules:</description>
+    <rule>
+      <title>Review and Approval</title>
+      <description>Bike data modules must be reviewed and approved by EPWG before publishing.</description>
+    </rule>
+    <rule>
+      <title>Examples of Concept Sophistication</title>
+      <description>The bike data set must contain examples of how to apply constructs and principles representing various levels of concept sophistication.</description>
+    </rule>
+  </NonContextRules>
+  <ExampleUseCases>
+    <description>These rules can be applied in the following scenarios:</description>
+    <scenario>
+      <title>Creating a new bike data module</title>
+      <description>The structure object rule group provides guidance on the allowed values for various elements, ensuring consistency across all modules.</description>
+    </scenario>
+    <scenario>
+      <title>Reviewing an existing bike data module</title>
+      <description>The non-context rules provide a checklist to ensure that the module meets the required standards.</description>
+    </scenario>
+  </ExampleUseCases>
+  <Conclusion>
+    <paragraph>In conclusion, the provided XML document contains essential rules for creating and reviewing bike data modules. By following these context and non-context rules, creators can ensure that their modules are consistent, accurate, and meet the required standards.</paragraph>
+  </Conclusion>
+</document>

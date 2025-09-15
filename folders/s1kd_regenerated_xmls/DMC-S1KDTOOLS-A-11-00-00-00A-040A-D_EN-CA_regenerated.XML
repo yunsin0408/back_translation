@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <introduction>
+    <title>Introduction to s1kd-appcheck</title>
+    <para>The s1kd-appcheck tool is used to check the applicability of S1000D data modules. This document provides an overview of the tool's options and usage.</para>
+  </introduction>
+  <section id="options">
+    <title>Options</title>
+    <para>The following options are available for use with s1kd-appcheck:</para>
+    <itemizedlist>
+      <listitem>
+        <para>-a: Perform a full check, reading values from the ACT and CCT referenced by the data module.</para>
+      </listitem>
+      <listitem>
+        <para>-n: Report when the applicability of an element is incompatible with the applicability of any parent elements or the whole object.</para>
+      </listitem>
+      <listitem>
+        <para>-R: Report when the applicability of a nested element is redundant.</para>
+      </listitem>
+      <listitem>
+        <para>-D: Report when an applicability annotation is a duplicate of another annotation.</para>
+      </listitem>
+      <listitem>
+        <para>-t: Specify the type of check to perform (e.g., standalone, full).</para>
+      </listitem>
+      <listitem>
+        <para>-v: Increase verbosity, providing more detailed output.</para>
+      </listitem>
+      <listitem>
+        <para>-h: Display help and usage information.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section id="examples">
+    <title>Examples</title>
+    <subsection id="standalone-check">
+      <title>Standalone Check</title>
+      <para>The following example performs a standalone check on a data module:</para>
+      <command>s1kd-appcheck -v &lt;DM&gt;</command>
+      <para>This will report any errors or warnings found in the data module.</para>
+    </subsection>
+    <subsection id="full-check">
+      <title>Full Check</title>
+      <para>To perform a full check, use the -a option:</para>
+      <command>s1kd-appcheck -a &lt;DM&gt;</command>
+      <para>This will read values from the ACT and CCT referenced by the data module and report any errors or warnings.</para>
+    </subsection>
+    <subsection id="reporting-redundant-applicability-annotations">
+      <title>Reporting Redundant Applicability Annotations</title>
+      <para>The following example reports when the applicability of a nested element is redundant:</para>
+      <command>s1kd-appcheck -R &lt;DM&gt;</command>
+      <para>This will identify any redundant annotations in the data module.</para>
+    </subsection>
+    <subsection id="reporting-duplicate-applicability-annotations">
+      <title>Reporting Duplicate Applicability Annotations</title>
+      <para>To report duplicate applicability annotations, use the -D option:</para>
+      <command>s1kd-appcheck -D &lt;DM&gt;</command>
+      <para>This will identify any duplicate annotations in the data module.</para>
+    </subsection>
+  </section>
+  <section id="use-cases">
+    <title>Use Cases</title>
+    <para>The s1kd-appcheck tool can be used in a variety of scenarios, including:</para>
+    <itemizedlist>
+      <listitem>
+        <para>Validating data modules: Before publishing or sharing data modules, use s1kd-appcheck to ensure they are valid and free from errors.</para>
+      </listitem>
+      <listitem>
+        <para>Identifying redundant annotations: Use the -R option to identify and remove redundant annotations, simplifying the data module and improving maintainability.</para>
+      </listitem>
+      <listitem>
+        <para>Detecting duplicate annotations: Use the -D option to identify and remove duplicate annotations, reducing the risk of errors and inconsistencies.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section id="best-practices">
+    <title>Best Practices</title>
+    <para>When using s1kd-appcheck, keep the following best practices in mind:</para>
+    <itemizedlist>
+      <listitem>
+        <para>Always perform a standalone check before publishing or sharing data modules.</para>
+      </listitem>
+      <listitem>
+        <para>Use the -a option to perform a full check when necessary.</para>
+      </listitem>
+      <listitem>
+        <para>Regularly review and remove redundant annotations to simplify data modules and improve maintainability.</para>
+      </listitem>
+      <listitem>
+        <para>Use the -D option to identify and remove duplicate annotations.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+</document>

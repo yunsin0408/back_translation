@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applicabilityDisplay>
+    <introduction>
+        <title>Applicability Display</title>
+        <description>A powerful tool for showing the applicability of data modules or sets of data modules.</description>
+    </introduction>
+    <displayRules>
+        <rule>
+            <type>Simple</type>
+            <description>Determine how the applicability of a data module or set of data modules should be displayed.</description>
+        </rule>
+        <rule>
+            <type>Conditional</type>
+            <description>Determine how the applicability of a data module or set of data modules should be displayed based on conditions.</description>
+        </rule>
+    </displayRules>
+    <formattingOptions>
+        <option>
+            <type>Text Formatting</type>
+            <description>Font size, color, and style can be used to highlight important information or make the display more visually appealing.</description>
+        </option>
+        <option>
+            <type>Tables and Lists</type>
+            <description>Data items can be displayed in tables or lists to make it easier to compare and contrast different values.</description>
+        </option>
+    </formattingOptions>
+    <bestPractices>
+        <practice>
+            <name>Keep it Simple</name>
+            <description>Avoid using complicated or confusing language in the display rule.</description>
+        </practice>
+        <practice>
+            <name>Use Clear and Concise Formatting</name>
+            <description>Use tables, lists, and other formatting options to make the display easy to read and understand.</description>
+        </practice>
+        <practice>
+            <name>Test Thoroughly</name>
+            <description>Test the display rule with different inputs and conditions to ensure that it is working correctly.</description>
+        </practice>
+    </bestPractices>
+    <productAttributes>
+        <attribute>
+            <name>Product</name>
+            <description>A characteristic of the product that can be used to determine its applicability.</description>
+        </attribute>
+        <attribute>
+            <name>Model</name>
+            <description>A specific type of product that can be used to determine its applicability.</description>
+        </attribute>
+        <attribute>
+            <name>Size</name>
+            <description>A physical characteristic of the product that can be used to determine its applicability.</description>
+        </attribute>
+    </productAttributes>
+    <conditions>
+        <condition>
+            <type>Simple</type>
+            <description>A statement that specifies when a particular data item or set of data items is applicable.</description>
+        </condition>
+        <condition>
+            <type>Complex</type>
+            <description>A statement that specifies when a particular data item or set of data items is applicable based on multiple conditions.</description>
+        </condition>
+    </conditions>
+    <conclusion>
+        <summary>Applicability display is a powerful tool for showing the applicability of data modules or sets of data modules.</summary>
+        <keyTakeaways>
+            <takeaway>Use simple and conditional display rules</takeaway>
+            <takeaway>Format the display</takeaway>
+            <takeaway>Test thoroughly</takeaway>
+        </keyTakeaways>
+    </conclusion>
+</applicabilityDisplay>

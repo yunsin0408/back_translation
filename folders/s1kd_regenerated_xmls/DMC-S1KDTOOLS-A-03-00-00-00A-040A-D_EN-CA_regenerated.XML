@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <introduction>
+    <title>Introduction to S1000D Instance Filtering</title>
+    <paragraph>The s1kd-instance tool is used for filtering S1000D data modules based on specified applicability and creating customized instances.</paragraph>
+  </introduction>
+  <section>
+    <title>Basic Usage</title>
+    <paragraph>The basic usage of the s1kd-instance tool involves specifying the input file, the desired output location, and any applicable filtering options. The general syntax is as follows:
+      <command>$ s1kd-instance [options] &lt;input_file&gt;</command>
+    </paragraph>
+    <subsection>
+      <title>Options</title>
+      <itemizedlist>
+        <listitem>
+          <term>-a</term>
+          <description>Remove applicability annotations that are fully resolved.</description>
+        </listitem>
+        <listitem>
+          <term>-e &lt;code&gt;</term>
+          <description>Specify an extended code to use in the identification of output files.</description>
+        </listitem>
+        <listitem>
+          <term>-f &lt;file&gt;</term>
+          <description>Read input from a file instead of stdin.</description>
+        </listitem>
+        <listitem>
+          <term>-I &lt;date&gt;</term>
+          <description>Limit search for CIR data modules by issue date.</description>
+        </listitem>
+        <listitem>
+          <term>-k &lt;levels&gt;</term>
+          <description>Filter on skill levels.</description>
+        </listitem>
+        <listitem>
+          <term>-O &lt;directory&gt;</term>
+          <description>Write output to a directory with automatic naming.</description>
+        </listitem>
+        <listitem>
+          <term>-p &lt;product_instance&gt;</term>
+          <description>Filter on a specified product instance.</description>
+        </listitem>
+        <listitem>
+          <term>-P &lt;pct_file&gt;</term>
+          <description>Read product information from a PCT file.</description>
+        </listitem>
+        <listitem>
+          <term>-s &lt;applicability_definition&gt;</term>
+          <description>Filter on specified applicability.</description>
+        </listitem>
+      </itemizedlist>
+    </subsection>
+  </section>
+  <section>
+    <title>Advanced Usage</title>
+    <subsection>
+      <title>Filtering on Applicability</title>
+      <paragraph>To filter a data module based on specified applicability, use the -s option followed by the applicability definition. For example:
+        <command>$ s1kd-instance -s version:prodattr=A &lt;DM&gt;</command>
+      </paragraph>
+      <paragraph>This command filters the input data module (&lt;DM&gt;) to only include content applicable to version A.</paragraph>
+    </subsection>
+    <subsection>
+      <title>Filtering on Product Instance</title>
+      <paragraph>To filter a data module based on a specified product instance, use the -P option followed by the PCT file and the -p option with the product instance. For example:
+        <command>$ s1kd-instance -P &lt;PCT&gt; -p versionA &lt;DM&gt;</command>
+      </paragraph>
+      <paragraph>This command filters the input data module (&lt;DM&gt;) to only include content applicable to version A as defined in the PCT file.</paragraph>
+    </subsection>
+    <subsection>
+      <title>Filtering on Skill Levels</title>
+      <paragraph>To filter a data module based on specified skill levels, use the -k option followed by the skill levels. For example:
+        <command>$ s1kd-instance -k sk01/sk02 &lt;DMs&gt;</command>
+      </paragraph>
+      <paragraph>This command filters the input data modules (&lt;DMs&gt;) to only include content applicable to sk01 and sk02.</paragraph>
+    </subsection>
+    <subsection>
+      <title>Output Options</title>
+      <paragraph>To write output to a directory with automatic naming, use the -O option followed by the directory path. For example:
+        <command>$ s1kd-instance -SO &lt;dir&gt;</command>
+      </paragraph>
+      <paragraph>This command writes the filtered data module(s) to the specified directory (&lt;dir&gt;) with automatically generated file names.</paragraph>
+    </subsection>
+    <subsection>
+      <title>Extended Identification</title>
+      <paragraph>To specify an extended code for output files, use the -e option followed by the extended code. For example:
+        <command>$ s1kd-instance -s version:prodattr=A -e 12345-54321 -O . &lt;DMs&gt;</command>
+      </paragraph>
+      <paragraph>This command filters the input data modules (&lt;DMs&gt;) based on version A, generates output files with the extended identification code 12345-54321, and writes them to the current directory.</paragraph>
+    </subsection>
+  </section>
+  <section>
+    <title>Exit Status</title>
+    <itemizedlist>
+      <listitem>
+        <term>0</term>
+        <description>No errors.</description>
+      </listitem>
+      <listitem>
+        <term>1</term>
+        <description>Missing or incomplete argument.</description>
+      </listitem>
+      <listitem>
+        <term>2</term>
+        <description>Specified file does not exist.</description>
+      </listitem>
+      <listitem>
+        <term>3</term>
+        <description>Source object for an instance could not be found.</description>
+      </listitem>
+      <listitem>
+        <term>4</term>
+        <description>Malformed applicability definition.</description>
+      </listitem>
+      <listitem>
+        <term>6</term>
+        <description>XML was invalid or does not conform to S1000D.</description>
+      </listitem>
+      <listitem>
+        <term>7</term>
+        <description>Value given for an argument was malformed.</description>
+      </listitem>
+      <listitem>
+        <term>8</term>
+        <description>Issue date specified with -I is invalid.</description>
+      </listitem>
+      <listitem>
+        <term>9</term>
+        <description>The number of CIR data modules found when searching exceeded the available memory.</description>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section>
+    <title>Examples</title>
+    <itemizedlist>
+      <listitem>
+        <paragraph>Filter a data module on specified applicability and write to stdout:
+          <command>$ s1kd-instance -s version:prodattr=A &lt;DM&gt;</command>
+        </paragraph>
+      </listitem>
+      <listitem>
+        <paragraph>Filter a data module on a specified product instance and write to stdout:
+          <command>$ s1kd-instance -P &lt;PCT&gt; -p versionA &lt;DM&gt;</command>
+        </paragraph>
+      </listitem>
+      <listitem>
+        <paragraph>Filter data modules for a particular customer and output with extended identification:
+          <command>$ s1kd-instance -s version:prodattr=A -e 12345-54321 -O . &lt;DMs&gt;</command>
+        </paragraph>
+      </listitem>
+      <listitem>
+        <paragraph>Write out a data module from stdin to a directory with automatic naming:
+          <command>$ xml-transform -s &lt;xsl&gt; &lt;DM&gt; | s1kd-instance -SO &lt;dir&gt;</command>
+        </paragraph>
+      </listitem>
+    </itemizedlist>
+  </section>
+</document>

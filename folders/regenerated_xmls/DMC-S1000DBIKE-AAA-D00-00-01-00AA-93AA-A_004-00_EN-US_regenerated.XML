@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmCode>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>01</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>93A</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmCode>
+      <language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>004</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+      <dmTitle>
+        <techName>Bicycle axis</techName>
+        <infoName>Modification procedures</infoName>
+      </dmTitle>
+    </dmAddressItems>
+    <dmStatus>
+      <issueType>status</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </dataRestrictions>
+    </dmStatus>
+    <restrictionInstructions>
+      <copyright>
+        <copyrightStmt>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightStmt>
+        <publishers>
+          <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+          <publisher>Aerospace Industries Association of America</publisher>
+          <publisher>ATA e-Business Program</publisher>
+        </publishers>
+        <limitationOfLiability>
+          <limitationStmt>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitationStmt>
+          <limitationStmt>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitationStmt>
+          <limitationStmt>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitationStmt>
+        </limitationOfLiability>
+      </copyright>
+      <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+      <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+    </restrictionInstructions>
+  </identAndStatusSection>
+  <responsiblePartnerCompany>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </responsiblePartnerCompany>
+  <originator>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </originator>
+  <applicCrossRefTableRef>
+    <dmRefIdent>
+      <modelIdentCode>S1000DBIKE</modelIdentCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>D00</systemCode>
+      <subSystemCode>0</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assyCode>00</assyCode>
+      <disassyCode>00</disassyCode>
+      <disassyCodeVariant>AA</disassyCodeVariant>
+      <infoCode>00W</infoCode>
+      <infoCodeVariant>A</infoCodeVariant>
+      <itemLocationCode>D</itemLocationCode>
+    </dmRefIdent>
+  </applicCrossRefTableRef>
+  <applic>
+    <displayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</displayText>
+    <evaluate>
+      <type>Mountain bicycle</type>
+      <model>Mountain storm</model>
+      <version>Mk1</version>
+    </evaluate>
+    <evaluate>
+      <type>Mountain bicycle</type>
+      <model>Brook trekker</model>
+      <version>Mk9</version>
+    </evaluate>
+  </applic>
+  <techStandard>
+    <authorityInfoAndTp>
+      <authorityInfo>20010131</authorityInfo>
+      <techPubBase>Bike book</techPubBase>
+    </authorityInfoAndTp>
+    <authorityExceptions>None</authorityExceptions>
+    <authorityNotes>None</authorityNotes>
+  </techStandard>
+  <brexDmRef>
+    <dmRefIdent>
+      <modelIdentCode>S1000DBIKE</modelIdentCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>D00</systemCode>
+      <subSystemCode>0</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assyCode>00</assyCode>
+      <disassyCode>00</disassyCode>
+      <disassyCodeVariant>AA</disassyCodeVariant>
+      <infoCode>00W</infoCode>
+      <infoCodeVariant>A</infoCodeVariant>
+      <itemLocationCode>D</itemLocationCode>
+    </dmRefIdent>
+  </brexDmRef>
+  <qualityAssurance>
+    <qualityStd>None</qualityStd>
+    <stdRef>None</stdRef>
+  </qualityAssurance>
+  <content>
+    <preliminaryRequirements>
+      <requiredSupportEquipments>
+        <materialUsage>mu05 (material set)</materialUsage>
+        <name>Saw tool set</name>
+        <materialSetIdent>BSK-TLST-200</materialSetIdent>
+        <materialSetIssue>001</materialSetIssue>
+        <quantity>1 EA</quantity>
+      </requiredSupportEquipments>
+      <embeddedSupportEquipments>
+        <id>seq-0001</id>
+        <name>Saw tool</name>
+        <manufacturerCode>KZ666</manufacturerCode>
+        <partNumber>BSK-TW-100</partNumber>
+        <quantity>1 EA</quantity>
+      </embeddedSupportEquipments>
+      <embeddedSupportEquipments>
+        <id>seq-0002</id>
+        <name>Threading tool</name>
+        <manufacturerCode>KZ666</manufacturerCode>
+        <partNumber>BSK-THR-3001</partNumber>
+        <quantity>1 EA</quantity>
+      </embeddedSupportEquipments>
+    </preliminaryRequirements>
+    <requiredSpares>
+      <id>spa-0001</id>
+      <materialUsage>mu03 (modified from)</materialUsage>
+      <name>Wheel axis</name>
+      <manufacturerCode>KZ666</manufacturerCode>
+      <partNumber>BSK-AXS-2001</partNumber>
+      <quantity>1 EA</quantity>
+    </requiredSpares>
+    <embeddedSpares>
+      <id>spa-0002</id>
+      <name>Wheel axis</name>
+      <manufacturerCode>KZ666</manufacturerCode>
+      <partNumber>BSK-AXS-2000</partNumber>
+      <quantity>1 EA</quantity>
+    </embeddedSpares>
+  </content>
+  <mainProcedure>
+    <proceduralSteps>
+      <step>1. Use the saw tool (seq-0001) to saw the wheel axis (spa-0002).</step>
+      <step>2. Use the threading tool (seq-0002) when the saw is unbended.</step>
+      <step>3. Put the frame on the floor.</step>
+    </proceduralSteps>
+  </mainProcedure>
+</dm>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <introduction>
+        <paragraph>This document outlines a pre-ride inspection checklist for a bicycle. The checklist covers various components, including brakes, tires, wheels, headset, chain, handlebar, and computer.</paragraph>
+    </introduction>
+    <preRideInspectionChecklist>
+        <brakes>
+            <item>
+                <title>Pads</title>
+                <steps>
+                    <step>Check pad width</step>
+                    <step>Check pad clearance</step>
+                </steps>
+            </item>
+            <item>
+                <title>Callipers</title>
+                <steps>
+                    <step>Ensure link wire is firmly attached</step>
+                </steps>
+            </item>
+            <item>
+                <title>Levers</title>
+                <steps>
+                    <step>Check for approximately 1 inch of travel before engagement</step>
+                    <step>Check for space between lever and handlebar when fully pulled</step>
+                </steps>
+            </item>
+            <item>
+                <title>Cables</title>
+                <steps>
+                    <step>Inspect for cuts or fraying</step>
+                </steps>
+            </item>
+        </brakes>
+        <tires>
+            <item>
+                <title>Pressure</title>
+                <table>
+                    <row>
+                        <terrain>Off Road</terrain>
+                        <minPressure>35 lbs</minPressure>
+                        <maxPressure>40 lbs</maxPressure>
+                    </row>
+                    <row>
+                        <terrain>On Road</terrain>
+                        <minPressure>55 lbs</minPressure>
+                        <maxPressure>60 lbs</maxPressure>
+                    </row>
+                </table>
+            </item>
+            <item>
+                <title>Condition</title>
+                <steps>
+                    <step>Check for cracks or splits</step>
+                </steps>
+            </item>
+        </tires>
+        <wheels>
+            <item>
+                <title>Bearings</title>
+                <steps>
+                    <step>Ensure bearings are not loose</step>
+                </steps>
+            </item>
+            <item>
+                <title>Trueness</title>
+                <steps>
+                    <step>Check if the wheel is true</step>
+                </steps>
+            </item>
+            <item>
+                <title>Spokes</title>
+                <steps>
+                    <step>Check for broken spokes</step>
+                    <step>If spokes are not broken, ensure they are tight</step>
+                </steps>
+            </item>
+            <item>
+                <title>Axel Nuts</title>
+                <steps>
+                    <step>Ensure axel nuts are tight</step>
+                </steps>
+            </item>
+        </wheels>
+        <headset>
+            <item>
+                <title>Bearing Tightness</title>
+                <steps>
+                    <step>Ensure headset bearings are tight</step>
+                </steps>
+            </item>
+        </headset>
+        <chain>
+            <item>
+                <title>Link Movement</title>
+                <steps>
+                    <step>Check for easy movement of links</step>
+                </steps>
+            </item>
+        </chain>
+        <handlebar>
+            <item>
+                <title>Stem Condition</title>
+                <steps>
+                    <step>Do not ride with a cracked stem</step>
+                    <step>If the stem is loose, tighten it</step>
+                </steps>
+            </item>
+            <item>
+                <title>Handlebar Twist</title>
+                <steps>
+                    <step>If handlebars twist in stem, tighten clamp bolt</step>
+                </steps>
+            </item>
+        </handlebar>
+        <computer>
+            <item>
+                <title>Display</title>
+                <steps>
+                    <step>Check computer display for speed and distance readings</step>
+                </steps>
+            </item>
+        </computer>
+    </preRideInspectionChecklist>
+    <exampleUseCase>
+        <paragraph>To perform a pre-ride inspection, follow these steps:</paragraph>
+        <steps>
+            <step>Start with the brakes: check pads, callipers, levers, and cables.</step>
+            <step>Move on to tires: check pressure and condition.</step>
+            <step>Inspect wheels: bearings, trueness, spokes, and axel nuts.</step>
+            <step>Check headset bearing tightness.</step>
+            <step>Verify chain link movement.</step>
+            <step>Examine handlebar stem condition and tighten if necessary.</step>
+            <step>Finally, check computer display for speed and distance readings.</step>
+        </steps>
+        <paragraph>By following this checklist, you can ensure your bicycle is in good working condition before heading out on a ride.</paragraph>
+    </exampleUseCase>
+</document>

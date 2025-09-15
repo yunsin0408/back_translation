@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <title>PMC-S1000DBIKE-B6865-LOAP0-00_005-00_EN-US</title>
+  <introduction>The following document provides information about the List of Applicable Publications (LOAP) for the S1000D BIKE model.</introduction>
+  <identAndStatusSection>
+    <pmAddress>
+      <pmIdent>
+        <pmCode>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <pmIssuer>B6865</pmIssuer>
+          <pmNumber>LOAP0</pmNumber>
+          <pmVolume>00</pmVolume>
+        </pmCode>
+        <language>
+          <countryISOCode>US</countryISOCode>
+          <languageISOCode>en</languageISOCode>
+        </language>
+        <issueInfo>
+          <issueNumber>005</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </pmIdent>
+      <pmAddressItems>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+        <pmTitle>List of Applicable Publications</pmTitle>
+        <shortPmTitle>LOAP</shortPmTitle>
+      </pmAddressItems>
+    </pmAddress>
+    <pmStatus>
+      <issueType>The issue type is revised.</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <item>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted.</item>
+            <item>Storage of this data module is to be at the discretion of the organization.</item>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>For Copyright information, refer to DM Ref.</copyright>
+          <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+          <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+        </restrictionInfo>
+      </dataRestrictions>
+      <responsiblePartnerCompany>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </originator>
+      <applicCrossRefTableRef>DM Ref</applicCrossRefTableRef>
+      <applic>
+        <displayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</displayText>
+        <evaluate>
+          <and>
+            <type>Mountain bicycle</type>
+          </and>
+          <or>
+            <and>
+              <model>Mountain storm</model>
+              <version>Mk1</version>
+            </and>
+            <and>
+              <model>Brook trekker</model>
+              <version>Mk9</version>
+            </and>
+          </or>
+        </evaluate>
+      </applic>
+      <brexDMRef>DM Ref</brexDMRef>
+      <qualityAssurance>
+        <unverified></unverified>
+      </qualityAssurance>
+    </pmStatus>
+  </identAndStatusSection>
+  <content>
+    <pmEntry>
+      <pmEntryTitle>publication including all LOAP data modules in ascending order</pmEntryTitle>
+      <pmRef>
+        <item>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <pmIssuer>B6865</pmIssuer>
+          <pmNumber>EPWG1</pmNumber>
+        </item>
+        <item>
+          <modelIdentCode>BRAKE</modelIdentCode>
+          <pmIssuer>B6865</pmIssuer>
+          <pmNumber>EPWG1</pmNumber>
+        </item>
+        <item>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <pmIssuer>B6865</pmIssuer>
+          <pmNumber>EPWG1</pmNumber>
+        </item>
+      </pmRef>
+    </pmEntry>
+  </content>
+  <references>
+    <dmRef>
+      <dmCode>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>021</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmCode>
+    </dmRef>
+    <dmRef2>
+      <dmCode>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>00W</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmCode>
+    </dmRef2>
+    <dmRef3>
+      <dmCode>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>022</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmCode>
+    </dmRef3>
+    <pmRef1>
+      <pmCode>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <pmIssuer>B6865</pmIssuer>
+        <pmNumber>EPWG1</pmNumber>
+        <pmVolume>00</pmVolume>
+      </pmCode>
+      <issueInfo>
+        <issueNumber>005</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+      <language>
+        <countryISOCode>US</countryISOCode>
+        <languageISOCode>en</languageISOCode>
+      </language>
+    </pmRef1>
+    <pmRef2>
+      <pmCode>
+        <modelIdentCode>BRAKE</modelIdentCode>
+        <pmIssuer>B6865</pmIssuer>
+        <pmNumber>EPWG1</pmNumber>
+        <pmVolume>00</pmVolume>
+      </pmCode>
+      <issueInfo>
+        <issueNumber>005</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+      <language>
+        <countryISOCode>US</countryISOCode>
+        <languageISOCode>en</languageISOCode>
+      </language>
+    </pmRef2>
+    <pmRef3>
+      <pmCode>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <pmIssuer>B6865</pmIssuer>
+        <pmNumber>EPWG1</pmNumber>
+        <pmVolume>00</pmVolume>
+      </pmCode>
+      <issueInfo>
+        <issueNumber>005</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+      <language>
+        <countryISOCode>US</countryISOCode>
+        <languageISOCode>en</languageISOCode>
+      </language>
+    </pmRef3>
+  </references>
+</root>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_011-00_EN-US</title>
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>DA5</systemCode>
+          <subSystemCode>2</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>251</infoCode>
+          <infoCodeVariant>C</infoCodeVariant>
+          <itemLocationCode>A</itemLocationCode>
+        </dmCode>
+        <language>
+          <countryIsoCode>US</countryIsoCode>
+          <languageIsoCode>en</languageIsoCode>
+        </language>
+        <issueInfo>
+          <issueNumber>011</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+        <dmTitle>
+          <techName>Hubs</techName>
+          <infoName>Clean with chemical agent</infoName>
+          <infoNameVariant>Use degreasing agent</infoNameVariant>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+            <publishers>
+              <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+              <publisher>Aerospace Industries Association of America</publisher>
+            </publishers>
+            <limitations>
+              <limitation>The information contained in this document is the property of the publisher.</limitation>
+              <limitation>No part of this document may be reproduced or transmitted in any form or by any means without prior written permission from the publisher.</limitation>
+            </limitations>
+          </copyright>
+          <policy>
+            <policyStatement>This data module is provided for informational purposes only.</policyStatement>
+          </policy>
+        </restrictionInfo>
+      </dataRestrictions>
+      <responsibleOrg>
+        <orgName>Not specified</orgName>
+      </responsibleOrg>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <references>
+      <dmRefs>
+        <dmCode>S1000DBIKE-AAA-DA5-20-00-00AA-520-A</dmCode>
+      </dmRefs>
+    </references>
+    <procedure>
+      <preliminaryRequirements>
+        <requiredConditions>
+          <condition>Rear wheel removed</condition>
+        </requiredConditions>
+        <requiredPersons>
+          <person>
+            <personCategory>Supervisor</personCategory>
+            <skillLevel>sk03</skillLevel>
+            <trade>Bicycle mechanic</trade>
+            <estimatedTime>0.8 hours</estimatedTime>
+          </person>
+          <person>
+            <personCategory>Basic user</personCategory>
+            <trade>Operator</trade>
+            <estimatedTime>0.3 hours</estimatedTime>
+          </person>
+        </requiredPersons>
+        <requiredSupportEquipment>
+          <supportEquipment>
+            <identNumber>KZ666-BSK-TLST-001</identNumber>
+            <quantity>1</quantity>
+          </supportEquipment>
+        </requiredSupportEquipment>
+        <requiredSupplies>
+          <supply>
+            <identNumber>KZ222-LL-004</identNumber>
+            <quantity>As required</quantity>
+          </supply>
+          <supply>
+            <identNumber>KZ222-LL-005</identNumber>
+            <quantity>As required</quantity>
+          </supply>
+        </requiredSupplies>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step>
+          <action>Remove the axle</action>
+          <description>
+            Use the cone-wrench from the specialist toolset and remove the locknut from one side of the axle.
+            Remove the washer and the cone from the axle.
+            Pull the axle out from the other side as shown in <xref href="#fig-0001">Removing the axle</xref>.
+          </description>
+          <figure id="fig-0001">
+            <title>Removing the axle</title>
+            <graphic infoEntityIdent="ICN-C0419-S1000D0401-001-01"/>
+          </figure>
+        </step>
+        <step>
+          <action>Remove the bearings</action>
+          <description>
+            Use a small screwdriver from the specialist toolset and remove the bearings from their races.
+            Make sure that each side of the hub has the same number of bearings.
+            Use the degreasing agent and clean all the parts of the hub.
+            Do a check of the axle to make sure that it is straight.
+            Examine the bearing contact area on the cones and the races in the hub for pitting and other signs of damage.
+            Do a check of the ball bearings for signs of damage.
+            Apply a large quantity of general grease on each hub race.
+          </description>
+        </step>
+        <step>
+          <action>Assemble the hub</action>
+          <description>
+            Install the ball bearings into the races and push them into the grease.
+            Apply more grease on the tops of the bearings.
+            Install the axle through the hub.
+            Install the cone, the washer and the locknut on the other side of the axle.
+            Use the cone-wrench from the specialist toolset and carefully tighten the locknut.
+          </description>
+        </step>
+      </mainProcedure>
+      <closingRequirements>
+        <condition>No conditions</condition>
+      </closingRequirements>
+    </procedure>
+  </content>
+</proced>

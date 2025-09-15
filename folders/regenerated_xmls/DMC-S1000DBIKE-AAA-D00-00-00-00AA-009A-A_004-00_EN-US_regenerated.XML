@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+  <category name="Frames and Forks">
+    <component name="Frame"/>
+    <component name="Fork"/>
+    <component name="Headset" action="Remove and install"/>
+    <component name="Bottom bracket" action="Remove and install"/>
+  </category>
+  <category name="Wheels and Tires">
+    <component name="Wheels"/>
+    <component name="Tires"/>
+    <component name="Hubs" action="Clean with chemical agent (Use degreasing agent)"/>
+  </category>
+  <category name="Brakes">
+    <component name="Brakes"/>
+    <component name="Brake calipers" action="Remove and install"/>
+    <component name="Brake pads" action="Remove and install"/>
+    <component name="Rotors" action="Remove and install"/>
+  </category>
+  <category name="Drivetrain">
+    <component name="Drivetrain"/>
+    <component name="Chain" action="Oil, Clean with chemical agent (Use chain cleaning fluid)"/>
+    <component name="Gears" action="Description of how it is made"/>
+    <component name="Mechs" action="Description of how it is made"/>
+    <component name="Crankset" action="Remove and install"/>
+    <component name="Chainrings" action="Remove and install"/>
+    <component name="Pedals" action="Remove and install"/>
+    <component name="Derailleurs" action="Adjust and repair"/>
+  </category>
+  <category name="Electrical System">
+    <component name="Battery" action="Remove and install"/>
+    <component name="Wiring" action="Repair and replace"/>
+    <component name="Electrical system" action="Troubleshoot and repair"/>
+  </category>
+  <category name="Accessories">
+    <component name="Seatpost" action="Remove and install"/>
+    <component name="Saddle" action="Remove and install"/>
+    <component name="Handlebar tape" action="Remove and install"/>
+    <component name="Cables" action="Adjust and repair"/>
+  </category>
+  <category name="Other Components">
+    <component name="Stem"/>
+    <component name="Handlebars"/>
+    <component name="Horn"/>
+    <component name="Shifters"/>
+    <component name="Cassette" action="Remove and install"/>
+  </category>
+</components>

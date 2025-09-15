@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-058A-A_011-00_EN-US</title>
+    <intro>The following document is a conversion of the provided XML file to a markdown format. The original XML file is DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-058A-A_011-00_EN-US.XML.</intro>
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>D00</systemCode>
+                <subSystemCode>0</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>058</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+                <language>
+                    <countryISOCode>US</countryISOCode>
+                    <languageISOCode>en</languageISOCode>
+                </language>
+                <issueInfo>
+                    <issueNumber>011</issueNumber>
+                    <inWork>00</inWork>
+                </issueInfo>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate>
+                    <year>2024</year>
+                    <month>06</month>
+                    <day>19</day>
+                </issueDate>
+                <dmTitle>
+                    <techName>Wiring</techName>
+                    <infoName>Loom list</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <issueType>changed</issueType>
+            <security>
+                <securityClassification>01</securityClassification>
+                <commercialClassification>cc51</commercialClassification>
+                <caveat>cv51</caveat>
+            </security>
+            <dataRestrictions>
+                <restrictionInstructions>
+                    <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+                    <exportControl>
+                        <exportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStatement>
+                    </exportControl>
+                    <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+                    <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+                    <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+                </restrictionInstructions>
+                <restrictionInfo>
+                    <copyright>(C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD
+                        Publishers:
+                            1. Aerospace, Security and Defence Industries Association of Europe
+                            2. Aerospace Industries Association of America
+                            3. ATA e-Business Program
+                        Limitations of liability:
+                            1. This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.
+                            2. Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.
+                            3. Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.
+                        The details for copyright can be found in the S1000D Specification.</copyright>
+                    <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+                    <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+                </restrictionInfo>
+            </dataRestrictions>
+            <responsiblePartnerCompany>
+                <enterpriseCode>B6865</enterpriseCode>
+                <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+            </responsiblePartnerCompany>
+            <originator>
+                <enterpriseCode>B6865</enterpriseCode>
+                <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+            </originator>
+            <applicCrossRefTableRef>
+                <dmRef>
+                    <dmRefIdent>
+                        <modelIdentCode>S1000DBIKE</modelIdentCode>
+                        <systemDiffCode>AAA</systemDiffCode>
+                        <systemCode>D00</systemCode>
+                        <subSystemCode>0</subSystemCode>
+                        <subSubSystemCode>0</subSubSystemCode>
+                        <assyCode>00</assyCode>
+                        <disassyCode>00</disassyCode>
+                        <disassyCodeVariant>AA</disassyCodeVariant>
+                        <infoCode>00W</infoCode>
+                        <infoCodeVariant>A</infoCodeVariant>
+                        <itemLocationCode>D</itemLocationCode>
+                    </dmRefIdent>
+                </dmRef>
+            </applicCrossRefTableRef>
+            <applicRef>app-00000000AA058A-0000</applicRef>
+            <techStandard>
+                <authorityInfoAndTp>
+                    <authorityInfo>20010131</authorityInfo>
+                    <techPubBase>Bike book</techPubBase>
+                </authorityInfoAndTp>
+                <authorityExceptions/>
+                <authorityNotes/>
+            </techStandard>
+            <brexDmRef>
+                <dmRef>
+                    <dmRefIdent>
+                        <modelIdentCode>S1000DBIKE</modelIdentCode>
+                        <systemDiffCode>AAA</systemDiffCode>
+                        <systemCode>D00</systemCode>
+                        <subSystemCode>0</subSystemCode>
+                        <subSubSystemCode>0</subSubSystemCode>
+                        <assyCode>00</assyCode>
+                        <disassyCode>00</disassyCode>
+                        <disassyCodeVariant>AA</disassyCodeVariant>
+                    </dmRefIdent>
+                </dmRef>
+            </brexDmRef>
+            <reasonForChange>Not specified</reasonForChange>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <wiringData>
+            <harnessGroup>
+                <harness>
+                    <harnessIdent>Batt</harnessIdent>
+                    <harnessInfo>
+                        <partNumber>Batt_101</partNumber>
+                        <harnessVariantIdent>101</harnessVariantIdent>
+                        <harnessVariantIssue>A</harnessVariantIssue>
+                        <harnessName>Battery harness</harnessName>
+                        <emcCode>LS1</emcCode>
+                        <temperature>
+                            <minTemperature>-10 degC</minTemperature>
+                            <maxTemperature>60 degC</maxTemperature>
+                        </temperature>
+                        <harnessEnvironment>
+                            <highVibrationFlag>1</highVibrationFlag>
+                            <hydraulicFlag>0</hydraulicFlag>
+                        </harnessEnvironment>
+                        <sleeveGroup>
+                            <sleeveMaterial>Teflon</sleeveMaterial>
+                            <partNumber>SLV-5678</partNumber>
+                        </sleeveGroup>
+                    </harnessInfo>
+                    <responsiblePartnerCompany>
+                        <enterpriseCode>U0378</enterpriseCode>
+                        <enterpriseName>Partner Company 1</enterpriseName>
+                    </responsiblePartnerCompany>
+                </harness>
+                <harness>
+                    <harnessIdent>1310VB</harnessIdent>
+                    <harnessInfo>
+                        <harnessVariantIdent>410</harnessVariantIdent>
+                        <harnessVariantIssue>A</harnessVariantIssue>
+                        <harnessName>FCS LANE 1 FORWARD EQUIPMENT BAY</harnessName>
+                        <emcCode>E</emcCode>
+                        <temperature>
+                            <minTemperature>-10 degC</minTemperature>
+                            <maxTemperature>60 degC</maxTemperature>
+                        </temperature>
+                        <harnessEnvironment>
+                            <highVibrationFlag>1</highVibrationFlag>
+                            <hydraulicFlag>0</hydraulicFlag>
+                        </harnessEnvironment>
+                        <sleeveGroup>
+                            <sleeveMaterial>Teflon</sleeveMaterial>
+                            <partNumber>SLV-5678</partNumber>
+                        </sleeveGroup>
+                    </harnessInfo>
+                    <routing>
+                        <clippingPoint>271-11</clippingPoint>
+                        <clippingPoint>273-2</clippingPoint>
+                    </routing>
+                    <responsiblePartnerCompany>
+                        <enterpriseCode>K0378</enterpriseCode>
+                        <enterpriseName>Partner Company 2</enterpriseName>
+                    </responsiblePartnerCompany>
+                </harness>
+                <harness>
+                    <harnessIdent>Harness 3</harnessIdent>
+                    <harnessInfo>
+                        <partNumber>Part Number 3</partNumber>
+                        <harnessVariantIdent>301</harnessVariantIdent>
+                        <harnessVariantIssue>A</harnessVariantIssue>
+                        <harnessName>Battery Harness 2</harnessName>
+                        <emcCode>LS1</emcCode>
+                    </harnessInfo>
+                </harness>
+                <harness>
+                    <harnessIdent>Harness 4</harnessIdent>
+                    <harnessInfo>
+                        <partNumber>Part Number 4</partNumber>
+                        <harnessVariantIdent>401</harnessVariantIdent>
+                        <harnessVariantIssue>A</harnessVariantIssue>
+                        <harnessName>Engine Harness</harnessName>
+                        <emcCode>LS2</emcCode>
+                    </harnessInfo>
+                </harness>
+                <harness>
+                    <harnessIdent>Harness 5</harnessIdent>
+                    <harnessInfo>
+                        <partNumber>Part Number 5</partNumber>
+                        <harnessVariantIdent>501</harnessVariantIdent>
+                        <harnessVariantIssue>A</harnessVariantIssue>
+                        <harnessName>Transmission Harness</harnessName>
+                        <emcCode>LS3</emcCode>
+                    </harnessInfo>
+                </harness>
+            </harnessGroup>
+        </wiringData>
+    </content>
+</proced>

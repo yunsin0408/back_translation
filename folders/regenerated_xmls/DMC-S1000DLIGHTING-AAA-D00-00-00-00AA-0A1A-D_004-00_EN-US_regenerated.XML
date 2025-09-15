@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functionalPhysicalAreaRepository xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <commonRepository>
+    <content>
+      <!-- Introduction -->
+      <description>Functional Physical Area Repository</description>
+      <text>The functional physical area repository contains a collection of functional physical areas used to describe the components and systems of a bicycle. The repository is organized into a hierarchical structure, with each level representing a more specific or detailed description of the component or system.</text>
+      <!-- Top-Level Categories -->
+      <category name="Top-Level Categories">
+        <item>Steering: Components related to steering the bicycle.</item>
+        <item>Drivetrain: Components related to transmitting power from the pedals to the wheels.</item>
+        <item>Gears: Components related to changing the gear ratio of the drivetrain.</item>
+        <item>Brakes: Components related to slowing or stopping the bicycle.</item>
+      </category>
+      <!-- Steering Sub-Categories -->
+      <category name="Steering Sub-Categories">
+        <item>Handlebars: The component that connects the rider's hands to the front wheel.</item>
+        <item>Stem: The component that connects the handlebars to the frame.</item>
+        <item>Fork: The component that connects the front wheel to the frame.</item>
+      </category>
+      <!-- Drivetrain Sub-Categories -->
+      <category name="Drivetrain Sub-Categories">
+        <item>Chainrings: The components that transmit power from the pedals to the chain.</item>
+        <item>Chain: The component that transmits power from the chainrings to the cassette.</item>
+        <item>Cassette: The component that contains the gears that the chain engages with.</item>
+      </category>
+      <!-- Gears Sub-Categories -->
+      <category name="Gears Sub-Categories">
+        <item>Derailleurs: The components that move the chain between different gears on the cassette.</item>
+        <item>Shifters: The components that control the derailleurs to change the gear ratio.</item>
+        <item>Cassette: The component that contains the gears that the chain engages with.</item>
+      </category>
+      <!-- Brakes Sub-Categories -->
+      <category name="Brakes Sub-Categories">
+        <item>Brake Calipers: The components that apply pressure to the brake pads to slow or stop the wheel.</item>
+        <item>Brake Pads: The components that contact the rim or rotor to slow or stop the wheel.</item>
+        <item>Levers: The components that control the brake calipers to apply pressure to the brake pads.</item>
+      </category>
+      <!-- Example Use Cases -->
+      <exampleUseCases>
+        <useCase>A bicycle manufacturer uses the functional physical area repository to describe the components and systems of their latest model.</useCase>
+        <useCase>A cyclist uses the repository to identify the specific component that needs to be replaced or upgraded on their bike.</useCase>
+        <useCase>A mechanic uses the repository to understand the relationships between different components and systems when performing repairs or maintenance.</useCase>
+      </exampleUseCases>
+      <!-- Code Snippets -->
+      <codeSnippets>
+        <xmlCodeSnippet>
+          <functionalPhysicalAreaSpec id="sns-001">
+            <functionalPhysicalAreaIdent systemCode="DA1" subSystemCode="0"/>
+            <shortName>Steering</shortName>
+          </functionalPhysicalAreaSpec>
+          <functionalPhysicalAreaSpec id="sns-002">
+            <functionalPhysicalAreaIdent systemCode="DA2" subSystemCode="0"/>
+            <shortName>Drivetrain</shortName>
+          </functionalPhysicalAreaSpec>
+          <functionalPhysicalAreaSpec id="sns-003">
+            <functionalPhysicalAreaIdent systemCode="DA1" subSystemCode="1"/>
+            <shortName>Handlebars</shortName>
+          </functionalPhysicalAreaSpec>
+          <functionalPhysicalAreaSpec id="sns-004">
+            <functionalPhysicalAreaIdent systemCode="DA2" subSystemCode="1"/>
+            <shortName>Chainrings</shortName>
+          </functionalPhysicalAreaSpec>
+        </xmlCodeSnippet>
+        <pythonCodeSnippet>
+          import xml.etree.ElementTree as ET
+          tree = ET.parse('functional_physical_area_repository.xml')
+          root = tree.getroot()
+          steering_category = root.find('.//functionalPhysicalAreaSpec[@id="sns-001"]')
+          print(steering_category.find('shortName').text)
+        </pythonCodeSnippet>
+      </codeSnippets>
+    </content>
+  </commonRepository>
+</functionalPhysicalAreaRepository>

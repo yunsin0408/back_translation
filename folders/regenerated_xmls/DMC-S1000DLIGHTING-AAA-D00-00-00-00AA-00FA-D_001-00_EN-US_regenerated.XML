@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>D00</systemCode>
+                <subSystemCode>0</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>00F</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>D</itemLocationCode>
+                <language>
+                    <languageIsoCode>en</languageIsoCode>
+                    <countryIsoCode>US</countryIsoCode>
+                </language>
+                <issueInfo>
+                    <issueNumber>001</issueNumber>
+                    <inWork>00</inWork>
+                </issueInfo>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate>
+                    <year>2024</year>
+                    <month>06</month>
+                    <day>19</day>
+                </issueDate>
+                <dmTitle>
+                    <techName>Lighting</techName>
+                    <infoName>Circuit Breaker common information repository</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <issueType>new</issueType>
+            <security>
+                <securityClassification>01</securityClassification>
+                <commercialClassification>cc51</commercialClassification>
+                <caveat>cv51</caveat>
+            </security>
+            <dataRestrictions>
+                <restrictionInstructions>
+                    <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+                    <exportControl>
+                        <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+                    </exportControl>
+                    <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+                    <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+                    <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+                </restrictionInstructions>
+                <restrictionInfo>
+                    <copyright>
+                        <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+                        <publishers>
+                            <publisher>AeroSpace, Security and Defence Industries Association of Europe - ASD</publisher>
+                            <publisher>Other Publisher 1</publisher>
+                            <publisher>Other Publisher 2</publisher>
+                        </publishers>
+                    </copyright>
+                    <otherRestrictionInfo>No other restriction info available</otherRestrictionInfo>
+                </restrictionInfo>
+            </dataRestrictions>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <referencedApplicGroup>
+            <applic id="app-0001">
+                <displayText>Mountain storm Mk1</displayText>
+                <evaluate>
+                    <and>
+                        <assert>
+                            <applicPropertyIdent>model</applicPropertyIdent>
+                            <applicPropertyType>prodattr</applicPropertyType>
+                            <applicPropertyValues>Mountain storm</applicPropertyValues>
+                        </assert>
+                    </and>
+                </evaluate>
+            </applic>
+            <applic id="app-0002">
+                <displayText>Brook trekker Mk9</displayText>
+                <evaluate>
+                    <and>
+                        <assert>
+                            <applicPropertyIdent>model</applicPropertyIdent>
+                            <applicPropertyType>prodattr</applicPropertyType>
+                            <applicPropertyValues>Brook trekker</applicPropertyValues>
+                        </assert>
+                    </and>
+                </evaluate>
+            </applic>
+            <applic id="app-0003">
+                <displayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</displayText>
+                <evaluate>
+                    <and>
+                        <assert>
+                            <applicPropertyIdent>type</applicPropertyIdent>
+                            <applicPropertyType>prodattr</applicPropertyType>
+                            <applicPropertyValues>Mountain bicycle</applicPropertyValues>
+                        </assert>
+                        <or>
+                            <and>
+                                <assert>
+                                    <applicPropertyIdent>model</applicPropertyIdent>
+                                    <applicPropertyType>prodattr</applicPropertyType>
+                                    <applicPropertyValues>Mountain storm</applicPropertyValues>
+                                </assert>
+                            </and>
+                            <and>
+                                <assert>
+                                    <applicPropertyIdent>model</applicPropertyIdent>
+                                    <applicPropertyType>prodattr</applicPropertyType>
+                                    <applicPropertyValues>Brook trekker</applicPropertyValues>
+                                </assert>
+                            </and>
+                        </or>
+                    </and>
+                </evaluate>
+            </applic>
+        </referencedApplicGroup>
+        <commonRepository>
+            <circuitBreakerRepository id="SPEC-0010">
+                <circuitBreakerSpec id="cb-CBLGT-1001-R">
+                    <circuitBreakerIdent>
+                        <circuitBreakerNumber>CBLGT-1001-R</circuitBreakerNumber>
+                    </circuitBreakerIdent>
+                    <name>Bike Lighting circuit breaker (right side)</name>
+                    <functionalPhysicalAreaRef>
+                        <systemDiffCode>AAA</systemDiffCode>
+                        <systemCode>DA2</systemCode>
+                        <subSystemCode>2</subSystemCode>
+                        <subSubSystemCode>0</subSubSystemCode>
+                        <assyCode>00</assyCode>
+                    </functionalPhysicalAreaRef>
+                    <circuitBreakerRefGroup id="SPEC-0008">
+                        <circuitBreakerRefType>cbr02</circuitBreakerRefType>
+                        <circuitBreakerRef>
+                            <circuitBreakerNumber>CBLGT-1001-E</circuitBreakerNumber>
+                            <circuitBreakerType>cbt02</circuitBreakerType>
+                        </circuitBreakerRef>
+                    </circuitBreakerRefGroup>
+                    <circuitBreakerAlts>
+                        <circuitBreaker id="cb-CBLGT-1001-R.001">
+                            <applicRefId>app-0001</applicRefId>
+                            <name>CBLGT-1001-R</name>
+                            <circuitBreakerClass>
+                                <circuitBreakerType>cbt02</circuitBreakerType>
+                            </circuitBreakerClass>
+                            <location>
+                                <zoneRef>
+                                    <zoneNumber>131</zoneNumber>
+                                </zoneRef>
+                            </location>
+                        </circuitBreaker>
+                    </circuitBreakerAlts>
+                </circuitBreakerSpec>
+                <circuitBreakerSpec id="cb-CBLGT-1001-L">
+                    <circuitBreakerIdent>
+                        <circuitBreakerNumber>CBLGT-1001-L</circuitBreakerNumber>
+                    </circuitBreakerIdent>
+                    <name>Bike Lighting circuit breaker (left side)</name>
+                    <functionalPhysicalAreaRef>
+                        <systemDiffCode>AAA</systemDiffCode>
+                        <systemCode>DA2</systemCode>
+                        <subSystemCode>2</subSystemCode>
+                        <subSubSystemCode>0</subSubSystemCode>
+                        <assyCode>00</assyCode>
+                    </functionalPhysicalAreaRef>
+                    <circuitBreakerRefGroup id="SPEC-0009">
+                        <circuitBreakerRefType>cbr02</circuitBreakerRefType>
+                        <circuitBreakerRef>
+                            <circuitBreakerNumber>CBLGT-1001-E</circuitBreakerNumber>
+                            <circuitBreakerType>cbt02</circuitBreakerType>
+                        </circuitBreakerRef>
+                    </circuitBreakerRefGroup>
+                    <circuitBreakerAlts>
+                        <circuitBreaker id="cb-CBLGT-1001-L.001">
+                            <applicRefId>app-0002</applicRefId>
+                            <name>CBLGT-1001-L</name>
+                            <circuitBreakerClass>
+                                <circuitBreakerType>cbt02</circuitBreakerType>
+                            </circuitBreakerClass>
+                            <location>
+                                <zoneRef>
+                                    <zoneNumber>132</zoneNumber>
+                                </zoneRef>
+                            </location>
+                        </circuitBreaker>
+                    </circuitBreakerAlts>
+                </circuitBreakerSpec>
+                <circuitBreakerSpec id="cb-CBLGT-1001-E">
+                    <circuitBreakerIdent>
+                        <circuitBreakerNumber>CBLGT-1001-E</circuitBreakerNumber>
+                    </circuitBreakerIdent>
+                    <name>Bike Lighting circuit breaker (empty)</name>
+                    <functionalPhysicalAreaRef>
+                        <systemDiffCode>AAA</systemDiffCode>
+                        <systemCode>DA2</systemCode>
+                        <subSystemCode>2</subSystemCode>
+                        <subSubSystemCode>0</subSubSystemCode>
+                        <assyCode>00</assyCode>
+                    </functionalPhysicalAreaRef>
+                    <circuitBreakerAlts>
+                        <circuitBreaker id="cb-CBLGT-1001-E.001">
+                            <applicRefId>app-0003</applicRefId>
+                            <name>CBLGT-1001-E</name>
+                            <circuitBreakerClass>
+                                <circuitBreakerType>cbt02</circuitBreakerType>
+                            </circuitBreakerClass>
+                            <location>
+                                <zoneRef>
+                                    <zoneNumber>130</zoneNumber>
+                                </zoneRef>
+                            </location>
+                        </circuitBreaker>
+                    </circuitBreakerAlts>
+                </circuitBreakerSpec>
+            </circuitBreakerRepository>
+        </commonRepository>
+    </content>
+</dm>

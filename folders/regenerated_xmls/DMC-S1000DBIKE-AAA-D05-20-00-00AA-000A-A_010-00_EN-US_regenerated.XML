@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <maintenancePlanningDocument>
+    <title>Maintenance Planning Document</title>
+    <introduction>
+      <paragraph>This document outlines the maintenance planning for a bicycle. It includes task definitions, requirements, and limitations for various maintenance activities.</paragraph>
+    </introduction>
+    <taskDefinitions>
+      <task id="Task001">Pre-operation procedures (crew)</task>
+      <task id="Task002">Clean the chain</task>
+      <task id="Task003">Clean the hub bearings</task>
+      <task id="Task004">Clean the brake pads</task>
+      <task id="Task005">Check tire pressure</task>
+    </taskDefinitions>
+    <taskRequirements>
+      <taskRequirement taskID="Task001">
+        <personnel>
+          <supervisor>1 x Supervisor</supervisor>
+          <operator>1 x Operator</operator>
+        </personnel>
+        <equipment>
+          <item>Specialist toolset</item>
+          <item>General lubricant</item>
+        </equipment>
+        <supplies>
+          <item>Floor covering</item>
+          <item>Degreasing agent</item>
+        </supplies>
+      </taskRequirement>
+      <taskRequirement taskID="Task002">
+        <personnel>
+          <operator>1 x Operator</operator>
+        </personnel>
+        <equipment>
+          <item>Stiff bristle brush</item>
+          <item>Chain cleaning fluid</item>
+          <item>Chain cleaning tool</item>
+        </equipment>
+        <supplies>
+          <item>General lubricant</item>
+          <item>Floor covering</item>
+        </supplies>
+      </taskRequirement>
+      <taskRequirement taskID="Task003">
+        <personnel>
+          <supervisor>1 x Supervisor (Bicycle Mechanic)</supervisor>
+          <operator>1 x Operator</operator>
+        </personnel>
+        <equipment>
+          <item>Specialist toolset</item>
+        </equipment>
+        <supplies>
+          <item>Degreasing agent</item>
+          <item>General grease</item>
+        </supplies>
+      </taskRequirement>
+      <taskRequirement taskID="Task004">
+        <personnel>
+          <operator>1 x Operator</operator>
+        </personnel>
+        <equipment>
+          <item.None>None specified</item>
+        </equipment>
+        <supplies>
+          <item>Brake cleaning fluid</item>
+        </supplies>
+      </taskRequirement>
+      <taskRequirement taskID="Task005">
+        <personnel>
+          <operator>1 x Operator</operator>
+        </personnel>
+        <equipment>
+          <item>Tire pressure gauge</item>
+        </equipment>
+        <supplies>
+          <item.None>None specified</item>
+        </supplies>
+      </taskRequirement>
+    </taskRequirements>
+    <limitations>
+      <limitation taskID="Task001">Must be performed before each use</limitation>
+      <limitation taskID="Task002">Must be performed every 100 miles</limitation>
+      <limitation taskID="Task003">Must be performed every 6 months</limitation>
+      <limitation taskID="Task004">Must be performed every 3 months</limitation>
+      <limitation taskID="Task005">Must be performed daily</limitation>
+    </limitations>
+    <references>
+      <reference id="D6-1234">My Publication, January 2007, Rev 1</reference>
+    </references>
+  </maintenancePlanningDocument>
+</document>

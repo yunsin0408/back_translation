@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <content>
+    <illustratedPartsCatalog>
+      <catalogSeqNumber indenture="1" systemCode="D00" subSystemCode="0" assyCode="00" figureNumber="01" figureNumberVariant="A" item="000">
+        <itemSeqNumber>00A</itemSeqNumber>
+        <partRef manufacturerCode="KZ999" partNumber="BICYCLE-001"/>
+        <descrForPart>Bicycle</descrForPart>
+      </catalogSeqNumber>
+      <catalogSeqNumber indenture="2" systemCode="D00" subSystemCode="0" assyCode="00" figureNumber="01" figureNumberVariant="A" item="001">
+        <itemSeqNumber>00B</itemSeqNumber>
+        <partRef manufacturerCode="KZ999" partNumber="BICYCLE-001/1"/>
+        <descrForPart>Frame and fork assembly</descrForPart>
+      </catalogSeqNumber>
+      <catalogSeqNumber indenture="2" systemCode="D00" subSystemCode="0" assyCode="00" figureNumber="01" figureNumberVariant="A" item="002">
+        <itemSeqNumber>00C</itemSeqNumber>
+        <partRef manufacturerCode="KZ999" partNumber="BICYCLE-001/2"/>
+        <descrForPart>Seat and handlebar assembly</descrForPart>
+      </catalogSeqNumber>
+      <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" assyCode="00" figureNumber="01" figureNumberVariant="A" item="003">
+        <itemSeqNumber>00D</itemSeqNumber>
+        <partRef manufacturerCode="KZ999" partNumber="WH-001"/>
+        <descrForPart>Wheel, assembly rear</descrForPart>
+      </catalogSeqNumber>
+      <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" assyCode="00" figureNumber="01" figureNumberVariant="A" item="004">
+        <itemSeqNumber>00E</itemSeqNumber>
+        <partRef manufacturerCode="KZ999" partNumber="WH-002"/>
+        <descrForPart>Wheel, assembly front</descrForPart>
+      </catalogSeqNumber>
+      <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" assyCode="00" figureNumber="01" figureNumberVariant="A" item="005">
+        <itemSeqNumber>00F</itemSeqNumber>
+        <partRef manufacturerCode="KZ999" partNumber="LRU1001"/>
+        <descrForPart>Brake system</descrForPart>
+      </catalogSeqNumber>
+      <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" assyCode="00" figureNumber="01" figureNumberVariant="A" item="006">
+        <itemSeqNumber>00G</itemSeqNumber>
+        <partRef manufacturerCode="KZ999" partNumber="CP-001"/>
+        <descrForPart>Computer</descrForPart>
+      </catalogSeqNumber>
+    </illustratedPartsCatalog>
+  </content>
+</dmodule>

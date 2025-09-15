@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <intro>
+    <title>DMOD Document</title>
+    <para>The DMOD (Digital Maintenance and Operations Data) document is a digital representation of maintenance and operations data for a specific system or equipment. The purpose of this document is to provide a clear and concise guide for the assembly, installation, and maintenance of the lighting system on a mountain bike.</para>
+  </intro>
+  <systemDesc>
+    <title>System Description</title>
+    <para>The lighting system consists of two main components:</para>
+    <itemizedList>
+      <listItem>Front light</listItem>
+      <listItem>Rear light</listItem>
+    </itemizedList>
+    <para>Both lights are connected to a circuit breaker, which is installed on the handlebar.</para>
+  </systemDesc>
+  <preliminaryRqmts>
+    <title>Preliminary Requirements</title>
+    <para>Before starting the installation process, ensure that the following requirements are met:</para>
+    <itemizedList>
+      <listItem>The bike is stationary</listItem>
+      <listItem>The work area is clear and well-lit</listItem>
+      <listItem>All necessary tools and equipment are available</listItem>
+    </itemizedList>
+    <reqSupportEquips>
+      <title>Required Tools and Equipment</title>
+      <para>The following tools and equipment are required for the installation process:</para>
+      <itemizedList>
+        <listItem>Specialist toolset (BSK-TLST-001)</listItem>
+        <listItem>Screwdriver</listItem>
+        <listItem>Protective strip</listItem>
+        <listItem>Clamp</listItem>
+        <listItem>Washer</listItem>
+        <listItem>Screw</listItem>
+      </itemizedList>
+    </reqSupportEquips>
+  </preliminaryRqmts>
+  <procedure>
+    <title>Installation Procedure</title>
+    <para>The installation procedure consists of several steps, which must be followed in sequence.</para>
+    <proceduralStep>
+      <title>Step 1: Remove Packaging</title>
+      <para>Remove the lighting system from its packaging and ensure that all components are included.</para>
+    </proceduralStep>
+    <proceduralStep>
+      <title>Step 2: Install Front Light Fitting</title>
+      <para>Install the front light fitting on the top of the handlebar.</para>
+      <itemizedList>
+        <listItem>Apply protective strip around the handlebar</listItem>
+        <listItem>Pull the clamp open and put it around the protective strip with the light connector at the top</listItem>
+        <listItem>Install the washer on the screw</listItem>
+        <listItem>Use the correct screwdriver from the specialist toolset and tighten the screw into the hole at the bottom of the clamp</listItem>
+      </itemizedList>
+    </proceduralStep>
+    <proceduralStep>
+      <title>Step 3: Install Rear Light Fitting</title>
+      <para>Install the rear light fitting to the rear triangle of the bike frame.</para>
+      <itemizedList>
+        <listItem>Apply protective strip around one of the two rear triangle up-tubes</listItem>
+        <listItem>Pull the clamp open and put it around the protective strip, making sure the light connector points rearwards</listItem>
+        <listItem>Install the washer on the screw</listItem>
+        <listItem>Use the correct screwdriver from the specialist toolset and tighten the screw into the hole at the bottom of the clamp</listItem>
+      </itemizedList>
+    </proceduralStep>
+    <proceduralStep>
+      <title>Step 4: Connect Lights to Circuit Breaker</title>
+      <para>Connect the lights to the circuit breaker.</para>
+      <itemizedList>
+        <listItem>
+          <para>For Mountain bike Storm type:</para>
+          <itemizedList>
+            <listItem>Install the circuit breaker (CBLGT-1001-R) on the right-hand bike handlebar using the clamping ring</listItem>
+            <listItem>Connect the circuit breaker electrical wire to the rear connector of the front light</listItem>
+            <listItem>Attach the wire to the frame with protective strip</listItem>
+          </itemizedList>
+        </listItem>
+        <listItem>
+          <para>For Mountain bike Trekker type:</para>
+          <itemizedList>
+            <listItem>Install the circuit breaker (CBLGT-1001-L) on the left-hand bike handlebar using the clamping ring</listItem>
+            <listItem>Connect the circuit breaker electrical wire to the rear connector of the front light</listItem>
+            <listItem>Attach the wire to the frame with protective strip</listItem>
+          </itemizedList>
+        </listItem>
+      </itemizedList>
+    </proceduralStep>
+    <figuresAndIllustrations>
+      <title>Figures and Illustrations</title>
+      <para>The following figures illustrate the installation process:</para>
+      <itemizedList>
+        <listItem><xlink:href>ICN-FAPE3-S1000D0101-001-01</xlink:href> [Figure 1: Circuit Breaker (for right side)]</listItem>
+        <listItem><xlink:href>ICN-FAPE3-S1000D0102-001-01</xlink:href> [Figure 2: Circuit Breaker (for left side)]</listItem>
+      </itemizedList>
+    </figuresAndIllustrations>
+  </procedure>
+  <closeRqmts>
+    <title>Closing Requirements</title>
+    <para>After completing the installation process, ensure that the following requirements are met:</para>
+    <itemizedList>
+      <listItem>All tools and equipment are stored properly</listItem>
+      <listItem>The work area is clean and clear of debris</listItem>
+    </itemizedList>
+  </closeRqmts>
+</dmodule>

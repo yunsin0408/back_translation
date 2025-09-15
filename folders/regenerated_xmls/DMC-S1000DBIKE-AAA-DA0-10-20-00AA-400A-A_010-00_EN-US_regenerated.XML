@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>400</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmIdent>
+      <language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>010</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+      <dmTitle>
+        <techName>Front wheel</techName>
+        <infoName>Fault reports and isolation procedures</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </identAndStatusSection>
+  <dmStatus>
+    <issueType>Changed</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </security>
+    <dataRestrictions>
+      <restrictionInstructions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </restrictionInstructions>
+      <restrictionInfo>
+        <copyright>
+          <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+          <publishers>
+            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+            <publisher>Aerospace Industries Association of America</publisher>
+            <publisher>ATA e-Business Program</publisher>
+          </publishers>
+          <limitationsOfLiability>
+            <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+            <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+            <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+          </limitationsOfLiability>
+        </copyright>
+        <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+        <dataConds>There are no known conditions that would change the data restrictions for this data module.</dataConds>
+      </restrictionInfo>
+    </dataRestrictions>
+    <responsibleOrganizations>
+      <enterprise>Not specified</enterprise>
+      <organization>Not specified</organization>
+    </responsibleOrganizations>
+  </dmStatus>
+  <content>
+    <references>
+      <reference>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_010-00_EN-US</reference>
+      <reference>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215-A_010-00_EN-US</reference>
+      <reference>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-921-A_010-00_EN-US</reference>
+    </references>
+    <faultIsolation>
+      <faultIsolationProcedure>
+        <fault>NYCJD04</fault>
+        <faultDescription>Tire does not function correctly</faultDescription>
+        <preliminaryRequirements>
+          <requiredConditionGroup>Not applicable</requiredConditionGroup>
+          <requiredSupportEquipment>
+            <supportEquipment>Tire pressure gauge (KZ666, BSK-TLST-001-01) - 1 EA</supportEquipment>
+            <supportEquipment>Specialist toolset (KZ666, BSK-TLST-001) - 1 EA</supportEquipment>
+          </requiredSupportEquipment>
+          <requiredSupplies>Not applicable</requiredSupplies>
+          <requiredSpares>Not applicable</requiredSpares>
+          <requiredSafety>Not applicable</requiredSafety>
+        </preliminaryRequirements>
+        <isolationMainProcedure>
+          <step>
+            <stepNumber>1</stepNumber>
+            <stepDescription>Use the tire pressure gauge to check the pressure.</stepDescription>
+            <decision>
+              <question>What is the tire pressure reading?</question>
+              <answer>
+                <condition>More than 2700 hPa</condition>
+                <action>Go to Step 2</action>
+              </answer>
+              <answer>
+                <condition>Between 100 hPa and 2700 hPa</condition>
+                <action>Go to Step 3</action>
+              </answer>
+              <answer>
+                <condition>Less than 100 hPa</condition>
+                <action>Go to Step 4</action>
+              </answer>
+            </decision>
+          </step>
+          <step>
+            <stepNumber>2</stepNumber>
+            <stepDescription>Deflate the tire until the pressure is 2700 hPa.</stepDescription>
+          </step>
+          <step>
+            <stepNumber>3</stepNumber>
+            <stepDescription>Inflate the tire as given in DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215-A_010-00_EN-US.</stepDescription>
+          </step>
+          <step>
+            <stepNumber>4</stepNumber>
+            <stepDescription>Check the tire for damage.</stepDescription>
+            <decision>
+              <question>Is there damage to the tire?</question>
+              <answer>
+                <condition>Yes</condition>
+                <action>Go to Step 5</action>
+              </answer>
+              <answer>
+                <condition>No</condition>
+                <action>Go to Step 6</action>
+              </answer>
+            </decision>
+          </step>
+          <step>
+            <stepNumber>5</stepNumber>
+            <stepDescription>Replace the tire (refer to DMC-S1000DBIKE-AAA-DA0-10-20-00AA-921-A_010-00_EN-US).</stepDescription>
+          </step>
+          <step>
+            <stepNumber>6</stepNumber>
+            <stepDescription>Replace the inner-tube (refer to DMC-S1000DBIKE-AAA-DA0-10-10-00AA-921-A_010-00_EN-US).</stepDescription>
+          </step>
+        </isolationMainProcedure>
+        <closeRequirements>
+          <requiredConditionGroup>Not applicable</requiredConditionGroup>
+        </closeRequirements>
+      </faultIsolationProcedure>
+    </faultIsolation>
+  </content>
+</dm>

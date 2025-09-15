@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functionalPhysicalAreaRepository xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+                                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+                                  xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                                  xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <introduction>
+    <title>Functional Physical Area Repository</title>
+    <description>The following is a list of functional physical areas in a bicycle:</description>
+  </introduction>
+  <steeringAndSuspension>
+    <title>Steering and Suspension</title>
+    <description>system that connects the handlebars to the front wheel</description>
+    <subSystems>
+      <handlebars />
+      <stem />
+      <fork />
+    </subSystems>
+    <suspension>
+      <description>system that absorbs shock and vibrations from the road</description>
+      <subSystems>
+        <frontFork />
+        <rearShock />
+      </subSystems>
+    </suspension>
+  </steeringAndSuspension>
+  <drivetrain>
+    <title>Drivetrain</title>
+    <description>system that transmits power from the pedals to the wheels</description>
+    <subSystems>
+      <chainrings />
+      <chain />
+      <cassette />
+      <derailleurs />
+    </subSystems>
+    <gears>
+      <description>system that allows the rider to adjust the difficulty of pedaling</description>
+      <subSystems>
+        <frontDerailleur />
+        <rearDerailleur />
+        <shifters />
+      </subSystems>
+    </gears>
+  </drivetrain>
+  <brakingSystem>
+    <title>Braking System</title>
+    <description>system that slows or stops the bicycle</description>
+    <subSystems>
+      <brakeCalipers />
+      <brakeLevers />
+      <brakePads />
+    </subSystems>
+  </brakingSystem>
+  <wheelsAndTires>
+    <title>Wheels and Tires</title>
+    <wheels>
+      <description>round, rotating components that support the bicycle's weight</description>
+      <subSystems>
+        <rims />
+        <hubs />
+        <spokes />
+      </subSystems>
+    </wheels>
+    <tires>
+      <description>rubber components that provide traction and cushioning</description>
+      <subSystems>
+        <tireTread />
+        <tireSidewall />
+      </subSystems>
+    </tires>
+  </wheelsAndTires>
+  <framesAndForks>
+    <title>Frames and Forks</title>
+    <frames>
+      <description>main structural component of the bicycle</description>
+      <subSystems>
+        <frameTubes />
+        <seatpost />
+        <headset />
+      </subSystems>
+    </frames>
+    <forks>
+      <description>components that connect the front wheel to the frame</description>
+      <subSystems>
+        <forkBlades />
+        <crown />
+      </subSystems>
+    </forks>
+  </framesAndForks>
+  <repositoryStructure>
+    <title>Repository Structure</title>
+    <description>The functional physical area repository is organized into the following categories:</description>
+    <categories>
+      <category>Steering and Suspension</category>
+      <category>Drivetrain</category>
+      <category>Braking System</category>
+      <category>Wheels and Tires</category>
+      <category>Frames and Forks</category>
+    </categories>
+  </repositoryStructure>
+  <exampleUseCases>
+    <title>Example Use Cases</title>
+    <useCase>A bicycle manufacturer wants to create a new model with improved steering and suspension. They can use the repository to identify the relevant components and sub-systems.</useCase>
+    <useCase>A mechanic wants to repair a broken drivetrain component. They can use the repository to locate the specific part and understand its relationship to other components.</useCase>
+  </exampleUseCases>
+</functionalPhysicalAreaRepository>

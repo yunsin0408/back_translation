@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documentation xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+               xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+               xmlns:xlink="http://www.w3.org/1999/xlink" 
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+               xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <section id="s1kd-refs-documentation">
+    <title>s1kd-refs Documentation</title>
+    <subsection id="overview">
+      <title>Overview</title>
+      <para>The s1kd-refs tool is used to list references in CSDB objects. It can read from stdin or take one or more CSDB object(s) as input.</para>
+    </subsection>
+    <subsection id="options">
+      <title>Options</title>
+      <subsubsection id="general-options">
+        <title>General Options</title>
+        <itemizedlist>
+          <listitem>
+            <para>-h, --help: Show help message and exit.</para>
+          </listitem>
+          <listitem>
+            <para>--version: Show version information and exit.</para>
+          </listitem>
+          <listitem>
+            <para>&lt;object&gt;...: CSDB object(s) to list references in. If none are specified, the tool will read from stdin.</para>
+          </listitem>
+        </itemizedlist>
+      </subsubsection>
+      <subsubsection id="reference-matching-options">
+        <title>Reference Matching Options</title>
+        <itemizedlist>
+          <listitem>
+            <para>-H: Enable hotspot matching.</para>
+          </listitem>
+          <listitem>
+            <para>-j &lt;xpath&gt;: Specify a custom XPath expression for hotspot matching.</para>
+          </listitem>
+          <listitem>
+            <para>-K: Enable CSN reference matching.</para>
+          </listitem>
+          <listitem>
+            <para>-b &lt;sns&gt;: Specify the SNS for non-chapterized IPDs.</para>
+          </listitem>
+          <listitem>
+            <para>-k &lt;pattern&gt;: Specify the pattern for the disassembly code variant of IPDs.</para>
+          </listitem>
+        </itemizedlist>
+      </subsubsection>
+      <subsubsection id="output-options">
+        <title>Output Options</title>
+        <itemizedlist>
+          <listitem>
+            <para>-l, --list: Read input from stdin as a list of files.</para>
+          </listitem>
+          <listitem>
+            <para>-n, --no-color: Disable color output.</para>
+          </listitem>
+          <listitem>
+            <para>-q, --quiet: Suppress warning messages.</para>
+          </listitem>
+          <listitem>
+            <para>-v, --verbose: Increase verbosity of output.</para>
+          </listitem>
+        </itemizedlist>
+      </subsubsection>
+      <subsubsection id="xml-parser-options">
+        <title>XML Parser Options</title>
+        <itemizedlist>
+          <listitem>
+            <para>--dtdload: Load the external DTD.</para>
+          </listitem>
+          <listitem>
+            <para>--huge: Remove any internal arbitrary parser limits.</para>
+          </listitem>
+          <listitem>
+            <para>--net: Allow network access to load external DTD and entities.</para>
+          </listitem>
+          <listitem>
+            <para>--noent: Resolve entities.</para>
+          </listitem>
+          <listitem>
+            <para>--parser-errors: Emit errors from parser.</para>
+          </listitem>
+          <listitem>
+            <para>--parser-warnings: Emit warnings from parser.</para>
+          </listitem>
+          <listitem>
+            <para>--xinclude: Do XInclude processing.</para>
+          </listitem>
+          <listitem>
+            <para>--xml-catalog &lt;file&gt;: Use an XML catalog when resolving entities.</para>
+          </listitem>
+        </itemizedlist>
+      </subsubsection>
+    </subsection>
+    <subsection id="exit-status">
+      <title>Exit Status</title>
+      <para>The following exit status codes are used:</para>
+      <itemizedlist>
+        <listitem>
+          <para>0: No errors, all references were matched.</para>
+        </listitem>
+        <listitem>
+          <para>1: Some references were unmatched.</para>
+        </listitem>
+        <listitem>
+          <para>2: The number of objects found in a recursive check exceeded the available memory.</para>
+        </listitem>
+        <listitem>
+          <para>3: stdin did not contain valid XML and not in list mode.</para>
+        </listitem>
+        <listitem>
+          <para>4: The non-chapterized SNS specified is not valid.</para>
+        </listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection id="examples">
+      <title>Examples</title>
+      <subsubsection id="general-example">
+        <title>General Example</title>
+        <screen>$ s1kd-refs DMC-EX-A-00-00-00-00A-040A-D_000-01_EN-CA.XML \
+             DMC-EX-A-00-00-00-00A-022A-D_001-00_EN-CA.XML \
+             DMC-EX-A-01-00-00-00A-040A-D_000-01_EN-CA.XML \
+             ICN-12345-00001-001-01.JPG</screen>
+      </subsubsection>
+      <subsubsection id="csn-reference-example">
+        <title>CSN Reference Example</title>
+        <para>The following examples are based on the CSN reference:</para>
+        <example>
+          <catalogSeqNumberRef figureNumber="01" item="004"/>
+        </example>
+        <para"in the data module:</para>
+        <screen>DM=DMC-EX-A-00-00-00-00AA-100A-D_001-00_EN-CA.XML</screen>
+        <para>Because the CSN reference is not chapterized, it cannot be matched to an IPD DM without more information:</para>
+        <screen>$ s1kd-refs -K $DM
+Unmatched reference: Fig 01 Item 004</screen>
+        <para>The SNS for non-chapterized IPDs can be specified with -b. In this case, the project uses the SNS "ZD-00-35" for their IPDs:</para>
+        <screen>$ s1kd-refs -K -b ZD-00-35 $DM
+Unmatched reference: DMC-EX-A-ZD-00-35-010-941A-D Item 004</screen>
+        <para>This project uses a 2-character disassembly code variant, so the figure number variant is not sufficient to resolve the DMC of the referenced IPD data module. The -k option can be used in this case to specify the pattern for the disassembly code variant of IPDs. Since the second character of the disassembly code variant of all IPD DMs in this project is A, the pattern "%A" can be used:</para>
+        <screen>$ s1kd-refs -K -b ZD-00-35 -k %A $DM
+DMC-EX-A-ZD-00-35-010A-941A-D_001-00_EN-CA.XML Item 004</screen>
+      </subsubsection>
+    </subsection>
+    <subsection id="externalpubs-file">
+      <title>.externalpubs File</title>
+      <para>The .externalpubs file contains definitions of external publication references. This can be used to update external publication references in CSDB objects with -U.</para>
+      <example>
+        <externalPubs>
+          <externalPubRef>
+            <externalPubRefIdent>
+              <externalPubCode>ABC</externalPubCode>
+              <externalPubTitle>ABC Manual</externalPubTitle>
+            </externalPubRefIdent>
+          </externalPubRef>
+        </externalPubs>
+      </example>
+      <para>External publication references will be updated whether they are matched to a file or not.</para>
+    </subsection>
+    <subsection id="hotspot-matching">
+      <title>Hotspot Matching</title>
+      <para>Hotspots can be matched in XML-based ICN formats, such as SVG or X3D. By default, matching is based on the APS ID of the hotspot and the following attributes:</para>
+      <itemizedlist>
+        <listitem>
+          <para>SVG: @id</para>
+        </listitem>
+        <listitem>
+          <para>X3D: @DEF</para>
+        </listitem>
+      </itemizedlist>
+      <para>If hotspots are identified in a different way in a project's ICNs, a custom XPath expression can be specified with the -j option. In this XPath expression, the variable $id represents the hotspot APS ID:</para>
+      <screen>$ s1kd-refs -H -j "//*[@attr = $id]" &lt;DM&gt;</screen>
+    </subsection>
+  </section>
+</documentation>

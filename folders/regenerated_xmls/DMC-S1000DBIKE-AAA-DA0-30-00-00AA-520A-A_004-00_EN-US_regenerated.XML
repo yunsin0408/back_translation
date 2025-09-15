@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>3</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>520</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+        <language>
+          <countryISOCode>US</countryISOCode>
+          <languageISOCode>en</languageISOCode>
+        </language>
+        <issueInfo>
+          <issueNumber>004</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>2024-06-19</issueDate>
+        <dmTitle>
+          <techName>Front wheel</techName>
+          <infoName>Remove procedures</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>status</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStatement>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </dataRestrictions>
+      <restrictionInfo>
+        <copyright>
+          <copyrightStatement>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightStatement>
+          <publishers>
+            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+            <publisher>Aerospace Industries Association of America</publisher>
+            <publisher>ATA e-Business Program</publisher>
+          </publishers>
+          <limitationsOfLiability>
+            <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for a particular purpose.</limitation>
+            <limitation>In no event shall ASD be liable for any damages arising out of the use of this material.</limitation>
+          </limitationsOfLiability>
+        </copyright>
+        <policy>
+          <policyStatement>The details of the policy are not specified in this document.</policyStatement>
+        </policy>
+      </restrictionInfo>
+      <responsibleOrg>
+        <orgName>Not specified</orgName>
+      </responsibleOrg>
+      <applicability>
+        <applic>Mountain bicycle and Mountain storm Mk1</applic>
+        <applic>Mountain bicycle and Brook trekker Mk9</applic>
+      </applicability>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <referencedApplicGroup>
+      <applic>Mountain bicycle and Mountain storm Mk1</applic>
+      <applic>Mountain bicycle and Brook trekker Mk9</applic>
+    </referencedApplicGroup>
+    <warningsAndCautions>
+      <caution>
+        <warningAndCautionPara>Be sure to operate on a white surface in order to prevent loss of parts that could fall on the floor.</warningAndCautionPara>
+      </caution>
+    </warningsAndCautions>
+    <procedure>
+      <preliminaryRqmts>
+        <reqCondGroup>No conditions</reqCondGroup>
+        <reqPersons>Not specified</reqPersons>
+        <reqSupportEquips>
+          <supportEquip>
+            <equipName>Specialist toolset (KZ666, BSK-TLST-001)</equipName>
+            <quantity>1 EA</quantity>
+          </supportEquip>
+        </reqSupportEquips>
+        <reqSupplies>
+          <supply>
+            <supplyName>BIKEOIL 200 (BKO200)</supplyName>
+            <quantity>As Required</quantity>
+          </supply>
+          <supply>
+            <supplyName>EU-OIL3212 compliant oil</supplyName>
+            <quantity>As Required</quantity>
+          </supply>
+        </reqSupplies>
+        <reqSpares>No spares required</reqSpares>
+        <reqSafety>No safety requirements</reqSafety>
+      </preliminaryRqmts>
+      <mainProcedure>
+        <step>
+          <action>Open the light circuit breaker located on the handlebar.</action>
+          <equipRef>
+            <equipName>Bike Lighting circuit breaker (right side) - CBLGT-1001-R</equipName>
+            <zone>131</zone>
+          </equipRef>
+          <equipRef>
+            <equipName>Bike Lighting circuit breaker (left side) - CBLGT-1001-L</equipName>
+            <zone>132</zone>
+          </equipRef>
+        </step>
+        <step>
+          <action>Hold the front of the bicycle.</action>
+        </step>
+        <step>
+          <action>Use the Specialist toolset to disengage the fork from the chainring by pushing the wheel forwards and down.</action>
+          <caution>Be sure to operate on a white surface in order to prevent loss of parts that could fall on the floor.</caution>
+          <figureRef>
+            <figureName>Wheel illustration (ICN-C0419-S1000D0372-001-01)</figureName>
+          </figureRef>
+        </step>
+        <step>
+          <action>Use specific oil (BIKEOIL 200) if the fork does not disengage easily.</action>
+        </step>
+        <step>
+          <action>If not available, use any oil compliant with requirements (EU-OIL3212).</action>
+        </step>
+        <step>
+          <action>Lift the wheel away from the frame.</action>
+        </step>
+        <step>
+          <action>Put the frame on the floor.</action>
+        </step>
+      </mainProcedure>
+      <closeRqmts>
+        <reqCondGroup>No conditions</reqCondGroup>
+      </closeRqmts>
+    </procedure>
+  </content>
+</dm>

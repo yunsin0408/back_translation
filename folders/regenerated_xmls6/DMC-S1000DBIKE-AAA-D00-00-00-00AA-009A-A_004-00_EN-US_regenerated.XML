@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <title>Table of Contents</title>
+    <frontMatter>
+        <tableOfContents>
+            <tocList>
+                <item>
+                    <title>Stem and Handlebar</title>
+                    <task>Remove and install stem and handlebar (app-001)</task>
+                    <task>Remove and install new item (app-001)</task>
+                </item>
+                <item>
+                    <title>Headset</title>
+                    <description>Description of how it is made (app-001)</description>
+                </item>
+                <item>
+                    <title>Front Forks</title>
+                    <description>Description of how it is made (app-001)</description>
+                </item>
+                <item>
+                    <title>Wheels</title>
+                    <task>Oil (app-006)</task>
+                    <task>Clean with chemical agent (app-001)</task>
+                </item>
+                <item>
+                    <title>Brakes</title>
+                    <description>Description of how it is made (app-001)</description>
+                </item>
+                <item>
+                    <title>Gears</title>
+                    <description>Description of how it is made (app-001)</description>
+                </item>
+                <item>
+                    <title>Drivetrain</title>
+                    <description>Description of how it is made (app-001)</description>
+                    <task>Correlated fault (app-001)</task>
+                </item>
+                <item>
+                    <title>Chain</title>
+                    <task>Oil (app-006)</task>
+                    <task>Clean with chemical agent (app-001)</task>
+                </item>
+                <item>
+                    <title>Hubs</title>
+                    <task>Clean with chemical agent (app-001)</task>
+                </item>
+                <item>
+                    <title>Shifters</title>
+                    <description>Description of how it is made (app-001)</description>
+                </item>
+            </tocList>
+        </tableOfContents>
+    </frontMatter>
+    <systemsAndComponents>
+        <system>
+            <title>Stem and Handlebar</title>
+        </system>
+        <system>
+            <title>Headset</title>
+        </system>
+        <system>
+            <title>Front Forks</title>
+        </system>
+        <system>
+            <title>Wheels</title>
+        </system>
+        <system>
+            <title>Brakes</title>
+        </system>
+        <system>
+            <title>Gears</title>
+        </system>
+        <system>
+            <title>Drivetrain</title>
+        </system>
+        <system>
+            <title>Chain</title>
+        </system>
+        <system>
+            <title>Hubs</title>
+        </system>
+        <system>
+            <title>Shifters</title>
+        </system>
+    </systemsAndComponents>
+    <maintenanceAndRepair>
+        <description>The document suggests it covers both descriptive information about the parts (how they are made) and procedural information (how to remove, install, clean, etc.). This indicates the manual is designed for both educational purposes (to understand the bike's components) and practical use (for maintenance and repair).</description>
+    </maintenanceAndRepair>
+    <languageAndRegion>
+        <language>English</language>
+        <region>US</region>
+    </languageAndRegion>
+</proced>

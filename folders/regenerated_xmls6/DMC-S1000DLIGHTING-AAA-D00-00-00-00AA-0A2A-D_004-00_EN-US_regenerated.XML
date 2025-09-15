@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>D00</systemCode>
+                <subSystemCode>0</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>0A2</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>D</itemLocationCode>
+                <language>
+                    <languageIsoCode>en</languageIsoCode>
+                    <countryIsoCode>US</countryIsoCode>
+                </language>
+                <issueInfo>
+                    <issueNumber>004</issueNumber>
+                    <inWork>00</inWork>
+                </issueInfo>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate>
+                    <year>2024</year>
+                    <month>06</month>
+                    <day>19</day>
+                </issueDate>
+                <dmTitle>
+                    <techName>Lighting</techName>
+                    <infoName>Applicability common information repository</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <issueType>changed</issueType>
+            <security>
+                <securityClassification>01</securityClassification>
+                <commercialClassification>cc51</commercialClassification>
+                <caveat>cv51</caveat>
+            </security>
+            <dataRestrictions>
+                <restrictionInstructions>
+                    <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+                    <exportControl>
+                        <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+                    </exportControl>
+                    <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+                    <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+                    <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+                </restrictionInstructions>
+                <restrictionInfo>
+                    <copyright>
+                        <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+                        <publishers>
+                            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+                            <publisher>Aerospace Industries Association of America</publisher>
+                            <publisher>ATA e-Business Program</publisher>
+                        </publishers>
+                        <limitationsOfLiability>
+                            <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation of this material makes any warranty or representation, express or implied, with respect to the accuracy or completeness of the information contained herein.</limitation>
+                            <limitation>Neither ASD nor any person who has contributed to the creation of this material shall be liable for any damages, whether direct, indirect, incidental, special, or consequential, arising out of or in connection with the use of this information.</limitation>
+                        </limitationsOfLiability>
+                        <note>The above list is not exhaustive and is subject to change without notice.</note>
+                    </copyright>
+                    <note>The details under Restriction Info are provided as per the original XML and may need further clarification or modification based on actual requirements.</note>
+                </restrictionInfo>
+            </dataRestrictions>
+            <responsibleEnterprise>
+                <enterpriseName>Not specified in the provided XML</enterpriseName>
+            </responsibleEnterprise>
+            <applicMapRefIds>
+                <applicMapRefId"Not applicable at this level"</applicMapRefId>
+            </applicMapRefIds>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <referencedApplicGroup>
+            <applicSpec id="App-0001">
+                <displayText>Mountain bicycle and Mountain storm Mk1</displayText>
+                <evalLogic>(type = "Mountain bicycle") AND (model = "Mountain storm") AND (version = "Mk1")</evalLogic>
+            </applicSpec>
+            <applicSpec id="App-0002">
+                <displayText>Mountain bicycle and Brook trekker Mk9</displayText>
+                <evalLogic>(type = "Mountain bicycle") AND ((model = "Mountain storm") AND (version = "Mk1")) OR ((model = "Brook trekker") AND (version = "Mk9"))</evalLogic>
+            </applicSpec>
+            <applicSpec id="App-0003">
+                <displayText>Mountain bicycle and Mountain storm Mk1</displayText>
+                <evalLogic>(type = "Mountain bicycle") AND (model = "Mountain storm") AND (version = "Mk1")</evalLogic>
+            </applicSpec>
+            <applicSpec id="App-0004">
+                <displayText>Mountain bicycle and Brook trekker Mk9</displayText>
+                <evalLogic>(type = "Mountain bicycle") AND (model = "Brook trekker") AND (version = "Mk9")</evalLogic>
+            </applicSpec>
+        </referencedApplicGroup>
+        <commonRepository>
+            <applicRepository>
+                <applicSpec id="Appsp-00001">
+                    <applicMapRefId>app-0002</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA056A-0000</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00002">
+                    <applicMapRefId>app-0002</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA056A-0001</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00003">
+                    <applicMapRefId>app-0002</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA022A-0000</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00004">
+                    <applicMapRefId>app-0002</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA029A-0000</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00005">
+                    <applicMapRefId>app-0002</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA040A-0000</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00006">
+                    <applicMapRefId>app-0001</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA057A-0000</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00007">
+                    <applicMapRefId>app-0001</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA057A-0001</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00008">
+                    <applicMapRefId>app-0001</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA058A-0000</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00009">
+                    <applicMapRefId>app-0001</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA058A-0001</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00010">
+                    <applicMapRefId>app-0001</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA341A-0000</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00011">
+                    <applicMapRefId>app-0001</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA342A-0001</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00012">
+                    <applicMapRefId>app-0002</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA031A-0000</applicSpecIdent>
+                </applicSpec>
+                <applicSpec id="Appsp-00013">
+                    <applicMapRefId>app-0002</applicMapRefId>
+                    <applicSpecIdent>app-00000000AA031A-0001</applicSpecIdent>
+                </applicSpec>
+            </applicRepository>
+        </commonRepository>
+    </content>
+</dm>

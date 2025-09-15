@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <title>S1KD Reference Tool</title>
+  <section>
+    <title>Overview</title>
+    <para>The S1KD reference tool is designed to generate references for various types of documents and entities in the S1000D standard. This tool supports multiple reference types, including data modules, comments, information control numbers, publication modules, SCORM content packages, and external publications.</para>
+  </section>
+  <section>
+    <title>Command-Line Options</title>
+    <para>The following command-line options are available:</para>
+    <itemizedlist>
+      <listitem><para>-d: Include all information (data module code, issue info, language, title, and date) in the reference.</para></listitem>
+      <listitem><para>-i: Include issue info (issue number and in-work) in the reference.</para></listitem>
+      <listitem><para>-l: Include language info (language ISO code and country ISO code) in the reference.</para></listitem>
+      <listitem><para>-t: Include title info (technical name and information name) in the reference.</para></listitem>
+      <listitem><para>-u: Include URL or filename of the referenced document.</para></listitem>
+      <listitem><para>-S: Generate a source identification for a data module, publication module, or SCORM content package.</para></listitem>
+      <listitem><para>-R: Generate a repository source identification for a CIR data module.</para></listitem>
+    </itemizedlist>
+  </section>
+  <section>
+    <title>Reference Types</title>
+    <para>The tool supports the following reference types:</para>
+    <orderedlist>
+      <listitem><para>Data Module (DM): A data module is a self-contained unit of information that describes a specific aspect of an aircraft or system.</para></listitem>
+      <listitem><para>Comment: A comment is a response to a data module or other document, providing additional context or clarification.</para></listitem>
+      <listitem><para>Information Control Number (ICN): An ICN is a unique identifier assigned to a document or set of documents for tracking and control purposes.</para></listitem>
+      <listitem><para>Publication Module (PM): A publication module is a collection of data modules and other information that comprise a published document, such as a manual or guide.</para></listitem>
+      <listitem><para>SCORM Content Package: A SCORM content package is a self-contained unit of learning content that can be delivered through an LMS.</para></listitem>
+      <listitem><para>External Publication: An external publication is a document or resource that is not part of the S1000D standard but may be referenced within it.</para></listitem>
+    </orderedlist>
+  </section>
+  <section>
+    <title>Examples</title>
+    <subsection>
+      <title>Data Module Reference</title>
+      <para>s1kd-ref -d DMC-EX-A-00-00-00-00A-040A-D_001-03_EN-CA.XML</para>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode modelIdentCode="EX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+          <issueInfo issueNumber="001" inWork="03"/>
+          <language languageIsoCode="en" countryIsoCode="CA"/>
+        </dmRefIdent>
+        <dmRefAddressItems>
+          <dmTitle>
+            <techName>Example</techName>
+            <infoName>Description</infoName>
+          </dmTitle>
+          <issueDate year="2018" month="06" day="25"/>
+        </dmRefAddressItems>
+      </dmRef>
+    </subsection>
+    <subsection>
+      <title>Comment Reference</title>
+      <para>s1kd-ref COM-EX-12345-2018-00001-Q</para>
+      <commentRef>
+        <commentRefIdent>
+          <commentCode modelIdentCode="EX" senderIdent="12345" yearOfDataIssue="2018" seqNumber="00001" commentType="q"/>
+        </commentRefIdent>
+      </commentRef>
+    </subsection>
+    <subsection>
+      <title>Information Control Number Reference</title>
+      <para>s1kd-ref ICN-EX-A-000000-A-00001-A-001-01</para>
+      <infoEntityRef infoEntityRefIdent="ICN-EX-A-000000-A-00001-A-001-01"/>
+    </subsection>
+    <subsection>
+      <title>Publication Module Reference</title>
+      <para>s1kd-ref PMC-EX-12345-00001-00</para>
+      <pmRef>
+        <pmRefIdent>
+          <pmCode modelIdentCode="EX" pmIssuer="12345" pmNumber="00001" pmVolume="00"/>
+        </pmRefIdent>
+      </pmRef>
+    </subsection>
+    <subsection>
+      <title>SCORM Content Package Reference</title>
+      <para>s1kd-ref SMC-EX-12345-00001-00</para>
+      <scormContentPackageRef>
+        <scormContentPackageRefIdent>
+          <scormContentPackageCode modelIdentCode="EX" scormContentPackageIssuer="12345" scormContentPackageNumber="00001" scormContentPackageVolume="00"/>
+        </scormContentPackageRefIdent>
+      </scormContentPackageRef>
+    </subsection>
+    <subsection>
+      <title>External Publication Reference</title>
+      <para>s1kd-ref ABC</para>
+      <externalPubRef>
+        <externalPubRefIdent>
+          <externalPubCode>ABC</externalPubCode>
+        </externalPubRefIdent>
+      </externalPubRef>
+    </subsection>
+  </section>
+  <section>
+    <title>Source Identification</title>
+    <para>The tool can generate source identification for data modules, publication modules, and SCORM content packages using the -S option.</para>
+    <subsection>
+      <title>Data Module Source Identification</title>
+      <para>s1kd-ref -S DMC-EX-A-00-00-00-00A-040A-D_001-03_EN-CA.XML</para>
+      <sourceDmIdent>
+        <dmCode modelIdentCode="EX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+        <language languageIsoCode="en" countryIsoCode="CA"/>
+        <issueInfo issueNumber="001" inWork="03"/>
+      </sourceDmIdent>
+    </subsection>
+    <subsection>
+      <title>Publication Module Source Identification</title>
+      <para>s1kd-ref -S PMC-EX-12345-00001-00_001-03_EN-CA.XML</para>
+      <sourcePmIdent>
+        <pmCode modelIdentCode="EX" pmIssuer="12345" pmNumber="00001" pmVolume="00"/>
+        <language languageIsoCode="en" countryIsoCode="CA"/>
+        <issueInfo issueNumber="001" inWork="03"/>
+      </sourcePmIdent>
+    </subsection>
+    <subsection>
+      <title>SCORM Content Package Source Identification</title>
+      <para>s1kd-ref -S SMC-EX-12345-00001-00_001-03_EN-CA.XML</para>
+      <sourceScormContentPackageIdent>
+        <scormContentPackageCode modelIdentCode="EX" scormContentPackageIssuer="12345" scormContentPackageNumber="00001" scormContentPackageVolume="00"/>
+        <language languageIsoCode="en" countryIsoCode="CA"/>
+        <issueInfo issueNumber="001" inWork="03"/>
+      </sourceScormContentPackageIdent>
+    </subsection>
+    <subsection>
+      <title>Repository Source Identification</title>
+      <para>s1kd-ref -R DMC-EX-A-00-00-00-00A-00GA-D_001-03_EN-CA.XML</para>
+      <repositorySourceDmIdent>
+        <dmCode modelIdentCode="EX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="00G" infoCodeVariant="A" itemLocationCode="D"/>
+        <language languageIsoCode="en" countryIsoCode="CA"/>
+        <issueInfo issueNumber="001" inWork="03"/>
+      </repositorySourceDmIdent>
+    </subsection>
+  </section>
+</root>

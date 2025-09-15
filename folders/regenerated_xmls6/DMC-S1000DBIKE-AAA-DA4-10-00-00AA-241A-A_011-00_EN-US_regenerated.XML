@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <introduction>
+    <title>S1000D Procedure Document</title>
+    <para>The following is an S1000D procedure for lubricating a bicycle chain. This document provides step-by-step instructions on how to apply penetrating lubricant and lubricate the chain.</para>
+  </introduction>
+  <preliminary-requirements>
+    <personnel>
+      <item>One mechanic with knowledge of bicycle maintenance</item>
+    </personnel>
+    <support-equipment>
+      <item>Clean dry cloth (KZ666, BSK-TLST-001-12)</item>
+      <item>Floor covering (KK999, PPP-001)</item>
+    </support-equipment>
+    <supplies>
+      <item>ACME sticky lube 52B (KZ222, LL-007) for wet conditions</item>
+      <item>AECMA Heavy duty Oil 1988 (B6865, HD1988) for dry conditions</item>
+    </supplies>
+    <safety-requirements>
+      <item>Wear protective gloves when handling lubricants</item>
+      <item>Work in a well-ventilated area</item>
+      <item>Avoid getting lubricant on skin or eyes</item>
+      <item>If swallowed, seek immediate medical attention</item>
+    </safety-requirements>
+  </preliminary-requirements>
+  <procedure>
+    <step id="Step1">
+      <title>Apply Penetrating Lubricant</title>
+      <para>Apply penetrating lubricant to moving parts of the bicycle:</para>
+      <item>Derailleur pivots (refer to <xref linkend="derailleur-pivots">Derailleur Pivots</xref>)</item>
+      <item>Derailleur tension (refer to <xref linkend="derailleur-tension">Derailleur Tension</xref>)</item>
+      <item>Brake lever pivots (refer to <xref linkend="brake-lever-pivots">Brake Lever Pivots</xref>)</item>
+      <figure id="derailleur-pivots">
+        <title>Derailleur Pivots</title>
+        <graphic fileref="ICN-C0419-S1000D0398-001-01"/>
+      </figure>
+      <figure id="derailleur-tension">
+        <title>Derailleur Tension</title>
+        <graphic fileref="ICN-C0419-S1000D0399-001-01"/>
+      </figure>
+      <figure id="brake-lever-pivots">
+        <title>Brake Lever Pivots</title>
+        <graphic fileref="ICN-C0419-S1000D0383-001-01"/>
+      </figure>
+    </step>
+    <step id="Step2">
+      <title>Lubricate the Chain</title>
+      <para>Lubricate the chain:</para>
+      <item>Make sure the chain is clean and dry.</item>
+      <item>Put floor covering under the chain to catch any excess lubricant.</item>
+      <item>Apply lubricant to each roller of the chain (refer to <xref linkend="chain-lubrication">Chain Lubrication</xref>)</item>
+      <figure id="chain-lubrication">
+        <title>Chain Lubrication</title>
+        <graphic fileref="ICN-C0419-S1000D0395-001-01"/>
+      </figure>
+      <para>For dry conditions, use AECMA Heavy duty Oil 1988. For wet conditions, use ACME sticky lube 52B. Apply a small quantity of lubricant to each roller.</para>
+    </step>
+    <step id="Step3">
+      <title>Check Lubricated Parts</title>
+      <para>Check the following parts and clean any excess lubricant:</para>
+      <item>Rear wheel rim</item>
+      <item>Chain (refer to <xref linkend="chain-lubrication">Chain Lubrication</xref>)</item>
+      <item>Other moving parts</item>
+    </step>
+  </procedure>
+  <closing-requirements>
+    <para>No specific closing requirements are necessary for this procedure.</para>
+  </closing-requirements>
+  <figures>
+    <figure>
+      <title>Derailleur Pivots</title>
+      <graphic fileref="ICN-C0419-S1000D0398-001-01"/>
+    </figure>
+    <figure>
+      <title>Derailleur Tension</title>
+      <graphic fileref="ICN-C0419-S1000D0399-001-01"/>
+    </figure>
+    <figure>
+      <title>Brake Lever Pivots</title>
+      <graphic fileref="ICN-C0419-S1000D0383-001-01"/>
+    </figure>
+    <figure>
+      <title>Chain Lubrication</title>
+      <graphic fileref="ICN-C0419-S1000D0395-001-01"/>
+    </figure>
+  </figures>
+</proced>

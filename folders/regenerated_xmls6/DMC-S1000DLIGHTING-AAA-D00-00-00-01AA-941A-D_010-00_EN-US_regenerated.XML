@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<illustratedPartsCatalog xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+                         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+                         xmlns:xlink="http://www.w3.org/1999/xlink" 
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <catalogSeqNumber indenture="1" systemCode="SYS001" subSystemCode="SUB001" assyCode="ASSY001" figureNumber="FIG001" item="LRU2010">
+        <itemSeqNumber>
+            <reasonForSelection>Illustrated part</reasonForSelection>
+            <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+        </itemSeqNumber>
+        <partRef>
+            <manufacturer>MAN001</manufacturer>
+            <partNumber>PART001</partNumber>
+        </partRef>
+        <partLocationSegment>
+            <attachStoreShipPart>Attach</attachStoreShipPart>
+            <descrForLocation>Main assembly</descrForLocation>
+        </partLocationSegment>
+        <locationRcmdSegment>
+            <locationRcmd>Service maintainability: High</locationRcmd>
+        </locationRcmdSegment>
+    </catalogSeqNumber>
+    <catalogSeqNumber indenture="1" systemCode="SYS001" subSystemCode="SUB001" assyCode="ASSY002" figureNumber="FIG002" item="LIRUS-B1-12F">
+        <itemSeqNumber>
+            <reasonForSelection>Illustrated part</reasonForSelection>
+            <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+        </itemSeqNumber>
+        <partRef>
+            <manufacturer>MAN002</manufacturer>
+            <partNumber>PART002</partNumber>
+        </partRef>
+        <partLocationSegment>
+            <attachStoreShipPart>Store</attachStoreShipPart>
+            <descrForLocation>Sub-assembly</descrForLocation>
+        </partLocationSegment>
+        <locationRcmdSegment>
+            <locationRcmd>Service maintainability: Medium</locationRcmd>
+        </locationRcmdSegment>
+    </catalogSeqNumber>
+    <catalogSeqNumber indenture="1" systemCode="SYS001" subSystemCode="SUB002" assyCode="ASSY003" figureNumber="FIG003" item="LIRUS-G1-10H">
+        <itemSeqNumber>
+            <reasonForSelection>Illustrated part</reasonForSelection>
+            <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+        </itemSeqNumber>
+        <partRef>
+            <manufacturer>MAN003</manufacturer>
+            <partNumber>PART003</partNumber>
+        </partRef>
+        <partLocationSegment>
+            <attachStoreShipPart>Ship</attachStoreShipPart>
+            <descrForLocation>Assembly</descrForLocation>
+        </partLocationSegment>
+        <locationRcmdSegment>
+            <locationRcmd>Service maintainability: Low</locationRcmd>
+        </locationRcmdSegment>
+    </catalogSeqNumber>
+</illustratedPartsCatalog>

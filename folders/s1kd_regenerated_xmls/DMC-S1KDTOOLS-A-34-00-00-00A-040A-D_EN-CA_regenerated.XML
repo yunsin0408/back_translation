@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>34</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>040</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmIdent>
+      <language>
+        <languageISOCode>en</languageISOCode>
+        <countryISOCode>CA</countryISOCode>
+      </language>
+      <issueInfo>
+        <issueNumber>012</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+      <dmAddressItems>
+        <issueDate>
+          <year>2020</year>
+          <month>09</month>
+          <day>01</day>
+        </issueDate>
+        <dmTitle>
+          <techName>s1kd-sns</techName>
+          <infoName>Description</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+      </security>
+      <responsiblePartnerCompany>
+        <enterpriseName>khzae.net</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>khzae.net</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>All</displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode>
+              <modelIdentCode>S1KDTOOLS</modelIdentCode>
+              <systemDiffCode>A</systemDiffCode>
+              <systemCode>00</systemCode>
+              <subSystemCode>0</subSystemCode>
+              <subSubSystemCode>0</subSubSystemCode>
+              <assyCode>00</assyCode>
+              <disassyCode>00</disassyCode>
+              <disassyCodeVariant>A</disassyCodeVariant>
+              <infoCode>022</infoCode>
+              <infoCodeVariant>A</infoCodeVariant>
+              <itemLocationCode>D</itemLocationCode>
+            </dmCode>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified />
+      </qualityAssurance>
+      <reasonForUpdate>
+        <id>rfu-xml-catalog</id>
+        <updateHighlight>1</updateHighlight>
+        <updateReasonType>urt02</updateReasonType>
+        <simplePara>Add --xml-catalog parser option.</simplePara>
+      </reasonForUpdate>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <general>
+        <para>The s1kd-sns tool can be used to automatically organize data modules in a CSDB into a directory hierarchy based on a specified SNS structure. It may also be used to simply print an indented text version of an SNS structure.</para>
+      </general>
+      <usage>
+        <command>s1kd-sns [-D &lt;dir&gt;} [-d &lt;dir&gt;} [-cmnpsh?] [&lt;BREX&gt; ...]</command>
+      </usage>
+      <options>
+        <option>
+          <name>-c, --copy</name>
+          <description>Copy files into the SNS subfolders instead of linking them.</description>
+        </option>
+        <option>
+          <name>-D, --srcdir &lt;dir&gt;</name>
+          <description>The flat directory containing the data modules to organize. By default, the current directory is used.</description>
+        </option>
+        <option>
+          <name>-d, --outdir &lt;dir&gt;</name>
+          <description>The root directory of the new SNS structure. By default, the tool will use the name "SNS" in the current directory.</description>
+        </option>
+        <option>
+          <name>-h, -?, --help</name>
+          <description>Show usage message.</description>
+        </option>
+        <option>
+          <name>-m, --move</name>
+          <description>Move files into the SNS subfolders instead of linking them.</description>
+        </option>
+        <option>
+          <name>-n, --only-code</name>
+          <description>Use only the SNS codes when naming directories. By default, each directory will be named in the form of "snsCode - snsTitle".</description>
+        </option>
+        <option>
+          <name>-p, --print</name>
+          <description>Print the SNS structure only.</description>
+        </option>
+        <option>
+          <name>-s, --symlink</name>
+          <description>Use symbolic links to organize the SNS instead of the default hard links.</description>
+        </option>
+        <option>
+          <name>--version</name>
+          <description>Show version information.</description>
+        </option>
+        <option>
+          <name>&lt;BREX&gt;</name>
+          <description>Read the SNS structure from the specified BREX data module. If none is specified, the tool will read from stdin.</description>
+        </option>
+        <option>
+          <name>--dtdload</name>
+          <description>Load the external DTD.</description>
+        </option>
+        <option>
+          <name>--huge</name>
+          <description>Remove any internal arbitrary parser limits.</description>
+        </option>
+        <option>
+          <name>--net</name>
+          <description>Allow network access to load external DTD and entities.</description>
+        </option>
+        <option>
+          <name>--noent</name>
+          <description>Resolve entities.</description>
+        </option>
+        <option>
+          <name>--parser-errors</name>
+          <description>Emit errors from parser.</description>
+        </option>
+        <option>
+          <name>--parser-warnings</name>
+          <description>Emit warnings from parser.</description>
+        </option>
+        <option>
+          <name>--xinclude</name>
+          <description>Do XInclude processing.</description>
+        </option>
+        <option>
+          <name>--xml-catalog &lt;file&gt;</name>
+          <description>Use an XML catalog when resolving entities. Multiple catalogs may be loaded by specifying this option multiple times.</description>
+        </option>
+      </options>
+      <example>
+        <para>s1kd-sns DMC-S1000D-A-08-02-0100-00A-022A-D_EN-US.XML</para>
+        <para>$ tree SNS</para>
+        <para>SNS</para>
+        <para>|_ 00 - Product, General</para>
+        <para>   |_ 0 - Product, General</para>
+        <para>   |_ 1 - Product, General maintenance</para>
+        <para>   |_ 2 - Product, Safety</para>
+        <para>   |</para>
+        <para>|_ 04 - Worthiness (fit for purpose) limitations</para>
+        <para>   |_ 0 - General</para>
+        <para>   |_ 1 - Fatigue index calculations</para>
+        <para>   |_ 2 - Operating spectrums</para>
+        <para>|_ 05 - Scheduled/unscheduled maintenance</para>
+        <para>   |_ 0 - General</para>
+        <para>   |_ 1 - Time limits</para>
+        <para>   |_ 2 - Scheduled maintenance check lists</para>
+        <para>...</para>
+        <para>|_ 18 - Vibration and noise analysis and attenuation</para>
+      </example>
+    </description>
+  </content>
+</dm>

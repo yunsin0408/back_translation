@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descript xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <introduction>
+        <para>The maintenance planning document is a critical component of any maintenance program. It outlines the necessary procedures, tools, and resources required to perform routine maintenance tasks.</para>
+    </introduction>
+    <maintenanceAllocation>
+        <group>
+            <groupNumber>0900</groupNumber>
+            <componentAssy>Brakes - Gears</componentAssy>
+            <maintQualifier>
+                <function>ft01</function>
+                <maintLevelCode>ml01</maintLevelCode>
+                <specialToolsRequired>tl001, tl004</specialToolsRequired>
+            </maintQualifier>
+        </group>
+        <group>
+            <groupNumber>1005</groupNumber>
+            <componentAssy>Brakes - Pads</componentAssy>
+            <maintQualifier>
+                <function>ft01</function>
+                <maintLevelCode>ml01</maintLevelCode>
+                <specialToolsRequired>tl001, tl004</specialToolsRequired>
+            </maintQualifier>
+        </group>
+    </maintenanceAllocation>
+    <toolsList>
+        <tool>
+            <toolNumber>tool-001</toolNumber>
+            <id>tl001</id>
+            <natoStockNumber>4920-99-123-4567</natoStockNumber>
+            <maintLevelCode>ml01</maintLevelCode>
+            <description>Specialist Toolset</description>
+        </tool>
+        <tool>
+            <toolNumber>tool-002</toolNumber>
+            <id>tl002</id>
+            <maintLevelCode>ml01</maintLevelCode>
+            <description>Foot Pump</description>
+        </tool>
+        <tool>
+            <toolNumber>tool-003</toolNumber>
+            <id>tl003</id>
+            <maintLevelCode>ml01</maintLevelCode>
+            <description>Patch Kit</description>
+        </tool>
+        <tool>
+            <toolNumber>tool-004</toolNumber>
+            <id>tl004</id>
+            <maintLevelCode>ml01</maintLevelCode>
+            <description>Allen Wrench Set</description>
+        </tool>
+        <tool>
+            <toolNumber>tool-005</toolNumber>
+            <id>tl005</id>
+            <maintLevelCode>ml01</maintLevelCode>
+            <description>Tire Lever</description>
+        </tool>
+        <tool>
+            <toolNumber>tool-006</toolNumber>
+            <id>tl006</id>
+            <maintLevelCode>ml01</maintLevelCode>
+            <description>Tire Pressure Gauge</description>
+        </tool>
+        <tool>
+            <toolNumber>tool-007</toolNumber>
+            <id>tl007</id>
+            <maintLevelCode>ml02</maintLevelCode>
+            <description>Test Stand</description>
+        </tool>
+    </toolsList>
+    <remarksList>
+        <remark>
+            <remarkCode>A1</remarkCode>
+            <description>Headlight not installed</description>
+        </remark>
+    </remarksList>
+</descript>

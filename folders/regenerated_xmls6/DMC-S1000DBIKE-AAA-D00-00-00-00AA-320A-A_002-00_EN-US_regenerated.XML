@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <dmCode>S1000DBIKE</dmCode>
+                <issue>002</issue>
+                <revision>A</revision>
+                <language>English</language>
+                <issueDate"Not specified in the XML"</issueDate>
+            </dmIdent>
+            <dmAddressItems>
+            </dmAddressItems>
+        </dmAddress>
+    </identAndStatusSection>
+    <content>
+        <preliminaryRqmts>
+            <requiredSupportEquipment>
+                <supportEquipment>Torque wrench</supportEquipment>
+                <supportEquipment>Tire pressure gauge</supportEquipment>
+                <supportEquipment>Wheel truing stand (optional)</supportEquipment>
+            </requiredSupportEquipment>
+            <requiredSupplies>
+            </requiredSupplies>
+            <requiredSpares>
+            </requiredSpares>
+            <safetyPrecautions>
+                <precaution>Wear protective gloves and safety glasses when working with tools and equipment</precaution>
+            </safetyPrecautions>
+        </preliminaryRqmts>
+        <checkListInfo>
+            <checklistProcedure>
+                <step>
+                    <description>Check Condition of the Bike</description>
+                    <instruction>Before every ride, inspect the bike for any visible damage or issues.</instruction>
+                </step>
+                <step>
+                    <description>Check All Fasteners</description>
+                    <instruction>Ensure all fasteners are tightened according to the manufacturer's specifications. If any fasteners are loose, tighten them accordingly.</instruction>
+                </step>
+                <step>
+                    <description>Lift the Front Wheel Off the Ground</description>
+                    <instruction>Lift the front wheel off the ground 2-3 inches and let it bounce on the ground. Check for any unusual noises or movements.</instruction>
+                </step>
+                <step>
+                    <description>Check Tire Pressure</description>
+                    <instruction>Ensure the tire pressure is within the recommended range specified on the side of the tire. If the pressure is too high, release air until it reaches the maximum recommended pressure. If the pressure is too low, add air until it reaches the recommended pressure.</instruction>
+                </step>
+                <step>
+                    <description>Inspect Tire for Cuts or Cracks</description>
+                    <instruction>Visually inspect the tire for any cuts or cracks. If any damage is found, replace the tire before riding.</instruction>
+                </step>
+                <step>
+                    <description>Ensure Wheels Are True Spinning</description>
+                    <instruction>Spin the wheels to ensure they are true and do not wobble. If the wheels are not true, have them serviced by a professional mechanic.</instruction>
+                </step>
+                <step>
+                    <description>Inspect Tire Rims for Wear</description>
+                    <instruction>Check the rim for any visible wear indicator marks. If the rim is worn, replace it before riding.</instruction>
+                </step>
+                <step>
+                    <description>Squeeze the Brake Levers</description>
+                    <instruction>Squeeze the brake levers to ensure they engage properly. If the brakes do not engage within 1 inch of lever movement, adjust them according to the manufacturer's specifications.</instruction>
+                </step>
+            </checklistProcedure>
+            <checklistItems>
+                <item>
+                    <step>1</step>
+                    <description>Check condition of the bike</description>
+                    <status></status>
+                </item>
+                <item>
+                    <step>2</step>
+                    <description>Check all fasteners</description>
+                    <status></status>
+                </item>
+                <item>
+                    <step>3</step>
+                    <description>Lift the front wheel off the ground</description>
+                    <status></status>
+                </item>
+                <item>
+                    <step>4</step>
+                    <description>Check tire pressure</description>
+                    <status></status>
+                </item>
+                <item>
+                    <step>5</step>
+                    <description>Inspect tire for cuts or cracks</description>
+                    <status></status>
+                </item>
+                <item>
+                    <step>6</step>
+                    <description>Ensure wheels are true spinning</description>
+                    <status></status>
+                </item>
+                <item>
+                    <step>7</step>
+                    <description>Inspect tire rims for wear</description>
+                    <status></status>
+                </item>
+                <item>
+                    <step>8</step>
+                    <description>Squeeze the brake levers</description>
+                    <status></status>
+                </item>
+            </checklistItems>
+        </checkListInfo>
+    </content>
+</proced>

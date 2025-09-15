@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identAndStatus>
+    <moduleTitle>Not specified</moduleTitle>
+    <moduleIdentifier>Not specified</moduleIdentifier>
+    <revisionNumber>Not specified</revisionNumber>
+    <issueDate>Not specified</issueDate>
+    <enterpriseIdentifier>Not specified</enterpriseIdentifier>
+    <documentIdentifier>Not specified</documentIdentifier>
+    <languageCode>en-US</languageCode>
+    <versionNumber>Not specified</versionNumber>
+  </identAndStatus>
+  <content>
+    <section>
+      <title>Preliminary Requirements</title>
+      <requiredSpares>
+        <spare>
+          <name>Yellow Bulb</name>
+          <partNumber>spa-0001</partNumber>
+          <status>Discarded</status>
+        </spare>
+        <spare>
+          <name>White Front Bulb</name>
+          <partNumber>spa-0003</partNumber>
+          <status>Installed</status>
+        </spare>
+        <spare>
+          <name>White Rear Bulb</name>
+          <partNumber>spa-0004</partNumber>
+          <status>Installed</status>
+        </spare>
+        <spare>
+          <name>Glass</name>
+          <partNumber>spa-0005</partNumber>
+          <status>Removed and reinstalled (with modification)</status>
+        </spare>
+        <spare>
+          <name>Modified Glass</name>
+          <partNumber>spa-0007</partNumber>
+          <status>Optional, can be ordered separately</status>
+        </spare>
+      </requiredSpares>
+      <requiredTools>
+        <tool>
+          <name>Special Tool Set</name>
+          <partNumber>seq-0001</partNumber>
+        </tool>
+        <tool>
+          <name>Screwdriver</name>
+          <partNumber>seq-0002</partNumber>
+        </tool>
+      </requiredTools>
+    </section>
+    <section>
+      <title>Main Procedure</title>
+      <steps>
+        <step>
+          <description>Remove the glass from the front light.</description>
+        </step>
+        <step>
+          <description>Remove the used yellow front bulb.</description>
+        </step>
+        <step>
+          <description>Discard the used bulb.</description>
+        </step>
+        <step>
+          <description>Remove the new white front bulb from the kit.</description>
+        </step>
+        <step>
+          <description>Install the new white front bulb.</description>
+        </step>
+        <step>
+          <description>Install the glass on the light.</description>
+        </step>
+        <step>
+          <description>Attach the light fitting to the handlebar.</description>
+        </step>
+        <step>
+          <description>Apply the protective strip around the handlebar.</description>
+        </step>
+        <step>
+          <description>Install the washer on the screw.</description>
+        </step>
+        <step>
+          <description>Use the special screwdriver to tighten the screw into the hole at the bottom of the clamp.</description>
+        </step>
+      </steps>
+      <subSection>
+        <title>Rear Light Procedure</title>
+        <steps>
+          <step>
+            <description>Remove the glass from the rear light.</description>
+          </step>
+          <step>
+            <description>Remove the used yellow rear bulb.</description>
+          </step>
+          <step>
+            <description>Discard the used bulb.</description>
+          </step>
+          <step>
+            <description>Remove the new white rear bulb from the kit.</description>
+          </step>
+          <step>
+            <description>Install the new white rear bulb.</description>
+          </step>
+          <step>
+            <description>Drill a 4mm hole in the middle of the glass to allow venting and heat evacuation when the light is switched on.</description>
+          </step>
+          <step>
+            <description>Install the modified glass on the light.</description>
+          </step>
+        </steps>
+      </subSection>
+    </section>
+    <section>
+      <title>Close-Up Requirements</title>
+      <requirements>
+        <requirement>
+          <description>Switch the lights on if necessary.</description>
+        </requirement>
+      </requirements>
+    </section>
+  </content>
+</dmModule>

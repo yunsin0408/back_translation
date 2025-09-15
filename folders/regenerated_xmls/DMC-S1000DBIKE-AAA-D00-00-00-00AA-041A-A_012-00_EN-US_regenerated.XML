@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <introduction>
+        <title>Introduction to Bicycle Parts</title>
+        <para>This document provides an overview of the main parts of a bicycle. It is intended for individuals who are new to bicycles and want to learn more about their components.</para>
+    </introduction>
+    <section>
+        <title>Identifiable Parts of a Bicycle</title>
+        <para>The following parts can be immediately identified on a bicycle:</para>
+        <itemizedlist>
+            <listitem>
+                <term>Frame</term>
+                <para>The metal tubes that are welded together to form the main structure of the bicycle.</para>
+            </listitem>
+            <listitem>
+                <term>Wheels</term>
+                <para>The round structures that rotate when the bicycle is in motion. Each wheel consists of:</para>
+                <itemizedlist>
+                    <listitem>
+                        <term>Hub</term>
+                    </listitem>
+                    <listitem>
+                        <term>Spokes</term>
+                    </listitem>
+                    <listitem>
+                        <term>Metal rim</term>
+                    </listitem>
+                    <listitem>
+                        <term>Rubber tire</term>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <term>Seat and seat post</term>
+                <para>The part of the bicycle where the rider sits, which installs into the seat tube with a mechanism to adjust the height.</para>
+            </listitem>
+            <listitem>
+                <term>Handle bars</term>
+                <para>The horizontal bar that attaches to the stem with grips at the ends for the brake levers and shifters.</para>
+            </listitem>
+            <listitem>
+                <term>Handle bar stem</term>
+                <para>The part that attaches the handle bar to the steering tube (head set).</para>
+            </listitem>
+            <listitem>
+                <term>Cranks</term>
+                <para>The lever that extends from the bottom of the bracket to the pedal.</para>
+            </listitem>
+            <listitem>
+                <term>Pedals</term>
+                <para>The platforms for the feet that attach to the crank.</para>
+            </listitem>
+            <listitem>
+                <term>Chain</term>
+                <para>The circular set of links that connect the chain ring to the cogs on the freewheel.</para>
+            </listitem>
+            <listitem>
+                <term>Gears</term>
+                <para>The components that allow the rider to adjust the difficulty of pedaling. These include:</para>
+                <itemizedlist>
+                    <listitem>
+                        <term>Front chain ring</term>
+                    </listitem>
+                    <listitem>
+                        <term>Rear freewheel</term>
+                    </listitem>
+                    <listitem>
+                        <term>Front and rear derailleur</term>
+                    </listitem>
+                    <listitem>
+                        <term>Shift lever on the handle bars</term>
+                    </listitem>
+                    <listitem>
+                        <term>Cables</term>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <term>Brakes</term>
+                <para>The components that slow or stop the bicycle. These include:</para>
+                <itemizedlist>
+                    <listitem>
+                        <term>Actuators on the handlebars</term>
+                    </listitem>
+                    <listitem>
+                        <term>Brake cable</term>
+                    </listitem>
+                    <listitem>
+                        <term>Brake callipers</term>
+                    </listitem>
+                    <listitem>
+                        <term>Brake pads</term>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+        </itemizedlist>
+    </section>
+    <section>
+        <title>Detailed Description of Bicycle Parts</title>
+        <table>
+            <tgroup cols="3">
+                <tbody>
+                    <row>
+                        <entry>Item</entry>
+                        <entry>Refer to</entry>
+                        <entry>Definition</entry>
+                    </row>
+                    <row>
+                        <entry>Frame</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry>A bicycle frame is made of metal tubes that are welded together.</entry>
+                    </row>
+                    <row>
+                        <entry>Wheels</entry>
+                        <entry></entry>
+                        <entry>The wheels include hub, spokes, metal rim, and rubber tire.</entry>
+                    </row>
+                    <row>
+                        <entry>Rear wheel</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry></entry>
+                    </row>
+                    <row>
+                        <entry>Front wheel</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry></entry>
+                    </row>
+                    <row>
+                        <entry>Seat and seat post</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry>These install into the seat tube with a mechanism to adjust the height.</entry>
+                    </row>
+                    <row>
+                        <entry>Handle bars</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry>A horizontal bar that attaches to the stem with grips at the ends for the brake levers and shifters.</entry>
+                    </row>
+                    <row>
+                        <entry>Handle bar stem</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry>This attaches the handle bar to the steering tube (head set).</entry>
+                    </row>
+                    <row>
+                        <entry>Cranks</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry>A lever that extends from the bottom of the bracket to the pedal.</entry>
+                    </row>
+                    <row>
+                        <entry>Pedals</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry>The platforms for the feet that attach to the crank.</entry>
+                    </row>
+                    <row>
+                        <entry>Chain</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry>A circular set of links that connect the chain ring to the cogs on the freewheel.</entry>
+                    </row>
+                    <row>
+                        <entry>Gears</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry>The gears include front chain ring, rear freewheel, front and rear derailleur, shift lever on the handle bars, and cables.</entry>
+                    </row>
+                    <row>
+                        <entry>Brakes</entry>
+                        <entry><xref linkend="figure-1"/></entry>
+                        <entry>The brakes include actuators on the handlebars, brake cable, brake callipers, and brake pads.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </section>
+    <section>
+        <title>Figure 1: Bicycle Parts</title>
+        <para>The following figure illustrates the different parts of a bicycle:</para>
+        <itemizedlist>
+            <listitem>
+                <term>Frame</term>
+            </listitem>
+            <listitem>
+                <term>Wheels (rear and front)</term>
+            </listitem>
+            <listitem>
+                <term>Seat and seat post</term>
+            </listitem>
+            <listitem>
+                <term>Handle bars</term>
+            </listitem>
+            <listitem>
+                <term>Handle bar stem</term>
+            </listitem>
+            <listitem>
+                <term>Cranks</term>
+            </listitem>
+            <listitem>
+                <term>Pedals</term>
+            </listitem>
+            <listitem>
+                <term>Chain</term>
+            </listitem>
+            <listitem>
+                <term>Gears</term>
+            </listitem>
+            <listitem>
+                <term>Brakes</term>
+            </listitem>
+        </itemizedlist>
+    </section>
+    <conclusion>
+        <title>Conclusion</title>
+        <para>This document provides a detailed overview of the main parts of a bicycle. By understanding these components, individuals can better appreciate the complexity and functionality of a bicycle. Whether you are a seasoned cyclist or just starting out, knowing the different parts of a bicycle can help you to maintain and repair your vehicle.</para>
+    </conclusion>
+</document>

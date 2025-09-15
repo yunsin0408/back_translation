@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <Introduction>
+    The following document is a conversion of the XML file DMC-S1KDTOOLS-A-27-00-00-00A-040A-D_EN-CA.XML to markdown format.
+  </Introduction>
+  <IdentAndStatusSection>
+    <DMAddress>
+      <DMIdent modelIdentCode="S1KDTOOLS" systemDiffCode="A" systemCode="27" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D">
+        The DM ident section contains the following attributes:
+      </DMIdent>
+      <Language languageIsoCode="en" countryIsoCode="CA">
+        The language used in this document is:
+      </Language>
+      <IssueInfo issueNumber="014" inWork="00">
+        The issue information is:
+      </IssueInfo>
+      <DMAddressItems year="2020" month="09" day="01">
+        The issue date is:
+      </DMAddressItems>
+      <DMTitle techName="s1kd-addicn" infoName="Description">
+        The DM title is:
+      </DMTitle>
+    </DMAddress>
+    <DMStatus>
+      <IssueType>changed</IssueType>
+      <Security securityClassification="01"/>
+      <ResponsiblePartnerCompany enterpriseName="khzae.net"/>
+      <Originator enterpriseName="khzae.net"/>
+      <Applic displayText="All"/>
+      <BrexDmRef modelIdentCode="S1KDTOOLS" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+      <QualityAssurance qualityAssuranceStatus="unverified"/>
+      <ReasonForUpdate id="rfu-xml-catalog" updateHighlight="1" updateReasonType="urt02">
+        The reason for update is: Add --xml-catalog parser option.
+      </ReasonForUpdate>
+    </DMStatus>
+  </IdentAndStatusSection>
+  <Content>
+    <Description>
+      <General>
+        The s1kd-addicn tool adds the required DTD entity and notation declarations to an S1000D module in order to reference an ICN file.
+      </General>
+      <Usage>
+        The usage of the tool is: s1kd-addicn [-o &lt;file&gt;] [-s &lt;src&gt;} [-fh?] &lt;ICN&gt;...
+      </Usage>
+      <Options>
+        <Option name="-F" description="Use the whole path given for the ICN file as the SYSTEM ID."/>
+        <Option name="-f" description="Overwrite source file instead of writing to stdout."/>
+        <Option name="-h" description="Show help/usage message."/>
+        <Option name="--help" description="Show help/usage message."/>
+        <Option name="-o" description="The filename to output to. Default is to write to stdout."/>
+        <Option name="--out" description="The filename to output to. Default is to write to stdout."/>
+        <Option name="-s" description="The source module to add the ICN(s) to. Default is to read from stdin."/>
+        <Option name="--source" description="The source module to add the ICN(s) to. Default is to read from stdin."/>
+        <Option name="--version" description="Show version information."/>
+        <Option name="--dtdload" description="Load the external DTD."/>
+        <Option name="--huge" description="Remove any internal arbitrary parser limits."/>
+        <Option name="--net" description="Allow network access to load external DTD and entities."/>
+        <Option name="--noent" description="Resolve entities."/>
+        <Option name="--parser-errors" description="Emit errors from parser."/>
+        <Option name="--parser-warnings" description="Emit warnings from parser."/>
+        <Option name="--xinclude" description="Do XInclude processing."/>
+        <Option name="--xml-catalog" description="Use an XML catalog when resolving entities. Multiple catalogs may be loaded by specifying this option multiple times."/>
+      </Options>
+      <Example>
+        An example usage of the tool is: $ s1kd-addicn -fs &lt;DM&gt; ICN-EX-12345-001-01.JPG
+      </Example>
+    </Description>
+  </Content>
+</dm>

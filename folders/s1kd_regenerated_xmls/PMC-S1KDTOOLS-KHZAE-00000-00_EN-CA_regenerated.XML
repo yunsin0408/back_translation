@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <title>S1KDTOOLS Documentation</title>
+    <para>The following is a list of tools available in the S1KDTOOLS suite, categorized by their primary function.</para>
+    <section>
+        <title>Tools for Creating Data</title>
+        <subsection>
+            <title>List of Tools</title>
+            <itemizedlist>
+                <listitem>s1kd-new: </listitem>
+                <listitem>s1kd-dm2brex: </listitem>
+                <listitem>s1kd-brexdm: </listitem>
+            </itemizedlist>
+        </subsection>
+        <subsection>
+            <title>Actual List of Tools</title>
+            <para>The following are the actual tools for creating data that were found in the content:</para>
+            <itemizedlist>
+                <listitem>s1kd-new (not found)</listitem>
+                <listitem>s1kd-dm2brex (not found)</listitem>
+                <listitem>s1kd-brexdm (not found)</listitem>
+            </itemizedlist>
+        </subsection>
+    </section>
+    <section>
+        <title>Tools for Authoring and Managing Data</title>
+        <subsection>
+            <title>List of Tools</title>
+            <para>The following tools were found:</para>
+            <orderedlist>
+                <listitem>s1kd-new: Not found in the content.</listitem>
+            </orderedlist>
+        </subsection>
+        <subsection>
+            <title>Actual List of Tools</title>
+            <itemizedlist>
+                <listitem>s1kd-dm2brex (not found)</listitem>
+                <listitem>s1kd-brexdm (not found)</listitem>
+            </itemizedlist>
+        </subsection>
+    </section>
+    <section>
+        <title>Tools for Delivering Data</title>
+        <subsection>
+            <title>List of Tools</title>
+            <para>Here is a list of tools used for delivering data:</para>
+            <orderedlist>
+                <listitem>s1kd-acronyms</listitem>
+                <listitem>s1kd-aspp</listitem>
+                <listitem>s1kd-flatten</listitem>
+                <listitem>s1kd-fmgen</listitem>
+                <listitem>s1kd-icncatalog</listitem>
+                <listitem>s1kd-index</listitem>
+                <listitem>s1kd-instance</listitem>
+                <listitem>s1kd-neutralize</listitem>
+                <listitem>s1kd-syncrefs</listitem>
+                <listitem>s1kd-uom</listitem>
+            </orderedlist>
+        </subsection>
+    </section>
+    <section>
+        <title>Tools for Validating Data</title>
+        <subsection>
+            <title>List of Tools</title>
+            <para>The following are tools used to validate data:</para>
+            <orderedlist>
+                <listitem>s1kd-brexcheck</listitem>
+                <listitem>s1kd-repcheck</listitem>
+                <listitem>s1kd-validate</listitem>
+                <listitem>s1kd-refs</listitem>
+                <listitem>s1kd-appcheck</listitem>
+            </orderedlist>
+            <para>However, the tool "s1kd-appcheck" was not found.</para>
+        </subsection>
+        <subsection>
+            <title>Actual List of Tools</title>
+            <para>The following are some of the actual tools used for validating data:</para>
+            <orderedlist>
+                <listitem>s1kd-brexcheck: Validates brex files.</listitem>
+                <listitem>s1kd-repcheck: Checks report files.</listitem>
+                <listitem>s1kd-validate: Validates data.</listitem>
+                <listitem>s1kd-refs: Not found in description, but mentioned as a validation tool.</listitem>
+            </orderedlist>
+        </subsection>
+    </section>
+    <section>
+        <title>Tools for Delivering and Managing Data</title>
+        <subsection>
+            <title>List of Tools</title>
+            <para>The following is not an exhaustive list:</para>
+            <itemizedlist>
+                <listitem>s1kd-dm2brex (not found)</listitem>
+                <listitem>s1kd-brexdm (not found)</listitem>
+            </itemizedlist>
+        </subsection>
+    </section>
+    <section>
+        <title>All S1KDTOOLS</title>
+        <subsection>
+            <title>Creation and Authoring</title>
+            <itemizedlist>
+                <listitem>s1kd-dm2brex (not found)</listitem>
+                <listitem>s1kd-brexdm (not found)</listitem>
+            </itemizedlist>
+        </subsection>
+        <subsection>
+            <title>Management Tools</title>
+            <orderedlist>
+                <listitem>s1kd-new: Not available.</listitem>
+            </orderedlist>
+        </subsection>
+        <subsection>
+            <title>Checking and Validation Tools</title>
+            <orderedlist>
+                <listitem>s1kd-brexcheck</listitem>
+                <listitem>s1kd-repcheck</listitem>
+                <listitem>s1kd-validate</listitem>
+                <listitem>s1kd-refs</listitem>
+            </orderedlist>
+        </subsection>
+        <subsection>
+            <title>Delivery Tools</title>
+            <orderedlist>
+                <listitem>s1kd-acronyms</listitem>
+                <listitem>s1kd-aspp</listitem>
+                <listitem>s1kd-flatten</listitem>
+                <listitem>s1kd-fmgen</listitem>
+                <listitem>s1kd-icncatalog</listitem>
+                <listitem>s1kd-index</listitem>
+                <listitem>s1kd-instance</listitem>
+                <listitem>s1kd-neutralize</listitem>
+                <listitem>s1kd-syncrefs</listitem>
+                <listitem>s1kd-uom</listitem>
+            </orderedlist>
+        </subsection>
+    </section>
+    <section>
+        <title>Conclusion</title>
+        <para>The following are all the S1KDTOOLS available:</para>
+        <itemizedlist>
+            <listitem>Creation: No information was found.</listitem>
+            <listitem>Authoring and Management: 
+                <itemizedlist>
+                    <listitem>s1kd-new (not found)</listitem>
+                    <listitem>s1kd-dm2brex (not found)</listitem>
+                    <listitem>s1kd-brexdm (not found)</listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>Checking:
+                <itemizedlist>
+                    <listitem>s1kd-brexcheck</listitem>
+                    <listitem>s1kd-repcheck</listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>Validation:
+                <itemizedlist>
+                    <listitem>s1kd-validate</listitem>
+                    <listitem>s1kd-refs</listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>Delivery:
+                <itemizedlist>
+                    <listitem>s1kd-acronyms</listitem>
+                    <listitem>s1kd-aspp</listitem>
+                    <listitem>s1kd-flatten</listitem>
+                    <listitem>s1kd-fmgen</listitem>
+                    <listitem>s1kd-icncatalog</listitem>
+                    <listitem>s1kd-index</listitem>
+                    <listitem>s1kd-instance</listitem>
+                    <listitem>s1kd-neutralize</listitem>
+                    <listitem>s1kd-syncrefs</listitem>
+                    <listitem>s1kd-uom</listitem>
+                </itemizedlist>
+            </listitem>
+        </itemizedlist>
+        <para>These tools can be used to create, manage, check, validate and deliver data.</para>
+    </section>
+</document>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <introduction>
+        <description>The dmodule file is used to define a module for a specific application or system.</description>
+        <description>It contains metadata, content, and other relevant information.</description>
+    </introduction>
+    <metadata>
+        <identifiers>
+            <identifier name="functionalItemNumber" description="A unique identifier for each functional item"/>
+            <identifier name="installationIdent" description="An identifier for the installation location of a functional item"/>
+        </identifiers>
+        <attributes>
+            <attribute name="functionalItemType" description="The type of functional item" example="fit01"/>
+            <attribute name="manufacturerCodeValue" description="A code value for the manufacturer of a component"/>
+            <attribute name="itemOriginator" description="The originator of an item"/>
+        </attributes>
+    </metadata>
+    <content>
+        <functionalItemRepository>
+            <functionalItem name="Front Light (L1)">
+                <location installationLocationType="instloctyp02" value="21"/>
+            </functionalItem>
+            <functionalItem name="Electronic Box 01 (ELO-Box)">
+                <location installationLocationType="instloctyp60" value="45"/>
+            </functionalItem>
+            <functionalItem name="Relay (Rel)">
+                <location installationLocationType="instloctyp60" value="95"/>
+            </functionalItem>
+        </functionalItemRepository>
+        <installationLocations>
+            <location>d1</location>
+            <location>ELO-Box</location>
+        </installationLocations>
+    </content>
+    <exampleUseCases>
+        <useCase>System design and configuration</useCase>
+        <useCase>Component tracking and management</useCase>
+        <useCase>Maintenance and repair operations</useCase>
+    </exampleUseCases>
+</dmodule>

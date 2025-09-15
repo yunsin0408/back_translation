@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-01-00AB-720A-A_004-00_EN-US</title>
+  <introduction>
+    <para>The following document provides guidelines and procedures for installing the fork on a mountain bicycle.</para>
+  </introduction>
+  <identAndStatusSection>
+    <dmAddress>
+      <dmCode>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>01</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AB</disassyCodeVariant>
+        <infoCode>720</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmCode>
+      <language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>004</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>2024-06-19</issueDate>
+      <dmTitle>
+        <techName>Fork</techName>
+        <infoName>Install procedures</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </identAndStatusSection>
+  <status>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </security>
+    <dataRestrictions>
+      <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+      <exportControl>
+        <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+      </exportControl>
+      <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+      <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+      <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+    </dataRestrictions>
+    <restrictionInfo>
+      <copyright>
+        <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+        <publishers>
+          <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+          <publisher>Other publishers</publisher>
+        </publishers>
+        <limitations>
+          <limitation>The data module is provided as-is.</limitation>
+          <limitation>The user assumes all risk associated with the use of the data module.</limitation>
+        </limitations>
+      </copyright>
+      <policy>This data module is subject to the policies and procedures of the issuing organization.</policy>
+    </restrictionInfo>
+  </status>
+  <content>
+    <references>
+      <dmRef id="1">
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA2</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>720</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+      <dmRef id="2">
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA2</systemCode>
+        <subSystemCode>3</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>720</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+    </references>
+    <procedure>
+      <preliminaryRequirements>
+        <requiredConditions>None</requiredConditions>
+        <requiredPersons>None</requiredPersons>
+        <requiredTechnicalInformation>
+          <techInfo>Stem install procedure (DM Ref 1)</techInfo>
+          <techInfo>Headset install procedure (DM Ref 2)</techInfo>
+        </requiredTechnicalInformation>
+        <requiredSupportEquipment>None</requiredSupportEquipment>
+        <requiredSupplies>
+          <supply>General grease (KZ222, LL-005) - As required</supply>
+        </requiredSupplies>
+        <requiredSpares>
+          <spare>Fork (FK-TEL1002) - 1 EA</spare>
+        </requiredSpares>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step>Apply grease on the headset.</step>
+        <step>Install the headset (refer to DM Ref 2).</step>
+        <step>Install the stem (refer to DM Ref 1).</step>
+        <step>Install the fork.</step>
+      </mainProcedure>
+      <closeRequirements>
+        <requiredConditions>None</requiredConditions>
+      </closeRequirements>
+    </procedure>
+  </content>
+  <conclusion>
+    <para>The installation of the fork on a mountain bicycle is a complex process that requires careful attention to detail and adherence to established procedures. By following the guidelines and procedures outlined in this document, users can ensure a safe and successful installation.</para>
+  </conclusion>
+</document>

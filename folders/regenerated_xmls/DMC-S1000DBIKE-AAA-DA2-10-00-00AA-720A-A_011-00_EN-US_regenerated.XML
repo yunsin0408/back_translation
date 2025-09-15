@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA2</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>720</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmIdent>
+      <language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>011</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+      <dmTitle>
+        <techName>Stem</techName>
+        <infoName>Install procedures</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </identAndStatusSection>
+  <content>
+    <references>
+      <reference>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA2</systemCode>
+        <subSystemCode>2</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>720</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </reference>
+    </references>
+    <procedure>
+      <preliminaryRequirements>
+        <requiredConditions>
+          <condition>Make sure the bicycle is held safely on a work stand with the front wheel free of the ground</condition>
+        </requiredConditions>
+        <requiredPersons>
+          <person>
+            <man>A</man>
+            <personCategory>Bike Rider</personCategory>
+            <skillLevelCode>sk02</skillLevelCode>
+            <trade>Operator</trade>
+            <estimatedTime>1.0 h</estimatedTime>
+          </person>
+        </requiredPersons>
+        <requiredSupportEquipments>
+          <supportEquipment>
+            <name>Clean dry cloth</name>
+            <identNumber>seq-0001</identNumber>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partAndSerialNumber>BSK-TLST-001-12</partAndSerialNumber>
+            <partNumber></partNumber>
+            <reqQuantity>1</reqQuantity>
+            <unitOfMeasure>EA</unitOfMeasure>
+          </supportEquipment>
+          <supportEquipment>
+            <name>Work stand</name>
+            <identNumber></identNumber>
+            <manufacturerCode>KZ555</manufacturerCode>
+            <partAndSerialNumber>Stand-001</partAndSerialNumber>
+            <partNumber></partNumber>
+            <reqQuantity>1</reqQuantity>
+            <unitOfMeasure>EA</unitOfMeasure>
+          </supportEquipment>
+        </requiredSupportEquipments>
+        <requiredSupplies>
+          <supply>
+            <name>Rubbing alcohol</name>
+            <identNumber>sup-0001</identNumber>
+            <manufacturerCode>KZ222</manufacturerCode>
+            <partAndSerialNumber>LL-002</partAndSerialNumber>
+            <partNumber></partNumber>
+            <reqQuantity>1</reqQuantity>
+            <unitOfMeasure>L</unitOfMeasure>
+          </supply>
+          <supply>
+            <name>General lubricant</name>
+            <identNumber>sup-0002</identNumber>
+            <manufacturerCode>KZ222</manufacturerCode>
+            <partAndSerialNumber>LL-001</partAndSerialNumber>
+            <partNumber></partNumber>
+            <reqQuantity>1</reqQuantity>
+            <unitOfMeasure>L</unitOfMeasure>
+          </supply>
+        </requiredSupplies>
+        <requiredSpares>
+          <spare>
+            <name>Stem</name>
+            <identNumber>spa-0002</identNumber>
+            <manufacturerCode>KZ555</manufacturerCode>
+            <partAndSerialNumber>St-001</partAndSerialNumber>
+            <partNumber></partNumber>
+            <reqQuantity>1</reqQuantity>
+            <unitOfMeasure>EA</unitOfMeasure>
+          </spare>
+          <spare>
+            <name>Stem bolt</name>
+            <identNumber>spa-0001</identNumber>
+            <manufacturerCode>KZ555</manufacturerCode>
+            <partAndSerialNumber>St-001-01</partAndSerialNumber>
+            <partNumber></partNumber>
+            <reqQuantity>1</reqQuantity>
+            <unitOfMeasure>EA</unitOfMeasure>
+          </spare>
+        </requiredSpares>
+        <requiredSafety>
+          <safetyRequirement>Do not tighten the stem bolt too much. You can cause damage to the headset bearings if you tighten the stem too much.</safetyRequirement>
+          <safetyRequirement>The stem bolt does not safety the stem.</safetyRequirement>
+          <safetyRequirement>The stem must point forward in alignment with the wheel.</safetyRequirement>
+        </requiredSafety>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step>
+          <description>Remove all the rust and the corrosion with a clean dry cloth and rubbing alcohol.</description>
+        </step>
+        <step>
+          <description>Install the stem.</description>
+          <subStep>
+            <description>Use a general lubricant and lubricate: 
+              <item>the threads of the stem and stem bolt</item>
+              <item>the sides</item>
+              <item>the top of the wedge</item>
+            </description>
+          </subStep>
+          <subStep>
+            <description>Install the stem in the steerer tube.</description>
+          </subStep>
+          <subStep>
+            <description>Adjust to align the stem with the wheel and tighten the stem bolt firmly.</description>
+          </subStep>
+        </step>
+        <step>
+          <description>Install the handlebars (refer to DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_011-00_EN-US.XML).</description>
+        </step>
+      </mainProcedure>
+      <closeRequirements>
+        <condition>No conditions are required to close the procedure.</condition>
+      </closeRequirements>
+    </procedure>
+  </content>
+  <securityAndSafetyRequirements>
+    <safetyRequirement>Do not tighten the stem bolt too much. You can cause damage to the headset bearings if you tighten the stem too much.</safetyRequirement>
+    <safetyRequirement>The stem bolt does not safety the stem.</safetyRequirement>
+    <safetyRequirement>The stem must point forward in alignment with the wheel.</safetyRequirement>
+  </securityAndSafetyRequirements>
+</dm>

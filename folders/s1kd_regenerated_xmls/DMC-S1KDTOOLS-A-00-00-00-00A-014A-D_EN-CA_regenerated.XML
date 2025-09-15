@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<defaults xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <default ident="act" value="MYPRJ-A-00-00-00-00A-00WA-D"/>
+  <default ident="assyCode" value="00"/>
+  <default ident="authorization" value="khzae.net"/>
+  <default ident="brex" value="MYPRJ-A-00-00-00-00A-022A-D"/>
+  <default ident="city" value="Toronto"/>
+  <default ident="commentPriorityCode" value="cp01"/>
+  <default ident="commentType" value="Q"/>
+  <default ident="countryIsoCode" value="CA"/>
+  <default ident="country" value="Canada"/>
+  <default ident="disassyCodeVariant" value="A"/>
+  <default ident="disassyCode" value="00"/>
+  <default ident="dmlType" value="C"/>
+  <default ident="infoCodeVariant" value="A"/>
+  <default ident="infoCode" value="258"/>
+  <default ident="infoName" value="Other procedure to clean"/>
+  <default ident="infoNameVariant" value="Clean with water"/>
+  <default ident="inWork" value="01"/>
+  <default ident="issueNumber" value="000"/>
+  <default ident="issueType" value="new"/>
+  <default ident="issue" value="5.0"/>
+  <default ident="itemLocationCode" value="D"/>
+  <default ident="languageIsoCode" value="en"/>
+  <default ident="learnCode" value="H10"/>
+  <default ident="learnEventCode" value="A"/>
+  <default ident="maintainedSns" value="General sea vehicles"/>
+  <default ident="modelIdentCode" value="MYPRJ"/>
+  <default ident="omitIssueInfo" value="true"/>
+  <default ident="originatorCode" value="12345"/>
+  <default ident="originator" value="khzae.net"/>
+  <default ident="pmIssuer" value="12345"/>
+  <default ident="pmNumber" value="00000"/>
+  <default ident="pmVolume" value="00"/>
+  <default ident="receiver" value="khzae.net"/>
+  <default ident="receiverCity" value="Toronto"/>
+  <default ident="receiverCountry" value="Canada"/>
+  <default ident="receiverIdent" value="12345"/>
+  <default ident="remarks" value="Comments on a data module"/>
+  <default ident="responsiblePartnerCompanyCode" value="12345"/>
+  <default ident="responsiblePartnerCompany" value="khzae.net"/>
+  <default ident="schema" value="descript.xsd"/>
+  <default ident="securityClassification" value="01"/>
+  <default ident="senderIdent" value="12345"/>
+  <default ident="seqNumber" value="00001"/>
+  <default ident="skillLevelCode" value="sk01"/>
+  <default ident="sns" value="MYPRJ-A-00-00-00-00A-022A-D"/>
+  <default ident="snsLevels" value="1"/>
+  <default ident="subSubSystem" value="0"/>
+  <default ident="subSystem" value="0"/>
+  <default ident="systemCode" value="00"/>
+  <default ident="techName" value="My project"/>
+  <default ident="templates" value="/usr/share/s1kd-tools/templ"/>
+  <default ident="yearOfDataIssue" value="2017"/>
+</defaults>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>19</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>040</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+        <language>
+          <languageISOCode>en</languageISOCode>
+          <countryISOCode>CA</countryISOCode>
+        </language>
+        <issueInfo>
+          <issueNumber>024</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>2020-09-01</issueDate>
+        <dmTitle>
+          <techName>s1kd-mvref</techName>
+          <infoName>Description</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+      </security>
+      <responsiblePartnerCompany>
+        <enterpriseName>khzae.net</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>khzae.net</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>All</displayText>
+      </applic>
+      <brexDmRef>
+        <dmRefIdent>
+          <modelIdentCode>S1KDTOOLS</modelIdentCode>
+          <systemDiffCode>A</systemDiffCode>
+          <systemCode>00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>A</disassyCodeVariant>
+          <infoCode>022</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>D</itemLocationCode>
+        </dmRefIdent>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+      <reasonForUpdate>
+        <id>rfu-xml-catalog</id>
+        <updateHighlight>1</updateHighlight>
+        <updateReasonType>urt02</updateReasonType>
+        <simplePara>Add --xml-catalog parser option.</simplePara>
+      </reasonForUpdate>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <general>The s1kd-mvref tool changes all references to one object (the source object) into references to another object (the target object) in a specified set of objects.</general>
+      <usage>s1kd-mvref [-d &lt;dir&gt;} [-s &lt;source&gt;} [-t &lt;target&gt;} [-cflqvh?] 
+           [&lt;object&gt;...]</usage>
+      <options>
+        <mainOptions>
+          <option>
+            <name>-c, --content</name>
+            <description>Only move references within the content section of objects.</description>
+          </option>
+          <option>
+            <name>-d, --dir &lt;dir&gt;</name>
+            <description>Move references in all objects in the specified directory.</description>
+          </option>
+          <option>
+            <name>-f, --overwrite</name>
+            <description>Overwrite updated input objects.</description>
+          </option>
+          <option>
+            <name>-h, -?, --help</name>
+            <description>Show help/usage message</description>
+          </option>
+          <option>
+            <name>-l, --list</name>
+            <description>Treat input as a list of data module filenames, rather than a data module itself.</description>
+          </option>
+          <option>
+            <name>-q, --quiet</name>
+            <description>Quiet mode. Errors are not printed.</description>
+          </option>
+          <option>
+            <name>-s, --source &lt;source&gt;</name>
+            <description>The source object.</description>
+          </option>
+          <option>
+            <name>-t, --target &lt;target&gt;</name>
+            <description>Change all references to the source object specified with -s into references that point to &lt;target&gt;.</description>
+          </option>
+          <option>
+            <name>-v, --verbose</name>
+            <description>Verbose output.</description>
+          </option>
+          <option>
+            <name>--version</name>
+            <description>Show version information.</description>
+          </option>
+          <option>
+            <name>&lt;object&gt;...</name>
+            <description>Objects to move references in.</description>
+          </option>
+        </mainOptions>
+        <xmlParserOptions>
+          <option>
+            <name>--dtdload</name>
+            <description>Load the external DTD.</description>
+          </option>
+          <option>
+            <name>--huge</name>
+            <description>Remove any internal arbitrary parser limits.</description>
+          </option>
+          <option>
+            <name>--net</name>
+            <description>Allow network access to load external DTD and entities.</description>
+          </option>
+          <option>
+            <name>--noent</name>
+            <description>Resolve entities.</description>
+          </option>
+          <option>
+            <name>--parser-errors</name>
+            <description>Emit errors from parser.</description>
+          </option>
+          <option>
+            <name>--parser-warnings</name>
+            <description>Emit warnings from parser.</description>
+          </option>
+          <option>
+            <name>--xinclude</name>
+            <description>Do XInclude processing.</description>
+          </option>
+          <option>
+            <name>--xml-catalog &lt;file&gt;</name>
+            <description>Use an XML catalog when resolving entities. Multiple catalogs may be loaded by specifying this option multiple times.</description>
+          </option>
+        </xmlParserOptions>
+      </options>
+      <example>$ s1kd-mvref -f -s &lt;old DM&gt; -t &lt;new DM&gt; DMC-*.XML</example>
+    </description>
+  </content>
+</dm>

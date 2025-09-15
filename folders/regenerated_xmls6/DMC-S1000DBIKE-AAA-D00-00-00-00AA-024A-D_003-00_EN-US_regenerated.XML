@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <introduction>
+        <title>S1000D Document</title>
+        <para>The S1000D document is a standardized format for technical publications in the aerospace and defense industries. The provided XML code contains various business rules (BRs) and decision points related to the creation and management of technical documentation.</para>
+    </introduction>
+    <businessRulesAndDecisionPoints>
+        <title>Business Rules and Decision Points</title>
+        <generalManagerialDecisions>
+            <title>General Managerial Decisions</title>
+            <item>
+                <brId>BIKE-BR-00078</brId>
+                <description>Bike data modules must be reviewed and approved by EPWG before publishing.</description>
+            </item>
+            <item>
+                <brId>BIKE-BR-00079</brId>
+                <description>The Bike data set must contain examples of how to apply constructs and principles representing various levels of concept sophistication.</description>
+            </item>
+        </generalManagerialDecisions>
+        <configurableAttributes>
+            <title>Configurable Attributes</title>
+            <attribute>
+                <brId>BIKE-BR-00070</brId>
+                <name>Installation type</name>
+                <values>
+                    <value>Frame</value>
+                    <value>Home</value>
+                    <value>Authorized workshop</value>
+                </values>
+            </attribute>
+            <attribute>
+                <brId>BIKE-BR-00071</brId>
+                <name>Maintenance level</name>
+                <values>
+                    <value>Level 1 (home)</value>
+                    <value>Level 2 (authorized workshop)</value>
+                </values>
+            </attribute>
+            <attribute>
+                <brId>BIKE-BR-00072</brId>
+                <name>Origin of equipment/harness/wire</name>
+                <values>
+                    <value>Manufacturer</value>
+                    <value>Vendor</value>
+                    <value>Partner</value>
+                </values>
+            </attribute>
+            <attribute>
+                <brId>BIKE-BR-00073</brId>
+                <name>Task code</name>
+                <values>
+                    <value>Detailed inspection (DET)</value>
+                    <value>Discard (DIS)</value>
+                    <value>Functional Check (FNC)</value>
+                    <value>General visual inspection (GVI)</value>
+                    <value>Lubrication (LUB)</value>
+                    <value>Operational check (OPC)</value>
+                    <value>Restoration (RST)</value>
+                    <value>Servicing (SVC)</value>
+                    <value>Visual check (VCK)</value>
+                </values>
+            </attribute>
+            <attribute>
+                <brId>BIKE-BR-00074</brId>
+                <name>Limit type</name>
+                <values>
+                    <value>Time between overhaul</value>
+                    <value>Hard time</value>
+                    <value>Since last maintenance</value>
+                    <value>Out time limit</value>
+                    <value>On condition</value>
+                    <value>Check maintenance</value>
+                    <value>Functional check</value>
+                </values>
+            </attribute>
+            <attribute>
+                <brId>BIKE-BR-00075</brId>
+                <name>Unit of measurement for the threshold interval</name>
+                <values>
+                    <value>Months</value>
+                    <value>Weeks</value>
+                    <value>Years</value>
+                    <value>Days</value>
+                    <value>Shop visits</value>
+                    <value>Auxiliary power unit change</value>
+                    <value>Wheel change</value>
+                    <value>Kilometer</value>
+                </values>
+            </attribute>
+            <attribute>
+                <brId>BIKE-BR-00076</brId>
+                <name>Attribute sourceTypeCode indicates the type of source</name>
+                <values>
+                    <value>fec</value>
+                    <value>sample</value>
+                </values>
+            </attribute>
+            <attribute>
+                <brId>BIKE-BR-00077</brId>
+                <name>Attribute sourceCriticality indicates the impact of not complying with the requirement</name>
+                <values>
+                    <value>Evident, Safety</value>
+                    <value>Evident, operational</value>
+                    <value>Evident, Economic</value>
+                    <value>Hidden, Safety</value>
+                    <value>Hidden, Non-Safety</value>
+                </values>
+            </attribute>
+        </configurableAttributes>
+        <qualityAssuranceAndVersionControl>
+            <title>Quality Assurance and Version Control</title>
+            <item>
+                <brId>BIKE-BR-00078</brId>
+                <description>Bike data modules must be reviewed and approved by EPWG before publishing.</description>
+            </item>
+        </qualityAssuranceAndVersionControl>
+    </businessRulesAndDecisionPoints>
+    <conclusion>
+        <title>Conclusion</title>
+        <para>The provided S1000D document contains various business rules and decision points related to the creation and management of technical documentation. These BRs cover topics such as general managerial decisions, configurable attributes, quality assurance, and version control. By following these guidelines, organizations can ensure consistency and accuracy in their technical publications.</para>
+    </conclusion>
+</proced>

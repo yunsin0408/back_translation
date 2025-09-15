@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>28</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>040</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+        <language>
+          <languageIsoCode>en</languageIsoCode>
+          <countryIsoCode>CA</countryIsoCode>
+        </language>
+        <issueInfo>
+          <issueNumber>018</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>
+          <year>2020</year>
+          <month>09</month>
+          <day>01</day>
+        </issueDate>
+        <dmTitle>
+          <techName>s1kd-index</techName>
+          <infoName>Description</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+      </security>
+      <responsiblePartnerCompany>
+        <enterpriseName>khzae.net</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>khzae.net</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>All</displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode>
+              <modelIdentCode>S1KDTOOLS</modelIdentCode>
+              <systemDiffCode>A</systemDiffCode>
+              <systemCode>00</systemCode>
+              <subSystemCode>0</subSystemCode>
+              <subSubSystemCode>0</subSubSystemCode>
+              <assyCode>00</assyCode>
+              <disassyCode>00</disassyCode>
+              <disassyCodeVariant>A</disassyCodeVariant>
+              <infoCode>022</infoCode>
+              <infoCodeVariant>A</infoCodeVariant>
+              <itemLocationCode>D</itemLocationCode>
+            </dmCode>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+      <reasonForUpdate>
+        <id>rfu-xml-catalog</id>
+        <updateHighlight>1</updateHighlight>
+        <updateReasonType>urt02</updateReasonType>
+        <simplePara>Add --xml-catalog parser option.</simplePara>
+      </reasonForUpdate>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      The s1kd-index tool adds index flags to a data module based on a user-defined set of keywords.
+    </description>
+    <general>
+      The s1kd-index tool is used to add index flags to a data module.
+    </general>
+    <usage>
+      <para>s1kd-index -h?</para>
+      <para>s1kd-index [-I &lt;index&gt;} [-filqv] [&lt;module&gt;...]</para>
+      <para>s1kd-index -D [-filqv] [&lt;module&gt;...]</para>
+    </usage>
+    <options>
+      <option>
+        <name>-D, --delete</name>
+        <description>Remove the current index flags from a data module.</description>
+      </option>
+      <option>
+        <name>-f, --overwrite</name>
+        <description>Overwrite input module(s).</description>
+      </option>
+      <option>
+        <name>-h, -?, --help</name>
+        <description>Show help/usage message.</description>
+      </option>
+      <option>
+        <name>-I, --indexflags &lt;index&gt;</name>
+        <description>Flag the terms in the specified &lt;index&gt; XML file instead of the default `.indexflags` file.</description>
+      </option>
+      <option>
+        <name>-i, --ignore-case</name>
+        <description>Ignore case when flagging terms.</description>
+      </option>
+      <option>
+        <name>-l, --list</name>
+        <description>Treat input (stdin or arguments) as lists of filenames of data modules to add index flags to, rather than data modules themselves.</description>
+      </option>
+      <option>
+        <name>-q, --quiet</name>
+        <description>Quiet mode. Errors are not printed.</description>
+      </option>
+      <option>
+        <name>-v, --verbose</name>
+        <description>Verbose output.</description>
+      </option>
+      <option>
+        <name>--version</name>
+        <description>Show version information.</description>
+      </option>
+      <option>
+        <name>--dtdload</name>
+        <description>Load the external DTD.</description>
+      </option>
+      <option>
+        <name>--huge</name>
+        <description>Remove any internal arbitrary parser limits.</description>
+      </option>
+      <option>
+        <name>--net</name>
+        <description>Allow network access to load external DTD and entities.</description>
+      </option>
+      <option>
+        <name>--noent</name>
+        <description>Resolve entities.</description>
+      </option>
+      <option>
+        <name>--parser-errors</name>
+        <description>Emit errors from parser.</description>
+      </option>
+      <option>
+        <name>--parser-warnings</name>
+        <description>Emit warnings from parser.</description>
+      </option>
+      <option>
+        <name>--xinclude</name>
+        <description>Do XInclude processing.</description>
+      </option>
+      <option>
+        <name>--xml-catalog &lt;file&gt;</name>
+        <description>Use an XML catalog when resolving entities. Multiple catalogs may be loaded by specifying this option multiple times.</description>
+      </option>
+    </options>
+    <indexflagsFile>
+      <para>The `.indexflags` file specifies the list of indexable keywords for the project and their level. By default, the program will search for a file named `.indexflags` in the current directory or parent directories, but any file can be specified using the `-I` option.</para>
+      <example>
+        <indexFlags>
+          <indexFlag indexLevelOne="bicycle"/>
+          <indexFlag indexLevelOne="bicycle" indexLevelTwo="brake system"/>
+        </indexFlags>
+      </example>
+    </indexflagsFile>
+    <example>
+      <given>
+        <levelledPara>
+          <title>General</title>
+          <para>The s1kd-tools are a set of small tools for manipulating S1000D XML data.</para>
+        </levelledPara>
+      </given>
+      <andTheFollowingIndexflagsFile>
+        <indexFlags>
+          <indexFlag indexLevelOne="S1000D"/>
+          <indexFlag indexLevelTwo="S10000D" indexLevelTwo="s1kd-tools"/>
+          <indexFlag indexLevelOne="data"/>
+          <indexFlag indexLevelOne="data" indexLevelTwo="XML"/>
+        </indexFlags>
+      </andTheFollowingIndexflagsFile>
+      <thenTheS1kdIndexCommand>
+        <para>$ s1kd-index &lt;DM&gt;.XML</para>
+      </thenTheS1kdIndexCommand>
+      <wouldResultInTheFollowing>
+        <levelledPara>
+          <title>General</title>
+          <para>The s1kd-tools<indexFlag indexLevelOne="S1000D" indexLevelTwo="s1kd-tools"/> are a set of small tools for manipulating S1000D<indexFlag indexLevelOne="S1000D"/> XML<indexFlag indexLevelOne="data" indexLevelTwo="XML"/> data<indexFlag indexLevelOne="data"/>.</para>
+        </levelledPara>
+      </wouldResultInTheFollowing>
+    </example>
+  </content>
+</dm>

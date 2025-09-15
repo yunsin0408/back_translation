@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descript xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <modelIdentCode>S1000DBIKE</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>DA2</systemCode>
+                <subSystemCode>0</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>041</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+            </dmIdent>
+            <languageSection>
+                <countryIsoCode>US</countryIsoCode>
+                <languageIsoCode>en</languageIsoCode>
+            </languageSection>
+            <issueInfoSection>
+                <issueNumber>011</issueNumber>
+                <inWork>00</inWork>
+            </issueInfoSection>
+        </dmAddress>
+        <dmAddressItems>
+            <issueDate>
+                <year>2024</year>
+                <month>06</month>
+                <day>19</day>
+            </issueDate>
+            <dmTitleSection>
+                <techName>Steering</techName>
+                <infoName>Description of how it is made</infoName>
+            </dmTitleSection>
+        </dmAddressItems>
+    </identAndStatusSection>
+    <dmStatus>
+        <statusType>changed</statusType>
+        <securityClassification>
+            <securityClassification>01</securityClassification>
+            <commercialClassification>cc51</commercialClassification>
+            <caveat>cv51</caveat>
+        </securityClassification>
+    </dmStatus>
+    <dataRestrictions>
+        <restrictionInstructions>
+            <dataDistributionPolicy>To be made available to all S1000D users.</dataDistributionPolicy>
+            <exportControlStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportControlStatement>
+            <dataHandlingInstructions>There are no specific handling instructions for this data module.</dataHandlingInstructions>
+            <dataDestructionPolicy>Users may destroy this data module in accordance with their own local procedures.</dataDestructionPolicy>
+            <dataDisclosurePolicy>There are no dissemination limitations that apply to this data module.</dataDisclosurePolicy>
+        </restrictionInstructions>
+        <restrictionInfo>
+            <copyright>
+                <copyrightHolder>AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightHolder>
+                <year>2024</year>
+                <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+                <publisher>Aerospace Industries Association of America</publisher>
+                <publisher>ATA e-Business Program</publisher>
+                <limitationOfLiability>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.
+Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.
+Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitationOfLiability>
+            </copyright>
+            <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+        </restrictionInfo>
+    </dataRestrictions>
+    <responsiblePartnerCompany>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </responsiblePartnerCompany>
+    <originator>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </originator>
+    <applicCrossRefTableRef>
+        <dmRefIdent>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>00W</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>D</itemLocationCode>
+        </dmRefIdent>
+    </applicCrossRefTableRef>
+    <applic>
+        <displayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</displayText>
+        <evaluate>
+            <condition>The type must be Mountain bicycle.</condition>
+            <condition>Either the model is Mountain storm and version is Mk1, or the model is Brook trekker and version is Mk9.</condition>
+        </evaluate>
+    </applic>
+    <techStandard>
+        <authorityInfo>20010131</authorityInfo>
+        <techPubBase>Bike book</techPubBase>
+    </techStandard>
+    <brexDMRef>
+        <dmRefIdent>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>022</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>D</itemLocationCode>
+        </dmRefIdent>
+    </brexDMRef>
+    <qualityAssurance>
+        <firstVerificationType>tabtop</firstVerificationType>
+    </qualityAssurance>
+    <systemBreakdownCode>BY142</systemBreakdownCode>
+    <skillLevel>
+        <skillLevelCode>sk01</skillLevelCode>
+    </skillLevel>
+    <reasonForUpdate>
+        <reasonForUpdateId>rfu_general</reasonForUpdateId>
+        <updateReasonType>urt03</updateReasonType>
+        <updateReasonDescription>S1000D upissued</updateReasonDescription>
+    </reasonForUpdate>
+    <content>
+        <refs>
+            <dmRefIdent>
+                <modelIdentCode>S1000DBIKE</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>DA2</systemCode>
+                <subSystemCode>3</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>041</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+            </dmRefIdent>
+        </refs>
+        <description>
+            <levelledPara>
+                <title>Steering</title>
+                <para>The steering on the bike is what enables the bike to manoeuvre in a given direction during travel. The steering system on the bike is made of three parts, they are:</para>
+                <list>
+                    <item>The handlebar</item>
+                    <item>The headset</item>
+                    <item>The stem</item>
+                </list>
+                <handlebar>
+                    <para>The handlebar consists of a horizontal bar attached to the stem with handgrips at the end. Brake levers and shifters are also attached to this bar although they do not have any part in the steering mechanism. The handlebars manoeuvrability is a sideways swivelling action. The handlebars themselves do not provide this swivelling, the headset (also known as the steering tube) is the mechanism that enables the handlebars to swivel.</para>
+                </handlebar>
+                <headset>
+                    <para>The headset is situated in front of the frame and connects the front fork to the stem and handlebars. The headset allows the handlebars to swivel left and right for steering purposes.</para>
+                    <ref>
+                        <dmRefIdent>
+                            <modelIdentCode>S1000DBIKE</modelIdentCode>
+                            <systemDiffCode>AAA</systemDiffCode>
+                            <systemCode>DA2</systemCode>
+                            <subSystemCode>3</subSystemCode>
+                            <subSubSystemCode>0</subSubSystemCode>
+                            <assyCode>00</assyCode>
+                            <disassyCode>00</disassyCode>
+                            <disassyCodeVariant>AA</disassyCodeVariant>
+                            <infoCode>041</infoCode>
+                            <infoCodeVariant>A</infoCodeVariant>
+                            <itemLocationCode>A</itemLocationCode>
+                        </dmRefIdent>
+                    </ref>
+                </headset>
+                <stem>
+                    <para>The stem is the part that connects the handlebars to the frame.</para>
+                </stem>
+            </levelledPara>
+        </description>
+    </content>
+</descript>

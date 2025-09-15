@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <title>DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_011-00_EN-US</title>
+    <introduction>
+        <para>The following document provides the guidelines for the installation of a handlebar on a mountain bicycle.</para>
+    </introduction>
+    <identificationAndStatusSection>
+        <dmAddress>
+            <dmIdentification>
+                <modelIdentCode>S1000DBIKE</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>DA2</systemCode>
+                <subSystemCode>2</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>720</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+                <language>
+                    <countryISOCode>US</countryISOCode>
+                    <languageISOCode>en</languageISOCode>
+                </language>
+                <issueInfo>
+                    <issueNumber>011</issueNumber>
+                    <inWork>00</inWork>
+                </issueInfo>
+            </dmIdentification>
+            <dmAddressItems>
+                <issueDate>2024-06-19</issueDate>
+                <dmTitle>
+                    <techName>Handlebar</techName>
+                    <infoName>Installation of handlebar on a mountain bicycle</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <status>
+            <para>The status of this document is active.</para>
+        </status>
+    </identificationAndStatusSection>
+    <content>
+        <procedure>
+            <preliminaryRequirements>
+                <requiredConditions>
+                    <para>The bicycle must be placed on a work stand.</para>
+                </requiredConditions>
+                <requiredPersons>
+                    <person>
+                        <name>Not specified</name>
+                        <role>Mechanic</role>
+                        <estimatedTime>1 hour</estimatedTime>
+                    </person>
+                </requiredPersons>
+                <requiredSupportEquipment>
+                    <equipment>
+                        <equipmentID>seq-0001</equipmentID>
+                        <name>Set of Allen wrenches</name>
+                        <manufacturerCode>KZ666</manufacturerCode>
+                        <partNumber>BSK-TLST-001-13</partNumber>
+                        <quantity>1</quantity>
+                    </equipment>
+                    <equipment>
+                        <equipmentID>seq-0002</equipmentID>
+                        <name>Extra firm hold hairspray</name>
+                        <manufacturerCode>HS111</manufacturerCode>
+                        <partNumber>HSP-D001</partNumber>
+                        <quantity>1</quantity>
+                    </equipment>
+                    <equipment>
+                        <equipmentID>seq-0003</equipmentID>
+                        <name>Work stand</name>
+                        <manufacturerCode>KZ555</manufacturerCode>
+                        <partNumber>Stand-001</partNumber>
+                        <quantity>1</quantity>
+                    </equipment>
+                </requiredSupportEquipment>
+                <requiredSpares>
+                    <spare>
+                        <spareID>spa-0001</spareID>
+                        <name>Handlebar</name>
+                        <manufacturerCode>KZ555</manufacturerCode>
+                        <partNumber>Hd-001</partNumber>
+                        <quantity>1</quantity>
+                    </spare>
+                    <spare>
+                        <spareID>spa-0002</spareID>
+                        <name>Brake lever</name>
+                        <manufacturerCode>KT444</manufacturerCode>
+                        <partNumber>BR-LVRS-001</partNumber>
+                        <quantity>1</quantity>
+                    </spare>
+                    <spare>
+                        <spareID>spa-0003</spareID>
+                        <name>Shifter lever</name>
+                        <manufacturerCode>KZ555</manufacturerCode>
+                        <partNumber>Sl-001</partNumber>
+                        <quantity>1</quantity>
+                    </spare>
+                    <spare>
+                        <spareID>spa-0004</spareID>
+                        <name>Brake lever mount</name>
+                        <manufacturerCode>KT444</manufacturerCode>
+                        <partNumber>BR-LVRS-001-01</partNumber>
+                        <quantity>1</quantity>
+                    </spare>
+                    <spare>
+                        <spareID>spa-0005</spareID>
+                        <name>Handlebar grips</name>
+                        <manufacturerCode>KZ555</manufacturerCode>
+                        <partNumber>Hd-001-01</partNumber>
+                        <quantity>1</quantity>
+                    </spare>
+                    <spare>
+                        <spareID>spa-0006</spareID>
+                        <name>Handlebar plug</name>
+                        <manufacturerCode>KZ555</manufacturerCode>
+                        <partNumber>Hd-001-02</partNumber>
+                        <quantity>1</quantity>
+                    </spare>
+                </requiredSpares>
+                <requiredSafety>
+                    <warning>Do not ride the bicycle until the grips have become dry and are firmly held in position.</warning>
+                    <warning>Do not ride a bicycle with no grips on the handlebar.</warning>
+                    <caution>Make sure the handlebar is correctly aligned in the center of the stem.</caution>
+                </requiredSafety>
+            </preliminaryRequirements>
+            <mainProcedure>
+                <step>
+                    <para>Put the handlebar in the stem and tighten the clamp bolt with an Allen wrench. Make sure the handlebar is correctly aligned in the center of the stem.</para>
+                </step>
+                <step>
+                    <para>Put the brake lever and shifter lever on the handlebar.</para>
+                    <subStep>
+                        <para>Move the shifter lever on the handlebar again and make sure you do not catch the cables.</para>
+                    </subStep>
+                    <subStep>
+                        <para>Tighten the clamp bolt.</para>
+                    </subStep>
+                    <subStep>
+                        <para>Move the brake lever mount and the brake lever on the handlebar again.</para>
+                    </subStep>
+                    <subStep>
+                        <para>Tighten the clamp screw.</para>
+                    </subStep>
+                </step>
+                <step>
+                    <para>Replace the handlebar grips.</para>
+                    <subStep>
+                        <para>Apply extra firm hold hairspray to the grip area of the brake lever mount.</para>
+                    </subStep>
+                    <subStep>
+                        <para>Before the hairspray becomes dry, move the grip into the correct position. Make sure the grip protects the end of the handlebar or install a handlebar plug.</para>
+                    </subStep>
+                </step>
+            </mainProcedure>
+            <closeRequirements>
+                <para>No conditions are required to close this procedure.</para>
+            </closeRequirements>
+        </procedure>
+    </content>
+    <revisionHistory>
+        <para>Not available.</para>
+    </revisionHistory>
+</document>

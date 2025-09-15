@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <introduction>
+    <para>The following document is a conversion of the XML file DMC-S1KDTOOLS-A-00-00-00-00A-005A-D_EN-CA.XML to a well-structured markdown format.</para>
+  </introduction>
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>005</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+        <languageIsoCode>en</languageIsoCode>
+        <countryIsoCode>CA</countryIsoCode>
+        <issueNumber>004</issueNumber>
+        <inWork>00</inWork>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>
+          <year>2020</year>
+          <month>05</month>
+          <day>01</day>
+        </issueDate>
+        <techName>s1kd-tools</techName>
+        <infoName>List of abbreviations</infoName>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>status</issueType>
+      <securityClassification>01</securityClassification>
+      <responsiblePartnerCompany>khzae.net</responsiblePartnerCompany>
+      <originator>khzae.net</originator>
+      <applicability>All</applicability>
+      <brexDMRef>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>022</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </brexDMRef>
+      <qualityAssurance>unverified</qualityAssurance>
+      <reasonForUpdate>Fix issue type.</reasonForUpdate>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <abbreviations>
+        <abbreviation>
+          <term>BREX</term>
+          <definition>Business Rules EXchange</definition>
+        </abbreviation>
+        <abbreviation>
+          <term>CIR</term>
+          <definition>Common Information Repository</definition>
+        </abbreviation>
+        <abbreviation>
+          <term>CSDB</term>
+          <definition>Common Source Database</definition>
+        </abbreviation>
+        <abbreviation>
+          <term>PCT</term>
+          <definition>Product Cross-reference Table</definition>
+        </abbreviation>
+        <abbreviation>
+          <term>SNS</term>
+          <definition>Standard Numbering System</definition>
+        </abbreviation>
+      </abbreviations>
+    </description>
+  </content>
+</dm>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-320A-A_002-00_EN-US</title>
+  <introduction>
+    <para>The following document provides guidelines for the operation test of a bicycle.</para>
+  </introduction>
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCode>00AA</disassyCode>
+        <language>EN-US</language>
+      </dmIdent>
+      <languageAndIssueInformation>
+        <issueNumber>002</issueNumber>
+        <language>English</language>
+      </languageAndIssueInformation>
+    </dmAddress>
+  </identAndStatusSection>
+  <dmContent>
+    <preliminaryRequirements>
+      <requiredSupportEquipment>
+        <para>The following support equipment is required:</para>
+        <itemizedList>
+          <item>Torque wrench</item>
+          <item>Air pump</item>
+          <item>Tire pressure gauge</item>
+          <item>Wheel truing stand (optional)</item>
+        </itemizedList>
+      </requiredSupportEquipment>
+      <requiredSupplies>
+        <para>No supplies are required for this procedure.</para>
+      </requiredSupplies>
+      <requiredSpares>
+        <para>No spares are required for this procedure.</para>
+      </requiredSpares>
+      <requiredSafetyEquipment>
+        <para>No safety equipment is required for this procedure.</para>
+      </requiredSafetyEquipment>
+    </preliminaryRequirements>
+  </dmContent>
+  <checkList>
+    <checkListProcedure>
+      <para>The following steps must be performed to complete the operation test:</para>
+      <orderedList>
+        <item>
+          <title>Check Condition of Bike</title>
+          <para>Before every ride, check the condition of the bike.</para>
+        </item>
+        <item>
+          <title>Check Fasteners</title>
+          <para>Check all fasteners on the bike.</para>
+          <conditionalStatement>
+            <condition>If no fasteners are loose, proceed to the next step.</condition>
+            <action>If any fasteners are loose, tighten them according to the specific maintenance instruction for the related component.</action>
+          </conditionalStatement>
+        </item>
+        <item>
+          <title>Lift Front Wheel and Spin</title>
+          <para>Lift the front wheel off the ground 2-3 inches and let it bounce on the ground.</para>
+          <conditionalStatement>
+            <condition>If nothing rattles or appears to be loose, proceed to the next step.</condition>
+            <action>If the bike rattles or parts appear to be loose, secure the loose part according to the specific maintenance instruction for the related part.</action>
+          </conditionalStatement>
+        </item>
+        <item>
+          <title>Check Tire Pressure</title>
+          <para>Check the tire pressure against the specification printed on the side of the tire.</para>
+          <conditionalStatement>
+            <condition>If the tire pressure is correct, proceed to the next step.</condition>
+            <action>
+              <para>If the tire pressure is not within the specification:</para>
+              <conditionalStatement>
+                <condition>If the pressure is high, bleed air from the tire until it reaches the maximum pressure printed on the side of the tire.</condition>
+                <action>If the pressure is low, add air to the tire not to exceed the maximum pressure printed on the side of the tire.</action>
+              </conditionalStatement>
+            </action>
+          </conditionalStatement>
+        </item>
+        <item>
+          <title>Inspect Tire for Cuts or Cracks</title>
+          <para>Inspect the tire for cuts or cracks.</para>
+          <conditionalStatement>
+            <condition>If no damage is found, proceed to the next step.</condition>
+            <action>If visible damage is found, replace the tire before riding.</action>
+          </conditionalStatement>
+        </item>
+        <item>
+          <title>Check Wheels for Trueness</title>
+          <para>Ensure wheels are true spinning, without wobble.</para>
+          <conditionalStatement>
+            <condition>If wheels do not wobble when spinning, proceed to the next step.</condition>
+            <action>If wheels wobble when spinning, have the bike serviced and have the wheels made true.</action>
+          </conditionalStatement>
+        </item>
+        <item>
+          <title>Inspect Tire Rims for Wear</title>
+          <para>Inspect tire rims for wear indicator marks.</para>
+          <conditionalStatement>
+            <condition>If no wear indicator marks are visible, proceed to the next step.</condition>
+            <action>If wear indicator marks are visible, replace the wheel.</action>
+          </conditionalStatement>
+        </item>
+        <item>
+          <title>Check Brakes</title>
+          <para>Squeeze the brake levers and check that front and back brakes securely grip the wheel rim.</para>
+          <conditionalStatement>
+            <condition>If brakes engage within 1 inch of brake lever movement, proceed to the next step.</condition>
+            <action>If brakes do not engage within 1 inch of brake lever movement, tighten brakes according to maintenance procedure.</action>
+          </conditionalStatement>
+        </item>
+      </orderedList>
+    </checkListProcedure>
+  </checkList>
+  <conclusion>
+    <para>The operation test is complete when all steps have been performed and any necessary repairs or adjustments have been made.</para>
+  </conclusion>
+</document>

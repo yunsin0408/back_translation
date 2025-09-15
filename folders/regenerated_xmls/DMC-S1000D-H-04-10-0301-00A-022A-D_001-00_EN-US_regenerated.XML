@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structureObjectRuleGroup xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <description>The following is a list of structure object rules:</description>
+    <rules>
+        <rule>
+            <name>Supply Chain Management</name>
+            <attribute>supplyChainManagement</attribute>
+            <description>Supply chain management type (Chap 3.9.6.1, Table 1)</description>
+            <values>
+                <value>scm01: Generic supply chain management</value>
+                <value>scm02: Integrated logistics support</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Quantity Unit of Measure</name>
+            <attribute>quantityUnitOfMeasure</attribute>
+            <description>Quantity data unit of measure (Chap 3.9.6.2, Table 2)</description>
+            <values>
+                <value>um01: Generic quantity unit</value>
+                <value>um02: Kilogram</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Part Number Type</name>
+            <attribute>partNumberType</attribute>
+            <description>Part number type (Chap 3.9.6.1, Table 3)</description>
+            <values>
+                <value>pnt01: Generic part number</value>
+                <value>pnt02: Manufacturer part number</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Task Status Type</name>
+            <attribute>taskStatusType</attribute>
+            <description>Task status type (Chap 3.9.6.1, Table 4)</description>
+            <values>
+                <value>tst01: Generic task status</value>
+                <value>tst02: Completed task</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Supply Item Type</name>
+            <attribute>supplyItemType</attribute>
+            <description>Supply item type (Chap 3.9.6.1, Table 5)</description>
+            <values>
+                <value>sit01: Generic supply item</value>
+                <value>sit02: Consumable supply item</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Item Management Code</name>
+            <attribute>itemManagementCode</attribute>
+            <description>Item management code type (Chap 3.9.6.1, Table 6)</description>
+            <values>
+                <value>imc01: Generic item management</value>
+                <value>imc02: Controlled item</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Task Type</name>
+            <attribute>taskType</attribute>
+            <description>Task type (Chap 3.9.6.1, Table 7)</description>
+            <values>
+                <value>tt01: Generic task</value>
+                <value>tt02: Maintenance task</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Task Priority Type</name>
+            <attribute>taskPriorityType</attribute>
+            <description>Task priority type (Chap 3.9.6.1, Table 8)</description>
+            <values>
+                <value>tpt01: Generic task priority</value>
+                <value>tpt02: High priority task</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Task Status Reason Type</name>
+            <attribute>taskStatusReasonType</attribute>
+            <description>Task status reason type (Chap 3.9.6.1, Table 9)</description>
+            <values>
+                <value>tsrt01: Generic task status reason</value>
+                <value>tsrt02: Completed successfully</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Supply Item Category Type</name>
+            <attribute>supplyItemCategoryType</attribute>
+            <description>Supply item category type (Chap 3.9.6.1, Table 10)</description>
+            <values>
+                <value>sict01: Generic supply item category</value>
+                <value>sict02: Consumable supply item category</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Part Number Format Type</name>
+            <attribute>partNumberFormatType</attribute>
+            <description>Part number format type (Chap 3.9.6.1, Table 11)</description>
+            <values>
+                <value>pnft01: Generic part number format</value>
+                <value>pnft02: Standard part number format</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Supply Item Unit of Measure Type</name>
+            <attribute>supplyItemUnitOfMeasureType</attribute>
+            <description>Supply item unit of measure type (Chap 3.9.6.1, Table 12)</description>
+            <values>
+                <value>siuomt01: Generic supply item unit</value>
+                <value>siuomt02: Standard supply item unit</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Item Management Level Type</name>
+            <attribute>itemManagementLevelType</attribute>
+            <description>Item management level type (Chap 3.9.6.1, Table 13)</description>
+            <values>
+                <value>imlt01: Generic item management level</value>
+                <value>imlt02: Organizational level</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Supply Item Condition Type</name>
+            <attribute>supplyItemConditionType</attribute>
+            <description>Supply item condition type (Chap 3.9.6.1, Table 14)</description>
+            <values>
+                <value>sict01: Generic supply item condition</value>
+                <value>sict02: New supply item</value>
+            </values>
+        </rule>
+        <rule>
+            <name>Task Type Classification</name>
+            <attribute>taskTypeClassification</attribute>
+            <description>Task type classification (Chap 3.9.6.1, Table 15)</description>
+            <values>
+                <value>ttc01: Generic task type</value>
+                <value>ttc02: Maintenance task type</value>
+            </values>
+        </rule>
+    </rules>
+    <nonContextRules>
+        <rule>
+            <description>Deletion of data modules is treated as a special case of update. The data module itself is not physically deleted from the CSDB but only marked as deleted (Chap 3.9.5.1, Para 2.2)</description>
+        </rule>
+    </nonContextRules>
+</structureObjectRuleGroup>

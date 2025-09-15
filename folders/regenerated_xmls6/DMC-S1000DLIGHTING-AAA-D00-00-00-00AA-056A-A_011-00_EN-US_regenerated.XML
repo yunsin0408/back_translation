@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <content>
+    <Introduction>
+      <para>S1000D is an international specification for the production of technical publications, particularly in the aerospace and defense industries.</para>
+    </Introduction>
+    <ContentOverview>
+      <para>The provided module contains information about electrical equipment, including wiring diagrams, component descriptions, and installation instructions.</para>
+    </ContentOverview>
+    <electricalEquipGroup>
+      <electricalEquipment functionalItemNumber="AC1650">
+        <description>A battery master switch with multiple mounting positions and a system breakdown code.</description>
+        <partNumber>ABC123</partNumber>
+        <manufacturerCode>XYZ Corp</manufacturerCode>
+      </electricalEquipment>
+      <electricalEquipment functionalItemNumber="ELO-Box">
+        <description>An electronic box with multiple components, including GT-002-WD and GT-004-WD.</description>
+        <component>
+          <partNumber>GT-002-WD</partNumber>
+          <manufacturerCode>DEF Inc</manufacturerCode>
+        </component>
+        <component>
+          <partNumber>GT-004-WD</partNumber>
+          <manufacturerCode>GHI Ltd</manufacturerCode>
+        </component>
+      </electricalEquipment>
+    </electricalEquipGroup>
+    <electricalEquipAlts>
+      <alternativeConfig functionalItemNumber="SPEC-0001">
+        <description>An alternative configuration for the AC1650 battery master switch, with different part numbers and manufacturers.</description>
+        <partNumber>DEF456</partNumber>
+        <manufacturerCode>MNO Corp</manufacturerCode>
+      </alternativeConfig>
+    </electricalEquipAlts>
+  </content>
+  <KeyElements>
+    <para>Some key elements in the module include:</para>
+    <item>dmodule: The root element of the S1000D module.</item>
+    <item>content: Contains the main content of the module, including wiring diagrams and component descriptions.</item>
+    <item>electricalEquipGroup: A group of electrical equipment items.</item>
+    <item>electricalEquipAlts: Alternative configurations for certain electrical equipment items.</item>
+  </KeyElements>
+  <AttributesAndChildElements>
+    <para>The elements in the module have various attributes and child elements that provide additional information. For example:</para>
+    <item>functionalItemNumber: A unique identifier for each electrical equipment item.</item>
+    <item>partNumber: The part number of a component or subassembly.</item>
+    <item>manufacturerCode: The code of the manufacturer responsible for producing a component or subassembly.</item>
+  </AttributesAndChildElements>
+  <UsageAndApplications>
+    <para>S1000D modules like this one are typically used in technical documentation, maintenance manuals, and other publications related to aerospace and defense equipment.</para>
+    <ExampleUseCases>
+      <item>Creating maintenance manuals for aircraft or vehicles</item>
+      <item>Developing technical documentation for complex electrical systems</item>
+      <item>Sharing information between manufacturers, suppliers, and customers</item>
+    </ExampleUseCases>
+  </UsageAndApplications>
+  <Conclusion>
+    <para>The provided S1000D module contains a wealth of information about electrical equipment, including wiring diagrams, component descriptions, and installation instructions. Its standardized structure and content make it an essential resource for technical documentation and maintenance activities in the aerospace and defense industries.</para>
+  </Conclusion>
+</dmodule>

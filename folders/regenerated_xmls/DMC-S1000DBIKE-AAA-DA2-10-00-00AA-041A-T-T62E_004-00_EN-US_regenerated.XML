@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="AA" infoCode="041" infoCodeVariant="A" itemLocationCode="T" learnCode="T62" learnEventCode="E"/>
+                <language countryIsoCode="US" languageIsoCode="en"/>
+                <issueInfo issueNumber="004" inWork="00"/>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate year="2024" month="06" day="19"/>
+                <dmTitle>
+                    <techName>Steering</techName>
+                    <infoName>Description of how it is made: Knowledge Check</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <issueType>status</issueType>
+            <security>
+                <securityClassification>01</securityClassification>
+            </security>
+            <dataRestrictions>
+                <restrictionInstructions>
+                    <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+                    <exportControl>
+                        <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+                    </exportControl>
+                    <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+                    <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+                    <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+                </restrictionInstructions>
+                <restrictionInfo>
+                    <copyright>
+                        <owner>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</owner>
+                        <publishers>
+                            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+                            <publisher>Aerospace Industries Association of America</publisher>
+                            <publisher>ATA e-Business Program</publisher>
+                        </publishers>
+                        <limitationOfLiability>
+                            <item>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</item>
+                            <item>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</item>
+                            <item>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</item>
+                        </limitationOfLiability>
+                        <copyrightDetails>The details for copyright can be found in the S1000D Specification.</copyrightDetails>
+                    </copyright>
+                    <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+                    <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+                </restrictionInfo>
+            </dataRestrictions>
+            <responsiblePartnerCompany>
+                <enterpriseCode>B6865</enterpriseCode>
+                <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+            </responsiblePartnerCompany>
+            <originator>
+                <enterpriseCode>B6865</enterpriseCode>
+                <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+            </originator>
+            <applic>
+                <displayText>All</displayText>
+            </applic>
+            <brexDmRef>
+                <dmRef dmCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="AA" infoCode="022" infoCodeVariant="A" itemLocationCode="D">
+                    <issueInfo issueNumber="011" inWork="00"/>
+                </dmRef>
+            </brexDmRef>
+            <qualityAssurance>
+                <firstVerification verificationType="tabtop"/>
+            </qualityAssurance>
+            <systemBreakdownCode>DA210</systemBreakdownCode>
+            <reasonForUpdate id="rfu_general" updateReasonType="urt03">
+                <description>S1000D upissued</description>
+            </reasonForUpdate>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <learning>
+            <learningAssessment>
+                <title>Knowledge Check</title>
+                <lcInteraction>
+                    <lcSingleSelect>
+                        <lcQuestion>
+                            <description>Select your answer, and then click CHECK. The stem attaches the _________________________ to the ________________________.</description>
+                        </lcQuestion>
+                        <lcAnswerOptionGroup>
+                            <answerOption id="ao_001" shuffle="1">
+                                <description>headset / fork</description>
+                            </answerOption>
+                            <answerOption id="ao_002" shuffle="1">
+                                <description>fork / handlebar</description>
+                            </answerOption>
+                            <answerOption id="ao_003" shuffle="1">
+                                <description>handlebar / headset</description>
+                                <lcCorrectResponse lcName="lcCorrectResponse"/>
+                            </answerOption>
+                            <answerOption id="ao_004" shuffle="1">
+                                <description>frame / handlebar</description>
+                            </answerOption>
+                        </lcAnswerOptionGroup>
+                        <lcFeedbackItemGroup>
+                            <feedbackItem attemptMatch="1">
+                                <description>The answer "headset / fork" is incorrect. Try again!</description>
+                                <internalRef internalRefId="ao_001"/>
+                            </feedbackItem>
+                            <feedbackItem attemptMatch="1">
+                                <description>The answer "fork / handlebar" is incorrect. Try again! </description>
+                                <internalRef internalRefId="ao_002"/>
+                            </feedbackItem>
+                            <feedbackItem>
+                                <description>Correct! </description>
+                                <internalRef internalRefId="ao_003"/>
+                            </feedbackItem>
+                            <feedbackItem attemptMatch="1">
+                                <description>The answer "frame / handlebar" is incorrect. Try again! </description>
+                                <internalRef internalRefId="ao_004"/>
+                            </feedbackItem>
+                            <feedbackItem attemptMatch="2">
+                                <description>The answer "headset / fork" is incorrect. The correct answer is handlebar / headset. </description>
+                                <internalRef internalRefId="ao_001"/>
+                            </feedbackItem>
+                            <feedbackItem attemptMatch="2">
+                                <description>The answer "fork / handlebar" is incorrect. The correct answer is handlebar / headset. </description>
+                                <internalRef internalRefId="ao_002"/>
+                            </feedbackItem>
+                            <feedbackItem attemptMatch="2">
+                                <description>The answer "frame / handlebar" is incorrect. The correct answer is handlebar / headset. </description>
+                                <internalRef internalRefId="ao_004"/>
+                            </feedbackItem>
+                        </lcFeedbackItemGroup>
+                    </lcSingleSelect>
+                </lcInteraction>
+            </learningAssessment>
+        </learning>
+    </content>
+</dm>

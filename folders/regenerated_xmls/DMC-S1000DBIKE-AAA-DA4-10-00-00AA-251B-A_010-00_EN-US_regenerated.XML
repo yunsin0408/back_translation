@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA4</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>251</infoCode>
+        <infoCodeVariant>B</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+        <language>
+          <countryIsoCode>US</countryIsoCode>
+          <languageIsoCode>en</languageIsoCode>
+        </language>
+        <issueInfo>
+          <issueNumber>010</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+        <dmTitle>
+          <techName>Chain</techName>
+          <infoName>Clean with chemical agent</infoName>
+          <infoNameVariant>Use chain cleaning fluid</infoNameVariant>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+            <publishers>
+              <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+              <publisher>Aerospace Industries Association of America</publisher>
+              <publisher>ATA e-Business Program</publisher>
+            </publishers>
+            <limitationsOfLiability>
+              <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any warranty, express or implied, or assumes any liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed.</limitation>
+              <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of the material shall be liable for any damages arising from the use of this material.</limitation>
+            </limitationsOfLiability>
+            <note>The details of the limitations of liability are not fully provided in the given data and may need to be referred to in a separate document or agreement.</note>
+          </copyright>
+          <policyInfo>Not provided</policyInfo>
+        </restrictionInfo>
+      </dataRestrictions>
+      <responsibleOrg>
+        <orgId>Not provided</orgId>
+      </responsibleOrg>
+      <applicableDocs>
+        <docId>Not provided</docId>
+      </applicableDocs>
+      <references>
+        <refId>Not provided</refId>
+      </references>
+    </dmStatus>
+  </identAndStatusSection>
+  <contentSection>
+    <preliminaryRequirements>
+      <requiredConditions>None</requiredConditions>
+      <requiredSupportEquipment>
+        <supportEquipment>
+          <id>seq-0001</id>
+          <name>Stiff bristle brush</name>
+          <manufacturerCode>KZ666</manufacturerCode>
+          <partNumber>BSK-TLST-001-02</partNumber>
+          <quantity>1 EA</quantity>
+        </supportEquipment>
+        <supportEquipment>
+          <id>seq-0002</id>
+          <name>Chain cleaning fluid</name>
+          <manufacturerCode>KZ222</manufacturerCode>
+          <partNumber>LL-003</partNumber>
+          <quantity>As required</quantity>
+        </supportEquipment>
+        <supportEquipment>
+          <id>seq-0003</id>
+          <name>Chain cleaning tool</name>
+          <manufacturerCode>KZ666</manufacturerCode>
+          <partNumber>BSK-TLST-001-03</partNumber>
+          <quantity>1 EA</quantity>
+        </supportEquipment>
+      </requiredSupportEquipment>
+      <requiredSupplies>
+        <supply>
+          <id>sup-0001</id>
+          <name>Floor covering</name>
+          <manufacturerCode>KK999</manufacturerCode>
+          <partNumber>PPP-001</partNumber>
+          <quantity>1 pack</quantity>
+        </supply>
+        <supply>
+          <id>sup-0002</id>
+          <name>General lubricant</name>
+          <manufacturerCode>KZ222</manufacturerCode>
+          <partNumber>LL-001</partNumber>
+          <quantity>As required</quantity>
+        </supply>
+      </requiredSupplies>
+      <requiredSpares>None</requiredSpares>
+      <requiredSafety>None</requiredSafety>
+    </preliminaryRequirements>
+    <mainProcedure>
+      <step>
+        <title>Inspect the Chain:</title>
+        <text>Inspect the chain as given in the pre-ride checks (refer to [DM Ref](#)).</text>
+      </step>
+      <step>
+        <title>Prepare the Cleaning Area:</title>
+        <text>Put the floor covering on a satisfactory floor area. Put the bicycle on the floor covering.</text>
+      </step>
+      <step>
+        <title>Clean Debris from the Chain:</title>
+        <text>Use the stiff bristle brush and loosen as much unwanted material as possible. Make sure that you remove all the unwanted material from the chain.</text>
+      </step>
+      <step>
+        <title>Clean the Chain:</title>
+        <text>Open the chain cleaning tool and fill with the chain cleaning fluid. Move the chain to the middle chainring and the middle sprocket at the rear. Put the chain in the chain guides of the chain cleaning tool and lock the tool on the chain. Hold the tool with the left hand and slowly turn the rearwards with the right hand. Press the button on the cleaning tool to make sure that cleaning fluid flows until the tool is empty. If necessary, remove the unwanted chain cleaning fluid.</text>
+      </step>
+      <step>
+        <title>Lubricate the Chain:</title>
+        <text>Use the general lubricant and lubricate the chain. Unlock and remove the cleaning tool. If necessary, remove the unwanted lubricant.</text>
+      </step>
+    </mainProcedure>
+    <closeRequirements>
+      <step>
+        <title>Move the Bicycle to its Storage Area and Remove the Floor Covering:</title>
+        <text>Move the bicycle to its storage area and remove the floor covering.</text>
+      </step>
+    </closeRequirements>
+  </contentSection>
+</dm>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <section id="document-overview">
+    <title>Document Overview</title>
+    <paragraph>The provided XML document appears to be a technical manual or instruction guide for replacing and modifying lighting components on a bicycle. The document is structured into several sections, including introduction, preliminary requirements, main procedure, and closing requirements.</paragraph>
+  </section>
+  <section id="introduction">
+    <title>Introduction</title>
+    <paragraph>The document begins with an introduction that includes information about the module, such as its identity and purpose. Unfortunately, this section is not fully visible in the provided text.</paragraph>
+  </section>
+  <section id="preliminary-requirements">
+    <title>Preliminary Requirements</title>
+    <subsection id="work-locations">
+      <title>Work Locations</title>
+      <itemizedlist>
+        <listitem>Location 1 (wla-0001): On the handlebar</listitem>
+        <listitem>Location 2 (wla-0002): On the rear of the bicycle</listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection id="tools-and-equipment">
+      <title>Tools and Equipment</title>
+      <itemizedlist>
+        <listitem>Special tool set (seq-0001)</listitem>
+        <listitem>Screwdriver from the special tool set (seq-0002)</listitem>
+      </itemizedlist>
+    </subsection>
+    <subsection id="spare-parts">
+      <title>Spare Parts</title>
+      <itemizedlist>
+        <listitem>New white front bulb (spa-0003)</listitem>
+        <listitem>New white rear bulb (spa-0004)</listitem>
+        <listitem>Glass with a hole for venting and heat evacuation (spa-0007)</listitem>
+        <listitem>Original glass without a hole (spa-0005)</listitem>
+        <listitem>Kit containing new bulbs (spa-0002)</listitem>
+      </itemizedlist>
+    </subsection>
+  </section>
+  <section id="main-procedure">
+    <title>Main Procedure</title>
+    <orderedlist>
+      <listitem id="remove-glass">
+        <title>Remove the Glass</title>
+        <paragraph>Remove the glass from the light at Location 1.</paragraph>
+      </listitem>
+      <listitem id="remove-used-bulb">
+        <title>Remove the Used Bulb</title>
+        <paragraph>Remove the used yellow front bulb.</paragraph>
+      </listitem>
+      <listitem id="discard-used-bulb">
+        <title>Discard the Used Bulb</title>
+        <paragraph>Discard the used yellow front bulb.</paragraph>
+      </listitem>
+      <listitem id="install-new-bulb">
+        <title>Install the New Bulb</title>
+        <paragraph>Install the new white front bulb from the kit.</paragraph>
+      </listitem>
+      <listitem id="reinstall-glass">
+        <title>Reinstall the Glass</title>
+        <paragraph>Reinstall the glass on the light.</paragraph>
+      </listitem>
+      <listitem id="secure-light-fitting">
+        <title>Secure the Light Fitting</title>
+        <paragraph>Secure the light fitting to the handlebar using the special screwdriver and tool set.</paragraph>
+      </listitem>
+      <listitem id="repeat-for-rear-bulb">
+        <title>Repeat for Rear Bulb</title>
+        <orderedlist>
+          <listitem>Remove the glass at Location 2.</listitem>
+          <listitem>Remove the used yellow rear bulb.</listitem>
+          <listitem>Discard the used yellow rear bulb.</listitem>
+          <listitem>Install the new white rear bulb from the kit.</listitem>
+          <listitem>Drill a hole in the original glass for venting and heat evacuation (or use pre-drilled glass).</listitem>
+          <listitem>Reinstall the modified glass on the light.</listitem>
+        </orderedlist>
+      </listitem>
+    </orderedlist>
+  </section>
+  <section id="closing-requirements">
+    <title>Closing Requirements</title>
+    <subsection id="switch-on-lights">
+      <title>Switch On Lights</title>
+      <paragraph>If necessary, switch on the lights to test them.</paragraph>
+    </subsection>
+  </section>
+  <section id="notes">
+    <title>Notes</title>
+    <itemizedlist>
+      <listitem>The document mentions specific spare part numbers and tool set references that would be specific to the manufacturer or supplier.</listitem>
+      <listitem>There are internal references throughout the document linking steps to specific locations, tools, and spare parts for clarity and ease of use.</listitem>
+      <listitem>Safety precautions are mentioned, including caution and warning references (c001, c002, w001), emphasizing the importance of following safety guidelines during the procedure.</listitem>
+    </itemizedlist>
+  </section>
+</document>

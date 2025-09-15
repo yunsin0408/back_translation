@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <maintenanceProcedure>
+    <title>S1000D Maintenance Procedure</title>
+    <introduction>
+      <paragraph>This maintenance procedure outlines the steps required to lubricate a bicycle chain.</paragraph>
+    </introduction>
+    <preliminaryRequirements>
+      <personnel>
+        <requirement>One person is required to perform this task.</requirement>
+        <requirement>The person should have basic mechanical skills and knowledge of bicycle maintenance.</requirement>
+      </personnel>
+      <supportEquipment>
+        <item>
+          <description>Clean dry cloth</description>
+          <partNumber>KZ666</partNumber>
+          <supplierPartNumber>BSK-TLST-001-12</supplierPartNumber>
+        </item>
+        <item>
+          <description>Floor covering</description>
+          <partNumber>KK999</partNumber>
+          <supplierPartNumber>PPP-001</supplierPartNumber>
+        </item>
+      </supportEquipment>
+      <supplies>
+        <item>
+          <description>ACME sticky lube 52B (Wet lube)</description>
+          <partNumber>KZ222</partNumber>
+          <supplierPartNumber>LL-007</supplierPartNumber>
+        </item>
+        <item>
+          <description>AECMA Heavy duty Oil 1988 (Dry lube)</description>
+          <partNumber>B6865</partNumber>
+          <supplierPartNumber>HD1988</supplierPartNumber>
+        </item>
+      </supplies>
+      <safetyRequirements>
+        <warning>ACME sticky lube 52B and AECMA Heavy duty Oil 1988 are very dangerous substances. Do not get them onto your skin. Use them in a well-ventilated area. If you swallow them, seek immediate medical advice. If they get into your eyes, wash your eyes with clean water and seek medical advice.</warning>
+      </safetyRequirements>
+    </preliminaryRequirements>
+    <mainProcedure>
+      <step id="step-1">
+        <title>Apply Penetrating Lubricant</title>
+        <instruction>
+          <paragraph>Apply penetrating lubricant to:</paragraph>
+          <itemizedList>
+            <item>
+              <description>Derailleur pivots</description>
+              <reference href="#figure-1">Figure 1</reference>
+            </item>
+            <item>
+              <description>Derailleur tension</description>
+              <reference href="#figure-2">Figure 2</reference>
+            </item>
+            <item>
+              <description>Brake lever pivots</description>
+              <reference href="#figure-3">Figure 3</reference>
+            </item>
+          </itemizedList>
+          <paragraph>Apply penetrating lubricant to:</paragraph>
+          <itemizedList>
+            <item>
+              <description>Guide wheels</description>
+            </item>
+            <item>
+              <description>Control cables and where they go into their casings</description>
+            </item>
+          </itemizedList>
+        </instruction>
+      </step>
+      <step id="step-2">
+        <title>Lubricate the Chain</title>
+        <instruction>
+          <paragraph>Make sure the chain is clean and dry.</paragraph>
+          <paragraph>Put a floor covering on the floor below the chain.</paragraph>
+          <conditionalInstruction>
+            <condition_ForDryConditions>
+              <paragraph>Apply AECMA Heavy duty Oil 1988 to each roller of the chain</paragraph>
+              <reference href="#figure-4">Figure 4</reference>
+              <note>but only apply a small quantity.</note>
+            </condition_ForDryConditions>
+            <condition_ForWetConditions>
+              <paragraph>Apply ACME sticky lube 52B to each roller of the chain</paragraph>
+              <reference href="#figure-4">Figure 4</reference>
+              <note>but only apply a small quantity.</note>
+            </condition_ForWetConditions>
+          </conditionalInstruction>
+          <paragraph>Hold the nozzle of the container above the front of the chain ring and slowly turn the cranks rearwards.</paragraph>
+        </instruction>
+      </step>
+    </mainProcedure>
+    <figures>
+      <figure id="figure-1">
+        <title>Derailleur Pivots</title>
+        <image xlink:href="ICN-C0419-S1000D0398-001-01"/>
+      </figure>
+      <figure id="figure-2">
+        <title>Derailleur Tension</title>
+        <image xlink:href="ICN-C0419-S1000D0399-001-01"/>
+      </figure>
+      <figure id="figure-3">
+        <title>Brake Lever Pivots</title>
+        <image xlink:href="ICN-C0419-S1000D0383-001-01"/>
+      </figure>
+      <figure id="figure-4">
+        <title>Lubricate the Chain</title>
+        <image xlink:href="ICN-C0419-S1000D0395-001-01"/>
+      </figure>
+    </figures>
+    <closingRequirements>
+      <instruction>
+        <paragraph>Check the rear wheel rim and clean any unwanted lubricant.</paragraph>
+        <paragraph>Check the chain to make sure that each link is lubricated. If there are links that do not move easily or have become frozen, lubricate the chain again</paragraph>
+        <reference href="#step-2">Step 2</reference>
+        <paragraph>Clean any remaining lubricated parts with a clean dry cloth.</paragraph>
+      </instruction>
+    </closingRequirements>
+  </maintenanceProcedure>
+</root>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <introduction>
+    <title>Introduction</title>
+    <paragraph>This document contains pre-ride checks for a bicycle.</paragraph>
+  </introduction>
+  <preRideChecks>
+    <title>Pre-Ride Checks</title>
+    <item>
+      <title>Brakes</title>
+      <checks>
+        <check>
+          <title>Check the pads:</title>
+          <questions>
+            <question>Are they worn out?</question>
+            <question>Is there sufficient clearance between the rim and brake pad?</question>
+          </questions>
+        </check>
+        <check>
+          <title>Inspect the levers:</title>
+          <questions>
+            <question>Do they have about 1 inch of travel before engagement?</question>
+            <question>Is there space between the lever and handlebar when fully pulled?</question>
+          </questions>
+        </check>
+        <check>
+          <title>Check cables for cuts or fraying.</title>
+        </check>
+      </checks>
+    </item>
+    <item>
+      <title>Tires</title>
+      <checks>
+        <check>
+          <title>Pressure:</title>
+          <table>
+            <row>
+              <terrain>Off Road</terrain>
+              <minPressure>35lbs</minPressure>
+              <maxPressure>40lbs</maxPressure>
+            </row>
+            <row>
+              <terrain>On Road</terrain>
+              <minPressure>55lbs</minPressure>
+              <maxPressure>60lbs</maxPressure>
+            </row>
+          </table>
+        </check>
+        <check>
+          <title>Check for cracks or splits.</title>
+        </check>
+      </checks>
+    </item>
+    <item>
+      <title>Wheels</title>
+      <checks>
+        <check>
+          <title>Ensure there are no loose bearings.</title>
+        </check>
+        <check>
+          <title>Verify the wheels are true and round.</title>
+        </check>
+        <check>
+          <title>Inspect spokes:</title>
+          <questions>
+            <question>Are they broken?</question>
+            <question>Are they tight (if not broken)?</question>
+          </questions>
+        </check>
+      </checks>
+    </item>
+    <item>
+      <title>Headset</title>
+      <checks>
+        <check>
+          <title>Make sure the headset bearings are tightened properly.</title>
+        </check>
+      </checks>
+    </item>
+    <item>
+      <title>Chain</title>
+      <checks>
+        <check>
+          <title>Check for easy movement of links.</title>
+        </check>
+      </checks>
+    </item>
+    <item>
+      <title>Handlebar</title>
+      <warning>Do not ride with a cracked stem.</warning>
+      <checks>
+        <check>
+          <title>If the stem is:</title>
+          <conditions>
+            <condition>
+              <state>Cracked</state>
+              <action>replace it.</action>
+            </condition>
+            <condition>
+              <state>Loose</state>
+              <action>tighten it.</action>
+            </condition>
+          </conditions>
+        </check>
+        <check>
+          <title>If handlebars twist in the stem, tighten the clamp bolt.</title>
+        </check>
+      </checks>
+    </item>
+  </preRideChecks>
+  <computerDisplay>
+    <title>Computer Display</title>
+    <checks>
+      <check>
+        <title>Altitude:</title>
+        <value>0 miles</value>
+      </check>
+      <check>
+        <title>Speed:</title>
+        <value>0 mph</value>
+      </check>
+      <check>
+        <title>Distance:</title>
+        <value>0 miles</value>
+      </check>
+    </checks>
+  </computerDisplay>
+  <conclusion>
+    <paragraph>These checks are crucial for ensuring a safe and enjoyable ride. Always perform these pre-ride checks before heading out on your bicycle.</paragraph>
+  </conclusion>
+</document>

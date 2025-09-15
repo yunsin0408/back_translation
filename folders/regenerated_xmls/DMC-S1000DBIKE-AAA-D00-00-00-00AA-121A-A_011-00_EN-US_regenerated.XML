@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>00</subSystemCode>
+          <subSubSystemCode>00</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>121</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>A</itemLocationCode>
+        </dmCode>
+        <language>EN-US</language>
+        <version>011-00</version>
+      </dmIdent>
+      <dmRefs>No DMRefs found in this section.</dmRefs>
+    </dmAddress>
+    <procedureRefs>No ProcedureRefs found in this section.</procedureRefs>
+  </identAndStatusSection>
+  <content>
+    <references>
+      <dmRef>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA4</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>251</infoCode>
+        <infoCodeVariant>B</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+    </references>
+    <procedure>
+      <preliminaryRequirements>
+        <requirementConditionGroup>No conditions found.</requirementConditionGroup>
+        <requiredPersons>
+          <personCategory>Basic user</personCategory>
+          <trade>Operator</trade>
+          <estimatedTime>0.3 hours</estimatedTime>
+        </requiredPersons>
+        <requiredSupportEquipments>
+          <tirePressureGauge>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001-01</partNumber>
+            <quantity>1 EA</quantity>
+          </tirePressureGauge>
+          <specialistToolset>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001</partNumber>
+            <quantity>1 EA</quantity>
+          </specialistToolset>
+        </requiredSupportEquipments>
+        <requiredSupplies>
+          <generalLubricant>
+            <manufacturerCode>KZ222</manufacturerCode>
+            <partNumber>LL-001</partNumber>
+            <quantity>As required</quantity>
+          </generalLubricant>
+        </requiredSupplies>
+        <requiredSpares>No spares found.</requiredSpares>
+        <requiredSafety>No safety requirements found.</requiredSafety>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step>
+          <action>Examine the condition of the brakes</action>
+          <subSteps>
+            <subStep>Open the brake quick release.</subStep>
+            <subStep>Examine the condition and thickness of the brake pads.</subStep>
+            <subStep>Making sure there is a large quantity of rubber left.</subStep>
+            <subStep>Making sure the pad is not too hard.</subStep>
+            <subStep>Clean all unwanted material.</subStep>
+          </subSteps>
+        </step>
+        <step>
+          <action>Inspect the installation of the brakes</action>
+          <subSteps>
+            <subStep>Check the hydraulic brake system function.</subStep>
+            <subStep>Making sure there is sufficient clearance between the pad and the inner diameter of the brake surface.</subStep>
+            <caution>If the position of the pads is too low on the rim, the pads can move and cause damage to the spokes.</caution>
+          </subSteps>
+        </step>
+        <step>
+          <action>Check the tire pressure</action>
+          <subSteps>
+            <subStep>Use the tire pressure gauge to check the pressure.</subStep>
+            <subStep>Compare the value with the recommended pressure shown on the sidewall of the tire.</subStep>
+            <subStep>Add air as necessary.</subStep>
+          </subSteps>
+        </step>
+        <step>
+          <action>Examine the condition of the wheels</action>
+          <subSteps>
+            <subStep>Examine the rims for bulges and dents.</subStep>
+            <subStep>Examine for splits at the seam where an extruded rim is bonded.</subStep>
+          </subSteps>
+        </step>
+        <step>
+          <action>Check the headset bearings</action>
+          <subSteps>
+            <subStep>Straddle the bicycle and apply the front brakes.</subStep>
+            <subStep>Push the handlebars forward and make sure the headset bearings are tight.</subStep>
+          </subSteps>
+        </step>
+        <step>
+          <action>Check the chain</action>
+          <subSteps>
+            <subStep>Visually examine the chain.</subStep>
+            <subStep>If dirty, clean as specified in the clean chain task (refer to DM Ref).</subStep>
+            <subStep>Check for frozen or stiff links.</subStep>
+            <subStep>Apply lubricant as necessary.</subStep>
+          </subSteps>
+        </step>
+      </mainProcedure>
+      <closeRequirements>No conditions found.</closeRequirements>
+    </procedure>
+  </content>
+  <additionalInformation>The XML document contains several internal references and multimedia objects that are not included in this markdown version. These include:
+    <internalReferences>
+      <reference>fig-0001</reference>
+      <reference>seq-0001</reference>
+      <reference>sup-0001</reference>
+      <reference>seq-0002</reference>
+    </internalReferences>
+    <multimediaObjects>
+      <object>ICN-C0419-S1000D0384-001-01</object>
+      <object>ICN-C0419-S1000D0382-001-01</object>
+    </multimediaObjects>
+  </additionalInformation>
+</root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent modelIdentCode="S1KDTOOLS" systemDiffCode="A" systemCode="35" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+            <languageAndCountryCodes languageIsoCode="en" countryIsoCode="CA"/>
+            <issueInformation issueNumber="012" inWork="00"/>
+        </dmAddress>
+        <dmAddressItems>
+            <issueDate year="2020" month="09" day="01"/>
+            <dmTitle techName="s1kd-newsmc" infoName="Description"/>
+        </dmAddressItems>
+    </identAndStatusSection>
+    <dmStatus>
+        <issueType>changed</issueType>
+        <securityClassification>01</securityClassification>
+        <responsiblePartnerCompany>khzae.net</responsiblePartnerCompany>
+        <originator>khzae.net</originator>
+        <applic displayText="All"/>
+        <brexDmRef>
+            <dmRefIdent modelIdentCode="S1KDTOOLS" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+        </brexDmRef>
+    </dmStatus>
+    <content>
+        <description>
+            <introduction>The s1kd-newsmc command is used to create a new SCORM content package.</introduction>
+            <usage>The usage of the command is as follows:
+                $ s1kd-newsmc [options] &lt;DM&gt;...
+                The options are:
+                | Option | Description |
+                | --- | --- |
+                | -# | Specify the SCORM code |
+                | --dtdload | Load the external DTD |
+                | --huge | Remove any internal arbitrary parser limits |
+                | --net | Allow network access to load external DTD and entities |
+                | --noent | Resolve entities |
+                | --parser-errors | Emit errors from parser |
+                | --parser-warnings | Emit warnings from parser |
+                | --xinclude | Do XInclude processing |
+                | --xml-catalog | Use an XML catalog when resolving entities |
+                | -@ | Specify the input file |
+                | -v | Print the version information |
+            </usage>
+            <options>
+                * -# &lt;code&gt;: Specify the SCORM code
+                * --dtdload: Load the external DTD
+                * --huge: Remove any internal arbitrary parser limits
+                * --net: Allow network access to load external DTD and entities
+                * --noent: Resolve entities
+                * --parser-errors: Emit errors from parser
+                * --parser-warnings: Emit warnings from parser
+                * --xinclude: Do XInclude processing
+                * --xml-catalog &lt;file&gt;: Use an XML catalog when resolving entities
+                * -@ &lt;file&gt;: Specify the input file
+                * -v: Print the version information
+            </options>
+            <defaultsFile>Refer to s1kd-newdm for information on the .defaults file which is used by all the s1kd-new* commands.</defaultsFile>
+            <example>The following example creates a new SCORM content package with the SCORM code EX-12345-00001-00:
+                $ s1kd-newsmc -# EX-12345-00001-00
+            </example>
+        </description>
+    </content>
+</dm>

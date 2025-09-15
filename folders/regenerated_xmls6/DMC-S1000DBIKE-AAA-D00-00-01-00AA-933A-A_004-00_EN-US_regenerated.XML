@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+           xmlns:xlink="http://www.w3.org/1999/xlink" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Procedure Document</title>
+  <content>This is a sample procedure document.</content>
+  <tableOfContents>
+    <item><label>Introduction</label><reference href="#introduction"/></item>
+    <item><label>Preliminary Requirements</label><reference href="#preliminary-requirements"/></item>
+    <item><label>Main Procedure</label><reference href="#main-procedure"/></item>
+    <item><label>Close Requirements</label><reference href="#close-requirements"/></item>
+  </tableOfContents>
+  <section id="introduction">
+    <title>Introduction</title>
+    <content>This document outlines the steps required to perform a specific procedure.</content>
+  </section>
+  <section id="preliminary-requirements">
+    <title>Preliminary Requirements</title>
+    <content>The following requirements must be met before starting the procedure:</content>
+    <itemizedList>
+      <item>Remove the front wheel, refer to: <reference href="#front-wheel-removal-procedure">Front Wheel Removal Procedure</reference></item>
+      <item>Remove the front brakes, refer to: <reference href="#front-brakes-removal-procedure">Front Brakes Removal Procedure</reference></item>
+    </itemizedList>
+    <section id="front-wheel-removal-procedure">
+      <title>Front Wheel Removal Procedure</title>
+      <content>To remove the front wheel, follow these steps:</content>
+      <orderedList>
+        <item>Loosen the nuts that hold the wheel in place.</item>
+        <item>Raise the bike using a lift or jack.</item>
+        <item>Remove the nuts and washers from the wheel hub.</item>
+        <item>Carefully pull the wheel straight off the hub.</item>
+      </orderedList>
+    </section>
+    <section id="front-brakes-removal-procedure">
+      <title>Front Brakes Removal Procedure</title>
+      <content>To remove the front brakes, follow these steps:</content>
+      <orderedList>
+        <item>Loosen the caliper bolts that hold the brake in place.</item>
+        <item>Remove the caliper bolts and slide the caliper off the rotor.</item>
+        <item>Remove the pads from the caliper.</item>
+      </orderedList>
+    </section>
+  </section>
+  <section id="main-procedure">
+    <title>Main Procedure</title>
+    <content>The main procedure consists of the following steps:</content>
+    <section id="preparation">
+      <title>Preparation</title>
+      <itemizedList>
+        <item>Remove the front wheel, refer to: <reference href="#front-wheel-removal-procedure">Front Wheel Removal Procedure</reference></item>
+        <item>Remove the front brakes, refer to: <reference href="#front-brakes-removal-procedure">Front Brakes Removal Procedure</reference></item>
+      </itemizedList>
+    </section>
+    <section id="procedure">
+      <title>Procedure</title>
+      <orderedList>
+        <item><emphasis>Remove the fork</emphasis>: Refer to: <reference href="#fork-removal-procedure">Fork Removal Procedure</reference></item>
+        <item><emphasis>Change the bike axis</emphasis>: Refer to: <reference href="#bike-axis-change-procedure">Bike Axis Change Procedure</reference></item>
+        <item><emphasis>Install the new fork</emphasis>: Refer to: <reference href="#new-fork-installation-procedure">New Fork Installation Procedure</reference></item>
+        <item><emphasis>Install the front brakes</emphasis>: Refer to: <reference href="#front-brakes-installation-procedure">Front Brakes Installation Procedure</reference></item>
+        <item><emphasis>Install the front wheel</emphasis>: Refer to: <reference href="#front-wheel-installation-procedure">Front Wheel Installation Procedure</reference></item>
+      </orderedList>
+      <section id="fork-removal-procedure">
+        <title>Fork Removal Procedure</title>
+        <content>To remove the fork, follow these steps:</content>
+        <orderedList>
+          <item>Loosen the nuts that hold the fork in place.</item>
+          <item>Raise the bike using a lift or jack.</item>
+          <item>Remove the nuts and washers from the fork.</item>
+          <item>Carefully pull the fork straight off the bike.</item>
+        </orderedList>
+      </section>
+      <section id="bike-axis-change-procedure">
+        <title>Bike Axis Change Procedure</title>
+        <content>To change the bike axis, follow these steps:</content>
+        <orderedList>
+          <item>Loosen the bolts that hold the axis in place.</item>
+          <item>Remove the bolts and slide the axis out of the bike.</item>
+          <item>Install the new axis and tighten the bolts.</item>
+        </orderedList>
+      </section>
+      <section id="new-fork-installation-procedure">
+        <title>New Fork Installation Procedure</title>
+        <content>To install the new fork, follow these steps:</content>
+        <orderedList>
+          <item>Place the new fork onto the bike.</item>
+          <item>Tighten the nuts and washers to secure the fork in place.</item>
+          <item>Lower the bike using a lift or jack.</item>
+        </orderedList>
+      </section>
+      <section id="front-brakes-installation-procedure">
+        <title>Front Brakes Installation Procedure</title>
+        <content>To install the front brakes, follow these steps:</content>
+        <orderedList>
+          <item>Slide the caliper back over the rotor.</item>
+          <item>Replace the pads in the caliper.</item>
+          <item>Tighten the caliper bolts to secure the brake in place.</item>
+        </orderedList>
+      </section>
+      <section id="front-wheel-installation-procedure">
+        <title>Front Wheel Installation Procedure</title>
+        <content>To install the front wheel, follow these steps:</content>
+        <orderedList>
+          <item>Place the wheel back onto the hub.</item>
+          <item>Replace the nuts and washers to secure the wheel in place.</item>
+          <item>Lower the bike using a lift or jack.</item>
+        </orderedList>
+      </section>
+    </section>
+    <section id="test">
+      <title>Test</title>
+      <orderedList>
+        <item><emphasis>Test the fork installation</emphasis>: Refer to: <reference href="#fork-installation-test-procedure">Fork Installation Test Procedure</reference></item>
+        <item><emphasis>Front brakes test</emphasis>: Refer to: <reference href="#front-brakes-test-procedure">Front Brakes Test Procedure</reference></item>
+      </orderedList>
+      <section id="fork-installation-test-procedure">
+        <title>Fork Installation Test Procedure</title>
+        <content>To test the fork installation, follow these steps:</content>
+        <orderedList>
+          <item>Check that the fork is properly secured in place.</item>
+          <item>Test the bike's suspension.</item>
+        </orderedList>
+      </section>
+      <section id="front-brakes-test-procedure">
+        <title>Front Brakes Test Procedure</title>
+        <content>To test the front brakes, follow these steps:</content>
+        <orderedList>
+          <item>Check that the brake pads are properly aligned with the rotor.</item>
+          <item>Test the brakes by applying gentle pressure to the lever.</item>
+        </orderedList>
+      </section>
+    </section>
+  </section>
+  <section id="close-requirements">
+    <title>Close Requirements</title>
+    <content>The following requirements must be met after completing the procedure:</content>
+    <itemizedList>
+      <item>None</item>
+    </itemizedList>
+  </section>
+  <note>Note: This document is a sample and should not be used in actual procedures without proper review and validation.</note>
+</procedure>

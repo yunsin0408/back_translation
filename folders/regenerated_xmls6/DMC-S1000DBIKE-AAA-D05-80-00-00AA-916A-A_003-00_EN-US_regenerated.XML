@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Maintenance Planning Document</title>
+  <tableOfContents>
+    <item><title>Introduction</title><link href="#introduction"/></item>
+    <item><title>Maintenance Allocation</title><link href="#maintenance-allocation"/></item>
+    <item><title>Tools List</title><link href="#tools-list"/></item>
+    <item><title>Remarks List</title><link href="#remarks-list"/></item>
+  </tableOfContents>
+  <introduction id="introduction">
+    <para>This document outlines the maintenance planning for a specific system. It includes information on maintenance allocation, tools required, and any relevant remarks.</para>
+  </introduction>
+  <maintenanceAllocation id="maintenance-allocation">
+    <para>The maintenance allocation is divided into several groups based on skill level and component assembly.</para>
+    <group>
+      <title>Group 1: Skill Level - sk01</title>
+      <componentAssembly>Brakes-Pads</componentAssembly>
+      <maintenanceFunctions>
+        <function>ft01: Inspection</function>
+        <function>ft02: Cleaning</function>
+        <function>ft03: Replacement</function>
+      </maintenanceFunctions>
+    </group>
+    <group>
+      <title>Group 2: Skill Level - sk02</title>
+      <componentAssembly>Brakes-Calipers</componentAssembly>
+      <maintenanceFunctions>
+        <function>ft01: Inspection</function>
+        <function>ft02: Cleaning</function>
+        <function>ft03: Replacement</function>
+      </maintenanceFunctions>
+    </group>
+    <group>
+      <title>Group 3: Skill Level - sk01</title>
+      <componentAssembly>Brakes-Pads</componentAssembly>
+      <maintenanceFunctions>
+        <function>ft01: Inspection</function>
+        <function>ft02: Cleaning</function>
+        <function>ft03: Replacement</function>
+      </maintenanceFunctions>
+    </group>
+  </maintenanceAllocation>
+  <toolsList id="tools-list">
+    <para>The following tools are required for maintenance:</para>
+    <tool>
+      <title>TL01: Specialist Toolset</title>
+      <natoStockNumber>4920-99-123-4567</natoStockNumber>
+      <toolNumber>tool-001</toolNumber>
+    </tool>
+    <tool>
+      <title>TL02: Foot Pump</title>
+      <toolNumber>tool-002</toolNumber>
+    </tool>
+    <tool>
+      <title>TL03: Patch Kit</title>
+      <toolNumber>tool-003</toolNumber>
+    </tool>
+    <tool>
+      <title>TL04: Allen Wrench Set</title>
+      <toolNumber>tool-004</toolNumber>
+    </tool>
+    <tool>
+      <title>TL05: Tire Lever</title>
+      <toolNumber>tool-005</toolNumber>
+    </tool>
+    <tool>
+      <title>TL06: Tire Pressure Gauge</title>
+      <toolNumber>tool-006</toolNumber>
+    </tool>
+    <tool>
+      <title>TL07: Test Stand</title>
+      <toolNumber>tool-007</toolNumber>
+    </tool>
+  </toolsList>
+  <remarksList id="remarks-list">
+    <para>The following remarks are relevant to the maintenance planning:</para>
+    <remark>
+      <title>A1:</title>
+      <description>Headlight not installed</description>
+    </remark>
+  </remarksList>
+</proced>

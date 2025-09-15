@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>0A2</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+        <language>
+          <languageISOCode>en</languageISOCode>
+          <countryISOCode>US</countryISOCode>
+        </language>
+        <issueInfo>
+          <issueNumber>004</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+        <dmTitle>
+          <techName>Lighting</techName>
+          <infoName>Applicability common information repository</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStatement>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightParagraph1>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightParagraph1>
+            <publishers>
+              <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+              <publisher>Aerospace Industries Association of America</publisher>
+              <publisher>ATA e-Business Program</publisher>
+            </publishers>
+            <limitationsOfLiability>
+              <limitation>This material is provided "As is" and neither ASD nor any person involved in the creation, production or delivery of this material shall be liable for any direct, indirect, incidental or consequential damages arising from its use.</limitation>
+              <limitation>The user assumes all risks associated with the use of this material.</limitation>
+            </limitationsOfLiability>
+            <note>The above limitations of liability may not apply in certain jurisdictions.</note>
+          </copyright>
+          <additionalInformation>
+            <info>For further information on the usage and distribution of this data module, please contact the relevant authorities.</info>
+          </additionalInformation>
+        </restrictionInfo>
+      </dataRestrictions>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <referencedApplicGroup>
+      <applicabilitySpecifications>
+        <applicSpec>
+          <applic>Mountain bicycle and Mountain storm Mk1</applic>
+        </applicSpec>
+        <applicSpec>
+          <applic>Mountain bicycle and Brook trekker Mk9</applic>
+        </applicSpec>
+        <applicSpec>
+          <applic>Mountain bicycle and Mountain storm Mk1</applic>
+        </applicSpec>
+        <applicSpec>
+          <applic>Mountain bicycle and Brook trekker Mk9</applic>
+        </applicSpec>
+      </applicabilitySpecifications>
+    </referencedApplicGroup>
+    <commonRepository>
+      <applicSpecIdentifiers>
+        <applicSpec Identifier="appsp-00001">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA056A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00002">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA056A-0001</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00003">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA022A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00004">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA029A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00005">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA040A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00006">
+          <applicMapRefID>app-0001</applicMapRefID>
+          <applicIdentValue>app-00000000AA057A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00007">
+          <applicMapRefID>app-0001</applicMapRefID>
+          <applicIdentValue>app-00000000AA057A-0001</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00008">
+          <applicMapRefID>app-0001</applicMapRefID>
+          <applicIdentValue>app-00000000AA058A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00009">
+          <applicMapRefID>app-0001</applicMapRefID>
+          <applicIdentValue>app-00000000AA058A-0001</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00010">
+          <applicMapRefID>app-0001</applicMapRefID>
+          <applicIdentValue>app-00000000AA341A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00011">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA413A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00012">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA700A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00013">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA921A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00014">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA941A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00015">
+          <applicMapRefID>app-0003</applicMapRefID>
+          <applicIdentValue>app-00000000AA700A-0001</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00016">
+          <applicMapRefID>app-0004</applicMapRefID>
+          <applicIdentValue>app-00000000AA700A-0002</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00017">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA031A-0000</applicIdentValue>
+        </applicSpec>
+        <applicSpec Identifier="appsp-00018">
+          <applicMapRefID>app-0002</applicMapRefID>
+          <applicIdentValue>app-00000000AA031A-0001</applicIdentValue>
+        </applicSpec>
+      </applicSpecIdentifiers>
+    </commonRepository>
+  </content>
+</dm>

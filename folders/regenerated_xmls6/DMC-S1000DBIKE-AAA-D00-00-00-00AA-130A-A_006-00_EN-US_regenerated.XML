@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identAndStatus dmIdent="DMC-S1000DBIKE-AAA-D00-00-00-00AA-130A-A" issueInfo="006-00" status="released"/>
+  <content>
+    <process>
+      <proceduralStep>
+        <title>Introduction</title>
+        <para>Dear <variableRef variableName="name"/>, because you are an unexperienced user, you will be presented a brief introduction on how to operate a bicycle.</para>
+      </proceduralStep>
+      <dialog>
+        <menu choiceSelection="single" choiceType="select">
+          <prompt>
+            <paraBasic>The rear brake is operated by</paraBasic>
+          </prompt>
+          <menuChoice>
+            <prompt>
+              <paraBasic>Left brake lever</paraBasic>
+            </prompt>
+            <assertion>
+              <variableRef variableName="tourCorrectAnswer"/>
+              <expression>
+                <booleanValue>
+                  <falseValue/>
+                </booleanValue>
+              </expression>
+            </assertion>
+          </menuChoice>
+        </menu>
+      </dialog>
+    </process>
+  </content>
+  <metadata>
+    <variablePostSet>
+      <assertion>
+        <variableRef variableName="approved Bikers"/>
+        <expression>
+          <expression>
+            <variableRef variableName="approved Bikers"/>
+          </expression>
+          <setOperator setOperation="add"/>
+          <expression>
+            <variableRef variableName="name"/>
+          </expression>
+        </expression>
+      </assertion>
+    </variablePostSet>
+  </metadata>
+</dmodule>

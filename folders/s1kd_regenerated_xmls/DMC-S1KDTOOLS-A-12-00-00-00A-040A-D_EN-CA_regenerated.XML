@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent modelIdentCode="S1KDTOOLS" systemDiffCode="A" systemCode="12" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+      <languageIsoCode>en</languageIsoCode>
+      <countryIsoCode>CA</countryIsoCode>
+      <issueNumber>030</issueNumber>
+      <inWork>00</inWork>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate year="2020" month="09" day="01"/>
+      <dmTitle technicalName="s1kd-newpm" informationName="Description"/>
+    </dmAddressItems>
+  </identAndStatusSection>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <security>01</security>
+    <responsiblePartnerCompany>khm</responsiblePartnerCompany>
+    <reasonForUpdate>rfu-xml-catalog</reasonForUpdate>
+  </dmStatus>
+  <content>
+    <description>
+      <generalInformation>
+        <command>s1kd-newpm [options] &lt;DM&gt;...</command>
+        <options>
+          <option name="-#" description="Publication module number (required)"/>
+          <option name="--dtdload" description="Load the external DTD"/>
+          <option name="--huge" description="Remove any internal arbitrary parser limits"/>
+          <option name="--net" description="Allow network access to load external DTD and entities"/>
+          <option name="--noent" description="Resolve entities"/>
+          <option name="--parser-errors" description="Emit errors from parser"/>
+          <option name="--parser-warnings" description="Emit warnings from parser"/>
+          <option name="--xinclude" description="Do XInclude processing"/>
+          <option name="--xml-catalog" description="Use an XML catalog when resolving entities"/>
+          <option name="-h" description="Show help/usage message"/>
+          <option name="-?" description="Show help/usage message"/>
+          <option name="--help" description="Show help/usage message"/>
+          <option name="-I" description="Issue date in the form of YYYY-MM-DD"/>
+          <option name="-i" description="Include issue information in referenced data modules"/>
+          <option name="-L" description="Language ISO code"/>
+          <option name="-l" description="Include language information in referenced data modules"/>
+          <option name="-m" description="Remarks for the new publication module"/>
+          <option name="-n" description="Issue number"/>
+          <option name="-p" description="Prompt the user for any values left unspecified"/>
+          <option name="-q" description="Do not report an error when the file already exists"/>
+          <option name="-R" description="CAGE code of the responsible partner company"/>
+          <option name="-r" description="Responsible partner company enterprise name"/>
+          <option name="-s" description="Short title"/>
+          <option name="-T" description="Include titles in referenced data modules"/>
+          <option name="-t" description="Title"/>
+          <option name="-v" description="Print the file name of the newly created publication module"/>
+          <option name="-w" description="Inwork number"/>
+          <option name="-z" description="Issue type"/>
+          <option name="--version" description="Show version information"/>
+        </options>
+      </generalInformation>
+      <defaultsFile>The .defaults file is used by all the s1kd-new* commands. Refer to s1kd-newdm for more information on the .defaults file.</defaultsFile>
+      <exampleUsage>An example of using the s1kd-newpm command is: $ s1kd-newpm -# EX-12345-00001-00</exampleUsage>
+    </description>
+  </content>
+</dm>

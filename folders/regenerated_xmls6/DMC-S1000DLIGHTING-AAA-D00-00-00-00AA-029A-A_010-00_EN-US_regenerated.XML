@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>D00</systemCode>
+                <subSystemCode>0</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>029</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+                <language>
+                    <countryISOCode>US</countryISOCode>
+                    <languageISOCode>en</languageISOCode>
+                </language>
+                <issueInfo>
+                    <issueNumber>010</issueNumber>
+                    <inWork>00</inWork>
+                </issueInfo>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate>
+                    <year>2024</year>
+                    <month>06</month>
+                    <day>19</day>
+                </issueDate>
+                <dmTitle>
+                    <techName>Wiring data</techName>
+                    <infoName>Field description</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <issueType>changed</issueType>
+            <security>
+                <securityClassification>01</securityClassification>
+                <commercialClassification>cc51</commercialClassification>
+                <caveat>cv51</caveat>
+            </security>
+            <dataRestrictions>
+                <restrictionInstructions>
+                    <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+                    <exportControl>
+                        <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+                    </exportControl>
+                    <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+                    <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+                    <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+                </restrictionInstructions>
+                <restrictionInfo>
+                    <copyright>
+                        <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+                        <publishers>
+                            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+                            <publisher>Aerospace Industries Association of America</publisher>
+                            <publisher>ATA e-Business Program</publisher>
+                        </publishers>
+                        <limitationsOfLiability>
+                            <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+                            <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+                            <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have been made.</limitation>
+                        </limitationsOfLiability>
+                    </copyright>
+                    <policy>Details about the policy are not provided</policy>
+                </restrictionInfo>
+            </dataRestrictions>
+            <responsiblePartnerCompany>Not specified</responsiblePartnerCompany>
+            <applicability>Not specified</applicability>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <wiringFields>
+            <descriptionOfWire>
+                <wireIdentifications>
+                    <wireNumber></wireNumber>
+                    <colorCode></colorCode>
+                    <length></length>
+                </wireIdentifications>
+                <descriptions>
+                    <field>
+                        <fieldName>Electric ident</fieldName>
+                        <description>Electric ident shows the electrical identification, to which the wire is connected.</description>
+                    </field>
+                    <field>
+                        <fieldName>Contact</fieldName>
+                        <description>Contact identifies the electrical contact to which the wire is connected.</description>
+                    </field>
+                    <field>
+                        <fieldName>Group Code</fieldName>
+                        <description>Identifies wires, which are connected to the same terminal lug.</description>
+                    </field>
+                    <field>
+                        <fieldName>Screens</fieldName>
+                        <description>Screens identifies all screens that shield the wire.</description>
+                    </field>
+                    <field>
+                        <fieldName>Responsible Partner Company</fieldName>
+                        <description>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</description>
+                    </field>
+                    <field>
+                        <fieldName>Feed-through</fieldName>
+                        <description>Identifies bunges through which the wire is routed.</description>
+                    </field>
+                    <field>
+                        <fieldName>Next higher assembly</fieldName>
+                        <description>Identifies the next higher assenbly, in which the wire is installed.</description>
+                    </field>
+                </descriptions>
+            </descriptionOfWire>
+            <descriptionOfHarness>
+                <harnessIdentification>
+                    <harnessNumber></harnessNumber>
+                    <partNumber></partNumber>
+                    <variantIdentification></variantIdentification>
+                </harnessIdentification>
+                <descriptions>
+                    <field>
+                        <fieldName>Harness ident</fieldName>
+                        <description>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</description>
+                    </field>
+                    <field>
+                        <fieldName>Harness Part number</fieldName>
+                        <description>Harness part number gives the part number of the harness identified by the harness ident.</description>
+                    </field>
+                    <field>
+                        <fieldName>Harness variant</fieldName>
+                        <description>Harness variant identifies the variant of the harness in addition to the harness part number.</description>
+                    </field>
+                    <field>
+                        <fieldName>Harness issue</fieldName>
+                        <description>Harness issue identifies the production variant of the harness in addition to the harness part number.</description>
+                    </field>
+                    <field>
+                        <fieldName>Harness nomenclature</fieldName>
+                        <description>Harness nomenclature identifies the harness by using a specific name.</description>
+                    </field>
+                    <field>
+                        <fieldName>Harness separation code</fontName>
+                        <description>Harness separation code gives the separation code of the harness.</description>
+                    </field>
+                    <field>
+                        <fieldName>Minimum temperature</fieldName>
+                        <description>Minimum temperature gives the minimum environment temperature in which the harness can be used.</description>
+                    </field>
+                    <field>
+                        <fieldName>Maximum temperature</fieldName>
+                        <description>Maximum temperature gives the maximum environment temperature in which the harness can be used.</description>
+                    </field>
+                </descriptions>
+            </descriptionOfHarness>
+            <descriptionOfElectricalEquipment>
+                <equipmentIdentification>
+                    <equipmentNumber></equipmentNumber>
+                    <partNumber></partNumber>
+                    <location></location>
+                </equipmentIdentification>
+                <descriptions>
+                    <field>
+                        <fieldName>Electric ident</fieldName>
+                        <description>Electric ident shows the electrical identification, which is available for all electrical equipment.</description>
+                    </field>
+                    <field>
+                        <fieldName>Part identification</fieldName>
+                        <description>Part identification shows the part number of the equipment.</description>
+                    </field>
+                    <field>
+                        <fieldName>Location</fieldName>
+                        <description>Location shows the installation position of the equipment on the bicycle.</description>
+                    </field>
+                    <field>
+                        <fieldName>Next higher assenmbly</fieldName>
+                        <description>Next higher assenmbly identifies the box or panel, in which the equipment is installed.</description>
+                    </field>
+                    <field>
+                        <fieldName>Position on next higher assenmbly</fieldName>
+                        <description>Gives the position on the next higher assenmbly, in which the equipment is installed.</description>
+                    </field>
+                    <field>
+                        <fieldName>Maximum number of mounting positions</fieldName>
+                        <description>Gives the maximum number of mounting positions on the next higher assembly.</description>
+                    </field>
+                    <field>
+                        <fieldName>Sibling plug identification</fieldName>
+                        <description>Sibling plug identification contains the electric ident of the mating connector.</description>
+                    </field>
+                    <field>
+                        <fieldName>Transverse link</fieldName>
+                        <description>Transverse link shows external or internal electrical connections of the equipment.</description>
+                    </field>
+                </descriptions>
+            </descriptionOfElectricalEquipment>
+        </wiringFields>
+    </content>
+</proced>

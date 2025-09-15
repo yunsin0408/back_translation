@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <title>S1000D Bike Maintenance Procedure</title>
+  <section id="introduction">
+    <title>Introduction</title>
+    <paragraph>This procedure outlines the steps required to maintain a bike, including cleaning, lubricating, and safety precautions.</paragraph>
+  </section>
+  <section id="required-materials">
+    <title>Required Materials</title>
+    <itemizedlist>
+      <listitem>Water hose (low pressure)</listitem>
+      <listitem>Degreasing agent (ACME super 45 Agent)</listitem>
+      <listitem>Detergent (ACME Middling Detergent 69 or BoeBus DeLux Detergent No.6)</listitem>
+      <listitem>Sponge</listitem>
+      <listitem>Screwdriver with small blade</listitem>
+      <listitem>Stiff brush</listitem>
+      <listitem>Lubricant</listitem>
+    </itemizedlist>
+  </section>
+  <section id="safety-precautions">
+    <title>Safety Precautions</title>
+    <warning>Do not get degreasing agent or detergent into your eyes. If it gets into your eyes, wash them immediately in clean warm water (H2O).</warning>
+    <caution>Do not use a high-pressure water hose, as it can cause damage to the bike's parts.</caution>
+    <caution>Do not point the hose directly at the hub or bottom bracket bearings, as this can cause damage to the parts.</caution>
+    <caution>Apply detergent in accordance with the instructions on the container, as incorrect application can cause damage to the bike's paint.</caution>
+  </section>
+  <section id="procedure">
+    <title>Procedure</title>
+    <subsection id="cleaning-the-bike">
+      <title>Cleaning the Bike</title>
+      <orderedlist>
+        <listitem>Clean the bike with water to remove all dirt.</listitem>
+        <listitem>Use a stiff brush to get access to areas that are not easy to clean, such as shift levers, knobbly tires, and brakes.</listitem>
+        <listitem>Remove caked grime from the chain and sprockets with a screwdriver that has a small blade.</listitem>
+        <listitem>Clean the freewheel assembly with degreasing agent.</listitem>
+      </orderedlist>
+    </subsection>
+    <subsection id="washing-the-bike">
+      <title>Washing the Bike</title>
+      <section id="mountain-bikes">
+        <title>Mountain Bikes (app-0002)</title>
+        <orderedlist>
+          <listitem>Soak the sponge into detergent and water.</listitem>
+          <listitem>Clean the bike with the soaked sponge.</listitem>
+          <listitem>Flush the bike to remove all detergent.</listitem>
+          <listitem>Move the bike up and down on its tires to remove all water.</listitem>
+        </orderedlist>
+      </section>
+      <section id="road-bikes">
+        <title>Road Bikes (app-0001)</title>
+        <orderedlist>
+          <listitem>Soak the sponge into BoeBus DeLux Detergent No.6 and water.</listitem>
+          <listitem>Clean the bike with the soaked sponge.</listitem>
+          <listitem>Soak the sponge into ACME Middling Detergent 69 and water.</listitem>
+          <listitem>Fully clean the bike with the soaked sponge.</listitem>
+          <listitem>Flush the bike to remove all detergent.</listitem>
+          <listitem>Move the bike up and down on its tires to remove all water.</listitem>
+        </orderedlist>
+      </section>
+    </subsection>
+    <subsection id="lubricating-the-bike">
+      <title>Lubricating the Bike</title>
+      <paragraph>Refer to the <link href="#">maintenance manual</link> for lubrication instructions.</paragraph>
+    </subsection>
+  </section>
+  <section id="closing-requirements">
+    <title>Closing Requirements</title>
+    <paragraph>Make sure the bike is dry before storing or riding.</paragraph>
+  </section>
+  <section id="references">
+    <title>References</title>
+    <itemizedlist>
+      <listitem><link href="#">S1000D Maintenance Manual</link></listitem>
+      <listitem><link href="#">ACME super 45 Agent Instructions</link></listitem>
+      <listitem><link href="#">BoeBus DeLux Detergent No.6 Instructions</link></listitem>
+    </itemizedlist>
+  </section>
+</root>

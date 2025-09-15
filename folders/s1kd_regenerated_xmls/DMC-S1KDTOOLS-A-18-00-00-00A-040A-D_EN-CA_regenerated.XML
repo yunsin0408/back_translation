@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <introduction>
+    <title>Introduction to S1KD Repcheck</title>
+    <paragraph>The s1kd-repcheck tool is used for validating CIR (Common Information Repository) references in data modules.</paragraph>
+  </introduction>
+  <usage>
+    <title>Usage</title>
+    <paragraph>To use the s1kd-repcheck tool, simply run it from the command line and provide the necessary options and input files. The basic syntax is as follows:
+      <command>$ s1kd-repcheck [options] &lt;object&gt;...</command>
+    </paragraph>
+    <options>
+      <option>-R, --repository: Specify a repository to use for validation.</option>
+      <option>-X, --xsl: Specify a custom XSLT script for extracting CIR references.</option>
+      <option>-D, --dump-xsl: Dump the built-in XSLT script for extracting CIR references.</option>
+      <option>--version: Show version information.</option>
+    </options>
+  </usage>
+  <customXSLTScript>
+    <title>Custom XSLT Script</title>
+    <paragraph>A custom XSLT script can be used to configure which elements are extracted as CIR references and how they are validated. The script should add the following attributes to elements that will be validated:</paragraph>
+    <attributes>
+      <attribute>type: A name for the type of CIR reference.</attribute>
+      <attribute>name: A descriptive name for the CIR reference.</attribute>
+      <attribute>test: An XPath expression used to match the corresponding CIR identification element.</attribute>
+    </attributes>
+    <namespace>The namespace for these attributes must be urn:s1kd-tools:s1kd-repcheck.</namespace>
+  </customXSLTScript>
+  <exitStatus>
+    <title>Exit Status</title>
+    <statuses>
+      <status>0: The check completed successfully, and all CIR references were resolved.</status>
+      <status>1: The check completed successfully, but some CIR references could not be resolved.</status>
+      <status>2: The number of CSDB objects specified exceeded the available memory.</status>
+    </statuses>
+  </exitStatus>
+  <exampleUsage>
+    <title>Example Usage</title>
+    <partRepository>
+      <partSpec>
+        <partIdent manufacturerCodeValue="12345" partNumberValue="ABC"/>
+        <itemIdentData>
+          <descrForPart>ABC part</descrForPart>
+        </itemIdentData>
+      </partSpec>
+    </partRepository>
+    <spareDescrGroup>
+      <spareDescr>
+        <partRef manufacturerCodeValue="12345" partNumberValue="ABC"/>
+        <reqQuantity>1</reqQuantity>
+      </spareDescr>
+      <spareDescr>
+        <partRef manufacturerCodeValue="12345" partNumberValue="DEF"/>
+        <reqQuantity>1</reqQuantity>
+      </spareDescr>
+    </spareDescrGroup>
+    <commandAndResults>
+      <command>$ s1kd-repcheck -R &lt;CIR&gt; ... &lt;DM&gt;</command>
+      <results>s1kd-repcheck: ERROR: &lt;DM&gt; (&lt;line&gt;): Part 12345/DEF not found.</results>
+    </commandAndResults>
+  </exampleUsage>
+  <xmlParserConfiguration>
+    <title>Configuration of XML Parser</title>
+    <options>
+      <option>--dtdload: Load the external DTD.</option>
+      <option>--huge: Remove any internal arbitrary parser limits.</option>
+      <option>--net: Allow network access to load external DTD and entities.</option>
+      <option>--noent: Resolve entities.</option>
+      <option>--parser-errors: Emit errors from parser.</option>
+      <option>--parser-warnings: Emit warnings from parser.</option>
+      <option>--xinclude: Do XInclude processing.</option>
+      <option>--xml-catalog &lt;file&gt;: Use an XML catalog when resolving entities. Multiple catalogs may be loaded by specifying this option multiple times.</option>
+    </options>
+  </xmlParserConfiguration>
+  <customXSLTExample>
+    <xsl:template match="functionalItemRef" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      <xsl:variable name="fin" select="@functionalItemNumber"/>
+      <xsl:copy>
+        <xsl:apply-templates select="@*"/>
+        <xsl:attribute name="s1kd-repcheck:type">fin</xsl:attribute>
+        <xsl:attribute name="s1kd-repcheck:name">
+          <xsl:text>Functional item </xsl:text>
+          <xsl:value-of select="$fin"/>
+        </xsl:attribute>
+        <xsl:attribute name="s1kd-repcheck:test">
+          <xsl:text>//functionalItemIdent[@functionalItemNumber='</xsl:text>
+          <xsl:value-of select="$fin"/>
+          <xsl:text>']</xsl:text>
+        </xsl:attribute>
+        <xsl:apply-templates select="node()"/>
+      </xsl:copy>
+    </xsl:template>
+  </customXSLTExample>
+</document>

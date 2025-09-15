@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <title>Procedure for Cleaning and Maintaining a Bicycle</title>
+  <section id="Introduction">
+    <p>The following procedure outlines the steps necessary to properly clean and maintain a bicycle.</p>
+  </section>
+  <section id="Required-Materials">
+    <title>Required Materials</title>
+    <itemizedlist>
+      <listitem>Water hose (low pressure)</listitem>
+      <listitem>Stiff-bristled brush or scrubber</listitem>
+      <listitem>Screwdriver with small blade</listitem>
+      <listitem>Degreaser (sup-0001)</listitem>
+      <listitem>Detergent (sup-0002) for washing the bike (applicable only to app-0002 bikes)</listitem>
+      <listitem>Alternative detergent (sup-0003) for washing the bike (applicable only to app-0001 bikes)</listitem>
+      <listitem>Sponge or soft cloth</listitem>
+      <listitem>Lubricant (refer to dmRef)</listitem>
+    </itemizedlist>
+  </section>
+  <section id="Safety-Precautions">
+    <title>Safety Precautions</title>
+    <warning>Do not get degreaser or detergents into your eyes. If it gets into your eyes, wash them immediately with clean warm water.</warning>
+    <caution>Avoid using high-pressure water hoses, as they can cause damage to the bike's components.</caution>
+    <caution>When applying alternative detergent (sup-0003), follow the instructions on the container to avoid damaging the bike's paint.</caution>
+  </section>
+  <section id="Procedure">
+    <title>Procedure</title>
+    <section id="Step-1-Clean-the-Bicycle-with-Water">
+      <title>Step 1: Clean the Bicycle with Water</title>
+      <p>Clean the bicycle with water to remove all dirt. Refer to <xref linkend="fig-0001">figure 1</xref> for more information.</p>
+    </section>
+    <section id="Figure-1-Cleaning-the-Bike">
+      <title>Figure 1: Cleaning the Bike</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="ICN-C0419-S1000D0359-001-01"/>
+        </imageobject>
+      </mediaobject>
+      <legend>
+        <itemizedlist>
+          <listitem>Display</listitem>
+          <listitem>Button</listitem>
+          <listitem>Widget</listitem>
+          <listitem>Adaptor</listitem>
+          <listitem>Retainer</listitem>
+        </itemizedlist>
+      </legend>
+    </section>
+    <section id="Step-2-Use-a-Brush-to-Clean-Hard-to-Reach-Areas">
+      <title>Step 2: Use a Brush to Clean Hard-to-Reach Areas</title>
+      <p>Use a stiff-bristled brush or scrubber (seq-0002) to clean areas that are difficult to reach, such as the shift levers, knobbly tires, and brakes.</p>
+    </section>
+    <section id="Step-3-Remove-Caked-Grime-from-Chain-and-Sprockets">
+      <title>Step 3: Remove Caked Grime from Chain and Sprockets</title>
+      <p>Clean the caked grime from the chain and sprockets using a screwdriver with a small blade.</p>
+    </section>
+    <section id="Step-4-Degrease-Freewheel-Assembly">
+      <title>Step 4: Degrease Freewheel Assembly</title>
+      <p>Remove grease from the freewheel assembly using degreaser (sup-0001). Refer to <xref linkend="fig-0002">figure 2</xref> for more information.</p>
+    </section>
+    <section id="Figure-2-Degreasing-the-Freehub">
+      <title>Figure 2: Degreasing the Freehub</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="ICN-C0419-S1000D0400-001-01"/>
+        </imageobject>
+      </mediaobject>
+    </section>
+    <section id="Step-5-Flush-Sprockets-Derailleurs-Chain-Rings-and-Chain-with-Water">
+      <title>Step 5: Flush Sprockets, Derailleurs, Chain Rings, and Chain with Water</title>
+      <p>Flush the sprockets, derailleurs, chain rings, and chain with water. Repeat if necessary.</p>
+    </section>
+  </section>
+  <section id="Alternative-Procedures-for-Specific-Bike-Models">
+    <title>Alternative Procedures for Specific Bike Models</title>
+    <section id="For-app-0002-Bikes">
+      <title>For app-0002 Bikes:</title>
+      <orderedlist>
+        <listitem>Soak a sponge (seq-0003) in detergent (sup-0002) and water.</listitem>
+        <listitem>Clean the bicycle with the soaked sponge.</listitem>
+        <listitem>Flush the bicycle to remove all detergent residue.</listitem>
+        <listitem>Move the bicycle up and down on its tires to remove excess water.</listitem>
+      </orderedlist>
+    </section>
+    <section id="For-app-0001-Bikes">
+      <title>For app-0001 Bikes:</title>
+      <orderedlist>
+        <listitem>Soak a sponge (seq-0003) in alternative detergent (sup-0003) and water.</listitem>
+        <listitem>Clean the bicycle with the soaked sponge.</listitem>
+        <listitem>Soak the sponge again in detergent (sup-0002) and water.</listitem>
+        <listitem>Fully clean the bicycle with the soaked sponge.</listitem>
+        <listitem>Flush the bicycle to remove all detergent residue.</listitem>
+        <listitem>Move the bicycle up and down on its tires to remove excess water.</listitem>
+      </orderedlist>
+    </section>
+  </section>
+  <section id="Final-Steps">
+    <title>Final Steps</title>
+    <section id="Step-6-Lubricate-the-Bicycle">
+      <title>Step 6: Lubricate the Bicycle</title>
+      <p>Lubricate the bicycle according to the instructions in <xref linkend="dmRef">dmRef</xref>.</p>
+    </section>
+    <section id="Closing-Requirements">
+      <title>Closing Requirements</title>
+      <p>Ensure that the bicycle is dry before storing or using it again.</p>
+    </section>
+  </section>
+</root>

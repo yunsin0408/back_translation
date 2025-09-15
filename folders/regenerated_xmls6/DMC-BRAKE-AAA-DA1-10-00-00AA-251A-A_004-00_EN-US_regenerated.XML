@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-BRAKE-AAA-DA1-10-00-00AA-251A-A_004-00_EN-US</title>
+  <introduction>The following document provides guidelines for the maintenance and repair of brake pads.</introduction>
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode>
+          <modelIdentCode>BRAKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>DA1</systemCode>
+          <subSystemCode>1</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>251</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>A</itemLocationCode>
+        </dmCode>
+        <language>
+          <countryIsoCode>US</countryIsoCode>
+          <languageIsoCode>en</languageIsoCode>
+        </language>
+        <issueInfo>
+          <issueNumber>004</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+        <dmTitle>
+          <techName>Brake pads</techName>
+          <infoName>Clean with rubbing alcohol</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+            <publishers>
+              <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+              <publisher>Aerospace Industries Association of America</publisher>
+              <publisher>ATA e-Business Program</publisher>
+            </publishers>
+            <limitationsOfLiability>
+              <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+              <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+              <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+            </limitationsOfLiability>
+          </copyright>
+          <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+          <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+        </restrictionInfo>
+      </dataRestrictions>
+      <responsiblePartnerCompany>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </originator>
+      <applicCrossRefTableRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode>
+              <modelIdentCode>BRAKE</modelIdentCode>
+              <systemDiffCode>AAA</systemDiffCode>
+              <systemCode>D00</systemCode>
+              <subSystemCode>0</subSystemCode>
+              <subSubSystemCode>0</subSubSystemCode>
+              <assyCode>00</assyCode>
+              <disassyCode>00</disassyCode>
+              <disassyCodeVariant>AA</disassyCodeVariant>
+              <infoCode>00W</infoCode>
+              <infoCodeVariant>A</infoCodeVariant>
+              <itemLocationCode>D</itemLocationCode>
+            </dmCode>
+          </dmRefIdent>
+        </dmRef>
+      </applicCrossRefTableRef>
+      <applic>
+        <evaluate>
+          <andOr>and</andOr>
+          <assert>
+            <applicPropertyIdent>SerialNo</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>0010|0023|0056~0062</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>model</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>BR02</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </applic>
+      <techStandard>
+        <authorityInfoAndTp>
+          <authorityInfo>20010131</authorityInfo>
+          <techPubBase>Bike book</techPubBase>
+        </authorityInfoAndTp>
+        <authorityExceptions />
+        <authorityHazardousMaterialsInformation />
+      </techStandard>
+      <brekeCrossRefTableRef>Not applicable</brekeCrossRefTableRef>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <procedure>
+      <preliminaryRequirements>
+        <reqCondGroup>No conds</reqCondGroup>
+        <reqPersons>
+          <person>
+            <man>A</man>
+            <personCategory>Basic user</personCategory>
+            <trade>Operator</trade>
+            <estimatedTime>0.3 h</estimatedTime>
+          </person>
+        </reqPersons>
+        <reqSupportEquips>No support equips</reqSupportEquips>
+        <reqSupplies>
+          <supplyDescrGroup>
+            <supplyDescr>
+              <id>sup-0001</id>
+              <name>Rubbing alcohol</name>
+              <identNumber>
+                <manufacturerCode>KZ222</manufacturerCode>
+                <partAndSerialNumber>
+                  <partNumber>LL-002</partNumber>
+                </partAndSerialNumber>
+              </identNumber>
+              <reqQuantity>As required</reqQuantity>
+              <hazards>
+                <hazard>
+                  <symbol>ICN-B6865-GHS02-001-01</symbol>
+                  <symbol>ICN-B6865-GHS07-001-01</symbol>
+                  <hazardousClass>hz03</hazardousClass>
+                  <hazardousClass>hz07</hazardousClass>
+                  <safetyInformation>May form explosive mixtures with air.</safetyInformation>
+                  <safetyInformation>Highly flammable liquid and vapor.</safetyInformation>
+                  <safetyInformation>Causes serious eye irritation.</safetyInformation>
+                  <safetyInformation>May cause drowsiness or dizziness.</safetyInformation>
+                </hazard>
+              </hazards>
+            </supplyDescr>
+            <supplyDescr>
+              <id>sup-0002</id>
+              <name>Lint-free cloth</name>
+              <identNumber>
+                <manufacturerCode />
+              </identNumber>
+              <reqQuantity>As required</reqQuantity>
+            </supplyDescr>
+          </supplyDescrGroup>
+        </reqSupplies>
+        <reqSpares>No spares</reqSpares>
+        <reqSafety>No safety</reqSafety>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step>Do a visual inspection of the brakes as given in the pre-ride checks (refer to DM Ref: S1000DBIKE, AAA, D00, 0, 0, 00, 00, AA, 121, A, A).</step>
+        <step>Clean the brake pads.
+          <subStep>Find each of the brake pads.</subStep>
+          <subStep>Warning: Apply a thin layer of the rubbing alcohol on each of the brake pads using a lint-free cloth.</subStep>
+          <subStep>Rub the surface until you have applied the rubbing alcohol to the complete surface of the pad.</subStep>
+          <subStep>Remove the unwanted alcohol.</subStep>
+        </step>
+      </mainProcedure>
+      <closeRequirements>
+        <reqCondGroup>No conds</reqCondGroup>
+      </closeRequirements>
+    </procedure>
+  </content>
+</dm>

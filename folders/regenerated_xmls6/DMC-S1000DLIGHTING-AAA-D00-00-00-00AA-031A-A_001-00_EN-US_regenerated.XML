@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-031A-A_001-00_EN-US</title>
+    <introduction>The following document is a conversion of the XML file DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-031A-A_001-00_EN-US.XML to markdown format.</introduction>
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>D00</systemCode>
+                <subSystemCode>0</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>031</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+                <language>
+                    <countryIsoCode>US</countryIsoCode>
+                    <languageIsoCode>en</languageIsoCode>
+                </language>
+                <issueInfo>
+                    <issueNumber>001</issueNumber>
+                    <inWork>00</inWork>
+                </issueInfo>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate>
+                    <year>2024</year>
+                    <month>06</month>
+                    <day>19</day>
+                </issueDate>
+                <dmTitle>
+                    <techName>Wiring</techName>
+                    <infoName>Electrical standard parts data</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <issueType>
+                <new/>
+            </issueType>
+            <security>
+                <securityClassification>01</securityClassification>
+                <commercialClassification>cc51</commercialClassification>
+                <caveat>cv51</caveat>
+            </security>
+            <dataRestrictions>
+                <restrictionInstructions>
+                    <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+                    <exportControl>
+                        <exportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStatement>
+                    </exportControl>
+                    <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+                    <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+                    <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+                </restrictionInstructions>
+                <restrictionInfo>
+                    <copyright>
+                        <copyrightParagraph1>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightParagraph1>
+                        <publishers>
+                            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+                            <publisher>Aerospace Industries Association of America</publisher>
+                            <publisher>ATA e-Business Program</publisher>
+                        </publishers>
+                        <limitationsOfLiability>
+                            <limitation>1. This material is provided "As is" and neither ASD nor any person involved in the creation, production, or delivery of this material shall be liable for any damages or losses arising from its use.</limitation>
+                            <limitation>2. The user assumes all risk and responsibility for the use of this material.</limitation>
+                        </limitationsOfLiability>
+                    </copyright>
+                    <policy>The policy for this data module is to provide electrical standard parts data.</policy>
+                </restrictionInfo>
+            </dataRestrictions>
+            <responsibleOrganization>Not specified in the original XML document.</responsibleOrganization>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <wiringData>
+            <standardPartGroup>
+                <connectorGroup>
+                    <connector>
+                        <partNumber>JN1003A</partNumber>
+                        <contactSize>12</contactSize>
+                        <material>Copper alloy</material>
+                        <wireColor>Orange/Blue/Green</wireColor>
+                        <surfaceProtection>Gold plated</surfaceProtection>
+                        <contactDiameter>2.41 mm</contactDiameter>
+                        <temperature>
+                            <minTemperature>-55°C</minTemperature>
+                            <maxTemperature>150°C</maxTemperature>
+                        </temperature>
+                        <connectorAccessories>
+                            <accessory>JN1003P22</accessory>
+                            <accessory>JN1003C22</accessory>
+                            <accessory>JN1003D22</accessory>
+                            <accessory>JN1003K22</accessory>
+                            <accessory>JN1003L22</accessory>
+                            <accessory>JN1003MA22</accessory>
+                            <accessory>JN1003MB22</accessory>
+                            <accessory>JN1003MF22</accessory>
+                            <accessory>JN1003N22</accessory>
+                        </connectorAccessories>
+                    </connector>
+                </connectorGroup>
+                <distributionPartGroup>
+                    <distributionPart>
+                        <partNumber>PAN6466A</partNumber>
+                        <contactSize>12</contactSize>
+                        <material>Copper alloy</material>
+                        <wireColor>Orange/Blue/Green</wireColor>
+                        <surfaceProtection>Gold plated</surfaceProtection>
+                        <contactDiameter>2.41 mm</contactDiameter>
+                        <temperature>
+                            <minTemperature>-55°C</minTemperature>
+                            <maxTemperature>150°C</maxTemperature>
+                        </temperature>
+                    </distributionPart>
+                </distributionPartGroup>
+                <accessoryGroup>
+                    <accessory>
+                        <partNumber>accy_123</partNumber>
+                        <orientation>90</orientation>
+                    </accessory>
+                </accessoryGroup>
+                <solderSleeveGroup>
+                    <solderSleeve>
+                        <partNumber>solder_987</partNumber>
+                        <length>14.23 mm</length>
+                        <material>Nickel</material>
+                        <mass>0.226 g</mass>
+                        <sleeveDiameter>
+                            <minDiameter>2.04 mm</minDiameter>
+                            <maxDiameter>5.08 mm</maxDiameter>
+                        </sleeveDiameter>
+                    </solderSleeve>
+                </solderSleeveGroup>
+                <shrinkSleeveGroup>
+                    <shrinkSleeve>
+                        <partNumber>shrink_456</partNumber>
+                        <size>3/16 in</size>
+                        <mass>0.350 kg/m</mass>
+                        <wireColor>Transparent</wireColor>
+                        <sleeveDiameter>
+                            <minDiameter>1.6 mm</minDiameter>
+                            <maxDiameter>0.8 mm</maxDiameter>
+                        </sleeveDiameter>
+                        <temperature>
+                            <minTemperature>-55°C</minTemperature>
+                            <maxTemperature>175°C</maxTemperature>
+                        </temperature>
+                        <harnessSize>
+                            <minHarnessSize>0.8 mm</minHarnessSize>
+                            <maxHarnessSize>1.2 mm</maxHarnessSize>
+                        </harnessSize>
+                    </shrinkSleeve>
+                </shrinkSleeveGroup>
+                <identSleeveGroup>
+                    <identSleeve>
+                        <partNumber>ident_642</partNumber>
+                        <material>PVC-Nitrile</material>
+                        <mass>0.0001 kg</mass>
+                    </identSleeve>
+                </identSleeveGroup>
+                <conduitGroup>
+                    <conduit>
+                        <partNumber>condt_468</partNumber>
+                        <size>11.4 mm</size>
+                        <mass>4.67 g/m</mass>
+                        <wireColor>Black</wireColor>
+                        <wallThickness>0.15 mm</wallThickness>
+                        <temperature>
+                            <minTemperature>-55°C</minTemperature>
+                            <maxTemperature>200°C</maxTemperature>
+                        </temperature>
+                    </conduit>
+                </conduitGroup>
+                <wireMaterialGroup>
+                    <wireMaterial>
+                        <partNumber>Connector_C1</partNumber>
+                        <wireCode>
+                            <wireType>QC</wireType>
+                            <wireGauge>1.82 mm</wireGauge>
+                        </wireCode>
+                        <numberOfCores>3</numberOfCores>
+                        <size>030</size>
+                        <mass>58.7 kg/km</mass>
+                        <outerJacketColor>W</outerJacketColor>
+                        <outerDiameter>4.85 mm</outerDiameter>
+                        <resistance>6.8 mohm/m</resistance>
+                        <voltage>600 V</voltage>
+                        <amperage>10 A</amperage>
+                        <temperature>
+                            <maxTemperature/>
+                        </temperature>
+                        <frequency>
+                            <maxFrequency/>
+                        </frequency>
+                    </wireMaterial>
+                </wireMaterialGroup>
+            </standardPartGroup>
+        </wiringData>
+    </content>
+</dmContent> 
+</xml></data></response><root></root></body></html></meta></head></title></description></author></copyright></identifier></generator></style></script></noscript></form></table></tr></td></th></thead></tfoot></tbody></colgroup></caption></thread></details></dialog></datagrid></command></button></a></link></style></noframes></frame></frameset></applet></object></param></embed></source></track></audio></video></canvas></svg></math></ruby></rt></rp></bdi></bdo><ins></del></sub></sup><var></samp><kdb></code></pre></listing></xmp></plaintext></address></blockquote></q></cite></dfn></abbr></acronym><big></small></strong></em></i></b></u></s></strike><font></basefont></center></dir></menu></isindex></fieldset></legend></label></optgroup></option><textarea></select><optgroup><option><input></keygen><button></script></noscript></style><link></head><body></html>

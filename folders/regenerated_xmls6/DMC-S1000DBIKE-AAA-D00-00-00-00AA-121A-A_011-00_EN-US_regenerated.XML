@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm MaintenanceDocumentModelBase xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <introduction>
+        <para>The following document is a conversion of the XML file DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A_011-00_EN-US to a markdown format.</para>
+    </introduction>
+    <identifyingInformation>
+        <modelCode>S1000DBIKE</modelCode>
+        <systemDifferenceCode>AAA</systemDifferenceCode>
+        <systemCode>D00</systemCode>
+        <subsystemCode>00</subsystemCode>
+        <subsystemSubcode>00</subsystemSubcode>
+        <assemblyCode>00</assemblyCode>
+        <disassemblyCode>00</disassemblyCode>
+        <disassemblyCodeVariant>AA</disassemblyCodeVariant>
+        <informationCode>121</informationCode>
+        <informationCodeVariant>A</informationCodeVariant>
+    </identifyingInformation>
+    <procedureOverview>
+        <para>The procedure outlined in this document is for performing pre-ride checks on a bicycle.</para>
+    </procedureOverview>
+    <requiredPersonnel>
+        <person>Basic user</person>
+        <trade>Operator</trade>
+        <estimatedTime>0.3 hours</estimatedTime>
+    </requiredPersonnel>
+    <requiredSupportEquipment>
+        <equipment>
+            <equipmentID>seq-0001</equipmentID>
+            <name>Tire pressure gauge</name>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001-01</partNumber>
+            <quantity>1 EA</quantity>
+        </equipment>
+        <equipment>
+            <equipmentID>seq-0002</equipmentID>
+            <name>Specialist toolset</name>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001</partNumber>
+            <quantity>1 EA</quantity>
+        </equipment>
+    </requiredSupportEquipment>
+    <requiredSupplies>
+        <supply>
+            <supplyID>sup-0001</supplyID>
+            <name>General lubricant</name>
+            <manufacturerCode>KZ222</manufacturerCode>
+            <partNumber>LL-001</partNumber>
+            <quantity>As required</quantity>
+        </supply>
+    </requiredSupplies>
+    <procedureSteps>
+        <step>
+            <stepNumber>1</stepNumber>
+            <stepTitle>Examine the Brakes</stepTitle>
+            <para>Examine the condition of the brakes.</para>
+            <para>Open the brake quick release.</para>
+            <para>Examine the condition and thickness of the brake pads.</para>
+            <para>Make sure there is a large quantity of rubber left.</para>
+            <para>Make sure the pad is not too hard.</para>
+            <para>Clean all unwanted material.</para>
+        </step>
+        <step>
+            <stepNumber>2</stepNumber>
+            <stepTitle>Inspect Brake Installation</stepTitle>
+            <para>Do an inspection of the installation of the brakes.</para>
+            <para>Check the hydraulic brake system function.</para>
+            <para>Refer to Hydraulic brake function for more information.</para>
+            <para>Make sure there is sufficient clearance between the pad and the inner diameter of the brake surface.</para>
+            <para>Caution: If the position of the pads is too low on the rim, the pads can move, causing separation of the spokes from their mountings.</para>
+            <para>Refer to Brake pad seating for more information.</para>
+        </step>
+        <step>
+            <stepNumber>3</stepNumber>
+            <stepTitle>Check Tire Pressure</stepTitle>
+            <para>Do a check of the tire pressure using the Tire pressure gauge.</para>
+            <para>Compare the value read with the recommended pressure shown on the sidewall of the tire.</para>
+            <para>Add necessary air.</para>
+        </step>
+        <step>
+            <stepNumber>4</stepNumber>
+            <stepTitle>Examine Wheels</stepTitle>
+            <para>Examine the condition of the wheels.</para>
+            <para>Examine the rims for bulges and dents.</para>
+            <para>Examine for splits at the seam where an extruded rim is bonded.</para>
+        </step>
+        <step>
+            <stepNumber>5</stepNumber>
+            <stepTitle>Check Headset Bearings</stepTitle>
+            <para>Straddle the bicycle.</para>
+            <para>Apply the front brakes and push the handlebars forward.</para>
+            <para>Make sure the headset bearings are tight.</para>
+        </step>
+        <step>
+            <stepNumber>6</stepNumber>
+            <stepTitle>Check Chain</stepTitle>
+            <para>Visually examine the chain.</para>
+            <para>If the chain is too dirty, clean it as specified in the Clean chain task.</para>
+            <para>Visually examine the chain for links that are frozen or do not move easily.</para>
+            <para>Apply necessary lubricant.</para>
+            <para>Do a check of the chain to make sure it is tight.</para>
+            <para>Make sure the play of the chain is not too much.</para>
+        </step>
+    </procedureSteps>
+    <references>
+        <reference>
+            <title>Hydraulic Brake Function</title>
+            <description>Hydraulic brake function</description>
+        </reference>
+        <reference>
+            <title>Brake Pad Seating</title>
+            <description>Brake pad seating</description>
+        </reference>
+        <reference>
+            <title>Tire Pressure Gauge</title>
+            <description>Tire pressure gauge</description>
+        </reference>
+        <reference>
+            <title>Clean Chain Task</title>
+            <description>Clean chain task</description>
+        </reference>
+    </references>
+    <closingRequirements>
+        <para>No specific closing requirements are needed for this procedure.</para>
+    </closingRequirements>
+</dm>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descript xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <updateIdentAndStatusSection>
+    <updateAddress>
+      <updateIdent>
+        <updateCode>
+          <objectIdentCode>UPF</objectIdentCode>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>00G</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>D</itemLocationCode>
+        </updateCode>
+        <language>
+          <languageIsoCode>en</languageIsoCode>
+          <countryIsoCode>US</countryIsoCode>
+        </language>
+        <issueInfo>
+          <issueNumber>003</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </updateIdent>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+    </updateAddress>
+    <updateStatus>
+      <sourceDMIdent>
+        <dmCode>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>00G</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>D</itemLocationCode>
+        </dmCode>
+        <language>
+          <languageIsoCode>en</languageIsoCode>
+          <countryIsoCode>US</countryIsoCode>
+        </language>
+        <issueInfo>
+          <issueNumber>003</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </sourceDMIdent>
+      <targetDMIssueInfo>
+        <issueNumber>003</issueNumber>
+        <inWork>03</inWork>
+      </targetDMIssueInfo>
+      <responsiblePartnerCompany>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </originator>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode>
+              <modelIdentCode>S1000DBIKE</modelIdentCode>
+              <systemDiffCode>AAA</systemDiffCode>
+              <systemCode>D00</systemCode>
+              <subSystemCode>0</subSystemCode>
+              <subSubSystemCode>0</subSubSystemCode>
+              <assyCode>00</assyCode>
+              <disassyCode>00</disassyCode>
+              <disassyCodeVariant>AA</disassyCodeVariant>
+              <infoCode>022</infoCode>
+              <infoCodeVariant>A</infoCodeVariant>
+              <itemLocationCode>D</itemLocationCode>
+            </dmCode>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <verificationType>tabtop</verificationType>
+      </qualityAssurance>
+    </updateStatus>
+    <targetDMStatus>
+      <issueType>changed</issueType>
+    </targetDMStatus>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </security>
+    <dataRestrictions>
+      <restrictionInstructions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </restrictionInstructions>
+      <restrictionInfo>
+        <copyright>
+          <copyrightStmt>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightStmt>
+          <publishers>
+            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+            <publisher>Aerospace Industries Association of America</publisher>
+            <publisher>ATA e-Business Program</publisher>
+          </publishers>
+          <limitationsOfLiability>
+            <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+            <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+            <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+          </limitationsOfLiability>
+          <copyrightDetails>The details for copyright can be found in the S1000D Specification.</copyrightDetails>
+        </copyright>
+        <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+        <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+      </restrictionInfo>
+    </dataRestrictions>
+    <responsiblePartnerCompany>
+      <enterpriseCode>B6865</enterpriseCode>
+      <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </responsiblePartnerCompany>
+    <originator>
+      <enterpriseCode>B6865</enterpriseCode>
+      <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </originator>
+    <applicCrossRefTableRef>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>022</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>D</itemLocationCode>
+          </dmCode>
+        </dmRefIdent>
+      </dmRef>
+    </applicCrossRefTableRef>
+  </updateIdentAndStatusSection>
+  <content>
+    <insert>
+      <partSpec>
+        <partId>part-0010</partId>
+        <partIdent>
+          <partNumber>LRU1020</partNumber>
+          <manufacturerCode>KZ777</manufacturerCode>
+          <partId>ID00014</partId>
+        </partIdent>
+        <itemIdentData>
+          <descrForPart>This is a reflector part</descrForPart>
+        </itemIdentData>
+        <procurementData>
+          <enterpriseRef>
+            <enterpriseType>manufacturer</enterpriseType>
+            <manufacturerCode>F0001</manufacturerCode>
+          </enterpriseRef>
+        </procurementData>
+        <techData>
+          <partUsage>
+            <partUsageCode>pu23</partUsageCode>
+          </partUsage>
+          <specialStorage>0</specialStorage>
+        </techData>
+      </partSpec>
+    </insert>
+    <replace>
+      <partSpec>
+        <partId>part-0011</partId>
+        <partIdent>
+          <partNumber>LIRUS-L1-11</partNumber>
+          <manufacturerCode>KZ777</manufacturerCode>
+          <partId>ID00015</partId>
+        </partIdent>
+        <itemIdentData>
+          <descrForPart>This is a bulb part</descrForPart>
+        </itemIdentData>
+        <procurementData>
+          <enterpriseRef>
+            <enterpriseType>manufacturer</enterpriseType>
+            <manufacturerCode>F0001</manufacturerCode>
+          </enterpriseRef>
+        </procurementData>
+        <techData>
+          <partUsage>
+            <partUsageCode>pu23</partUsageCode>
+          </partUsage>
+          <specialStorage>1</specialStorage>
+        </techData>
+      </partSpec>
+    </replace>
+    <delete>
+      <partSpec>
+        <partId>part-0012</partId>
+        <partIdent>
+          <partNumber>LRU1010</partNumber>
+          <manufacturerCode>KZ777</manufacturerCode>
+          <partId>ID00007</partId>
+        </partIdent>
+      </partSpec>
+    </delete>
+  </content>
+</descript>

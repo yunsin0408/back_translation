@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <introduction>
+        <title>Introduction to S1000D Tools</title>
+        <description>The S1000D tools are a set of software applications designed to support the creation, management, and delivery of technical documentation in accordance with the S1000D standard.</description>
+    </introduction>
+    <validatingDataModules>
+        <title>Validating Data Modules</title>
+        <description>To validate a data module, you can use the s1kd-validate tool. This tool checks the data module against the S1000D schema and reports any errors or warnings.</description>
+        <exampleUsage>
+            <code>s1kd-validate DMC-MYPRJ-A-00-00-00-00A-040A-D_000-01_EN-CA.XML</code>
+            <description>This command validates the specified data module and displays any errors or warnings.</description>
+        </exampleUsage>
+    </validatingDataModules>
+    <creatingNewDataModules>
+        <title>Creating New Data Modules</title>
+        <description>To create a new data module, you can use the s1kd-newdm tool. This tool generates a new data module with the specified characteristics.</description>
+        <exampleUsage>
+            <code>s1kd-newdm -# MYPRJ-A-00-00-00-00A-040A-D</code>
+            <description>This command creates a new data module with the specified model identifier code, system difference code, and other attributes.</description>
+        </exampleUsage>
+    </creatingNewDataModules>
+    <updatingDataModules>
+        <title>Updating Data Modules</title>
+        <description>To update an existing data module, you can use the s1kd-upissue tool. This tool updates the issue and inwork numbers of the data module and creates a new file with the updated metadata.</description>
+        <exampleUsage>
+            <code>s1kd-upissue -i DMC-MYPRJ-A-00-00-00-00A-040A-D_000-01_EN-CA.XML</code>
+            <description>This command updates the issue and inwork numbers of the specified data module and creates a new file with the updated metadata.</description>
+        </exampleUsage>
+    </updatingDataModules>
+    <creatingPublicationModules>
+        <title>Creating Publication Modules</title>
+        <description>To create a publication module, you can use the s1kd-newpm tool. This tool generates a new publication module with the specified characteristics.</description>
+        <exampleUsage>
+            <code>s1kd-newpm -# MYPRJ-12345-00001-00</code>
+            <description>This command creates a new publication module with the specified model identifier code, publication issuer, and other attributes.</description>
+        </exampleUsage>
+    </creatingPublicationModules>
+    <filteringDataModules>
+        <title>Filtering Data Modules</title>
+        <description>To filter data modules for a specific customer or product, you can use the s1kd-instance tool. This tool filters the data module based on the specified applicability criteria.</description>
+        <exampleUsage>
+            <code>s1kd-instance -s version:prodattr=B &lt;DM&gt;</code>
+            <description>This command filters the specified data module for version B of a product and outputs the filtered result.</description>
+        </exampleUsage>
+    </filteringDataModules>
+    <creatingCustomizedPublications>
+        <title>Creating Customized Publications</title>
+        <description>To create customized publications, you can use the s1kd-instance tool to filter data modules for specific customers or products. You can then use the filtered data modules to create a publication module that meets the customer's requirements.</description>
+        <exampleUsage>
+            <code>s1kd-instance -O customerB DMC-*.XML</code>
+            <description>This command filters all data modules in the current directory for version B of a product and outputs the filtered results to a new directory called customerB.</description>
+        </exampleUsage>
+    </creatingCustomizedPublications>
+    <useWithOtherVersionControlSystems>
+        <title>Use with Other Version Control Systems</title>
+        <description>The S1000D tools support an alternate naming convention that omits issue and inwork numbers from filenames. This allows you to use existing version control systems such as Git or SVN to manage your data modules.</description>
+        <exampleUsage>
+            <code>s1kd-newdm -N -# MYPRJ-A-00-00-00-00A-040A-D</code>
+            <description>This command creates a new data module with the specified model identifier code, system difference code, and other attributes, but omits the issue and inwork numbers from the filename.</description>
+        </exampleUsage>
+    </useWithOtherVersionControlSystems>
+    <scriptingPublishingProcesses>
+        <title>Scripting Publishing Processes</title>
+        <description>To automate publishing processes, you can create scripts that use the S1000D tools to filter data modules, update metadata, and create publication modules. For example:</description>
+        <exampleUsage>
+            <code>#!/bin/sh
+
+# Usage: sh build.sh &lt;zip&gt; &lt;csdb&gt; &lt;serialno&gt;
+zip=$1
+csdb=$2
+serialno=$3
+
+# Create a temporary directory.
+tmp=$(mktemp -d)
+
+# Copy all CSDB objects to the temp directory. The CSDB objects
+# are filtered for a given serial number.
+s1kd-ls "$csdb" |
+  xargs s1kd-instance -O "$tmp" -s serialno:prodattr="$serialno"
+
+# Synchronize references in the filtered DMs. This is necessary
+# since some references may have been removed during filtering.
+s1kd-ls -D "$tmp" |
+  xargs s1kd-syncrefs -f
+
+# Create the ZIP package.
+zip -jr "$zip" "$tmp"
+
+# Clean up the temp directory.
+rm -r "$tmp"
+</code>
+            <description>This script filters data modules for a given serial number, updates metadata, and creates a publication module that meets the customer's requirements. The resulting publication module is then packaged into a ZIP file.</description>
+        </exampleUsage>
+    </scriptingPublishingProcesses>
+</root>

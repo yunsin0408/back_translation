@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <introduction>
+    <title>Introduction to the SXML Document</title>
+    <description>The provided SXML (Simplified XML) document outline contains two primary sections:
+      <item>Metadata: This section encompasses information about the document itself.</item>
+      <item>Content: The actual substance of the document, comprising pre-ride inspection procedures for a bicycle.</item>
+    </description>
+  </introduction>
+  <metadata>
+    <identifiersAndReferences>
+      <description>Unique identifiers for the document or its components.
+        References to external resources or related documents.</description>
+    </identifiersAndReferences>
+    <documentProperties>
+      <description>Version information
+        Authorship details
+        Timestamps</description>
+    </documentProperties>
+  </metadata>
+  <content>
+    <inspectionProcedures>
+      <brakesInspection>
+        <title>1. Brakes Inspection</title>
+        <steps>
+          <step><name>Pads</name>
+            <description>Ensure that brake pads are not worn out and provide adequate stopping power.</description>
+          </step>
+          <step><name>Callipers</name>
+            <description>Check for proper alignment and function.</description>
+          </step>
+          <step><name>Levers</name>
+            <description>Verify levers are securely attached to the handlebars and function correctly.</description>
+          </step>
+        </steps>
+      </brakesInspection>
+      <tiresAndWheels>
+        <title>2. Tires and Wheels</title>
+        <steps>
+          <step><name>Tire Pressure</name>
+            <description>Adjust according to terrain (off-road: 35-40 lbs, on-road: 55-60 lbs).</description>
+          </step>
+          <step><name>Tire Condition</name>
+            <description>No cracks or splits.</description>
+          </step>
+          <step><name>Wheels</name>
+            <description>Check for true alignment and tight spokes.</description>
+          </step>
+        </steps>
+      </tiresAndWheels>
+      <headsetAndChain>
+        <title>3. Headset and Chain</title>
+        <steps>
+          <step><name>Headset</name>
+            <description>Ensure bearings are tightened properly.</description>
+          </step>
+          <step><name>Chain</name>
+            <description>Verify links move easily without obstruction.</description>
+          </step>
+        </steps>
+      </headsetAndChain>
+      <handlebarAndComputer>
+        <title>4. Handlebar and Computer</title>
+        <steps>
+          <step><name>Handlebar</name>
+            <description>Securely attached to the stem, with no twisting.</description>
+          </step>
+          <step><name>Computer Display</name>
+            <description>Functional, displaying necessary metrics like altitude, speed, and distance.</description>
+          </step>
+        </steps>
+      </handlebarAndComputer>
+    </inspectionProcedures>
+  </content>
+  <additionalGuidance>
+    <description>Always refer to the manufacturer's instructions for specific components or procedures not covered in this outline.
+      Regular maintenance can prevent issues and ensure safety during rides.</description>
+  </additionalGuidance>
+</document>

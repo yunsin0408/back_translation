@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>30</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>040</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmIdent>
+      <language>
+        <languageIsoCode>en</languageIsoCode>
+        <countryIsoCode>CA</countryIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>022</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>2020-09-01</issueDate>
+      <dmTitle>
+        <techName>s1kd-defaults</techName>
+        <infoName>Description</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </identAndStatusSection>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <securityClassification>01</securityClassification>
+    <responsiblePartnerCompany>khzae.net</responsiblePartnerCompany>
+    <originator>khzae.net</originator>
+    <applic>All</applic>
+    <brexDmRef>
+      <dmRefIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>022</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmRefIdent>
+    </brexDmRef>
+    <qualityAssurance>unverified</qualityAssurance>
+    <reasonForUpdate>
+      <id>rfu-xml-catalog</id>
+      <changeType>add</changeType>
+      <reasonForUpdateRefIDs>rfu-xml-catalog</reasonForUpdateRefIDs>
+    </reasonForUpdate>
+  </dmStatus>
+  <content>
+    <description>
+      <generalInformation>The s1kd-defaults tool is used to generate default values for S1000D documents.</generalInformation>
+      <options>
+        <configurationOptions>
+          <option>-d</option>
+          <description>Generate a .defaults file</description>
+          <option>-D</option>
+          <description>Generate a .dmtypes file</description>
+          <option>-F</option>
+          <description>Generate a .fmtypes file</description>
+          <option>-i</option>
+          <description>Initialize a new CSDB</description>
+          <option>-n</option>
+          <description>Set a default value for the specified key</description>
+          <option>-t</option>
+          <description>Output in text format instead of XML</description>
+          <option>-v</option>
+          <description>Set the value for the specified key</description>
+        </configurationOptions>
+        <xmlParserOptions>
+          <option>--dtdload</option>
+          <description>Load the external DTD</description>
+          <option>--huge</option>
+          <description>Remove any internal arbitrary parser limits</description>
+          <option>--net</option>
+          <description>Allow network access to load external DTD and entities</description>
+          <option>--noent</option>
+          <description>Resolve entities</description>
+          <option>--parser-errors</option>
+          <description>Emit errors from parser</description>
+          <option>--parser-warnings</option>
+          <description>Emit warnings from parser</description>
+          <option>--xinclude</option>
+          <description>Do XInclude processing</description>
+          <option>--xml-catalog</option>
+          <description>Use an XML catalog when resolving entities</description>
+        </xmlParserOptions>
+      </options>
+      <brexmapFile>
+        <brexMap>
+          <dmtypes path="//@infoCode"/>
+          <default path="//@languageIsoCode" ident="languageIsoCode"/>
+          <default path="//@countryIsoCode" ident="countryIsoCode"/>
+        </brexMap>
+      </brexmapFile>
+      <examples>
+        <example>
+          <title>Initialize a new CSDB using XML format</title>
+          <command>$ mkdir mycsdb</command>
+          <command>$ cd mycsdb</command>
+          <command>$ s1kd-defaults -i</command>
+        </example>
+        <example>
+          <title>Initialize a new CSDB using simple text format</title>
+          <command>$ mkdir mycsdb</command>
+          <command>$ cd mycsdb</command>
+          <command>$ s1kd-defaults -ti</command>
+        </example>
+        <example>
+          <title>Generate a custom-named .defaults file</title>
+          <command>$ s1kd-defaults > custom-defaults.xml</command>
+        </example>
+        <example>
+          <title>Convert a simple text formatted file to XML</title>
+          <command>$ s1kd-defaults -df</command>
+        </example>
+        <example>
+          <title>Sort entries and output in text format</title>
+          <command>$ s1kd-defaults -dts custom-defaults.txt</command>
+        </example>
+        <example>
+          <title>Set a default value in the current .defaults file</title>
+          <command>$ s1kd-defaults -df -n issue -v 5.0</command>
+        </example>
+      </examples>
+    </description>
+  </content>
+</document>

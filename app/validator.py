@@ -5,6 +5,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import argparse
 import csv
 import os
+from dotenv import load_dotenv, find_dotenv  
+load_dotenv(find_dotenv(), override=False)
 
 def validate_xml(xml_content: str) -> tuple[bool, str]:
     """Validate if the XML content is well-formed and collect all errors."""
@@ -131,10 +133,10 @@ def main():
     parser = argparse.ArgumentParser(description="Validate well-formedness of XML files in a folder.")
     parser.add_argument("--folder", type=str, help="Path to folder containing XML files (*.xml or *.XML)")
     parser.add_argument("--workers", type=int, default=4, help="Number of parallel workers (default: 4)")
-    parser.add_argument("--csv", type=str, default="results/xml_validation_results.csv", help="Path to write CSV results (default: xml_validation_results.csv)")
+    parser.add_argument("--csv", type=str, default="results/xml_validation_results6.csv", help="Path to write CSV results (default: xml_validation_results.csv)")
     args = parser.parse_args()
 
-    folder = args.folder or DEFAULT_XML_FOLDER
+    folder = DEFAULT_XML_FOLDER
     if not folder:
         print("Please provide a folder via --folder or set DEFAULT_XML_FOLDER in validator.py")
         return

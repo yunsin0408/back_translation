@@ -55,7 +55,7 @@ Guidelines for conversion:
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd" 
+   xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd" 
 
 Original filename: {original_filename}
 
@@ -228,7 +228,7 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
         
         Returns a dictionary with information about the processed files.
         """
-        print("=== XML → LLM (Llama 3.3) → Markdown → LLM → XML Pipeline ===\n")
+        print("=== XML → LLM  → Markdown → LLM → XML Pipeline ===\n")
         
         results = {
             'original_xml_count': 0,
@@ -321,8 +321,9 @@ def main():
     
     # Define folders
     input_xml_folder = os.getenv("INPUT_XML_FOLDER")
-    output_md_folder = "folders/generated_markdown"
-    output_xml_folder = "folders/regenerated_xmls"
+    output_md_folder = "folders/generated_markdown6"
+    output_xml_folder = "folders/regenerated_xmls6"
+    
     
     # full pipeline
     try:
@@ -341,9 +342,9 @@ def main():
         
     # Run individual steps
     # Step 1 only: XML to Markdown
-    # md_files = processor.process_xml_folder_to_markdown(input_xml_folder, output_md_folder)
+    #md_files = processor.process_xml_folder_to_markdown(input_xml_folder, output_md_folder)
     
-    # Step 2 only: Markdown to XML (if you already have markdown files)
+    # Step 2 only: Markdown to XML 
     #xml_files = processor.process_markdown_folder_to_xml(output_md_folder, output_xml_folder)
 
 if __name__ == "__main__": 

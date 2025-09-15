@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <introduction>
+    <title>Introduction to Bicycle Parts</title>
+    <paragraph>This document provides an overview of the main components of a bicycle.</paragraph>
+  </introduction>
+  <section>
+    <title>Identifiable Parts</title>
+    <paragraph>The following parts can be immediately identified on a bicycle:</paragraph>
+    <itemizedlist>
+      <listitem>Frame</listitem>
+      <listitem>Wheels (including hub, spokes, metal rim, and rubber tire)</listitem>
+      <listitem>Seat and seat post</listitem>
+      <listitem>Handle bars</listitem>
+      <listitem>Handle bar stem</listitem>
+      <listitem>Cranks</listitem>
+      <listitem>Pedals</listitem>
+      <listitem>Chain</listitem>
+      <listitem>Gears (including front chain ring, rear freewheel, front and rear derailleur, shift lever on the handle bars, and cables)</listitem>
+      <listitem>Brakes (including actuators on the handlebars, brake cable, brake callipers, and brake pads)</listitem>
+    </itemizedlist>
+  </section>
+  <section>
+    <title>Detailed Description of Parts</title>
+    <paragraph>The following table provides a detailed description of each part:</paragraph>
+    <table>
+      <tgroup>
+        <tbody>
+          <row>
+            <entry>Item</entry>
+            <entry>Refer to</entry>
+            <entry>Definition</entry>
+          </row>
+          <row>
+            <entry>Frame</entry>
+            <entry><link href="#frame">Figure 1: Frame</link></entry>
+            <entry>A bicycle frame is made of metal tubes that are welded together.</entry>
+          </row>
+          <row>
+            <entry>Wheels</entry>
+            <entry><link href="#wheels">Figure 2: Wheels</link></entry>
+            <entry>The wheels include these parts: hub, spokes, metal rim, and rubber tire.</entry>
+          </row>
+          <row>
+            <entry>Rear wheel</entry>
+            <entry><link href="#rear-wheel">Figure 3: Rear Wheel</link></entry>
+            <entry></entry>
+          </row>
+          <row>
+            <entry>Front wheel</entry>
+            <entry><link href="#front-wheel">Figure 4: Front Wheel</link></entry>
+            <entry></entry>
+          </row>
+          <row>
+            <entry>Seat and seat post</entry>
+            <entry><link href="#seat-and-seat-post">Figure 5: Seat and Seat Post</link></entry>
+            <entry>These install into the seat tube with a mechanism you can use to change the height.</entry>
+          </row>
+          <row>
+            <entry>Handle bars</entry>
+            <entry><link href="#handle-bars">Figure 6: Handle Bars</link></entry>
+            <entry>A horizontal bar that attaches to the stem with grips at the ends that attach to the brake levers and the shifters.</entry>
+          </row>
+          <row>
+            <entry>Handle bar stem</entry>
+            <entry><link href="#handle-bar-stem">Figure 7: Handle Bar Stem</link></entry>
+            <entry>This attaches the handle bar to the steering tube (head set).</entry>
+          </row>
+          <row>
+            <entry>Cranks</entry>
+            <entry><link href="#cranks">Figure 8: Cranks</link></entry>
+            <entry>A lever that extends from the bottom of the bracket to the pedal.</entry>
+          </row>
+          <row>
+            <entry>Pedals</entry>
+            <entry><link href="#pedals">Figure 9: Pedals</link></entry>
+            <entry>The two platforms for the feet that attach to the crank.</entry>
+          </row>
+          <row>
+            <entry>Chain</entry>
+            <entry><link href="#chain">Figure 10: Chain</link></entry>
+            <entry>A circular set of links that connect the chain ring to the cogs on the freewheel.</entry>
+          </row>
+          <row>
+            <entry>Gears</entry>
+            <entry><link href="#gears">Figure 11: Gears</link></entry>
+            <entry>The gears include: front chain ring, rear freewheel, front and rear derailleur, shift lever on the handle bars, and cables.</entry>
+          </row>
+          <row>
+            <entry>Brakes</entry>
+            <entry><link href="#brakes">Figure 12: Brakes</link></entry>
+            <entry>The brakes include: actuators on the handlebars, brake cable, brake callipers, and brake pads.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </section>
+  <section>
+    <title>Footnotes</title>
+    <paragraph>All parts can be procured from any certified part distributor.</paragraph>
+  </section>
+  <section>
+    <title>Figures</title>
+    <figure id="frame">
+      <title>Figure 1: Frame</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="wheels">
+      <title>Figure 2: Wheels</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="rear-wheel">
+      <title>Figure 3: Rear Wheel</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="front-wheel">
+      <title>Figure 4: Front Wheel</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="seat-and-seat-post">
+      <title>Figure 5: Seat and Seat Post</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="handle-bars">
+      <title>Figure 6: Handle Bars</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="handle-bar-stem">
+      <title>Figure 7: Handle Bar Stem</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="cranks">
+      <title>Figure 8: Cranks</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="pedals">
+      <title>Figure 9: Pedals</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="chain">
+      <title>Figure 10: Chain</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="gears">
+      <title>Figure 11: Gears</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+    <figure id="brakes">
+      <title>Figure 12: Brakes</title>
+      <graphic fileref="https://via.placeholder.com/150"/>
+    </figure>
+  </section>
+</proced>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>14</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>040</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmIdent>
+      <language>
+        <languageIsoCode>en</languageIsoCode>
+        <countryIsoCode>CA</countryIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>024</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2020</year>
+        <month>09</month>
+        <day>01</day>
+      </issueDate>
+      <dmTitle>
+        <techName>s1kd-neutralize</techName>
+        <infoName>Description</infoName>
+      </dmTitle>
+    </dmAddressItems>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+      </security>
+      <responsiblePartnerCompany>
+        <enterpriseName>khzae.net</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>khzae.net</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>All</displayText>
+      </applic>
+      <brexDmRef>
+        <dmRefIdent>
+          <dmCode modelIdentCode="S1KDTOOLS" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+        </dmRefIdent>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+      <reasonForUpdate>
+        <id>rfu-xml-catalog</id>
+        <updateHighlight>1</updateHighlight>
+        <updateReasonType>urt02</updateReasonType>
+        <simplePara>Add --xml-catalog parser option.</simplePara>
+      </reasonForUpdate>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <general>
+        Generates neutral metadata for the specified CSDB objects. This includes:
+        <item>XLink attributes for references, using the S1000D URN scheme.</item>
+        <item>RDF and Dublin Core metadata.</item>
+      </general>
+      <usage>s1kd-neutralize [-o &lt;file&gt;} [-Dflnqvh?] [&lt;object&gt;...]</usage>
+      <options>
+        <option>
+          <name>-D, --delete</name>
+          <description>Remove neutral metadata from the CSDB object.</description>
+        </option>
+        <option>
+          <name>-f, --overwrite</name>
+          <description>Overwrite specified CSDB object(s) automatically.</description>
+        </option>
+        <option>
+          <name>-h, -?, --help</name>
+          <description>Show usage message.</description>
+        </option>
+        <option>
+          <name>-l, --list</name>
+          <description>Treat input (stdin or arguments) as lists of CSDB objects to neutralize, rather than CSDB objects themselves.</description>
+        </option>
+        <option>
+          <name>-n, --namespace</name>
+          <description>Include the IETP namespaces for data module and publication module elements.</description>
+        </option>
+        <option>
+          <name>-o, --out &lt;file&gt;</name>
+          <description>Output neutralized CSDB object XML to &lt;file&gt; instead of stdout.</description>
+        </option>
+        <option>
+          <name>-q, --quiet</name>
+          <description>Quiet mode. Errors are not printed.</description>
+        </option>
+        <option>
+          <name>-v, --verbose</name>
+          <description>Verbose output.</description>
+        </option>
+        <option>
+          <name>--version</name>
+          <description>Show version information.</description>
+        </option>
+        <option>
+          <name>--dtdload</name>
+          <description>Load the external DTD.</description>
+        </option>
+        <option>
+          <name>--huge</name>
+          <description>Remove any internal arbitrary parser limits.</description>
+        </option>
+        <option>
+          <name>--net</name>
+          <description>Allow network access to load external DTD and entities.</description>
+        </option>
+        <option>
+          <name>--noent</name>
+          <description>Resolve entities.</description>
+        </option>
+        <option>
+          <name>--parser-errors</name>
+          <description>Emit errors from parser.</description>
+        </option>
+        <option>
+          <name>--parser-warnings</name>
+          <description>Emit warnings from parser.</description>
+        </option>
+        <option>
+          <name>--xinclude</name>
+          <description>Do XInclude processing.</description>
+        </option>
+        <option>
+          <name>--xml-catalog &lt;file&gt;</name>
+          <description>Use an XML catalog when resolving entities. Multiple catalogs may be loaded by specifying this option multiple times.</description>
+        </option>
+      </options>
+      <example>
+        <para>$ DMOD=DMC-XLINKTEST-A-00-00-00-00A-040A-D_000-01_EN-CA.XML</para>
+        <para>$ xmllint --xpath "//description/dmRef" $DMOD</para>
+        <code>&lt;dmRef&gt;
+  &lt;dmRefIdent&gt;
+    &lt;dmCode modelIdentCode="XLINKTEST" systemDiffCode="A"
+           systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="01"
+           disassyCode="00" disassyCodeVariant="A" infoCode="040"
+           infoCodeVariant="A" itemLocationCode="D"/&gt;
+  &lt;/dmRefIdent&gt;
+  &lt;dmRefAddressItems&gt;
+    &lt;dmTitle&gt;
+      &lt;techName&gt;XLink test&lt;/techName&gt;
+      &lt;infoName&gt;Referenced data module&lt;/infoName&gt;
+    &lt;/dmTitle&gt;
+  &lt;/dmRefAddressItems&gt;
+&lt;/dmRef&gt;</code>
+        <para>$ s1kd-neutralize $DMOD | xmllint --xpath "//description/dmRef" -</para>
+        <code>&lt;dmRef xlink:type="simple"
+       xlink:href="URN:S1000D:DMC-XLINKTEST-A-00-00-01-00A-040A-D"
+       xlink:title="XLink test - Referenced data module"&gt;
+[...]
+&lt;/dmRef&gt;</code>
+      </example>
+    </description>
+  </content>
+</dm>

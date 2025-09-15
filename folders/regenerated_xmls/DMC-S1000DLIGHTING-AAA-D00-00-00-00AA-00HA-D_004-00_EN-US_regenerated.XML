@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descript xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <dmIdent modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="AA" infoCode="00H" infoCodeVariant="A" itemLocationCode="D"/>
+  <languageIsoCode>en</languageIsoCode>
+  <countryIsoCode>US</countryIsoCode>
+  <issueNumber>004</issueNumber>
+  <inWork>00</inWork>
+  <dmAddressItems>
+    <issueDate year="2024" month="06" day="19"/>
+    <techName>Lighting</techName>
+    <infoName>Zones common information repository</infoName>
+  </dmAddressItems>
+  <dmStatus>
+    <issueType>revised</issueType>
+    <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+    <dataRestrictions>
+      <restrictionInstructions dataDistribution="To be made available to all S1000D users.">
+        <exportControl>The export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted.
+          Storage of this data module is to be at the discretion of the organization.</exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </restrictionInstructions>
+      <restrictionInfo>
+        <copyright>(C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD
+          Publishers:
+            - Aerospace, Security and Defence Industries Association of Europe
+            - Aerospace Industries Association of America
+            - ATA e-Business Program
+          Limitations of liability:
+            - This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.
+            - Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.
+            - Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</copyright>
+        <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+        <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+      </restrictionInfo>
+    </dataRestrictions>
+    <responsiblePartnerCompany enterpriseID="Not specified" enterpriseRole="Not specified"/>
+  </dmStatus>
+  <commonRepository>
+    <zoneRepository>
+      <zone zoneId="100">
+        <description>FRONT ZONE BEGINS BY FRONT TIRE. IT STARTS FROM LENGTH "0 cm" TO LENGTH "50 cm"</description>
+        <contains>
+          <zoneRef zoneId="110"/>
+          <zoneRef zoneId="130"/>
+        </contains>
+      </zone>
+      <zone zoneId="110">
+        <description>TIRE ZONE INCLUDING THE FRONT TIRE, THE INNER TUBE AND THE SPOKES</description>
+        <belongsTo>100</belongsTo>
+      </zone>
+      <zone zoneId="130">
+        <description>HANDLE BAR ZONE</description>
+        <contains>
+          <zoneRef zoneId="131"/>
+          <zoneRef zoneId="132"/>
+        </contains>
+        <belongsTo>100</belongsTo>
+      </zone>
+      <zone zoneId="131">
+        <description>RIGHT HAND HANDLE BAR ZONE</description>
+        <belongsTo>130</belongsTo>
+      </zone>
+      <zone zoneId="132">
+        <description>LEFT HAND HANDLE BAR ZONE</description>
+        <belongsTo>130</belongsTo>
+      </zone>
+      <zone zoneId="200">
+        <description>MIDDLE ZONE. IT STARTS FROM LENGTH "50 cm" TO LENGTH "100 cm"</description>
+      </zone>
+      <zone zoneId="300">
+        <description>BACK ZONE. IT STARTS FROM LENGTH "100 cm" TO LENGTH "150 cm"</description>
+      </zone>
+    </zoneRepository>
+  </commonRepository>
+  <applicability>
+    <applicRules>
+      <applicRule ruleId="App-0001" applicPropertyIdent="" applicPropertyType="">
+        <displayText>Not specified</displayText>
+        <appliesToModel>Mountain storm</appliesToModel>
+        <version>Mk1</version>
+        <versrank>1~3</versrank>
+      </applicRule>
+      <applicRule ruleId="App-0002" applicPropertyIdent="" applicPropertyType="">
+        <displayText>Brook trekker Mk9</displayText>
+        <appliesToModel>Brook trekker</appliesToModel>
+        <version>Mk9</version>
+        <versrank>1~2</versrank>
+      </applicRule>
+      <applicRule ruleId="App-0003" applicPropertyIdent="" applicPropertyType="">
+        <displayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</displayText>
+        <appliesToType>Mountain bicycle</appliesToType>
+        <model>
+          <modelName>Mountain storm</modelName>
+          <modelName>Brook trekker</modelName>
+        </model>
+        <version>
+          <versionName>Mk1</versionName>
+          <versionName>Mk9</versionName>
+        </version>
+      </applicRule>
+    </applicRules>
+  </applicability>
+</descript>

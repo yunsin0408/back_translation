@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <modelIdentCode>S1000DBIKE</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>DA0</systemCode>
+                <subSystemCode>0</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>041</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+                <language>
+                    <countryIsoCode>US</countryIsoCode>
+                    <languageIsoCode>en</languageIsoCode>
+                </language>
+                <issueInfo>
+                    <issueNumber>011</issueNumber>
+                    <inWork>00</inWork>
+                </issueInfo>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate>
+                    <year>2024</year>
+                    <month>06</month>
+                    <day>19</day>
+                </issueDate>
+                <dmTitle>
+                    <techName>Wheel</techName>
+                    <infoName>Description of how it is made</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus>
+            <issueType>changed</issueType>
+            <security>
+                <securityClassification>01</securityClassification>
+                <commercialClassification>cc51</commercialClassification>
+                <caveat>cv51</caveat>
+            </security>
+            <dataRestrictions>
+                <restrictionInstructions>
+                    <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+                    <exportControl>
+                        <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+                    </exportControl>
+                    <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+                    <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+                    <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+                </restrictionInstructions>
+                <restrictionInfo>
+                    <copyright>
+                        <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+                        <publishers>
+                            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+                            <publisher>Aerospace Industries Association of America</publisher>
+                            <publisher>ATA e-Business Program</publisher>
+                        </publishers>
+                        <limitationOfLiability>
+                            <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+                            <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+                            <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+                        </limitationOfLiability>
+                        <copyrightPara>The details for copyright can be found in the S1000D Specification.</copyrightPara>
+                    </copyright>
+                    <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+                    <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+                </restrictionInfo>
+            </dataRestrictions>
+        </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <description>
+            <theBicycleWheel>
+                <para>The wheel (refer to figure 1) of a bicycle is a complex structure. The wheel assembly has these parts:</para>
+                <itemList>
+                    <item>the tire</item>
+                    <item>the tube</item>
+                    <item>the spokes</item>
+                    <item>the spoke nipples</item>
+                    <item>the valve</item>
+                    <item>the hub</item>
+                </itemList>
+                <para>On their own, the individual components are not very strong. But, when they are installed together, the components make the complete wheel (refer to figure 1). The complete wheel is resistant to almost any type of heavy loads and operation.</para>
+                <figure id="figure-1">
+                    <title>Figure 1: Parts of the Wheel</title>
+                    <image xlink:href="ICN-C0419-S1000D0365-001-01"/>
+                </figure>
+            </theBicycleWheel>
+            <spokes>
+                <para>The spokes go out from the hub and go across and below each other. The spoke nipples attach the spokes to the rim with the threads on the end of the spokes. You can use the spoke nipples to adjust the tension of the spokes. The tension on each of the spokes must be equal.</para>
+            </spokes>
+            <wheelRim>
+                <para>The rim (refer to figure 2) of the wheel has a lining of rim tape. This tape protects the tube from damage that the rough edges on the spoke nipples can cause.</para>
+                <figure id="figure-2">
+                    <title>Figure 2: The Tire and Rim</title>
+                    <image xlink:href="ICN-C0419-S1000D0366-001-01"/>
+                </figure>
+            </wheelRim>
+            <tubeAndTire>
+                <para>The tube and the tire install on the rim. The sidewalls of the tire have markings on them. These which are used to indicate the correct direction of rotation. The markings also make sure the tire installs on the rim and that the directional arrows points in the correct direction. You install the tube into the tire before you inflate it. The tube has a valve (refer to figure 3) which you put through the hole in the rim. This valve (refer to figure 3) is used to inflate the tube and the tire to the correct pressure. A dust cap installs on the valve (refer to figure 3) to prevent damage that dust and debris can cause.</para>
+                <figure id="figure-3">
+                    <title>Figure 3: Valve</title>
+                    <image xlink:href="ICN-C0419-S1000D0367-001-01"/>
+                </figure>
+            </tubeAndTire>
+        </description>
+    </content>
+    <additionalInfo>
+        <responsibleEnterprise>AeroSpace, Security and Defence Industries Association of Europe - ASD</responsibleEnterprise>
+        <schemaVersion>Not specified in the XML file.</schemaVersion>
+    </additionalInfo>
+</proced>

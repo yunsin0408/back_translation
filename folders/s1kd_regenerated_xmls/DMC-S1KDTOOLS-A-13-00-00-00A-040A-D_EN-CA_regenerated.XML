@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>13</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>040</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmIdent>
+      <language>
+        <languageIsoCode>en</languageIsoCode>
+        <countryIsoCode>CA</countryIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>023</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2020</year>
+        <month>09</month>
+        <day>01</day>
+      </issueDate>
+      <dmTitle>
+        <techName>s1kd-newimf</techName>
+        <infoName>Description</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </identAndStatusSection>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+    </security>
+    <responsiblePartnerCompany>
+      <enterpriseName>khzae.net</enterpriseName>
+    </responsiblePartnerCompany>
+    <originator>
+      <enterpriseName>khzae.net</enterpriseName>
+    </originator>
+    <applic>
+      <displayText>All</displayText>
+    </applic>
+    <brexDmRef>
+      <dmRefIdent>
+        <modelIdentCode>S1KDTOOLS</modelIdentCode>
+        <systemDiffCode>A</systemDiffCode>
+        <systemCode>00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>A</disassyCodeVariant>
+        <infoCode>022</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmRefIdent>
+    </brexDmRef>
+    <qualityAssurance>unverified</qualityAssurance>
+    <reasonForUpdate>
+      <id>rfu-xml-catalog</id>
+      <updateHighlight>1</updateHighlight>
+      <updateReasonType>urt02</updateReasonType>
+      <simplePara>Add --xml-catalog parser option.</simplePara>
+    </reasonForUpdate>
+  </dmStatus>
+  <content>
+    <refs>
+      <dmRef>
+        <dmRefIdent>
+          <modelIdentCode>S1KDTOOLS</modelIdentCode>
+          <systemDiffCode>A</systemDiffCode>
+          <systemCode>07</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>A</disassyCodeVariant>
+          <infoCode>040</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>D</itemLocationCode>
+        </dmRefIdent>
+        <dmRefAddressItems>
+          <dmTitle>
+            <techName>s1kd-newdm</techName>
+            <infoName>Description</infoName>
+          </dmTitle>
+        </dmRefAddressItems>
+      </dmRef>
+    </refs>
+    <description>
+      <levelledPara>
+        <general>The s1kd-newimf command is used to create a new IMF.</general>
+        <usage>$ s1kd-newimf ICN-EX-00001-001-01.PNG</usage>
+        <options>
+          <option>
+            <name>--dtdload</name>
+            <description>Load the external DTD.</description>
+          </option>
+          <option>
+            <name>--huge</name>
+            <description>Remove any internal arbitrary parser limits.</description>
+          </option>
+          <option>
+            <name>--net</name>
+            <description>Allow network access to load external DTD and entities.</description>
+          </option>
+          <option>
+            <name>--noent</name>
+            <description>Resolve entities.</description>
+          </option>
+          <option>
+            <name>--parser-errors</name>
+            <description>Emit errors from parser.</description>
+          </option>
+          <option>
+            <name>--parser-warnings</name>
+            <description>Emit warnings from parser.</description>
+          </option>
+          <option>
+            <name>--xinclude</name>
+            <description>Do XInclude processing.</description>
+          </option>
+          <option>
+            <name>--xml-catalog</name>
+            <description>Use an XML catalog when resolving entities. Multiple catalogs may be loaded by specifying this option multiple times.</description>
+          </option>
+        </options>
+        <defaultsFile>The .defaults file is used by all the s1kd-new* commands. Refer to s1kd-newdm for more information.</defaultsFile>
+        <example>$ s1kd-newimf ICN-EX-00001-001-01.PNG</example>
+      </levelledPara>
+    </description>
+  </content>
+</document>

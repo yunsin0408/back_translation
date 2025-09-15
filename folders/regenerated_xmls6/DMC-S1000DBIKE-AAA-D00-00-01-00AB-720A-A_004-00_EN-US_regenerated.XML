@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>01</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AB</disassyCodeVariant>
+        <infoCode>720</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+        <language>
+          <countryISOCode>US</countryISOCode>
+          <languageISOCode>en</languageISOCode>
+        </language>
+        <issueInfo>
+          <issueNumber>004</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+        <dmTitle>
+          <techName>Fork</techName>
+          <infoName>Install procedures</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>
+        <status/>
+      </issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStatement>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightText>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightText>
+            <publishers>
+              <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+              <publisher>Aerospace Industries Association of America</publisher>
+              <publisher>ATA e-Business Program</publisher>
+            </publishers>
+            <limitationsOfLiability>
+              <limitation>This material is provided "As is" and neither ASD nor its suppliers make any warranty, express or implied, regarding the accuracy or completeness of this material.</limitation>
+              <limitation>In no event will ASD or its suppliers be liable for any damages, including but not limited to, direct, indirect, incidental, special, punitive, or consequential damages.</limitation>
+            </limitationsOfLiability>
+          </copyright>
+          <policy>
+            <policyText>The details of this data module are subject to change without notice.</policyText>
+          </policy>
+        </restrictionInfo>
+      </dataRestrictions>
+      <responsibleOrganization>
+        <name>Not specified</name>
+      </responsibleOrganization>
+      <applicability>
+        <note>Not specified</note>
+      </applicability>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <references>
+      <dmRefs>
+        <dmRef>S1000DBIKE-AAA-D00-01-00-AA-930-A_004-00</dmRef>
+        <dmRef>S1000DBIKE-AAA-DA2-1-00-AA-720-A_001-00</dmRef>
+        <dmRef>S1000DBIKE-AAA-DA2-3-00-AA-720-A_001-00</dmRef>
+        <dmRef>S1000DBIKE-AAA-DA2-1-00-AA-720-A_001-00</dmRef>
+        <dmRef>S1000DBIKE-AAA-DA2-3-00-AA-720-A_001-00</dmRef>
+      </dmRefs>
+    </references>
+    <procedure>
+      <preliminaryRequirements>
+        <reqCondGroup>No conditions</reqCondGroup>
+        <reqPersons>Not specified</reqPersons>
+        <reqTechInfoGroup>
+          <stemInstallProcedure>S1000DBIKE-AAA-DA2-1-00-AA-720-A_001-00</stemInstallProcedure>
+          <headsetInstallProcedure>S1000DBIKE-AAA-DA2-3-00-AA-720-A_001-00</headsetInstallProcedure>
+        </reqTechInfoGroup>
+        <reqSupportEquips>Not specified</reqSupportEquips>
+        <reqSupplies>
+          <generalGrease>
+            <manufacturerCode>KZ222</manufacturerCode>
+            <partNumber>LL-005</partNumber>
+            <quantity>As required</quantity>
+          </generalGrease>
+        </reqSupplies>
+        <reqSpares>
+          <fork>
+            <materialSetRef>FK-TEL1002 (Issue 001)</materialSetRef>
+            <quantity>1 EA</quantity>
+            <embeddedSpareDescr>
+              <name>Fork</name>
+              <partNumber>FK-TEL1002</partNumber>
+              <manufacturerCode>KZ666</manufacturerCode>
+              <quantity>1 EA</quantity>
+            </embeddedSpareDescr>
+          </fork>
+        </reqSpares>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step>
+          <action>Apply grease (General grease) on the headset.</action>
+        </step>
+        <step>
+          <action>Install the headset, refer to: S1000DBIKE-AAA-DA2-3-00-AA-720-A_001-00</action>
+        </step>
+        <step>
+          <action>Install the stem, refer to: S1000DBIKE-AAA-DA2-1-00-AA-720-A_001-00</action>
+        </step>
+        <step>
+          <action>Install the fork (Fork).</action>
+        </step>
+      </mainProcedure>
+      <closeRequirements>
+        <reqCondGroup>No conditions</reqCondGroup>
+      </closeRequirements>
+    </procedure>
+  </content>
+</proced>

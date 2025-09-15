@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identAndStatus>
+    <dmIdent>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A</dmIdent>
+    <issueInfo>
+      <issueNumber>010</issueNumber>
+      <inWork>false</inWork>
+    </issueInfo>
+    <language>EN-US</language>
+  </identAndStatus>
+  <content>
+    <section id="intro">
+      <title>S1000D XML File Explanation</title>
+      <para>The provided S1000D XML file is a standardized format for creating and sharing technical documentation, particularly in the aerospace and defense industries. This document provides an explanation of the structure and content of the XML file.</para>
+    </section>
+    <section id="structure">
+      <title>Structure</title>
+      <para>The XML file consists of the following main sections:</para>
+      <itemizedList>
+        <listItem><para>dmodule: The root element of the XML file.</para></listItem>
+        <listItem><para>identAndStatus: Contains identification and status information about the document.</para></listItem>
+        <listItem><para>content: Holds the actual content of the document, including procedures, figures, and tables.</para></listItem>
+      </itemizedList>
+    </section>
+    <section id="content-section">
+      <title>Content Section</title>
+      <para>The content section is divided into several subsections:</para>
+      <itemizedList>
+        <listItem><para>procedure: Describes a specific task or procedure to be performed.</para></listItem>
+      </itemizedList>
+      <section id="procedure">
+        <title>Procedure Section</title>
+        <para>The procedure section is further divided into:</para>
+        <itemizedList>
+          <listItem><para>proceduralStep: A single step within the procedure.</para></listItem>
+          <listItem><para>para: A paragraph of text describing the step.</para></listItem>
+          <listItem><para>proceduralStepAlts: Alternative steps or variations for a specific procedural step.</para></listItem>
+        </itemizedList>
+      </section>
+    </section>
+    <section id="figures-and-tables">
+      <title>Figures and Tables</title>
+      <para>The XML file also includes figures and tables, which are referenced throughout the document:</para>
+      <itemizedList>
+        <listItem><para>figure: An image or illustration used to support the text.</para></listItem>
+        <listItem><para>table: A table of data used to provide additional information.</para></listItem>
+      </itemizedList>
+    </section>
+    <section id="example-use-cases">
+      <title>Example Use Cases</title>
+      <para>The provided XML file can be used as a template for creating technical documentation in various industries, such as:</para>
+      <itemizedList>
+        <listItem><para>Aerospace and defense</para></listItem>
+        <listItem><para>Manufacturing and assembly</para></listItem>
+        <listItem><para>Maintenance and repair</para></listItem>
+      </itemizedList>
+    </section>
+    <procedure id="example-procedure">
+      <title>Example Procedure</title>
+      <proceduralStep>
+        <para>Remove the lighting system from the packaging.</para>
+      </proceduralStep>
+      <figureAlts id="figs-0001">
+        <figure applicRefId="app-0001" id="fig-0001">
+          <title>Circuit Breaker (for right side)</title>
+          <graphic infoEntityIdent="ICN-FAPE3-S1000D0101-001-01"/>
+        </figure>
+      </figureAlts>
+      <supportEquipDescr id="seq-0001">
+        <toolRef toolNumber="BSK-TLST-001" manufacturerCodeValue="KZ666" specific="1" toolAltFlag="0"/>
+        <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+      </supportEquipDescr>
+    </procedure>
+  </content>
+</dmodule>

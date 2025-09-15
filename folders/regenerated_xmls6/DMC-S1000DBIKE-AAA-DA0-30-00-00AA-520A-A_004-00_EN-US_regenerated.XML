@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00_EN-US</title>
+  <introduction>
+    The following document is a conversion of the XML file DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00_EN-US.XML to a well-structured markdown format.
+  </introduction>
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>3</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>520</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmIdent>
+      <language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>004</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+      <dmTitle>
+        <techName>Front wheel</techName>
+        <infoName>Remove procedures</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </identAndStatusSection>
+  <content>
+    <referencedApplicGroup>
+      <applic id="app-0002">
+        <displayText>Mountain bicycle and Mountain storm Mk1</displayText>
+        <evaluate>
+          <andOr>and</andOr>
+          <assert>
+            <applicPropertyIdent>type</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mountain bicycle</applicPropertyValues>
+          </assert>
+          <evaluate>
+            <andOr>and</andOr>
+            <assert>
+              <applicPropertyIdent>model</applicPropertyIdent>
+              <applicPropertyType>prodattr</applicPropertyType>
+              <applicPropertyValues>Mountain storm</applicPropertyValues>
+              <assert>
+                <applicPropertyIdent>version</applicPropertyIdent>
+                <applicPropertyType>prodattr</applicPropertyType>
+                <applicPropertyValues>Mk1</applicPropertyValues>
+              </assert>
+            </assert>
+          </evaluate>
+        </evaluate>
+      </applic>
+      <applic id="app-0003">
+        <displayText>Mountain bicycle and Brook trekker Mk9</displayText>
+        <evaluate>
+          <andOr>and</andOr>
+          <assert>
+            <applicPropertyIdent>type</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mountain bicycle</applicPropertyValues>
+          </assert>
+          <evaluate>
+            <andOr>and</andOr>
+            <assert>
+              <applicPropertyIdent>model</applicPropertyIdent>
+              <applicPropertyType>prodattr</applicPropertyType>
+              <applicPropertyValues>Brook trekker</applicPropertyValues>
+              <assert>
+                <applicPropertyIdent>version</applicPropertyIdent>
+                <applicPropertyType>prodattr</applicPropertyType>
+                <applicPropertyValues>Mk9</applicPropertyValues>
+              </assert>
+            </assert>
+          </evaluate>
+        </evaluate>
+      </applic>
+    </referencedApplicGroup>
+    <warningsAndCautions>
+      <caution id="C0001">
+        <warningAndCautionPara>Be sure to operate on a white surface in order to prevent lost of part that could fall on the floor.</warningAndCautionPara>
+      </caution>
+    </warningsAndCautions>
+    <procedure>
+      <preliminaryRequirements>
+        <requiredConditions>No conditions required.</requiredConditions>
+        <requiredPersons>No persons required.</requiredPersons>
+        <requiredSupportEquipment>
+          <supportEquipment>
+            <name>Specialist toolset</name>
+            <identNumber>KZ666 BSK-TLST-001</identNumber>
+            <requiredQuantity>1 EA</requiredQuantity>
+          </supportEquipment>
+        </requiredSupportEquipment>
+        <requiredSupplies>
+          <supply>
+            <supplyRef>SPEC-0012</supplyRef>
+            <supplyNumber>BKO200</supplyNumber>
+            <supplyNumberType>sp01</supplyNumberType>
+            <requiredQuantity_AsRequired />
+          </supply>
+          <supply>
+            <supplyRef>SPEC-0013</supplyRef>
+            <supplyNumber>EU-OIL3212</supplyNumber>
+            <requiredQuantity_AsRequired />
+          </supply>
+        </requiredSupplies>
+        <requiredSpares>No spares required.</requiredSpares>
+        <requiredSafety>No safety requirements.</requiredSafety>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step id="step-1">
+          <description>Open the light circuit breaker located on the handlebar</description>
+          <circuitBreakerDescrGroup>
+            <applicRefId>app-0002</applicRefId>
+            <circuitBreakerAction>open</circuitBreakerAction>
+            <circuitBreakerDescr>
+              <circuitBreakerRef>CBLGT-1001-R</circuitBreakerRef>
+              <name>Bike Lighting circuit breaker (right side)</name>
+              <accessPointRef>any-access</accessPointRef>
+              <circuitBreakerLocation>Zone 131</circuitBreakerLocation>
+            </circuitBreakerDescr>
+          </circuitBreakerDescrGroup>
+          <circuitBreakerDescrGroup>
+            <applicRefId>app-0003</applicRefId>
+            <circuitBreakerAction>open</circuitBreakerAction>
+            <circuitBreakerDescr>
+              <circuitBreakerRef>CBLGT-1001-L</circuitBreakerRef>
+              <name>Bike Lighting circuit breaker (left side)</name>
+              <accessPointRef>any-access</accessPointRef>
+              <circuitBreakerLocation>Zone 132</circuitBreakerLocation>
+            </circuitBreakerDescr>
+          </circuitBreakerDescrGroup>
+        </step>
+        <step id="step-2">
+          <description>Hold the front of the bicycle</description>
+        </step>
+        <step id="step-3">
+          <description>Use the Specialist toolset to disengage the fork from the chainring by pushing the wheel forwards and down</description>
+          <cautionRefs>
+            <cautionRef>C0001</cautionRef>
+          </cautionRefs>
+          <figure>
+            <title />
+            <graphic>ICN-C0419-S1000D0372-001-01</graphic>
+            <reasonForAmendment>Addition of the wheel illustration</reasonForAmendment>
+          </figure>
+          <internalRefs>
+            <internalRefId>seq-0001</internalRefId>
+            <internalRefTargetType>irtt05</internalRefTargetType>
+          </internalRefs>
+        </step>
+        <step id="step-4">
+          <description>Use specific oil if the fork do not desengage easily</description>
+          <internalRefs>
+            <internalRefId>sup-0001</internalRefId>
+            <internalRefTargetType>irtt04</internalRefTargetType>
+          </internalRefs>
+        </step>
+        <step id="step-5">
+          <description>If not available, use any oil compliant with requirements</description>
+          <internalRefs>
+            <internalRefId>sup-0002</internalRefId>
+            <internalRefTargetType>irtt04</internalRefTargetType>
+          </internalRefs>
+        </step>
+        <step id="step-6">
+          <description>Lift the wheel away from the frame</description>
+        </step>
+        <step id="step-7">
+          <description>Put the frame on the floor</description>
+        </step>
+      </mainProcedure>
+      <closeRequirements>No conditions required.</closeRequirements>
+    </procedure>
+  </content>
+  <dmStatusSection>
+    <dataModuleStatus>The data module status is not explicitly stated in the provided XML file. However, based on the content and structure of the file, it appears to be a maintenance or repair procedure for a bicycle.</dataModuleStatus>
+  </dmStatusSection>
+  <references>
+    <reference>
+      <id>ICN-C0419-S1000D0372-001-01</id>
+      <description>The illustration of the wheel.</description>
+    </reference>
+    <reference>
+      <id>SPEC-0001</id>
+      <description>The circuit breaker description for the right side.</description>
+    </reference>
+    <reference>
+      <id>SPEC-0002</id>
+      <description>The circuit breaker description for the left side.</description>
+    </reference>
+    <reference>
+      <id>SPEC-0003</id>
+      <description>The circuit breaker location for the right side.</description>
+    </reference>
+    <reference>
+      <id>SPEC-0012</id>
+      <description>Supply reference for specific oil.</description>
+    </reference>
+    <reference>
+      <id>SPEC-0013</id>
+      <description>Supply reference for any oil compliant with requirements.</description>
+    </reference>
+  </references>
+</content>
+</dmStatusSection>
+</identAndStatusSection>
+</introduction>
+</title>
+</dmAddressItems>
+</dmAddress>
+</referencedApplicGroup>
+</warningsAndCautions>
+</procedure>
+</preliminaryRequirements>
+</mainProcedure>
+</closeRequirements>
+</dataModuleStatus>
+</references>
+</content> 
+</dmStatusSection>
+</identAndStatusSection>
+</introduction>
+</title>
+</dmAddressItems>
+</dmAddress>
+</referencedApplicGroup>
+</warningsAndCautions>
+</procedure>
+</preliminaryRequirements>
+</mainProcedure>
+</closeRequirements>
+</dataModuleStatus>
+</references>
+</content> 
+</dmStatusSection>
+</identAndStatusSection>
+</introduction>
+</title>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Maintenance Planning Document</title>
+  <toc>
+    <item><label>Introduction</label><ref href="#introduction"/></item>
+    <item><label>Task Definitions</label><ref href="#task-definitions"/>
+      <item><label>Task 001: Pre-operation procedures (crew)</label><ref href="#task-001-pre-operation-procedures-crew"/></item>
+      <item><label>Task 002: Brake pad replacement</label><ref href="#task-002-brake-pad-replacement"/></item>
+      <item><label>Task 003: Chain cleaning and lubrication</label><ref href="#task-003-chain-cleaning-and-lubrication"/></item>
+      <item><label>Task 004: Hub bearing maintenance</label><ref href="#task-004-hub-bearing-maintenance"/></item>
+      <item><label>Task 005: Clean the hub bearings</label><ref href="#task-005-clean-the-hub-bearings"/></item>
+    </item>
+    <item><label>Requirements and Resources</label><ref href="#requirements-and-resources"/></item>
+  </toc>
+  <section id="introduction">
+    <title>Introduction</title>
+    <p>This document outlines the maintenance planning for a bicycle, including tasks, requirements, and resources.</p>
+  </section>
+  <section id="task-definitions">
+    <title>Task Definitions</title>
+    <section id="task-001-pre-operation-procedures-crew">
+      <title>Task 001: Pre-operation procedures (crew)</title>
+      <p>Task Description: Perform pre-operation checks on the bicycle.</p>
+      <requirements>
+        <personnel>1 crew member</personnel>
+        <tools>Specialist toolset</tools>
+        <supplies>General lubricant</supplies>
+      </requirements>
+      <frequency>Daily</frequency>
+    </section>
+    <section id="task-002-brake-pad-replacement">
+      <title>Task 002: Brake pad replacement</title>
+      <p>Task Description: Replace brake pads on the bicycle.</p>
+      <requirements>
+        <personnel>1 mechanic</personnel>
+        <tools>Specialist toolset</tools>
+        <supplies>Brake pads, general lubricant</supplies>
+      </requirements>
+      <frequency>Every 6 months</frequency>
+    </section>
+    <section id="task-003-chain-cleaning-and-lubrication">
+      <title>Task 003: Chain cleaning and lubrication</title>
+      <p>Task Description: Clean and lubricate the chain on the bicycle.</p>
+      <requirements>
+        <personnel>1 crew member</personnel>
+        <tools>Stiff bristle brush, chain cleaning tool</tools>
+        <supplies>Chain cleaning fluid, general lubricant</supplies>
+      </requirements>
+      <frequency>Every month</frequency>
+    </section>
+    <section id="task-004-hub-bearing-maintenance">
+      <title>Task 004: Hub bearing maintenance</title>
+      <p>Task Description: Perform maintenance on the hub bearings.</p>
+      <requirements>
+        <personnel>1 mechanic</personnel>
+        <tools>Specialist toolset</tools>
+        <supplies>Degreasing agent, general grease</supplies>
+      </requirements>
+      <frequency>Every 6 months</frequency>
+    </section>
+    <section id="task-005-clean-the-hub-bearings">
+      <title>Task 005: Clean the hub bearings</title>
+      <p>Task Description: Clean the hub bearings on the bicycle.</p>
+      <requirements>
+        <personnel>1 crew member, 1 supervisor</personnel>
+        <tools>Specialist toolset</tools>
+        <supplies>Degreasing agent, general grease</supplies>
+      </requirements>
+      <frequency>Every 6 months</frequency>
+    </section>
+  </section>
+  <section id="requirements-and-resources">
+    <title>Requirements and Resources</title>
+    <p>The following resources are required for maintenance tasks:</p>
+    <resources>
+      <personnel>
+        <item>Crew members</item>
+        <item>Mechanics</item>
+        <item>Supervisors</item>
+      </personnel>
+      <tools>
+        <item>Specialist toolset</item>
+        <item>Stiff bristle brush</item>
+        <item>Chain cleaning tool</item>
+      </tools>
+      <supplies>
+        <item>General lubricant</item>
+        <item>Brake pads</item>
+        <item>Chain cleaning fluid</item>
+        <item>Degreasing agent</item>
+        <item>General grease</item>
+      </supplies>
+    </resources>
+    <note>The frequencies listed are general guidelines and may vary depending on usage and other factors. Always refer to the manufacturer's instructions for specific maintenance recommendations.</note>
+  </section>
+</proced>

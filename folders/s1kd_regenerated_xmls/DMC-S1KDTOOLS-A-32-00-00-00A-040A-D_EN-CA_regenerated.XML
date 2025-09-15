@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmctools xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <icnCatalogTool>
+    <description>The ICN catalog tool is used to resolve ICNs (Illustrated Parts Catalog Numbers) to filenames and notations. It uses an XML-based catalog file to map ICNs to their corresponding resolutions.</description>
+    <commandLineOptions>
+      <option>-c, --catalog: Specify the path to the ICN catalog file.</option>
+      <option>-m, --media: Specify the output media type (e.g., "pdf", "web").</option>
+      <option>-h, --help: Display help information.</option>
+      <option>-v, --version: Display version information.</option>
+    </commandLineOptions>
+    <catalogSchema>
+      <notation>
+        <markupElement>&lt;notation&gt;</markupElement>
+        <attributes>
+          <attribute>name: The NDATA name.</attribute>
+          <attribute>publicId: The optional PUBLIC ID of the notation.</attribute>
+          <attribute>systemId: The optional SYSTEM ID of the notation.</attribute>
+        </attributes>
+        <childElements>None</childElements>
+      </notation>
+      <media>
+        <markupElement>&lt;media&gt;</markupElement>
+        <attributes>
+          <attribute>name: The identifier of the output media.</attribute>
+        </attributes>
+        <childElements>
+          <childElement>&lt;icn&gt;</childElement>
+        </childElements>
+      </media>
+      <icn>
+        <markupElement>&lt;icn&gt;</markupElement>
+        <attributes>
+          <attribute>type: The type of ICN entry, with one of the following values:
+            <value>"single" (D): Specifies a single ICN to resolve.</value>
+            <value>"pattern": Specifies a pattern to resolve one or more ICNs.</value>
+          </attribute>
+          <attribute>infoEntityIdent: The ICN, or pattern used to match ICNs.</attribute>
+          <attribute>uri: The filename the ICN will resolve to.</attribute>
+          <attribute>notation: A reference to a previously declared &lt;notation&gt; element.</attribute>
+        </attributes>
+        <childElements>None</childElements>
+      </icn>
+    </catalogSchema>
+    <exampleICNCatalog>
+      <icnCatalog>
+        <notation name="jpg" systemId="jpg"/>
+        <notation name="png" systemId="png"/>
+        <notation name="svg" systemId="svg"/>
+        <media name="pdf">
+          <icn infoEntityIdent="ICN-12345-00001-001-01" 
+               uri="ICN-12345-00001-001-01.JPG" notation="jpg"/>
+        </media>
+        <media name="web">
+          <icn infoEntityIdent="ICN-12345-00001-001-01" 
+               uri="ICN-12345-00001-001-01.SVG" notation="svg"/>
+        </media>
+        <icn infoEntityIdent="ICN-12345-00001-001-01" 
+             uri="ICN-12345-00001-001-01.PNG" notation="png"/>
+      </icnCatalog>
+    </exampleICNCatalog>
+    <icnPatternRules>
+      <description>By default, each catalog entry matches a single ICN, but multiple ICNs can be resolved with a single entry by using a pattern rule. An entry with attribute type="pattern" specifies a regular expression to use to match ICNs and a template used to construct the resolved URI.</description>
+      <example>
+        <icn type="pattern" 
+             infoEntityIdent="ICN-(.{5})-(.*)" 
+             uri="graphics/\1/ICN-\1-\2.PNG" notation="PNG"/>
+      </example>
+    </icnPatternRules>
+    <useCases>
+      <useCase>Resolving ICNs to filenames and notations for a specific output media type.</useCase>
+      <useCase>Using pattern rules to resolve multiple ICNs with a single catalog entry.</useCase>
+      <useCase>Creating an ICN catalog file that maps ICNs to their corresponding resolutions.</useCase>
+    </useCases>
+  </icnCatalogTool>
+</dmctools>

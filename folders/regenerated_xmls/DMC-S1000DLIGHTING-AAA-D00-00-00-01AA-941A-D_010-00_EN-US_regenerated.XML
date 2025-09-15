@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descript xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+           xmlns:xlink="http://www.w3.org/1999/xlink" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+    <introduction>
+        <title>Illustrated Parts Catalog</title>
+        <para>This catalog contains various parts with their respective descriptions, manufacturer codes, and part numbers.</para>
+    </introduction>
+    <parts-list>
+        <part>
+            <part-number>LRU1011</part-number>
+            <manufacturer-code>KZ777</manufacturer-code>
+            <description>Not available</description>
+            <quantity>1</quantity>
+        </part>
+        <part>
+            <part-number>LRU2010</part-number>
+            <manufacturer-code>KZ777</manufacturer-code>
+            <description>Not available</description>
+            <quantity>1</quantity>
+        </part>
+        <part>
+            <part-number>LRU2018</part-number>
+            <manufacturer-code>KZ777</manufacturer-code>
+            <description>Not available</description>
+            <quantity>1</quantity>
+        </part>
+        <part>
+            <part-number>LIRUS-B1-12F</part-number>
+            <manufacturer-code>KZ777</manufacturer-code>
+            <description>Not available</description>
+            <quantity>1</quantity>
+        </part>
+        <part>
+            <part-number>LIRUS-B1-12R</part-number>
+            <manufacturer-code>KZ777</manufacturer-code>
+            <description>Not available</description>
+            <quantity>1</quantity>
+        </part>
+        <part>
+            <part-number>LIRUS-G1-10</part-number>
+            <manufacturer-code>KZ777</manufacturer-code>
+            <description>Not available</description>
+            <quantity>2</quantity>
+        </part>
+        <part>
+            <part-number>LIRUS-G1-10H</part-number>
+            <manufacturer-code>KZ777</manufacturer-code>
+            <description>Not available</description>
+            <quantity>1</quantity>
+        </part>
+    </parts-list>
+    <additional-parts>
+        <part>
+            <part-number>LRU-B124</part-number>
+            <manufacturer-code>KZ777</manufacturer-code>
+            <description>Not available</description>
+            <quantity>1</quantity>
+            <attach-store-ship-part-code>1</attach-store-ship-part-code>
+        </part>
+        <part>
+            <part-number>LRU-B556</part-number>
+            <manufacturer-code>KZ777</manufacturer-code>
+            <description>Not available</description>
+            <quantity>1</quantity>
+            <attach-store-ship-part-code>1</attach-store-ship-part-code>
+        </part>
+    </additional-parts>
+    <location-descriptions>
+        <part>
+            <part-number>LRU1011</part-number>
+            <location-description>REAR</location-description>
+        </part>
+    </location-descriptions>
+    <service-and-source-maint-recoverability>
+        <service-code>UKA</service-code>
+        <source-maintain-recoverability-code>PAFFD</source-maintain-recoverability-code>
+    </service-and-source-maint-recoverability>
+</descript>

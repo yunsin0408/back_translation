@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>043</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+        <language>
+          <countryIsoCode>US</countryIsoCode>
+          <languageIsoCode>en</languageIsoCode>
+        </language>
+        <issueInfo>
+          <issueNumber>011</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+        <dmTitle>
+          <techName>Bicycle</techName>
+          <infoName>Description attributed to crew</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+            <publishers>
+              <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+              <publisher>Aerospace Industries Association of America</publisher>
+              <publisher>ATA e-Business Program</publisher>
+            </publishers>
+            <limitationsOfLiability>
+              <limitation>1. This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+              <limitation>2. Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages arising out of the use of this material.</limitation>
+            </limitationsOfLiability>
+          </copyright>
+          <policy>The details of the policy are not specified in this section.</policy>
+        </restrictionInfo>
+      </dataRestrictions>
+      <responsibleOrganization>Not specified in the original XML.</responsibleOrganization>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <crew>
+      <descrCrew>
+        <introductionToTheBicycleAndItsControlSystem>The following sections describe the controls of a bicycle:
+          <ul>
+            <li>Steering: The handlebars are used to steer the bike.</li>
+            <li>Shifters: The gears control the ratio of pedal rotation to wheel rotation.</li>
+            <li>Brakes: You can decrease the speed of the bike with the brakes.</li>
+            <li>Pedals: The pedals are at the bottom of the seat tube.</li>
+          </ul>
+        </introductionToTheBicycleAndItsControlSystem>
+        <controls>
+          <steering>The handlebars are used to steer the bike. They are at the front of the bicycle.</steering>
+          <shifters>
+            <locationAndFunction>
+              <leftShifter>Changes the gears on the front derailleur.</leftShifter>
+              <rightShifter>Changes the gears on the rear derailleur.</rightShifter>
+            </locationAndFunction>
+            <table>
+              <tr>
+                <th>Shifter Location</th>
+                <th>Affected Gears</th>
+              </tr>
+              <tr>
+                <td>Left</td>
+                <td>The buttons on the left shifter changes the gears on the front derailleur.</td>
+              </tr>
+              <tr>
+                <td>Right</td>
+                <tdnThe buttons on the right shifter changes the gears on the rear derailleur.</td>
+              </tr>
+            </table>
+          </shifters>
+          <brakes>
+            <warning>If you operate the front brake without the rear brake, you can cause a crash.</warning>
+            <locationAndFunction>
+              <leftBrakeLever>Operates the front brake.</leftBrakeLever>
+              <rightBrakeLever>Operates the rear brake.</rightBrakeLever>
+            </locationAndFunction>
+            <table>
+              <tr>
+                <th>Brake Lever Location</th>
+                <th>Affected Brake</th>
+              </tr>
+              <tr>
+                <td>Left</td>
+                <td>This lever operates the front brake.</td>
+              </tr>
+              <tr>
+                <td>Right</td>
+                <td>This lever operates the rear brake.</td>
+              </tr>
+            </table>
+          </brakes>
+          <pedals>The pedals are at the bottom of the seat tube. You operate the pedals to move the bicycle forward.</pedals>
+        </controls>
+      </descrCrew>
+    </crew>
+  </content>
+</dm>

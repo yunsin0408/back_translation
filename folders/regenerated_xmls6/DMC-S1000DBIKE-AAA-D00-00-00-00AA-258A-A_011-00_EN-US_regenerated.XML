@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <introduction>
+    <title>Introduction to Bicycle Maintenance</title>
+    <para>This document provides a step-by-step guide on how to properly maintain and clean a bicycle. It covers the necessary procedures, safety precautions, and required materials.</para>
+  </introduction>
+  <requiredMaterials>
+    <title>Required Materials</title>
+    <itemizedlist>
+      <listitem>Water hose with low pressure</listitem>
+      <listitem>Degreasing agent (ACME super 45 Agent)</listitem>
+      <listitem>Detergent A (ACME Middling Detergent 69)</listitem>
+      <listitem>Detergent C (BoeBus DeLux Detergent No.6) for specific bike models</listitem>
+      <listitem>Soft sponge or cloth</listitem>
+      <listitem>Screwdriver with small blade</listitem>
+      <listitem>Brush</listitem>
+    </itemizedlist>
+  </requiredMaterials>
+  <safetyPrecautions>
+    <title>Safety Precautions</title>
+    <itemizedlist>
+      <listitem>Avoid getting degreasing agents or detergents into eyes. If contact occurs, immediately flush with clean warm water.</listitem>
+      <listitem>Use caution when handling high-pressure water hoses to avoid damaging bike components.</listitem>
+      <listitem>Point the hose away from hub and bottom bracket bearings to prevent damage.</listitem>
+    </itemizedlist>
+  </safetyPrecautions>
+  <stepByStepProcedure>
+    <title>Step-by-Step Procedure</title>
+    <section>
+      <title>Cleaning the Bicycle</title>
+      <orderedlist>
+        <listitem>
+          <para>Remove dirt and debris: Clean the bicycle with water to remove all dirt and debris. Refer to <xref linkend="fig-0001"/> for guidance.</para>
+        </listitem>
+        <listitem>
+          <para>Use a stiff brush: Utilize a stiff brush to access areas that are not easy to clean, such as shift levers, knobbly tires, and brakes.</para>
+        </listitem>
+        <listitem>
+          <para>Remove caked grime: Clean the caked grime from the chain and sprockets with a screwdriver that has a small blade.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+    <section>
+      <title>Degreasing the Freehub</title>
+      <orderedlist>
+        <listitem>
+          <para>Apply degreasing agent: Remove grease from the freewheel assembly using the degreasing agent as shown in <xref linkend="fig-0002"/>.</para>
+        </listitem>
+        <listitem>
+          <para>Use a brush: Use a brush to remove grease from parts such as sprockets, guide and tension wheels of the derailleur, and chain ring teeth.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+    <section>
+      <title>Flushing and Lubricating</title>
+      <orderedlist>
+        <listitem>
+          <para>Flush with water: Flush the sprockets, derailleurs, chain rings, and chain with water.</para>
+        </listitem>
+        <listitem>
+          <para>Lubricate the bicycle: Refer to <xref linkend="dmRef"/> for guidance on lubricating the bicycle.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+  </stepByStepProcedure>
+  <specificProcedures>
+    <title>Specific Procedures for Different Bike Models</title>
+    <section>
+      <title>For Bike Model app-0002</title>
+      <orderedlist>
+        <listitem>
+          <para>Soak sponge in Detergent A: Soak the sponge into Detergent A and water.</para>
+        </listitem>
+        <listitem>
+          <para>Clean the bicycle: Clean the bicycle with the soaked sponge.</para>
+        </listitem>
+        <listitem>
+          <para>Flush the bicycle: Flush the bicycle to remove all detergent.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+    <section>
+      <title>For Bike Model app-0001</title>
+      <orderedlist>
+        <listitem>
+          <para>Soak sponge in Detergent C: Soak the sponge into Detergent C and water.</para>
+        </listitem>
+        <listitem>
+          <para>Clean the bicycle: Clean the bicycle with the soaked sponge.</para>
+        </listitem>
+        <listitem>
+          <para>Soak sponge in Detergent A: Soak the sponge into Detergent A and water.</para>
+        </listitem>
+        <listitem>
+          <para>Fully clean the bicycle: Fully clean the bicycle with the soaked sponge.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+  </specificProcedures>
+  <closingRequirements>
+    <title>Closing Requirements</title>
+    <itemizedlist>
+      <listitem>Make sure the bicycle is dry before storing or riding.</listitem>
+    </itemizedlist>
+  </closingRequirements>
+  <figures>
+    <figure id="fig-0001">
+      <title>Cleaning the bike</title>
+      <graphic fileref="ICN-C0419-S1000D0359-001-01"/>
+    </figure>
+    <figure id="fig-0002">
+      <title>Degreasing the freehub</title>
+      <graphic fileref="ICN-C0419-S1000D0400-001-01"/>
+    </figure>
+  </figures>
+  <dmRef id="dmRef">
+    <para>Refer to <xref linkend="dmRefIdent"/> for guidance on lubricating the bicycle.</para>
+  </dmRef>
+  <dmRefIdent id="dmRefIdent">
+    <modelIdentCode>S1000DBIKE</modelIdentCode>
+    <systemDiffCode>AAA</systemDiffCode>
+    <systemCode>DA4</systemCode>
+    <subSystemCode>1</subSystemCode>
+    <subSubSystemCode>0</subSubSystemCode>
+    <assyCode>00</assyCode>
+    <disassyCode>00</disassyCode>
+    <disassyCodeVariant>AA</disassyCodeVariant>
+    <infoCode>241</infoCode>
+    <infoCodeVariant>A</infoCodeVariant>
+    <itemLocationCode>A</itemLocationCode>
+  </dmRefIdent>
+</proced>

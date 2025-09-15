@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <title>DModule Content</title>
+    <introduction>
+        <para>The provided XML content appears to be a part of an S1000D documentation module. This document outlines the procedure for cleaning and maintaining a bicycle.</para>
+    </introduction>
+    <procedureOverview>
+        <para>The procedure involves several steps:</para>
+        <steps>
+            <step><para>Cleaning the bicycle with water to remove dirt.</para></step>
+            <step><para>Using a brush to access hard-to-reach areas, such as shift levers, knobbly tires, and brakes.</para></step>
+            <step><para>Removing caked grime from the chain and sprockets using a screwdriver.</para></step>
+            <step><para>Degreasing the freewheel assembly using a specified degreaser.</para></step>
+            <step><para>Flushing the sprockets, derailleurs, chain rings, and chain with water.</para></step>
+        </steps>
+    </procedureOverview>
+    <detailedProcedure>
+        <step id="Step-1">
+            <title>Clean the Bicycle</title>
+            <para>Use water to remove all dirt from the bicycle.</para>
+            <para>Refer to <xref linkend="figure-1">Figure 1: Cleaning the Bike</xref> for more information.</para>
+        </step>
+        <step id="Step-2">
+            <title>Access Hard-to-Reach Areas</title>
+            <para>Use a brush (e.g., <xref linkend="seq-0002">seq-0002</xref>) to access areas that are not easy to clean, such as:</para>
+            <itemizedlist>
+                <listitem><para>Shift levers</para></listitem>
+                <listitem><para>Knobbly tires</para></listitem>
+                <listitem><para>Brakes</para></listitem>
+            </itemizedlist>
+        </step>
+        <step id="Step-3">
+            <title>Remove Caked Grime</title>
+            <para>Clean the caked grime from the chain and sprockets using a screwdriver with a small blade.</para>
+        </step>
+        <step id="Step-4">
+            <title>Degrease the Freewheel Assembly</title>
+            <para>Use <xref linkend="sup-0001">sup-0001</xref> to degrease the freewheel assembly as shown in <xref linkend="figure-2">Figure 2: Degreasing the Freehub</xref>.</para>
+            <para>Remove grease from parts such as:</para>
+            <itemizedlist>
+                <listitem><para>Sprockets</para></listitem>
+                <listitem><para>Guide and tension wheels of the derailleur</para></listitem>
+                <listitem><para>Chain ring teeth</para></listitem>
+            </itemizedlist>
+        </step>
+        <step id="Step-5">
+            <title>Flush with Water</title>
+            <para>Flush the sprockets, derailleurs, chain rings, and chain with water.</para>
+            <para>If necessary, repeat the flush procedure.</para>
+        </step>
+    </detailedProcedure>
+    <alternateProcedures>
+        <para>Depending on the bicycle model (e.g., <xref linkend="app-0002">app-0002</xref> or <xref linkend="app-0001">app-0001</xref>), alternative steps may be taken:</para>
+        <step id="For-Model-app-0002">
+            <title>For Model app-0002</title>
+            <steps>
+                <step><para>Soak a sponge (<xref linkend="seq-0003">seq-0003</xref>) in <xref linkend="sup-0002">sup-0002</xref> and water.</para></step>
+                <step><para>Clean the bicycle with the soaked sponge.</para></step>
+                <step><para>Flush the bicycle to remove all detergent.</para></step>
+                <step><para>Move the bicycle up and down on its tires to remove excess water.</para></step>
+            </steps>
+        </step>
+        <step id="For-Model-app-0001">
+            <title>For Model app-0001</title>
+            <steps>
+                <step><para>Soak a sponge (<xref linkend="seq-0003">seq-0003</xref>) in <xref linkend="sup-0003">sup-0003</xref> and water.</para></step>
+                <step><para>Clean the bicycle with the soaked sponge.</para></step>
+                <step><para>Soak the sponge again in <xref linkend="sup-0002">sup-0002</xref> and water.</para></step>
+                <step><para>Fully clean the bicycle with the soaked sponge.</para></step>
+                <step><para>Flush the bicycle to remove all detergent.</para></step>
+                <step><para>Move the bicycle up and down on its tires to remove excess water.</para></step>
+            </steps>
+        </step>
+    </alternateProcedures>
+    <closingRequirements>
+        <para>After completing the procedure:</para>
+        <itemizedlist>
+            <listitem><para>Ensure the bicycle is dry.</para></listitem>
+        </itemizedlist>
+    </closingRequirements>
+    <supportEquipment>
+        <para>The following support equipment is required:</para>
+        <itemizedlist>
+            <listitem><para><xref linkend="seq-0002">seq-0002</xref>: Brush for accessing hard-to-reach areas.</para></listitem>
+            <listitem><para><xref linkend="seq-0003">seq-0003</xref>: Sponge for cleaning the bicycle.</para></listitem>
+        </itemizedlist>
+    </supportEquipment>
+    <degreaserAndDetergent>
+        <para>The following degreaser and detergent are required:</para>
+        <itemizedlist>
+            <listitem><para><xref linkend="sup-0001">sup-0001</xref>: Degreaser for the freewheel assembly.</para></listitem>
+            <listitem><para><xref linkend="sup-0002">sup-0002</xref>: Detergent for general cleaning (Model app-0002).</para></listitem>
+            <listitem><para><xref linkend="sup-0003">sup-0003</xref>: Detergent for general cleaning (Model app-0001).</para></listitem>
+        </itemizedlist>
+    </degreaserAndDetergent>
+    <figures>
+        <figure id="figure-1">
+            <title>Figure 1: Cleaning the Bike</title>
+            <para>[Insert image of cleaning the bicycle]</para>
+        </figure>
+        <figure id="figure-2">
+            <title>Figure 2: Degreasing the Freehub</title>
+            <para>[Insert image of degreasing the freewheel assembly]</para>
+        </figure>
+    </figures>
+    <bicycleModels>
+        <para>The following bicycle models are applicable:</para>
+        <itemizedlist>
+            <listitem><para><xref linkend="app-0001">app-0001</xref>: Specific model requiring unique cleaning procedure.</para></listitem>
+            <listitem><para><xref linkend="app-0002">app-0002</xref>: Another specific model with its own cleaning requirements.</para></listitem>
+        </itemizedlist>
+    </bicycleModels>
+</procedure>
