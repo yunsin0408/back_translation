@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv, find_dotenv  
 load_dotenv(find_dotenv(), override=False)
-from lxml import etree
 from pathlib import Path
 import re
 from typing import List
