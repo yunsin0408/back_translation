@@ -73,7 +73,7 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
         session.timeout = 600  # 10 minutes
 
         data = {
-            "model": "llama3.3:70b",
+            "model": "gemma3:27b",
             "messages": [{
                 "role": "user",
                 "content": prompt
@@ -280,7 +280,7 @@ def main():
 
     for i in range(5):
         output_md_folder = f"folders/regenerated_md_{i+1}"
-        output_xml_folder = f"folders/regenerated_xml{i+1}"
+        output_xml_folder = f"folders/regenerated_xml_{i+1}"
         print(f"\n=== Pipeline iteration {i+1} ===")
         try:
             results = processor.full_pipeline(
