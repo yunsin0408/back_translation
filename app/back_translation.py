@@ -48,7 +48,7 @@ Guidelines for conversion:
 3. Restore all attributes that were mentioned in the markdown
 4. Preserve all text content exactly as shown
 5. Ensure the XML is well-formed and valid
-6. Use proper XML syntax with opening and closing tags
+6. Use proper XML syntax with matching opening and closing tags
 7. Include XML declaration if appropriate
 8. IMPORTANT: Include these specific schema references in the root element:
    xmlns:dc="http://www.purl.org/dc/elements/1.1/"
@@ -273,79 +273,24 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
             results['errors'].append(error_msg)
         
         return results
-    
-    def compare_xml_files(self, original_folder: str, regenerated_folder: str):
-        """Compare original XML files with regenerated ones."""
-        print("\n=== Comparing Original vs Regenerated XML Files ===")
-        
-        original_path = Path(original_folder)
-        regenerated_path = Path(regenerated_folder)
-        
-        original_files = {f.stem: f for f in original_path.glob("*.XML")}
-        regenerated_files = {f.stem.replace("_regenerated", ""): f for f in regenerated_path.glob("*_regenerated.XML")}
-        
-        for name in original_files.keys():
-            if name in regenerated_files:
-                try:
-                    # Read both files
-                    with open(original_files[name], 'r', encoding='utf-8') as f:
-                        original_content = f.read().strip()
-                    
-                    with open(regenerated_files[name], 'r', encoding='utf-8') as f:
-                        regenerated_content = f.read().strip()
-                    
-                    # Basic comparison
-                    if original_content == regenerated_content:
-                        print(f"✓ {name}.XML: Identical")
-                    else:
-                        # Parse both to compare structure
-                        try:
-                            orig_root = etree.fromstring(original_content.encode("utf-8"))
-                            regen_root = etree.fromstring(regenerated_content.encode("utf-8"))
-                            
-                            if orig_root.tag == regen_root.tag:
-                                print(f"~ {name}.XML: Different content but same root element")
-                            else:
-                                print(f"⚠ {name}.XML: Different structure")
-                        except:
-                            print(f"✗ {name}.XML: Cannot compare (parsing error)")
-                
-                except Exception as e:
-                    print(f"✗ {name}.XML: Error comparing - {str(e)}")
-            else:
-                print(f"✗ {name}.XML: No regenerated version found")
 
 def main():
     
     processor = XMLToMarkdownToXMLProcessor()
-    
-    # Define folders
     input_xml_folder = os.getenv("INPUT_XML_FOLDER")
-    output_md_folder = "folders/generated_markdown6"
-    output_xml_folder = "folders/regenerated_xmls6"
-    
-    
-    # full pipeline
-    try:
-        results = processor.full_pipeline(
-            input_xml_folder=input_xml_folder,
-            output_md_folder=output_md_folder,
-            output_xml_folder=output_xml_folder
-        )
-        
-        # Optional: Compare original vs regenerated files
-        if results['xml_regenerated'] > 0:
-            processor.compare_xml_files(input_xml_folder, output_xml_folder)
-            
-    except Exception as e:
-        print(f"Pipeline failed: {e}")
-        
-    # Run individual steps
-    # Step 1 only: XML to Markdown
-    #md_files = processor.process_xml_folder_to_markdown(input_xml_folder, output_md_folder)
-    
-    # Step 2 only: Markdown to XML 
-    #xml_files = processor.process_markdown_folder_to_xml(output_md_folder, output_xml_folder)
+
+    for i in range(5):
+        output_md_folder = f"folders/regenerated_md_{i+1}"
+        output_xml_folder = f"folders/regenerated_xml{i+1}"
+        print(f"\n=== Pipeline iteration {i+1} ===")
+        try:
+            results = processor.full_pipeline(
+                input_xml_folder=input_xml_folder,
+                output_md_folder=output_md_folder,
+                output_xml_folder=output_xml_folder
+            )
+        except Exception as e:
+            print(f"Pipeline failed in iteration {i+1}: {e}")
 
 if __name__ == "__main__": 
     main()
