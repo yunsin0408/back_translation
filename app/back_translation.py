@@ -116,161 +116,112 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
         
         return xml_content.strip()
     
-    def process_xml_folder_to_markdown(self, input_folder: str, output_folder: str) -> List[Path]:
+    def process_xml_folder_to_markdown(self, input_folder: str, output_folder: str, loop_num: int) -> List[Path]:
         input_path = Path(input_folder)
         output_path = Path(output_folder)
-        
-        # Create output directory
         output_path.mkdir(parents=True, exist_ok=True)
-        
         xml_files = list(input_path.glob("*.XML"))
-        
         if not xml_files:
             print(f"No XML files found in {input_folder}")
             return []
-        
         converted_files = []
-        
         print(f"Converting {len(xml_files)} XML files to Markdown using LLM...")
-        
         for xml_file in xml_files:
             try:
-                # Skip if markdown already exists
-                md_filename = xml_file.stem + ".md"
+                md_filename = f"{xml_file.stem}_{loop_num}.md"
                 md_filepath = output_path / md_filename
                 if md_filepath.exists():
                     print(f"~ Skipping {xml_file.name}: {md_filename} already exists")
                     continue
-                # Read XML file
                 with open(xml_file, 'r', encoding='utf-8') as f:
                     xml_content = f.read()
-                
                 print(f"Processing {xml_file.name} -> Markdown...")
-                
-                # Convert XML to Markdown 
                 markdown_content = self.process_xml_to_markdown(xml_content, xml_file.name)
-                
-                # Save md file
                 with open(md_filepath, 'w', encoding='utf-8') as f:
                     f.write(markdown_content)
-                
                 converted_files.append(md_filepath)
                 print(f"✓ Saved: {md_filename}")
-                
             except Exception as e:
                 print(f"✗ Error converting {xml_file.name}: {str(e)}")
-        
         return converted_files
     
-    def process_markdown_folder_to_xml(self, markdown_folder: str, output_folder: str) -> List[Path]:
+    def process_markdown_folder_to_xml(self, markdown_folder: str, output_folder: str, loop_num: int) -> List[Path]:
         if not markdown_folder or not output_folder:
             raise ValueError("markdown_folder and output_folder must be non-empty strings.")
         md_path = Path(markdown_folder)
         output_path = Path(output_folder)
-        
-        # Create output directory
         output_path.mkdir(parents=True, exist_ok=True)
-        
-        md_files = list(md_path.glob("*.md"))
-        
+        md_files = list(md_path.glob(f"*_{loop_num}.md"))
         if not md_files:
             print(f"No markdown files found in {markdown_folder}")
             return []
-        
         converted_files = []
-        
         print(f"Converting {len(md_files)} Markdown files back to XML using LLM...")
-        
         for md_file in md_files:
             try:
-                # Skip if regenerated XML already exists
-                xml_filename = md_file.stem + "_regenerated.XML"
+                xml_filename = f"{md_file.stem}_{loop_num}_regenerated.XML"
                 xml_filepath = output_path / xml_filename
                 if xml_filepath.exists():
                     print(f"~ Skipping {md_file.name}: {xml_filename} already exists")
                     continue
-                # Read markdown file
                 with open(md_file, 'r', encoding='utf-8') as f:
                     markdown_content = f.read()
-                # Extract original filename (remove .md extension)
-                original_filename = md_file.stem + ".XML"
-                
+                original_filename = md_file.stem.rsplit('_', 1)[0] + ".XML"
                 print(f"Processing {md_file.name} -> XML...")
-                
-                # Convert Markdown to XML using LLM
                 xml_content = self.process_markdown_to_xml(markdown_content, original_filename)
-                
-                # Validate the generated XML
                 from validator import validate_xml
                 is_valid, validation_msg = validate_xml(xml_content)
                 if is_valid:
                     print(f"✓ Generated valid XML")
                 else:
                     print(f"⚠ Warning: {validation_msg}")
-                
-                # Save XML file
                 with open(xml_filepath, 'w', encoding='utf-8') as f:
                     f.write(xml_content)
-                
                 converted_files.append(xml_filepath)
                 print(f"✓ Saved: {xml_filename}")
-                
             except Exception as e:
                 print(f"✗ Error converting {md_file.name}: {str(e)}")
-        
         return converted_files
     
     def full_pipeline(self, input_xml_folder: str, output_md_folder: str, 
-                     output_xml_folder: str) -> dict:
+                     output_xml_folder: str, loop_num: int) -> dict:
         """
         Run complete pipeline: XML files -> LLM (generate MD) -> LLM (generate XML back).
         
         Returns a dictionary with information about the processed files.
         """
         print("=== XML → LLM  → Markdown → LLM → XML Pipeline ===\n")
-        
         results = {
             'original_xml_count': 0,
             'markdown_generated': 0,
             'xml_regenerated': 0,
             'errors': []
         }
-        
-        # Count original XML files
         xml_files = list(Path(input_xml_folder).glob("*.XML"))
         results['original_xml_count'] = len(xml_files)
-        
         if not xml_files:
             print(f"No XML files found in {input_xml_folder}")
             return results
-        
         try:
-            # Step 1: Convert XML files to Markdown using LLM
             print("Step 1: Converting XML files to Markdown using LLM...")
-            md_files = self.process_xml_folder_to_markdown(input_xml_folder, output_md_folder)
+            md_files = self.process_xml_folder_to_markdown(input_xml_folder, output_md_folder, loop_num)
             results['markdown_generated'] = len(md_files)
             print(f"Generated {len(md_files)} markdown files.\n")
-            
             if not md_files:
                 print("No markdown files generated. Pipeline stopped.")
                 return results
-            
-            # Step 2: Convert Markdown files back to XML using LLM
             print("Step 2: Converting Markdown files back to XML using LLM...")
-            xml_files = self.process_markdown_folder_to_xml(output_md_folder, output_xml_folder)
+            xml_files = self.process_markdown_folder_to_xml(output_md_folder, output_xml_folder, loop_num)
             results['xml_regenerated'] = len(xml_files)
             print(f"Generated {len(xml_files)} XML files.\n")
-            
             print("=== Pipeline Complete ===")
             print(f"Original XML files: {results['original_xml_count']}")
             print(f"Markdown files generated: {results['markdown_generated']}")
             print(f"XML files regenerated: {results['xml_regenerated']}")
-            
         except Exception as e:
             error_msg = f"Pipeline failed: {str(e)}"
             print(error_msg)
             results['errors'].append(error_msg)
-        
         return results
 
 def main():
@@ -278,18 +229,19 @@ def main():
     processor = XMLToMarkdownToXMLProcessor()
     input_xml_folder = os.getenv("INPUT_XML_FOLDER")
 
-    for i in range(5):
-        output_md_folder = f"folders/regenerated_md_{i+1}"
-        output_xml_folder = f"folders/regenerated_xml_{i+1}"
-        print(f"\n=== Pipeline iteration {i+1} ===")
+    for i in range(1, 6):
+        output_md_folder = f"folders/regenerated_md_{i}"
+        output_xml_folder = f"folders/regenerated_xml_{i}"
+        print(f"\n=== Pipeline iteration {i} ===")
         try:
             results = processor.full_pipeline(
                 input_xml_folder=input_xml_folder,
                 output_md_folder=output_md_folder,
-                output_xml_folder=output_xml_folder
+                output_xml_folder=output_xml_folder,
+                loop_num=i
             )
         except Exception as e:
-            print(f"Pipeline failed in iteration {i+1}: {e}")
+            print(f"Pipeline failed in iteration {i}: {e}")
 
 if __name__ == "__main__": 
     main()
