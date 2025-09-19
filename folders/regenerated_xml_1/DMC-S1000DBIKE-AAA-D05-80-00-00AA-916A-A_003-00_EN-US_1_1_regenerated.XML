@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Maintenance Planning Document</title>
+  <section>
+    <title>Overview</title>
+    <paragraph>This document details the maintenance planning for a system, including maintenance allocations, tools lists, and remarks.</paragraph>
+  </section>
+  <section>
+    <title>Maintenance Allocation</title>
+    <section>
+      <title>System Maintenance</title>
+      <paragraph>This section outlines the maintenance schedule and tasks for the system.</paragraph>
+      <section>
+        <title>Allocation Group 1: Brakes</title>
+        <paragraph>This group encompasses maintenance tasks related to the brake system.</paragraph>
+        <attribute>
+          <name>Group Number</name>
+          <value>1005</value>
+        </attribute>
+        <attribute>
+          <name>Component Assembly</name>
+          <value>Brakes - Pads</value>
+        </attribute>
+        <attribute>
+          <name>Skill Level</name>
+          <value>sk01</value>
+        </attribute>
+        <table>
+          <header>
+            <cell>Maintenance Function</cell>
+            <cell>Maintenance Level</cell>
+          </header>
+          <row>
+            <cell>ft01</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft02</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft03</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft04</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft05</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft07</cell>
+            <cell>0.8</cell>
+          </row>
+          <row>
+            <cell>ft08</cell>
+            <cell>0.8</cell>
+          </row>
+        </table>
+      </section>
+      <section>
+        <title>Allocation Group 2: Brakes - Cables</title>
+        <attribute>
+          <name>Group Number</name>
+          <value>1005</value>
+        </attribute>
+        <attribute>
+          <name>Component Assembly</name>
+          <value>Brakes - Cables</value>
+        </attribute>
+        <attribute>
+          <name>Skill Level</name>
+          <value>sk02</value>
+        </attribute>
+        <table>
+          <header>
+            <cell>Maintenance Function</cell>
+            <cell>Maintenance Level</cell>
+          </header>
+          <row>
+            <cell>ft01</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft02</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft03</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft04</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft05</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft07</cell>
+            <cell>0.8</cell>
+          </row>
+          <row>
+            <cell>ft08</cell>
+            <cell>0.8</cell>
+          </row>
+        </table>
+      </section>
+      <section>
+        <title>Allocation Group 3: Brakes - Disks</title>
+        <attribute>
+          <name>Group Number</name>
+          <value>1005</value>
+        </attribute>
+        <attribute>
+          <name>Component Assembly</name>
+          <value>Brakes - Disks</value>
+        </attribute>
+        <attribute>
+          <name>Skill Level</name>
+          <value>sk02</value>
+        </attribute>
+        <table>
+          <header>
+            <cell>Maintenance Function</cell>
+            <cell>Maintenance Level</cell>
+          </header>
+          <row>
+            <cell>ft01</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft02</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft03</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft04</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft05</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft07</cell>
+            <cell>0.8</cell>
+          </row>
+          <row>
+            <cell>ft08</cell>
+            <cell>0.8</cell>
+          </row>
+        </table>
+      </section>
+      <section>
+        <title>Allocation Group 4: Brakes - Calipers</title>
+        <attribute>
+          <name>Group Number</name>
+          <value>1005</value>
+        </attribute>
+        <attribute>
+          <name>Component Assembly</name>
+          <value>Brakes - Calipers</value>
+        </attribute>
+        <attribute>
+          <name>Skill Level</name>
+          <value>sk02</value>
+        </attribute>
+        <table>
+          <header>
+            <cell>Maintenance Function</cell>
+            <cell>Maintenance Level</cell>
+          </header>
+          <row>
+            <cell>ft01</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft02</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft03</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft04</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft05</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft07</cell>
+            <cell>0.8</cell>
+          </row>
+          <row>
+            <cell>ft08</cell>
+            <cell>0.8</cell>
+          </row>
+        </table>
+      </section>
+      <section>
+        <title>Allocation Group 5: Brakes - Pads</title>
+        <attribute>
+          <name>Group Number</name>
+          <value>1005</value>
+        </attribute>
+        <attribute>
+          <name>Component Assembly</name>
+          <value>Brakes - Pads</value>
+        </attribute>
+        <attribute>
+          <name>Skill Level</name>
+          <value>sk01</value>
+        </attribute>
+        <table>
+          <header>
+            <cell>Maintenance Function</cell>
+            <cell>Maintenance Level</cell>
+          </header>
+          <row>
+            <cell>ft01</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft02</cell>
+            <cell>0.2</cell>
+          </row>
+          <row>
+            <cell>ft03</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft04</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft05</cell>
+            <cell>0.3</cell>
+          </row>
+          <row>
+            <cell>ft07</cell>
+            <cell>0.8</cell>
+          </row>
+          <row>
+            <cell>ft08</cell>
+            <cell>0.8</cell>
+          </row>
+        </table>
+      </section>
+    </section>
+  </section>
+  <section>
+    <title>Tools List</title>
+    <section>
+      <title>Maintenance Tools</title>
+      <table>
+        <header>
+          <cell>Tools List Code</cell>
+          <cell>Maintenance Level</cell>
+          <cell>Name</cell>
+          <cell>NATO Stock Number</cell>
+          <cell>Tool Ref ID</cell>
+        </header>
+        <row>
+          <cell>TL01</cell>
+          <cell>ml01</cell>
+          <cell>Specialist Toolset</cell>
+          <cell>SPEC-00001 (4920-99-123-4567)</cell>
+          <cell>TL01</cell>
+        </row>
+        <row>
+          <cell>TL02</cell>
+          <cell>ml01</cell>
+          <cell>Wrench Set</cell>
+          <cell>4920-99-123-4568</cell>
+          <cell>TL02</cell>
+        </row>
+        <row>
+          <cell>TL03</cell>
+          <cell>ml02</cell>
+          <cell>Screwdriver Set</cell>
+          <cell>4920-99-123-4569</cell>
+          <cell>TL03</cell>
+        </row>
+      </table>
+    </section>
+  </section>
+  <section>
+    <title>Remarks</title>
+    <paragraph>This document contains maintenance procedures for aircraft brakes.</paragraph>
+  </section>
+</procedure>

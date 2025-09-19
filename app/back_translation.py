@@ -159,7 +159,7 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
         print(f"Converting {len(md_files)} Markdown files back to XML using LLM...")
         for md_file in md_files:
             try:
-                xml_filename = f"{md_file.stem}_{loop_num}_regenerated.XML"
+                xml_filename = f"{md_file.stem}_regenerated.XML"
                 xml_filepath = output_path / xml_filename
                 if xml_filepath.exists():
                     print(f"~ Skipping {md_file.name}: {xml_filename} already exists")

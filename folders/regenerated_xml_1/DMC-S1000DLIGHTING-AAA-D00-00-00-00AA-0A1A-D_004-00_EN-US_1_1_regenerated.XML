@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Content xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <ContentMeta>
+    <Title>Functional Physical Area Repository</Title>
+  </ContentMeta>
+  <ContentBody>
+    <Section>
+      <Heading>Functional Physical Area Repository</Heading>
+      <Paragraph>This document outlines the functional physical area repository, detailing various components and their hierarchical relationships. Each entry represents a specific area or component within a larger system.</Paragraph>
+    </Section>
+    <Table>
+      <TableHeader>
+        <Cell>ID</Cell>
+        <Cell>System</Cell>
+        <Cell>Subsystem</Cell>
+        <Cell>Sub-Subsystem</Cell>
+        <Cell>Name</Cell>
+        <Cell>Description</Cell>
+      </TableHeader>
+      <TableRow>
+        <Cell>sns-001</Cell>
+        <Cell>DA1</Cell>
+        <Cell>0</Cell>
+        <Cell>0</Cell>
+        <Cell>Stem</Cell>
+        <Cell>Stem - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-002</Cell>
+        <Cell>DA1</Cell>
+        <Cell>0</Cell>
+        <Cell>0</Cell>
+        <Cell>Handlebars</Cell>
+        <Cell>Handlebars - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-003</Cell>
+        <Cell>DA1</Cell>
+        <Cell>0</Cell>
+        <Cell>0</Cell>
+        <Cell>Grips</Cell>
+        <Cell>Grips - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-004</Cell>
+        <Cell>DA1</Cell>
+        <Cell>1</Cell>
+        <Cell>0</Cell>
+        <Cell>Seatpost</Cell>
+        <Cell>Seatpost - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-005</Cell>
+        <Cell>DA1</Cell>
+        <Cell>1</Cell>
+        <Cell>0</Cell>
+        <Cell>Saddle</Cell>
+        <Cell>Saddle - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-006</Cell>
+        <Cell>DA1</Cell>
+        <Cell>2</Cell>
+        <Cell>0</Cell>
+        <Cell>Pedals</Cell>
+        <Cell>Pedals - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-007</Cell>
+        <Cell>DA1</Cell>
+        <Cell>2</Cell>
+        <Cell>0</Cell>
+        <Cell>Crankset</Cell>
+        <Cell>Crankset - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-008</Cell>
+        <Cell>DA1</Cell>
+        <Cell>3</Cell>
+        <Cell>0</Cell>
+        <Cell>Front Derailleur</Cell>
+        <Cell>Front Derailleur - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-009</Cell>
+        <Cell>DA1</Cell>
+        <Cell>3</Cell>
+        <Cell>0</Cell>
+        <Cell>Rear Derailleur</Cell>
+        <Cell>Rear Derailleur - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-010</Cell>
+        <Cell>DA1</Cell>
+        <Cell>4</Cell>
+        <Cell>0</Cell>
+        <Cell>Cassette</Cell>
+        <Cell>Cassette - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-011</Cell>
+        <Cell>DA1</Cell>
+        <Cell>4</Cell>
+        <Cell>0</Cell>
+        <Cell>Chain</Cell>
+        <Cell>Chain - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-012</Cell>
+        <Cell>DA1</Cell>
+        <Cell>5</Cell>
+        <Cell>0</Cell>
+        <Cell>Brake Levers</Cell>
+        <Cell>Brake Levers - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-013</Cell>
+        <Cell>DA1</Cell>
+        <Cell>5</Cell>
+        <Cell>0</Cell>
+        <Cell>Brake Calipers</Cell>
+        <Cell>Brake Calipers - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-014</Cell>
+        <Cell>DA2</Cell>
+        <Cell>0</Cell>
+        <Cell>0</Cell>
+        <Cell>Frame</Cell>
+        <Cell>Frame - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-015</Cell>
+        <Cell>DA2</Cell>
+        <Cell>1</Cell>
+        <Cell>0</Cell>
+        <Cell>Fork</Cell>
+        <Cell>Fork - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-016</Cell>
+        <Cell>DA2</Cell>
+        <Cell>2</Cell>
+        <Cell>0</Cell>
+        <Cell>Wheels</Cell>
+        <Cell>Wheels - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-017</Cell>
+        <Cell>DA2</Cell>
+        <Cell>3</Cell>
+        <Cell>0</Cell>
+        <Cell>Tires</Cell>
+        <Cell>Tires - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-018</Cell>
+        <Cell>DA3</Cell>
+        <Cell>0</Cell>
+        <Cell>0</Cell>
+        <Cell>Bottom Bracket</Cell>
+        <Cell>Bottom Bracket - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-019</Cell>
+        <Cell>DA3</Cell>
+        <Cell>1</Cell>
+        <Cell>0</Cell>
+        <Cell>Headset</Cell>
+        <Cell>Headset - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-020</Cell>
+        <Cell>DA3</Cell>
+        <Cell>2</Cell>
+        <Cell>0</Cell>
+        <Cell>Pedals</Cell>
+        <Cell>Pedals - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-021</Cell>
+        <Cell>DA3</Cell>
+        <Cell>3</Cell>
+        <Cell>0</Cell>
+        <Cell>Chain</Cell>
+        <Cell>Chain - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-022</Cell>
+        <Cell>DA4</Cell>
+        <Cell>0</Cell>
+        <Cell>0</Cell>
+        <Cell>Brakes</Cell>
+        <Cell>Brakes - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-023</Cell>
+        <Cell>DA4</Cell>
+        <Cell>1</Cell>
+        <Cell>0</Cell>
+        <Cell>Shifters</Cell>
+        <Cell>Shifters - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-024</Cell>
+        <Cell>DA4</Cell>
+        <Cell>2</Cell>
+        <Cell>0</Cell>
+        <Cell>Derailleurs</Cell>
+        <Cell>Derailleurs - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-025</Cell>
+        <Cell>DA4</Cell>
+        <Cell>3</Cell>
+        <Cell>0</Cell>
+        <Cell>Cassette</Cell>
+        <Cell>Cassette - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-026</Cell>
+        <Cell>DA5</Cell>
+        <Cell>0</Cell>
+        <Cell>0</Cell>
+        <Cell>Handlebars</Cell>
+        <Cell>Handlebars - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-027</Cell>
+        <Cell>DA5</Cell>
+        <Cell>1</Cell>
+        <Cell>0</Cell>
+        <Cell>Stem</Cell>
+        <Cell>Stem - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-028</Cell>
+        <Cell>DA5</Cell>
+        <Cell>2</Cell>
+        <Cell>0</Cell>
+        <Cell>Grips</Cell>
+        <Cell>Grips - General</Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>sns-029</Cell>
+        <Cell>DA5</Cell>
+        <Cell>3</Cell>
+        <Cell>0</Cell>
+        <Cell>Saddle</Cell>
+        <Cell>Saddle - General</Cell>
+      </TableRow>
+    </Table>
+    <Paragraph>Note: This table represents a comprehensive list of components, categorized by system and subsystem. The "General" designation indicates the base component without further specialization.</Paragraph>
+  </ContentBody>
+</Content>

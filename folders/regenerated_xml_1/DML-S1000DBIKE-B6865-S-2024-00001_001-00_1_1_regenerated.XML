@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>Technical Documentation - Bike Maintenance &amp; Troubleshooting</procTitle>
+  <applicability>This document details maintenance procedures and troubleshooting information for a bicycle, based on a structured data set.  Each section corresponds to a system or component.</applicability>
+  <section id="DA1">
+    <sectionTitle>1. Headset &amp; Steering (System DA1)</sectionTitle>
+    <procedure>
+      <component>Headset</component>
+      <procedureIssue>Installation</procedureIssue>
+      <issueNumber>008</issueNumber>
+      <status>Open</status>
+    </procedure>
+  </section>
+  <section id="DA2">
+    <sectionTitle>2. Braking System (System DA2)</sectionTitle>
+    <procedure>
+      <component>Brake Pads</component>
+      <procedureIssue>Replace</procedureIssue>
+      <issueNumber>011</issueNumber>
+      <status>Open</status>
+    </procedure>
+  </section>
+  <section id="DA4">
+    <sectionTitle>3. Drivetrain - Chain (System DA4)</sectionTitle>
+    <procedure>
+      <component>Chain</component>
+      <procedureIssue>Oil</procedureIssue>
+      <issueNumber>011</issueNumber>
+      <date>2024-06-19</date>
+    </procedure>
+    <procedure>
+      <procedureIssue>Clean with chemical agent</procedureIssue>
+      <issueNumber>010</issueNumber>
+      <variant>Use chain cleaning fluid</variant>
+      <date>2024-06-19</date>
+    </procedure>
+    <procedure>
+      <procedureIssue>Correlated fault</procedureIssue>
+      <issueNumber>008</issueNumber>
+      <date>2024-06-19</date>
+    </procedure>
+  </section>
+  <section id="DA5">
+    <sectionTitle>4. Drivetrain - Gears (System DA5)</sectionTitle>
+    <procedure>
+      <component>Gears</component>
+      <procedureIssue>Description of how it is made</procedureIssue>
+      <issueNumber>010</issueNumber>
+      <date>2024-06-19</date>
+    </procedure>
+    <procedure>
+      <component>Mechs</component>
+      <procedureIssue>Description of how it is made</procedureIssue>
+      <issueNumber>010</issueNumber>
+      <date>2024-06-19</date>
+    </procedure>
+    <procedure>
+      <component>Hubs</component>
+      <procedureIssue>Clean with chemical agent</procedureIssue>
+      <variant>Use degreasing agent</variant>
+      <issueNumber>011</issueNumber>
+      <date>2024-06-19</date>
+    </procedure>
+    <procedure>
+      <component>Shifters</component>
+      <procedureIssue>Description of how it is made</procedureIssue>
+      <issueNumber>010</issueNumber>
+      <date>2024-06-19</date>
+    </procedure>
+  </section>
+  <section id="DA5_Continued">
+    <sectionTitle>5. Wheels &amp; Tires (System DA5 - continued)</sectionTitle>
+    <procedure>
+      <component>Hubs (Also listed under Drivetrain)</component>
+      <procedureIssue>Clean with chemical agent</procedureIssue>
+      <variant>Use degreasing agent</variant>
+      <issueNumber>011</issueNumber>
+      <date>2024-06-19</date>
+    </procedure>
+  </section>
+  <section id="DA1_DA2_General">
+    <sectionTitle>6. General / Undefined Systems (Systems DA1, DA2)</sectionTitle>
+    <procedure>
+      <system>DA1 - Headset &amp; Steering</system>
+      <component>Headset</component>
+      <procedureIssue>Installation</procedureIssue>
+      <issueNumber>008</issueNumber>
+    </procedure>
+    <procedure>
+      <system>DA2 - Braking</system>
+      <component>Brake Pads</component>
+      <procedureIssue>Replace</procedureIssue>
+      <issueNumber>011</issueNumber>
+    </procedure>
+  </section>
+  <notes>
+    * This documentation is structured by system/component.
+    * Issue numbers can indicate the severity or priority of the task.
+    * Dates indicate when the procedure/troubleshooting information was last updated.
+    * Some components are listed in multiple systems as they may belong to both.
+  </notes>
+</proced>

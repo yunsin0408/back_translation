@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Cleaning Procedure</title>
+  <content>
+    <section>
+      <title>Introduction</title>
+      <paragraph>This document outlines the procedure for cleaning a bicycle, ensuring optimal maintenance and performance.</paragraph>
+    </section>
+    <section>
+      <title>Prerequisites</title>
+      <list type="bullet">
+        <listItem>
+          <title>Tools &amp; Materials:</title>
+          <list type="bullet">
+            <listItem>Water hose</listItem>
+            <listItem>Brush (for scrubbing)</listItem>
+            <listItem>Sponge</listItem>
+            <listItem>Screwdriver (small blade)</listItem>
+            <listItem>Detergent (various types depending on application - see Supplies section)</listItem>
+            <listItem>Lubricant (refer to Data Module for specific lubricant information)</listItem>
+          </list>
+        </listItem>
+        <listItem>
+          <title>Safety Precautions:</title>
+          <list type="bullet">
+            <listItem>Avoid getting detergents into your eyes. If contact occurs, flush immediately with clean, warm water.</listItem>
+            <listItem>Do not use a high-pressure water hose, as it may damage bicycle components.</listItem>
+            <listItem>Avoid directing the water hose directly at the hub or bottom bracket bearings.</listItem>
+            <listItem>Apply detergents in accordance with the container instructions. Incorrect application may damage the bicycle paint.</listItem>
+          </list>
+        </listItem>
+      </list>
+    </section>
+    <section>
+      <title>Supplies</title>
+      <list type="bullet">
+        <listItem>
+          <title>Detergent 1:</title>
+          <paragraph>(General cleaning, used with application 002)</paragraph>
+        </listItem>
+        <listItem>
+          <title>Detergent 2:</title>
+          <paragraph>(Specific to application 001)</paragraph>
+        </listItem>
+        <listItem>
+          <title>Detergent 3:</title>
+          <paragraph>(Specific to application 001)</paragraph>
+        </listItem>
+      </list>
+    </section>
+    <section>
+      <title>Procedure</title>
+      <subsection>
+        <title>1. Initial Cleaning</title>
+        <numberedList>
+          <listItem>Rinse the bicycle with water to remove loose dirt and debris. Refer to Figure 1 for visual guidance.</listItem>
+          <listItem>Use a brush to scrub hard-to-reach areas like shift levers, tires, and brakes.</listItem>
+        </numberedList>
+        <figure>
+          <title>Figure 1: Cleaning the Bike</title>
+          <image xlink:href="ICN-C0419-S1000D0359-001-01"/>
+        </figure>
+      </subsection>
+      <subsection>
+        <title>2. Grime Removal</title>
+        <numberedList>
+          <listItem>Use a small blade screwdriver to remove caked grime from the chain and sprockets.</listItem>
+          <listItem>Brush the following parts to remove grease:</listItem>
+          <list type="bullet">
+            <listItem>Sprockets</listItem>
+            <listItem>Guide and tension wheels of the derailleur</listItem>
+            <listItem>Chain ring teeth</listItem>
+          </list>
+          <listItem>Flush the sprockets, derailleurs, chain rings, and chain with water. Repeat if necessary.</listItem>
+        </numberedList>
+      </subsection>
+      <subsection>
+        <title>3. Degreasing (Freehub)</title>
+        <numberedList>
+          <listItem>Refer to Figure 2 for guidance on degreasing the freehub.</listItem>
+        </numberedList>
+        <figure>
+          <title>Figure 2: Degreasing the Freehub</title>
+          <image xlink:href="ICN-C0419-S1000D0400-001-01"/>
+        </figure>
+      </subsection>
+      <subsection>
+        <title>4. Washing (Application-Specific)</title>
+        <paragraph>Note: The following steps vary based on bicycle application.</paragraph>
+        <subsection>
+          <title>Application 002:</title>
+          <numberedList>
+            <listItem>Soak a sponge in Detergent 2 and water.</listItem>
+            <listItem>Clean the bicycle with the soaked sponge.</listItem>
+            <listItem>Flush the bicycle to remove detergent residue.</listItem>
+            <listItem>Move the bicycle up and down on its tires to remove excess water.</listItem>
+          </numberedList>
+        </subsection>
+        <subsection>
+          <title>Application 001:</title>
+          <numberedList>
+            <listItem>Soak a sponge in Detergent 3 and water.</listItem>
+            <listItem>Clean the bicycle with the soaked sponge.</listItem>
+            <listItem>Soak a sponge in Detergent 2 and water.</listItem>
+            <listItem>Clean the bicycle with the soaked sponge.</listItem>
+            <listItem>Flush the bicycle to remove detergent residue.</listItem>
+            <listItem>Move the bicycle up and down on its tires to remove excess water.</listItem>
+          </numberedList>
+        </subsection>
+      </subsection>
+      <subsection>
+        <title>5. Lubrication</title>
+        <paragraph>Refer to the Data Module (S1000DBIKE, System DA4, etc.) for specific lubricant recommendations.</paragraph>
+      </subsection>
+    </section>
+    <section>
+      <title>Completion Requirements</title>
+      <paragraph>Ensure the bicycle is completely dry before storage or use.</paragraph>
+    </section>
+    <section>
+      <title>Data Module Reference</title>
+      <paragraph>Data Module: [S1000DBIKE, System DA4, etc. - Refer to document for details]</paragraph>
+    </section>
+  </content>
+</proced>

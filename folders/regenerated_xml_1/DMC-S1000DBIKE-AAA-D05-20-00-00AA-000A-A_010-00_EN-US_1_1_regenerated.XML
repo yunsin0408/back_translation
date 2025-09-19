@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Maintenance Planning Document</title>
+  <content>
+    <paragraph>This document outlines the maintenance planning for a bicycle, detailing various tasks and their associated requirements.</paragraph>
+    <heading level="2">Overview</heading>
+    <paragraph>The document defines a series of maintenance tasks, each with specific prerequisites, resource needs, and inspection criteria.  Tasks vary in complexity and required skill level.</paragraph>
+    <heading level="2">Maintenance Tasks</heading>
+    <heading level="3">1. Post-Ride Inspection (Task ID: 001)</heading>
+    <list type="bullet">
+      <listItem>
+        <property name="Worthiness Limit">Recommended</property>
+      </listItem>
+      <listItem>
+        <property name="Applicability Reference">app-MK1-9</property>
+      </listItem>
+      <listItem>
+        <property name="Description">A routine inspection performed after each ride to identify immediate issues.</property>
+      </listItem>
+      <listItem>
+        <property name="Prerequisites">None</property>
+      </listItem>
+      <listItem>
+        <property name="Resources">
+          <list type="bullet">
+            <listItem>
+              <property name="Personnel">1 Operator (estimated time: 0.1 hours)</property>
+            </listItem>
+            <listItem>
+              <property name="Equipment">None</property>
+            </listItem>
+          </list>
+        </property>
+      </listItem>
+      <listItem>
+        <property name="Inspection Criteria">Visual check for damage or wear.</property>
+      </listItem>
+      <listItem>
+        <property name="Trigger">After each ride.</property>
+      </listItem>
+    </list>
+    <heading level="3">2. Tire Pressure Check (Task ID: 002)</heading>
+    <list type="bullet">
+      <listItem>
+        <property name="Worthiness Limit">Recommended</property>
+      </listItem>
+      <listItem>
+        <property name="Applicability Reference">app-MK1-9</property>
+      </listItem>
+      <listItem>
+        <property name="Description">Checking and adjusting tire pressure.</property>
+      </listItem>
+      <listItem>
+        <property name="Prerequisites">None</property>
+      </listItem>
+      <listItem>
+        <property name="Resources">
+          <list type="bullet">
+            <listItem>
+              <property name="Personnel">1 Operator (estimated time: 0.1 hours)</property>
+            </listItem>
+            <listItem>
+              <property name="Equipment">Tire pressure gauge, pump.</property>
+            </listItem>
+          </list>
+        </property>
+      </listItem>
+      <listItem>
+        <property name="Inspection Criteria">Tire pressure within recommended range.</property>
+      </listItem>
+      <listItem>
+        <property name="Trigger">Weekly or before each longer ride.</property>
+      </listItem>
+    </list>
+    <heading level="3">3. Brake System Check (Task ID: 003)</heading>
+    <list type="bullet">
+      <listItem>
+        <property name="Worthiness Limit">Recommended</property>
+      </listItem>
+      <listItem>
+        <property name="Applicability Reference">app-MK1-9</property>
+      </listItem>
+      <listItem>
+        <property name="Description">Inspecting brake pads, cables, and levers for wear or damage.</property>
+      </listItem>
+      <listItem>
+        <property name="Prerequisites">None</property>
+      </listItem>
+      <listItem>
+        <property name="Resources">
+          <list type="bullet">
+            <listItem>
+              <property name="Personnel">1 Operator (estimated time: 0.2 hours)</property>
+            </listItem>
+            <listItem>
+              <property name="Equipment">None</property>
+            </listItem>
+          </list>
+        </property>
+      </listItem>
+      <listItem>
+        <property name="Inspection Criteria">Proper brake function and pad thickness.</property>
+      </listItem>
+      <listItem>
+        <property name="Trigger">Weekly or before each ride.</property>
+      </listItem>
+    </list>
+    <heading level="3">4. Chain Lubrication (Task ID: 004)</heading>
+    <list type="bullet">
+      <listItem>
+        <property name="Worthiness Limit">Recommended</property>
+      </listItem>
+      <listItem>
+        <property name="Applicability Reference">app-MK1-9</property>
+      </listItem>
+      <listItem>
+        <property name="Description">Applying lubricant to the chain for smooth operation.</property>
+      </listItem>
+      <listItem>
+        <property name="Prerequisites">None</property>
+      </listItem>
+      <listItem>
+        <property name="Resources">
+          <list type="bullet">
+            <listItem>
+              <property name="Personnel">1 Operator (estimated time: 0.1 hours)</property>
+            </listItem>
+            <listItem>
+              <property name="Equipment">Lubricant, rag.</property>
+            </listItem>
+          </list>
+        </property>
+      </listItem>
+      <listItem>
+        <property name="Inspection Criteria">Chain visibly lubricated.</property>
+      </listItem>
+      <listItem>
+        <property name="Trigger">As needed, based on riding conditions.</property>
+      </listItem>
+    </list>
+    <heading level="3">5. Hub Bearing Cleaning (Task ID: 005)</heading>
+    <list type="bullet">
+      <listItem>
+        <property name="Worthiness Limit">Recommended</property>
+      </listItem>
+      <listItem>
+        <property name="Applicability Reference">app-MK1-9</property>
+      </listItem>
+      <listItem>
+        <property name="Description">Cleaning the hub bearings.</property>
+      </listItem>
+      <listItem>
+        <property name="Prerequisites">Rear wheel removed (referenced DM Code: S1000DBIKE, system DA0, sub-system 2)</property>
+      </listItem>
+      <listItem>
+        <property name="Resources">
+          <list type="bullet">
+            <listItem>
+              <property name="Personnel">1 Supervisor (skill level sk03, estimated time: 0.8 hours), 1 Operator (estimated time: 0.3 hours)</property>
+            </listItem>
+            <listItem>
+              <property name="Equipment">Specialist toolset</property>
+            </listItem>
+            <listItem>
+              <property name="Supplies">Degreasing agent, general grease</property>
+            </listItem>
+          </list>
+        </property>
+      </listItem>
+      <listItem>
+        <property name="Inspection Criteria">Smooth bearing rotation.</property>
+      </listItem>
+      <listItem>
+        <property name="Trigger">Every 6 months or after excessive exposure to water/dirt.</property>
+      </listItem>
+      <listItem>
+        <property name="External Requirement">Referenced external publication: D6-1234, "My Publication", January 2007, Rev 1.</property>
+      </listItem>
+    </list>
+    <heading level="2">Key Considerations</heading>
+    <list type="bullet">
+      <listItem>
+        <property name="Skill Levels">Tasks require varying levels of skill, from basic operator tasks to those requiring a qualified supervisor/mechanic.</property>
+      </listItem>
+      <listItem>
+        <property name="External References">Some tasks reference external documents or DM codes for more detailed information.</property>
+      </listItem>
+      <listItem>
+        <property name="Inspection Triggers">Each task has a defined trigger for when it should be performed.</property>
+      </listItem>
+      <listItem>
+        <property name="Applicability">The `applicabilityReference` (app-MK1-9) likely refers to a higher-level document defining the scope and context of this maintenance plan.</property>
+      </listItem>
+      <listItem>
+        <property name="Thresholds and Limits">Tasks like Hub Bearing Cleaning have defined thresholds (e.g., 6 months) and limits for inspection.</property>
+      </listItem>
+    </list>
+  </content>
+</proced>

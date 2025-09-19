@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Pre-Ride Check - Crew Procedure</title>
+  <introduction>
+    <par>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</par>
+  </introduction>
+  <step>
+    <title>Crew Procedure Steps</title>
+    <substep>
+      <title>1. Brakes</title>
+      <check>Inspect brake pads for wear.</check>
+      <check>Ensure brake levers operate smoothly.</check>
+      <check>Verify cable integrity (no cuts or fraying).</check>
+      <check>Confirm proper brake function - both front and rear.</check>
+    </substep>
+    <substep>
+      <title>2. Tires</title>
+      <check>Tire pressure (see table below for recommended ranges).</check>
+      <check>Inspect tires for cracks, splits, or embedded objects.</check>
+      <table name="Tire Pressure Guide">
+        <header>
+          <cell>Terrain</cell>
+          <cell>Minimum Pressure</cell>
+          <cell>Maximum Pressure</cell>
+        </header>
+        <row>
+          <cell>Off Road</cell>
+          <cell>35 lbs</cell>
+          <cell>40 lbs</cell>
+        </row>
+        <row>
+          <cell>On Road</cell>
+          <cell>55 lbs</cell>
+          <cell>60 lbs</cell>
+        </row>
+      </table>
+    </substep>
+    <substep>
+      <title>3. Wheels</title>
+      <check>Spin wheels to verify smooth rotation.</check>
+      <check>Listen for unusual noises indicating bearing issues.</check>
+      <check>Inspect spokes for breakage.</check>
+      <check>Ensure spokes are tight.</check>
+      <check>Confirm axle nuts are securely tightened.</check>
+      <check>Confirm wheel is 'true' (not wobbling).</check>
+    </substep>
+    <substep>
+      <title>4. Headset</title>
+      <check>Ensure headset bearings are tight and smooth.</check>
+    </substep>
+    <substep>
+      <title>5. Chain</title>
+      <check>Verify easy movement of chain links.</check>
+    </substep>
+    <substep>
+      <title>6. Handlebar &amp; Stem</title>
+      <warning>Do *not* ride with a cracked stem.</warning>
+      <if>
+        <condition>Stem Cracked</condition>
+        <action>Replace stem immediately.</action>
+      </if>
+      <if>
+        <condition>Stem Loose</condition>
+        <action>Tighten stem.</action>
+      </if>
+      <if>
+        <condition>Handlebars Twist</condition>
+        <action>Tighten clamp bolt.</action>
+      </if>
+    </substep>
+    <substep>
+      <title>7. Computer Display</title>
+      <check>Ensure the computer is displaying accurate information (example):</check>
+      <table name="Computer Display">
+        <header>
+          <cell>Component</cell>
+          <cell>Displayed Value</cell>
+        </header>
+        <row>
+          <cell>Speed</cell>
+          <cell>0 mph</cell>
+        </row>
+        <row>
+          <cell>Distance</cell>
+          <cell>0 miles</cell>
+        </row>
+      </table>
+    </substep>
+  </step>
+  <notes>
+    <par>This procedure is a guideline; adapt it based on specific bicycle types and rider needs.</par>
+    <par>Regular maintenance and inspection are crucial for safety and performance.</par>
+    <par>Always prioritize safety; if unsure about any component, seek professional assistance.</par>
+  </notes>
+</procedure>
