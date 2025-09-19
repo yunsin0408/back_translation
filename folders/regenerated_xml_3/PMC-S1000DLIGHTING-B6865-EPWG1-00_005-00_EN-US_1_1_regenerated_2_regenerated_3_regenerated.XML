@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmEntry xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>PMC-S1000DLIGHTING-B6865-EPWG1-00_005-00_EN-US_1_1</title>
+  <content>
+    <paragraph>This document represents the content of a product manual (PM) derived from the provided XML file. It details various references to components and their configurations.</paragraph>
+    <heading level="2">dmRef References</heading>
+    <paragraph>The document contains multiple `dmRef` (Data Management Reference) elements, providing context for specific configurations.</paragraph>
+    <list type="bullet">
+      <listItem>
+        <dmRef>
+          <infoCode>341</infoCode>
+          <issueNumber>010</issueNumber>
+          <itemLocationCode>A</itemLocationCode>
+          <applicability>app-001</applicability>
+        </dmRef>
+      </listItem>
+      <listItem>
+        <dmRef>
+          <infoCode>413</infoCode>
+          <issueNumber>010</issueNumber>
+          <itemLocationCode>A</itemLocationCode>
+          <applicability>app-002</applicability>
+        </dmRef>
+      </listItem>
+      <listItem>
+        <dmRef>
+          <infoCode>0A1</infoCode>
+          <issueNumber>004</issueNumber>
+          <itemLocationCode>D</itemLocationCode>
+          <applicability>app-003</applicability>
+        </dmRef>
+      </listItem>
+      <listItem>
+        <dmRef>
+          <infoCode>0A2</infoCode>
+          <issueNumber>004</issueNumber>
+          <itemLocationCode>D</itemLocationCode>
+          <applicability>app-004</applicability>
+        </dmRef>
+      </listItem>
+    </list>
+    <heading level="2">Content</heading>
+    <heading level="3">Heading: Content</heading>
+    <paragraph>This document outlines the content of a product manual. It details various references to components and their configurations.</paragraph>
+    <heading level="3">Heading: Referenced Applicables (Applications)</heading>
+    <list type="bullet">
+      <listItem>app-001: (Multiple references throughout - appears to be a common default)</listItem>
+      <listItem>app-002: (Frequently referenced, likely a core component set)</listItem>
+      <listItem>app-003: (Several references, potentially a supplemental or optional component)</listItem>
+      <listItem>app-004: (Limited references, possibly a specialized component)</listItem>
+    </list>
+    <heading level="3">Heading: Detailed Content Breakdown</heading>
+    <paragraph>The content is structured around a single `pmEntry`. This entry contains a series of `dmRef` (Data Management References) which link to specific configurations of a product identified by `S1000DLIGHTING`.</paragraph>
+    <heading level="3">Heading: pmEntry Details</heading>
+    <list type="bullet">
+      <listItem>The `pmEntry` covers a broad range of configurations, indicated by the variety of `infoCode` values.</listItem>
+      <listItem>`disassyCode` values (00, 01, 02) suggest different assemblies or sub-assemblies.</listItem>
+      <listItem>`itemLocationCode` values (A, D) likely denote physical locations/installations within the product.</listItem>
+      <listItem>`issueNumber` indicates revisions or versions of the documentation/configurations.</listItem>
+      <listItem>`language` is consistently `en` (English) with `countryCode` of `US`.</listItem>
+    </list>
+    <heading level="3">Heading: dmRef Examples (Illustrative - not exhaustive)</heading>
+    <heading level="3">Heading: Key Observations</heading>
+    <list type="bullet">
+      <listItem>The documentation appears to be relatively comprehensive, covering a wide range of configurations.</listItem>
+      <listItem>The use of `infoCode`, `disassyCode`, and `itemLocationCode` provides a granular level of control and configuration management.</listItem>
+      <listItem>The consistent use of language and country code suggests a standardized documentation process.</listItem>
+      <listItem>The high number of `dmRef` entries indicates a complex product with many possible variations.</listItem>
+    </list>
+    <paragraph>This structure enables detailed tracking and management of product configurations throughout the lifecycle.</paragraph>
+  </content>
+</pmEntry>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>
+    <dmId>DMC-S1000DBIKE-AAA-DA0-20-00-00AA-412A-A_010-00_EN-US</dmId>
+  </dmTitle>
+  <dmBody>
+    <section id="DM Head">
+      <listItem>
+        <dmId>DMC-S1000DBIKE-AAA-DA0-20-00-00AA-412A-A_010-00_EN-US</dmId>
+      </listItem>
+    </section>
+    <section id="Issue Info">
+      <listItem>
+        <issueNumber>010</issueNumber>
+      </listItem>
+      <listItem>
+        <inWork>00</inWork>
+      </listItem>
+      <listItem>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+      </listItem>
+    </section>
+    <section id="DM Title">
+      <listItem>
+        <techName>Rear wheel</techName>
+      </listItem>
+      <listItem>
+        <infoName>Detected fault</infoName>
+      </listItem>
+    </section>
+    <section id="Section 1: Ident and Status Section">
+      <subsection id="Subsection 1.1: DM Address">
+        <listItem>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+        </listItem>
+        <listItem>
+          <systemDiffCode>AAA</systemDiffCode>
+        </listItem>
+        <listItem>
+          <systemCode>DA0</systemCode>
+        </listItem>
+        <listItem>
+          <subSystemCode>2</subSystemCode>
+        </listItem>
+        <listItem>
+          <subSubSystemCode>0</subSubSystemCode>
+        </listItem>
+        <listItem>
+          <assyCode>00</assyCode>
+        </listItem>
+        <listItem>
+          <disassyCode>00</disassyCode>
+        </listItem>
+        <listItem>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+        </listItem>
+        <listItem>
+          <infoCode>412</infoCode>
+        </listItem>
+        <listItem>
+          <infoCodeVariant>A</infoCodeVariant>
+        </listItem>
+        <listItem>
+          <itemLocationCode>A</itemLocationCode>
+        </listItem>
+      </subsection>
+      <subsection id="Subsection 1.2: DM Status">
+        <listItem>
+          <issueType>changed</issueType>
+        </listItem>
+        <listItem>
+          <security>
+            <securityClassification>01</securityClassification>
+            <commercialClassification>cc51</commercialClassification>
+            <caveat>cv51</caveat>
+          </security>
+        </listItem>
+        <listItem>
+          <dataRestrictions>
+            <restrictionInstructions>
+              <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+              <exportControl>
+                <exportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStatement>
+              </exportControl>
+              <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+              <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+              <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+              <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+              <publishers>
+                <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+                <publisher>Aerospace Industries Association of America</publisher>
+                <publisher>ATA e-Business Program</publisher>
+              </publishers>
+              <limitationsOfLiability>
+                <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+                <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+                <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+                <copyrightDetails>The details for copyright can be found in the S1000D Specification.</copyrightDetails>
+                <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+                <dataConditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConditions>
+              </limitationsOfLiability>
+            </restrictionInfo>
+          </dataRestrictions>
+        </listItem>
+      </subsection>
+    </section>
+    <section id="Section 2: Responsible Partner Company">
+      <listItem>
+        <enterpriseCode>B6865</enterpriseCode>
+      </listItem>
+      <listItem>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </listItem>
+    </section>
+    <section id="Section 3: Originator">
+      <listItem>
+        <enterpriseCode>B6865</enterpriseCode>
+      </listItem>
+      <listItem>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </listItem>
+    </section>
+    <section id="Section 4: Applic Cross-Reference Table Ref">
+      <listItem>
+        <dmCode>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>00W</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>D</itemLocationCode>
+        </dmCode>
+      </listItem>
+    </section>
+    <section id="Section 5: Applic">
+      <listItem>
+        <displayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</displayText>
+      </listItem>
+      <listItem>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>type</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mountain bicycle</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </listItem>
+      <listItem>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>model</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mountain storm</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>version</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mk1</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </listItem>
+      <listItem>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>model</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Brook trekker</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>version</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mk9</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </listItem>
+    </section>
+    <section id="Section 6: Tech Order">
+      <listItem>
+        <task>
+          <taskIdent>001</taskIdent>
+          <taskTitle>Perform inspection</taskTitle>
+        </task>
+      </listItem>
+    </section>
+    <section id="Section 7: Fault/Defect Details">
+      <listItem>
+        <lru>
+          <lruId>12345</lruId>
+          <lruName>Wheel Assembly</lruName>
+        </lru>
+      </listItem>
+      <listItem>
+        <defect>
+          <defectId>67890</defectId>
+          <defectDescription>Spoke broken</defectDescription>
+        </defect>
+      </listItem>
+    </section>
+    <section id="Section 8: Repair Instructions">
+      <listItem>
+        <step>
+          <stepNumber>1</stepNumber>
+          <stepDescription>Remove wheel from aircraft.</stepDescription>
+        </step>
+      </listItem>
+      <listItem>
+        <step>
+          <stepNumber>2</stepNumber>
+          <stepDescription>Replace broken spoke.</stepDescription>
+        </step>
+      </listItem>
+      <listItem>
+        <step>
+          <stepNumber>3</stepNumber>
+          <stepDescription>Reinstall wheel on aircraft.</stepDescription>
+        </step>
+      </listItem>
+    </section>
+  </dmBody>
+</dm>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_1 xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <DMIdentification>
+    <dmTitle>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_1</dmTitle>
+  </DMIdentification>
+  <DMObjectRequirement>
+    <dmTitle>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_1</dmTitle>
+  </DMObjectRequirement>
+  <DMContent>
+    <DMApplicability>
+      <dmAddress>
+        <dmIdent>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>029</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>A</itemLocationCode>
+        </dmIdent>
+      </dmAddress>
+      <dmLanguage>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </dmLanguage>
+      <dmIssueInfo>
+        <issueNumber>010</issueNumber>
+        <inWork>0</inWork>
+      </dmIssueInfo>
+    </DMApplicability>
+    <DMIssue>
+      <issueDate>2019-01-28</issueDate>
+    </DMIssue>
+    <DMStatus>
+      <status>Released</status>
+    </DMStatus>
+    <DMConfigurationManagement>
+      <status>Not applicable</status>
+    </DMConfigurationManagement>
+    <DMRelatedDocuments>
+      <status>Not applicable</status>
+    </DMRelatedDocuments>
+    <DMContent>
+      <DMWiringFields>
+        <descrWire>(Empty)</descrWire>
+        <dmTable>
+          <Field Name>Field Name</Field Name>
+          <Description>Description of the field. (Repeated for each field)</Description>
+          <Field Name>Wire</Field Name>
+          <Description>Contains the sequential number of the wire, e.g. in the harness.</Description>
+          <Field Name>Harness ident</Field Name>
+          <Description>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</Description>
+          <Field Name>Wire sequential number</Field Name>
+          <Description>Contains the sequential number of the wire, e.g. in the harness.</Description>
+          <Field Name>Wire information circuit code</Field Name>
+          <Description>Contains the identifier of the circuit to which the wire belongs.</Description>
+          <Field Name>Wire information wire section identification</Field Name>
+          <Description>Contains the identifier of the section to which the wire belongs.</Description>
+          <Field Name>Length</Field Name>
+          <Description>Length identifies the length of the wire. The given value is approximately 10% higher than necessary to install the wire on the bicycle.</Description>
+          <Field Name>Color</Field Name>
+          <Description>Color identifies the color of the wire sheating.</Description>
+          <Field Name>Twisting</Field Name>
+          <Description>Twistig identifies wires, which are twisted together with a unique identifier.</Description>
+          <Field Name>Electric ident</Field Name>
+          <Description>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</Description>
+          <Field Name>Contact</Field Name>
+          <Description>Contact identifies the electrical contact to which the wire is connected.</Description>
+          <Field Name>Group code</Field Name>
+          <Description>Identifies wires, which are connected to the same terminal lug.</Description>
+          <Field Name>Screens</Field Name>
+          <Description>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</Description>
+          <Field Name>Responsible partner company</Field Name>
+          <Description>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</Description>
+          <Field Name>Feed-through</Field Name>
+          <Description>Identifies bunges through which the wire is routed.</Description>
+          <Field Name>Next higher assembly</Field Name>
+          <Description>Identifies the next higher assenbly, in which the wire is installed.</Description>
+        </dmTable>
+      </DMWiringFields>
+      <DMDescriptionHarness>
+        <descrHarness>(Empty)</descrHarness>
+        <dmTable>
+          <Field Name>Field Name</Field Name>
+          <Description>Description of the field. (Repeated for each field)</Description>
+          <Field Name>Harness ident</Field Name>
+          <Description>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</Description>
+          <Field Name>Harness Part number</Field Name>
+          <Description>Harness part number gives the part number of the harness identified by the harness ident.</Description>
+          <Field Name>Harness variant</Field Name>
+          <Description>Harness variant identifies the variant of the harness in addition to the harness part number.</Description>
+          <Field Name>Harness issue</Field Name>
+          <Description>Harness issue identifies the production variant of the harness in addition to the harness part number.</Description>
+          <Field Name>Harness nomenclature</Field Name>
+          <Description>Harness nomenclature identifies the harness by using a specific name.</Description>
+          <Field Name>Harness separation code</Field Name>
+          <Description>Harness separation code gives the separation code of the harness.</Description>
+          <Field Name>Minimum temperature</Field Name>
+          <Description>Minimum temperature gives the minimum environment temperature in which the harness can be used.</Description>
+          <Field Name>Maximum temperature</Field Name>
+          <Description>Maximum temperature gives the maximum environment temperature in which the harness can be used.</Description>
+          <Field Name>Harness environment</Field Name>
+          <Description>Harness environment indicates that a harness is used in high vibriation or/and hydraulic areas.</Description>
+          <Field Name>Sleeve</Field Name>
+          <Description>Gives the part number and/or the material of the sleeves used on the harness.</Description>
+          <Field Name>Responsible partner company</Field Name>
+          <Description>The responsible partner company indicates the company responsible for the integration of the harness to the bicycle.</Description>
+        </dmTable>
+      </DMDescriptionHarness>
+      <DMDescriptionElectricalEquip>
+        <descrElectricalEquip>(Empty)</descrElectricalEquip>
+        <dmTable>
+          <Field Name>Field Name</Field Name>
+          <Description>Description of the field. (Repeated for each field)</Description>
+          <Field Name>Electric ident</Field Name>
+          <Description>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</Description>
+          <Field Name>Contact</Field Name>
+          <Description>Contact identifies the electrical contact to which the wire is connected.</Description>
+          <Field Name>Group code</Field Name>
+          <Description>Identifies wires, which are connected to the same terminal lug.</Description>
+          <Field Name>Screens</Field Name>
+          <Description>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</Description>
+          <Field Name>Responsible partner company</Field Name>
+          <Description>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</Description>
+        </dmTable>
+      </DMDescriptionElectricalEquip>
+    </DMContent>
+  </DMContent>
+</DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_1>

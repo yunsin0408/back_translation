@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000D-H-04-10-0301-00A-022A-D_001-00_EN-US_1_1</title>
+  <content>
+    <para>This document outlines the rules governing data modules, extracted from the provided `dmodule` XML.</para>
+    <heading level="2">Context Rules - Structure Object Rule Groups</heading>
+    <para>The following rules are context-dependent and organized into rule groups.</para>
+    <heading level="3">Structure Object Rule Group</heading>
+    <para>This group defines permissible values for various attributes within the data module structure.</para>
+    <heading level="4">Attribute Definitions &amp; Permissible Values</heading>
+    <list>
+      <item>
+        <term>
+          <emphasis>`updateReasonType`</emphasis>
+        </term>
+        <definition>Defines the reason for updating the data module.</definition>
+        <sublist>
+          <item>
+            <term>`urt01`</term>
+            <definition>Editorial change (minor changes, technically insignificant).</definition>
+          </item>
+          <item>
+            <term>`urt02`</term>
+            <definition>Technical change (significant changes requiring review).</definition>
+          </item>
+          <item>
+            <term>`urt03`</term>
+            <definition>Markup change (changes related solely to XML markup).</definition>
+          </item>
+          <item>
+            <term>`urt04`</term>
+            <definition>Applicability change (only the applicability has changed).</definition>
+          </item>
+          <item>
+            <term>`urt05`</term>
+            <definition>Unique identifier of the referencing structure has changed.</definition>
+          </item>
+          <item>
+            <term>`urt51-urt99`</term>
+            <definition>Reserved for project/organization-specific values.</definition>
+          </item>
+        </sublist>
+      </item>
+      <item>
+        <term>
+          <emphasis>`verbatimStyle`</emphasis>
+        </term>
+        <definition>Defines the style of verbatim text.</definition>
+        <sublist>
+          <item>
+            <term>`vs01`</term>
+            <definition>Generic verbatim.</definition>
+          </item>
+          <item>
+            <term>`vs02`</term>
+            <definition>Filename.</definition>
+          </item>
+          <item>
+            <term>`vs11`</term>
+            <definition>XML/SGML markup.</definition>
+          </item>
+          <item>
+            <term>`vs12`</term>
+            <definition>XML/SGML element name.</definition>
+          </item>
+          <item>
+            <term>`vs13`</term>
+            <definition>XML/SGML attribute name.</definition>
+          </item>
+          <item>
+            <term>`vs14`</term>
+            <definition>XML/SGML attribute value.</definition>
+          </item>
+          <item>
+            <term>`vs15`</term>
+            <definition>XML/SGML entity name.</definition>
+          </item>
+          <item>
+            <term>`vs16`</term>
+            <definition>XML/SGML processing instruction.</definition>
+          </item>
+          <item>
+            <term>`vs21`</term>
+            <definition>Program prompt.</definition>
+          </item>
+          <item>
+            <term>`vs22`</term>
+            <definition>User input.</definition>
+          </item>
+          <item>
+            <term>`vs23`</term>
+            <definition>Computer output.</definition>
+          </item>
+          <item>
+            <term>`vs24`</term>
+            <definition>Program listing.</definition>
+          </item>
+          <item>
+            <term>`vs25`</term>
+            <definition>Program variable name.</definition>
+          </item>
+          <item>
+            <term>`vs26`</term>
+            <definition>Program variable value.</definition>
+          </item>
+          <item>
+            <term>`vs27`</term>
+            <definition>Constant.</definition>
+          </item>
+          <item>
+            <term>`vs28`</term>
+            <definition>Class name.</definition>
+          </item>
+          <item>
+            <term>`vs29`</term>
+            <definition>Parameter name.</definition>
+          </item>
+          <item>
+            <term>`vs51-vs99`</term>
+            <definition>Reserved for project/organization-specific values.</definition>
+          </item>
+        </sublist>
+      </item>
+      <item>
+        <term>
+          <emphasis>`quantityUnitOfMeasure`</emphasis>
+        </term>
+        <definition>Defines the unit of measure for quantity data. Values within the range `um51-um99` can be allocated and defined by projects or organizations. (Refer to Table 2 in document section 3.9.6.2)</definition>
+      </item>
+    </list>
+    <heading level="2">Non-Context Rules</heading>
+    <para>These rules are not dependent on specific context within the data module.</para>
+    <heading level="3">Deletion of Data Modules</heading>
+    <para>Deletion of data modules is treated as a special case of update. The data module itself is not physically deleted but is marked as deleted. (Refer to document section 3.9.5.1, Para 2.2)</para>
+  </content>
+</proced>

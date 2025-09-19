@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmDocument xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>
+    <techName>Lighting</techName>
+    <infoName>Zones common information repository</infoName>
+  </dmTitle>
+  <identStatus>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>00H</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmIdent>
+      <language>
+        <languageIsoCode>en</languageIsoCode>
+        <countryIsoCode>US</countryIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>004</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+      <dmAddressItems>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>revised</issueType>
+      <qualityAssurance>
+        <firstVerification>tabtop</firstVerification>
+      </qualityAssurance>
+      <reasonForUpdate>
+        <id>rfu_general</id>
+        <updateReasonType>urt03</updateReasonType>
+        <simplePara>S1000D upissued</simplePara>
+      </reasonForUpdate>
+      <reasonForUpdate>
+        <id>RFU-CPF_2020-040EPWG</id>
+        <updateReasonType>urt01</updateReasonType>
+        <simplePara>CPF_2020-040EPWG Bike Enhancement with elements and attributes missing in the samples</simplePara>
+      </reasonForUpdate>
+    </dmStatus>
+  </identStatus>
+  <content>
+    <applicGroup>
+      <applic id="app-0001">
+        <displayText>
+          <simplePara>Mountain storm Mk1</simplePara>
+        </displayText>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>model</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mountain storm</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>version</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mk1</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>versrank</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>1~3</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </applic>
+      <applic id="app-0002">
+        <displayText>
+          <simplePara>Brook trekker Mk9</simplePara>
+        </displayText>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>model</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Brook trekker</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>version</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mk9</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>versrank</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>1~2</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </applic>
+      <applic id="app-0003">
+        <displayText>
+          <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+        </displayText>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>type</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mountain bicycle</applicPropertyValues>
+          </assert>
+          <evaluate>
+            <assert>
+              <applicPropertyIdent>model</applicPropertyIdent>
+              <applicPropertyType>prodattr</applicPropertyType>
+              <applicPropertyValues>Mountain storm</applicPropertyValues>
+            </assert>
+            <assert>
+              <applicPropertyIdent>version</applicPropertyIdent>
+              <applicPropertyType>prodattr</applicPropertyType>
+              <applicPropertyValues>Mk1</applicPropertyValues>
+            </assert>
+          </evaluate>
+          <evaluate>
+            <assert>
+              <applicPropertyIdent>model</applicPropertyIdent>
+              <applicPropertyType>prodattr</applicPropertyType>
+              <applicPropertyValues>Brook trekker</applicPropertyValues>
+            </assert>
+            <assert>
+              <applicPropertyIdent>version</applicPropertyIdent>
+              <applicPropertyType>prodattr</applicPropertyType>
+              <applicPropertyValues>Mk9</applicPropertyValues>
+            </assert>
+          </evaluate>
+        </evaluate>
+      </applic>
+    </applicGroup>
+    <commonRepository>
+      <zoneRepository>
+        <zone id="100">
+          <zoneType>majorzone</zoneType>
+          <zoneIdent>100</zoneIdent>
+          <zoneRefGroup>contains (110, 130)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0002">
+              <itemDescr>FRONT ZONE BEGINS BY FRONT TIRE. IT STARTS FROM LENGTH "0 cm" TO LENGTH "50 cm"</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="110">
+          <zoneType>subzone</zoneType>
+          <zoneIdent>110</zoneIdent>
+          <zoneRefGroup>belongsto (100)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0002">
+              <itemDescr>HANDLEBAR</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="130">
+          <zoneType>majorzone</zoneType>
+          <zoneIdent>130</zoneIdent>
+          <zoneRefGroup>contains (131, 132)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0002">
+              <itemDescr>REAR WHEEL</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="131">
+          <zoneType>subzone</zoneType>
+          <zoneIdent>131</zoneIdent>
+          <zoneRefGroup>belongsto (130)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0002">
+              <itemDescr/>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="132">
+          <zoneType>subzone</zoneType>
+          <zoneIdent>132</zoneIdent>
+          <zoneRefGroup>belongsto (130)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0002">
+              <itemDescr/>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="100">
+          <zoneType>majorzone</zoneType>
+          <zoneIdent>100</zoneIdent>
+          <zoneRefGroup/>
+          <zoneAlts>
+            <zone id="app-0002"/>
+          </zoneAlts>
+        </zone>
+      </zoneRepository>
+    </commonRepository>
+  </content>
+</dmDocument>

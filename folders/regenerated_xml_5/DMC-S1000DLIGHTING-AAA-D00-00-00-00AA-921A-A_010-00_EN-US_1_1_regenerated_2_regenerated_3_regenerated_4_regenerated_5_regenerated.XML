@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Light Replacement Procedure (DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_010-00_EN-US_1_1)</title>
+  <content>
+    <paragraph>This document details the procedure for replacing the front and rear lights on a bicycle, specifically involving the replacement of yellow bulbs with white bulbs and modification of the glass cover.</paragraph>
+    <heading level="1">1. Introduction</heading>
+    <paragraph>This document details the procedure for replacing the front and rear lights on a bicycle, specifically involving the replacement of yellow bulbs with white bulbs and modification of the glass cover.</paragraph>
+    <heading level="1">2. Safety Precautions</heading>
+    <paragraph>Refer to warning and caution references:</paragraph>
+    <list type="bullet">
+      <item>
+        <link id="c001"/>
+      </item>
+      <item>
+        <link id="c002"/>
+      </item>
+      <item>
+        <link id="w001"/>
+      </item>
+    </list>
+    <paragraph>for detailed safety information.</paragraph>
+    <heading level="1">3. Preliminary Requirements</heading>
+    <heading level="2">3.1 Locations</heading>
+    <table frame="header">
+      <row>
+        <cell id="ID">ID</cell>
+        <cell id="Description">Description</cell>
+      </row>
+      <row>
+        <cell id="wla-0001">wla-0001</cell>
+        <cell id="Front handlebar location.">Front handlebar location.</cell>
+      </row>
+      <row>
+        <cell id="wla-0002">wla-0002</cell>
+        <cell id="Rear saddle location.">Rear saddle location.</cell>
+      </row>
+    </table>
+    <heading level="2">3.2 Tools and Materials</heading>
+    <heading level="3">3.2.1 Tools</heading>
+    <table frame="header">
+      <row>
+        <cell id="ID">ID</cell>
+        <cell id="Name">Name</cell>
+        <cell id="Description">Description</cell>
+      </row>
+      <row>
+        <cell id="seq-0001">seq-0001</cell>
+        <cell id="Toolset">Toolset</cell>
+        <cell id="Special toolset containing a screwdriver (reference: seq-0001).">Special toolset containing a screwdriver (reference: seq-0001).</cell>
+      </row>
+      <row>
+        <cell id="seq-0002">seq-0002</cell>
+        <cell id="Screwdriver">Screwdriver</cell>
+        <cell id="Special screwdriver (reference: seq-0002) from the toolset.">Special screwdriver (reference: seq-0002) from the toolset.</cell>
+      </row>
+    </table>
+    <heading level="3">3.2.2 Materials</heading>
+    <table frame="header">
+      <row>
+        <cell id="ID">ID</cell>
+        <cell id="Name">Name</cell>
+        <cell id="Description">Description</cell>
+      </row>
+      <row>
+        <cell id="spa-0003">spa-0003</cell>
+        <cell id="Front Bulb (New)">Front Bulb (New)</cell>
+        <cell id="White bulb (reference: spa-0003).">White bulb (reference: spa-0003).</cell>
+      </row>
+      <row>
+        <cell id="spa-0004">spa-0004</cell>
+        <cell id="Rear Bulb (New)">Rear Bulb (New)</cell>
+        <cell id="White bulb (reference: spa-0004).">White bulb (reference: spa-0004).</cell>
+      </row>
+      <row>
+        <cell id="spa-0005">spa-0005</cell>
+        <cell id="Glass Cover">Glass Cover</cell>
+        <cell id="Glass (reference: spa-0005).">Glass (reference: spa-0005).</cell>
+      </row>
+      <row>
+        <cell id="spa-0007">spa-0007</cell>
+        <cell id="Modified Glass Cover">Modified Glass Cover</cell>
+        <cell id="Glass with vent hole (reference: spa-0007).">Glass with vent hole (reference: spa-0007).</cell>
+      </row>
+      <row>
+        <cell id="spa-0008">spa-0008</cell>
+        <cell id="Original Glass">Original Glass</cell>
+        <cell id="Original glass (reference: spa-0008) can be modified.">Original glass (reference: spa-0008) can be modified.</cell>
+      </row>
+      <row>
+        <cell id="spa-0002">spa-0002</cell>
+        <cell id="Bulb Kit">Bulb Kit</cell>
+        <cell id="Kit containing new bulbs (reference: spa-0002).">Kit containing new bulbs (reference: spa-0002).</cell>
+      </row>
+      <row>
+        <cell id="spa-0001">spa-0001</cell>
+        <cell id="Discarded Bulb">Discarded Bulb</cell>
+        <cell id="Yellow bulb (reference: spa-0001).">Yellow bulb (reference: spa-0001).</cell>
+      </row>
+    </table>
+    <heading level="1">4. Procedure</heading>
+    <heading level="2">4.1 Step 1: Front Light Replacement</heading>
+    <list type="numbered">
+      <item>From location <link id="wla-0001"/>, remove the glass cover <link id="spa-0005"/>.</item>
+      <item>Remove the used yellow front bulb <link id="spa-0001"/>.</item>
+      <item>Discard the used bulb <link id="spa-0001"/>.</item>
+      <item>Remove the new white bulb <link id="spa-0003"/> from the kit <link id="spa-0002"/>.</item>
+      <item>Install the new white bulb <link id="spa-0003"/>.</item>
+      <item>Install the glass cover <link id="spa-0005"/> on the light.</item>
+      <item>Attach the light fitting to the handlebar.</item>
+      <item>Apply the protective strip around the handlebar.</item>
+      <item>Install the washer on the screw.</item>
+      <item>Use the special screwdriver <link id="seq-0002"/> from the toolset <link id="seq-0001"/> and tighten the screw into the hole at the bottom of the clamp to secure it to the handlebar.</item>
+    </list>
+    <heading level="2">4.2 Step 2: Rear Light Replacement</heading>
+    <list type="numbered">
+      <item>From location <link id="wla-0002"/>, remove the glass cover <link id="spa-0005"/>.</item>
+      <item>Remove the used yellow rear bulb <link id="spa-0001"/>.</item>
+      <item>Discard the used bulb <link id="spa-0001"/>.</item>
+      <item>Remove the new white bulb <link id="spa-0004"/> from the kit <link id="spa-0002"/>.</item>
+      <item>Install the new white bulb <link id="spa-0004"/>.</item>
+      <item>Glass Modification (if applicable): Drill a 4mm hole in the middle of the glass cover <link id="spa-0008"/> to allow venting and heat evacuation. The modified glass cover is available as reference <link id="spa-0007"/>.</item>
+      <item>Install the modified (or unmodified) glass cover <link id="spa-0007"/> or <link id="spa-0008"/> on the light.</item>
+    </list>
+    <heading level="1">5. Closing Requirements</heading>
+    <paragraph>Verify functionality by switching the lights on if necessary.</paragraph>
+  </content>
+</procedure>

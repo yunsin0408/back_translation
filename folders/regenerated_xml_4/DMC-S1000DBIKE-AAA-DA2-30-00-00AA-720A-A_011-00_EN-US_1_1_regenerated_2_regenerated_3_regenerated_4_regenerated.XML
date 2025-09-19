@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmtitle>
+    <techname>Headset</techname>
+    <infoname>Install procedures</infoname>
+  </dmtitle>
+  <dmident>
+    <modelidentcode>S1000DBIKE</modelidentcode>
+    <systemdiffcode>AAA</systemdiffcode>
+    <systemcode>DA2</systemcode>
+    <subsystemcode>30</subsystemcode>
+    <subsubsystemcode>00</subsubsystemcode>
+    <assycode>00</assycode>
+    <disassycode>00</disassycode>
+    <disassycodevariant>AA</disassycodevariant>
+    <infocode>720</infocode>
+    <infocodevariant>A</infocodevariant>
+    <itemlocationcode>A</itemlocationcode>
+    <language>
+      <countryisocode>US</countryisocode>
+      <languageisocode>en</languageisocode>
+    </language>
+    <issueinfo>
+      <issuenumber>011</issuenumber>
+      <inwork>00</inwork>
+    </issueinfo>
+  </dmident>
+  <dmstatus>
+    <issuetype>changed</issuetype>
+    <security>
+      <securityclassification>01</securityclassification>
+      <commercialclassification>cc51</commercialclassification>
+      <caveat>cv51</caveat>
+    </security>
+    <datarestrictions>
+      <restrictioninstructions>
+        <datadistribution>(Empty)</datadistribution>
+        <datause>(Empty)</datause>
+      </restrictioninstructions>
+      <datasupport>(Empty)</datasupport>
+    </datarestrictions>
+    <qualityassurance>(Empty)</qualityassurance>
+    <systembreakdowncode>BY143</systembreakdowncode>
+    <skilllevel>sk02</skilllevel>
+    <reasonforupdate>
+      <id>rfu_general</id>
+      <updatereasontype>urt03</updatereasontype>
+      <simplepara>S1000D upissued</simplepara>
+    </reasonforupdate>
+  </dmstatus>
+  <procedure>
+    <step>
+      <title>Ident And Status Section</title>
+      <dmident>
+        <modelidentcode>S1000DBIKE</modelidentcode>
+        <systemdiffcode>AAA</systemdiffcode>
+        <systemcode>DA2</systemcode>
+        <subsystemcode>3</subsystemcode>
+        <subsubsystemcode>0</subsubsystemcode>
+        <assycode>00</assycode>
+        <disassycode>00</disassycode>
+        <disassycodevariant>AA</disassycodevariant>
+        <infocode>720</infocode>
+        <infocodevariant>A</infocodevariant>
+        <itemlocationcode>A</itemlocationcode>
+      </dmident>
+      <dmaddressitems>
+        <issuedate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issuedate>
+        <dmtitle>
+          <techname>Headset</techname>
+          <infoname>Install procedures</infoname>
+        </dmtitle>
+      </dmaddressitems>
+    </step>
+    <step>
+      <title>DM Status</title>
+      <issuetype>changed</issuetype>
+      <security>
+        <securityclassification>01</securityclassification>
+        <commercialclassification>cc51</commercialclassification>
+        <caveat>cv51</caveat>
+      </security>
+      <datarestrictions>
+        <restrictioninstructions>
+          <datadistribution>(Empty)</datadistribution>
+          <datause>(Empty)</datause>
+        </restrictioninstructions>
+        <datasupport>(Empty)</datasupport>
+      </datarestrictions>
+      <qualityassurance>(Empty)</qualityassurance>
+      <systembreakdowncode>BY143</systembreakdowncode>
+      <skilllevel>sk02</skilllevel>
+      <reasonforupdate>
+        <id>rfu_general</id>
+        <updatereasontype>urt03</updatereasontype>
+        <simplepara>S1000D upissued</simplepara>
+      </reasonforupdate>
+    </step>
+    <step>
+      <title>Content</title>
+      <step>
+        <title>References</title>
+        <modelidentcode>S1000DBIKE</modelidentcode>
+        <systemdiffcode>AAA</systemdiffcode>
+        <systemcode>DA2</systemcode>
+        <subsystemcode>1</subsystemcode>
+        <subsubsystemcode>0</subsubsystemcode>
+        <assycode>00</assycode>
+        <disassycode>00</disassycode>
+        <disassycodevariant>AA</disassycodevariant>
+        <infocode>720</infocode>
+        <infocodevariant>A</infocodevariant>
+        <itemlocationcode>A</itemlocationcode>
+      </step>
+      <step>
+        <title>Procedure</title>
+        <preliminaryrequirements>
+          <requiredconditions>
+            <simplepara>The bicycle is safely held on a work stand</simplepara>
+          </requiredconditions>
+          <requiredpersonnel>
+            <person>
+              <personcategory>Bike Rider</personcategory>
+              <personskill>sk02</personskill>
+              <trade>Operator</trade>
+              <estimatedtime>1.5 h</estimatedtime>
+            </person>
+          </requiredpersonnel>
+          <requiredsupportequipment>
+            <supportequipdescription>
+              <name>Work stand</name>
+              <identnumber>
+                <manufacturercode>Stand</manufacturercode>
+                <partandserialnumber>
+                  <partnumber>Stand-001</partnumber>
+                  <reqquantity>1 EA</reqquantity>
+                </partandserialnumber>
+              </identnumber>
+            </supportequipdescription>
+          </requiredsupportequipment>
+          <requiredsupplies>(Empty)</requiredsupplies>
+          <requiredspares>
+            <sparedescription spa-0001="">
+              <name>Frame fork</name>
+              <identnumber>
+                <manufacturercode>KZ555</manufacturercode>
+                <partandserialnumber>
+                  <partnumber>Stand-001</partnumber>
+                  <reqquantity>1 EA</reqquantity>
+                </partandserialnumber>
+              </identnumber>
+            </sparedescription>
+            <sparedescription spa-0002="">
+              <name>Frame fork</name>
+              <identnumber>
+                <manufacturercode>KZ555</manufacturercode>
+                <partandserialnumber>
+                  <partnumber>Stand-001</partnumber>
+                  <reqquantity>1 EA</reqquantity>
+                </partandserialnumber>
+              </identnumber>
+            </sparedescription>
+            <sparedescription spa-0003="">
+              <name>Frame fork</name>
+              <identnumber>
+                <manufacturercode>KZ555</manufacturercode>
+                <partandserialnumber>
+                  <partnumber>Stand-001</partnumber>
+                  <reqquantity>1 EA</reqquantity>
+                </partandserialnumber>
+              </identnumber>
+            </sparedescription>
+            <sparedescription spa-0004="">
+              <name>Frame fork</name>
+              <identnumber>
+                <manufacturercode>KZ555</manufacturercode>
+                <partandserialnumber>
+                  <partnumber>Stand-001</partnumber>
+                  <reqquantity>1 EA</reqquantity>
+                </partandserialnumber>
+              </identnumber>
+            </sparedescription>
+          </requiredspares>
+          <proceduresteps>
+            <step>
+              <stepnumber>1</stepnumber>
+              <instruction>Install the headset.</instruction>
+            </step>
+            <step>
+              <stepnumber>2</stepnumber>
+              <instruction>Tighten the bolts.</instruction>
+            </step>
+          </proceduresteps>
+        </preliminaryrequirements>
+      </step>
+    </step>
+    <step>
+      <title>Close</title>
+      <closingremarks>
+        <simplepara>The procedure is now complete.</simplepara>
+      </closingremarks>
+    </step>
+  </procedure>
+</proced>

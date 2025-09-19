@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_011-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated.XML</title>
+  <docnum>DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_011-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated.XML</docnum>
+  <contref>Document Overview</contref>
+  <p>This document represents the converted markdown from the provided XML file, detailing Bike DModule context and non-context rules.</p>
+  <contref>Document Description</contref>
+  <p>This document outlines the context and non-context rules defined within the provided DModule, detailing allowed values and project guidelines.</p>
+  <title>Context Rules</title>
+  <title>Structure Object Rule Groups</title>
+  <title>Rule Group: Limit Type (@limitUnitType)</title>
+  <list>
+    <item>
+      <rule_name>limitType (@limitUnitType)</rule_name>
+      <allowed_values>
+        <item>Time between overhaul</item>
+        <item>Hard time</item>
+        <item>Since last maintenance</item>
+        <item>Out time limit</item>
+        <item>On condition</item>
+        <item>Check maintenance</item>
+        <item>Functional check</item>
+      </allowed_values>
+    </item>
+  </list>
+  <title>Rule Group: Threshold (@thresholdUnitOfMeasure)</title>
+  <list>
+    <item>
+      <rule_name>threshold (@thresholdUnitOfMeasure)</rule_name>
+      <allowed_values>
+        <item>Months</item>
+        <item>Weeks</item>
+        <item>Years</item>
+        <item>Days</item>
+        <item>Shop visits</item>
+        <item>Auxiliary power unit change</item>
+        <item>Wheel change</item>
+        <item>Kilometer (lexical)</item>
+      </allowed_values>
+    </item>
+  </list>
+  <title>Rule Group: Source Type (@sourceTypeCode)</title>
+  <list>
+    <item>
+      <rule_name>sourceType (@sourceTypeCode)</rule_name>
+      <allowed_values>
+        <item>fec</item>
+        <item>sample</item>
+      </allowed_values>
+    </item>
+  </list>
+  <title>Rule Group: Source Criticality (@sourceCriticality)</title>
+  <list>
+    <item>
+      <rule_name>sourceType (@sourceCriticality)</rule_name>
+      <allowed_values>
+        <item>Evident, Safety</item>
+        <item>Evident, operational</item>
+        <item>Evident, Economic</item>
+        <item>Hidden, Safety</item>
+        <item>Hidden, Non-Safety</item>
+      </allowed_values>
+    </item>
+  </list>
+  <title>Rule Group: Verbatim Text (@verbatimStyle)</title>
+  <list>
+    <item>
+      <rule_name>verbatimText (@verbatimStyle)</rule_name>
+      <allowed_values>
+        <item>Generic verbatim</item>
+        <item>Filename</item>
+        <item>XML/SGML markup and related elements (element name, attribute name/value, entity name, processing instruction)</item>
+        <item>Program prompt, user input, output, listing, variable name/value, constant, class name, parameter name.</item>
+      </allowed_values>
+    </item>
+  </list>
+  <title>Notation Rules</title>
+  <title>Notation</title>
+  <notation_id>//-//S1000D//NOTATION X-SHOCKWAVE-FLASH 3D Models Encoding//EN</notation_id>
+  <notation_description>Flash animation is *not* allowed in this project.</notation_description>
+  <title>Non-Context Rules</title>
+  <title>Rule: BIKE-BR-00078</title>
+  <rule_id>BIKE-BR-00078</rule_id>
+  <rule_description>Bike data modules *must* be reviewed and approved by the EPWG (Engineering Publication Working Group) before publication.</rule_description>
+  <title>Rule: BIKE-BR-00079</title>
+  <rule_id>BIKE-BR-00079</rule_id>
+  <rule_description>The Bike data set *must* contain examples demonstrating the application of constructs and principles at various levels of conceptual sophistication.</rule_description>
+</proced>

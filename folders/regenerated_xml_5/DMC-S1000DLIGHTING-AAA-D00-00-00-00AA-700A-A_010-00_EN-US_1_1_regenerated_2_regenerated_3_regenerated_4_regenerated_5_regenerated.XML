@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_010-00_EN-US_1_1 - Lighting System Installation Procedure</procTitle>
+  <content>
+    <para>This document details the procedure for installing the lighting system on a bicycle.</para>
+    <sect>
+      <title>Applicability</title>
+      <list>
+        <listItem>Info: DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_010-00_EN-US_1_1</listItem>
+      </list>
+    </sect>
+    <sect>
+      <title>Introduction</title>
+      <para>This document details the procedure for installing the lighting system on a bicycle.</para>
+    </sect>
+    <sect>
+      <title>Preliminary Requirements</title>
+      <sect>
+        <title>Work Area</title>
+        <list>
+          <listItem>Impacted zones: Zone 200, Zone 300, and Zone 130.</listItem>
+        </list>
+      </sect>
+      <sect>
+        <title>Tools and Equipment</title>
+        <table>
+          <head>
+            <cell>Name</cell>
+            <cell>Part Number</cell>
+            <cell>Manufacturer</cell>
+            <cell>Quantity</cell>
+          </head>
+          <row>
+            <cell>Toolset</cell>
+            <cell>BSK-TLST-001</cell>
+            <cell>KZ666</cell>
+            <cell>1</cell>
+          </row>
+        </table>
+      </sect>
+      <sect>
+        <title>Prerequisites</title>
+        <list>
+          <listItem>Bike must be stationary.</listItem>
+        </list>
+      </sect>
+    </sect>
+    <sect>
+      <title>Procedure</title>
+      <sect>
+        <title>Step 1 - Unpacking &amp; Inspection</title>
+        <list>
+          <listItem>TitleText: Unpacking &amp; Inspection</listItem>
+          <listItem>Step: Remove the lighting system from its packaging.</listItem>
+          <listItem>Step: Verify that all components match the parts list in document [S1000DLIGHTING - Disassembly 01 - D].</listItem>
+        </list>
+      </sect>
+      <sect>
+        <title>Step 2 - Front Light Installation</title>
+        <list>
+          <listItem>TitleText: Front Light Installation</listItem>
+          <listItem>Step: Apply protective strip around the handlebar.</listItem>
+          <listItem>Step: Open the clamp and position it around the protective strip, ensuring the light connector is at the top.</listItem>
+          <listItem>Step: Install the washer on the screw.</listItem>
+          <listItem>Step: Tighten the screw into the hole at the bottom of the clamp using the correct screwdriver from the toolset.</listItem>
+        </list>
+      </sect>
+      <sect>
+        <title>Step 3 - Rear Light Installation</title>
+        <list>
+          <listItem>TitleText: Rear Light Installation</listItem>
+          <listItem>Step: Apply protective strip around one of the rear triangle up-tubes.</listItem>
+          <listItem>Step: Open the clamp and position it around the protective strip, ensuring the light connector points rearward.</listItem>
+          <listItem>Step: Install the washer on the screw.</listItem>
+          <listItem>Step: Tighten the screw into the hole at the bottom of the clamp using the correct screwdriver from the toolset.</listItem>
+        </list>
+      </sect>
+      <sect>
+        <title>Step 4 - Connecting Lights</title>
+        <list>
+          <listItem>TitleText: Connecting Lights</listItem>
+          <listItem>Step: Attach the light with the white glass to the front connector.</listItem>
+          <listItem>Step: Attach the light with the red glass to the rear connector.</listItem>
+        </list>
+      </sect>
+      <sect>
+        <title>Step 5 - Circuit Breaker Installation (Conditional)</title>
+        <list>
+          <listItem>TitleText: Circuit Breaker Installation (Conditional)</listItem>
+          <listItem>Note: Installation varies based on bike type.</listItem>
+        </list>
+        <sect>
+          <title>Condition: Mountain Bike (Storm type)</title>
+          <list>
+            <listItem>TitleText: Mountain Bike (Storm type)</listItem>
+            <listItem>Step: Install circuit breaker CBLGT-1001-R on the right handlebar using the clamping ring.</listItem>
+            <listItem>Step: Connect the circuit breaker electrical wire to the rear connector of the front light.</listItem>
+            <listItem>Step: Secure the wire to the frame using a protective strip.</listItem>
+          </list>
+        </sect>
+        <sect>
+          <title>Condition: Mountain Bike (Trekker type)</title>
+          <list>
+            <listItem>TitleText: Mountain Bike (Trekker type)</listItem>
+            <listItem>Step: Install circuit breaker CBLGT-1001-L on the left handlebar using the clamping ring.</listItem>
+            <listItem>Step: Connect the circuit breaker electrical wire to the rear connector of the front light.</listItem>
+            <listItem>Step: Secure the wire to the frame using a protective strip.</listItem>
+            <listItem>Xref: [figs-0001]</listItem>
+          </list>
+        </sect>
+      </sect>
+    </sect>
+    <sect>
+      <title>Figures</title>
+      <sect>
+        <title>Figure 1</title>
+        <list>
+          <listItem>TitleText: Circuit Breaker (Storm Type - Right Side)</listItem>
+          <listItem>Image: ICN-FAPE3-S1000D0101-001-01</listItem>
+        </list>
+      </sect>
+      <sect>
+        <title>Figure 2</title>
+        <list>
+          <listItem>TitleText: Circuit Breaker (Trekker Type - Left Side)</listItem>
+          <listItem>Image: ICN-FAPE3-S1000D0102-001-01</listItem>
+        </list>
+      </sect>
+    </sect>
+    <sect>
+      <title>Closing Requirements</title>
+      <list>
+        <listItem>Content: No specific conditions apply.</listItem>
+      </list>
+    </sect>
+  </content>
+</proced>

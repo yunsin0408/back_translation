@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DME-SF518-CE0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_1 - Bicycle Pre-Ride Check - Crew Procedure</title>
+  <content>
+    <paragraph>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</paragraph>
+    <heading level="1">1. Introduction</heading>
+    <paragraph>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</paragraph>
+    <heading level="1">2. Crew Procedure Steps</heading>
+    <heading level="2">2.1. 1. Brakes</heading>
+    <list type="bullet">
+      <item>Inspect brake pads for wear.</item>
+      <item>Ensure brake levers operate smoothly.</item>
+      <item>Verify cable integrity (no cuts or fraying).</item>
+      <item>Confirm proper brake function - both front and rear.</item>
+    </list>
+    <heading level="2">2.2. 2. Tires</heading>
+    <list type="bullet">
+      <item>Tire pressure (see table below for recommended ranges).</item>
+      <item>Inspect tires for cracks, splits, or embedded objects.</item>
+    </list>
+    <heading level="3">2.2.1. Tire Pressure Guide</heading>
+    <table frame="border">
+      <title>Tire Pressure Guide</title>
+      <column header="Terrain"/>
+      <column header="Minimum Pressure"/>
+      <column header="Maximum Pressure"/>
+      <row>
+        <cell>Off Road</cell>
+        <cell>35 lbs</cell>
+        <cell>40 lbs</cell>
+      </row>
+      <row>
+        <cell>On Road</cell>
+        <cell>55 lbs</cell>
+        <cell>60 lbs</cell>
+      </row>
+    </table>
+    <heading level="2">2.3. 3. Wheels</heading>
+    <list type="bullet">
+      <item>Spin wheels to verify smooth rotation.</item>
+      <item>Listen for unusual noises indicating bearing issues.</item>
+      <item>Inspect spokes for breakage.</item>
+      <item>Ensure spokes are tight.</item>
+      <item>Confirm axle nuts are securely tightened.</item>
+      <item>Confirm wheel is 'true' (not wobbling).</item>
+    </list>
+    <heading level="2">2.4. 4. Headset</heading>
+    <list type="bullet">
+      <item>Ensure headset bearings are tight and smooth.</item>
+    </list>
+    <heading level="2">2.5. 5. Chain</heading>
+    <list type="bullet">
+      <item>Verify easy movement of chain links.</item>
+    </list>
+    <heading level="2">2.6. 6. Handlebar &amp; Stem</heading>
+    <warning>Do *not* ride with a cracked stem.</warning>
+    <heading level="3">2.6.1. Conditional Actions</heading>
+    <list type="bullet">
+      <item><b>Stem Cracked:</b> Replace stem immediately.</item>
+      <item><b>Stem Loose:</b> Tighten stem.</item>
+      <item><b>Handlebars Twist:</b> Tighten clamp bolt.</item>
+    </list>
+    <heading level="2">2.7. 7. Computer Display</heading>
+    <paragraph>Ensure the computer is displaying accurate information (example):</paragraph>
+    <heading level="3">2.7.1. Computer Display</heading>
+    <table frame="border">
+      <title>Computer Display</title>
+      <column header="Component"/>
+      <column header="Displayed Value"/>
+      <row>
+        <cell>Speed</cell>
+        <cell>0 mph</cell>
+      </row>
+      <row>
+        <cell>Distance</cell>
+        <cell>0 miles</cell>
+      </row>
+    </table>
+    <heading level="1">Notes</heading>
+    <list type="bullet">
+      <item>This procedure is a guideline; adapt it based on specific bicycle types and rider needs.</item>
+      <item>Regular maintenance and inspection are crucial for safety and performance.</item>
+      <item>Always prioritize safety; if unsure about any component, seek professional assistance.</item>
+    </list>
+  </content>
+</procedure>

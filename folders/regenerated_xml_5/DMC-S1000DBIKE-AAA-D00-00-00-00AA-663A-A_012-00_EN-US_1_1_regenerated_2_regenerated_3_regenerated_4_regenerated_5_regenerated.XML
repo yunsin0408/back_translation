@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmProc xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>Rear Wheel Puncture Repair - Bicycle</dmTitle>
+  <dmIntroduction>This document details the procedure for repairing a puncture in the rear wheel of a bicycle.</dmIntroduction>
+  <dmApplicability>This document details the procedure for repairing a puncture in the rear wheel of a bicycle.</dmApplicability>
+  <dmPreliminaryRequirements>
+    <dmToolsEquipment>
+      <dmTable>
+        <dmTableHead>
+          <dmTableCell>Name</dmTableCell>
+          <dmTableCell>Quantity</dmTableCell>
+          <dmTableCell>Manufacturer Code</dmTableCell>
+          <dmTableCell>Part Number</dmTableCell>
+        </dmTableHead>
+        <dmTableRow>
+          <dmTableCell>Tire Lever</dmTableCell>
+          <dmTableCell>1</dmTableCell>
+          <dmTableCell>KZ666</dmTableCell>
+          <dmTableCell>BSK-TLST-001-04</dmTableCell>
+        </dmTableRow>
+        <dmTableRow>
+          <dmTableCell>Foot Pump</dmTableCell>
+          <dmTableCell>1</dmTableCell>
+          <dmTableCell>KZ666</dmTableCell>
+          <dmTableCell>BSK-TLST-001-05</dmTableCell>
+        </dmTableRow>
+        <dmTableRow>
+          <dmTableCell>Marker Pen</dmTableCell>
+          <dmTableCell>1</dmTableCell>
+          <dmTableCell>KZ666</dmTableCell>
+          <dmTableCell>BSK-TLST-001-07</dmTableCell>
+        </dmTableRow>
+        <dmTableRow>
+          <dmTableCell>Tube Patch Kit</dmTableCell>
+          <dmTableCell>1</dmTableCell>
+          <dmTableCell>KZ666</dmTableCell>
+          <dmTableCell>BSK-TLST-001-07</dmTableCell>
+        </dmTableRow>
+      </dmTable>
+    </dmToolsEquipment>
+    <dmSpares>
+      <dmTable>
+        <dmTableHead>
+          <dmTableCell>Name</dmTableCell>
+          <dmTableCell>Quantity</dmTableCell>
+          <dmTableCell>Manufacturer Code</dmTableCell>
+          <dmTableCell>Part Number</dmTableCell>
+        </dmTableHead>
+        <dmTableRow>
+          <dmTableCell>Inner Tube</dmTableCell>
+          <dmTableCell>1</dmTableCell>
+          <dmTableCell>KT222</dmTableCell>
+          <dmTableCell>IT-001</dmTableCell>
+        </dmTableRow>
+      </dmTable>
+    </dmSpares>
+    <dmSafetyPrecautions>When removing the rear wheel, disconnect the brake arm from the chain stay.</dmSafetyPrecautions>
+  </dmPreliminaryRequirements>
+  <dmProcedureSteps>
+    <dmStep>
+      <dmStepNumber>1</dmStepNumber>
+      <dmStepText>Remove the rear wheel. (Refer to &lt;dmRef modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0" subSystemCode="2" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="AA" infoCode="520" infoCodeVariant="A"/&gt;).</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>2</dmStepNumber>
+      <dmStepText>Ensure there is no air remaining in the tube.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>3</dmStepNumber>
+      <dmStepText>Loosen the cap on the valve stem.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>4</dmStepNumber>
+      <dmStepText>Push the valve stem core down to bleed all air.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>5</dmStepNumber>
+      <dmStepText>Use a tire lever to move the tire bead out of its seat, lifting it above the rim lip.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>6</dmStepNumber>
+      <dmStepText>Remove the tube.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>7</dmStepNumber>
+      <dmStepText>Inflate the tube slightly with the foot pump.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>8</dmStepNumber>
+      <dmStepText>Examine the tube for leaks.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>9</dmStepNumber>
+      <dmStepText>Identify any leaks with a circle drawn using the marker pen.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>10</dmStepNumber>
+      <dmStepText>Release most of the air from the tube.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>11</dmStepNumber>
+      <dmStepText>Use sandpaper from the tube patch kit to roughen the area around the puncture.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>12</dmStepNumber>
+      <dmStepText>Apply a thin layer of glue from the patch kit over the roughened area, ensuring it's larger than the puncture.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>13</dmStepNumber>
+      <dmStepText>Allow the glue to dry for approximately five minutes, until it becomes tacky and dull.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>14</dmStepNumber>
+      <dmStepText>Remove the protective foil from the patch.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>15</dmStepNumber>
+      <dmStepText>Apply the patch over the glue, centering it on the puncture.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>16</dmStepNumber>
+      <dmStepText>Press firmly from the center of the patch outwards, ensuring good adhesion.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>17</dmStepNumber>
+      <dmStepText>Remove the thin cover from the patch.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>18</dmStepNumber>
+      <dmStepText>Apply a light dusting of talcum powder around the patch.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>19</dmStepNumber>
+      <dmStepText>Slightly inflate the repaired tube with the foot pump.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>20</dmStepNumber>
+      <dmStepText>Starting at the valve stem, carefully install the tube between the tire and the rim.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>21</dmStepNumber>
+      <dmStepText>Push the valve stem through the hole in the rim, ensuring it is straight.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>22</dmStepNumber>
+      <dmStepText>Install the remaining portion of the tire onto the rim.</dmStepText>
+    </dmStep>
+    <dmStep>
+      <dmStepNumber>23</dmStepNumber>
+      <dmStepText>Reinstall the wheel onto the bicycle.</dmStepText>
+    </dmStep>
+  </dmProcedureSteps>
+  <dmClosingRequirements>None.</dmClosingRequirements>
+</dmProc>

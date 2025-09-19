@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-024A-D_003-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated.XML - Bike Business Rules Document</title>
+  <content>
+    <p>This document represents the converted markdown from the provided XML file, detailing business rules for the Bike project.</p>
+    <h2>Introduction</h2>
+    <p>This document outlines the business rules defined for the Bike project, based on the provided XML data.</p>
+    <h2>Content</h2>
+    <h3>Section: Content</h3>
+    <h4>Overview</h4>
+    <p>This document details various business rules categorized by their nature. Many rules relate to configurable attributes, quality assurance, and content requirements.</p>
+    <h4>Business Rules</h4>
+    <h5>1. Data Validation &amp; Configuration (Configurable Attributes)</h5>
+    <p>The following rules define valid values for configurable attributes within the Bike data set. These attributes are often used for filtering, categorization, and reporting.</p>
+    <ul>
+      <li>
+        <strong>Threshold Interval Unit</strong>
+        <ul>
+          <li>Valid units of measurement for threshold intervals include:</li>
+          <li>Months</li>
+          <li>Weeks</li>
+          <li>Years</li>
+          <li>Days</li>
+          <li>Shop visits</li>
+          <li>Auxiliary power unit change</li>
+          <li>Wheel change</li>
+          <li>kilometer</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Attribute Source Type Code</strong>
+        <ul>
+          <li>Valid source types include:</li>
+          <li>fec</li>
+          <li>sample</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Attribute Source Criticality</strong>
+        <ul>
+          <li>Valid criticality levels include:</li>
+          <li>Evident, Safety</li>
+          <li>Evident, operational</li>
+          <li>Evident, Economic</li>
+          <li>Hidden, Safety</li>
+          <li>Hidden, Non-Safety</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Task Code</strong>
+        <ul>
+          <li>Valid task codes include:</li>
+          <li>Detailed inspection (DET)</li>
+          <li>Discard (DIS)</li>
+          <li>Functional Check (FNC)</li>
+          <li>General visual inspection (GVI)</li>
+          <li>Lubrication (LUB)</li>
+          <li>Operational check (OPC)</li>
+          <li>Restoration (RST)</li>
+          <li>Servicing (SVC)</li>
+          <li>Visual check (VCK)</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Limit Type</strong>
+        <ul>
+          <li>Valid limit types include:</li>
+          <li>Time between overhaul</li>
+          <li>Hard time</li>
+          <li>Since last maintenance</li>
+          <li>Out time limit</li>
+          <li>On condition</li>
+          <li>Check maintenance</li>
+          <li>Functional check</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Origin of Equipment/Harness/Wire</strong>
+        <ul>
+          <li>Valid origins include:</li>
+          <li>Manufacturer</li>
+          <li>Vendor</li>
+          <li>Partner</li>
+        </ul>
+      </li>
+    </ul>
+    <h5>2. Quality Assurance &amp; Process</h5>
+    <p>Bike data modules <em>must</em> be reviewed and approved by the EPWG (Engineering Product Working Group) before publication.</p>
+    <h5>3. Content &amp; Data Requirements</h5>
+    <p>The Bike data set <em>must</em> contain examples demonstrating the application of constructs and principles representing various levels of conceptual sophistication.</p>
+    <h3>Notes</h3>
+    <p>The categorization of some rules is based on interpretation of the provided data. It may be appropriate to re-categorize them based on further analysis or project needs. Rules pertaining to configurable attributes are considered data validation rules.</p>
+  </content>
+</proced>

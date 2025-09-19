@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_1 - Bicycle Pre-Ride Check Procedure</title>
+  <introduction>
+    <paragraph>This document outlines the pre-ride check procedure for bicycles, covering key areas to ensure safety and optimal performance.</paragraph>
+  </introduction>
+  <section>
+    <title>1. Introduction</title>
+    <paragraph>This document outlines the pre-ride check procedure for bicycles, covering key areas to ensure safety and optimal performance.</paragraph>
+  </section>
+  <section>
+    <title>2. Brakes</title>
+    <subsection>
+      <title>2.1. Item 1</title>
+      <task>Check Pads</task>
+      <description>Ensure brake pads have sufficient material.</description>
+    </subsection>
+    <subsection>
+      <title>2.2. Item 2</title>
+      <task>Lever Action</task>
+      <description>Verify smooth and firm lever action.</description>
+    </subsection>
+  </section>
+  <section>
+    <title>3. Tires</title>
+    <subsection>
+      <title>3.1. Item 1</title>
+      <task>Inflation</task>
+      <description>Check tire pressure. Recommended ranges:</description>
+      <list>
+        <item>On Road: 55-60 psi</item>
+        <item>Off Road: 35-40 psi</item>
+      </list>
+    </subsection>
+    <subsection>
+      <title>3.2. Item 2</title>
+      <task>Condition</task>
+      <description>Inspect tires for cracks, splits, or embedded objects.</description>
+    </subsection>
+  </section>
+  <section>
+    <title>4. Wheels</title>
+    <subsection>
+      <title>4.1. Item 1</title>
+      <task>Bearings</task>
+      <description>Check for loose bearings.</description>
+    </subsection>
+    <subsection>
+      <title>4.2. Item 2</title>
+      <task>Trueness</task>
+      <description>Ensure wheels are true (not wobbling).</description>
+    </subsection>
+    <subsection>
+      <title>4.3. Item 3</title>
+      <task>Spokes</task>
+      <description>Verify spokes are not broken and are tight.</description>
+    </subsection>
+    <subsection>
+      <title>4.4. Item 4</title>
+      <task>Axle Nuts</task>
+      <description>Ensure axle nuts are tight.</description>
+    </subsection>
+  </section>
+  <section>
+    <title>5. Headset</title>
+    <subsection>
+      <title>5.1. Item 1</title>
+      <task>Tightness</task>
+      <description>Check for headset bearing tightness. Ensure smooth steering operation.</description>
+    </subsection>
+  </section>
+  <section>
+    <title>6. Chain</title>
+    <subsection>
+      <title>6.1. Item 1</title>
+      <task>Movement</task>
+      <description>Verify easy movement of chain links.</description>
+    </subsection>
+  </section>
+  <section>
+    <title>7. Handlebar and Stem</title>
+    <subsection>
+      <title>7.1. Item 1</title>
+      <task>Stem Condition</task>
+      <description>*Warning: Do not ride with a cracked stem.*</description>
+      <list>
+        <item>If stem is cracked: Replace stem.</item>
+        <item>If stem is loose: Tighten stem.</item>
+      </list>
+    </subsection>
+    <subsection>
+      <title>7.2. Item 2</title>
+      <task>Clamp Bolt</task>
+      <description>If handlebars twist in stem: Tighten clamp bolt.</description>
+    </subsection>
+  </section>
+  <section>
+    <title>8. Computer (if equipped)</title>
+    <subsection>
+      <title>8.1. Item 1</title>
+      <task>Display Readings</task>
+      <description>Verify the computer displays appropriate readings. Example readings (may vary by model):</description>
+      <table>
+        <header>
+          <cell>Item</cell>
+          <cell>Reading</cell>
+        </header>
+        <row>
+          <cell>Altitude</cell>
+          <cell>0 miles</cell>
+        </row>
+        <row>
+          <cell>Speed</cell>
+          <cell>0 mph</cell>
+        </row>
+        <row>
+          <cell>Distance</cell>
+          <cell>0 miles</cell>
+        </row>
+      </table>
+      <note>Color Coding on Computer Display:</note>
+      <table>
+        <header>
+          <cell>Item</cell>
+          <cell>Color</cell>
+        </header>
+        <row>
+          <cell>Altitude</cell>
+          <cell>co04</cell>
+        </row>
+        <row>
+          <cell>Speed</cell>
+          <cell>co02, co04</cell>
+        </row>
+        <row>
+          <cell>Distance</cell>
+          <cell>co51</cell>
+        </row>
+      </table>
+    </subsection>
+  </section>
+  <section>
+    <title>9. Appendix</title>
+    <subsection>
+      <title>9.1. Appendix: Color Codes</title>
+      <list>
+        <item>co02: (Specific color - consult documentation)</item>
+        <item>co04: (Specific color - consult documentation)</item>
+        <item>co51: (Specific color - consult documentation)</item>
+      </list>
+    </subsection>
+  </section>
+</procedure>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmProced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_1</dmTitle>
+  <dmIdentification>
+    <dmTitle>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_1</dmTitle>
+  </dmIdentification>
+  <dmObjectRequirement>
+    <dmTitle>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_1</dmTitle>
+  </dmObjectRequirement>
+  <dmContent>
+    <dmApplicability>
+      <dmAddress>
+        <dmIdent>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>029</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>A</itemLocationCode>
+        </dmIdent>
+      </dmAddress>
+      <dmLanguage>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </dmLanguage>
+      <dmIssueInfo>
+        <issueNumber>010</issueNumber>
+        <inWork>0</inWork>
+      </dmIssueInfo>
+    </dmApplicability>
+    <dmIssue>
+      <issueDate>2019-01-28</issueDate>
+    </dmIssue>
+    <dmStatus>
+      <status>Released</status>
+    </dmStatus>
+    <dmConfigurationManagement>
+      <status>Not applicable</status>
+    </dmConfigurationManagement>
+    <dmRelatedDocuments>
+      <status>Not applicable</status>
+    </dmRelatedDocuments>
+    <dmContent>
+      <dmWiringFields>
+        <descrWire/>
+        <dmTable>
+          <dmTableRow>
+            <dmTableCell>Field Name</dmTableCell>
+            <dmTableCell>Description</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Field Name</dmTableCell>
+            <dmTableCell>Description of the field. (Repeated for each field)</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Wire</dmTableCell>
+            <dmTableCell>Contains the sequential number of the wire, e.g. in the harness.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Harness ident</dmTableCell>
+            <dmTableCell>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Wire sequential number</dmTableCell>
+            <dmTableCell>Contains the sequential number of the wire, e.g. in the harness.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Wire information circuit code</dmTableCell>
+            <dmTableCell>Contains the identifier of the circuit to which the wire belongs.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Wire information wire section identification</dmTableCell>
+            <dmTableCell>Contains the identifier of the section to which the wire belongs.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Length</dmTableCell>
+            <dmTableCell>Length identifies the length of the wire. The given value is approximately 10% higher than necessary to install the wire on the bicycle.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Color</dmTableCell>
+            <dmTableCell>Color identifies the color of the wire sheating.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Twisting</dmTableCell>
+            <dmTableCell>Twistig identifies wires, which are twisted together with a unique identifier.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Electric ident</dmTableCell>
+            <dmTableCell>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Contact</dmTableCell>
+            <dmTableCell>Contact identifies the electrical contact to which the wire is connected.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Group code</dmTableCell>
+            <dmTableCell>Identifies wires, which are connected to the same terminal lug.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Screens</dmTableCell>
+            <dmTableCell>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Responsible partner company</dmTableCell>
+            <dmTableCell>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Feed-through</dmTableCell>
+            <dmTableCell>Identifies bunges through which the wire is routed.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Next higher assembly</dmTableCell>
+            <dmTableCell>Identifies the next higher assenbly, in which the wire is installed.</dmTableCell>
+          </dmTableRow>
+        </dmTable>
+      </dmWiringFields>
+      <dmDescriptionHarness>
+        <descrHarness/>
+        <dmTable>
+          <dmTableRow>
+            <dmTableCell>Field Name</dmTableCell>
+            <dmTableCell>Description</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Field Name</dmTableCell>
+            <dmTableCell>Description of the field. (Repeated for each field)</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Harness ident</dmTableCell>
+            <dmTableCell>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Harness Part number</dmTableCell>
+            <dmTableCell>Harness part number gives the part number of the harness identified by the harness ident.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Harness variant</dmTableCell>
+            <dmTableCell>Harness variant identifies the variant of the harness in addition to the harness part number.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Harness issue</dmTableCell>
+            <dmTableCell>Harness issue identifies the production variant of the harness in addition to the harness part number.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Harness nomenclature</dmTableCell>
+            <dmTableCell>Harness nomenclature identifies the harness by using a specific name.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Harness separation code</dmTableCell>
+            <dmTableCell>Harness separation code gives the separation code of the harness.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Minimum temperature</dmTableCell>
+            <dmTableCell>Minimum temperature gives the minimum environment temperature in which the harness can be used.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Maximum temperature</dmTableCell>
+            <dmTableCell>Maximum temperature gives the maximum environment temperature in which the harness can be used.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Harness environment</dmTableCell>
+            <dmTableCell>Harness environment indicates that a harness is used in high vibriation or/and hydraulic areas.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Sleeve</dmTableCell>
+            <dmTableCell>Gives the part number and/or the material of the sleeves used on the harness.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Responsible partner company</dmTableCell>
+            <dmTableCell>The responsible partner company indicates the company responsible for the integration of the harness to the bicycle.</dmTableCell>
+          </dmTableRow>
+        </dmTable>
+      </dmDescriptionHarness>
+      <dmDescriptionElectricalEquip>
+        <descrElectricalEquip/>
+        <dmTable>
+          <dmTableRow>
+            <dmTableCell>Field Name</dmTableCell>
+            <dmTableCell>Description</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Field Name</dmTableCell>
+            <dmTableCell>Description of the field. (Repeated for each field)</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Electric ident</dmTableCell>
+            <dmTableCell>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Contact</dmTableCell>
+            <dmTableCell>Contact identifies the electrical contact to which the wire is connected.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Group code</dmTableCell>
+            <dmTableCell>Identifies wires, which are connected to the same terminal lug.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Screens</dmTableCell>
+            <dmTableCell>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</dmTableCell>
+          </dmTableRow>
+          <dmTableRow>
+            <dmTableCell>Responsible partner company</dmTableCell>
+            <dmTableCell>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</dmTableCell>
+          </dmTableRow>
+        </dmTable>
+      </dmDescriptionElectricalEquip>
+    </dmContent>
+  </dmContent>
+</dmContent>

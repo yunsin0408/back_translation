@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_010-00_EN-US - Procedure Document</procTitle>
+  <introduction>This document represents the converted markdown from the provided XML file, adhering to the guidelines for structure, readability, and content preservation.</introduction>
+  <sect level="1">
+    <title>1. Identification</title>
+    <item>
+      <name>docNumber</name>
+      <value>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_010-00_EN-US</value>
+    </item>
+    <item>
+      <name>title</name>
+      <value>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_010-00_EN-US - Procedure Document</value>
+    </item>
+  </sect>
+  <sect level="1">
+    <title>2. Ident and Status Section</title>
+    <sect level="2">
+      <title>2.1 DM Address</title>
+      <sect level="3">
+        <title>2.1.1 DM Ident</title>
+        <item>
+          <name>modelIdentCode</name>
+          <value>S1000DBIKE</value>
+        </item>
+        <item>
+          <name>systemDiffCode</name>
+          <value>AAA</value>
+        </item>
+        <item>
+          <name>systemCode</name>
+          <value>DA0</value>
+        </item>
+        <item>
+          <name>subSystemCode</name>
+          <value>1</value>
+        </item>
+        <item>
+          <name>subSubSystemCode</name>
+          <value>0</value>
+        </item>
+        <item>
+          <name>assyCode</name>
+          <value>20</value>
+        </item>
+        <item>
+          <name>disassyCode</name>
+          <value>00</value>
+        </item>
+        <item>
+          <name>disassyCodeVariant</name>
+          <value>AA</value>
+        </item>
+        <item>
+          <name>language</name>
+          <value>EN</value>
+        </item>
+        <item>
+          <name>country</name>
+          <value>US</value>
+        </item>
+      </sect>
+      <sect level="3">
+        <title>2.1.2 DM Status</title>
+        <item>
+          <name>firstVerification</name>
+          <value>tabtop</value>
+        </item>
+        <item>
+          <name>qualityAssurance</name>
+          <value>tabtop</value>
+        </item>
+        <item>
+          <name>systemBreakdownCode</name>
+          <value>BY112</value>
+        </item>
+        <item>
+          <name>skillLevel</name>
+          <value>sk01</value>
+        </item>
+        <item>
+          <name>reasonForUpdate</name>
+          <value>S1000D upissued</value>
+        </item>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>2.2 Content</title>
+      <sect level="3">
+        <title>2.2.1 References</title>
+        <item>
+          <name>DM Ref 1</name>
+          <item>
+            <name>modelIdentCode</name>
+            <value>S1000DBIKE</value>
+          </item>
+          <item>
+            <name>systemDiffCode</name>
+            <value>AAA</value>
+          </item>
+          <item>
+            <name>systemCode</name>
+            <value>DA0</value>
+          </item>
+          <item>
+            <name>subSystemCode</name>
+            <value>1</value>
+          </item>
+          <item>
+            <name>subSubSystemCode</name>
+            <value>0</value>
+          </item>
+          <item>
+            <name>assyCode</name>
+            <value>10</value>
+          </item>
+          <item>
+            <name>disassyCode</name>
+            <value>00</value>
+          </item>
+          <item>
+            <name>disassyCodeVariant</name>
+            <value>AA</value>
+          </item>
+          <item>
+            <name>infoCode</name>
+            <value>921</value>
+          </item>
+          <item>
+            <name>infoCodeVariant</name>
+            <value>A</value>
+          </item>
+          <item>
+            <name>itemLocationCode</name>
+            <value>A</value>
+          </item>
+        </item>
+        <item>
+          <name>DM Ref 2</name>
+          <item>
+            <name>modelIdentCode</name>
+            <value>S1000DBIKE</value>
+          </item>
+          <item>
+            <name>systemDiffCode</name>
+            <value>AAA</value>
+          </item>
+          <item>
+            <name>systemCode</name>
+            <value>DA0</value>
+          </item>
+          <item>
+            <name>subSystemCode</name>
+            <value>1</value>
+          </item>
+          <item>
+            <name>subSubSystemCode</name>
+            <value>0</value>
+          </item>
+          <item>
+            <name>assyCode</name>
+            <value>20</value>
+          </item>
+          <item>
+            <name>disassyCode</name>
+            <value>00</value>
+          </item>
+          <item>
+            <name>disassyCodeVariant</name>
+            <value>AA</value>
+          </item>
+          <item>
+            <name>infoCode</name>
+            <value>215</value>
+          </item>
+          <item>
+            <name>infoCodeVariant</name>
+            <value>A</value>
+          </item>
+          <item>
+            <name>itemLocationCode</name>
+            <value>A</value>
+          </item>
+        </item>
+        <item>
+          <name>DM Ref 3</name>
+          <item>
+            <name>modelIdentCode</name>
+            <value>S1000DBIKE</value>
+          </item>
+          <item>
+            <name>systemDiffCode</name>
+            <value>AAA</value>
+          </item>
+          <item>
+            <name>systemCode</name>
+            <value>DA0</value>
+          </item>
+          <item>
+            <name>subSystemCode</name>
+            <value>1</value>
+          </item>
+          <item>
+            <name>subSubSystemCode</name>
+            <value>0</value>
+          </item>
+          <item>
+            <name>assyCode</name>
+            <value>20</value>
+          </item>
+          <item>
+            <name>disassyCode</name>
+            <value>00</value>
+          </item>
+          <item>
+            <name>disassyCodeVariant</name>
+            <value>AA</value>
+          </item>
+          <item>
+            <name>infoCode</name>
+            <value>921</value>
+          </item>
+          <item>
+            <name>infoCodeVariant</name>
+            <value>A</value>
+          </item>
+          <item>
+            <name>itemLocationCode</name>
+            <value>A</value>
+          </item>
+        </item>
+      </sect>
+      <sect level="3">
+        <title>2.2.2 Fault Isolation</title>
+        <item>
+          <name>Fault Isolation Procedure</name>
+          <item>
+            <name>faultCode</name>
+            <value>NYCJD04</value>
+          </item>
+          <item>
+            <name>faultDescription</name>
+            <value>Tire does not function correctly</value>
+          </item>
+        </item>
+        <item>
+          <name>Preliminary Requirements</name>
+          <item>
+            <name>Support Equipment 1</name>
+            <item>
+              <name>name</name>
+              <value>Tire pressure gauge</value>
+            </item>
+            <item>
+              <name>manufacturerCode</name>
+              <value>KZ666</value>
+            </item>
+            <item>
+              <name>partNumber</name>
+              <value>BSK-TLST-001-01</value>
+            </item>
+            <item>
+              <name>quantity</name>
+              <value>1 EA</value>
+            </item>
+          </item>
+          <item>
+            <name>Support Equipment 2</name>
+            <item>
+              <name>name</name>
+              <value>Tire pressure gauge</value>
+            </item>
+            <item>
+              <name>manufacturerCode</name>
+              <value>KZ666</value>
+            </item>
+            <item>
+              <name>partNumber</name>
+              <value>BSK-TLST-001-01</value>
+            </item>
+            <item>
+              <name>quantity</name>
+              <value>1 EA</value>
+            </item>
+          </item>
+        </item>
+      </sect>
+    </sect>
+  </sect>
+</proced>

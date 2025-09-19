@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-258B-A_004-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated</title>
+  <content>
+    <paragraph>This document outlines the procedure for cleaning a bicycle.</paragraph>
+    <heading level="2">Bicycle Cleaning Procedure</heading>
+    <paragraph>This document outlines the procedure for cleaning a bicycle, covering preparation, the cleaning process itself, and post-cleaning requirements.</paragraph>
+    <heading level="2">Introduction</heading>
+    <paragraph>This document outlines the procedure for cleaning a bicycle, covering preparation, the cleaning process itself, and post-cleaning requirements.</paragraph>
+    <heading level="2">Preliminary Requirements</heading>
+    <list>
+      <item>Water source</item>
+      <item>Brush</item>
+      <item>Sponge</item>
+      <item>Screwdriver (small blade)</item>
+      <item>Degreasing agent (e.g., lubricant)</item>
+      <item>Detergent (options vary based on bicycle type - see procedural steps)</item>
+      <item>Lubricant (for post-cleaning)</item>
+    </list>
+    <heading level="2">Main Procedure</heading>
+    <heading level="3">Step 1: Initial Rinse</heading>
+    <paragraph>Rinse the bicycle with water to remove loose dirt and debris.</paragraph>
+    <reference>Refer to Figure 1 for visual guidance.</reference>
+    <figure>
+      <title>Figure 1: Cleaning the Bike</title>
+      <imageReference>ICN-C0419-S1000D0359-001-01</imageReference>
+      <legend>
+        <item>1: Display</item>
+        <item>2: Button</item>
+        <item>3: Widget</item>
+        <item>4: Adaptor</item>
+        <item>102: Retainer</item>
+      </legend>
+    </figure>
+    <heading level="3">Step 2: Detailed Cleaning</heading>
+    <paragraph>Use a brush to access hard-to-reach areas such as shifters, tires, and brakes.</paragraph>
+    <paragraph>Remove caked grime from the chain and sprockets using a small blade screwdriver.</paragraph>
+    <heading level="3">Step 3: Degreasing</heading>
+    <paragraph>Remove grease from the freewheel assembly using a degreasing agent.</paragraph>
+    <paragraph>Apply the degreaser to the following parts:</paragraph>
+    <list>
+      <item>Sprockets</item>
+      <item>Guide and tension wheels of the derailleur</item>
+      <item>Chain ring teeth</item>
+    </list>
+    <reference>Refer to Figure 2 for guidance.</reference>
+    <figure>
+      <title>Figure 2: Degreasing the Freehub</title>
+      <imageReference>ICN-C0419-S1000D0400-001-01</imageReference>
+    </figure>
+    <heading level="3">Step 4: Rinsing</heading>
+    <paragraph>Flush the sprockets, derailleurs, chainrings, and chain with water.</paragraph>
+    <paragraph>Repeat the flushing process if necessary.</paragraph>
+    <heading level="2">Alternative Washing Procedures</heading>
+    <paragraph>The following washing procedures are tailored based on the bicycle type (defined by `applicRefId`):</paragraph>
+    <heading level="3">Bicycle Type: app-0002</heading>
+    <paragraph>Soak a sponge in detergent and water.</paragraph>
+    <paragraph>Clean the bicycle with the soaked sponge.</paragraph>
+    <paragraph>Thoroughly flush the bicycle to remove all detergent residue.</paragraph>
+    <paragraph>Move the bicycle up and down on its tires to remove excess water.</paragraph>
+    <heading level="3">Bicycle Type: app-0001</heading>
+    <paragraph>Soak a sponge in detergent and water.</paragraph>
+    <paragraph>Clean the bicycle with the soaked sponge.</paragraph>
+    <paragraph>Soak a sponge in detergent and water.</paragraph>
+    <paragraph>Clean the bicycle with the soaked sponge.</paragraph>
+    <paragraph>Thoroughly flush the bicycle to remove all detergent residue.</paragraph>
+    <paragraph>Move the bicycle up and down on its tires to remove excess water.</paragraph>
+    <heading level="2">Lubrication</heading>
+    <paragraph>Lubricate the bicycle according to the recommendations in the Data Module (DM):</paragraph>
+    <dmReference>
+      <dmCode>S1000DBIKE</dmCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>DA4</systemCode>
+      <subSystemCode>1</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assyCode>00</assyCode>
+      <disassyCode>00</disassyCode>
+      <disassyCodeVariant>AA</disassyCodeVariant>
+      <infoCode>241</infoCode>
+      <infoCodeVariant>A</infoCodeVariant>
+      <itemLocationCode>A</itemLocationCode>
+    </dmReference>
+    <heading level="2">Closing Requirements</heading>
+    <paragraph>Ensure the bicycle is completely dry before use.</paragraph>
+    <heading level="2">Safety Precautions</heading>
+    <caution>Detergent/Degreaser: Do not allow detergent or degreaser to come into contact with your eyes. If contact occurs, rinse immediately with clean water. Follow instructions on the container for proper usage.</caution>
+    <caution>Water Hose: Do not use a high-pressure water hose, as it may damage components.</caution>
+    <caution>Hub/Bottom Bracket: Avoid directing the water hose directly at the hub or bottom bracket bearings.</caution>
+    <caution>Paint: Apply detergent/degreaser in accordance with the container's instructions. Improper application may damage the bicycle's paint.</caution>
+  </content>
+</procedure>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dm>
+    <dm_ident>
+      <dm_address>
+        <model_ident_code>S1000DBIKE</model_ident_code>
+        <system_diff_code>AAA</system_diff_code>
+        <system_code>DA2</system_code>
+        <sub_system_code>1</sub_system_code>
+        <sub_sub_system_code>0</sub_sub_system_code>
+        <assy_code>00</assy_code>
+        <disassy_code>00</disassy_code>
+        <disassy_code_variant>AA</disassy_code_variant>
+        <info_code>041</info_code>
+        <info_code_variant>A</info_code_variant>
+        <item_location_code>T</item_location_code>
+        <learn_code>T62</learn_code>
+        <learn_event_code>E</learn_event_code>
+      </dm_address>
+      <language>
+        <country_iso_code>US</country_iso_code>
+        <language_iso_code>en</language_iso_code>
+      </language>
+      <issue_info>
+        <issue_number>004</issue_number>
+        <in_work>00</in_work>
+      </issue_info>
+      <dm_address_items>
+        <issue_date>2024-06-19</issue_date>
+        <tech_name>Steering</tech_name>
+        <info_name>Description of how it is made: Knowledge Check</info_name>
+      </dm_address_items>
+    </dm_ident>
+    <dm_status>
+      <issue_type>status</issue_type>
+      <security>
+        <security_classification>01</security_classification>
+      </security>
+      <data_restrictions>
+        <restriction_instructions>
+          <data_distribution>To be made available to all S1000D users.</data_distribution>
+          <export_control>
+            <export_registration_statement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</export_registration_statement>
+          </export_control>
+          <data_handling>There are no specific handling instructions for this data module.</data_handling>
+          <data_destruction>Users may destroy this data module in accordance with their own local procedures.</data_destruction>
+          <data_disclosure>There are no dissemination limitations that apply to this data module.</data_disclosure>
+        </restriction_instructions>
+        <restriction_info>
+          <copyright>
+            <copyright_paragraph_1>*Copyright (C) 2024* by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright_paragraph_1>
+            <copyright_paragraph_2>
+              <copyright_publisher>Aerospace, Security and Defence Industries Association of Europe</copyright_publisher>
+              <copyright_publisher>Aerospace Industries Association of America</copyright_publisher>
+              <copyright_publisher>ATA e-Business Program</copyright_publisher>
+            </copyright_paragraph_2>
+            <copyright_paragraph_3>
+              <copyright_limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</copyright_limitation>
+              <copyright_limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</copyright_limitation>
+              <copyright_limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</copyright_limitation>
+            </copyright_paragraph_3>
+            <copyright_note>The details for copyright can be found in the S1000D Specification.</copyright_note>
+          </copyright>
+          <policy_statement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policy_statement>
+          <data_conditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</data_conditions>
+        </restriction_info>
+      </data_restrictions>
+    </dm_status>
+    <responsible_partner_company>
+      <enterprise_code>B6865</enterprise_code>
+      <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+    </responsible_partner_company>
+    <originator>
+      <enterprise_code>B6865</enterprise_code>
+      <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+    </originator>
+    <applic>
+      <display_text>All</display_text>
+    </applic>
+    <brex_dm_ref>
+      <dm_ref_ident>
+        <dm_code>
+          <model_ident_code>S1000DBIKE</model_ident_code>
+          <system_diff_code>AAA</system_diff_code>
+          <system_code>D00</system_code>
+          <sub_system_code>0</sub_system_code>
+          <sub_sub_system_code>0</sub_sub_system_code>
+          <assy_code>00</assy_code>
+          <disassy_code>00</disassy_code>
+          <disassy_code_variant>AA</disassy_code_variant>
+          <info_code>022</info_code>
+          <info_code_variant>A</info_code_variant>
+          <item_location_code>D</item_location_code>
+          <issue_info>
+            <issue_number>011</issue_number>
+            <in_work>00</in_work>
+          </issue_info>
+        </dm_code>
+      </dm_ref_ident>
+    </brex_dm_ref>
+    <quality_assurance>
+      <verification_type>tabtop</verification_type>
+    </quality_assurance>
+    <system_breakdown_code>DA210</system_breakdown_code>
+    <reason_for_update>
+      <update_reason_type>urt03</update_reason_type>
+      <simple_para>S1000D upissued</simple_para>
+    </reason_for_update>
+    <content>
+      <learning>
+        <learning_assessment>
+          <title>Knowledge Check</title>
+          <lc_interaction>
+            <lc_single_select>
+              <description>Select your answer, and then click CHECK. The stem attaches the _________________________ to the ________________________.</description>
+              <lc_answer_option_group>
+                <lc_answer_option ao_id="ao_001">headset / fork</lc_answer_option>
+                <lc_answer_option ao_id="ao_002">fork / handlebar</lc_answer_option>
+                <lc_answer_option ao_id="ao_003">handlebar / headset</lc_answer_option>
+                <lc_answer_option ao_id="ao_004">frame / handlebar</lc_answer_option>
+              </lc_answer_option_group>
+              <lc_feedback_item_group>
+                <lc_feedback_item ao_id="ao_001">The answer *headset / fork* is incorrect. Try again!</lc_feedback_item>
+                <lc_feedback_item ao_id="ao_002">The answer *fork / handlebar* is incorrect. Try again!</lc_feedback_item>
+                <lc_feedback_item ao_id="ao_003">Correct!</lc_feedback_item>
+                <lc_feedback_item ao_id="ao_004">The answer *frame / handlebar* is incorrect. Try again!</lc_feedback_item>
+                <lc_feedback_item ao_id="ao_001" attempt_num="2">The answer *headset / fork* is incorrect. The correct answer is handlebar / headset.</lc_feedback_item>
+                <lc_feedback_item ao_id="ao_002" attempt_num="2">The answer *fork / handlebar* is incorrect. The correct answer is handlebar / headset.</lc_feedback_item>
+                <lc_feedback_item ao_id="ao_004" attempt_num="2">The answer *frame / handlebar* is incorrect. The correct answer is handlebar / headset.</lc_feedback_item>
+              </lc_feedback_item_group>
+            </lc_single_select>
+          </lc_interaction>
+        </learning_assessment>
+      </learning>
+    </content>
+  </dm>
+</data>

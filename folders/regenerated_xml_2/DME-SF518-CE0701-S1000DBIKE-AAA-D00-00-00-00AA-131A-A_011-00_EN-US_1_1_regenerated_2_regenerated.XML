@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DME-SF518-CE0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_1 - Bicycle Pre-Ride Check - Crew Procedure</title>
+  <content>
+    <para>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</para>
+    <heading level="2">Introduction</heading>
+    <para>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</para>
+    <heading level="2">Step: Crew Procedure Steps</heading>
+    <heading level="3">Substep: 1. Brakes</heading>
+    <list>
+      <item>Inspect brake pads for wear.</item>
+      <item>Ensure brake levers operate smoothly.</item>
+      <item>Verify cable integrity (no cuts or fraying).</item>
+      <item>Confirm proper brake function - both front and rear.</item>
+    </list>
+    <heading level="3">Substep: 2. Tires</heading>
+    <list>
+      <item>Tire pressure (see table below for recommended ranges).</item>
+      <item>Inspect tires for cracks, splits, or embedded objects.</item>
+    </list>
+    <table id="tire_pressure_guide">
+      <title>Tire Pressure Guide</title>
+      <column id="terrain">Terrain</column>
+      <column id="min_pressure">Minimum Pressure</column>
+      <column id="max_pressure">Maximum Pressure</column>
+      <row>
+        <cell id="terrain_offroad">Off Road</cell>
+        <cell id="min_pressure_offroad">35 lbs</cell>
+        <cell id="max_pressure_offroad">40 lbs</cell>
+      </row>
+      <row>
+        <cell id="terrain_onroad">On Road</cell>
+        <cell id="min_pressure_onroad">55 lbs</cell>
+        <cell id="max_pressure_onroad">60 lbs</cell>
+      </row>
+    </table>
+    <heading level="3">Substep: 3. Wheels</heading>
+    <list>
+      <item>Spin wheels to verify smooth rotation.</item>
+      <item>Listen for unusual noises indicating bearing issues.</item>
+      <item>Inspect spokes for breakage.</item>
+      <item>Ensure spokes are tight.</item>
+      <item>Confirm axle nuts are securely tightened.</item>
+      <item>Confirm wheel is 'true' (not wobbling).</item>
+    </list>
+    <heading level="3">Substep: 4. Headset</heading>
+    <list>
+      <item>Ensure headset bearings are tight and smooth.</item>
+    </list>
+    <heading level="3">Substep: 5. Chain</heading>
+    <list>
+      <item>Verify easy movement of chain links.</item>
+    </list>
+    <heading level="3">Substep: 6. Handlebar &amp; Stem</heading>
+    <warning>Do *not* ride with a cracked stem.</warning>
+    <if>
+      <condition>Stem Cracked</condition>
+      <action>Replace stem immediately.</action>
+    </if>
+    <if>
+      <condition>Stem Loose</condition>
+      <action>Tighten stem.</action>
+    </if>
+    <if>
+      <condition>Handlebars Twist</condition>
+      <action>Tighten clamp bolt.</action>
+    </if>
+    <heading level="3">Substep: 7. Computer Display</heading>
+    <para>Ensure the computer is displaying accurate information (example):</para>
+    <table id="computer_display">
+      <title>Computer Display</title>
+      <column id="component">Component</column>
+      <column id="displayed_value">Displayed Value</column>
+      <row>
+        <cell id="speed">Speed</cell>
+        <cell id="speed_value">0 mph</cell>
+      </row>
+      <row>
+        <cell id="distance">Distance</cell>
+        <cell id="distance_value">0 miles</cell>
+      </row>
+    </table>
+    <heading level="2">Notes</heading>
+    <list>
+      <item>This procedure is a guideline; adapt it based on specific bicycle types and rider needs.</item>
+      <item>Regular maintenance and inspection are crucial for safety and performance.</item>
+      <item>Always prioritize safety; if unsure about any component, seek professional assistance.</item>
+    </list>
+  </content>
+</proced>

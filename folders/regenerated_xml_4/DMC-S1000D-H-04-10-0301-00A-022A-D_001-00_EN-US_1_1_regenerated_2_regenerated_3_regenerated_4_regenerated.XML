@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_s1000d_h_04_10_0301_00a_022a_d_001_00_en_us_1_1 xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_issue>D_001-00</dmc_issue>
+  <dmc_lang_country>EN-US</dmc_lang_country>
+  <dmc_version>1_1</dmc_version>
+  <title>DMC-S1000D-H-04-10-0301-00A-022A-D_001-00_EN-US_1_1</title>
+  <content>
+    <para>This document outlines the rules governing data modules, extracted from the provided `dmodule` XML.</para>
+    <heading level="2">Context Rules - Structure Object Rule Groups</heading>
+    <para>The following rules are context-dependent and organized into rule groups.</para>
+    <heading level="3">Structure Object Rule Group</heading>
+    <para>This group defines permissible values for various attributes within the data module structure.</para>
+    <heading level="4">Attribute Definitions &amp; Permissible Values</heading>
+    <list type="bullet">
+      <item>
+        <term>updateReasonType</term>
+        <definition>Defines the reason for updating the data module.</definition>
+        <permissible_values>
+          <value>urt01</value>
+          <value>urt02</value>
+          <value>urt03</value>
+          <value>urt04</value>
+          <value>urt05</value>
+          <value>urt51-urt99</value>
+        </permissible_values>
+      </item>
+      <item>
+        <term>verbatimStyle</term>
+        <definition>Defines the style of verbatim text.</definition>
+        <permissible_values>
+          <value>vs01</value>
+          <value>vs02</value>
+          <value>vs11</value>
+          <value>vs12</value>
+          <value>vs13</value>
+          <value>vs14</value>
+          <value>vs15</value>
+          <value>vs16</value>
+          <value>vs21</value>
+          <value>vs22</value>
+          <value>vs23</value>
+          <value>vs24</value>
+          <value>vs25</value>
+          <value>vs26</value>
+          <value>vs27</value>
+          <value>vs28</value>
+          <value>vs29</value>
+          <value>vs51-vs99</value>
+        </permissible_values>
+      </item>
+      <item>
+        <term>quantityUnitOfMeasure</term>
+        <definition>Defines the unit of measure for quantity data. Values within the range `um51-um99` can be allocated and defined by projects or organizations. (Refer to Table 2 in document section 3.9.6.2)</definition>
+      </item>
+    </list>
+    <heading level="2">Non-Context Rules</heading>
+    <para>These rules are not dependent on specific context within the data module.</para>
+    <heading level="3">Deletion of Data Modules</heading>
+    <para>Deletion of data modules is treated as a special case of update. The data module itself is not physically deleted but is marked as deleted. (Refer to document section 3.9.5.1, Para 2.2)</para>
+  </content>
+</dmc_s1000d_h_04_10_0301_00a_022a_d_001_00_en_us_1_1>

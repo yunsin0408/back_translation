@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>DMC-S1000DBIKE-AAA-DA1-00-00-00AA-041A-A_010-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated_4_regenerated</dmTitle>
+  <dataModuleInfo>
+    <dmAddress>
+      <dmIdent>
+        <model_ident_code>S1000DBIKE</model_ident_code>
+        <system_diff_code>AAA</system_diff_code>
+        <system_code>DA1</system_code>
+        <sub_system_code>0</sub_system_code>
+        <sub_sub_system_code>0</sub_sub_system_code>
+        <assy_code>00</assy_code>
+        <disassy_code>00</disassy_code>
+        <disassy_code_variant>AA</disassy_code_variant>
+        <info_code>041</info_code>
+        <info_code_variant>A</info_code_variant>
+        <item_location_code>A</item_location_code>
+        <language>US-en</language>
+      </dmIdent>
+      <issueInfo>
+        <issue_number>010</issue_number>
+        <in_work>00</in_work>
+      </issueInfo>
+      <dmAddressItems>
+        <issue_date>2024-06-19</issue_date>
+        <dm_title>
+          <tech_name>Brake system</tech_name>
+          <info_name>Description of how it is made</info_name>
+        </dm_title>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issue_type>deleted</issue_type>
+    </dmStatus>
+  </dataModuleInfo>
+  <security>
+    <security_classification>01</security_classification>
+    <commercial_classification>cc51</commercial_classification>
+    <caveat>cv51</caveat>
+  </security>
+  <dataRestrictions>
+    <restrictionInstructions>
+      <data_distribution>To be made available to all S1000D users.</data_distribution>
+      <export_control>
+        <export_registration_stmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</export_registration_stmt>
+      </export_control>
+      <data_handling>There are no specific handling instructions for this data module.</data_handling>
+      <data_destruction>Users may destroy this data module in accordance with their own local procedures.</data_destruction>
+      <data_disclosure>There are no dissemination limitations that apply to this data module.</data_disclosure>
+    </restrictionInstructions>
+    <restrictionInfo>
+      <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+      <publishers>Aerospace, Security and Defence Industries Association of Europe</publishers>
+      <random_list>
+        <list_item/>
+      </random_list>
+    </restrictionInfo>
+  </dataRestrictions>
+  <authorityInfoTP>
+    <authority_info>20010131</authority_info>
+    <tech_pub_base>Bike book</tech_pub_base>
+  </authorityInfoTP>
+  <brexDMRef>
+    <dmRef>
+      <dmRefIdent>
+        <dm_code>S1000DBIKE</dm_code>
+        <system_diff_code>AAA</system_diff_code>
+        <system_code>DA0</system_code>
+        <sub_system_code>0</sub_system_code>
+        <sub_sub_system_code>0</sub_sub_system_code>
+        <assy_code>00</assy_code>
+        <disassy_code>00</disassy_code>
+        <disassy_code_variant>AA</disassy_code_variant>
+        <info_code>022</info_code>
+        <info_code_variant>A</info_code_variant>
+        <item_location_code>D</item_location_code>
+      </dmRefIdent>
+    </dmRef>
+  </brexDMRef>
+  <techStandard/>
+  <skillLevel>
+    <skill_level>sk01</skill_level>
+  </skillLevel>
+  <reasonForUpdate>
+    <reason1>
+      <id>rfu_general</id>
+      <update_reason_type>urt03</update_reason_type>
+      <simple_para>S1000D upissued</simple_para>
+    </reason1>
+    <reason2>
+      <id>RFU-CPF_2020-040EPWG</id>
+      <update_reason_type>urt01</update_reason_type>
+      <simple_para>CPF_2020-040EPWG Bike Enhancement with elements and attributes missing in the samples</simple_para>
+    </reason2>
+  </reasonForUpdate>
+  <content>
+    <description>
+      <levelledPara1>
+        <title>Brake system</title>
+        <para>The most important part of the bicycle&lt;indexFlag indexLevelOne="bicycle"/&gt; is the brake system&lt;indexFlag indexLevelTwo="brake system"/&gt;. Only a minimum maintenance of the brake system is necessary. But, when a problem does occur, make sure you to do the necessary maintenance as quickly as possible. If you do not do this the bicycle&lt;indexFlag indexLevelOne="bicycle"/&gt; will be dangerous to use.</para>
+        <para>There are nine different types of brake systems. The one found on most bicycles is the cantilever&lt;indexFlag indexLevelFour="cantilever"/&gt;brake&lt;indexFlag indexLevelThree="brake"/&gt; (refer to &lt;internalRef internalRefId="par-0001" internalRefTargetType="irtt07"/&gt;).</para>
+      </levelledPara1>
+      <levelledPara2>
+        <title>Cantilever brake</title>
+        <para>The brake system (refer to &lt;internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/&gt;) has these primary components:</para>
+        <list>
+          <list_item/>
+          <list_item/>
+          <list_item/>
+          <list_item/>
+          <list_item/>
+        </list>
+      </levelledPara2>
+      <figure1>
+        <title>Cantilever brake with straddle cable</title>
+        <graphic>ICN-C0419-S1000D0379-001-01</graphic>
+        <para>A cable that goes from the brake levers on the handlebars pulls the two levers on the brakes together. This presses the brake pads against the outer rim of the wheel, which decreases the speed of the bicycle.</para>
+      </figure1>
+      <levelledPara3>
+        <title>Rear brake</title>
+        <figure>
+          <title>Rear brake</title>
+          <graphic>ICN-C0419-S1000D0380-001-01</graphic>
+          <para>The left brake lever holds the brake pads on the front wheel and the right brake pads hold the brakes on the rear wheel.</para>
+        </figure>
+      </levelledPara3>
+    </description>
+  </content>
+</dm>

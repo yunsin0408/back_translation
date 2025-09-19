@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dm>
+    <heading>Bike Lighting Circuit Breaker Documentation</heading>
+    <section>
+      <heading>1. Identification and Status</heading>
+      <list>
+        <item>
+          <property>Document ID</property>
+          <value>DModule</value>
+        </item>
+        <item>
+          <property>Date</property>
+          <value>(Not present in the document)</value>
+        </item>
+        <item>
+          <property>Revision</property>
+          <value>(Not present in the document)</value>
+        </item>
+      </list>
+    </section>
+    <section>
+      <heading>2. Content</heading>
+      <section>
+        <heading>2.1 Referenced Applic Groups</heading>
+        <section>
+          <heading>2.1.1 Application: Mountain Storm Mk1</heading>
+          <list>
+            <item>
+              <property>ID</property>
+              <value>app-0001</value>
+            </item>
+            <item>
+              <property>Description</property>
+              <value>Mountain Storm Mk1</value>
+            </item>
+            <item>
+              <property>Applicability Criteria</property>
+              <list>
+                <item>
+                  <property>Type</property>
+                  <value>Model</value>
+                </item>
+                <item>
+                  <property>Value</property>
+                  <value>Mountain storm</value>
+                </item>
+                <item>
+                  <property>Version</property>
+                  <value>Mk1</value>
+                </item>
+                <item>
+                  <property>Version Range</property>
+                  <value>1-3</value>
+                </item>
+              </list>
+            </item>
+          </list>
+        </section>
+        <section>
+          <heading>2.1.2 Application: Brook Trekker Mk9</heading>
+          <list>
+            <item>
+              <property>ID</property>
+              <value>app-0002</value>
+            </item>
+            <item>
+              <property>Description</property>
+              <value>Brook Trekker Mk9</value>
+            </item>
+            <item>
+              <property>Applicability Criteria</property>
+              <list>
+                <item>
+                  <property>Type</property>
+                  <value>Model</value>
+                </item>
+                <item>
+                  <property>Value</property>
+                  <value>Brook trekker</value>
+                </item>
+                <item>
+                  <property>Version</property>
+                  <value>Mk9</value>
+                </item>
+                <item>
+                  <property>Version Range</property>
+                  <value>1-2</value>
+                </item>
+              </list>
+            </item>
+          </list>
+        </section>
+        <section>
+          <heading>2.1.3 Application: Mountain Bicycle (with Storm or Trekker)</heading>
+          <list>
+            <item>
+              <property>ID</property>
+              <value>app-0003</value>
+            </item>
+            <item>
+              <property>Description</property>
+              <value>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</value>
+            </item>
+            <item>
+              <property>Applicability Criteria</property>
+              <list>
+                <item>
+                  <property>Type</property>
+                  <value>Type</value>
+                </item>
+                <item>
+                  <property>Value</property>
+                  <value>Mountain bicycle</value>
+                </item>
+                <item>
+                  <property>Condition</property>
+                  <value>Either:</value>
+                  <list>
+                    <item>
+                      <property>Model</property>
+                      <value>Mountain storm</value>
+                      <property>Version</property>
+                      <value>Mk1</value>
+                      <property>Version Range</property>
+                      <value>1-3</value>
+                    </item>
+                    <item>
+                      <property>Model</property>
+                      <value>Brook trekker</value>
+                      <property>Version</property>
+                      <value>Mk9</value>
+                      <property>Version Range</property>
+                      <value>1-2</value>
+                    </item>
+                  </list>
+                </item>
+              </list>
+            </item>
+          </list>
+        </section>
+      </section>
+      <section>
+        <heading>2.2 Common Repository: Circuit Breaker Repository</heading>
+        <section>
+          <heading>2.2.1 Circuit Breaker Specification: CBLGT-1001-R (Right Side)</heading>
+          <list>
+            <item>
+              <property>ID</property>
+              <value>SPEC-0010 / cb-CBLGT-1001-R</value>
+            </item>
+            <item>
+              <property>Name</property>
+              <value>Bike Lighting circuit breaker (right side)</value>
+            </item>
+            <item>
+              <property>Functional Area</property>
+              <value>DA2 / 2 / 0 / 00</value>
+            </item>
+            <item>
+              <property>References</property>
+              <value>SPEC-0008 (CBLGT-1001-E)</value>
+            </item>
+            <item>
+              <property>Alternatives</property>
+              <list>
+                <item>
+                  <property>ID</property>
+                  <value>cb-CBLGT-1001-R.001</value>
+                </item>
+                <item>
+                  <property>Applicability</property>
+                  <value>app-0001 (Mountain Storm Mk1)</value>
+                </item>
+                <item>
+                  <property>Name</property>
+                  <value>CBLGT-1001-R</value>
+                </item>
+                <item>
+                  <property>Class</property>
+                  <value>cbt02</value>
+                </item>
+                <item>
+                  <property>Location</property>
+                  <value>Zone 131</value>
+                </item>
+              </list>
+            </item>
+          </list>
+        </section>
+        <section>
+          <heading>2.2.2 Circuit Breaker Specification: CBLGT-1001-L (Left Side)</heading>
+          <list>
+            <item>
+              <property>ID</property>
+              <value>SPEC-0010 / cb-CBLGT-1001-L</value>
+            </item>
+            <item>
+              <property>Name</property>
+              <value>Bike Lighting circuit breaker (left side)</value>
+            </item>
+            <item>
+              <property>Functional Area</property>
+              <value>DA2 / 2 / 0 / 00</value>
+            </item>
+            <item>
+              <property>References</property>
+              <value>SPEC-0009 (CBLGT-1001-E)</value>
+            </item>
+            <item>
+              <property>Alternatives</property>
+              <list>
+                <item>
+                  <property>ID</property>
+                  <value>cb-CBLGT-1001-L.001</value>
+                </item>
+                <item>
+                  <property>Applicability</property>
+                  <value>app-0002 (Brook Trekker Mk9)</value>
+                </item>
+                <item>
+                  <property>Name</property>
+                  <value>CBLGT-1001-L</value>
+                </item>
+                <item>
+                  <property>Class</property>
+                  <value>cbt02</value>
+                </item>
+                <item>
+                  <property>Location</property>
+                  <value>Zone 132</value>
+                </item>
+              </list>
+            </item>
+          </list>
+        </section>
+        <section>
+          <heading>2.2.3 Circuit Breaker Specification: CBLGT-1001-E (Empty)</heading>
+          <list>
+            <item>
+              <property>ID</property>
+              <value>SPEC-0010 / cb-CBLGT-1001-E</value>
+            </item>
+            <item>
+              <property>Name</property>
+              <value>Bike Lighting empty circuit breaker</value>
+            </item>
+            <item>
+              <property>Functional Area</property>
+              <value>DA2 / 2 / 0 / 00</value>
+            </item>
+            <item>
+              <property>Alternatives</property>
+              <list>
+                <item>
+                  <property>ID</property>
+                  <value>cb-CBLGT-1001-E.001</value>
+                </item>
+                <item>
+                  <property>Applicability</property>
+                  <value>app-0003</value>
+                </item>
+                <item>
+                  <property>Name</property>
+                  <value>CBLGT-1001-E</value>
+                </item>
+                <item>
+                  <property>Class</property>
+                  <value>cbt02</value>
+                </item>
+                <item>
+                  <property>Location</property>
+                  <value>Zone 133</value>
+                </item>
+              </list>
+            </item>
+          </list>
+        </section>
+        <section>
+          <heading>2.2.4 Circuit Breaker Specification: CBLGT-1001-F (Sample)</heading>
+          <list>
+            <item>
+              <property>ID</property>
+              <value>SPEC-0011 / cb-CBLGT-1001-F</value>
+            </item>
+            <item>
+              <property>Name</property>
+              <value>Bike Lighting circuit breaker (Sample)</value>
+            </item>
+            <item>
+              <property>Functional Area</property>
+              <value>DA2 / 2 / 0 / 00</value>
+            </item>
+            <item>
+              <property>Alternatives</property>
+              <list>
+                <item>
+                  <property>ID</property>
+                  <value>cb-CBLGT-1001-F.001</value>
+                </item>
+                <item>
+                  <property>Applicability</property>
+                  <value>app-0003</value>
+                </item>
+                <item>
+                  <property>Name</property>
+                  <value>CBLGT-1001-F</value>
+                </item>
+                <item>
+                  <property>Class</property>
+                  <value>cbt02</value>
+                </item>
+                <item>
+                  <property>Location</property>
+                  <value>Zone 134</value>
+                </item>
+                <item>
+                  <property>Flags</property>
+                  <value>Active</value>
+                </item>
+              </list>
+            </item>
+          </list>
+        </section>
+      </section>
+    </dm>
+  </document>
+</data>

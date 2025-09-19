@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <DMTitle>DMC-S1000DBIKE-AAA-DA0-20-00-00AA-412A-A_010-00_EN-US</DMTitle>
+  <DMContent>
+    <Section>
+      <Heading>1. Ident and Status Section</Heading>
+      <SubSection>
+        <Heading>1.1. DM Address</Heading>
+        <DMAddress>
+          <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+          <SystemDiffCode>AAA</SystemDiffCode>
+          <SystemCode>DA0</SystemCode>
+          <SubSystemCode>2</SubSystemCode>
+          <SubSubSystemCode>0</SubSubSystemCode>
+          <AssyCode>00</AssyCode>
+          <DisassyCode>00</DisassyCode>
+          <DisassyCodeVariant>AA</DisassyCodeVariant>
+          <InfoCode>412</InfoCode>
+          <InfoCodeVariant>A</InfoCodeVariant>
+          <ItemLocationCode>A</ItemLocationCode>
+          <Language>
+            <CountryIsoCode>US</CountryIsoCode>
+            <LanguageIsoCode>en</LanguageIsoCode>
+          </Language>
+          <IssueInfo>
+            <IssueNumber>010</IssueNumber>
+            <InWork>00</InWork>
+          </IssueInfo>
+          <DMAddressItems>
+            <IssueDate>
+              <Year>2024</Year>
+              <Month>06</Month>
+              <Day>19</Day>
+            </IssueDate>
+            <DMTitle>
+              <TechName>Rear wheel</TechName>
+              <InfoName>Detected fault</InfoName>
+            </DMTitle>
+          </DMAddressItems>
+        </DMAddress>
+      </SubSection>
+      <SubSection>
+        <Heading>1.2. DM Status</Heading>
+        <DMStatus>
+          <IssueType>changed</IssueType>
+          <Security>
+            <SecurityClassification>01</SecurityClassification>
+            <CommercialClassification>cc51</CommercialClassification>
+            <Caveat>cv51</Caveat>
+          </Security>
+          <DataRestrictions>
+            <RestrictionInstructions>
+              <DataDistribution>To be made available to all S1000D users.</DataDistribution>
+              <ExportControl>
+                <ExportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</ExportRegistrationStatement>
+              </ExportControl>
+              <DataHandling>There are no specific handling instructions for this data module.</DataHandling>
+              <DataDestruction>Users may destroy this data module in accordance with their own local procedures.</DataDestruction>
+              <DataDisclosure>There are no dissemination limitations that apply to this data module.</DataDisclosure>
+            </RestrictionInstructions>
+            <RestrictionInfo>
+              <Copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</Copyright>
+              <Publishers>
+                <Publisher>Aerospace, Security and Defence Industries Association of Europe</Publisher>
+                <Publisher>Aerospace Industries Association of America</Publisher>
+                <Publisher>ATA e-Business Program</Publisher>
+              </Publishers>
+              <LimitationsOfLiability>
+                <Limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</Limitation>
+                <Limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</Limitation>
+                <Limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</Limitation>
+              </LimitationsOfLiability>
+              <CopyrightDetails>The details for copyright can be found in the S1000D Specification.</CopyrightDetails>
+              <PolicyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</PolicyStatement>
+              <DataConditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</DataConditions>
+            </RestrictionInfo>
+          </DataRestrictions>
+        </DMStatus>
+      </SubSection>
+    </Section>
+    <Section>
+      <Heading>2. Responsible Partner Company</Heading>
+      <ResponsiblePartnerCompany>
+        <EnterpriseCode>B6865</EnterpriseCode>
+        <EnterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</EnterpriseName>
+      </ResponsiblePartnerCompany>
+    </Section>
+    <Section>
+      <Heading>3. Originator</Heading>
+      <Originator>
+        <EnterpriseCode>B6865</EnterpriseCode>
+        <EnterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</EnterpriseName>
+      </Originator>
+    </Section>
+    <Section>
+      <Heading>4. Applic Cross-Reference Table Ref</Heading>
+      <ApplicCrossReferenceTableRef>
+        <DMRefIdent>
+          <DMCode>
+            <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+            <SystemDiffCode>AAA</SystemDiffCode>
+            <SystemCode>D00</SystemCode>
+            <SubSystemCode>0</SubSystemCode>
+            <SubSubSystemCode>0</SubSubSystemCode>
+            <AssyCode>00</AssyCode>
+            <DisassyCode>00</DisassyCode>
+            <DisassyCodeVariant>AA</DisassyCodeVariant>
+            <InfoCode>00W</InfoCode>
+            <InfoCodeVariant>A</InfoCodeVariant>
+            <ItemLocationCode>D</ItemLocationCode>
+          </DMCode>
+        </DMRefIdent>
+      </ApplicCrossReferenceTableRef>
+    </Section>
+    <Section>
+      <Heading>5. Applic</Heading>
+      <Applic>
+        <DisplayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</DisplayText>
+        <Evaluate>
+          <Assert>
+            <ApplicPropertyIdent>type</ApplicPropertyIdent>
+            <ApplicPropertyType>prodattr</ApplicPropertyType>
+            <ApplicPropertyValues>Mountain bicycle</ApplicPropertyValues>
+          </Assert>
+          <Evaluate>
+            <Assert>
+              <ApplicPropertyIdent>model</ApplicPropertyIdent>
+              <ApplicPropertyType>prodattr</ApplicPropertyType>
+              <ApplicPropertyValues>Mountain storm</ApplicPropertyValues>
+            </Assert>
+            <Assert>
+              <ApplicPropertyIdent>version</ApplicPropertyIdent>
+              <ApplicPropertyType>prodattr</ApplicPropertyType>
+              <ApplicPropertyValues>Mk1</ApplicPropertyValues>
+            </Assert>
+          </Evaluate>
+          <Evaluate>
+            <Assert>
+              <ApplicPropertyIdent>model</ApplicPropertyIdent>
+              <ApplicPropertyType>prodattr</ApplicPropertyType>
+              <ApplicPropertyValues>Brook trekker</ApplicPropertyValues>
+            </Assert>
+            <Assert>
+              <ApplicPropertyIdent>version</ApplicPropertyIdent>
+              <ApplicPropertyType>prodattr</ApplicPropertyType>
+              <ApplicPropertyValues>Mk9</ApplicPropertyValues>
+            </Assert>
+          </Evaluate>
+        </Evaluate>
+      </Applic>
+    </Section>
+    <Section>
+      <Heading>6. Tech Order</Heading>
+      <TechOrder>
+        <Task>
+          <TaskIdent>001</TaskIdent>
+          <TaskTitle>Perform inspection</TaskTitle>
+        </Task>
+      </TechOrder>
+    </Section>
+    <Section>
+      <Heading>7. Fault Information</Heading>
+      <FaultInformation>
+        <LRU>
+          <LRUName>Wheel</LRUName>
+          <SerialNumber>1234567890</SerialNumber>
+        </LRU>
+        <Component>
+          <ComponentName>Tire</ComponentName>
+          <PartNumber>9876543210</PartNumber>
+        </Component>
+        <FaultDescription>Flat tire due to puncture.</FaultDescription>
+      </FaultInformation>
+    </Section>
+  </DMContent>
+</DataModule>

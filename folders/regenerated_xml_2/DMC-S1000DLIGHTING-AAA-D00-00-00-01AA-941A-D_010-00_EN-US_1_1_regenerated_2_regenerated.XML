@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DMC-S1000DLIGHTINGConfiguration xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <ConfigurationDetails>
+    <ConfigurationName>DMC-S1000DLIGHTING Configuration</ConfigurationName>
+    <ConfigurationVersion>AAA-D00-00-00-01AA-941A-D_010-00</ConfigurationVersion>
+    <Localization>
+      <Language>EN</Language>
+      <Country>US</Country>
+      <Version>1.1</Version>
+    </Localization>
+  </ConfigurationDetails>
+  <SystemConfiguration>
+    <GeneralSettings>
+      <Setting name="SystemName" value="Main Lighting System"/>
+      <Setting name="Timezone" value="America/Los_Angeles"/>
+      <Setting name="Units" value="Imperial"/>
+    </GeneralSettings>
+    <NetworkSettings>
+      <IPAddress>192.168.1.100</IPAddress>
+      <SubnetMask>255.255.255.0</SubnetMask>
+      <Gateway>192.168.1.1</Gateway>
+    </NetworkSettings>
+  </SystemConfiguration>
+  <LightingZones>
+    <Zone id="1" name="Living Room">
+      <Description>Main living area lighting</Description>
+      <Lights>
+        <Light type="Ceiling" id="101" brightness="100" color="WarmWhite"/>
+        <Light type="Lamp" id="102" brightness="60" color="CoolWhite"/>
+      </Lights>
+    </Zone>
+    <Zone id="2" name="Kitchen">
+      <Description>Kitchen area lighting</Description>
+      <Lights>
+        <Light type="Ceiling" id="201" brightness="80" color="Daylight"/>
+      </Lights>
+    </Zone>
+  </LightingZones>
+  <Schedules>
+    <Schedule id="1" name="WeekdayMorning">
+      <StartTime>06:00</StartTime>
+      <EndTime>08:00</EndTime>
+      <Zones>
+        <ZoneId>1</ZoneId>
+        <ZoneId>2</ZoneId>
+      </Zones>
+      <Brightness>50</Brightness>
+    </Schedule>
+  </Schedules>
+</DMC-S1000DLIGHTINGConfiguration>

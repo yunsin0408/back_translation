@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00EA-D_004-00_EN-US_1_1 - Functional Module Documentation</title>
+  <section>
+    <heading>1. Overview</heading>
+    <content>This document details a functional module for bicycle electrical systems, outlining components, installation locations, and identifiers.</content>
+  </section>
+  <section>
+    <heading>2. Module Metadata</heading>
+    <list>
+      <item>Module Type: Electrical System / Component Module</item>
+      <item>Applicable Vehicle: Bicycle</item>
+      <item>Purpose: Defines the functional components and installation details for the bicycle's electrical system.</item>
+    </list>
+  </section>
+  <section>
+    <heading>3. Applicable Models</heading>
+    <list>
+      <item>Mountain Bike: (Inferred, based on component selection)</item>
+      <item>Hybrid Bike: (Inferred, based on component selection)</item>
+    </list>
+  </section>
+  <section>
+    <heading>4. Components and Installation Details</heading>
+    <content>The following table details the functional components and their installation locations. "Installation Type" refers to the type of mounting or integration method.</content>
+    <table>
+      <header>
+        <cell>Component Name</cell>
+        <cell>Functional Identifier</cell>
+        <cell>Installation Identifier</cell>
+        <cell>Installation Type</cell>
+        <cell>Installation Location (cm)</cell>
+        <cell>Notes</cell>
+      </header>
+      <row>
+        <cell>Front Light</cell>
+        <cell>L1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Rear Light</cell>
+        <cell>L2</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Front Tachometer</cell>
+        <cell>FT1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>10</cell>
+        <cell>GT-002-WD</cell>
+      </row>
+      <row>
+        <cell>Rear Tachometer</cell>
+        <cell>FT2</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>10</cell>
+        <cell>GT-004-WD</cell>
+      </row>
+      <row>
+        <cell>Side Tachometer</cell>
+        <cell>FT3</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>10</cell>
+        <cell>GT-004-WD</cell>
+      </row>
+      <row>
+        <cell>Front Light</cell>
+        <cell>L1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Rear Light</cell>
+        <cell>L2</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Front Light</cell>
+        <cell>L1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Rear Light</cell>
+        <cell>L2</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Front Tachometer</cell>
+        <cell>T01</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>6</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Front Light</cell>
+        <cell>L1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Rear Light</cell>
+        <cell>L2</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Front Light</cell>
+        <cell>L1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Rear Light</cell>
+        <cell>L2</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Diode</cell>
+        <cell>Diode</cell>
+        <cell>d1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>Zone 100</cell>
+      </row>
+      <row>
+        <cell>Diode</cell>
+        <cell>Diode</cell>
+        <cell>d2</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>Zone 300</cell>
+      </row>
+      <row>
+        <cell>Sensor</cell>
+        <cell>Sensor</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>2</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Connector</cell>
+        <cell>C_Batt</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>Sealed</cell>
+      </row>
+      <row>
+        <cell>Connector</cell>
+        <cell>C_Bike</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>60</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Distribution Module</cell>
+        <cell>VV1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>25</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Relay</cell>
+        <cell>Rel</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>95</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Speed Sensor</cell>
+        <cell>Sensor</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>2</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Switch</cell>
+        <cell>S1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>30</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Front Light</cell>
+        <cell>L1</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+      <row>
+        <cell>Rear Light</cell>
+        <cell>L2</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+        <cell>N/A</cell>
+      </row>
+    </table>
+    <section>
+      <heading>Notes:</heading>
+      <list>
+        <item>`N/A` indicates information not available in the provided data.</item>
+        <item>Installation locations are provided in centimeters.</item>
+        <item>The zones refer to specific areas on the bicycle frame or components.</item>
+      </list>
+    </section>
+  </section>
+  <section>
+    <heading>5. Functional Identifiers</heading>
+    <list>
+      <item>L1, L2: Lights.</item>
+      <item>T01, FT1, FT2, FT3: Tachometers.</item>
+      <item>Diode: Diodes.</item>
+      <item>Sensor: Speed Sensors</item>
+      <item>C_Batt, C_Bike: Connectors.</item>
+      <item>VV1: Distribution Module.</item>
+      <item>Rel: Relay.</item>
+      <item>S1: Switch.</item>
+    </list>
+  </section>
+  <section>
+    <heading>6. Further Information</heading>
+    <content>For further information, please contact the manufacturer.</content>
+  </section>
+</proced>

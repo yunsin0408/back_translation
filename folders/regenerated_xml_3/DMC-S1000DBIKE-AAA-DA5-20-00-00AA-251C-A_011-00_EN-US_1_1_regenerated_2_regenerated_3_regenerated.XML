@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_011-00_EN-US_1_1_regenerated_2_regenerated.XML - Bicycle Hub Cleaning and Maintenance Procedure</title>
+  <content>
+    <section>
+      <title>1. Introduction</title>
+      <paragraph>This document outlines the procedure for cleaning and maintaining a bicycle hub.</paragraph>
+    </section>
+    <section>
+      <title>2. Ident and Status</title>
+      <paragraph>(Details about ident and status would be present in a full document, but are omitted here for brevity as they are technical metadata.)</paragraph>
+    </section>
+    <section>
+      <title>3. Preliminary Requirements</title>
+      <subsection>
+        <title>3.1 Prerequisites</title>
+        <list>
+          <item>Rear wheel removed.</item>
+        </list>
+      </subsection>
+      <subsection>
+        <title>3.2 Personnel</title>
+        <personnel>
+          <supervisor>
+            <role>B</role>
+            <description>Bicycle mechanic, estimated time: 0.8 hours.</description>
+          </supervisor>
+          <operator>
+            <role>A</role>
+            <description>Basic user, estimated time: 0.3 hours.</description>
+          </operator>
+        </personnel>
+      </subsection>
+      <subsection>
+        <title>3.3 Support Equipment</title>
+        <toolset>
+          <identifier>(KZ666 - BSK-TLST-001)</identifier>
+          <quantity>1</quantity>
+        </toolset>
+      </subsection>
+      <subsection>
+        <title>3.4 Supplies</title>
+        <supply>
+          <identifier>(KZ222 - LL-004)</identifier>
+          <quantity>As required</quantity>
+          <name>Degreasing Agent</name>
+        </supply>
+        <supply>
+          <identifier>(KZ222 - LL-005)</identifier>
+          <quantity>As required</quantity>
+          <name>General Grease</name>
+        </supply>
+      </subsection>
+      <subsection>
+        <title>3.5 Spares</title>
+        <paragraph>No spares required.</paragraph>
+      </subsection>
+      <subsection>
+        <title>3.6 Safety</title>
+        <paragraph>No specific safety requirements.</paragraph>
+      </subsection>
+    </section>
+    <section>
+      <title>4. Procedure</title>
+      <subsection>
+        <title>4.1 Step 1: Remove the Axle</title>
+        <title>Remove the Axle</title>
+        <paragraph>Remove the axle.</paragraph>
+        <paragraph>Use the cone-wrench from the specialist toolset and remove the locknut from one side of the axle.</paragraph>
+        <paragraph>Remove the washer and the cone from the axle.</paragraph>
+        <caution>Make sure you do not lose the bearings from the hub. Be prepared to catch the bearings if they fall out. Missing bearings can cause damage to the hub.</caution>
+        <paragraph>Pull the axle out from the other side as shown in **Figure 1**.</paragraph>
+        <figure>
+          <title>Removing the axle</title>
+          <image>(ICN-C0419-S1000D0401-001-01)</image>
+        </figure>
+      </subsection>
+      <subsection>
+        <title>4.2 Step 2: Remove the Bearings</title>
+        <title>Remove the Bearings</title>
+        <paragraph>Remove the bearings.</paragraph>
+        <paragraph>Use a small screwdriver from the specialist toolset and remove the bearings from their races.</paragraph>
+        <paragraph>Make sure that each side of the hub has the same number of bearings.</paragraph>
+        <paragraph>Use the degreasing agent and clean all the parts of the hub.</paragraph>
+        <paragraph>Check the axle to make sure that it is straight.</paragraph>
+        <paragraph>Examine the bearing contact area on the cones and the races in the hub for pitting and other signs of damage.</paragraph>
+        <paragraph>Check the ball bearings for signs of damage.</paragraph>
+        <paragraph>Apply a large quantity of general grease on each hub race.</paragraph>
+      </subsection>
+      <subsection>
+        <title>4.3 Step 3: Assemble the Hub</title>
+        <title>Assemble the Hub</title>
+        <paragraph>Assemble the hub.</paragraph>
+        <paragraph>Install the ball bearings into the races and push them into the grease.</paragraph>
+        <paragraph>Apply more grease on the tops of the bearings.</paragraph>
+        <paragraph>Install the axle through the hub.</paragraph>
+        <paragraph>Install the cone, the washer and the locknut on the other side of the axle.</paragraph>
+        <paragraph>Use the cone-wrench from the specialist toolset and carefully tighten the locknut.</paragraph>
+      </subsection>
+    </section>
+    <section>
+      <title>5. Close Requirements</title>
+      <paragraph>No specific close requirements.</paragraph>
+    </section>
+  </content>
+</procedure>

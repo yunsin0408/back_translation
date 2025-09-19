@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_1 - Bicycle Pre-Ride Check Procedure</title>
+  <content>
+    <p>This document outlines the pre-ride check procedure for bicycles, covering key areas to ensure safety and optimal performance.</p>
+    <h2>1. Introduction</h2>
+    <p>This document outlines the pre-ride check procedure for bicycles, covering key areas to ensure safety and optimal performance.</p>
+    <h2>2. Brakes</h2>
+    <h3>2.1. Item 1</h3>
+    <task>Check Pads</task>
+    <description>Ensure brake pads have sufficient material.</description>
+    <h3>2.2. Item 2</h3>
+    <task>Lever Action</task>
+    <description>Verify smooth and firm lever action.</description>
+    <h2>3. Tires</h2>
+    <h3>3.1. Item 1</h3>
+    <task>Inflation</task>
+    <description>Check tire pressure. Recommended ranges:</description>
+    <ul>
+      <li>On Road: 55-60 psi</li>
+      <li>Off Road: 35-40 psi</li>
+    </ul>
+    <h3>3.2. Item 2</h3>
+    <task>Condition</task>
+    <description>Inspect tires for cracks, splits, or embedded objects.</description>
+    <h2>4. Wheels</h2>
+    <h3>4.1. Item 1</h3>
+    <task>Bearings</task>
+    <description>Check for loose bearings.</description>
+    <h3>4.2. Item 2</h3>
+    <task>Trueness</task>
+    <description>Ensure wheels are true (not wobbling).</description>
+    <h3>4.3. Item 3</h3>
+    <task>Spokes</task>
+    <description>Verify spokes are not broken and are tight.</description>
+    <h3>4.4. Item 4</h3>
+    <task>Axle Nuts</task>
+    <description>Ensure axle nuts are tight.</description>
+    <h2>5. Headset</h2>
+    <h3>5.1. Item 1</h3>
+    <task>Tightness</task>
+    <description>Check for headset bearing tightness. Ensure smooth steering operation.</description>
+    <h2>6. Chain</h2>
+    <h3>6.1. Item 1</h3>
+    <task>Movement</task>
+    <description>Verify easy movement of chain links.</description>
+    <h2>7. Handlebar and Stem</h2>
+    <h3>7.1. Item 1</h3>
+    <task>Stem Condition</task>
+    <description>*Warning: Do not ride with a cracked stem.*</description>
+    <ul>
+      <li>If stem is cracked: Replace stem.</li>
+      <li>If stem is loose: Tighten stem.</li>
+    </ul>
+    <h3>7.2. Item 2</h3>
+    <task>Clamp Bolt</task>
+    <description>If handlebars twist in stem: Tighten clamp bolt.</description>
+    <h2>8. Computer (if equipped)</h2>
+    <h3>8.1. Item 1</h3>
+    <task>Display Readings</task>
+    <description>Verify the computer displays appropriate readings. Example readings (may vary by model):</description>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Reading</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Altitude</td>
+          <td>0 miles</td>
+        </tr>
+        <tr>
+          <td>Speed</td>
+          <td>0 mph</td>
+        </tr>
+        <tr>
+          <td>Distance</td>
+          <td>0 miles</td>
+        </tr>
+      </tbody>
+    </table>
+    <note>Color Coding on Computer Display:</note>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Color</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Altitude</td>
+          <td>co04</td>
+        </tr>
+        <tr>
+          <td>Speed</td>
+          <td>co02, co04</td>
+        </tr>
+        <tr>
+          <td>Distance</td>
+          <td>co51</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>9. Appendix</h2>
+    <h3>9.1. Appendix: Color Codes</h3>
+    <ul>
+      <li>co02: (Specific color - consult documentation)</li>
+      <li>co04: (Specific color - consult documentation)</li>
+      <li>co51: (Specific color - consult documentation)</li>
+    </ul>
+  </content>
+</proced>

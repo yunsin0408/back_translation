@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdentAndStatusSection>
+    <dmAddress>
+      <modelIdentCode>S1000DBIKE</modelIdentCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>D05</systemCode>
+      <subSystemCode>4</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assyCode>00</assyCode>
+      <disassyCode>00</disassyCode>
+      <disassyCodeVariant>AA</disassyCodeVariant>
+      <infoCode>000</infoCode>
+      <infoCodeVariant>A</infoCodeVariant>
+      <itemLocationCode>A</itemLocationCode>
+      <countryIsoCode>US</countryIsoCode>
+      <languageIsoCode>en</languageIsoCode>
+      <issueNumber>010</issueNumber>
+      <inWork>00</inWork>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+    </dmStatus>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </security>
+    <dataRights/>
+    <reasonForUpdate>
+      <id>rfu_general</id>
+      <updateReasonType>urt03</updateReasonType>
+      <simplePara>S1000D upissued</simplePara>
+    </reasonForUpdate>
+    <systemBreakdownCode>
+      <code>BY</code>
+    </systemBreakdownCode>
+    <qualityAssurance>
+      <firstVerification>tabtop</firstVerification>
+    </qualityAssurance>
+    <reasonForUpdate>
+      <id>rfu_general</id>
+      <updateReasonType>urt03</updateReasonType>
+      <simplePara>S1000D upissued</simplePara>
+    </reasonForUpdate>
+  </dmIdentAndStatusSection>
+  <content>
+    <maintenancePlanning>
+      <inspectionDefinition>
+        <inspection>
+          <limit>
+            <limitType>oc</limitType>
+            <limitCond>Pre-ride</limitCond>
+            <threshold>
+              <thresholdUnitOfMeasure>th04</thresholdUnitOfMeasure>
+              <thresholdValue>1</thresholdValue>
+              <tolerance>
+                <toleranceType>plusorminus</toleranceType>
+                <toleranceValue>1</toleranceValue>
+              </tolerance>
+            </threshold>
+          </limit>
+          <inspectionType>Pre</inspectionType>
+          <limitRange>
+            <limitRangeFrom>
+              <threshold>
+                <thresholdUnitOfMeasure>th04</thresholdUnitOfMeasure>
+                <thresholdValue>1</thresholdValue>
+                <tolerance>
+                  <toleranceType>plusorminus</toleranceType>
+                  <toleranceValue>1</toleranceValue>
+                </tolerance>
+              </threshold>
+            </limitRangeFrom>
+          </limitRange>
+        </inspection>
+        <taskGroup>
+          <Task Item 1 seq="001">
+            <taskName>Inspect Brakes</taskName>
+            <refs>
+              <dmRef>
+                <dmRefIdent>
+                  <dmCode>
+                    <modelIdentCode>S1000DBIKE</modelIdentCode>
+                    <systemDiffCode>AAA</systemDiffCode>
+                    <systemCode>D00</systemCode>
+                    <subSystemCode>0</subSystemCode>
+                    <subSubSystemCode>0</subSubSystemCode>
+                    <assyCode>00</assyCode>
+                    <disassyCode>00</disassyCode>
+                    <disassyCodeVariant>AA</disassyCodeVariant>
+                    <infoCode>121</infoCode>
+                    <infoCodeVariant>A</infoCodeVariant>
+                    <itemLocationCode>A</itemLocationCode>
+                  </dmCode>
+                </dmRefIdent>
+              </dmRef>
+            </refs>
+            <task>
+              <taskDescr>To do an inspection of the brakes</taskDescr>
+            </task>
+          </Task Item 1>
+          <Task Item 2 seq="002">
+            <taskName>Inspect brakes installation</taskName>
+            <refs>
+              <dmRef>
+                <dmRefIdent>
+                  <dmCode>
+                    <modelIdentCode>S1000DBIKE</modelIdentCode>
+                    <systemDiffCode>AAA</systemDiffCode>
+                    <systemCode>D00</systemCode>
+                    <subSystemCode>0</subSystemCode>
+                    <subSubSystemCode>0</subSubSystemCode>
+                    <assyCode>00</assyCode>
+                    <disassyCode>00</disassyCode>
+                    <disassyCodeVariant>AA</disassyCodeVariant>
+                    <infoCode>121</infoCode>
+                    <infoCodeVariant>A</infoCodeVariant>
+                    <itemLocationCode>A</itemLocationCode>
+                  </dmCode>
+                </dmRefIdent>
+              </dmRef>
+            </refs>
+            <task>
+              <taskDescr>To do an inspection of the brakes installation</taskDescr>
+            </task>
+          </Task Item 2>
+          <Task Item 3 seq="003">
+            <taskName>Check Tire Pressure</taskName>
+            <refs>
+              <dmRef>
+                <dmRefIdent>
+                  <dmCode>
+                    <modelIdentCode>S1000DBIKE</modelIdentCode>
+                    <systemDiffCode>AAA</systemDiffCode>
+                    <systemCode>D00</systemCode>
+                    <subSystemCode>0</subSystemCode>
+                    <subSubSystemCode>0</subSubSystemCode>
+                    <assyCode>00</assyCode>
+                    <disassyCode>00</disassyCode>
+                    <disassyCodeVariant>AA</disassyCodeVariant>
+                    <infoCode>121</infoCode>
+                    <infoCodeVariant>A</infoCodeVariant>
+                    <itemLocationCode>A</itemLocationCode>
+                  </dmCode>
+                </dmRefIdent>
+              </dmRef>
+            </refs>
+            <task>
+              <taskDescr>To do a check of the chain</taskDescr>
+            </task>
+          </Task Item 3>
+          <Task Item 4 seq="006">
+            <taskName>Carry out chain checks</taskName>
+            <refs>
+              <dmRef>
+                <dmRefIdent>
+                  <dmCode>
+                    <modelIdentCode>S1000DBIKE</modelIdentCode>
+                    <systemDiffCode>AAA</systemDiffCode>
+                    <systemCode>D00</systemCode>
+                    <subSystemCode>0</subSystemCode>
+                    <subSubSystemCode>0</subSubSystemCode>
+                    <assyCode>00</assyCode>
+                    <disassyCode>00</disassyCode>
+                    <disassyCodeVariant>AA</disassyCodeVariant>
+                    <infoCode>121</infoCode>
+                    <infoCodeVariant>A</infoCodeVariant>
+                    <itemLocationCode>A</itemLocationCode>
+                  </dmCode>
+                </dmRefIdent>
+              </dmRef>
+            </refs>
+            <task>
+              <taskDescr>To do a check of the chain</taskDescr>
+            </task>
+          </Task Item 4>
+        </taskGroup>
+      </inspectionDefinition>
+    </maintenancePlanning>
+  </content>
+</proced>

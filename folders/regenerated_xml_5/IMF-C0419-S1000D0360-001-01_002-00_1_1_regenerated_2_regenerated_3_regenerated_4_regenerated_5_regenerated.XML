@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procedureTitle>IMF-C0419-S1000D0360-001-01_002-00_1_1 - Procedure Document</procedureTitle>
+  <dataItem>
+    <title>IMF-C0419-S1000D0360-001-01_002-00_1_1 - Bicycle</title>
+  </dataItem>
+  <section>
+    <sectionTitle>Data Item</sectionTitle>
+    <title>Data Item: IMF-C0419-S1000D0360-001-01_002-00_1_1 - Bicycle</title>
+    <section>
+      <sectionTitle>IMF Ident and Status Section</sectionTitle>
+      <section>
+        <sectionTitle>IMF Address</sectionTitle>
+        <section>
+          <sectionTitle>IMF Ident</sectionTitle>
+          <data>
+            <dataCode>imfCode</dataCode>
+            <dataCode>imfIdentIcn</dataCode>
+            <value>C0419-S1000D0360-001-01</value>
+          </data>
+          <data>
+            <dataCode>issueInfo</dataCode>
+            <dataCode>issueNumber</dataCode>
+            <value>002</value>
+          </data>
+          <data>
+            <dataCode>issueInfo</dataCode>
+            <dataCode>inWork</dataCode>
+            <value>00</value>
+          </data>
+        </section>
+        <section>
+          <sectionTitle>IMF Address Items</sectionTitle>
+          <data>
+            <dataCode>icnTitle</dataCode>
+            <value>Bicycle</value>
+          </data>
+          <data>
+            <dataCode>issueDate</dataCode>
+            <dataCode>year</dataCode>
+            <value>2024</value>
+          </data>
+          <data>
+            <dataCode>issueDate</dataCode>
+            <dataCode>month</dataCode>
+            <value>06</value>
+          </data>
+          <data>
+            <dataCode>issueDate</dataCode>
+            <dataCode>day</dataCode>
+            <value>19</value>
+          </data>
+        </section>
+        <section>
+          <sectionTitle>ICN Keyword Group</sectionTitle>
+          <data>
+            <dataCode>icnKeyword</dataCode>
+            <value>mountain</value>
+          </data>
+          <data>
+            <dataCode>icnKeyword</dataCode>
+            <value>mountain bike</value>
+          </data>
+          <data>
+            <dataCode>icnKeyword</dataCode>
+            <value>Mk1</value>
+          </data>
+          <data>
+            <dataCode>icnKeyword</dataCode>
+            <value>Mk9</value>
+          </data>
+        </section>
+      </section>
+      <section>
+        <sectionTitle>IMF Status</sectionTitle>
+        <section>
+          <sectionTitle>Security</sectionTitle>
+          <data>
+            <dataCode>security</dataCode>
+            <dataCode>securityClassification</dataCode>
+            <value>01</value>
+          </data>
+          <data>
+            <dataCode>security</dataCode>
+            <dataCode>commercialClassification</dataCode>
+            <value>cc51</value>
+          </data>
+        </section>
+        <section>
+          <sectionTitle>Data Restrictions</sectionTitle>
+        </section>
+      </section>
+      <section>
+        <sectionTitle>Restriction Instructions</sectionTitle>
+        <data>
+          <dataCode>dataDistribution</dataCode>
+          <paragraph>To be made available to all S1000D users.</paragraph>
+        </data>
+        <data>
+          <dataCode>exportControl</dataCode>
+          <paragraph>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</paragraph>
+        </data>
+        <data>
+          <dataCode>dataHandling</dataCode>
+          <paragraph>There are no specific handling instructions for this data module.</paragraph>
+        </data>
+        <data>
+          <dataCode>dataDestruction</dataCode>
+          <paragraph>Users may destroy this data module in accordance with their own local procedures.</paragraph>
+        </data>
+        <data>
+          <dataCode>dataDisclosure</dataCode>
+          <paragraph>There are no dissemination limitations that apply to this data module.</paragraph>
+        </data>
+      </section>
+      <section>
+        <sectionTitle>Restriction Info</sectionTitle>
+        <data>
+          <dataCode>copyright</dataCode>
+          <paragraph>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</paragraph>
+          <data>
+            <dataCode>publishers</dataCode>
+            <data>
+              <dataCode>randomList</dataCode>
+              <data>
+                <dataCode>publisher</dataCode>
+                <value>Aerospace, Security and Defence Industries Association of Europe</value>
+              </data>
+              <data>
+                <dataCode>publisher</dataCode>
+                <value>Aerospace Industries Association of America</value>
+              </data>
+              <data>
+                <dataCode>publisher</dataCode>
+                <value>ATA e-Business Program</value>
+              </data>
+            </data>
+          </data>
+        </data>
+        <data>
+          <dataCode>limitationsOfLiability</dataCode>
+          <data>
+            <dataCode>randomList</dataCode>
+            <data>
+              <dataCode>limitation</dataCode>
+              <value>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</value>
+            </data>
+            <data>
+              <dataCode>limitation</dataCode>
+              <value>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</value>
+            </data>
+            <data>
+              <dataCode>limitation</dataCode>
+              <value>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</value>
+            </data>
+          </data>
+        </data>
+        <data>
+          <dataCode>copyrightDetails</dataCode>
+          <value>The details for copyright can be found in the S1000D Specification.</value>
+        </data>
+        <data>
+          <dataCode>policyStatement</dataCode>
+          <value>S1000D-SC-2016-017-002-00 Steering Committee TOR</value>
+        </data>
+        <data>
+          <dataCode>dataConds</dataCode>
+          <value>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</value>
+        </data>
+      </section>
+      <section>
+        <sectionTitle>Responsible Partner Company</sectionTitle>
+        <data>
+          <dataCode>enterpriseCode</dataCode>
+          <value>B6865</value>
+        </data>
+        <data>
+          <dataCode>enterpriseName</dataCode>
+          <value>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</value>
+        </data>
+      </section>
+      <section>
+        <sectionTitle>Originator</sectionTitle>
+        <data>
+          <dataCode>enterpriseCode</dataCode>
+          <value>B6865</value>
+        </data>
+        <data>
+          <dataCode>enterpriseName</dataCode>
+          <value>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</value>
+        </data>
+      </section>
+      <section>
+        <sectionTitle>Brex Dm Ref</sectionTitle>
+        <data>
+          <dataCode>dmRef</dataCode>
+          <data>
+            <dataCode>dmRefIdent</dataCode>
+            <data>
+              <dataCode>dmCode</dataCode>
+              <dataCode>modelIdentCode</dataCode>
+              <value>S1000DBike</value>
+            </data>
+            <data>
+              <dataCode>dmCode</dataCode>
+              <dataCode>issueNumber</dataCode>
+              <value>001</value>
+            </data>
+            <data>
+              <dataCode>dmCode</dataCode>
+              <dataCode>effectiveDate</dataCode>
+              <value>2024-01-01</value>
+            </data>
+          </data>
+        </data>
+      </section>
+    </section>
+  </section>
+  <section>
+    <sectionTitle>Applicability</sectionTitle>
+    <paragraph>Not applicable</paragraph>
+  </section>
+</procedure>

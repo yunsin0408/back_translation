@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procedId>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-040A-A_010-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated_4_regenerated</procedId>
+  <procStep>
+    <procStepId>1</procStepId>
+    <procStepTitle>Proced Id</procStepTitle>
+    <procStepData>
+      <procStepDataId>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-040A-A_010-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated</procStepDataId>
+    </procStep>
+  </procStep>
+  <procStep>
+    <procStepId>2</procStepId>
+    <procStepTitle>DM Address</procStepTitle>
+    <procStep>
+      <procStepId>3</procStepId>
+      <procStepTitle>DM Ident</procStepTitle>
+      <procStepData>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>040</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+        <language>US (en)</language>
+      </procStepData>
+    </procStep>
+    <procStep>
+      <procStepId>4</procStepId>
+      <procStepTitle>Issue Info</procStepTitle>
+      <procStepData>
+        <issueNumber>010</issueNumber>
+        <inWork>00</inWork>
+      </procStepData>
+    </procStep>
+    <procStep>
+      <procStepId>5</procStepId>
+      <procStepTitle>DM Address Items</procStepTitle>
+      <procStepData>
+        <issueDate>2024-06-19</issueDate>
+        <dmTitle>
+          <techName>Electrical system</techName>
+          <infoName>Description of how it is made and its function</infoName>
+        </dmTitle>
+      </procStepData>
+    </procStep>
+  </procStep>
+  <procStep>
+    <procStepId>6</procStepId>
+    <procStepTitle>DM Status</procStepTitle>
+    <procStepData>
+      <issueType>changed</issueType>
+    </procStepData>
+  </procStep>
+  <procStep>
+    <procStepId>7</procStepId>
+    <procStepTitle>Security</procStepTitle>
+    <procStepData>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+      <classificationActionGroup>
+        <dcgId>dcg-001</dcgId>
+        <action>
+          <actionDate>2012-03-15</actionDate>
+          <actionIdentifier>ai01</actionIdentifier>
+          <actionDescription>Classified By</actionDescription>
+          <businessUnit>ASD Couriers</businessUnit>
+          <contactPerson>Clifford</contactPerson>
+          <derivativeSource>Bike Security Guidance Book 1</derivativeSource>
+        </action>
+        <action>
+          <actionDate>2012-11-02</actionDate>
+          <actionIdentifier>ai09</actionIdentifier>
+          <actionDescription>Upgrade to securityClassification 04</actionDescription>
+          <valueAfterAction>2013-03-15</valueAfterAction>
+          <valueAfterActionIdentifier>ai02</valueAfterActionIdentifier>
+          <businessUnit>ASD Couriers</businessUnit>
+          <contactPerson>Wink</contactPerson>
+          <derivativeSource/>
+        </action>
+      </classificationActionGroup>
+      <classificationActionGroup>
+        <dcgId>dcg-002</dcgId>
+        <action>
+          <actionDate>2012-01-02</actionDate>
+          <actionIdentifier>ai01</actionIdentifier>
+          <actionDescription>Classified By</actionDescription>
+          <businessUnit>Calm Security</businessUnit>
+          <contactPerson>Calm</contactPerson>
+          <derivativeSource>Bike Security Guidance Book 2</derivativeSource>
+        </action>
+        <action>
+          <actionDate>2012-04-01</actionDate>
+          <actionIdentifier>ai02</actionIdentifier>
+          <actionDescription>Declassify On</actionDescription>
+          <businessUnit>ASD Couriers</businessUnit>
+          <contactPerson>Clifford</contactPerson>
+          <derivativeSource>Bike Security Guidance Book 1</derivativeSource>
+        </action>
+      </classificationActionGroup>
+    </procStepData>
+  </procStep>
+  <procStep>
+    <procStepId>8</procStepId>
+    <procStepTitle>Responsible Partner Company</procStepTitle>
+    <procStepData>
+      <enterpriseCode>B6865</enterpriseCode>
+      <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </procStepData>
+  </procStep>
+  <procStep>
+    <procStepId>9</procStepId>
+    <procStepTitle>Originator</procStepTitle>
+    <procStepData>
+      <enterpriseCode>B6865</enterpriseCode>
+      <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </procStepData>
+  </procStep>
+  <procStep>
+    <procStepId>10</procStepId>
+    <procStepTitle>Applic Cross-Reference Table Ref</procStepTitle>
+    <procStep>
+      <procStepId>11</procStepId>
+      <procStepTitle>DM Ref</procStepTitle>
+      <procStep>
+        <procStepId>12</procStepId>
+        <procStepTitle>DM Ref Ident</procStepTitle>
+        <procStepData>
+          <dmCode>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>00W</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>D</itemLocationCode>
+          </dmCode>
+          <applicRef>app-00000000AA040A-0000</applicRef>
+        </procStepData>
+      </procStep>
+    </procStep>
+  </procStep>
+  <procStep>
+    <procStepId>13</procStepId>
+    <procStepTitle>Tech</procStepTitle>
+    <procStepData>
+      <techName>Tech</techName>
+    </procStepData>
+  </procStep>
+  <procStep>
+    <procStepId>14</procStepId>
+    <procStepTitle>Content</procStepTitle>
+    <procStepData>
+      <level>Level</level>
+    </procStepData>
+  </procStep>
+  <procStep>
+    <procStepId>15</procStepId>
+    <procStepTitle>Description</procStepTitle>
+    <procStepData>
+      <description>Description</description>
+    </procStepData>
+  </procStep>
+  <procStep>
+    <procStepId>16</procStepId>
+    <procStepTitle>Content</procStepTitle>
+    <procStepData>
+      <level>Level</level>
+    </procStepData>
+  </procStep>
+  <procStep>
+    <procStepId>17</procStepId>
+    <procStepTitle>Description</procStepTitle>
+    <procStepData>
+      <description>Description</description>
+    </procStepData>
+  </procStep>
+  <procStep>
+    <procStepId>18</procStepId>
+    <procStepTitle>Image</procStepTitle>
+    <procStepData>
+      <image>Image</image>
+    </procStepData>
+  </procStep>
+</proced>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-024A-D_003-00_EN-US_1_1_regenerated_2_regenerated.XML - Bike Business Rules Document</title>
+  <content>
+    <paragraph>This document represents the converted markdown from the provided XML file, detailing business rules for the Bike project.</paragraph>
+    <heading level="2">Introduction</heading>
+    <paragraph>This document outlines the business rules defined for the Bike project, based on the provided XML data.</paragraph>
+    <heading level="2">Content</heading>
+    <heading level="3">Section: Content</heading>
+    <heading level="4">Overview</heading>
+    <paragraph>This document details various business rules categorized by their nature. Many rules relate to configurable attributes, quality assurance, and content requirements.</paragraph>
+    <heading level="4">Business Rules</heading>
+    <heading level="5">1. Data Validation &amp; Configuration (Configurable Attributes)</heading>
+    <paragraph>The following rules define valid values for configurable attributes within the Bike data set. These attributes are often used for filtering, categorization, and reporting.</paragraph>
+    <list>
+      <item>
+        <bold>Threshold Interval Unit</bold>
+        <list>
+          <item>Valid units of measurement for threshold intervals include:</item>
+          <list>
+            <item>Months</item>
+            <item>Weeks</item>
+            <item>Years</item>
+            <item>Days</item>
+            <item>Shop visits</item>
+            <item>Auxiliary power unit change</item>
+            <item>Wheel change</item>
+            <item>kilometer</item>
+          </list>
+        </list>
+      </item>
+      <item>
+        <bold>Attribute Source Type Code</bold>
+        <list>
+          <item>Valid source types include:</item>
+          <list>
+            <item>fec</item>
+            <item>sample</item>
+          </list>
+        </list>
+      </item>
+      <item>
+        <bold>Attribute Source Criticality</bold>
+        <list>
+          <item>Valid criticality levels include:</item>
+          <list>
+            <item>Evident, Safety</item>
+            <item>Evident, operational</item>
+            <item>Evident, Economic</item>
+            <item>Hidden, Safety</item>
+            <item>Hidden, Non-Safety</item>
+          </list>
+        </list>
+      </item>
+      <item>
+        <bold>Task Code</bold>
+        <list>
+          <item>Valid task codes include:</item>
+          <list>
+            <item>Detailed inspection (DET)</item>
+            <item>Discard (DIS)</item>
+            <item>Functional Check (FNC)</item>
+            <item>General visual inspection (GVI)</item>
+            <item>Lubrication (LUB)</item>
+            <item>Operational check (OPC)</item>
+            <item>Restoration (RST)</item>
+            <item>Servicing (SVC)</item>
+            <item>Visual check (VCK)</item>
+          </list>
+        </list>
+      </item>
+      <item>
+        <bold>Limit Type</bold>
+        <list>
+          <item>Valid limit types include:</item>
+          <list>
+            <item>Time between overhaul</item>
+            <item>Hard time</item>
+            <item>Since last maintenance</item>
+            <item>Out time limit</item>
+            <item>On condition</item>
+            <item>Check maintenance</item>
+            <item>Functional check</item>
+          </list>
+        </list>
+      </item>
+      <item>
+        <bold>Origin of Equipment/Harness/Wire</bold>
+        <list>
+          <item>Valid origins include:</item>
+          <list>
+            <item>Manufacturer</item>
+            <item>Vendor</item>
+            <item>Partner</item>
+          </list>
+        </list>
+      </item>
+    </list>
+    <heading level="5">2. Quality Assurance &amp; Process</heading>
+    <paragraph>Bike data modules *must* be reviewed and approved by the EPWG (Engineering Product Working Group) before publication.</paragraph>
+    <heading level="5">3. Content &amp; Data Requirements</heading>
+    <paragraph>The Bike data set *must* contain examples demonstrating the application of constructs and principles representing various levels of conceptual sophistication.</paragraph>
+    <heading level="3">Notes</heading>
+    <paragraph>The categorization of some rules is based on interpretation of the provided data. It may be appropriate to re-categorize them based on further analysis or project needs. Rules pertaining to configurable attributes are considered data validation rules.</paragraph>
+  </content>
+</proced>

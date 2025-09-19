@@ -1,0 +1,90 @@
+```markdown
+# DMC-S1000DBIKE-AAA-D00-00-01-00AA-930A-A_004-00_EN-US_1_1_regenerated
+
+## Service Bulletin Material Information
+
+### Content
+
+#### Service Bulletin Content
+
+This document details material information associated with a service bulletin.
+
+##### Material Information
+
+###### Support Equipment
+
+No support equipment is listed.
+
+###### Material Summary
+
+* **Total Parts:** 18
+* **Total Removed Parts:** 7
+* **Total Consumables:** 0
+
+###### Material Details
+
+###### Supply Parts
+
+| Part Number | Qty | Unit of Measure | Description |
+|---|---|---|---|
+| FK-TEL1001 | 1 | EA | Fork |
+| FK-TEL1002 | 1 | EA | Fork |
+| ST-001-05 | 2 | EA | Conical expansion washer |
+| BSK-AXS-2000 | 1 | EA | Wheel axis |
+| BSK-AXS-2001 | 1 | EA | Wheel axis |
+| | | | |
+
+###### Consumables
+
+No consumables are listed.
+
+###### Removed Parts
+
+| Part Number | Qty | Unit of Measure | Description |
+|---|---|---|---|
+| FK-1000 | 2 | EA | Fork |
+| ST-001-05 | 2 | EA | Conical expansion washer |
+| BSK-AXS-2000 | 1 | EA | Wheel axis |
+| | | | |
+
+###### Removed Spare Sets
+
+* **Removed Spare Set 1:**
+    * Fork (1 EA)
+    * Conical expansion washer (1 EA)
+* **Removed Spare Set 2:**
+    * Fork (1 EA)
+    * Conical expansion washer (1 EA)
+* **Individual Removed Spare:** Wheel axis (1 EA)
+    * _Material Usage: Reidentified Material_
+    * _Modified to: BSK-AXS-2001_
+
+###### External Parts/Spares
+
+* **External Spare Set:** Referenced parts
+* **External Removed Spare Set:** Referenced parts
+
+##### Material Identification
+
+###### Support Equipment
+
+No support equipment listed.
+
+###### Interchangeability
+
+* Removed Fork (FK-1000) replaced by Fork (FK-TEL1001) if tire width is less than 7 cm
+* Removed Fork (FK-1000) replaced by Fork (FK-TEL1002) if tire width is less than 7 cm
+* Wheel axis (BSK-AXS-2000) modified to Wheel axis (BSK-AXS-2001)
+
+###### Additional Information
+
+This service bulletin is enhanced with examples of formerly unused elements defined by a terminology reference.
+
+##### Accomplishment Instructions
+
+References a Data Module (DM) with specific identification codes.
+
+##### Additional Information
+
+Contains additional information related to the service bulletin.
+```

@@ -229,7 +229,7 @@ def main():
     processor = XMLToMarkdownToXMLProcessor()
     original_input_xml_folder = os.getenv("INPUT_XML_FOLDER")
     input_xml_folder = original_input_xml_folder
-    for i in range(1, 6):
+    for i in range(2, 6):
         output_md_folder = f"folders/regenerated_md_{i}"
         output_xml_folder = f"folders/regenerated_xml_{i}"
         print(f"\n=== Pipeline iteration {i} ===")

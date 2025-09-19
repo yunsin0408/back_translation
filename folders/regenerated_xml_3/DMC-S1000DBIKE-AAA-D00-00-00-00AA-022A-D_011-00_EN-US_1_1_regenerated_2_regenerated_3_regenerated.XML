@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmTitle xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitleText>DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_011-00_EN-US_1_1_regenerated_2_regenerated.XML</dmTitleText>
+  <dmDescriptionText>This document represents the converted markdown from the provided XML file, detailing Bike DModule context and non-context rules.</dmDescriptionText>
+</dmTitle>
+<dmDescription xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmDescriptionText>This document outlines the context and non-context rules defined within the provided DModule, detailing allowed values and project guidelines.</dmDescriptionText>
+</dmDescription>
+<contextRules xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <structureObjectRuleGroups>
+    <ruleGroup limitType="@limitUnitType">
+      <ruleName limitType="@limitUnitType"/>
+      <allowedValues>
+        <allowedValue>Time between overhaul</allowedValue>
+        <allowedValue>Hard time</allowedValue>
+        <allowedValue>Since last maintenance</allowedValue>
+        <allowedValue>Out time limit</allowedValue>
+        <allowedValue>On condition</allowedValue>
+        <allowedValue>Check maintenance</allowedValue>
+        <allowedValue>Functional check</allowedValue>
+      </allowedValues>
+    </ruleGroup>
+    <ruleGroup threshold="@thresholdUnitOfMeasure">
+      <ruleName threshold="@thresholdUnitOfMeasure"/>
+      <allowedValues>
+        <allowedValue>Months</allowedValue>
+        <allowedValue>Weeks</allowedValue>
+        <allowedValue>Years</allowedValue>
+        <allowedValue>Days</allowedValue>
+        <allowedValue>Shop visits</allowedValue>
+        <allowedValue>Auxiliary power unit change</allowedValue>
+        <allowedValue>Wheel change</allowedValue>
+        <allowedValue>Kilometer (lexical)</allowedValue>
+      </allowedValues>
+    </ruleGroup>
+    <ruleGroup sourceType="@sourceTypeCode">
+      <ruleName sourceType="@sourceTypeCode"/>
+      <allowedValues>
+        <allowedValue>fec</allowedValue>
+        <allowedValue>sample</allowedValue>
+      </allowedValues>
+    </ruleGroup>
+    <ruleGroup sourceType="@sourceCriticality">
+      <ruleName sourceType="@sourceCriticality"/>
+      <allowedValues>
+        <allowedValue>Evident, Safety</allowedValue>
+        <allowedValue>Evident, operational</allowedValue>
+        <allowedValue>Evident, Economic</allowedValue>
+        <allowedValue>Hidden, Safety</allowedValue>
+        <allowedValue>Hidden, Non-Safety</allowedValue>
+      </allowedValues>
+    </ruleGroup>
+    <ruleGroup verbatimText="@verbatimStyle">
+      <ruleName verbatimText="@verbatimStyle"/>
+      <allowedValues>
+        <allowedValue>Generic verbatim</allowedValue>
+        <allowedValue>Filename</allowedValue>
+        <allowedValue>XML/SGML markup and related elements (element name, attribute name/value, entity name, processing instruction)</allowedValue>
+        <allowedValue>Program prompt, user input, output, listing, variable name/value, constant, class name, parameter name.</allowedValue>
+      </allowedValues>
+    </ruleGroup>
+  </structureObjectRuleGroups>
+  <notationRules>
+    <notation>
+      <notationId>//-//S1000D//NOTATION X-SHOCKWAVE-FLASH 3D Models Encoding//EN</notationId>
+      <notationDescription>Flash animation is *not* allowed in this project.</notationDescription>
+    </notation>
+  </notationRules>
+</contextRules>
+<nonContextRules xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <rule BIKE-BR-00078>
+    <ruleId>BIKE-BR-00078</ruleId>
+    <ruleDescription>Bike data modules *must* be reviewed and approved by the EPWG (Engineering Publication Working Group) before publication.</ruleDescription>
+  </rule>
+  <rule BIKE-BR-00079>
+    <ruleId>BIKE-BR-00079</ruleId>
+    <ruleDescription>The Bike data set *must* contain examples demonstrating the application of constructs and principles at various levels of conceptual sophistication.</ruleDescription>
+  </rule>
+</nonContextRules>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DML-S1000DBIKE-B6865-S-2024-00001_001-00_1_1_regenerated.XML</title>
+  <content>
+    <para>This document represents the converted markdown from the provided XML file, adhering to S1000D standards.</para>
+    <section>
+      <title>1. Headset &amp; Steering (System DA1)</title>
+      <section>
+        <title>Procedure</title>
+        <section>
+          <title>Step</title>
+          <item>
+            <attr name="Component">Headset</attr>
+            <attr name="Procedure Issue">Installation</attr>
+            <attr name="Issue Number">008</attr>
+            <attr name="Status">Open</attr>
+          </item>
+        </section>
+      </section>
+    </section>
+    <section>
+      <title>2. Braking System (System DA2)</title>
+      <section>
+        <title>Procedure</title>
+        <section>
+          <title>Step</title>
+          <item>
+            <attr name="Component">Brake Pads</attr>
+            <attr name="Procedure Issue">Replace</attr>
+            <attr name="Issue Number">011</attr>
+            <attr name="Status">Open</attr>
+          </item>
+        </section>
+      </section>
+    </section>
+    <section>
+      <title>3. Drivetrain - Chain (System DA4)</title>
+      <section>
+        <title>Procedures</title>
+        <section>
+          <title>Step 1</title>
+          <item>
+            <attr name="Component">Chain</attr>
+            <attr name="Procedure Issue">Oil</attr>
+            <attr name="Issue Number">011</attr>
+            <attr name="Date">2024-06-19</attr>
+          </item>
+        </section>
+        <section>
+          <title>Step 2</title>
+          <item>
+            <attr name="Procedure Issue">Clean with chemical agent</attr>
+            <attr name="Issue Number">010</attr>
+            <attr name="Variant">Use chain cleaning fluid</attr>
+            <attr name="Date">2024-06-19</attr>
+          </item>
+        </section>
+        <section>
+          <title>Step 3</title>
+          <item>
+            <attr name="Procedure Issue">Correlated fault</attr>
+            <attr name="Issue Number">008</attr>
+            <attr name="Date">2024-06-19</attr>
+          </item>
+        </section>
+      </section>
+    </section>
+    <section>
+      <title>4. Drivetrain - Gears (System DA5)</title>
+      <section>
+        <title>Procedures</title>
+        <section>
+          <title>Step 1</title>
+          <item>
+            <attr name="Component">Gears</attr>
+            <attr name="Procedure Issue">Description of how it is made</attr>
+            <attr name="Issue Number">010</attr>
+            <attr name="Date">2024-06-19</attr>
+          </item>
+        </section>
+        <section>
+          <title>Step 2</title>
+          <item>
+            <attr name="Component">Mechs</attr>
+            <attr name="Procedure Issue">Description of how it is made</attr>
+            <attr name="Issue Number">010</attr>
+            <attr name="Date">2024-06-19</attr>
+          </item>
+        </section>
+        <section>
+          <title>Step 3</title>
+          <item>
+            <attr name="Component">Hubs</attr>
+            <attr name="Procedure Issue">Clean with chemical agent</attr>
+            <attr name="Variant">Use degreasing agent</attr>
+            <attr name="Issue Number">011</attr>
+            <attr name="Date">2024-06-19</attr>
+          </item>
+        </section>
+        <section>
+          <title>Step 4</title>
+          <item>
+            <attr name="Component">Shifters</attr>
+            <attr name="Procedure Issue">Description of how it is made</attr>
+            <attr name="Issue Number">010</attr>
+            <attr name="Date">2024-06-19</attr>
+          </item>
+        </section>
+      </section>
+    </section>
+    <section>
+      <title>5. Wheels &amp; Tires (System DA5 - continued)</title>
+      <section>
+        <title>Procedure</title>
+        <section>
+          <title>Step</title>
+          <item>
+            <attr name="Component">Hubs (Also listed under Drivetrain)</attr>
+            <attr name="Procedure Issue">Clean with chemical agent</attr>
+            <attr name="Variant">Use degreasing agent</attr>
+            <attr name="Issue Number">011</attr>
+            <attr name="Date">2024-06-19</attr>
+          </item>
+        </section>
+      </section>
+    </section>
+    <section>
+      <title>6. General / Undefined Systems (Systems DA1, DA2)</title>
+      <section>
+        <title>Procedures</title>
+        <section>
+          <title>Step 1</title>
+          <item>
+            <attr name="System">DA1 - Headset &amp; Steering</attr>
+            <attr name="Component">Headset</attr>
+            <attr name="Procedure Issue">Installation</attr>
+            <attr name="Issue Number">008</attr>
+          </item>
+        </section>
+        <section>
+          <title>Step 2</title>
+          <item>
+            <attr name="System">DA2 - Braking</attr>
+            <attr name="Component">Brake Pads</attr>
+            <attr name="Procedure Issue">Replace</attr>
+            <attr name="Issue Number">011</attr>
+          </item>
+        </section>
+      </section>
+    </section>
+  </content>
+</proced>

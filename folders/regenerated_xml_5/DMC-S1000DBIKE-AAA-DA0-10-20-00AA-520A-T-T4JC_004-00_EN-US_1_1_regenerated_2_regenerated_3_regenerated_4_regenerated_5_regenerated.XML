@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_s1000dbike_aaa_da0_10_20_00aa_520a_t_t4jc_004_00_en_us_1_1_regenerated_2_regenerated_3_regenerated_4_regenerated xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dm_identification>
+    <dm_address>
+      <model_ident_code>S1000DBIKE</model_ident_code>
+      <system_diff_code>AAA</system_diff_code>
+      <system_code>DA0</system_code>
+      <sub_system_code>1</sub_system_code>
+      <sub_sub_system_code>0</sub_sub_system_code>
+      <assy_code>20</assy_code>
+      <disassy_code>00</disassy_code>
+      <disassy_code_variant>AA</disassy_code_variant>
+      <info_code>520</info_code>
+      <info_code_variant>A</info_code_variant>
+      <item_location_code>T</item_location_code>
+      <learn_code>T4J</learn_code>
+      <learn_event_code>C</learn_event_code>
+      <country_iso_code>US</country_iso_code>
+      <language_iso_code>en</language_iso_code>
+      <issue_number>004</issue_number>
+      <in_work>00</in_work>
+      <issue_date>2024-06-19</issue_date>
+      <tech_name>Front wheel</tech_name>
+      <info_name>Remove procedures: Interactive content - Procedure</info_name>
+    </dm_address>
+    <dm_status>
+      <issue_type>status</issue_type>
+      <security_classification>01</security_classification>
+      <data_restrictions>
+        <data_distribution>To be made available to all S1000D users.</data_distribution>
+        <export_registration_statement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</export_registration_statement>
+        <data_handling>There are no specific handling instructions for this data module.</data_handling>
+        <data_destruction>Users may destroy this data module in accordance with their own local procedures.</data_destruction>
+        <data_disclosure>There are no dissemination limitations that apply to this data module.</data_disclosure>
+      </data_restrictions>
+      <restriction_info>
+        <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+        <publishers>
+          <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+          <publisher>Aerospace Industries Association of America</publisher>
+          <publisher>ATA e-Business Program</publisher>
+        </publishers>
+        <limitations_of_liability>
+          <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+          <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+          <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+        </limitations_of_liability>
+        <copyright_details>The details for copyright can be found in the S1000D Specification.</copyright_details>
+        <policy_statement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policy_statement>
+        <data_conditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</data_conditions>
+      </restriction_info>
+    </dm_status>
+  </dm_identification>
+  <responsible_partner_company>
+    <enterprise_code>B6865</enterprise_code>
+    <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+  </responsible_partner_company>
+  <originator>
+    <enterprise_code>B6865</enterprise_code>
+    <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+  </originator>
+  <applicability>
+    <display_text>All</display_text>
+  </applicability>
+  <brex_dm_reference>
+    <model_ident_code>S1000DBIKE</model_ident_code>
+    <system_diff_code>AAA</system_diff_code>
+    <system_code>D00</system_code>
+    <sub_system_code>0</sub_system_code>
+    <sub_sub_system_code>0</sub_sub_system_code>
+    <assy_code>00</assy_code>
+    <disassy_code>00</disassy_code>
+    <disassy_code_variant>AA</disassy_code_variant>
+    <info_code>022</info_code>
+    <info_code_variant>A</info_code_variant>
+  </brex_dm_reference>
+  <quality_assurance>
+    <verification_type>tabtop</verification_type>
+  </quality_assurance>
+  <system_breakdown_code>DA010</system_breakdown_code>
+  <reason_for_update>
+    <update_reason_type>urt03</update_reason_type>
+    <update_reason_text>S1000D upissued</update_reason_text>
+  </reason_for_update>
+  <content>
+    <learning>
+      <learning_content>
+        <title>Front Wheel Removal</title>
+        <description>The content of this data model describes the steps for removing the bicycle front wheel.</description>
+        <lc_instruction>
+          <paragraph_id>para-001</paragraph_id>
+          <content>To remove your bike's front wheel, place the bike on a stand. If you do not have a stand, you can still remove the tire. It will just take a little coordination on your part. Begin by either deflating the front tire slightly or disconnecting the front brakes. This is done so the wheel can come out easily and not get stuck at the brake pads.</content>
+          <figure>
+            <graphic>infoEntityIdent="ICN-C0419-S1000D0370-001-01"</graphic>
+          </figure>
+        </lc_instruction>
+        <lc_instruction>
+          <paragraph_id>para-002</paragraph_id>
+          <content>If your bike has a quick-release lever, push the lever outward and turn it in a counterclockwise motion for several revolutions.</content>
+          <figure>
+            <graphic>infoEntityIdent="ICN-C0419-S1000D0371-001-01"</graphic>
+          </figure>
+        </lc_instruction>
+        <lc_instruction>
+          <paragraph_id>para-003</paragraph_id>
+          <content>If your bike does not have a quick-release lever, you will need a wrench to loosen the nuts on either side of the hub.</content>
+          <figure>
+            <graphic>infoEntityIdent="ICN-C0419-S1000D0373-001-01"</graphic>
+          </figure>
+        </lc_instruction>
+        <lc_instruction>
+          <paragraph_id>para-004</paragraph_id>
+          <content>Remove the wheel</content>
+          <figure>
+            <graphic>infoEntityIdent="ICN-C0419-S1000D0373-001-01"</graphic>
+          </figure>
+        </lc_instruction>
+      </learning_content>
+      <instruction_text>Use the following instructions.</instruction_text>
+    </learning>
+  </content>
+</dmc_s1000dbike_aaa_da0_10_20_00aa_520a_001_01>

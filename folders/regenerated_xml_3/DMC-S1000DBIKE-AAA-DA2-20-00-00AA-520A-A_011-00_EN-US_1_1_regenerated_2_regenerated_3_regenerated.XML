@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <title>DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A_011-00_EN-US_1_1</title>
+  </identification>
+  <procedureData>
+    <procTitle>DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A_011-00_EN-US_1_1</procTitle>
+    <dmIdent>
+      <dmAddress>
+        <dmIdent>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>DA2</systemCode>
+          <subSystemCode>2</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>520</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>A</itemLocationCode>
+        </dmIdent>
+        <language>US (en)</language>
+        <issueInfo>
+          <issueNumber>011</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+        <dmAddressItems>
+          <issueDate>2024-06-19</issueDate>
+          <techName>Handlebar</techName>
+          <infoName>Remove procedures</infoName>
+        </dmAddressItems>
+      </dmAddress>
+    </dmIdent>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightText>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightText>
+            <publishers>
+              <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+              <publisher>Aerospace Industries Association of America</publisher>
+              <publisher>ATA e-Business Program</publisher>
+            </publishers>
+            <limitationsOfLiability>
+              <liabilityText>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</liabilityText>
+              <liabilityText>Neither ASD nor any person who has contributed to the creation, revision or maintenance of the material shall be liable for any direct, indirect, incidental, special, consequential or exemplary damages arising from the use of the material.</liabilityText>
+            </limitationsOfLiability>
+          </copyright>
+          <qualityAssurance>
+            <firstVerification>tabtop</firstVerification>
+          </qualityAssurance>
+          <systemBreakdownCode>BY142</systemBreakdownCode>
+          <skillLevel>sk02</skillLevel>
+          <reasonForUpdate>S1000D upissued</reasonForUpdate>
+        </restrictionInfo>
+      </dataRestrictions>
+    </dmStatus>
+  </procedureData>
+  <content>
+    <procedure>
+      <preliminaryRequirements>
+        <reqCondGroup>
+          <condition>The bicycle is held safely on a work stand.</condition>
+        </reqCondGroup>
+        <reqPersons>
+          <person>
+            <personCategory>Bike rider</personCategory>
+            <personSkill>sk02</personSkill>
+            <trade>Operator</trade>
+            <estimatedTime>1.5 h</estimatedTime>
+          </person>
+        </reqPersons>
+        <reqSupportEquips>
+          <supportEquipDescr>
+            <name>Set of Allen wrenches</name>
+            <identNumber>
+              <manufacturerCode>KZ666</manufacturerCode>
+              <partAndSerialNumber>
+                <partNumber>BSK-TLST-001-13</partNumber>
+              </partAndSerialNumber>
+            </identNumber>
+            <reqQuantity>1 EA</reqQuantity>
+          </supportEquipDescr>
+          <supportEquipDescr>
+            <name>Work stand</name>
+            <identNumber>
+              <manufacturerCode>KZ555</manufacturerCode>
+              <partAndSerialNumber>
+                <partNumber>Stand-001</partNumber>
+              </partAndSerialNumber>
+            </identNumber>
+            <reqQuantity>1 EA</reqQuantity>
+          </supportEquipDescr>
+        </reqSupportEquips>
+        <reqSupplies>No supplies</reqSupplies>
+        <reqSpares>No spares</reqSpares>
+        <reqSafety>
+          <warning>Do not ride a bicycle with no grips on the handlebar. This can cause the hands of the rider to slip.</warning>
+        </reqSafety>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <proceduralStep>
+          <title>Remove the grips</title>
+          <stepText>Put a long thin screwdriver below the grip and apply water between the grip and the handle bar.</stepText>
+          <stepText>Turn the grip forwards and rearwards to loosen it and then pull it off the end of the handlebar.</stepText>
+        </proceduralStep>
+        <proceduralStep>
+          <title>Remove the brake and the shift levers from the handlebars</title>
+          <stepText>Loosen the clamp screw (refer to &lt;internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/&gt;) which is behind or below the brake lever (as shown).</stepText>
+          <stepText>*Figure: Loosen the clamp screw with the Allen wrench* (Graphic: ICN-C0419-S1000D0389-001-01)</stepText>
+          <stepText>Remove the lever and the mount from the handlebar.</stepText>
+          <stepText>Loosen the clamp bolt and remove the shifter from the handlebar.</stepText>
+        </proceduralStep>
+        <proceduralStep>
+          <title>Remove the handlebar</title>
+          <stepText>Use a &lt;internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/&gt; and loosen the clamp bolt (refer to &lt;internalRef internalRefId="fig-0002" internalRefTargetType="irtt01"/&gt;). To remove, move the handlebar out of the stem.</stepText>
+          <stepText>*Figure: Loosen the clamp bolt* (Graphic: ICN-C0419-S1000D0388-001-01)</stepText>
+        </proceduralStep>
+      </mainProcedure>
+      <closeRequirements>
+        <reqCondGroup>
+          <condition>No conditions.</condition>
+        </reqCondGroup>
+      </closeRequirements>
+    </procedure>
+  </content>
+</proc>

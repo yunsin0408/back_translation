@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Illustrated Parts Catalog (DMC-S1000DBIKE-AAA-D00-00-00-01AA-941A-D_010-00_EN-US_1_1)</title>
+  <content>
+    <paragraph>This document details the parts catalog for a bicycle, including illustration references, part numbers, descriptions, and logistical data. It references the following schema: http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd</paragraph>
+    <heading level="2">Document Information</heading>
+    <paragraph>This document details the parts catalog for a bicycle. It includes illustration references, part numbers, descriptions, and logistical data.</paragraph>
+    <heading level="2">Catalog Structure</heading>
+    <paragraph>The catalog is organized by assembly levels, starting with the complete bicycle and progressing to sub-assemblies and individual components.</paragraph>
+    <heading level="3">Top-Level Assembly: Bicycle</heading>
+    <heading level="4">Item Breakdown</heading>
+    <table frame="header">
+      <title>Item Breakdown</title>
+      <column id="item"/>
+      <column id="description"/>
+      <column id="part_number"/>
+      <column id="keying"/>
+      <column id="qty"/>
+      <column id="remarks"/>
+      <row>
+        <cell id="item">1</cell>
+        <cell id="description">Bicycle</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Complete bicycle assembly</cell>
+      </row>
+      <row>
+        <cell id="item">2</cell>
+        <cell id="description">Frame</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Bicycle frame</cell>
+      </row>
+      <row>
+        <cell id="item">3</cell>
+        <cell id="description">Front Wheel Assembly</cell>
+        <cell id="part_number">WH-002</cell>
+        <cell id="keying">KZ888</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Front wheel with tire, spokes, and hub.</cell>
+      </row>
+      <row>
+        <cell id="item">4</cell>
+        <cell id="description">Rear Wheel Assembly</cell>
+        <cell id="part_number">WH-001</cell>
+        <cell id="keying">KZ888</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Rear wheel with tire, spokes, and hub.</cell>
+      </row>
+      <row>
+        <cell id="item">5</cell>
+        <cell id="description">Front Brake Subsystem</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks"></cell>
+      </row>
+      <row>
+        <cell id="item">6</cell>
+        <cell id="description">Rear Brake Subsystem</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks"></cell>
+      </row>
+      <row>
+        <cell id="item">7</cell>
+        <cell id="description">Computer</cell>
+        <cell id="part_number">CP-001</cell>
+        <cell id="keying">KZ888</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Bicycle computer.</cell>
+      </row>
+      <row>
+        <cell id="item">8</cell>
+        <cell id="description">Drive Train System</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks"></cell>
+      </row>
+      <row>
+        <cell id="item">9</cell>
+        <cell id="description">Steering System</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks"></cell>
+      </row>
+      <row>
+        <cell id="item">10</cell>
+        <cell id="description">Light System</cell>
+        <cell id="part_number">LRU1001</cell>
+        <cell id="keying">KZ777</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Equipped with Pilferage Code J, Special Storage 1</cell>
+      </row>
+      <row>
+        <cell id="item">11</cell>
+        <cell id="description">Brake System</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Complete brake assembly</cell>
+      </row>
+      <row>
+        <cell id="item">12</cell>
+        <cell id="description">Seat</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks"></cell>
+      </row>
+    </table>
+    <heading level="3">Sub-Assemblies and Components</heading>
+    <heading level="4">Wheel Assemblies</heading>
+    <table frame="header">
+      <title>Wheel Assemblies</title>
+      <column id="item"/>
+      <column id="description"/>
+      <column id="part_number"/>
+      <column id="keying"/>
+      <column id="qty"/>
+      <column id="remarks"/>
+      <row>
+        <cell id="item">3</cell>
+        <cell id="description">Front Wheel Assembly</cell>
+        <cell id="part_number">WH-002</cell>
+        <cell id="keying">KZ888</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Front wheel with tire, spokes, and hub.</cell>
+      </row>
+      <row>
+        <cell id="item">4</cell>
+        <cell id="description">Rear Wheel Assembly</cell>
+        <cell id="part_number">WH-001</cell>
+        <cell id="keying">KZ888</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Rear wheel with tire, spokes, and hub.</cell>
+      </row>
+    </table>
+    <heading level="4">Electrical System</heading>
+    <table frame="header">
+      <title>Electrical System</title>
+      <column id="item"/>
+      <column id="description"/>
+      <column id="part_number"/>
+      <column id="keying"/>
+      <column id="qty"/>
+      <column id="remarks"/>
+      <row>
+        <cell id="item">6</cell>
+        <cell id="description">Light System</cell>
+        <cell id="part_number">LRU1001</cell>
+        <cell id="keying">KZ777</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Equipped with Pilferage Code J, Special Storage 1</cell>
+      </row>
+      <row>
+        <cell id="item">7</cell>
+        <cell id="description">Computer</cell>
+        <cell id="part_number">CP-001</cell>
+        <cell id="keying">KZ888</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks">Bicycle computer.</cell>
+      </row>
+    </table>
+    <heading level="4">Drivetrain and Steering</heading>
+    <table frame="header">
+      <title>Drivetrain and Steering</title>
+      <column id="item"/>
+      <column id="description"/>
+      <column id="part_number"/>
+      <column id="keying"/>
+      <column id="qty"/>
+      <column id="remarks"/>
+      <row>
+        <cell id="item">8</cell>
+        <cell id="description">Drive Train System</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks"></cell>
+      </row>
+      <row>
+        <cell id="item">9</cell>
+        <cell id="description">Steering System</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks"></cell>
+      </row>
+    </table>
+    <heading level="4">Braking System</heading>
+    <table frame="header">
+      <title>Braking System</title>
+      <column id="item"/>
+      <column id="description"/>
+      <column id="part_number"/>
+      <column id="keying"/>
+      <column id="qty"/>
+      <column id="remarks"/>
+      <row>
+        <cell id="item">5</cell>
+        <cell id="description">Front Brake Subsystem</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks"></cell>
+      </row>
+      <row>
+        <cell id="item">6</cell>
+        <cell id="description">Rear Brake Subsystem</cell>
+        <cell id="part_number">N/A</cell>
+        <cell id="keying">N/A</cell>
+        <cell id="qty">1</cell>
+        <cell id="remarks"></cell>
+      </row>
+    </table>
+    <heading level="2">Logistical Information</heading>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+    <paragraph>Physical Condition: New</paragraph>
+    <paragraph>Logistical Information: New</paragraph>
+  </content>
+</document>

@@ -1,0 +1,170 @@
+```markdown
+# DMC-S1000DBIKE-AAA-D05-40-00-00AA-000A-A_010-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated_4_regenerated.XML
+
+## DM Ident and Status Section
+
+### DM Address
+
+*   **modelIdentCode**: S1000DBIKE
+*   **systemDiffCode**: AAA
+*   **systemCode**: D05
+*   **subSystemCode**: 4
+*   **subSubSystemCode**: 0
+*   **assyCode**: 00
+*   **disassyCode**: 00
+*   **disassyCodeVariant**: AA
+*   **infoCode**: 000
+*   **infoCodeVariant**: A
+*   **itemLocationCode**: A
+*   **countryIsoCode**: US
+*   **languageIsoCode**: en
+*   **issueNumber**: 010
+*   **inWork**: 00
+*   **issueDate**:
+    *   **year**: 2024
+    *   **month**: 06
+    *   **day**: 19
+
+### DM Status
+
+*   **issueType**: changed
+
+### Security
+
+*   **securityClassification**: 01
+*   **commercialClassification**: cc51
+*   **caveat**: cv51
+
+### Data Rights
+
+*(Empty element)*
+
+### Reason For Update
+
+*   **id**: rfu\_general
+*   **updateReasonType**: urt03
+*   **simplePara**: S1000D upissued
+
+### System Breakdown Code
+
+*   **code**: BY
+
+### Quality Assurance
+
+*   **firstVerification**: tabtop
+
+### Reason For Update (Repeated)
+
+*   **id**: rfu\_general
+*   **updateReasonType**: urt03
+*   **simplePara**: S1000D upissued
+
+## Content
+
+### Maintenance Planning
+
+#### Inspection Definition
+
+##### Inspection
+
+*   **limit**:
+    *   **limitType**: oc
+    *   **limitCond**: Pre-ride
+    *   **threshold**:
+        *   **thresholdUnitOfMeasure**: th04
+        *   **thresholdValue**: 1
+        *   **tolerance**:
+            *   **toleranceType**: plusorminus
+            *   **toleranceValue**: 1
+*   **inspectionType**: Pre
+*   **limitRange**:
+    *   **limitRangeFrom**:
+        *   **threshold**:
+            *   **thresholdUnitOfMeasure**: th04
+            *   **thresholdValue**: 1
+            *   **tolerance**:
+                *   **toleranceType**: plusorminus
+                *   **toleranceValue**: 1
+
+##### Task Group
+
+*   **Task Item 1 (seq="001")**:
+    *   **taskName**: Inspect Brakes
+    *   **refs**:
+        *   **dmRef**:
+            *   **dmRefIdent**:
+                *   **dmCode**:
+                    *   **modelIdentCode**: S1000DBIKE
+                    *   **systemDiffCode**: AAA
+                    *   **systemCode**: D00
+                    *   **subSystemCode**: 0
+                    *   **subSubSystemCode**: 0
+                    *   **assyCode**: 00
+                    *   **disassyCode**: 00
+                    *   **disassyCodeVariant**: AA
+                    *   **infoCode**: 121
+                    *   **infoCodeVariant**: A
+                    *   **itemLocationCode**: A
+    *   **task**:
+        *   **taskDescr**: To do an inspection of the brakes
+
+*   **Task Item 2 (seq="002")**:
+    *   **taskName**: Inspect brakes installation
+    *   **refs**:
+        *   **dmRef**:
+            *   **dmRefIdent**:
+                *   **dmCode**:
+                    *   **modelIdentCode**: S1000DBIKE
+                    *   **systemDiffCode**: AAA
+                    *   **systemCode**: D00
+                    *   **subSystemCode**: 0
+                    *   **subSubSystemCode**: 0
+                    *   **assyCode**: 00
+                    *   **disassyCode**: 00
+                    *   **disassyCodeVariant**: AA
+                    *   **infoCode**: 121
+                    *   **infoCodeVariant**: A
+                    *   **itemLocationCode**: A
+    *   **task**:
+        *   **taskDescr**: To do an inspection of the brakes installation
+
+*   **Task Item 3 (seq="003")**:
+    *   **taskName**: Check Tire Pressure
+    *   **refs**:
+        *   **dmRef**:
+            *   **dmRefIdent**:
+                *   **dmCode**:
+                    *   **modelIdentCode**: S1000DBIKE
+                    *   **systemDiffCode**: AAA
+                    *   **systemCode**: D00
+                    *   **subSystemCode**: 0
+                    *   **subSubSystemCode**: 0
+                    *   **assyCode**: 00
+                    *   **disassyCode**: 00
+                    *   **disassyCodeVariant**: AA
+                    *   **infoCode**: 121
+                    *   **infoCodeVariant**: A
+                    *   **itemLocationCode**: A
+    *   **task**:
+        *   **taskDescr**: To do a check of the chain
+
+*   **Task Item 4 (seq="006")**:
+    *   **taskName**: Carry out chain checks
+    *   **refs**:
+        *   **dmRef**:
+            *   **dmRefIdent**:
+                *   **dmCode**:
+                    *   **modelIdentCode**: S1000DBIKE
+                    *   **systemDiffCode**: AAA
+                    *   **systemCode**: D00
+                    *   **subSystemCode**: 0
+                    *   **subSubSystemCode**: 0
+                    *   **assyCode**: 00
+                    *   **disassyCode**: 00
+                    *   **disassyCodeVariant**: AA
+                    *   **infoCode**: 121
+                    *   **infoCodeVariant**: A
+                    *   **itemLocationCode**: A
+    *   **task**:
+        *   **taskDescr**: To do a check of the chain
+```

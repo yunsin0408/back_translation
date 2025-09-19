@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>DMC-S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_011-00_EN-US_1_1 - Bicycle Stem Installation Procedure</procTitle>
+  <introduction>
+    <para>This document details the procedure for installing a bicycle stem. It outlines preliminary requirements, the main procedure, and closing requirements.</para>
+  </introduction>
+  <preliminaryRequirements>
+    <section title="1. Introduction">
+      <para>This document details the procedure for installing a bicycle stem. It outlines preliminary requirements, the main procedure, and closing requirements.</para>
+    </section>
+    <section title="2. Preliminary Requirements">
+      <subsection title="2.1. Tools and Equipment">
+        <tableFrame>
+          <tableHeader>
+            <cell>Item Name</cell>
+            <cell>Part Number</cell>
+            <cell>Quantity</cell>
+          </tableHeader>
+          <tableRow>
+            <cell>Clean Dry Cloth</cell>
+            <cell>KZ666</cell>
+            <cell>1</cell>
+          </tableRow>
+          <tableRow>
+            <cell>Work Stand</cell>
+            <cell>KZ555</cell>
+            <cell>1</cell>
+          </tableRow>
+        </tableFrame>
+      </subsection>
+      <subsection title="2.2. Supplies">
+        <tableFrame>
+          <tableHeader>
+            <cell>Item Name</cell>
+            <cell>Part Number</cell>
+            <cell>Quantity</cell>
+          </tableHeader>
+          <tableRow>
+            <cell>Rubbing Alcohol</cell>
+            <cell>KZ222</cell>
+            <cell>1 Liter</cell>
+          </tableRow>
+          <tableRow>
+            <cell>General Lubricant</cell>
+            <cell>KZ222</cell>
+            <cell>1 Liter</cell>
+          </tableRow>
+        </tableFrame>
+      </subsection>
+      <subsection title="2.3. Spares">
+        <tableFrame>
+          <tableHeader>
+            <cell>Item Name</cell>
+            <cell>Part Number</cell>
+            <cell>Quantity</cell>
+          </tableHeader>
+          <tableRow>
+            <cell>Stem</cell>
+            <cell>KZ555</cell>
+            <cell>1</cell>
+          </tableRow>
+          <tableRow>
+            <cell>Stem Bolt</cell>
+            <cell>KZ555</cell>
+            <cell>1</cell>
+          </tableRow>
+        </tableFrame>
+      </subsection>
+      <subsection title="2.4. Safety Precautions">
+        <caution>Do not overtighten the stem bolt. Overtightening can damage the headset bearings.</caution>
+        <caution>The stem bolt does not secure the stem.</caution>
+        <note>Ensure the stem is aligned forward in line with the wheel.</note>
+      </subsection>
+      <subsection title="2.5. Prerequisites">
+        <para>Ensure the bicycle is securely mounted on a work stand with the front wheel free of the ground.</para>
+      </subsection>
+      <subsection title="2.6. Personnel">
+        <skillLevel>sk02</skillLevel>
+        <estimatedTime>1 hour</estimatedTime>
+        <category>Bike Rider</category>
+      </subsection>
+    </section>
+  </preliminaryRequirements>
+  <mainProcedure>
+    <step title="3.1. Step: Cleaning">
+      <para>Remove all rust and corrosion using a clean dry cloth and rubbing alcohol.</para>
+    </step>
+    <step title="3.2. Step: Stem Installation">
+      <item title="3.2.1. Item: Lubrication">
+        <para>Apply general lubricant to the following:</para>
+        <itemList>
+          <item>The threads of the stem and stem bolt.</item>
+          <item>The sides of the stem.</item>
+          <item>The top of the wedge.</item>
+        </itemList>
+        <image>
+          <imageObject>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAj/U0AAAAASUVORK5CYII=</imageObject>
+          <imageCaption>(Image placeholder – See original document for actual image)</imageCaption>
+        </image>
+      </item>
+      <item title="3.2.2. Item: Installation">
+        <para>Install the stem into the steerer tube.</para>
+        <image>
+          <imageObject>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAj/U0AAAAASUVORK5CYII=</imageObject>
+          <imageCaption>(Image placeholder – See original document for actual image)</imageCaption>
+        </image>
+      </item>
+      <item title="3.2.3. Item: Alignment &amp; Tightening">
+        <para>Adjust the stem to align with the wheel. Firmly tighten the stem bolt.</para>
+      </item>
+    </step>
+    <step title="3.3. Step: Handlebar Installation">
+      <para>Install the handlebars (refer to document: <xref href="data:text/plain;base64,S1000DBIKEAAA DA220000AA720A" format="text">S1000DBIKEAAA DA220000AA720A</xref>).</para>
+    </step>
+  </mainProcedure>
+  <closingRequirements>
+    <para>No specific closing requirements are listed.</para>
+  </closingRequirements>
+</proced>

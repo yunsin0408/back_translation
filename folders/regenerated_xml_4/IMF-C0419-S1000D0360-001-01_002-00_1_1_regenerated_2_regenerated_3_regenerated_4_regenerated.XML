@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procedureTitle>IMF-C0419-S1000D0360-001-01_002-00_1_1 - Bicycle</procedureTitle>
+  <dataItem>
+    <title>IMF-C0419-S1000D0360-001-01_002-00_1_1 - Bicycle</title>
+  </dataItem>
+  <section>
+    <sectionTitle>Data Item</sectionTitle>
+    <section>
+      <sectionTitle>Title</sectionTitle>
+      <paragraph>Data Item: IMF-C0419-S1000D0360-001-01_002-00_1_1 - Bicycle</paragraph>
+    </section>
+    <section>
+      <sectionTitle>IMF Ident and Status Section</sectionTitle>
+      <section>
+        <sectionTitle>IMF Address</sectionTitle>
+        <section>
+          <sectionTitle>IMF Ident</sectionTitle>
+          <listItem>
+            <data>imfCode imfIdentIcn</data>
+            <value>C0419-S1000D0360-001-01</value>
+          </listItem>
+          <listItem>
+            <data>issueInfo issueNumber</data>
+            <value>002</value>
+          </listItem>
+          <listItem>
+            <data>issueInfo inWork</data>
+            <value>00</value>
+          </listItem>
+        </section>
+        <section>
+          <sectionTitle>IMF Address Items</sectionTitle>
+          <listItem>
+            <data>icnTitle</data>
+            <value>Bicycle</value>
+          </listItem>
+          <listItem>
+            <data>issueDate year</data>
+            <value>2024</value>
+          </listItem>
+          <listItem>
+            <data>issueDate month</data>
+            <value>06</value>
+          </listItem>
+          <listItem>
+            <data>issueDate day</data>
+            <value>19</value>
+          </listItem>
+        </section>
+        <section>
+          <sectionTitle>ICN Keyword Group</sectionTitle>
+          <listItem>
+            <data>icnKeyword</data>
+            <value>mountain</value>
+          </listItem>
+          <listItem>
+            <data>icnKeyword</data>
+            <value>mountain bike</value>
+          </listItem>
+          <listItem>
+            <data>icnKeyword</data>
+            <value>Mk1</value>
+          </listItem>
+          <listItem>
+            <data>icnKeyword</data>
+            <value>Mk9</value>
+          </listItem>
+        </section>
+      </section>
+      <section>
+        <sectionTitle>IMF Status</sectionTitle>
+        <section>
+          <sectionTitle>Security</sectionTitle>
+          <listItem>
+            <data>security securityClassification</data>
+            <value>01</value>
+          </listItem>
+          <listItem>
+            <data>security commercialClassification</data>
+            <value>cc51</value>
+          </listItem>
+        </section>
+        <section>
+          <sectionTitle>Data Restrictions</sectionTitle>
+          <section>
+            <sectionTitle>Restriction Instructions</sectionTitle>
+            <listItem>
+              <data>dataDistribution</data>
+              <value>To be made available to all S1000D users.</value>
+            </listItem>
+            <listItem>
+              <data>exportControl</data>
+              <paragraph>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</paragraph>
+            </listItem>
+            <listItem>
+              <data>dataHandling</data>
+              <paragraph>There are no specific handling instructions for this data module.</paragraph>
+            </listItem>
+            <listItem>
+              <data>dataDestruction</data>
+              <paragraph>Users may destroy this data module in accordance with their own local procedures.</paragraph>
+            </listItem>
+            <listItem>
+              <data>dataDisclosure</data>
+              <paragraph>There are no dissemination limitations that apply to this data module.</paragraph>
+            </listItem>
+          </section>
+          <section>
+            <sectionTitle>Restriction Info</sectionTitle>
+            <listItem>
+              <data>copyright</data>
+              <paragraph>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</paragraph>
+              <listItem>
+                <data>publishers</data>
+                <listItem>
+                  <data>randomList</data>
+                  <listItem>
+                    <data>publisher</data>
+                    <value>Aerospace, Security and Defence Industries Association of Europe</value>
+                  </listItem>
+                  <listItem>
+                    <data>publisher</data>
+                    <value>Aerospace Industries Association of America</value>
+                  </listItem>
+                  <listItem>
+                    <data>publisher</data>
+                    <value>ATA e-Business Program</value>
+                  </listItem>
+                </listItem>
+              </listItem>
+              <listItem>
+                <data>limitationsOfLiability</data>
+                <listItem>
+                  <data>randomList</data>
+                  <listItem>
+                    <data>limitation</data>
+                    <value>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</value>
+                  </listItem>
+                  <listItem>
+                    <data>limitation</data>
+                    <value>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</value>
+                  </listItem>
+                  <listItem>
+                    <data>limitation</data>
+                    <value>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</value>
+                  </listItem>
+                </listItem>
+              </listItem>
+              <listItem>
+                <data>copyrightDetails</data>
+                <value>The details for copyright can be found in the S1000D Specification.</value>
+              </listItem>
+              <listItem>
+                <data>policyStatement</data>
+                <value>S1000D-SC-2016-017-002-00 Steering Committee TOR</value>
+              </listItem>
+              <listItem>
+                <data>dataConds</data>
+                <value>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</value>
+              </listItem>
+            </listItem>
+          </section>
+        </section>
+      </section>
+      <section>
+        <sectionTitle>Responsible Partner Company</sectionTitle>
+        <listItem>
+          <data>enterpriseCode</data>
+          <value>B6865</value>
+        </listItem>
+        <listItem>
+          <data>enterpriseName</data>
+          <value>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</value>
+        </listItem>
+      </section>
+      <section>
+        <sectionTitle>Originator</sectionTitle>
+        <listItem>
+          <data>enterpriseCode</data>
+          <value>B6865</value>
+        </listItem>
+        <listItem>
+          <data>enterpriseName</data>
+          <value>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</value>
+        </listItem>
+      </section>
+      <section>
+        <sectionTitle>Brex Dm Ref</sectionTitle>
+        <listItem>
+          <data>dmRef</data>
+          <listItem>
+            <data>dmRefIdent</data>
+            <listItem>
+              <data>dmCode modelIdentCode</data>
+              <value>S1000DBIKE</value>
+            </listItem>
+            <listItem>
+              <data>dmCode systemDiffCode</data>
+              <value>AAA</value>
+            </listItem>
+            <listItem>
+              <data>dmCode systemCode</data>
+              <value>D00</value>
+            </listItem>
+            <listItem>
+              <data>dmCode subSystemCode</data>
+              <value>0</value>
+            </listItem>
+            <listItem>
+              <data>dmCode subSubSystemCode</data>
+              <value>0</value>
+            </listItem>
+            <listItem>
+              <data>dmCode assyCode</data>
+              <value>00</value>
+            </listItem>
+            <listItem>
+              <data>dmCode disassyCode</data>
+              <value>00</value>
+            </listItem>
+            <listItem>
+              <data>dmCode disassyCodeVariant</data>
+              <value>AA</value>
+            </listItem>
+            <listItem>
+              <data>dmCode infoCode</data>
+              <value>022</value>
+            </listItem>
+            <listItem>
+              <data>dmCode infoCodeVariant</data>
+              <value>A</value>
+            </listItem>
+            <listItem>
+              <data>dmCode itemLocationCode</data>
+              <value>D</value>
+            </listItem>
+            <listItem>
+              <data>issueInfo issueNumber</data>
+              <value>011</value>
+            </listItem>
+            <listItem>
+              <data>issueInfo inWork</data>
+              <value>00</value>
+            </listItem>
+            <listItem>
+              <data>language countryCode</data>
+              <value>en</value>
+            </listItem>
+            <listItem>
+              <data>language countryCode</data>
+              <value>US</value>
+            </listItem>
+          </listItem>
+        </listItem>
+      </section>
+    </section>
+  </section>
+  <section>
+    <sectionTitle>Applicable</sectionTitle>
+    <paragraph>Not applicable</paragraph>
+  </section>
+</procedure>

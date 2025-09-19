@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D05-80-00-00AA-916A-A_003-00_EN-US_1_1 - Maintenance Planning Document</title>
+  <content>
+    <para>This document details the maintenance planning for a system, including maintenance allocations, tools lists, and remarks. It adheres to the S1000D standard as defined by the schema located at `http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd`.</para>
+    <heading level="1">1. Overview</heading>
+    <para>This document details the maintenance planning for a system, including maintenance allocations, tools lists, and remarks.</para>
+    <heading level="1">2. Maintenance Allocation</heading>
+    <heading level="2">2.1 System Maintenance</heading>
+    <heading level="3">2.1.1 Allocation Group 1: Brakes</heading>
+    <para>This group encompasses maintenance tasks related to the brake system.</para>
+    <heading level="4">Allocation Group 1: Brakes</heading>
+    <table>
+      <row>
+        <cell>Group Number</cell>
+        <cell>Component Assembly</cell>
+        <cell>Skill Level</cell>
+      </row>
+      <row>
+        <cell>1005</cell>
+        <cell>Brakes - Pads</cell>
+        <cell>sk01</cell>
+      </row>
+    </table>
+    <table>
+      <row>
+        <cell>Maintenance Function</cell>
+        <cell>Maintenance Level</cell>
+      </row>
+      <row>
+        <cell>ft01</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft02</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft03</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft04</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft05</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft07</cell>
+        <cell>0.8</cell>
+      </row>
+      <row>
+        <cell>ft08</cell>
+        <cell>0.8</cell>
+      </row>
+    </table>
+    <heading level="3">2.1.2 Allocation Group 2: Brakes - Cables</heading>
+    <para>This group encompasses maintenance tasks related to the brake system.</para>
+    <heading level="4">Allocation Group 2: Brakes - Cables</heading>
+    <table>
+      <row>
+        <cell>Group Number</cell>
+        <cell>Component Assembly</cell>
+        <cell>Skill Level</cell>
+      </row>
+      <row>
+        <cell>1005</cell>
+        <cell>Brakes - Cables</cell>
+        <cell>sk02</cell>
+      </row>
+    </table>
+    <table>
+      <row>
+        <cell>Maintenance Function</cell>
+        <cell>Maintenance Level</cell>
+      </row>
+      <row>
+        <cell>ft01</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft02</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft03</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft04</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft05</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft07</cell>
+        <cell>0.8</cell>
+      </row>
+      <row>
+        <cell>ft08</cell>
+        <cell>0.8</cell>
+      </row>
+    </table>
+    <heading level="3">2.1.3 Allocation Group 3: Brakes - Disks</heading>
+    <para>This group encompasses maintenance tasks related to the brake system.</para>
+    <heading level="4">Allocation Group 3: Brakes - Disks</heading>
+    <table>
+      <row>
+        <cell>Group Number</cell>
+        <cell>Component Assembly</cell>
+        <cell>Skill Level</cell>
+      </row>
+      <row>
+        <cell>1005</cell>
+        <cell>Brakes - Disks</cell>
+        <cell>sk02</cell>
+      </row>
+    </table>
+    <table>
+      <row>
+        <cell>Maintenance Function</cell>
+        <cell>Maintenance Level</cell>
+      </row>
+      <row>
+        <cell>ft01</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft02</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft03</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft04</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft05</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft07</cell>
+        <cell>0.8</cell>
+      </row>
+      <row>
+        <cell>ft08</cell>
+        <cell>0.8</cell>
+      </row>
+    </table>
+    <heading level="3">2.1.4 Allocation Group 4: Brakes - Calipers</heading>
+    <para>This group encompasses maintenance tasks related to the brake system.</para>
+    <heading level="4">Allocation Group 4: Brakes - Calipers</heading>
+    <table>
+      <row>
+        <cell>Group Number</cell>
+        <cell>Component Assembly</cell>
+        <cell>Skill Level</cell>
+      </row>
+      <row>
+        <cell>1005</cell>
+        <cell>Brakes - Calipers</cell>
+        <cell>sk02</cell>
+      </row>
+    </table>
+    <table>
+      <row>
+        <cell>Maintenance Function</cell>
+        <cell>Maintenance Level</cell>
+      </row>
+      <row>
+        <cell>ft01</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft02</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft03</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft04</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft05</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft07</cell>
+        <cell>0.8</cell>
+      </row>
+      <row>
+        <cell>ft08</cell>
+        <cell>0.8</cell>
+      </row>
+    </table>
+    <heading level="3">2.1.5 Allocation Group 5: Brakes - Pads</heading>
+    <para>This group encompasses maintenance tasks related to the brake system.</para>
+    <heading level="4">Allocation Group 5: Brakes - Pads</heading>
+    <table>
+      <row>
+        <cell>Group Number</cell>
+        <cell>Component Assembly</cell>
+        <cell>Skill Level</cell>
+      </row>
+      <row>
+        <cell>1005</cell>
+        <cell>Brakes - Pads</cell>
+        <cell>sk01</cell>
+      </row>
+    </table>
+    <table>
+      <row>
+        <cell>Maintenance Function</cell>
+        <cell>Maintenance Level</cell>
+      </row>
+      <row>
+        <cell>ft01</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft02</cell>
+        <cell>0.2</cell>
+      </row>
+      <row>
+        <cell>ft03</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft04</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft05</cell>
+        <cell>0.3</cell>
+      </row>
+      <row>
+        <cell>ft07</cell>
+        <cell>0.8</cell>
+      </row>
+      <row>
+        <cell>ft08</cell>
+        <cell>0.8</cell>
+      </row>
+    </table>
+    <heading level="1">3. Tools and Equipment</heading>
+    <table>
+      <row>
+        <cell>Tool Name</cell>
+        <cell>Part Number</cell>
+      </row>
+      <row>
+        <cell>Torque Wrench</cell>
+        <cell>1234567890</cell>
+      </row>
+    </table>
+    <heading level="1">4. Remarks</heading>
+    <para>This document describes the maintenance procedures for the brake system.</para>
+  </content>
+</proced>

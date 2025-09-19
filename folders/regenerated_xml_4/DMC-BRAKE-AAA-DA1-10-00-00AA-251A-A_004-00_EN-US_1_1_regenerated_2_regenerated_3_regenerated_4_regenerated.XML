@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>DMC-BRAKE-AAA-DA1-10-00-00AA-251A-A_004-00_EN-US_1_1 - Brake Pad Cleaning Procedure</dmTitle>
+  <dmPara>This document details the procedure for cleaning brake pads.</dmPara>
+  <dmIdent>
+    <dmModelIdentCode>BRAKE</dmModelIdentCode>
+    <dmSystemDiffCode>AAA</dmSystemDiffCode>
+    <dmSystemCode>DA1</dmSystemCode>
+    <dmSubSystemCode>1</dmSubSystemCode>
+    <dmSubSubSystemCode>0</dmSubSubSystemCode>
+    <dmAssyCode>00</dmAssyCode>
+    <dmDisassyCode>00</dmDisassyCode>
+    <dmDisassyCodeVariant>AA</dmDisassyCodeVariant>
+    <dmInfoCode>251</dmInfoCode>
+    <dmInfoCodeVariant>A</dmInfoCodeVariant>
+    <dmItemLocationCode>A</dmItemLocationCode>
+    <dmLanguage>US, en</dmLanguage>
+    <dmIssueNumber>004</dmIssueNumber>
+    <dmInWork>00</dmInWork>
+  </dmIdent>
+  <dmAddress>
+    <dmIssueDate>2024-06-19</dmIssueDate>
+    <dmTechName>Brake pads</dmTechName>
+    <dmInfoName>Clean with rubbing alcohol</dmInfoName>
+  </dmAddress>
+  <dmStatus>
+    <dmIssueType>changed</dmIssueType>
+  </dmStatus>
+  <dmSecurity>
+    <dmSecurityClassification>01</dmSecurityClassification>
+    <dmCommercialClassification>cc51</dmCommercialClassification>
+    <dmCaveat>cv51</dmCaveat>
+  </dmSecurity>
+  <dmDataRestrictions>
+    <dmRestrictionInstructions>
+      <dmDataDistribution>To be made available to all S1000D users.</dmDataDistribution>
+      <dmExportControl>
+        <dmExportRegistrationStatement>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</dmExportRegistrationStatement>
+      </dmExportControl>
+      <dmDataHandling>There are no specific handling instructions for this data module.</dmDataHandling>
+      <dmDataDestruction>Users may destroy this data module in accordance with their own local procedures.</dmDataDestruction>
+      <dmDataDisclosure>There are no dissemination limitations that apply to this data module.</dmDataDisclosure>
+    </dmRestrictionInstructions>
+    <dmRestrictionInfo>
+      <dmCopyright>
+        <dmPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</dmPara>
+        <dmPublishers>
+          <dmPara>Aerospace, Security and Defence Industries Association of Europe</dmPara>
+          <dmPara>Aerospace Industries Association of America</dmPara>
+          <dmPara>ATA e-Business Program</dmPara>
+        </dmPublishers>
+        <dmLimitationsOfLiability>
+          <dmPara>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</dmPara>
+          <dmPara>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability.</dmPara>
+        </dmLimitationsOfLiability>
+      </dmCopyright>
+      <dmSystemBreakdownCode>BY131</dmSystemBreakdownCode>
+      <dmSkillLevel>sk01</dmSkillLevel>
+    </dmRestrictionInfo>
+  </dmDataRestrictions>
+  <dmReasonForUpdate>
+    <dmRFU_General>
+      <dmID>rfu_general</dmID>
+      <dmUpdateReasonType>urt03</dmUpdateReasonType>
+      <dmSimplePara>S1000D upissued</dmSimplePara>
+    </dmRFU_General>
+    <dmRFU_CPF2020-030>
+      <dmID>rfu_CPF2020-030</dmID>
+      <dmUpdateHighlight>1</dmUpdateHighlight>
+      <dmUpdateReasonType>urt02</dmUpdateReasonType>
+      <dmSimplePara>CPF_2020-030US: Added &lt;hazards&gt; to &lt;supplyDescr&gt;.</dmSimplePara>
+    </dmRFU_CPF2020-030>
+  </dmReasonForUpdate>
+  <dmContent>
+    <dmReferences>
+      <dmDMRefIdent>
+        <dmModelIdentCode>S1000DBIKE</dmModelIdentCode>
+        <dmSystemDiffCode>AAA</dmSystemDiffCode>
+        <dmSystemCode>D00</dmSystemCode>
+        <dmSubSystemCode>0</dmSubSystemCode>
+        <dmSubSubSystemCode>0</dmSubSubSystemCode>
+        <dmAssyCode>00</dmAssyCode>
+        <dmDisassyCode>00</dmDisassyCode>
+        <dmDisassyCodeVariant>AA</dmDisassyCodeVariant>
+        <dmInfoCode>121</dmInfoCode>
+        <dmInfoCodeVariant>A</dmInfoCodeVariant>
+        <dmItemLocationCode>A</dmItemLocationCode>
+      </dmDMRefIdent>
+    </dmReferences>
+    <dmProcedure>
+      <dmPreliminaryRequirements>
+        <dmReqCondGroup>No conditions.</dmReqCondGroup>
+        <dmReqPersons>
+          <dmPerson>
+            <dmMan>A</dmMan>
+            <dmPersonCategory>Basic user</dmPersonCategory>
+            <dmTrade>Operator</dmTrade>
+            <dmEstimatedTime>0.3 h</dmEstimatedTime>
+          </dmPerson>
+        </dmReqPersons>
+        <dmReqSupportEquips>No support equipments.</dmReqSupportEquips>
+        <dmReqSupplies>
+          <dmSupplyDescrGroup>
+            <dmSupplyDescr sup-id="sup-0001">
+              <dmName>Rubbing alcohol</dmName>
+              <dmIdentNumber>
+                <dmManufacturerCode>KZ222</dmManufacturerCode>
+                <dmPartAndSerialNumber>
+                  <dmPartNumber>LL-002</dmPartNumber>
+                </dmPartAndSerialNumber>
+              </dmIdentNumber>
+              <dmReqQuantity>As required</dmReqQuantity>
+              <dmHazards>
+                <dmSymbol>ICN-B6865-GHS02-001-01</dmSymbol>
+                <dmSymbol>ICN-B6865-GHS07-001-01</dmSymbol>
+                <dmHazardousClass>hz03</dmHazardousClass>
+                <dmHazardousClass>hz07</dmHazardousClass>
+                <dmSafetyInformation>May form explosive mixtures with air.</dmSafetyInformation>
+                <dmSafetyInformation>Highly flammable liquid and vapor.</dmSafetyInformation>
+                <dmSafetyInformation>Causes serious eye irritation.</dmSafetyInformation>
+                <dmSafetyInformation>May cause drowsiness or dizziness.</dmSafetyInformation>
+              </dmHazards>
+            </dmSupplyDescr>
+            <dmSupplyDescr sup-id="sup-0002">
+              <dmName>Lint-free cloth</dmName>
+              <dmIdentNumber>N/A</dmIdentNumber>
+              <dmReqQuantity>As required</dmReqQuantity>
+            </dmSupplyDescr>
+          </dmSupplyDescrGroup>
+          <dmReqSpares>No spares.</dmReqSpares>
+          <dmReqSafety>No safety requirements.</dmReqSafety>
+        </dmReqSupplies>
+      </dmPreliminaryRequirements>
+      <dmMainProcedure>
+        <dmStep>Do a visual inspection of the brakes as given in the pre-ride checks (refer to dmRef).</dmStep>
+        <dmStep>Clean the brake pads.</dmStep>
+        <dmStep>Find each of the brake pads.</dmStep>
+        <dmWarning>
+          <dmPara>May form explosive mixtures with air.</dmPara>
+        </dmWarning>
+        <dmStep>
+          <dmPara>
+            Apply a small amount of rubbing alcohol to each brake pad with a lint-free cloth.
+          </dmPara>
+        </dmStep>
+      </dmMainProcedure>
+    </dmProcedure>
+  </dmContent>
+</dm>

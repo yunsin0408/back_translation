@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-029A-D_001-00_EN-US_1_1 - Wiring Fields Definition</title>
+  <content>
+    <paragraph>This document outlines the definitions of various fields used within the wiring data structure. It details the attributes and their meanings for standard parts used in wiring harnesses.</paragraph>
+    <heading level="2">Wiring Fields</heading>
+    <heading level="3">Standard Part Group</heading>
+    <paragraph>This section describes the standard parts used and their attributes.</paragraph>
+    <heading level="4">Conduit</heading>
+    <table frame="line">
+      <title>Conduit</title>
+      <column id="term">Term</column>
+      <column id="definition">Definition</column>
+      <row>
+        <cell id="term">Part Number</cell>
+        <cell id="definition">The unique identifier for the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Alternative Part Number</cell>
+        <cell id="definition">An alternative identifier for the same conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Manufacturer Code</cell>
+        <cell id="definition">The code identifying the manufacturer of the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Size</cell>
+        <cell id="definition">The physical size of the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Mass</cell>
+        <cell id="definition">The weight of the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Color</cell>
+        <cell id="definition">The color of the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Wall Thickness</cell>
+        <cell id="definition">The thickness of the conduit's wall.</cell>
+      </row>
+      <row>
+        <cell id="term">Minimum Temperature</cell>
+        <cell id="definition">The lowest operating temperature the conduit can withstand.</cell>
+      </row>
+      <row>
+        <cell id="term">Maximum Temperature</cell>
+        <cell id="definition">The highest operating temperature the conduit can withstand.</cell>
+      </row>
+      <row>
+        <cell id="term">Functional Description Reference</cell>
+        <cell id="definition">Reference to a document containing a more detailed functional description.</cell>
+      </row>
+      <row>
+        <cell id="term">Illustration Reference</cell>
+        <cell id="definition">Reference to a document containing an illustration of the conduit.</cell>
+      </row>
+    </table>
+    <heading level="4">Ident Sleeve (Identification Sleeve)</heading>
+    <table frame="line">
+      <title>Ident Sleeve (Identification Sleeve)</title>
+      <column id="term">Term</column>
+      <column id="definition">Definition</column>
+      <row>
+        <cell id="term">Part Number</cell>
+        <cell id="definition">The unique identifier for the identification sleeve.</cell>
+      </row>
+      <row>
+        <cell id="term">Alternative Part Number</cell>
+        <cell id="definition">An alternative identifier for the same identification sleeve.</cell>
+      </row>
+      <row>
+        <cell id="term">Manufacturer Code</cell>
+        <cell id="definition">The code identifying the manufacturer of the identification sleeve.</cell>
+      </row>
+      <row>
+        <cell id="term">Length</cell>
+        <cell id="definition">The length of the identification sleeve.</cell>
+      </row>
+      <row>
+        <cell id="term">Material</cell>
+        <cell id="definition">The material the identification sleeve is made from.</cell>
+      </row>
+      <row>
+        <cell id="term">Mass</cell>
+        <cell id="definition">The weight of the identification sleeve.</cell>
+      </row>
+      <row>
+        <cell id="term">Functional Description Reference</cell>
+        <cell id="definition">Reference to a document containing a more detailed functional description.</cell>
+      </row>
+      <row>
+        <cell id="term">Illustration Reference</cell>
+        <cell id="definition">Reference to a document containing an illustration of the identification sleeve.</cell>
+      </row>
+    </table>
+    <heading level="4">Wire Material</heading>
+    <table frame="line">
+      <title>Wire Material</title>
+      <column id="term">Term</column>
+      <column id="definition">Definition</column>
+      <row>
+        <cell id="term">Part Number</cell>
+        <cell id="definition">The unique identifier for the wire material.</cell>
+      </row>
+      <row>
+        <cell id="term">Alternative Part Number</cell>
+        <cell id="definition">An alternative identifier for the same wire material.</cell>
+      </row>
+      <row>
+        <cell id="term">Manufacturer Code</cell>
+        <cell id="definition">The code identifying the manufacturer of the wire material.</cell>
+      </row>
+      <row>
+        <cell id="term">Wire Type</cell>
+        <cell id="definition">The type of wire (e.g., stranded, solid).</cell>
+      </row>
+      <row>
+        <cell id="term">Wire Gauge</cell>
+        <cell id="definition">The gauge of the wire.</cell>
+      </row>
+      <row>
+        <cell id="term">Number of Cores</cell>
+        <cell id="definition">The number of conductors within the wire.</cell>
+      </row>
+      <row>
+        <cell id="term">Size</cell>
+        <cell id="definition">The physical size of the wire.</cell>
+      </row>
+      <row>
+        <cell id="term">Mass</cell>
+        <cell id="definition">The weight of the wire per unit length.</cell>
+      </row>
+      <row>
+        <cell id="term">Color</cell>
+        <cell id="definition">The color of the wire insulation.</cell>
+      </row>
+      <row>
+        <cell id="term">Outer Jacket Color</cell>
+        <cell id="definition">The color of the outer jacket (if applicable).</cell>
+      </row>
+      <row>
+        <cell id="term">Outer Diameter</cell>
+        <cell id="definition">The overall diameter of the wire.</cell>
+      </row>
+      <row>
+        <cell id="term">Resistance</cell>
+        <cell id="definition">The direct current resistance of the wire.</cell>
+      </row>
+      <row>
+        <cell id="term">Voltage</cell>
+        <cell id="definition">The maximum operating voltage.</cell>
+      </row>
+      <row>
+        <cell id="term">Amperage</cell>
+        <cell id="definition">The maximum current carrying capacity.</cell>
+      </row>
+      <row>
+        <cell id="term">Minimum Temperature</cell>
+        <cell id="definition">The lowest operating temperature.</cell>
+      </row>
+      <row>
+        <cell id="term">Maximum Temperature</cell>
+        <cell id="definition">The highest operating temperature.</cell>
+      </row>
+      <row>
+        <cell id="term">Screen Count</cell>
+        <cell id="definition">The number of shields or screens.</cell>
+      </row>
+      <row>
+        <cell id="term">Coaxial Cable Flag</cell>
+        <cell id="definition">Indicates if the wire is a coaxial cable.</cell>
+      </row>
+      <row>
+        <cell id="term">Tri-axial Cable Flag</cell>
+        <cell id="definition">Indicates if the wire is a tri-axial cable.</cell>
+      </row>
+      <row>
+        <cell id="term">Impedance</cell>
+        <cell id="definition">The AC impedance of the wire (typically for cables).</cell>
+      </row>
+      <row>
+        <cell id="term">Frequency</cell>
+        <cell id="definition">The frequency at which impedance or attenuation are measured.</cell>
+      </row>
+      <row>
+        <cell id="term">Attenuation</cell>
+        <cell id="definition">The signal loss per unit length at a given frequency.</cell>
+      </row>
+      <row>
+        <cell id="term">Functional Description Reference</cell>
+        <cell id="definition">Reference to a document containing a more detailed functional description.</cell>
+      </row>
+      <row>
+        <cell id="term">Illustration Reference</cell>
+        <cell id="definition">Reference to a document containing an illustration of the wire material.</cell>
+      </row>
+    </table>
+    <heading level="4">Conduit</heading>
+    <table frame="line">
+      <title>Conduit</title>
+      <column id="term">Term</column>
+      <column id="definition">Definition</column>
+      <row>
+        <cell id="term">Part Number</cell>
+        <cell id="definition">The unique identifier for the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Alternative Part Number</cell>
+        <cell id="definition">An alternative identifier for the same conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Manufacturer Code</cell>
+        <cell id="definition">The code identifying the manufacturer of the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Size</cell>
+        <cell id="definition">The physical size of the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Mass</cell>
+        <cell id="definition">The weight of the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Color</cell>
+        <cell id="definition">The color of the conduit.</cell>
+      </row>
+      <row>
+        <cell id="term">Wall Thickness</cell>
+        <cell id="definition">The thickness of the conduit's wall.</cell>
+      </row>
+      <row>
+        <cell id="term">Minimum Temperature</cell>
+        <cell id="definition">The lowest operating temperature the conduit can withstand.</cell>
+      </row>
+      <row>
+        <cell id="term">Maximum Temperature</cell>
+        <cell id="definition">The highest operating temperature the conduit can withstand.</cell>
+      </row>
+      <row>
+        <cell id="term">Functional Description Reference</cell>
+        <cell id="definition">Reference to a document containing a more detailed functional description.</cell>
+      </row>
+      <row>
+        <cell id="term">Illustration Reference</cell>
+        <cell id="definition">Reference to a document containing an illustration of the conduit.</cell>
+      </row>
+    </table>
+  </content>
+</procedure>

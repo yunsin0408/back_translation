@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-056A-A_011-00_EN-US_1_1 - DModule Data - Bike Wiring Information</title>
+  <content>
+    <identification>
+      <title>DModule Data - Bike Wiring Information</title>
+    </identification>
+    <content>
+      <heading>1. Identification</heading>
+      <heading>2. Content</heading>
+      <heading>2.1 General Information</heading>
+      <paragraph>This document represents the data contained within the provided `dmodule` XML file, detailing wiring information for a bicycle.</paragraph>
+      <tableFrame>
+        <tableHeading>Model Information</tableHeading>
+        <tableRow>
+          <tableCell>Model Identifier</tableCell>
+          <tableCell>PM Issuer</tableCell>
+          <tableCell>PM Number</tableCell>
+          <tableCell>PM Volume</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>S1000DBIKE</tableCell>
+          <tableCell>B6865</tableCell>
+          <tableCell>EPWG1</tableCell>
+          <tableCell>00</tableCell>
+        </tableRow>
+      </tableFrame>
+      <heading>2.2 Electrical Equipment Group</heading>
+      <heading>2.2.1 Electronic Box 01 (ELO-Box)</heading>
+      <tableFrame>
+        <tableHeading>Electronic Box 01 (ELO-Box)</tableHeading>
+        <tableRow>
+          <tableCell>Functional Item Number</tableCell>
+          <tableCell>Part Number</tableCell>
+          <tableCell>Max Mounting Positions</tableCell>
+          <tableCell>Connection Class</tableCell>
+          <tableCell>Responsible Partner Company</tableCell>
+          <tableCell>Installation Location</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>ELO-Box</tableCell>
+          <tableCell>Electronic Box 01</tableCell>
+          <tableCell>5</tableCell>
+          <tableCell>13</tableCell>
+          <tableCell>U8025</tableCell>
+          <tableCell>Frame</tableCell>
+        </tableRow>
+      </tableFrame>
+      <heading>2.2.2 Battery Master Switch (AC1650) - Alternative Identifications</heading>
+      <heading>Functional Item Details</heading>
+      <tableFrame>
+        <tableHeading>Functional Item Details</tableHeading>
+        <tableRow>
+          <tableCell>Functional Item Number</tableCell>
+          <tableCell>System Breakdown Code</tableCell>
+          <tableCell>Responsible Partner Company</tableCell>
+          <tableCell>Equipment Name</tableCell>
+          <tableCell>Required Quantity</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>AC1650</tableCell>
+          <tableCell>24-31-02-00</tableCell>
+          <tableCell>K0378</tableCell>
+          <tableCell>BATTERY MASTER SWITCH</tableCell>
+          <tableCell>3</tableCell>
+        </tableRow>
+      </tableFrame>
+      <heading>Part Number Details</heading>
+      <tableFrame>
+        <tableHeading>Part Number Details</tableHeading>
+        <tableRow>
+          <tableCell>Part Number</tableCell>
+          <tableCell>Manufacturer Code</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>711-5016-3(462)</tableCell>
+          <tableCell>K5678</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>713-5018-2(469)</tableCell>
+          <tableCell>K5678</tableCell>
+        </tableRow>
+      </tableFrame>
+      <heading>Installation Details</heading>
+      <tableFrame>
+        <tableHeading>Installation Details</tableHeading>
+        <tableRow>
+          <tableCell>Instruction Ident</tableCell>
+          <tableCell>Installation Location</tableCell>
+          <tableCell>Access Door/Panel</tableCell>
+          <tableCell>Next Higher Assembly</tableCell>
+          <tableCell>Mounting Position</tableCell>
+          <tableCell>Sibling Plug Ident</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>ASSY806</tableCell>
+          <tableCell>Not Specified</tableCell>
+          <tableCell>L107</tableCell>
+          <tableCell>1004VE</tableCell>
+          <tableCell>5</tableCell>
+          <tableCell>1071VR</tableCell>
+        </tableRow>
+      </tableFrame>
+      <heading>State Details</heading>
+      <tableFrame>
+        <tableHeading>State Details</tableHeading>
+        <tableRow>
+          <tableCell>State</tableCell>
+          <tableCell>Contact</tableCell>
+          <tableCell>Description</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>Initial / DEENERGIZED</tableCell>
+          <tableCell>C/NC</tableCell>
+          <tableCell> </tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>Energized</tableCell>
+          <tableCell>C/NO</tableCell>
+          <tableCell> </tableCell>
+        </tableRow>
+      </tableFrame>
+      <paragraph>Equipment Description: PM Code: S1000DBIKE, Issuer: B6865, Number: EPWG1, Volume: 00</paragraph>
+      <paragraph>Functional Description: PM Code: S1000DBIKE, Issuer: B6865, Number: EPWG1, Volume: 00</paragraph>
+      <paragraph>Illustration: PM Code: S1000DBIKE, Issuer: B6865, Number: EPWG1, Volume: 00</paragraph>
+      <heading>2.2.3 Other Electrical Equipment</heading>
+      <tableFrame>
+        <tableHeading>Other Electrical Equipment</tableHeading>
+        <tableRow>
+          <tableCell>Functional Item Number</tableCell>
+          <tableCell>Part Number</tableCell>
+          <tableCell>Connection Class</tableCell>
+          <tableCell>Installation Location</tableCell>
+          <tableCell>Notes</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>FT1</tableCell>
+          <tableCell>GT-002-WD</tableCell>
+          <tableCell>11</tableCell>
+          <tableCell>Frame</tableCell>
+          <tableCell>Next Higher Assembly: ELO-Box, Mount Position: P1</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>FT2</tableCell>
+          <tableCell>GT-004-WD</tableCell>
+          <tableCell>11</tableCell>
+          <tableCell>Frame</tableCell>
+          <tableCell>Next Higher Assembly: ELO-Box, Mount Position: P2</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>FT3</tableCell>
+          <tableCell>GT-004-WD</tableCell>
+          <tableCell>11</tableCell>
+          <tableCell>Frame</tableCell>
+          <tableCell>Next Higher Assembly: ELO-Box, Mount Position: P3</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>Sensor</tableCell>
+          <tableCell>Speed sensor</tableCell>
+          <tableCell>16</tableCell>
+          <tableCell>Steering tube</tableCell>
+          <tableCell> </tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>T01</tableCell>
+          <tableCell>Tachometer</tableCell>
+          <tableCell>16</tableCell>
+          <tableCell>Handle bars</tableCell>
+          <tableCell> </tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>Diode</tableCell>
+          <tableCell> </tableCell>
+          <tableCell> </tableCell>
+          <tableCell> </tableCell>
+          <tableCell>Quantity: 2, Mount Positions: LH/RH, Next Higher Assembly: ELO-Box</tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>AC1650</tableCell>
+          <tableCell>711-5016-3(462) or 713-5018-2(469)</tableCell>
+          <tableCell>15</tableCell>
+          <tableCell>Not Specified</tableCell>
+          <tableCell> </tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>Speed sensor</tableCell>
+          <tableCell> </tableCell>
+          <tableCell>16</tableCell>
+          <tableCell>Steering tube</tableCell>
+          <tableCell> </tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell>Tachometer</tableCell>
+          <tableCell> </tableCell>
+          <tableCell>16</tableCell>
+          <tableCell>Handle bars</tableCell>
+          <tableCell> </tableCell>
+        </tableRow>
+        <tableRow>
+          <tableCell> </tableCell>
+          <tableCell> </tableCell>
+          <tableCell> </tableCell>
+          <tableCell> </tableCell>
+          <tableCell> </tableCell>
+        </tableRow>
+      </tableFrame>
+      <heading>2.3 Document Note</heading>
+      <paragraph>Note: The provided data contains a mix of individual components and an `electricalEquipAlts` section, which seems to represent configurable options or variations. This document attempts to structure this information for clarity.</paragraph>
+    </content>
+  </content>
+</proced>

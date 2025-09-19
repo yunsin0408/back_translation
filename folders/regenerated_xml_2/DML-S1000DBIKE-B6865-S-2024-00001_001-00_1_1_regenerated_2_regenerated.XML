@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>DML-S1000DBIKE-B6865-S-2024-00001_001-00_1_1_regenerated.XML</procTitle>
+  <introduction>
+    <p>This document details maintenance procedures and troubleshooting information for a bicycle, based on a structured data set. Each section corresponds to a system or component.</p>
+  </introduction>
+  <sect id="DA1">
+    <title>1. Headset &amp; Steering (System DA1)</title>
+    <sectTitle>Section Title</sectTitle>
+    <sectText>1. Headset &amp; Steering (System DA1)</sectText>
+    <procedure>
+      <procedureTitle>Procedure</procedureTitle>
+      <step>
+        <component>Headset</component>
+        <procedureIssue>Installation</procedureIssue>
+        <issueNumber>008</issueNumber>
+        <status>Open</status>
+      </step>
+    </procedure>
+  </sect>
+  <sect id="DA2">
+    <title>2. Braking System (System DA2)</title>
+    <sectTitle>Section Title</sectTitle>
+    <sectText>2. Braking System (System DA2)</sectText>
+    <procedure>
+      <procedureTitle>Procedure</procedureTitle>
+      <step>
+        <component>Brake Pads</component>
+        <procedureIssue>Replace</procedureIssue>
+        <issueNumber>011</issueNumber>
+        <status>Open</status>
+      </step>
+    </procedure>
+  </sect>
+  <sect id="DA4">
+    <title>3. Drivetrain - Chain (System DA4)</title>
+    <sectTitle>Section Title</sectTitle>
+    <sectText>3. Drivetrain - Chain (System DA4)</sectText>
+    <procedures>
+      <procedureTitle>Procedures</procedureTitle>
+      <step>
+        <component>Chain</component>
+        <procedureIssue>Oil</procedureIssue>
+        <issueNumber>011</issueNumber>
+        <date>2024-06-19</date>
+      </step>
+      <step>
+        <procedureIssue>Clean with chemical agent</procedureIssue>
+        <issueNumber>010</issueNumber>
+        <variant>Use chain cleaning fluid</variant>
+        <date>2024-06-19</date>
+      </step>
+      <step>
+        <procedureIssue>Correlated fault</procedureIssue>
+        <issueNumber>008</issueNumber>
+        <date>2024-06-19</date>
+      </step>
+    </procedures>
+  </sect>
+  <sect id="DA5">
+    <title>4. Drivetrain - Gears (System DA5)</title>
+    <sectTitle>Section Title</sectTitle>
+    <sectText>3. Drivetrain - Gears (System DA5)</sectText>
+    <procedures>
+      <procedureTitle>Procedures</procedureTitle>
+      <step>
+        <component>Gears</component>
+        <procedureIssue>Description of how it is made</procedureIssue>
+        <issueNumber>010</issueNumber>
+        <date>2024-06-19</date>
+      </step>
+      <step>
+        <component>Mechs</component>
+        <procedureIssue>Description of how it is made</procedureIssue>
+        <issueNumber>010</issueNumber>
+        <date>2024-06-19</date>
+      </step>
+      <step>
+        <component>Hubs</component>
+        <procedureIssue>Clean with chemical agent</procedureIssue>
+        <variant>Use degreasing agent</variant>
+        <issueNumber>011</issueNumber>
+        <date>2024-06-19</date>
+      </step>
+      <step>
+        <component>Shifters</component>
+        <procedureIssue>Description of how it is made</procedureIssue>
+        <issueNumber>010</issueNumber>
+        <date>2024-06-19</date>
+      </step>
+    </procedures>
+  </sect>
+  <sect id="DA5_CONT">
+    <title>5. Wheels &amp; Tires (System DA5 - continued)</title>
+    <sectTitle>Section Title</sectTitle>
+    <sectText>5. Wheels &amp; Tires (System DA5 - continued)</sectText>
+    <procedure>
+      <procedureTitle>Procedure</procedureTitle>
+      <step>
+        <component>Hubs (Also listed under Drivetrain)</component>
+        <procedureIssue>Clean with chemical agent</procedureIssue>
+        <variant>Use degreasing agent</variant>
+        <issueNumber>011</issueNumber>
+        <date>2024-06-19</date>
+      </step>
+    </procedure>
+  </sect>
+  <sect id="DA1_DA2">
+    <title>6. General / Undefined Systems (Systems DA1, DA2)</title>
+    <sectTitle>Section Title</sectTitle>
+    <sectText>6. General / Undefined Systems (Systems DA1, DA2)</sectText>
+    <procedures>
+      <procedureTitle>Procedures</procedureTitle>
+      <step>
+        <system>DA1 - Headset &amp; Steering</system>
+        <component>Headset</component>
+        <procedureIssue>Installation</procedureIssue>
+        <issueNumber>008</issueNumber>
+      </step>
+      <step>
+        <system>DA2 - Braking</system>
+        <component>Brake Pads</component>
+        <procedureIssue>Replace</procedureIssue>
+        <issueNumber>011</issueNumber>
+      </step>
+    </procedures>
+  </sect>
+  <notes>
+    <p>This documentation is structured by system/component.</p>
+    <p>Issue numbers can indicate the severity or priority of the task.</p>
+    <p>Dates indicate when the procedure/troubleshooting information was last updated.</p>
+    <p>Some components are listed in multiple systems as they may belong to both.</p>
+  </notes>
+</proced>

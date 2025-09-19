@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procedureTitle>DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A_011-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated - Bicycle Pre-Flight Check Procedure</procedureTitle>
+  <procedureOverview>
+    <title>Procedure Overview</title>
+    <listItem>
+      <title>Title</title>
+      <text>Bicycle Pre-Flight Check Procedure</text>
+    </listItem>
+    <listItem>
+      <title>Introduction</title>
+      <text>This document details the procedure for performing a pre-flight check on a bicycle, ensuring its safe and reliable operation.</text>
+    </listItem>
+  </procedureOverview>
+  <preliminaryRequirements>
+    <personnel>
+      <techObs>1 Technician</techObs>
+    </personnel>
+    <equipment>
+      <tableHeader>
+        <name>Name</name>
+        <partNumber>Part Number</partNumber>
+        <keyZeus>Key Zeus</keyZeus>
+        <quantity>Quantity</quantity>
+      </tableHeader>
+      <tableRow>
+        <name>Tire Pressure Gauge</name>
+        <partNumber>BSK-TLST-001-01</partNumber>
+        <keyZeus>KZ666</keyZeus>
+        <quantity>1</quantity>
+      </tableRow>
+      <tableRow>
+        <name>Specialist Toolset</name>
+        <partNumber>BSK-TLST-001</partNumber>
+        <keyZeus>KZ666</keyZeus>
+        <quantity>1</quantity>
+      </tableRow>
+    </equipment>
+    <supplies>
+      <tableHeader>
+        <name>Name</name>
+        <partNumber>Part Number</partNumber>
+        <keyZeus>Key Zeus</keyZeus>
+        <quantity>Quantity</quantity>
+      </tableHeader>
+      <tableRow>
+        <name>General Lubricant</name>
+        <partNumber>LL-001</partNumber>
+        <keyZeus>KZ222</keyZeus>
+        <quantity>As required</quantity>
+      </tableRow>
+    </supplies>
+  </preliminaryRequirements>
+  <mainProcedure>
+    <step>
+      <title>Step 1: Brake Inspection</title>
+      <listItem>
+        <title>Title</title>
+        <text>Brake Inspection</text>
+      </listItem>
+      <listItem>
+        <title>Instructions</title>
+        <instruction>Open the brake quick release.</instruction>
+        <instruction>Examine the condition and thickness of the brake pads.</instruction>
+        <subStep>Ensure sufficient rubber remains.</subStep>
+        <subStep>Verify the pads are not overly hardened.</subStep>
+        <instruction>Clean any unwanted material from the brake surfaces.</instruction>
+      </listItem>
+    </step>
+    <step>
+      <title>Step 2: Brake Installation Check</title>
+      <listItem>
+        <title>Title</title>
+        <text>Brake Installation Check</text>
+      </listItem>
+      <listItem>
+        <title>Instructions</title>
+        <instruction>Check the hydraulic brake system function (refer to multimedia object: Hydraulic brake function - infoEntityIdent: ICN-C0419-S1000D0384-001-01).</instruction>
+        <instruction>Ensure sufficient clearance exists between the brake pads and the inner diameter of the brake surface.</instruction>
+      </listItem>
+      <caution>If the pads are too low on the rim (as shown in Figure 1 - ICN-C0419-S1000D0382-001-01), they may cause spoke separation. Ensure pads are correctly installed in the center.</caution>
+    </step>
+    <step>
+      <title>Step 3: Tire Pressure Check</title>
+      <listItem>
+        <title>Title</title>
+        <text>Tire Pressure Check</text>
+      </listItem>
+      <listItem>
+        <title>Instructions</title>
+        <instruction>Check the tire pressure using the tire pressure gauge.</instruction>
+        <instruction>Compare the reading to the recommended pressure indicated on the tire sidewall.</instruction>
+        <instruction>Add air as needed.</instruction>
+      </listItem>
+    </step>
+    <step>
+      <title>Step 4: Wheel Inspection</title>
+      <listItem>
+        <title>Title</title>
+        <text>Wheel Inspection</text>
+      </listItem>
+      <listItem>
+        <title>Instructions</title>
+        <instruction>Examine the rims for bulges and dents.</instruction>
+        <instruction>Inspect for splits at the seam of extruded rims.</instruction>
+      </listItem>
+    </step>
+    <step>
+      <title>Step 5: Headset Bearing Check</title>
+      <listItem>
+        <title>Title</title>
+        <text>Headset Bearing Check</text>
+      </listItem>
+      <listItem>
+        <title>Instructions</title>
+        <instruction>Straddle the bicycle.</instruction>
+        <instruction>Apply the front brakes.</instruction>
+        <instruction>Push the handlebars forward.</instruction>
+        <instruction>Verify the headset bearings are tight.</instruction>
+      </listItem>
+    </step>
+    <step>
+      <title>Step 6: Chain Check</title>
+      <listItem>
+        <title>Title</title>
+        <text>Chain Check</text>
+      </listItem>
+      <listItem>
+        <title>Instructions</title>
+        <instruction>Visually examine the chain condition.</instruction>
+        <subStep>If dirty, clean the chain (refer to document: DA4, 1, 0, 0, 0, B).</subStep>
+        <instruction>Visually inspect for frozen or stiff chain links.</instruction>
+        <instruction>Apply lubricant as needed.</instruction>
+        <instruction>Check chain tension.</instruction>
+        <subStep>Move the chain onto the largest chain ring.</subStep>
+        <subStep>Pull the chain away from the front of the chain ring.</subStep>
+        <subStep>Ensure the play is minimal (less than a full tooth).</subStep>
+        <subStep>Tighten the chain using the specialist toolset.</subStep>
+      </listItem>
+    </step>
+  </mainProcedure>
+  <closingRequirements>
+    <text>No specific closing requirements.</text>
+  </closingRequirements>
+  <figures>
+    <title>Brake Pad Seating</title>
+    <infoEntityIdent>ICN-C0419-S1000D0382-001-01</infoEntityIdent>
+  </figures>
+</procedure>

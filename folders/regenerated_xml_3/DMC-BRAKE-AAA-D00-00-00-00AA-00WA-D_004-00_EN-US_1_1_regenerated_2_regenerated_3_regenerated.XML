@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdent>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>BRAKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>00W</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmIdent>
+      <language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>004</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+      <dmTitle>
+        <techName>Mountain bicycle</techName>
+        <infoName>Applicability cross-reference table</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </dmIdent>
+  <dmStatus>
+    <Issue Information>
+      <issueType>status</issueType>
+    </Issue Information>
+    <Security>
+      <securityClassification>01</securityClassification>
+    </Security>
+    <Data Restrictions>
+      <restrictionInstructions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </restrictionInstructions>
+      <restrictionInfo>
+        <copyright>
+          <copyrightPara>*Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD*</copyrightPara>
+          <copyrightPara>*Publishers:*</copyrightPara>
+          <randomList>
+            <item>Aerospace, Security and Defence Industries Association of Europe</item>
+            <item>Aerospace Industries Association of America</item>
+            <item>ATA e-Business Program</item>
+          </randomList>
+          <copyrightPara>*Limitations of liability:*</copyrightPara>
+          <randomList>
+            <item>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</item>
+            <item>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</item>
+            <item>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</item>
+          </randomList>
+          <copyrightPara>The details for copyright can be found in the S1000D Specification.</copyrightPara>
+        </copyright>
+        <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+        <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+      </restrictionInfo>
+    </Data Restrictions>
+  </dmStatus>
+  <Responsible Partner Company>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </Responsible Partner Company>
+  <Originator>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </Originator>
+  <Applicability>
+    <displayText>
+      <simplePara>All</simplePara>
+    </displayText>
+  </Applicability>
+  <Brex Dm Reference>
+    <dmRef>
+      <dmRefIdent>
+        <dmCode>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>022</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>D</itemLocationCode>
+        </dmCode>
+      </dmRefIdent>
+    </dmRef>
+  </Brex Dm Reference>
+  <Quality Assurance>
+    <firstVerification verificationType="tabtop"/>
+  </Quality Assurance>
+  <Reason For Update>
+    <id>rfu_general</id>
+    <updateReasonType>urt03</updateReasonType>
+    <simplePara>S1000D upissued</simplePara>
+  </Reason For Update>
+  <Content>
+    <Applicability Cross-Reference Table>
+      <productAttribute SerialNo="SerialNo">
+        <name>Brake serial number</name>
+        <displayName>B/SN</displayName>
+        <descr>Serial number by brake</descr>
+      </productAttribute>
+      <productAttribute model="model">
+        <name>Model</name>
+        <displayName/>
+        <descr>The model of the brake</descr>
+        <enumeration applicPropertyValues="BR01|BR02"/>
+        <enumeration applicPropertyValues="SS-11"/>
+      </productAttribute>
+    </Applicability Cross-Reference Table>
+  </Content>
+</dataModule>

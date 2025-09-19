@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_s1000dlighting_aaa_d00_00_00_00aa_057a_a_011_00_en_us_1_1 xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_s1000dlighting_aaa_d00_00_00_00aa_057a_a_011_00_en_us_1_1>
+    <content>
+      <section>
+        <wiring_group>
+          <wire_group_1>
+            <wires>
+              <wire>
+                <wire_name>Wire 1</wire_name>
+                <wire_details>(Details omitted for brevity - see original XML)</wire_details>
+              </wire>
+              <wire>
+                <wire_name>Wire 2</wire_name>
+                <wire_details>(Details omitted for brevity - see original XML)</wire_details>
+              </wire>
+              <wire>
+                <wire_name>...</wire_name>
+                <wire_details>(Other wires in the group)</wire_details>
+              </wire>
+            </wires>
+            <wire_alternates spec_ref="SPEC-0001">
+              <circuit_ident>YD</circuit_ident>
+              <wire_number>0486</wire_number>
+              <section_ident>AA</section_ident>
+            </wire_alternates>
+          </wire_group_1>
+        </wiring_group>
+        <from_equipment equipment_id="6QXA">
+          <connection_details>
+            <screen_order>3</screen_order>
+            <special_connection>100</special_connection>
+            <electrical_potential>
+              <termination_module_grouping_value>1</termination_module_grouping_value>
+              <block_grouping_value>1</block_grouping_value>
+              <shunt_grouping_value>1</shunt_grouping_value>
+              <contact_order_value>1</contact_order_value>
+              <potential_connections_order>2</potential_connections_order>
+            </electrical_potential>
+          </connection_details>
+          <screen_group>
+            <screen_level>01</screen_level>
+            <screen_type>03</screen_type>
+            <screen_style>01</screen_style>
+          </screen_group>
+          <twist_group>
+            <twist_type>2</twist_type>
+            <twist_value>T%CM0005AA</twist_value>
+          </twist_group>
+          <wire_installation_code>
+            <preparation_info>
+              <instruction_ident>PRE609</instruction_ident>
+            </preparation_info>
+            <finishing_info>
+              <instruction_ident>PRE609</instruction_ident>
+            </finishing_info>
+          </wire_installation_code>
+          <wire_info>
+            <wire_code>
+              <wire_type>QC</wire_type>
+              <wire_gauge_awg>006</wire_gauge_awg>
+            </wire_code>
+            <part_number>JN1018QC020</part_number>
+            <harness_ident>1109VB</harness_ident>
+            <wire_sequence_number>0161</wire_sequence_number>
+            <coaxial_cable_flag>Y</coaxial_cable_flag>
+            <triaxial_cable_flag>N</triaxial_cable_flag>
+            <emc_code>E</emc_code>
+            <length>2150 mm (estimated)</length>
+            <wire_color>R</wire_color>
+            <signal_info>115V AC, 400Hz</signal_info>
+            <responsible_partner_company>K0999</responsible_partner_company>
+            <routing>
+              <clipping_point>271-11</clipping_point>
+              <clipping_point>271-12</clipping_point>
+              <feed_thru>
+                <functional_item_number>42XU4T</functional_item_number>
+                <hole_ident>3</hole_ident>
+              </feed_thru>
+            </routing>
+            <wire_route>L1</wire_route>
+            <restriction>None</restriction>
+            <next_higher_assembly>
+              <functional_item_number>231VU</functional_item_number>
+            </next_higher_assembly>
+            <change_authority_data>
+              <change_authority_condition_number>2012-26-51</change_authority_condition_number>
+              <change_authority_type_name>AD</change_authority_type_name>
+            </change_authority_data>
+          </wire_info>
+        </from_equipment>
+      </section>
+      <summary>
+        This document provides a detailed view of the wiring data, including specific connections, wire properties, and routing information. The XML structure allows for complex wiring configurations to be defined and documented.
+      </summary>
+    </content>
+  </dmc_s1000dlighting_aaa_d00_00_00_00aa_057a_a_011_00_en_us_1_1>
+</dmc_s1000dlighting_aaa_d00_00_00_00aa_057a_a_011_00_en_us_1_1>

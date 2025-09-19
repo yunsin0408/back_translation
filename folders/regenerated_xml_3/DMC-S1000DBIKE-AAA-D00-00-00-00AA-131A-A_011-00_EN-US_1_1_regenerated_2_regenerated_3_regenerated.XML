@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_1 - Bicycle Pre-Ride Check Procedure</title>
+  <introduction>
+    <p>This document outlines the pre-ride check procedure for bicycles, covering key areas to ensure safety and optimal performance.</p>
+  </introduction>
+  <sect id="1">
+    <title>Introduction</title>
+    <p>This document outlines the pre-ride check procedure for bicycles, covering key areas to ensure safety and optimal performance.</p>
+  </sect>
+  <sect id="2">
+    <title>Brakes</title>
+    <subsect id="2.1">
+      <title>Item 1</title>
+      <task>
+        <taskTitle>Check Pads</taskTitle>
+        <description>Ensure brake pads have sufficient material.</description>
+      </task>
+    </subsect>
+    <subsect id="2.2">
+      <title>Item 2</title>
+      <task>
+        <taskTitle>Lever Action</taskTitle>
+        <description>Verify smooth and firm lever action.</description>
+      </task>
+    </subsect>
+  </sect>
+  <sect id="3">
+    <title>Tires</title>
+    <subsect id="3.1">
+      <title>Item 1</title>
+      <task>
+        <taskTitle>Inflation</taskTitle>
+        <description>Check tire pressure. Recommended ranges:</description>
+        <list type="bullet">
+          <item>On Road: 55-60 psi</item>
+          <item>Off Road: 35-40 psi</item>
+        </list>
+      </task>
+    </subsect>
+    <subsect id="3.2">
+      <title>Item 2</title>
+      <task>
+        <taskTitle>Condition</taskTitle>
+        <description>Inspect tires for cracks, splits, or embedded objects.</description>
+      </task>
+    </subsect>
+  </sect>
+  <sect id="4">
+    <title>Wheels</title>
+    <subsect id="4.1">
+      <title>Item 1</title>
+      <task>
+        <taskTitle>Bearings</taskTitle>
+        <description>Check for loose bearings.</description>
+      </task>
+    </subsect>
+    <subsect id="4.2">
+      <title>Item 2</title>
+      <task>
+        <taskTitle>Trueness</taskTitle>
+        <description>Ensure wheels are true (not wobbling).</description>
+      </task>
+    </subsect>
+    <subsect id="4.3">
+      <title>Item 3</title>
+      <task>
+        <taskTitle>Spokes</taskTitle>
+        <description>Verify spokes are not broken and are tight.</description>
+      </task>
+    </subsect>
+    <subsect id="4.4">
+      <title>Item 4</title>
+      <task>
+        <taskTitle>Axle Nuts</taskTitle>
+        <description>Ensure axle nuts are tight.</description>
+      </task>
+    </subsect>
+  </sect>
+  <sect id="5">
+    <title>Headset</title>
+    <subsect id="5.1">
+      <title>Item 1</title>
+      <task>
+        <taskTitle>Tightness</taskTitle>
+        <description>Check for headset bearing tightness. Ensure smooth steering operation.</description>
+      </task>
+    </subsect>
+  </sect>
+  <sect id="6">
+    <title>Chain</title>
+    <subsect id="6.1">
+      <title>Item 1</title>
+      <task>
+        <taskTitle>Movement</taskTitle>
+        <description>Verify easy movement of chain links.</description>
+      </task>
+    </subsect>
+  </sect>
+  <sect id="7">
+    <title>Handlebar and Stem</title>
+    <subsect id="7.1">
+      <title>Item 1</title>
+      <task>
+        <taskTitle>Stem Condition</taskTitle>
+        <description>*Warning: Do not ride with a cracked stem.*</description>
+        <list type="bullet">
+          <item>If stem is cracked: Replace stem.</item>
+          <item>If stem is loose: Tighten stem.</item>
+        </list>
+      </task>
+    </subsect>
+    <subsect id="7.2">
+      <title>Item 2</title>
+      <task>
+        <taskTitle>Clamp Bolt</taskTitle>
+        <description>If handlebars twist in stem: Tighten clamp bolt.</description>
+      </task>
+    </subsect>
+  </sect>
+  <sect id="8">
+    <title>Computer (if equipped)</title>
+    <subsect id="8.1">
+      <title>Item 1</title>
+      <task>
+        <taskTitle>Display Readings</taskTitle>
+        <description>Verify the computer displays appropriate readings. Example readings (may vary by model):</description>
+        <table>
+          <head>
+            <row>
+              <cell>Item</cell>
+              <cell>Reading</cell>
+            </row>
+          </head>
+          <body>
+            <row>
+              <cell>Altitude</cell>
+              <cell>0 miles</cell>
+            </row>
+            <row>
+              <cell>Speed</cell>
+              <cell>0 mph</cell>
+            </row>
+            <row>
+              <cell>Distance</cell>
+              <cell>0 miles</cell>
+            </row>
+          </body>
+        </table>
+        <p>*Note: Color Coding on Computer Display:*</p>
+        <table>
+          <head>
+            <row>
+              <cell>Item</cell>
+              <cell>Color</cell>
+            </row>
+          </head>
+          <body>
+            <row>
+              <cell>Altitude</cell>
+              <cell>co04</cell>
+            </row>
+            <row>
+              <cell>Speed</cell>
+              <cell>co02, co04</cell>
+            </row>
+            <row>
+              <cell>Distance</cell>
+              <cell>co51</cell>
+            </row>
+          </body>
+        </table>
+      </task>
+    </subsect>
+  </sect>
+  <sect id="9">
+    <title>Appendix</title>
+    <subsect id="9.1">
+      <title>Appendix: Color Codes</title>
+      <list type="bullet">
+        <item>co02: (Specific color - consult documentation)</item>
+        <item>co04: (Specific color - consult documentation)</item>
+        <item>co51: (Specific color - consult documentation)</item>
+      </list>
+    </subsect>
+  </sect>
+</proced>

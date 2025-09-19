@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A_011-00_EN-US_1_1_regenerated_2_regenerated_3_regenerated_4_regenerated - Bicycle Pre-Flight Check Procedure</title>
+  <sect level="1">
+    <title>Procedure Overview</title>
+    <sect level="2">
+      <title>Title</title>
+      <content>Bicycle Pre-Flight Check Procedure</content>
+    </sect>
+    <sect level="2">
+      <title>Introduction</title>
+      <content>This document details the procedure for performing a pre-flight check on a bicycle, ensuring its safe and reliable operation.</content>
+    </sect>
+  </sect>
+  <sect level="1">
+    <title>Preliminary Requirements</title>
+    <sect level="2">
+      <title>Personnel</title>
+      <content>
+        <item>
+          <name>Tech Obs</name>
+          <quantity>1</quantity>
+          <description>Technician</description>
+        </item>
+      </content>
+    </sect>
+    <sect level="2">
+      <title>Equipment</title>
+      <table type="data">
+        <head>
+          <cell>Name</cell>
+          <cell>Part Number</cell>
+          <cell>Key Zeus</cell>
+          <cell>Quantity</cell>
+        </head>
+        <row>
+          <cell>Tire Pressure Gauge</cell>
+          <cell>BSK-TLST-001-01</cell>
+          <cell>KZ666</cell>
+          <cell>1</cell>
+        </row>
+        <row>
+          <cell>Specialist Toolset</cell>
+          <cell>BSK-TLST-001</cell>
+          <cell>KZ666</cell>
+          <cell>1</cell>
+        </row>
+      </table>
+    </sect>
+    <sect level="2">
+      <title>Supplies</title>
+      <table type="data">
+        <head>
+          <cell>Name</cell>
+          <cell>Part Number</cell>
+          <cell>Key Zeus</cell>
+          <cell>Quantity</cell>
+        </head>
+        <row>
+          <cell>General Lubricant</cell>
+          <cell>LL-001</cell>
+          <cell>KZ222</cell>
+          <cell>As required</cell>
+        </row>
+      </table>
+    </sect>
+  </sect>
+  <sect level="1">
+    <title>Main Procedure</title>
+    <sect level="2">
+      <title>Step 1: Brake Inspection</title>
+      <sect level="3">
+        <title>Title</title>
+        <content>Brake Inspection</content>
+      </sect>
+      <sect level="3">
+        <title>Instructions</title>
+        <content>
+          <item>Open the brake quick release.</item>
+          <item>Examine the condition and thickness of the brake pads.</item>
+          <subitem>Ensure sufficient rubber remains.</subitem>
+          <subitem>Verify the pads are not overly hardened.</subitem>
+          <item>Clean any unwanted material from the brake surfaces.</item>
+        </content>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>Step 2: Brake Installation Check</title>
+      <sect level="3">
+        <title>Title</title>
+        <content>Brake Installation Check</content>
+      </sect>
+      <sect level="3">
+        <title>Instructions</title>
+        <content>
+          <item>Check the hydraulic brake system function (refer to multimedia object: Hydraulic brake function - infoEntityIdent: ICN-C0419-S1000D0384-001-01).</item>
+          <item>Ensure sufficient clearance exists between the brake pads and the inner diameter of the brake surface.</item>
+        </content>
+      </sect>
+      <sect level="3">
+        <title>Caution</title>
+        <content>If the pads are too low on the rim (as shown in Figure 1 - ICN-C0419-S1000D0382-001-01), they may cause spoke separation. Ensure pads are correctly installed in the center.</content>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>Step 3: Tire Pressure Check</title>
+      <sect level="3">
+        <title>Title</title>
+        <content>Tire Pressure Check</content>
+      </sect>
+      <sect level="3">
+        <title>Instructions</title>
+        <content>
+          <item>Check the tire pressure using the tire pressure gauge.</item>
+          <item>Compare the reading to the recommended pressure indicated on the tire sidewall.</item>
+          <item>Add air as needed.</item>
+        </content>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>Step 4: Wheel Inspection</title>
+      <sect level="3">
+        <title>Title</title>
+        <content>Wheel Inspection</content>
+      </sect>
+      <sect level="3">
+        <title>Instructions</title>
+        <content>
+          <item>Examine the rims for bulges and dents.</item>
+          <item>Inspect for splits at the seam of extruded rims.</item>
+        </content>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>Step 5: Headset Bearing Check</title>
+      <sect level="3">
+        <title>Title</title>
+        <content>Headset Bearing Check</content>
+      </sect>
+      <sect level="3">
+        <title>Instructions</title>
+        <content>
+          <item>Straddle the bicycle.</item>
+          <item>Apply the front brakes.</item>
+          <item>Push the handlebars forward.</item>
+          <item>Verify the headset bearings are tight.</item>
+        </content>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>Step 6: Chain Check</title>
+      <sect level="3">
+        <title>Title</title>
+        <content>Chain Check</content>
+      </sect>
+      <sect level="3">
+        <title>Instructions</title>
+        <content>
+          <item>Visually examine the chain condition.</item>
+          <subitem>If dirty, clean the chain (refer to document: DA4, 1, 0, 0, 0, B).</subitem>
+          <item>Visually inspect for frozen or stiff chain links.</item>
+          <item>Apply lubricant as needed.</item>
+          <item>Check chain tension.</item>
+          <subitem>Move the chain onto the largest chain ring.</subitem>
+          <subitem>Pull the chain away from the front of the chain ring.</subitem>
+          <subitem>Ensure the play is minimal (less than a full tooth).</subitem>
+          <subitem>Tighten the chain using the specialist toolset.</subitem>
+        </content>
+      </sect>
+    </sect>
+  </sect>
+  <sect level="1">
+    <title>Closing Requirements</title>
+    <content>No specific closing requirements.</content>
+  </sect>
+  <sect level="1">
+    <title>Figures</title>
+    <sect level="2">
+      <title>Title</title>
+      <content>Brake Pad Seating</content>
+    </sect>
+    <sect level="2">
+      <title>infoEntityIdent</title>
+      <content>ICN-C0419-S1000D0382-001-01</content>
+    </sect>
+  </sect>
+</proced>

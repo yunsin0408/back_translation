@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm:DM xmlns:dm="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dm:DMTitle>DM Title</dm:DMTitle>
+  <dm:DMCode>
+    <dm:ModelIdentCode>S1000DLIGHTING</dm:ModelIdentCode>
+    <dm:SystemDiffCode>AAA</dm:SystemDiffCode>
+    <dm:SystemCode>D00</dm:SystemCode>
+    <dm:SubSystemCode>0</dm:SubSystemCode>
+    <dm:SubSubSystemCode>0</dm:SubSubSystemCode>
+    <dm:AssyCode>00</dm:AssyCode>
+    <dm:DisassyCode>00</dm:DisassyCode>
+    <dm:DisassyCodeVariant>AA</dm:DisassyCodeVariant>
+    <dm:InfoCode>341</dm:InfoCode>
+    <dm:InfoCodeVariant>A</dm:InfoCodeVariant>
+    <dm:ItemLocationCode>A</dm:ItemLocationCode>
+  </dm:DMCode>
+  <dm:Language>
+    <dm:CountryIsoCode>US</dm:CountryIsoCode>
+    <dm:LanguageIsoCode>en</dm:LanguageIsoCode>
+  </dm:Language>
+  <dm:IssueInformation>
+    <dm:IssueNumber>010</dm:IssueNumber>
+    <dm:InWork>00</dm:InWork>
+  </dm:IssueInformation>
+  <dm:DMAddressItems>
+    <dm:IssueDate>
+      <dm:Year>2024</dm:Year>
+      <dm:Month>06</dm:Month>
+      <dm:Day>19</dm:Day>
+    </dm:IssueDate>
+  </dm:DMAddressItems>
+  <dm:DMStatus>
+    <dm:IssueType>changed</dm:IssueType>
+  </dm:DMStatus>
+  <dm:Security>
+    <dm:SecurityClassification>01</dm:SecurityClassification>
+    <dm:CommercialClassification>cc51</dm:CommercialClassification>
+    <dm:Caveat>cv51</dm:Caveat>
+    <dm:DataRestrictions>
+      <dm:RestrictionInstructions>
+        <dm:DataDistribution>To be made available to all S1000D users.</dm:DataDistribution>
+      </dm:RestrictionInstructions>
+      <dm:RestrictionInfo>
+        <dm:ExportControl>
+          <dm:ExportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</dm:ExportRegistrationStmt>
+        </dm:ExportControl>
+        <dm:DataHandling>There are no specific handling instructions for this data module.</dm:DataHandling>
+        <dm:DataDestruction>Users may destroy this data module in accordance with their own local procedures.</dm:DataDestruction>
+        <dm:DataDisclosure>There are no dissemination limitations that apply to this data module.</dm:DataDisclosure>
+        <dm:Copyright>
+          <dm:CopyrightStmt>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</dm:CopyrightStmt>
+          <dm:Publishers>
+            <dm:Publisher>Aerospace, Security and Defence Industries Association of Europe</dm:Publisher>
+            <dm:Publisher>Aerospace Industries Association of America</dm:Publisher>
+            <dm:Publisher>ATA e-Business Program</dm:Publisher>
+          </dm:Publishers>
+          <dm:LimitationsOfLiability>
+            <dm:LiabilityStmt>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</dm:LiabilityStmt>
+            <dm:LiabilityStmt>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</dm:LiabilityStmt>
+            <dm:LiabilityStmt>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</dm:LiabilityStmt>
+            <dm:CopyrightDetails>The details for copyright can be found in the S1000D Specification.</dm:CopyrightDetails>
+          </dm:LimitationsOfLiability>
+        </dm:RestrictionInfo>
+        <dm:PolicyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</dm:PolicyStatement>
+        <dm:DataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dm:DataConds>
+      </dm:RestrictionInfo>
+    </dm:DataRestrictions>
+  </dm:Security>
+  <dm:ResponsiblePartnerCompany>
+    <dm:EnterpriseCode>B6865</dm:EnterpriseCode>
+    <dm:EnterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</dm:EnterpriseName>
+  </dm:ResponsiblePartnerCompany>
+  <dm:Originator>
+    <dm:EnterpriseCode>B6865</dm:EnterpriseCode>
+    <dm:EnterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</dm:EnterpriseName>
+  </dm:Originator>
+  <dm:ApplicCrossReferenceTableRef>
+    <dm:DMRef>
+      <dm:DMCode>
+        <dm:ModelIdentCode>S1000DBIKE</dm:ModelIdentCode>
+        <dm:SystemDiffCode>AAA</dm:SystemDiffCode>
+        <dm:SystemCode>D00</dm:SystemCode>
+        <dm:SubSystemCode>0</dm:SubSystemCode>
+        <dm:SubSubSystemCode>0</dm:SubSubSystemCode>
+        <dm:AssyCode>00</dm:AssyCode>
+        <dm:DisassyCode>00</dm:DisassyCode>
+        <dm:DisassyCodeVariant>AA</dm:DisassyCodeVariant>
+        <dm:InfoCode>00W</dm:InfoCode>
+        <dm:InfoCodeVariant>A</dm:InfoCodeVariant>
+        <dm:ItemLocationCode>D</dm:ItemLocationCode>
+      </dm:DMCode>
+    </dm:DMRef>
+    <dm:ApplicRef>
+      <dm:ApplicIdentValue>app-00000000AA341A-0000</dm:ApplicIdentValue>
+    </dm:ApplicRef>
+    <dm:TechStandard>
+      <dm:AuthorityInfoAndTp>
+        <dm:AuthorityInfo>20010131</dm:AuthorityInfo>
+        <dm:TechPubBase>Bike book</dm:TechPubBase>
+      </dm:AuthorityInfoAndTp>
+    </dm:TechStandard>
+    <dm:BrexDMRef>
+      <dm:DMRef>
+        <dm:DMCode>
+          <dm:ModelIdentCode>S1000DBIKE</dm:ModelIdentCode>
+          <dm:SystemDiffCode>AAA</dm:SystemDiffCode>
+          <dm:SystemCode>D00</dm:SystemCode>
+          <dm:SubSystemCode>0</dm:SubSystemCode>
+          <dm:SubSubSystemCode>0</dm:SubSubSystemCode>
+          <dm:AssyCode>00</dm:AssyCode>
+          <dm:DisassyCode>00</dm:DisassyCode>
+          <dm:DisassyCodeVariant>AA</dm:DisassyCodeVariant>
+          <dm:InfoCode>022</dm:InfoCode>
+          <dm:InfoCodeVariant>A</dm:InfoCodeVariant>
+          <dm:ItemLocationCode>D</dm:ItemLocationCode>
+        </dm:DMCode>
+      </dm:DMRef>
+    </dm:BrexDMRef>
+  </dm:ApplicCrossReferenceTableRef>
+  <dm:QualityAssurance>
+    <dm:FirstVerification>tabtop</dm:FirstVerification>
+  </dm:QualityAssurance>
+  <dm:SystemBreakdownCode>LT</dm:SystemBreakdownCode>
+  <dm:Procedure>
+    <dm:ProcedureStep>
+      <dm:StepNumber>1</dm:StepNumber>
+      <dm:StepText>Turn on the light.</dm:StepText>
+    </dm:ProcedureStep>
+    <dm:ProcedureStep>
+      <dm:StepNumber>2</dm:StepNumber>
+      <dm:StepText>Check the brightness.</dm:StepText>
+    </dm:ProcedureStep>
+  </dm:Procedure>
+</dm:DM>

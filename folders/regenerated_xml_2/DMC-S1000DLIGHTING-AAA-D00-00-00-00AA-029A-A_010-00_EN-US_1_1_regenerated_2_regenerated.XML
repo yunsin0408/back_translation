@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <object-requirement>
+    <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_1</title>
+  </object-requirement>
+  <content>
+    <section>
+      <title>Applicability</title>
+      <section>
+        <title>DM Address</title>
+        <section>
+          <title>DM Ident</title>
+          <item>
+            <field name="modelIdentCode">S1000DLIGHTING</field>
+          </item>
+          <item>
+            <field name="systemDiffCode">AAA</field>
+          </item>
+          <item>
+            <field name="systemCode">D00</field>
+          </item>
+          <item>
+            <field name="subSystemCode">0</field>
+          </item>
+          <item>
+            <field name="subSubSystemCode">0</field>
+          </item>
+          <item>
+            <field name="assyCode">00</field>
+          </item>
+          <item>
+            <field name="disassyCode">00</field>
+          </item>
+          <item>
+            <field name="disassyCodeVariant">AA</field>
+          </item>
+          <item>
+            <field name="infoCode">029</field>
+          </item>
+          <item>
+            <field name="infoCodeVariant">A</field>
+          </item>
+          <item>
+            <field name="itemLocationCode">A</field>
+          </item>
+        </section>
+      </section>
+      <section>
+        <title>Language</title>
+        <item>
+          <field name="countryIsoCode">US</field>
+        </item>
+        <item>
+          <field name="languageIsoCode">en</field>
+        </item>
+      </section>
+      <section>
+        <title>Issue Info</title>
+        <item>
+          <field name="issueNumber">010</field>
+        </item>
+        <item>
+          <field name="inWork">0</field>
+        </item>
+      </section>
+    </section>
+    <section>
+      <title>DM Issue</title>
+      <item>
+        <field name="issueDate">2019-01-28</field>
+      </item>
+    </section>
+    <section>
+      <title>DM Status</title>
+      <item>
+        <field name="status">Released</field>
+      </item>
+    </section>
+    <section>
+      <title>DM Configuration Management</title>
+      <item>
+        <field name="status">Not applicable</field>
+      </item>
+    </section>
+    <section>
+      <title>DM Related Documents</title>
+      <item>
+        <field name="status">Not applicable</field>
+      </item>
+    </section>
+    <section>
+      <title>Content</title>
+      <section>
+        <title>Wiring Fields</title>
+        <section>
+          <title>DescrWire</title>
+          <table type="descriptive">
+            <heading>
+              <cell>Field Name</cell>
+              <cell>Description</cell>
+            </heading>
+            <row>
+              <cell>Field Name</cell>
+              <cell>Description of the field. (Repeated for each field)</cell>
+            </row>
+            <row>
+              <cell>Wire</cell>
+              <cell>Contains the sequential number of the wire, e.g. in the harness.</cell>
+            </row>
+            <row>
+              <cell>Harness ident</cell>
+              <cell>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</cell>
+            </row>
+            <row>
+              <cell>Wire sequential number</cell>
+              <cell>Contains the sequential number of the wire, e.g. in the harness.</cell>
+            </row>
+            <row>
+              <cell>Wire information circuit code</cell>
+              <cell>Contains the identifier of the circuit to which the wire belongs.</cell>
+            </row>
+            <row>
+              <cell>Wire information wire section identification</cell>
+              <cell>Contains the identifier of the section to which the wire belongs.</cell>
+            </row>
+            <row>
+              <cell>Length</cell>
+              <cell>Length identifies the length of the wire. The given value is approximately 10% higher than necessary to install the wire on the bicycle.</cell>
+            </row>
+            <row>
+              <cell>Color</cell>
+              <cell>Color identifies the color of the wire sheating.</cell>
+            </row>
+            <row>
+              <cell>Twisting</cell>
+              <cell>Twistig identifies wires, which are twisted together with a unique identifier.</cell>
+            </row>
+            <row>
+              <cell>Electric ident</cell>
+              <cell>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</cell>
+            </row>
+            <row>
+              <cell>Contact</cell>
+              <cell>Contact identifies the electrical contact to which the wire is connected.</cell>
+            </row>
+            <row>
+              <cell>Group code</cell>
+              <cell>Identifies wires, which are connected to the same terminal lug.</cell>
+            </row>
+            <row>
+              <cell>Screens</cell>
+              <cell>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</cell>
+            </row>
+            <row>
+              <cell>Responsible partner company</cell>
+              <cell>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</cell>
+            </row>
+            <row>
+              <cell>Feed-through</cell>
+              <cell>Identifies bunges through which the wire is routed.</cell>
+            </row>
+            <row>
+              <cell>Next higher assembly</cell>
+              <cell>Identifies the next higher assenbly, in which the wire is installed.</cell>
+            </row>
+          </table>
+        </section>
+        <section>
+          <title>DescrHarness</title>
+          <table type="descriptive">
+            <heading>
+              <cell>Field Name</cell>
+              <cell>Description</cell>
+            </heading>
+            <row>
+              <cell>Field Name</cell>
+              <cell>Description of the field. (Repeated for each field)</cell>
+            </row>
+            <row>
+              <cell>Harness ident</cell>
+              <cell>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</cell>
+            </row>
+            <row>
+              <cell>Harness Part number</cell>
+              <cell>Harness part number gives the part number of the harness identified by the harness ident.</cell>
+            </row>
+            <row>
+              <cell>Harness variant</cell>
+              <cell>Harness variant identifies the variant of the harness in addition to the harness part number.</cell>
+            </row>
+            <row>
+              <cell>Harness issue</cell>
+              <cell>Harness issue identifies the production variant of the harness in addition to the harness part number.</cell>
+            </row>
+            <row>
+              <cell>Harness nomenclature</cell>
+              <cell>Harness nomenclature identifies the harness by using a specific name.</cell>
+            </row>
+            <row>
+              <cell>Harness separation code</cell>
+              <cell>Harness separation code gives the separation code of the harness.</cell>
+            </row>
+            <row>
+              <cell>Minimum temperature</cell>
+              <cell>Minimum temperature gives the minimum environment temperature in which the harness can be used.</cell>
+            </row>
+            <row>
+              <cell>Maximum temperature</cell>
+              <cell>Maximum temperature gives the maximum environment temperature in which the harness can be used.</cell>
+            </row>
+            <row>
+              <cell>Harness environment</cell>
+              <cell>Harness environment indicates that a harness is used in high vibriation or/and hydraulic areas.</cell>
+            </row>
+            <row>
+              <cell>Sleeve</cell>
+              <cell>Gives the part number and/or the material of the sleeves used on the harness.</cell>
+            </row>
+            <row>
+              <cell>Responsible partner company</cell>
+              <cell>The responsible partner company indicates the company responsible for the integration of the harness to the bicycle.</cell>
+            </row>
+          </table>
+        </section>
+        <section>
+          <title>DescrElectricalEquip</title>
+          <table type="descriptive">
+            <heading>
+              <cell>Field Name</cell>
+              <cell>Description</cell>
+            </heading>
+            <row>
+              <cell>Field Name</cell>
+              <cell>Description of the field. (Repeated for each field)</cell>
+            </row>
+            <row>
+              <cell>Electric ident</cell>
+              <cell>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</cell>
+            </row>
+            <row>
+              <cell>Contact</cell>
+              <cell>Contact identifies the electrical contact to which the wire is connected.</cell>
+            </row>
+            <row>
+              <cell>Group code</cell>
+              <cell>Identifies wires, which are connected to the same terminal lug.</cell>
+            </row>
+            <row>
+              <cell>Screens</cell>
+              <cell>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</cell>
+            </row>
+            <row>
+              <cell>Responsible partner company</cell>
+              <cell>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</cell>
+            </row>
+            <row>
+              <cell>Feed-through</cell>
+              <cell>Identifies bunges through which the wire is routed.</cell>
+            </row>
+            <row>
+              <cell>Next higher assembly</cell>
+              <cell>Identifies the next higher assenbly, in which the wire is installed.</cell>
+            </row>
+          </table>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

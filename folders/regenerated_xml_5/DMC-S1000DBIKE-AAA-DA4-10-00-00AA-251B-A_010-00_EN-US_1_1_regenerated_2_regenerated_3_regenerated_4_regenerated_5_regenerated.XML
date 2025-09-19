@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmaddress>
+    <dmident>
+      <modelidentcode>S1000DBIKE</modelidentcode>
+      <systemdiffcode>AAA</systemdiffcode>
+      <systemcode>DA4</systemcode>
+      <subsystemcode>10</subsystemcode>
+      <subsubsystemcode>00</subsubsystemcode>
+      <assycode>00</assycode>
+      <disassycode>00</disassycode>
+      <disassycodevariant>AA</disassycodevariant>
+      <infocode>251</infocode>
+      <infocodevariant>A</infocodevariant>
+    </dmident>
+    <dmstatus>
+      <reasonforupdate>S1000D upissued</reasonforupdate>
+      <skilllevel>sk01</skilllevel>
+      <systembreakdowncode>BY161</systembreakdowncode>
+      <qualityassurance>tabtop</qualityassurance>
+    </dmstatus>
+  </dmaddress>
+  <content>
+    <references>
+      <modelidentcode>S1000DBIKE</modelidentcode>
+      <systemdiffcode>AAA</systemdiffcode>
+      <systemcode>D00</systemcode>
+      <subsystemcode>0</subsystemcode>
+      <subsubsystemcode>0</subsubsystemcode>
+      <assycode>00</assycode>
+      <disassycode>00</disassycode>
+      <disassycodevariant>AA</disassycodevariant>
+      <infocode>121</infocode>
+      <infocodevariant>A</infocodevariant>
+    </references>
+    <procedure>
+      <preliminaryrequirements>
+        <supportequipment>
+          <stiffbristlebrush>
+            <manufacturercode>KZ666</manufacturercode>
+            <partnumber>BSK-TLST-001-02</partnumber>
+            <quantity>1 EA</quantity>
+          </stiffbristlebrush>
+          <chaincleaningfluid>
+            <manufacturercode>KZ222</manufacturercode>
+            <partnumber>LL-003</partnumber>
+            <quantity>As required</quantity>
+          </chaincleaningfluid>
+          <chaincleaningtool>
+            <manufacturercode>KZ666</manufacturercode>
+            <partnumber>BSK-TLST-001-03</partnumber>
+            <quantity>1 EA</quantity>
+          </chaincleaningtool>
+        </supportequipment>
+        <supplies>
+          <floorcovering>
+            <manufacturercode>KK999</manufacturercode>
+            <partnumber>PPP-001</partnumber>
+            <quantity>1 pack</quantity>
+          </floorcovering>
+          <generallubricant>
+            <manufacturercode>KZ222</manufacturercode>
+            <partnumber>LL-001</partnumber>
+            <quantity>As required</quantity>
+          </generallubricant>
+        </supplies>
+      </preliminaryrequirements>
+      <mainprocedure>
+        <step>
+          <stepnumber>1</stepnumber>
+          <steptext>Inspect the chain. Do the inspection of the chain as given in the pre-ride checks (refer to reference above).</steptext>
+        </step>
+        <step>
+          <stepnumber>2</stepnumber>
+          <steptext>Prepare the cleaning area.</steptext>
+          <substep>
+            <substeptext>Put the floor covering on a satisfactory floor area.</substeptext>
+          </substep>
+          <substep>
+            <substeptext>Put the bicycle on the floor covering.</substeptext>
+          </substep>
+        </step>
+        <step>
+          <stepnumber>3</stepnumber>
+          <steptext>Clean debris from the chain.</steptext>
+          <substep>
+            <substeptext>Use the stiff bristle brush and loosen as much unwanted material as possible.</substeptext>
+          </substep>
+          <substep>
+            <substeptext>Make sure that you remove all the unwanted material from the chain.</substeptext>
+          </substep>
+        </step>
+        <step>
+          <stepnumber>4</stepnumber>
+          <steptext>Clean the chain.</steptext>
+          <substep>
+            <substeptext>Open the chain cleaning tool and fill with the chain cleaning fluid.</substeptext>
+          </substep>
+          <substep>
+            <substeptext>Move the chain to the middle chainring and the middle sprocket at the rear.</substeptext>
+          </substep>
+          <substep>
+            <substeptext>Put the chain in the chain guides of the chain cleaning tool and lock the tool on the chain.</substeptext>
+          </substep>
+          <substep>
+            <substeptext>Hold the tool with the left hand and slowly turn the rearwards with the right hand.</substeptext>
+          </substep>
+          <substep>
+            <substeptext>Press the button on the cleaning tool to make sure that cleaning fluid flows until the tool is empty.</substeptext>
+          </substep>
+          <substep>
+            <substeptext>If necessary, remove the unwanted chain cleaning fluid.</substeptext>
+          </substep>
+        </step>
+        <step>
+          <stepnumber>5</stepnumber>
+          <steptext>Lubricate the chain.</steptext>
+          <substep>
+            <substeptext>Use the general lubricant and lubricate the chain.</substeptext>
+          </substep>
+          <substep>
+            <substeptext>Unlock and remove the cleaning tool.</substeptext>
+          </substep>
+          <substep>
+            <substeptext>If necessary, remove the unwanted lubricant.</substeptext>
+          </substep>
+        </step>
+      </mainprocedure>
+      <closerequirements>
+        <requirementtext>Move the bicycle to its storage area and remove the floor covering.</requirementtext>
+      </closerequirements>
+    </procedure>
+  </content>
+</proced>

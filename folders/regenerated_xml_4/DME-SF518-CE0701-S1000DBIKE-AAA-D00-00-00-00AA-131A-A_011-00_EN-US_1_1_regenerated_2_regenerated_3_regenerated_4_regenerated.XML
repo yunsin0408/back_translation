@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DME-SF518-CE0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_1 - Bicycle Pre-Ride Check - Crew Procedure</title>
+  <introduction>
+    <paragraph>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</paragraph>
+  </introduction>
+  <step>
+    <title>1. Introduction</title>
+    <paragraph>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</paragraph>
+  </step>
+  <step>
+    <title>2. Crew Procedure Steps</title>
+    <substep>
+      <title>2.1. 1. Brakes</title>
+      <itemized_list>
+        <item>Inspect brake pads for wear.</item>
+        <item>Ensure brake levers operate smoothly.</item>
+        <item>Verify cable integrity (no cuts or fraying).</item>
+        <item>Confirm proper brake function - both front and rear.</item>
+      </itemized_list>
+    </substep>
+    <substep>
+      <title>2.2. 2. Tires</title>
+      <itemized_list>
+        <item>Tire pressure (see table below for recommended ranges).</item>
+        <item>Inspect tires for cracks, splits, or embedded objects.</item>
+      </itemized_list>
+      <subsubstep>
+        <title>2.2.1. Tire Pressure Guide</title>
+        <table>
+          <header>
+            <cell>Terrain</cell>
+            <cell>Minimum Pressure</cell>
+            <cell>Maximum Pressure</cell>
+          </header>
+          <row>
+            <cell>Off Road</cell>
+            <cell>35 lbs</cell>
+            <cell>40 lbs</cell>
+          </row>
+          <row>
+            <cell>On Road</cell>
+            <cell>55 lbs</cell>
+            <cell>60 lbs</cell>
+          </row>
+        </table>
+      </subsubstep>
+    </substep>
+    <substep>
+      <title>2.3. 3. Wheels</title>
+      <itemized_list>
+        <item>Spin wheels to verify smooth rotation.</item>
+        <item>Listen for unusual noises indicating bearing issues.</item>
+        <item>Inspect spokes for breakage.</item>
+        <item>Ensure spokes are tight.</item>
+        <item>Confirm axle nuts are securely tightened.</item>
+        <item>Confirm wheel is 'true' (not wobbling).</item>
+      </itemized_list>
+    </substep>
+    <substep>
+      <title>2.4. 4. Headset</title>
+      <itemized_list>
+        <item>Ensure headset bearings are tight and smooth.</item>
+      </itemized_list>
+    </substep>
+    <substep>
+      <title>2.5. 5. Chain</title>
+      <itemized_list>
+        <item>Verify easy movement of chain links.</item>
+      </itemized_list>
+    </substep>
+    <substep>
+      <title>2.6. 6. Handlebar &amp; Stem</title>
+      <warning>Do *not* ride with a cracked stem.</warning>
+      <subsubstep>
+        <title>2.6.1. Conditional Actions</title>
+        <itemized_list>
+          <item><b>Stem Cracked:</b> Replace stem immediately.</item>
+          <item><b>Stem Loose:</b> Tighten stem.</item>
+          <item><b>Handlebars Twist:</b> Tighten clamp bolt.</item>
+        </itemized_list>
+      </subsubstep>
+    </substep>
+    <substep>
+      <title>2.7. 7. Computer Display</title>
+      <paragraph>Ensure the computer is displaying accurate information (example):</paragraph>
+      <subsubstep>
+        <title>2.7.1. Computer Display</title>
+        <table>
+          <header>
+            <cell>Component</cell>
+            <cell>Displayed Value</cell>
+          </header>
+          <row>
+            <cell>Speed</cell>
+            <cell>0 mph</cell>
+          </row>
+          <row>
+            <cell>Distance</cell>
+            <cell>0 miles</cell>
+          </row>
+        </table>
+      </subsubstep>
+    </substep>
+  </step>
+  <notes>
+    <itemized_list>
+      <item>This procedure is a guideline; adapt it based on specific bicycle types and rider needs.</item>
+      <item>Regular maintenance and inspection are crucial for safety and performance.</item>
+      <item>Always prioritize safety; if unsure about any component, seek professional assistance.</item>
+    </itemized_list>
+  </notes>
+</procedure>

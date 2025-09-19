@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>Bike DModule - Context and Non-Context Rules</dmTitle>
+  <dmDescription>This document outlines the context and non-context rules defined within the provided DModule, detailing allowed values and project guidelines.</dmDescription>
+  <contextRules>
+    <structureObjectRuleGroups>
+      <ruleGroup limitType="@limitUnitType">
+        <ruleName>limitType/@limitUnitType</ruleName>
+        <allowedValues>
+          <allowedValue>Time between overhaul</allowedValue>
+          <allowedValue>Hard time</allowedValue>
+          <allowedValue>Since last maintenance</allowedValue>
+          <allowedValue>Out time limit</allowedValue>
+          <allowedValue>On condition</allowedValue>
+          <allowedValue>Check maintenance</allowedValue>
+          <allowedValue>Functional check</allowedValue>
+        </allowedValues>
+      </ruleGroup>
+      <ruleGroup threshold="@thresholdUnitOfMeasure">
+        <ruleName>threshold/@thresholdUnitOfMeasure</ruleName>
+        <allowedValues>
+          <allowedValue>Months</allowedValue>
+          <allowedValue>Weeks</allowedValue>
+          <allowedValue>Years</allowedValue>
+          <allowedValue>Days</allowedValue>
+          <allowedValue>Shop visits</allowedValue>
+          <allowedValue>Auxiliary power unit change</allowedValue>
+          <allowedValue>Wheel change</allowedValue>
+          <allowedValue>Kilometer (lexical)</allowedValue>
+        </allowedValues>
+      </ruleGroup>
+      <ruleGroup sourceType="@sourceTypeCode">
+        <ruleName>sourceType/@sourceTypeCode</ruleName>
+        <allowedValues>
+          <allowedValue>fec</allowedValue>
+          <allowedValue>sample</allowedValue>
+        </allowedValues>
+      </ruleGroup>
+      <ruleGroup sourceType="@sourceCriticality">
+        <ruleName>sourceType/@sourceCriticality</ruleName>
+        <allowedValues>
+          <allowedValue>Evident, Safety</allowedValue>
+          <allowedValue>Evident, operational</allowedValue>
+          <allowedValue>Evident, Economic</allowedValue>
+          <allowedValue>Hidden, Safety</allowedValue>
+          <allowedValue>Hidden, Non-Safety</allowedValue>
+        </allowedValues>
+      </ruleGroup>
+      <ruleGroup verbatimText="@verbatimStyle">
+        <ruleName>verbatimText/@verbatimStyle</ruleName>
+        <allowedValues>
+          <allowedValue>Generic verbatim</allowedValue>
+          <allowedValue>Filename</allowedValue>
+          <allowedValue>XML/SGML markup and related elements (element name, attribute name/value, entity name, processing instruction)</allowedValue>
+          <allowedValue>Program prompt, user input, output, listing, variable name/value, constant, class name, parameter name.</allowedValue>
+        </allowedValues>
+      </ruleGroup>
+    </structureObjectRuleGroups>
+    <notationRules>
+      <notation>
+        <notationId>//-//S1000D//NOTATION X-SHOCKWAVE-FLASH 3D Models Encoding//EN</notationId>
+        <notationDescription>Flash animation is *not* allowed in this project.</notationDescription>
+      </notation>
+    </notationRules>
+  </contextRules>
+  <nonContextRules>
+    <rule>
+      <ruleId>BIKE-BR-00078</ruleId>
+      <ruleDescription>Bike data modules *must* be reviewed and approved by the EPWG (Engineering Publication Working Group) before publication.</ruleDescription>
+    </rule>
+    <rule>
+      <ruleId>BIKE-BR-00079</ruleId>
+      <ruleDescription>The Bike data set *must* contain examples demonstrating the application of constructs and principles at various levels of conceptual sophistication.</ruleDescription>
+    </rule>
+  </nonContextRules>
+</dmModule>

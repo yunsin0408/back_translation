@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>DMC-S1000DBIKE-AAA-D00-00-01-00AA-520A-A_004-00_EN-US</dmTitle>
+  <dmIdent>
+    <issueInfo>
+      <issueNumber>004</issueNumber>
+      <inWork>00</inWork>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+    </issueInfo>
+    <language>
+      <languageIsoCode>en</languageIsoCode>
+      <countryIsoCode>US</countryIsoCode>
+    </language>
+    <techName>Fork</techName>
+    <infoName>Remove procedures</infoName>
+  </dmIdent>
+  <identAndStatus>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>01</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>520</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmIdent>
+      <dmAddressItems/>
+    </dmAddress>
+    <dmStatus>
+      <issueType>status</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>
+              <simplePara>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simplePara>
+            </exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>No disclosure restrictions.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionReason>No specific reason.</restrictionReason>
+        <restrictionOriginator>N/A</restrictionOriginator>
+      </dataRestrictions>
+      <restrictionDetails/>
+    </dmStatus>
+  </identAndStatus>
+  <content>
+    <references>
+      <dmRef>
+        <dmCode>
+          <dmCode modelIdentCode>S1000DBIKE</dmCode>
+          <dmCode systemDiffCode>AAA</dmCode>
+          <dmCode systemCode>DA2</dmCode>
+          <dmCode subSystemCode>1</dmCode>
+          <dmCode subSubSystemCode>0</dmCode>
+          <dmCode assyCode>00</dmCode>
+          <dmCode disassyCode>00</dmCode>
+          <dmCode disassyCodeVariant>AA</dmCode>
+          <dmCode infoCode>520</dmCode>
+          <dmCode infoCodeVariant>A</dmCode>
+          <dmCode itemLocationCode>A</dmCode>
+        </dmCode>
+      </dmRef>
+      <dmRef>
+        <dmCode>
+          <dmCode modelIdentCode>S1000DBIKE</dmCode>
+          <dmCode systemDiffCode>AAA</dmCode>
+          <dmCode systemCode>DA2</dmCode>
+          <dmCode subSystemCode>1</dmCode>
+          <dmCode subSubSystemCode>0</dmCode>
+          <dmCode assyCode>00</dmCode>
+          <dmCode disassyCode>00</dmCode>
+          <dmCode disassyCodeVariant>AA</dmCode>
+          <dmCode infoCode>520</dmCode>
+          <dmCode infoCodeVariant>A</dmCode>
+          <dmCode itemLocationCode>A</dmCode>
+        </dmCode>
+      </dmRef>
+      <dmRef>
+        <dmCode>
+          <dmCode modelIdentCode>S1000DBIKE</dmCode>
+          <dmCode systemDiffCode>AAA</dmCode>
+          <dmCode systemCode>DA2</dmCode>
+          <dmCode subSystemCode>1</dmCode>
+          <dmCode subSubSystemCode>0</dmCode>
+          <dmCode assyCode>00</dmCode>
+          <dmCode disassyCode>00</dmCode>
+          <dmCode disassyCodeVariant>AA</dmCode>
+          <dmCode infoCode>520</dmCode>
+          <dmCode infoCodeVariant>A</dmCode>
+          <dmCode itemLocationCode>A</dmCode>
+        </dmCode>
+      </dmRef>
+      <dmRef>
+        <dmCode>
+          <dmCode modelIdentCode>S1000DBIKE</dmCode>
+          <dmCode systemDiffCode>AAA</dmCode>
+          <dmCode systemCode>DA2</dmCode>
+          <dmCode subSystemCode>1</dmCode>
+          <dmCode subSubSystemCode>0</dmCode>
+          <dmCode assyCode>00</dmCode>
+          <dmCode disassyCode>00</dmCode>
+          <dmCode disassyCodeVariant>AA</dmCode>
+          <dmCode infoCode>520</dmCode>
+          <dmCode infoCodeVariant>A</dmCode>
+          <dmCode itemLocationCode>A</dmCode>
+        </dmCode>
+      </dmRef>
+    </references>
+    <procedure>
+      <reqCondGroup>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA2</systemCode>
+      </reqCondGroup>
+      <task>
+        <step>Push the fork downwards to remove it from the frame</step>
+        <step>Put the frame on the floor</step>
+      </task>
+      <closeRequirements>
+        <reqCondGroup>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>DA2</systemCode>
+        </reqCondGroup>
+      </closeRequirements>
+    </procedure>
+  </content>
+  <application>
+    <systemDiffCode>AAA</systemDiffCode>
+    <systemCode>DA2</systemCode>
+  </application>
+</dm>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_s1000dlighting xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_s1000dlighting_configuration>
+    <configuration_name>DMC-S1000DLIGHTING Configuration</configuration_name>
+    <configuration_version>AAA-D00-00-00-01AA-941A-D_010-00</configuration_version>
+    <localization>
+      <language>EN</language>
+      <country>US</country>
+      <version>1.1</version>
+    </localization>
+    <system_configuration>
+      <general_settings>
+        <system_name>Main Lighting System</system_name>
+        <timezone>America/Los_Angeles</timezone>
+        <units>Imperial</units>
+      </general_settings>
+      <network_settings>
+        <ip_address>192.168.1.100</ip_address>
+        <subnet_mask>255.255.255.0</subnet_mask>
+        <gateway>192.168.1.1</gateway>
+      </network_settings>
+    </system_configuration>
+    <lighting_zones>
+      <zone_1>
+        <id>1</id>
+        <name>Living Room</name>
+        <description>Main living area lighting</description>
+        <lights>
+          <light_1>
+            <type>Ceiling</type>
+            <id>101</id>
+            <brightness>100</brightness>
+            <color>WarmWhite</color>
+          </light_1>
+          <light_2>
+            <type>Lamp</type>
+            <id>102</id>
+            <brightness>60</brightness>
+            <color>CoolWhite</color>
+          </light_2>
+        </lights>
+      </zone_1>
+      <zone_2>
+        <id>2</id>
+        <name>Kitchen</name>
+        <description>Kitchen area lighting</description>
+        <lights>
+          <light_1>
+            <type>Ceiling</type>
+            <id>201</id>
+            <brightness>80</brightness>
+            <color>Daylight</color>
+          </light_1>
+        </lights>
+      </zone_2>
+    </lighting_zones>
+    <schedules>
+      <schedule_1>
+        <id>1</id>
+        <name>WeekdayMorning</name>
+        <start_time>06:00</start_time>
+        <end_time>08:00</end_time>
+        <brightness>50</brightness>
+        <zones>
+          <zone_id>1</zone_id>
+          <zone_id>2</zone_id>
+        </zones>
+      </schedule_1>
+    </schedules>
+  </dmc_s1000dlighting_configuration>
+</dmc_s1000dlighting>

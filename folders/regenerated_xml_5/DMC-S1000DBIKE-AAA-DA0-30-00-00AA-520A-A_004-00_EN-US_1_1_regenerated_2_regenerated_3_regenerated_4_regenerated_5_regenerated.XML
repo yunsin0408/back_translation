@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <document_id>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00</document_id>
+    <document_title>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00-Content</document_title>
+  </identification>
+  <applicable_to>
+    <dmr>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00</dmr>
+  </applicable_to>
+  <content>
+    <section id="1.Ident and Status Section">
+      <subsection id="1.1 General Information">
+        <item>
+          <key>Document Title</key>
+          <value>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00</value>
+        </item>
+        <item>
+          <key>Document Type</key>
+          <value>Content</value>
+        </item>
+      </subsection>
+      <subsection id="1.2 Status">
+        <item>
+          <key>Quality Assurance</key>
+          <value>First Verification (Tab Top)</value>
+        </item>
+        <item>
+          <key>System Breakdown Code</key>
+          <value>BY</value>
+        </item>
+        <item>
+          <key>Skill Level</key>
+          <value>sk01</value>
+        </item>
+        <item>
+          <key>Reason for Update (rfu_general)</key>
+          <value>S1000D upissued</value>
+        </item>
+        <item>
+          <key>Reason for Update (rfu_fig01)</key>
+          <value>Figure added</value>
+        </item>
+      </subsection>
+    </section>
+    <section id="2.Content">
+      <subsection id="2.1 Referenced Applic Group">
+        <application id="2.1.1 Application 1">
+          <item>
+            <key>ID</key>
+            <value>app-0002</value>
+          </item>
+          <item>
+            <key>Display Text</key>
+            <value>Mountain bicycle and Mountain storm Mk1</value>
+          </item>
+          <item>
+            <key>Evaluation</key>
+            <value>Type = Mountain bicycle AND Model = Mountain storm</value>
+          </item>
+        </application>
+        <application id="2.1.2 Application 2">
+          <item>
+            <key>ID</key>
+            <value>app-0003</value>
+          </item>
+          <item>
+            <key>Display Text</key>
+            <value>Mountain bicycle and Brook trekker Mk9</value>
+          </item>
+          <item>
+            <key>Evaluation</key>
+            <value>Type = Mountain bicycle AND Model = Brook trekker</value>
+          </item>
+        </application>
+      </subsection>
+      <subsection id="2.2 Warnings and Cautions">
+        <caution id="2.2.1 Caution 1">
+          <item>
+            <key>ID</key>
+            <value>C0001</value>
+          </item>
+          <item>
+            <key>Warning/Caution Paragraph</key>
+            <value>Be sure to operate on a white surface in order to prevent lost of part that could fall on the floor.</value>
+          </item>
+        </caution>
+      </subsection>
+      <subsection id="2.3 Procedure">
+        <step id="2.3.1 Preliminary Requirements">
+          <item>
+            <key>No Condition</key>
+            <value>No conditions specified.</value>
+          </item>
+          <item>
+            <key>Personnel</key>
+            <value>No personnel specified.</value>
+          </item>
+          <item>
+            <key>Support Equipment</key>
+            <support_equipment>
+              <name>Specialist toolset</name>
+              <identification>
+                <manufacturer_code>KZ666</manufacturer_code>
+                <part_number>BSK-TLST-001</part_number>
+              </identification>
+              <required_quantity>1 EA</required_quantity>
+            </support_equipment>
+          </item>
+          <item>
+            <key>Supplies</key>
+            <supply id="Supply 1">
+              <reference_id>SPEC-0012</reference_id>
+              <supply_number>BKO200</supply_number>
+              <supply_number_type>sp01</supply_number_type>
+              <name>BIKEOIL 200</name>
+              <required_quantity>As Required</required_quantity>
+            </supply>
+            <supply id="Supply 2">
+              <reference_id>SPEC-0013</reference_id>
+              <supply_requirement_number>EU-OIL3212</supply_requirement_number>
+              <required_quantity>As Required</required_quantity>
+            </supply>
+          </item>
+          <item>
+            <key>Spares</key>
+            <value>No spares specified.</value>
+          </item>
+          <item>
+            <key>Safety</key>
+            <value>No safety requirements specified.</value>
+          </item>
+        </step>
+        <step id="2.3.2 Main Procedure">
+          <item>
+            <key>Step 1</key>
+            <value>Open the light circuit breaker located on the handlebar.</value>
+            <circuit_breaker app_id="app-0002">
+              <id>SPEC-0001</id>
+              <circuit_breaker_number>CBLGT-1001-R</circuit_breaker_number>
+              <name>Bike Lighting circuit breaker (right side)</name>
+              <access_point_number>any-access</access_point_number>
+              <location>Zone 131</location>
+              <action>open</action>
+            </circuit_breaker>
+            <circuit_breaker app_id="app-0003">
+              <id>SPEC-0002</id>
+              <circuit_breaker_number>CBLGT-1001-L</circuit_breaker_number>
+              <name>Bike Lighting circuit breaker (left side)</name>
+              <access_point_number>any-access</access_point_number>
+              <location>Zone 132</location>
+              <action>open</action>
+            </circuit_breaker>
+          </item>
+          <item>
+            <key>Step 2</key>
+            <value>Hold the front of the bicycle.</value>
+          </item>
+          <item>
+            <key>Step 3</key>
+            <value>Use the (sequence 0001) to disengage the fork from the chainring by pushing the wheel forwards and down. *(Caution Reference: C0001)*</value>
+            <figure>
+              <id>SPEC-0010</id>
+              <info_entity_ident>ICN-C0419-S1000D0372-001-01</info_entity_ident>
+              <reason_for_update>Figure added</reason_for_update>
+            </figure>
+          </item>
+        </step>
+      </subsection>
+    </section>
+  </content>
+</procedure>

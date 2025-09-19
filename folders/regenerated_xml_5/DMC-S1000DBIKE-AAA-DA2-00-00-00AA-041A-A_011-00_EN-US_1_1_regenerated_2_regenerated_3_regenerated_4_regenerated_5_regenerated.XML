@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdent>
+    <DM_Address>
+      <DM_Ident>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA2</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>041</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </DM_Ident>
+      <Language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </Language>
+      <Issue_Info>
+        <issueNumber>011</issueNumber>
+        <inWork>00</inWork>
+      </Issue_Info>
+      <DM_Address_Items>
+        <Issue_Date>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </Issue_Date>
+        <DM_Title>
+          <techName>Steering</techName>
+          <infoName>Description of how it is made</infoName>
+        </DM_Title>
+      </DM_Address>
+    </DM_Address>
+  </dmIdent>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <Security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </Security>
+    <Data_Restrictions>
+      <Restriction_Instructions>
+        <Data_Distribution>To be made available to all S1000D users.</Data_Distribution>
+        <Export_Control>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+        </Export_Control>
+        <Data_Handling>There are no specific handling instructions for this data module.</Data_Handling>
+        <Data_Destruction>Users may destroy this data module in accordance with their own local procedures.</Data_Destruction>
+        <Data_Disclosure>There are no dissemination limitations that apply to this data module.</Data_Disclosure>
+      </Restriction_Instructions>
+      <Restriction_Info>
+        <Copyright>
+          <copyrightPara>*Copyright (C) 2024* by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+          <copyrightPara>*Publishers:*</copyrightPara>
+          <randomList>
+            <item>Aerospace, Security and Defence Industries Association of Europe</item>
+            <item>Aerospace Industries Association of America</item>
+            <item>ATA e-Business Program</item>
+          </randomList>
+          <copyrightPara>*Limitations of liability:*</copyrightPara>
+          <randomList>
+            <item>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose</item>
+            <item>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material</item>
+            <item>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable</item>
+          </randomList>
+          <copyrightPara>The details for copyright can be found in the S1000D Specification.</copyrightPara>
+        </Copyright>
+        <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+        <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+      </Restriction_Info>
+    </Data_Restrictions>
+  </dmStatus>
+  <responsiblePartnerCompany>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </responsiblePartnerCompany>
+  <originator>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </originator>
+  <applicCrossRefTableRef>
+    <dmRef>
+      <dmRefIdent>
+        <dmCode>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>DA2</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>041</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>A</itemLocationCode>
+        </dmCode>
+      </dmRefIdent>
+    </dmRef>
+  </applicCrossRefTableRef>
+  <qualityAssurance>
+    <verificationType>tabtop</verificationType>
+    <systemBreakdownCode>BY142</systemBreakdownCode>
+  </qualityAssurance>
+  <skillLevel>
+    <skillLevelCode>sk01</skillLevelCode>
+  </skillLevel>
+  <reasonForUpdate>
+    <updateReasonType>urt03</updateReasonType>
+    <simplePara>S1000D upissued</simplePara>
+  </reasonForUpdate>
+  <content>
+    <Refs>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>DA2</systemCode>
+            <subSystemCode>3</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>041</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>A</itemLocationCode>
+          </dmCode>
+        </dmRefIdent>
+      </dmRef>
+    </Refs>
+    <Description>
+      <Levelled_Para>
+        <Title>Steering</Title>
+        <Para>The steering on the bike is what enables the bike to manoeuvre in a given direction during travel. The steering system on the bike is made of three parts, they are:</Para>
+        <Random_List>
+          <item>Handlebars</item>
+          <item>Stem</item>
+          <item>Fork</item>
+        </Random_List>
+      </Levelled_Para>
+      <Levelled_Para>
+        <Title>Handlebars</Title>
+        <Para>The handlebars are what the rider uses to control the direction of the bike. They are typically made of aluminum or steel, and come in a variety of shapes and sizes.</Para>
+      </Levelled_Para>
+      <Levelled_Para>
+        <Title>Stem</Title>
+        <Para>The stem connects the handlebars to the fork. It is typically made of aluminum or steel, and comes in a variety of lengths and angles.</Para>
+      </Levelled_Para>
+      <Levelled_Para>
+        <Title>Fork</Title>
+        <Para>The fork connects the front wheel to the frame. It is typically made of aluminum or steel, and comes in a variety of shapes and sizes.</Para>
+      </Levelled_Para>
+    </Description>
+  </content>
+</dm>

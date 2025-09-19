@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Cleaning Procedure (DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A_011-00_EN-US_1_1)</title>
+  <description>This document details the procedure for cleaning a bicycle, ensuring optimal maintenance and performance.</description>
+  <step>
+    <stepNo>1</stepNo>
+    <stepTitle>Introduction</stepTitle>
+    <stepDescription>This document outlines the procedure for cleaning a bicycle, ensuring optimal maintenance and performance.</stepDescription>
+  </step>
+  <step>
+    <stepNo>2</stepNo>
+    <stepTitle>Prerequisites</stepTitle>
+    <substep>
+      <substepNo>2.1</substepNo>
+      <substepTitle>Tools &amp; Materials</substepTitle>
+      <items>
+        <item>Water hose</item>
+        <item>Brush (for scrubbing)</item>
+        <item>Sponge</item>
+        <item>Screwdriver (small blade)</item>
+        <item>Detergent (various types depending on application - see Supplies section)</item>
+        <item>Lubricant (refer to Data Module for specific lubricant information)</item>
+      </items>
+    </substep>
+    <substep>
+      <substepNo>2.2</substepNo>
+      <substepTitle>Safety Precautions</substepTitle>
+      <items>
+        <item>Avoid getting detergents into your eyes. If contact occurs, flush immediately with clean, warm water.</item>
+        <item>Do not use a high-pressure water hose, as it may damage bicycle components.</item>
+        <item>Avoid directing the water hose directly at the hub or bottom bracket bearings.</item>
+        <item>Apply detergents in accordance with the container instructions. Incorrect application may damage the bicycle paint.</item>
+      </items>
+    </substep>
+  </step>
+  <step>
+    <stepNo>3</stepNo>
+    <stepTitle>Supplies</stepTitle>
+    <items>
+      <item>
+        <itemName>Detergent 1</itemName>
+        <itemDescription>(General cleaning, used with application 002)</itemDescription>
+      </item>
+      <item>
+        <itemName>Detergent 2</itemName>
+        <itemDescription>(Specific to application 001)</itemDescription>
+      </item>
+      <item>
+        <itemName>Detergent 3</itemName>
+        <itemDescription>(Specific to application 001)</itemDescription>
+      </item>
+    </items>
+  </step>
+  <step>
+    <stepNo>4</stepNo>
+    <stepTitle>Procedure</stepTitle>
+    <substep>
+      <substepNo>4.1</substepNo>
+      <substepTitle>1. Initial Cleaning</substepTitle>
+      <items>
+        <item>Rinse the bicycle with water to remove loose dirt and debris. Refer to Figure 1 for visual guidance.</item>
+        <item>Use a brush to scrub hard-to-reach areas like shift levers, tires, and brakes.</item>
+      </items>
+      <figure>
+        <figureTitle>Cleaning the Bike</figureTitle>
+        <figureSource>ICN-C0419-S1000D0359-001-01</figureSource>
+      </figure>
+    </substep>
+    <substep>
+      <substepNo>4.2</substepNo>
+      <substepTitle>2. Grime Removal</substepTitle>
+      <items>
+        <item>Use a small blade screwdriver to remove caked grime from the chain and sprockets.</item>
+        <item>Brush the following parts to remove grease:</item>
+        <item>Sprockets</item>
+        <item>Guide and tension wheels of the derailleur</item>
+        <item>Chain ring teeth</item>
+        <item>Flush the sprockets, derailleurs, chain rings, and chain with water. Repeat if necessary.</item>
+      </items>
+    </substep>
+    <substep>
+      <substepNo>4.3</substepNo>
+      <substepTitle>3. Degreasing (Freehub)</substepTitle>
+      <items>
+        <item>Refer to Figure 2 for guidance on degreasing the freehub.</item>
+      </items>
+      <figure>
+        <figureTitle>Degreasing the Freehub</figureTitle>
+        <figureSource>ICN-C0419-S1000D0400-001-01</figureSource>
+      </figure>
+    </substep>
+    <substep>
+      <substepNo>4.4</substepNo>
+      <substepTitle>4. Washing (Application-Specific)</substepTitle>
+      <items>
+        <item>Note: The following steps vary based on bicycle application.</item>
+      </items>
+      <subsubstep>
+        <subsubstepNo>4.4.1</subsubstepNo>
+        <subsubstepTitle>Application 002</subsubstepTitle>
+        <items>
+          <item>Soak a sponge in Detergent 2 and water.</item>
+          <item>Clean the bicycle with the soaked sponge.</item>
+          <item>Flush the bicycle to remove detergent residue.</item>
+          <item>Move the bicycle up and down on its tires to remove excess water.</item>
+        </items>
+      </subsubstep>
+      <subsubstep>
+        <subsubstepNo>4.4.2</subsubstepNo>
+        <subsubstepTitle>Application 001</subsubstepTitle>
+        <items>
+          <item>Soak a sponge in Detergent 3 and water.</item>
+          <item>Clean the bicycle with the soaked sponge.</item>
+          <item>Soak a sponge in Detergent 2 and water.</item>
+          <item>Clean the bicycle with the soaked sponge.</item>
+          <item>Flush the bicycle to remove detergent residue.</item>
+          <item>Move the bicycle up and down on its tires to remove excess water.</item>
+        </items>
+      </subsubstep>
+    </substep>
+    <substep>
+      <substepNo>4.5</substepNo>
+      <substepTitle>5. Lubrication</substepTitle>
+      <items>
+        <item>Refer to the Data Module (S1000DBIKE, System DA4, etc.) for specific lubricant recommendations.</item>
+      </items>
+    </substep>
+  </step>
+  <step>
+    <stepNo>5</stepNo>
+    <stepTitle>Completion Requirements</stepTitle>
+    <items>
+      <item>Ensure the bicycle is completely dry before storage or use.</item>
+    </items>
+  </step>
+  <step>
+    <stepNo>6</stepNo>
+    <stepTitle>Data Module Reference</stepTitle>
+    <items>
+      <item>Data Module: [S1000DBIKE, System DA4, etc. - Refer to document for details]</item>
+    </items>
+  </step>
+</procedure>

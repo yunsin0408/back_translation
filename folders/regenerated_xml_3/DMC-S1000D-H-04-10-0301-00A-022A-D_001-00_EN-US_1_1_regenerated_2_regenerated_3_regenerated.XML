@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_s1000d_h_04_10_0301_00a_022a_d_001_00_en_us_1_1 xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000D-H-04-10-0301-00A-022A-D_001-00_EN-US_1_1</title>
+  <content>
+    <para>This document outlines the rules governing data modules, extracted from the provided `dmodule` XML.</para>
+    <heading level="2">Context Rules - Structure Object Rule Groups</heading>
+    <para>The following rules are context-dependent and organized into rule groups.</para>
+    <heading level="3">Structure Object Rule Group</heading>
+    <para>This group defines permissible values for various attributes within the data module structure.</para>
+    <heading level="4">Attribute Definitions &amp; Permissible Values</heading>
+    <list type="bullet">
+      <item>
+        <term>
+          <code>updateReasonType</code>
+        </term>
+        <definition>Defines the reason for updating the data module.</definition>
+        <sublist>
+          <item>
+            <code>urt01</code>
+          </item>
+          <item>
+            <code>urt02</code>
+          </item>
+          <item>
+            <code>urt03</code>
+          </item>
+          <item>
+            <code>urt04</code>
+          </item>
+          <item>
+            <code>urt05</code>
+          </item>
+          <item>
+            <code>urt51-urt99</code>
+          </item>
+        </sublist>
+      </item>
+      <item>
+        <term>
+          <code>verbatimStyle</code>
+        </term>
+        <definition>Defines the style of verbatim text.</definition>
+        <sublist>
+          <item>
+            <code>vs01</code>
+          </item>
+          <item>
+            <code>vs02</code>
+          </item>
+          <item>
+            <code>vs11</code>
+          </item>
+          <item>
+            <code>vs12</code>
+          </item>
+          <item>
+            <code>vs13</code>
+          </item>
+          <item>
+            <code>vs14</code>
+          </item>
+          <item>
+            <code>vs15</code>
+          </item>
+          <item>
+            <code>vs16</code>
+          </item>
+          <item>
+            <code>vs21</code>
+          </item>
+          <item>
+            <code>vs22</code>
+          </item>
+          <item>
+            <code>vs23</code>
+          </item>
+          <item>
+            <code>vs24</code>
+          </item>
+          <item>
+            <code>vs25</code>
+          </item>
+          <item>
+            <code>vs26</code>
+          </item>
+          <item>
+            <code>vs27</code>
+          </item>
+          <item>
+            <code>vs28</code>
+          </item>
+          <item>
+            <code>vs29</code>
+          </item>
+          <item>
+            <code>vs51-vs99</code>
+          </item>
+        </sublist>
+      </item>
+      <item>
+        <term>
+          <code>quantityUnitOfMeasure</code>
+        </term>
+        <definition>Defines the unit of measure for quantity data. Values within the range `um51-um99` can be allocated and defined by projects or organizations. (Refer to Table 2 in document section 3.9.6.2)</definition>
+      </item>
+    </list>
+    <heading level="2">Non-Context Rules</heading>
+    <para>These rules are not dependent on specific context within the data module.</para>
+    <heading level="3">Deletion of Data Modules</heading>
+    <para>Deletion of data modules is treated as a special case of update. The data module itself is not physically deleted but is marked as deleted. (Refer to document section 3.9.5.1, Para 2.2)</para>
+  </content>
+</dmc_s1000d_h_04_10_0301_00a_022a_d_001_00_en_us_1_1>
