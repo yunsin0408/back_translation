@@ -1,0 +1,626 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "DM Ident",
+      "type": "heading",
+      "id": "DM Ident"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
+      "label": "US",
+      "type": "candidate",
+      "id": "US"
+    },
+    {
+      "label": "AA",
+      "type": "candidate",
+      "id": "AA"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
+      "label": "DM Address Items",
+      "type": "heading",
+      "id": "DM Address Items"
+    },
+    {
+      "label": "Address",
+      "type": "candidate",
+      "id": "Address"
+    },
+    {
+      "label": "Bicycle",
+      "type": "candidate",
+      "id": "Bicycle"
+    },
+    {
+      "label": "Scheduled",
+      "type": "candidate",
+      "id": "Scheduled"
+    },
+    {
+      "label": "Items",
+      "type": "candidate",
+      "id": "Items"
+    },
+    {
+      "label": "Address Items",
+      "type": "candidate",
+      "id": "Address Items"
+    },
+    {
+      "label": "DM Status",
+      "type": "heading",
+      "id": "DM Status"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "Security",
+      "type": "heading",
+      "id": "Security"
+    },
+    {
+      "label": "Data Rights",
+      "type": "heading",
+      "id": "Data Rights"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Rights",
+      "type": "candidate",
+      "id": "Rights"
+    },
+    {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
+    },
+    {
+      "label": "Reason For Update",
+      "type": "heading",
+      "id": "Reason For Update"
+    },
+    {
+      "label": "Update",
+      "type": "candidate",
+      "id": "Update"
+    },
+    {
+      "label": "Reason",
+      "type": "candidate",
+      "id": "Reason"
+    },
+    {
+      "label": "System Breakdown Code",
+      "type": "heading",
+      "id": "System Breakdown Code"
+    },
+    {
+      "label": "BY",
+      "type": "candidate",
+      "id": "BY"
+    },
+    {
+      "label": "System",
+      "type": "candidate",
+      "id": "System"
+    },
+    {
+      "label": "Code",
+      "type": "candidate",
+      "id": "Code"
+    },
+    {
+      "label": "Breakdown",
+      "type": "candidate",
+      "id": "Breakdown"
+    },
+    {
+      "label": "Quality Assurance",
+      "type": "heading",
+      "id": "Quality Assurance"
+    },
+    {
+      "label": "Assurance",
+      "type": "candidate",
+      "id": "Assurance"
+    },
+    {
+      "label": "Quality",
+      "type": "candidate",
+      "id": "Quality"
+    },
+    {
+      "label": "BREX DM Ref",
+      "type": "heading",
+      "id": "BREX DM Ref"
+    },
+    {
+      "label": "BREX",
+      "type": "candidate",
+      "id": "BREX"
+    },
+    {
+      "label": "Inspection",
+      "type": "heading",
+      "id": "Inspection"
+    },
+    {
+      "label": "Task Group",
+      "type": "heading",
+      "id": "Task Group"
+    },
+    {
+      "label": "Task",
+      "type": "candidate",
+      "id": "Task"
+    },
+    {
+      "label": "Group",
+      "type": "candidate",
+      "id": "Group"
+    },
+    {
+      "label": "Inspect",
+      "type": "candidate",
+      "id": "Inspect"
+    },
+    {
+      "label": "Carry",
+      "type": "candidate",
+      "id": "Carry"
+    },
+    {
+      "label": "Inspect Brakes",
+      "type": "candidate",
+      "id": "Inspect Brakes"
+    },
+    {
+      "label": "Check",
+      "type": "candidate",
+      "id": "Check"
+    },
+    {
+      "label": "inspection",
+      "type": "candidate",
+      "id": "inspection"
+    },
+    {
+      "label": "Tire",
+      "type": "candidate",
+      "id": "Tire"
+    },
+    {
+      "label": "Check Tire Pressure",
+      "type": "candidate",
+      "id": "Check Tire Pressure"
+    },
+    {
+      "label": "check",
+      "type": "candidate",
+      "id": "check"
+    },
+    {
+      "label": "Brakes",
+      "type": "candidate",
+      "id": "Brakes"
+    },
+    {
+      "label": "Pressure",
+      "type": "candidate",
+      "id": "Pressure"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "US"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "AA",
+      "target": "Task Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "AAA",
+      "target": "Task Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM",
+      "target": "DM Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "DM",
+      "target": "BREX DM Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Bicycle"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Scheduled"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Security",
+      "target": "Security"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Rights",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Rights",
+      "target": "Rights"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Rights",
+      "target": "Data Rights"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Rights",
+      "target": "XML"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "XML",
+      "target": "BREX DM Ref"
+    },
+    {
+      "weight": 2,
+      "units": [
+        10,
+        6
+      ],
+      "source": "Reason For Update",
+      "target": "Update"
+    },
+    {
+      "weight": 2,
+      "units": [
+        10,
+        6
+      ],
+      "source": "Reason For Update",
+      "target": "Reason For Update"
+    },
+    {
+      "weight": 2,
+      "units": [
+        10,
+        6
+      ],
+      "source": "Reason For Update",
+      "target": "Reason"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "System Breakdown Code",
+      "target": "BY"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "System Breakdown Code",
+      "target": "System"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "System Breakdown Code",
+      "target": "System Breakdown Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "System Breakdown Code",
+      "target": "Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "System Breakdown Code",
+      "target": "Breakdown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Quality Assurance",
+      "target": "Quality Assurance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Quality Assurance",
+      "target": "Assurance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Quality Assurance",
+      "target": "Quality"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "BREX DM Ref",
+      "target": "BREX"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Inspection",
+      "target": "Inspection"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Task"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Inspect"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Carry"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Inspect Brakes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Task Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "inspection"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Tire"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Check Tire Pressure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Brakes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Pressure"
+    }
+  ]
+}

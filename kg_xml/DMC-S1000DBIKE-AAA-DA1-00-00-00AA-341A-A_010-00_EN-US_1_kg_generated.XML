@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc:dmc xmlns:dmc="http://www.s1000d.org/S1000D_6/dmc/6.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.s1000d.org/S1000D_6/dmc/6.0 ../../xml_schema_flat/dmc.xsd" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc:DMC_DModule>
+    <dmc:Module_Identification>
+      <dmc:TechPub_Number>DMC-S1000DBIKE-AAA-DA1-00-00-00AA-341A-A_010-00_EN-US</dmc:TechPub_Number>
+      <dmc:Version>1</dmc:Version>
+      <dmc:Date_Issue>2024-06-19</dmc:Date_Issue>
+    </dmc:Module_Identification>
+    <dmc:Module_Content>
+      <dmc:DModule_Title>
+        <dmc:Title>DMC-S1000DBIKE-AAA-DA1-00-00-00AA-341A-A_010-00_EN-US</dmc:Title>
+      </dmc:DModule_Title>
+      <dmc:DProcedure>
+        <dmc:Procedure_Identification>
+          <dmc:Proc_Number>000</dmc:Proc_Number>
+          <dmc:Proc_Revision>00</dmc:Proc_Revision>
+        </dmc:Procedure_Identification>
+        <dmc:Procedure_Content>
+          <dmc:Procedure_Step>
+            <dmc:Step_Number>1</dmc:Step_Number>
+            <dmc:Step_Text>Put the bicycle in a vertical position.</dmc:Step_Text>
+          </dmc:Procedure_Step>
+          <dmc:Procedure_Step>
+            <dmc:Step_Number>2</dmc:Step_Number>
+            <dmc:Step_Text>Hold the handle bars and push the bicycle forwards.</dmc:Step_Text>
+          </dmc:Procedure_Step>
+          <dmc:Procedure_Step>
+            <dmc:Step_Number>3</dmc:Step_Number>
+            <dmc:Step_Text>Apply the brakes.</dmc:Step_Text>
+          </dmc:Procedure_Step>
+          <dmc:Procedure_Step>
+            <dmc:Step_Number>4</dmc:Step_Number>
+            <dmc:Step_Text>Make sure that the wheels lock and the bicycle stops.</dmc:Step_Text>
+          </dmc:Procedure_Step>
+        </dmc:Procedure_Content>
+      </dmc:DProcedure>
+    </dmc:Module_Content>
+    <dmc:DMetadata>
+      <dmc:DMAddress>
+        <dmc:DMIdent>
+          <dmc:ModelIdentCode>S1000DBIKE</dmc:ModelIdentCode>
+          <dmc:SystemDiffCode>AAA</dmc:SystemDiffCode>
+          <dmc:SystemCode>DA1</dmc:SystemCode>
+          <dmc:SubSystemCode>0</dmc:SubSystemCode>
+          <dmc:SubSubSystemCode>0</dmc:SubSubSystemCode>
+          <dmc:AssyCode>00</dmc:AssyCode>
+          <dmc:DisassyCode>00</dmc:DisassyCode>
+          <dmc:DisassyVariantCode>AA</dmc:DisassyVariantCode>
+          <dmc:InfoCode>341</dmc:InfoCode>
+          <dmc:InfoVariantCode>A</dmc:InfoVariantCode>
+          <dmc:ItemLocationCode>A</dmc:ItemLocationCode>
+          <dmc:LanguageCountryCode>US</dmc:LanguageCountryCode>
+          <dmc:LanguageLanguageCode>en</dmc:LanguageLanguageCode>
+        </dmc:DMIdent>
+        <dmc:DMAddressItems>
+          <dmc:IssueDateYear>2024</dmc:IssueDateYear>
+          <dmc:IssueDateMonth>06</dmc:IssueDateMonth>
+          <dmc:IssueDateDay>19</dmc:IssueDateDay>
+          <dmc:TechName>Brake system</dmc:TechName>
+          <dmc:InfoName>Manual test</dmc:InfoName>
+        </dmc:DMAddressItems>
+      </dmc:DMAddress>
+      <dmc:DMStatus>
+        <dmc:IssueType>deleted</dmc:IssueType>
+      </dmc:DMStatus>
+      <dmc:DSecurity>
+        <dmc:SecurityClassification>01</dmc:SecurityClassification>
+        <dmc:CommercialClassification>cc51</dmc:CommercialClassification>
+        <dmc:Caveat>cv51</dmc:Caveat>
+      </dmc:DSecurity>
+      <dmc:DDataRestrictions>
+        <dmc:RestrictionInstructions>
+          <dmc:DataDistribution>To be made available to all S1000D users.</dmc:DataDistribution>
+          <dmc:ExportControl>
+            <dmc:ExportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</dmc:ExportRegistrationStmt>
+          </dmc:ExportControl>
+          <dmc:DataHandling>There are no specific handling instructions for this data module.</dmc:DataHandling>
+          <dmc:DataDestruction>Users may destroy this data module in accordance with their own local procedures.</dmc:DataDestruction>
+          <dmc:DataDisclosure>There are no dissemination limitations that apply to this data module.</dmc:DataDisclosure>
+        </dmc:RestrictionInstructions>
+        <dmc:RestrictionInfo>
+          <dmc:Copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</dmc:Copyright>
+          <dmc:Publishers>
+            <dmc:Publisher>Aerospace, Security and Defence Industries Association of Europe</dmc:Publisher>
+            <dmc:Publisher>Aerospace Industries Association of America</dmc:Publisher>
+            <dmc:Publisher>ATA e-Business Program</dmc:Publisher>
+          </dmc:Publishers>
+          <dmc:LimitationsOfLiability>
+            <dmc:Limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</dmc:Limitation>
+            <dmc:Limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</dmc:Limitation>
+            <dmc:Limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</dmc:Limitation>
+          </dmc:LimitationsOfLiability>
+          <dmc:CopyrightDetails>The details for copyright can be found in the S1000D Specification.</dmc:CopyrightDetails>
+          <dmc:PolicyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</dmc:PolicyStatement>
+          <dmc:DataConditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dmc:DataConditions>
+        </dmc:RestrictionInfo>
+      </dmc:DDataRestrictions>
+      <dmc:DRoles>
+        <dmc:ResponsiblePartnerCompany>
+          <dmc:Company>Aerospace, Security and Defence Industries Association of Europe</dmc:Company>
+        </dmc:ResponsiblePartnerCompany>
+      </dmc:DRoles>
+      <dmc:DRequirements>
+        <dmc:DProcedureRequirements>
+          <dmc:ProcStepReq>
+            <dmc:StepNumber>000</dmc:StepNumber>
+            <dmc:Requirement>00</dmc:Requirement>
+          </dmc:ProcStepReq>
+        </dmc:DProcedureRequirements>
+      </dmc:DRequirements>
+      <dmc:DConfiguration>
+        <dmc:ProcConfig>
+          <dmc:ProcConfiguration>00</dmc:ProcConfiguration>
+        </dmc:ProcConfig>
+      </dmc:DConfiguration>
+    </dmc:DMetadata>
+  </dmc:DMC_DModule>
+</dmc:dmc>
