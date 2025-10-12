@@ -1,0 +1,722 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "DM Ident",
+      "type": "heading",
+      "id": "DM Ident"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "AA",
+      "type": "candidate",
+      "id": "AA"
+    },
+    {
+      "label": "US",
+      "type": "candidate",
+      "id": "US"
+    },
+    {
+      "label": "DM Address Items",
+      "type": "heading",
+      "id": "DM Address Items"
+    },
+    {
+      "label": "Items",
+      "type": "candidate",
+      "id": "Items"
+    },
+    {
+      "label": "Description",
+      "type": "candidate",
+      "id": "Description"
+    },
+    {
+      "label": "Brake",
+      "type": "candidate",
+      "id": "Brake"
+    },
+    {
+      "label": "Address Items",
+      "type": "candidate",
+      "id": "Address Items"
+    },
+    {
+      "label": "Address",
+      "type": "candidate",
+      "id": "Address"
+    },
+    {
+      "label": "DM Status",
+      "type": "heading",
+      "id": "DM Status"
+    },
+    {
+      "label": "Bike Enhancement",
+      "type": "candidate",
+      "id": "Bike Enhancement"
+    },
+    {
+      "label": "Bike",
+      "type": "candidate",
+      "id": "Bike"
+    },
+    {
+      "label": "Aerospace",
+      "type": "candidate",
+      "id": "Aerospace"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "Users",
+      "type": "candidate",
+      "id": "Users"
+    },
+    {
+      "label": "Copyright",
+      "type": "candidate",
+      "id": "Copyright"
+    },
+    {
+      "label": "RFU",
+      "type": "candidate",
+      "id": "RFU"
+    },
+    {
+      "label": "residence",
+      "type": "candidate",
+      "id": "residence"
+    },
+    {
+      "label": "ASD",
+      "type": "candidate",
+      "id": "ASD"
+    },
+    {
+      "label": "Export",
+      "type": "candidate",
+      "id": "Export"
+    },
+    {
+      "label": "discretion",
+      "type": "candidate",
+      "id": "discretion"
+    },
+    {
+      "label": "Industries",
+      "type": "candidate",
+      "id": "Industries"
+    },
+    {
+      "label": "Europe",
+      "type": "candidate",
+      "id": "Europe"
+    },
+    {
+      "label": "There",
+      "type": "candidate",
+      "id": "There"
+    },
+    {
+      "label": "Defence Industries Association",
+      "type": "candidate",
+      "id": "Defence Industries Association"
+    },
+    {
+      "label": "Security",
+      "type": "candidate",
+      "id": "Security"
+    },
+    {
+      "label": "Enhancement",
+      "type": "candidate",
+      "id": "Enhancement"
+    },
+    {
+      "label": "Association",
+      "type": "candidate",
+      "id": "Association"
+    },
+    {
+      "label": "users",
+      "type": "candidate",
+      "id": "users"
+    },
+    {
+      "label": "Storage",
+      "type": "candidate",
+      "id": "Storage"
+    },
+    {
+      "label": "instructions",
+      "type": "candidate",
+      "id": "instructions"
+    },
+    {
+      "label": "Defence",
+      "type": "candidate",
+      "id": "Defence"
+    },
+    {
+      "label": "Levelled Para",
+      "type": "heading",
+      "id": "Levelled Para"
+    },
+    {
+      "label": "Exploded",
+      "type": "candidate",
+      "id": "Exploded"
+    },
+    {
+      "label": "ICN",
+      "type": "candidate",
+      "id": "ICN"
+    },
+    {
+      "label": "out",
+      "type": "candidate",
+      "id": "out"
+    },
+    {
+      "label": "tension",
+      "type": "candidate",
+      "id": "tension"
+    },
+    {
+      "label": "part",
+      "type": "candidate",
+      "id": "part"
+    },
+    {
+      "label": "Typical",
+      "type": "candidate",
+      "id": "Typical"
+    },
+    {
+      "label": "rim",
+      "type": "candidate",
+      "id": "rim"
+    },
+    {
+      "label": "diagram",
+      "type": "candidate",
+      "id": "diagram"
+    },
+    {
+      "label": "components",
+      "type": "candidate",
+      "id": "components"
+    },
+    {
+      "label": "speed",
+      "type": "candidate",
+      "id": "speed"
+    },
+    {
+      "label": "Para",
+      "type": "candidate",
+      "id": "Para"
+    },
+    {
+      "label": "Cantilever",
+      "type": "candidate",
+      "id": "Cantilever"
+    },
+    {
+      "label": "Only",
+      "type": "candidate",
+      "id": "Only"
+    },
+    {
+      "label": "Levelled",
+      "type": "candidate",
+      "id": "Levelled"
+    },
+    {
+      "label": "types",
+      "type": "candidate",
+      "id": "types"
+    },
+    {
+      "label": "maintenance",
+      "type": "candidate",
+      "id": "maintenance"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "US"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM",
+      "target": "DM Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "AAA",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "AA",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Description"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Brake"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Brake",
+      "target": "Levelled Para"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Bike Enhancement"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Aerospace"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "RFU"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "residence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "ASD"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Export"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "discretion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Industries"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Europe"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "There"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Defence Industries Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Security"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Enhancement"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Storage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Defence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "There",
+      "target": "Levelled Para"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Exploded"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "ICN"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "out"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "tension"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "part"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Typical"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "rim"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "diagram"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Levelled Para"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "speed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Para"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Cantilever"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Only"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Levelled"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "types"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "maintenance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "This"
+    }
+  ]
+}

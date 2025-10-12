@@ -1,0 +1,979 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "DM Ident",
+      "type": "heading",
+      "id": "DM Ident"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "AA",
+      "type": "candidate",
+      "id": "AA"
+    },
+    {
+      "label": "US",
+      "type": "candidate",
+      "id": "US"
+    },
+    {
+      "label": "DM Address Items",
+      "type": "heading",
+      "id": "DM Address Items"
+    },
+    {
+      "label": "Correlated",
+      "type": "candidate",
+      "id": "Correlated"
+    },
+    {
+      "label": "Items",
+      "type": "candidate",
+      "id": "Items"
+    },
+    {
+      "label": "Drive",
+      "type": "candidate",
+      "id": "Drive"
+    },
+    {
+      "label": "Address Items",
+      "type": "candidate",
+      "id": "Address Items"
+    },
+    {
+      "label": "Address",
+      "type": "candidate",
+      "id": "Address"
+    },
+    {
+      "label": "DM Status",
+      "type": "heading",
+      "id": "DM Status"
+    },
+    {
+      "label": "warranties",
+      "type": "candidate",
+      "id": "warranties"
+    },
+    {
+      "label": "Program",
+      "type": "candidate",
+      "id": "Program"
+    },
+    {
+      "label": "SECURITY",
+      "type": "candidate",
+      "id": "SECURITY"
+    },
+    {
+      "label": "Bike",
+      "type": "candidate",
+      "id": "Bike"
+    },
+    {
+      "label": "INDUSTRIES",
+      "type": "candidate",
+      "id": "INDUSTRIES"
+    },
+    {
+      "label": "Aerospace",
+      "type": "candidate",
+      "id": "Aerospace"
+    },
+    {
+      "label": "Steering Committee",
+      "type": "candidate",
+      "id": "Steering Committee"
+    },
+    {
+      "label": "ATA",
+      "type": "candidate",
+      "id": "ATA"
+    },
+    {
+      "label": "Mountain",
+      "type": "candidate",
+      "id": "Mountain"
+    },
+    {
+      "label": "AEROSPACE",
+      "type": "candidate",
+      "id": "AEROSPACE"
+    },
+    {
+      "label": "Brook",
+      "type": "candidate",
+      "id": "Brook"
+    },
+    {
+      "label": "Revisions",
+      "type": "candidate",
+      "id": "Revisions"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "Users",
+      "type": "candidate",
+      "id": "Users"
+    },
+    {
+      "label": "Copyright",
+      "type": "candidate",
+      "id": "Copyright"
+    },
+    {
+      "label": "Publishers",
+      "type": "candidate",
+      "id": "Publishers"
+    },
+    {
+      "label": "Neither",
+      "type": "candidate",
+      "id": "Neither"
+    },
+    {
+      "label": "residence",
+      "type": "candidate",
+      "id": "residence"
+    },
+    {
+      "label": "fitness",
+      "type": "candidate",
+      "id": "fitness"
+    },
+    {
+      "label": "Committee",
+      "type": "candidate",
+      "id": "Committee"
+    },
+    {
+      "label": "ASD",
+      "type": "candidate",
+      "id": "ASD"
+    },
+    {
+      "label": "Export",
+      "type": "candidate",
+      "id": "Export"
+    },
+    {
+      "label": "discretion",
+      "type": "candidate",
+      "id": "discretion"
+    },
+    {
+      "label": "ASSOCIATION",
+      "type": "candidate",
+      "id": "ASSOCIATION"
+    },
+    {
+      "label": "SC",
+      "type": "candidate",
+      "id": "SC"
+    },
+    {
+      "label": "details",
+      "type": "candidate",
+      "id": "details"
+    },
+    {
+      "label": "Industries",
+      "type": "candidate",
+      "id": "Industries"
+    },
+    {
+      "label": "Europe",
+      "type": "candidate",
+      "id": "Europe"
+    },
+    {
+      "label": "Steering",
+      "type": "candidate",
+      "id": "Steering"
+    },
+    {
+      "label": "There",
+      "type": "candidate",
+      "id": "There"
+    },
+    {
+      "label": "restrictions",
+      "type": "candidate",
+      "id": "restrictions"
+    },
+    {
+      "label": "Aerospace Industries Association",
+      "type": "candidate",
+      "id": "Aerospace Industries Association"
+    },
+    {
+      "label": "liable",
+      "type": "candidate",
+      "id": "liable"
+    },
+    {
+      "label": "Defence Industries Association",
+      "type": "candidate",
+      "id": "Defence Industries Association"
+    },
+    {
+      "label": "America",
+      "type": "candidate",
+      "id": "America"
+    },
+    {
+      "label": "DEFENCE",
+      "type": "candidate",
+      "id": "DEFENCE"
+    },
+    {
+      "label": "Security",
+      "type": "candidate",
+      "id": "Security"
+    },
+    {
+      "label": "TOR",
+      "type": "candidate",
+      "id": "TOR"
+    },
+    {
+      "label": "Business",
+      "type": "candidate",
+      "id": "Business"
+    },
+    {
+      "label": "AND",
+      "type": "candidate",
+      "id": "AND"
+    },
+    {
+      "label": "Specification",
+      "type": "candidate",
+      "id": "Specification"
+    },
+    {
+      "label": "EUROPE",
+      "type": "candidate",
+      "id": "EUROPE"
+    },
+    {
+      "label": "Association",
+      "type": "candidate",
+      "id": "Association"
+    },
+    {
+      "label": "users",
+      "type": "candidate",
+      "id": "users"
+    },
+    {
+      "label": "Storage",
+      "type": "candidate",
+      "id": "Storage"
+    },
+    {
+      "label": "Business Program",
+      "type": "candidate",
+      "id": "Business Program"
+    },
+    {
+      "label": "instructions",
+      "type": "candidate",
+      "id": "instructions"
+    },
+    {
+      "label": "responsible",
+      "type": "candidate",
+      "id": "responsible"
+    },
+    {
+      "label": "classification",
+      "type": "candidate",
+      "id": "classification"
+    },
+    {
+      "label": "Limitations",
+      "type": "candidate",
+      "id": "Limitations"
+    },
+    {
+      "label": "maintenance",
+      "type": "candidate",
+      "id": "maintenance"
+    },
+    {
+      "label": "Defence",
+      "type": "candidate",
+      "id": "Defence"
+    },
+    {
+      "label": "OF",
+      "type": "candidate",
+      "id": "OF"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "use",
+      "type": "candidate",
+      "id": "use"
+    },
+    {
+      "label": "Correlated Fault (id: cflt-0001)",
+      "type": "heading",
+      "id": "Correlated Fault (id: cflt-0001)"
+    },
+    {
+      "label": "Correlated Fault",
+      "type": "candidate",
+      "id": "Correlated Fault"
+    },
+    {
+      "label": "Prepare",
+      "type": "candidate",
+      "id": "Prepare"
+    },
+    {
+      "label": "Tchain",
+      "type": "candidate",
+      "id": "Tchain"
+    },
+    {
+      "label": "Bicycle",
+      "type": "candidate",
+      "id": "Bicycle"
+    },
+    {
+      "label": "Fault",
+      "type": "candidate",
+      "id": "Fault"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "US"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM",
+      "target": "DM Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "AAA",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "AA",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Correlated"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Drive"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Correlated",
+      "target": "Correlated Fault (id: cflt-0001)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "warranties"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Program"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "SECURITY"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "INDUSTRIES"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Aerospace"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Steering Committee"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "ATA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Mountain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "AEROSPACE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Brook"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Revisions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Publishers"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Neither"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "residence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "fitness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Committee"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "ASD"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Export"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "discretion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "ASSOCIATION"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "SC"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "details"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Industries"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Europe"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Steering"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "There"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "restrictions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Aerospace Industries Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "liable"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Defence Industries Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "America"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "DEFENCE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Security"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "TOR"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Business"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "AND"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Specification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "EUROPE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Storage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Business Program"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "responsible"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "classification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Limitations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "maintenance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Defence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "OF"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "use"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Correlated Fault (id: cflt-0001)",
+      "target": "Correlated Fault"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Correlated Fault (id: cflt-0001)",
+      "target": "Prepare"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Correlated Fault (id: cflt-0001)",
+      "target": "Tchain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Correlated Fault (id: cflt-0001)",
+      "target": "Bicycle"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Correlated Fault (id: cflt-0001)",
+      "target": "Fault"
+    }
+  ]
+}

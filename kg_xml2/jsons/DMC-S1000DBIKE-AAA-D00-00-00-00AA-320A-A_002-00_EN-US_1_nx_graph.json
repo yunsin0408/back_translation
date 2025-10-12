@@ -1,0 +1,984 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Introduction",
+      "type": "heading",
+      "id": "Introduction"
+    },
+    {
+      "label": "Introduction This",
+      "type": "candidate",
+      "id": "Introduction This"
+    },
+    {
+      "label": "risk",
+      "type": "candidate",
+      "id": "risk"
+    },
+    {
+      "label": "Following",
+      "type": "candidate",
+      "id": "Following"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Tools & Equipment Required",
+      "type": "heading",
+      "id": "Tools & Equipment Required"
+    },
+    {
+      "label": "Optional",
+      "type": "candidate",
+      "id": "Optional"
+    },
+    {
+      "label": "Torque",
+      "type": "candidate",
+      "id": "Torque"
+    },
+    {
+      "label": "None",
+      "type": "candidate",
+      "id": "None"
+    },
+    {
+      "label": "Required",
+      "type": "candidate",
+      "id": "Required"
+    },
+    {
+      "label": "Equipment",
+      "type": "candidate",
+      "id": "Equipment"
+    },
+    {
+      "label": "Equipment Required",
+      "type": "candidate",
+      "id": "Equipment Required"
+    },
+    {
+      "label": "Tools",
+      "type": "candidate",
+      "id": "Tools"
+    },
+    {
+      "label": "Tire",
+      "type": "candidate",
+      "id": "Tire"
+    },
+    {
+      "label": "Pre-Ride Check Procedure",
+      "type": "heading",
+      "id": "Pre-Ride Check Procedure"
+    },
+    {
+      "label": "Action",
+      "type": "candidate",
+      "id": "Action"
+    },
+    {
+      "label": "Procedure",
+      "type": "candidate",
+      "id": "Procedure"
+    },
+    {
+      "label": "Trueness",
+      "type": "candidate",
+      "id": "Trueness"
+    },
+    {
+      "label": "Tire Inspection",
+      "type": "candidate",
+      "id": "Tire Inspection"
+    },
+    {
+      "label": "Remedy",
+      "type": "candidate",
+      "id": "Remedy"
+    },
+    {
+      "label": "High Pressure",
+      "type": "candidate",
+      "id": "High Pressure"
+    },
+    {
+      "label": "Wheels",
+      "type": "candidate",
+      "id": "Wheels"
+    },
+    {
+      "label": "Inspection",
+      "type": "candidate",
+      "id": "Inspection"
+    },
+    {
+      "label": "Tighten",
+      "type": "candidate",
+      "id": "Tighten"
+    },
+    {
+      "label": "Bike",
+      "type": "candidate",
+      "id": "Bike"
+    },
+    {
+      "label": "instruction",
+      "type": "candidate",
+      "id": "instruction"
+    },
+    {
+      "label": "Ride",
+      "type": "candidate",
+      "id": "Ride"
+    },
+    {
+      "label": "Bounce",
+      "type": "candidate",
+      "id": "Bounce"
+    },
+    {
+      "label": "Low Pressure",
+      "type": "candidate",
+      "id": "Low Pressure"
+    },
+    {
+      "label": "Wheel",
+      "type": "candidate",
+      "id": "Wheel"
+    },
+    {
+      "label": "Brakes",
+      "type": "candidate",
+      "id": "Brakes"
+    },
+    {
+      "label": "observe",
+      "type": "candidate",
+      "id": "observe"
+    },
+    {
+      "label": "Riding",
+      "type": "candidate",
+      "id": "Riding"
+    },
+    {
+      "label": "end",
+      "type": "candidate",
+      "id": "end"
+    },
+    {
+      "label": "tire",
+      "type": "candidate",
+      "id": "tire"
+    },
+    {
+      "label": "Ride Check Procedure This",
+      "type": "candidate",
+      "id": "Ride Check Procedure This"
+    },
+    {
+      "label": "High",
+      "type": "candidate",
+      "id": "High"
+    },
+    {
+      "label": "Check",
+      "type": "candidate",
+      "id": "Check"
+    },
+    {
+      "label": "Bleed",
+      "type": "candidate",
+      "id": "Bleed"
+    },
+    {
+      "label": "Inspect",
+      "type": "candidate",
+      "id": "Inspect"
+    },
+    {
+      "label": "Fastener",
+      "type": "candidate",
+      "id": "Fastener"
+    },
+    {
+      "label": "Secure",
+      "type": "candidate",
+      "id": "Secure"
+    },
+    {
+      "label": "Front",
+      "type": "candidate",
+      "id": "Front"
+    },
+    {
+      "label": "Wheel Trueness Check",
+      "type": "candidate",
+      "id": "Wheel Trueness Check"
+    },
+    {
+      "label": "Tire Pressure Check",
+      "type": "candidate",
+      "id": "Tire Pressure Check"
+    },
+    {
+      "label": "Brake Check",
+      "type": "candidate",
+      "id": "Brake Check"
+    },
+    {
+      "label": "Condition",
+      "type": "candidate",
+      "id": "Condition"
+    },
+    {
+      "label": "true",
+      "type": "candidate",
+      "id": "true"
+    },
+    {
+      "label": "General",
+      "type": "candidate",
+      "id": "General"
+    },
+    {
+      "label": "General Condition",
+      "type": "candidate",
+      "id": "General Condition"
+    },
+    {
+      "label": "Bounce Test",
+      "type": "candidate",
+      "id": "Bounce Test"
+    },
+    {
+      "label": "Rim Inspection",
+      "type": "candidate",
+      "id": "Rim Inspection"
+    },
+    {
+      "label": "Test",
+      "type": "candidate",
+      "id": "Test"
+    },
+    {
+      "label": "Pressure",
+      "type": "candidate",
+      "id": "Pressure"
+    },
+    {
+      "label": "Caution",
+      "type": "candidate",
+      "id": "Caution"
+    },
+    {
+      "label": "Warning",
+      "type": "candidate",
+      "id": "Warning"
+    },
+    {
+      "label": "Fasteners",
+      "type": "candidate",
+      "id": "Fasteners"
+    },
+    {
+      "label": "Nothing",
+      "type": "candidate",
+      "id": "Nothing"
+    },
+    {
+      "label": "Incorrect",
+      "type": "candidate",
+      "id": "Incorrect"
+    },
+    {
+      "label": "Abnormal",
+      "type": "candidate",
+      "id": "Abnormal"
+    },
+    {
+      "label": "Address",
+      "type": "candidate",
+      "id": "Address"
+    },
+    {
+      "label": "Normal",
+      "type": "candidate",
+      "id": "Normal"
+    },
+    {
+      "label": "Spin",
+      "type": "candidate",
+      "id": "Spin"
+    },
+    {
+      "label": "loss",
+      "type": "candidate",
+      "id": "loss"
+    },
+    {
+      "label": "rims",
+      "type": "candidate",
+      "id": "rims"
+    },
+    {
+      "label": "Squeeze",
+      "type": "candidate",
+      "id": "Squeeze"
+    },
+    {
+      "label": "Brake",
+      "type": "candidate",
+      "id": "Brake"
+    },
+    {
+      "label": "Fastener Check",
+      "type": "candidate",
+      "id": "Fastener Check"
+    },
+    {
+      "label": "Have",
+      "type": "candidate",
+      "id": "Have"
+    },
+    {
+      "label": "Each",
+      "type": "candidate",
+      "id": "Each"
+    },
+    {
+      "label": "Lift",
+      "type": "candidate",
+      "id": "Lift"
+    },
+    {
+      "label": "Replace",
+      "type": "candidate",
+      "id": "Replace"
+    },
+    {
+      "label": "Wear",
+      "type": "candidate",
+      "id": "Wear"
+    },
+    {
+      "label": "condition",
+      "type": "candidate",
+      "id": "condition"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "Introduction This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "risk"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "Following"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "Introduction"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "This",
+      "target": "Pre-Ride Check Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Tools & Equipment Required",
+      "target": "Optional"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Tools & Equipment Required",
+      "target": "Torque"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Tools & Equipment Required",
+      "target": "None"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Tools & Equipment Required",
+      "target": "Required"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Tools & Equipment Required",
+      "target": "Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Tools & Equipment Required",
+      "target": "Equipment Required"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Tools & Equipment Required",
+      "target": "Tools"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Tools & Equipment Required",
+      "target": "Tire"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Tire",
+      "target": "Pre-Ride Check Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Action"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Trueness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Tire Inspection"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Remedy"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "High Pressure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Inspection"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Tighten"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "instruction"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Ride"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Bounce"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Low Pressure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Wheel"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Brakes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "observe"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Riding"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "end"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "tire"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Ride Check Procedure This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "High"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Bleed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Inspect"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Fastener"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Secure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Front"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Wheel Trueness Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Tire Pressure Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Brake Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Condition"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "true"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "General"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "General Condition"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Bounce Test"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Rim Inspection"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Test"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Pressure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Caution"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Warning"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Fasteners"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Nothing"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Incorrect"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Abnormal"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Address"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Normal"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Spin"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "loss"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "rims"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Squeeze"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Brake"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Fastener Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Have"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Each"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Lift"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Replace"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "Wear"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Pre-Ride Check Procedure",
+      "target": "condition"
+    }
+  ]
+}

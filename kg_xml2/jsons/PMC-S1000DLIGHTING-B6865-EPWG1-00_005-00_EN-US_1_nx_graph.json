@@ -1,0 +1,555 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Content",
+      "type": "heading",
+      "id": "Content"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Content This",
+      "type": "candidate",
+      "id": "Content This"
+    },
+    {
+      "label": "content",
+      "type": "candidate",
+      "id": "content"
+    },
+    {
+      "label": "Referenced Applicables (Applications)",
+      "type": "heading",
+      "id": "Referenced Applicables (Applications)"
+    },
+    {
+      "label": "Several",
+      "type": "candidate",
+      "id": "Several"
+    },
+    {
+      "label": "Applicables",
+      "type": "candidate",
+      "id": "Applicables"
+    },
+    {
+      "label": "Applications",
+      "type": "candidate",
+      "id": "Applications"
+    },
+    {
+      "label": "Frequently",
+      "type": "candidate",
+      "id": "Frequently"
+    },
+    {
+      "label": "Multiple",
+      "type": "candidate",
+      "id": "Multiple"
+    },
+    {
+      "label": "Limited",
+      "type": "candidate",
+      "id": "Limited"
+    },
+    {
+      "label": "Referenced Applicables",
+      "type": "candidate",
+      "id": "Referenced Applicables"
+    },
+    {
+      "label": "Referenced",
+      "type": "candidate",
+      "id": "Referenced"
+    },
+    {
+      "label": "Detailed Content Breakdown",
+      "type": "heading",
+      "id": "Detailed Content Breakdown"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Data Management References",
+      "type": "candidate",
+      "id": "Data Management References"
+    },
+    {
+      "label": "series",
+      "type": "candidate",
+      "id": "series"
+    },
+    {
+      "label": "Management",
+      "type": "candidate",
+      "id": "Management"
+    },
+    {
+      "label": "configurations",
+      "type": "candidate",
+      "id": "configurations"
+    },
+    {
+      "label": "References",
+      "type": "candidate",
+      "id": "References"
+    },
+    {
+      "label": "Detailed",
+      "type": "candidate",
+      "id": "Detailed"
+    },
+    {
+      "label": "Breakdown",
+      "type": "candidate",
+      "id": "Breakdown"
+    },
+    {
+      "label": "Detailed Content Breakdown The",
+      "type": "candidate",
+      "id": "Detailed Content Breakdown The"
+    },
+    {
+      "label": "`pmEntry` Details",
+      "type": "heading",
+      "id": "`pmEntry` Details"
+    },
+    {
+      "label": "range",
+      "type": "candidate",
+      "id": "range"
+    },
+    {
+      "label": "English",
+      "type": "candidate",
+      "id": "English"
+    },
+    {
+      "label": "US",
+      "type": "candidate",
+      "id": "US"
+    },
+    {
+      "label": "versions",
+      "type": "candidate",
+      "id": "versions"
+    },
+    {
+      "label": "variety",
+      "type": "candidate",
+      "id": "variety"
+    },
+    {
+      "label": "Details",
+      "type": "candidate",
+      "id": "Details"
+    },
+    {
+      "label": "`dmRef` Examples (Illustrative - not exhaustive)",
+      "type": "heading",
+      "id": "`dmRef` Examples (Illustrative - not exhaustive)"
+    },
+    {
+      "label": "Examples",
+      "type": "candidate",
+      "id": "Examples"
+    },
+    {
+      "label": "Illustrative",
+      "type": "candidate",
+      "id": "Illustrative"
+    },
+    {
+      "label": "examples",
+      "type": "candidate",
+      "id": "examples"
+    },
+    {
+      "label": "Each",
+      "type": "candidate",
+      "id": "Each"
+    },
+    {
+      "label": "Key Observations",
+      "type": "heading",
+      "id": "Key Observations"
+    },
+    {
+      "label": "level",
+      "type": "candidate",
+      "id": "level"
+    },
+    {
+      "label": "management",
+      "type": "candidate",
+      "id": "management"
+    },
+    {
+      "label": "number",
+      "type": "candidate",
+      "id": "number"
+    },
+    {
+      "label": "Observations",
+      "type": "candidate",
+      "id": "Observations"
+    },
+    {
+      "label": "use",
+      "type": "candidate",
+      "id": "use"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Content",
+      "target": "Content"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Content",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Content",
+      "target": "Content This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Content",
+      "target": "content"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Content",
+      "target": "Detailed Content Breakdown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "This",
+      "target": "Detailed Content Breakdown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "This",
+      "target": "Key Observations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Referenced Applicables (Applications)",
+      "target": "Several"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Referenced Applicables (Applications)",
+      "target": "Applicables"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Referenced Applicables (Applications)",
+      "target": "Applications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Referenced Applicables (Applications)",
+      "target": "Frequently"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Referenced Applicables (Applications)",
+      "target": "Multiple"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Referenced Applicables (Applications)",
+      "target": "Limited"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Referenced Applicables (Applications)",
+      "target": "Referenced Applicables"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Referenced Applicables (Applications)",
+      "target": "Referenced"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed Content Breakdown",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed Content Breakdown",
+      "target": "Data Management References"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed Content Breakdown",
+      "target": "series"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed Content Breakdown",
+      "target": "Management"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed Content Breakdown",
+      "target": "configurations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed Content Breakdown",
+      "target": "References"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed Content Breakdown",
+      "target": "Detailed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed Content Breakdown",
+      "target": "Breakdown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed Content Breakdown",
+      "target": "Detailed Content Breakdown The"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "`pmEntry` Details",
+      "target": "range"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "`pmEntry` Details",
+      "target": "English"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "`pmEntry` Details",
+      "target": "US"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "`pmEntry` Details",
+      "target": "versions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "`pmEntry` Details",
+      "target": "variety"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "`pmEntry` Details",
+      "target": "Details"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "range",
+      "target": "Key Observations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "`dmRef` Examples (Illustrative - not exhaustive)",
+      "target": "Examples"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "`dmRef` Examples (Illustrative - not exhaustive)",
+      "target": "Illustrative"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "`dmRef` Examples (Illustrative - not exhaustive)",
+      "target": "examples"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "`dmRef` Examples (Illustrative - not exhaustive)",
+      "target": "Each"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Key Observations",
+      "target": "level"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Key Observations",
+      "target": "management"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Key Observations",
+      "target": "number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Key Observations",
+      "target": "Observations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Key Observations",
+      "target": "use"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Key Observations",
+      "target": "Key Observations"
+    }
+  ]
+}

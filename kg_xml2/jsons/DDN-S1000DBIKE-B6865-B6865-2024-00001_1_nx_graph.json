@@ -1,0 +1,141 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Delivery List",
+      "type": "heading",
+      "id": "Delivery List"
+    },
+    {
+      "label": "Delivery",
+      "type": "candidate",
+      "id": "Delivery"
+    },
+    {
+      "label": "content",
+      "type": "candidate",
+      "id": "content"
+    },
+    {
+      "label": "List",
+      "type": "candidate",
+      "id": "List"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Delivery List This",
+      "type": "candidate",
+      "id": "Delivery List This"
+    },
+    {
+      "label": "SVG",
+      "type": "candidate",
+      "id": "SVG"
+    },
+    {
+      "label": "PNG",
+      "type": "candidate",
+      "id": "PNG"
+    },
+    {
+      "label": "CGM",
+      "type": "candidate",
+      "id": "CGM"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 2,
+      "units": [
+        2,
+        3
+      ],
+      "source": "Delivery List",
+      "target": "Delivery"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Delivery List",
+      "target": "content"
+    },
+    {
+      "weight": 2,
+      "units": [
+        2,
+        3
+      ],
+      "source": "Delivery List",
+      "target": "List"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Delivery List",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Delivery List",
+      "target": "Delivery List This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Delivery List",
+      "target": "SVG"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Delivery List",
+      "target": "Delivery List"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Delivery List",
+      "target": "PNG"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Delivery List",
+      "target": "CGM"
+    }
+  ]
+}

@@ -1,0 +1,1590 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "DM Ident",
+      "type": "heading",
+      "id": "DM Ident"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "AA",
+      "type": "candidate",
+      "id": "AA"
+    },
+    {
+      "label": "US",
+      "type": "candidate",
+      "id": "US"
+    },
+    {
+      "label": "DM Address Items",
+      "type": "heading",
+      "id": "DM Address Items"
+    },
+    {
+      "label": "Items",
+      "type": "candidate",
+      "id": "Items"
+    },
+    {
+      "label": "Description",
+      "type": "candidate",
+      "id": "Description"
+    },
+    {
+      "label": "Mechs",
+      "type": "candidate",
+      "id": "Mechs"
+    },
+    {
+      "label": "Address Items",
+      "type": "candidate",
+      "id": "Address Items"
+    },
+    {
+      "label": "Address",
+      "type": "candidate",
+      "id": "Address"
+    },
+    {
+      "label": "DM Status",
+      "type": "heading",
+      "id": "DM Status"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "Security",
+      "type": "heading",
+      "id": "Security"
+    },
+    {
+      "label": "Data Restrictions",
+      "type": "heading",
+      "id": "Data Restrictions"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "warranties",
+      "type": "candidate",
+      "id": "warranties"
+    },
+    {
+      "label": "Program",
+      "type": "candidate",
+      "id": "Program"
+    },
+    {
+      "label": "Aerospace",
+      "type": "candidate",
+      "id": "Aerospace"
+    },
+    {
+      "label": "Steering Committee",
+      "type": "candidate",
+      "id": "Steering Committee"
+    },
+    {
+      "label": "ATA",
+      "type": "candidate",
+      "id": "ATA"
+    },
+    {
+      "label": "Revisions",
+      "type": "candidate",
+      "id": "Revisions"
+    },
+    {
+      "label": "Users",
+      "type": "candidate",
+      "id": "Users"
+    },
+    {
+      "label": "Copyright",
+      "type": "candidate",
+      "id": "Copyright"
+    },
+    {
+      "label": "Publishers",
+      "type": "candidate",
+      "id": "Publishers"
+    },
+    {
+      "label": "Neither",
+      "type": "candidate",
+      "id": "Neither"
+    },
+    {
+      "label": "residence",
+      "type": "candidate",
+      "id": "residence"
+    },
+    {
+      "label": "fitness",
+      "type": "candidate",
+      "id": "fitness"
+    },
+    {
+      "label": "Committee",
+      "type": "candidate",
+      "id": "Committee"
+    },
+    {
+      "label": "ASD",
+      "type": "candidate",
+      "id": "ASD"
+    },
+    {
+      "label": "Export",
+      "type": "candidate",
+      "id": "Export"
+    },
+    {
+      "label": "discretion",
+      "type": "candidate",
+      "id": "discretion"
+    },
+    {
+      "label": "details",
+      "type": "candidate",
+      "id": "details"
+    },
+    {
+      "label": "SC",
+      "type": "candidate",
+      "id": "SC"
+    },
+    {
+      "label": "Industries",
+      "type": "candidate",
+      "id": "Industries"
+    },
+    {
+      "label": "Europe",
+      "type": "candidate",
+      "id": "Europe"
+    },
+    {
+      "label": "Steering",
+      "type": "candidate",
+      "id": "Steering"
+    },
+    {
+      "label": "There",
+      "type": "candidate",
+      "id": "There"
+    },
+    {
+      "label": "restrictions",
+      "type": "candidate",
+      "id": "restrictions"
+    },
+    {
+      "label": "Restrictions",
+      "type": "candidate",
+      "id": "Restrictions"
+    },
+    {
+      "label": "Aerospace Industries Association",
+      "type": "candidate",
+      "id": "Aerospace Industries Association"
+    },
+    {
+      "label": "liable",
+      "type": "candidate",
+      "id": "liable"
+    },
+    {
+      "label": "Defence Industries Association",
+      "type": "candidate",
+      "id": "Defence Industries Association"
+    },
+    {
+      "label": "America",
+      "type": "candidate",
+      "id": "America"
+    },
+    {
+      "label": "TOR",
+      "type": "candidate",
+      "id": "TOR"
+    },
+    {
+      "label": "Business",
+      "type": "candidate",
+      "id": "Business"
+    },
+    {
+      "label": "Specification",
+      "type": "candidate",
+      "id": "Specification"
+    },
+    {
+      "label": "Association",
+      "type": "candidate",
+      "id": "Association"
+    },
+    {
+      "label": "users",
+      "type": "candidate",
+      "id": "users"
+    },
+    {
+      "label": "Storage",
+      "type": "candidate",
+      "id": "Storage"
+    },
+    {
+      "label": "Business Program",
+      "type": "candidate",
+      "id": "Business Program"
+    },
+    {
+      "label": "instructions",
+      "type": "candidate",
+      "id": "instructions"
+    },
+    {
+      "label": "responsible",
+      "type": "candidate",
+      "id": "responsible"
+    },
+    {
+      "label": "classification",
+      "type": "candidate",
+      "id": "classification"
+    },
+    {
+      "label": "Limitations",
+      "type": "candidate",
+      "id": "Limitations"
+    },
+    {
+      "label": "maintenance",
+      "type": "candidate",
+      "id": "maintenance"
+    },
+    {
+      "label": "Defence",
+      "type": "candidate",
+      "id": "Defence"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "use",
+      "type": "candidate",
+      "id": "use"
+    },
+    {
+      "label": "Responsible Partner Company",
+      "type": "heading",
+      "id": "Responsible Partner Company"
+    },
+    {
+      "label": "Responsible",
+      "type": "candidate",
+      "id": "Responsible"
+    },
+    {
+      "label": "ASSOCIATION",
+      "type": "candidate",
+      "id": "ASSOCIATION"
+    },
+    {
+      "label": "Company",
+      "type": "candidate",
+      "id": "Company"
+    },
+    {
+      "label": "SECURITY",
+      "type": "candidate",
+      "id": "SECURITY"
+    },
+    {
+      "label": "INDUSTRIES",
+      "type": "candidate",
+      "id": "INDUSTRIES"
+    },
+    {
+      "label": "DEFENCE",
+      "type": "candidate",
+      "id": "DEFENCE"
+    },
+    {
+      "label": "AND",
+      "type": "candidate",
+      "id": "AND"
+    },
+    {
+      "label": "OF",
+      "type": "candidate",
+      "id": "OF"
+    },
+    {
+      "label": "Partner",
+      "type": "candidate",
+      "id": "Partner"
+    },
+    {
+      "label": "AEROSPACE",
+      "type": "candidate",
+      "id": "AEROSPACE"
+    },
+    {
+      "label": "EUROPE",
+      "type": "candidate",
+      "id": "EUROPE"
+    },
+    {
+      "label": "Originator",
+      "type": "heading",
+      "id": "Originator"
+    },
+    {
+      "label": "Applic Cross-Reference Table Ref",
+      "type": "heading",
+      "id": "Applic Cross-Reference Table Ref"
+    },
+    {
+      "label": "Applic",
+      "type": "candidate",
+      "id": "Applic"
+    },
+    {
+      "label": "Applic Cross",
+      "type": "candidate",
+      "id": "Applic Cross"
+    },
+    {
+      "label": "Reference Table Ref",
+      "type": "candidate",
+      "id": "Reference Table Ref"
+    },
+    {
+      "label": "Reference",
+      "type": "candidate",
+      "id": "Reference"
+    },
+    {
+      "label": "Cross",
+      "type": "candidate",
+      "id": "Cross"
+    },
+    {
+      "label": "Table",
+      "type": "candidate",
+      "id": "Table"
+    },
+    {
+      "label": "Mountain",
+      "type": "candidate",
+      "id": "Mountain"
+    },
+    {
+      "label": "Brook",
+      "type": "candidate",
+      "id": "Brook"
+    },
+    {
+      "label": "Tech Standard",
+      "type": "heading",
+      "id": "Tech Standard"
+    },
+    {
+      "label": "Tech",
+      "type": "candidate",
+      "id": "Tech"
+    },
+    {
+      "label": "Standard",
+      "type": "candidate",
+      "id": "Standard"
+    },
+    {
+      "label": "Brex DM Ref",
+      "type": "heading",
+      "id": "Brex DM Ref"
+    },
+    {
+      "label": "Brex",
+      "type": "candidate",
+      "id": "Brex"
+    },
+    {
+      "label": "Quality Assurance",
+      "type": "heading",
+      "id": "Quality Assurance"
+    },
+    {
+      "label": "Assurance",
+      "type": "candidate",
+      "id": "Assurance"
+    },
+    {
+      "label": "Quality",
+      "type": "candidate",
+      "id": "Quality"
+    },
+    {
+      "label": "System Breakdown Code",
+      "type": "heading",
+      "id": "System Breakdown Code"
+    },
+    {
+      "label": "Breakdown",
+      "type": "candidate",
+      "id": "Breakdown"
+    },
+    {
+      "label": "System",
+      "type": "candidate",
+      "id": "System"
+    },
+    {
+      "label": "Code",
+      "type": "candidate",
+      "id": "Code"
+    },
+    {
+      "label": "Reason For Update",
+      "type": "heading",
+      "id": "Reason For Update"
+    },
+    {
+      "label": "Update",
+      "type": "candidate",
+      "id": "Update"
+    },
+    {
+      "label": "Reason",
+      "type": "candidate",
+      "id": "Reason"
+    },
+    {
+      "label": "Levelled Para",
+      "type": "heading",
+      "id": "Levelled Para"
+    },
+    {
+      "label": "out",
+      "type": "candidate",
+      "id": "out"
+    },
+    {
+      "label": "Rear",
+      "type": "candidate",
+      "id": "Rear"
+    },
+    {
+      "label": "When",
+      "type": "candidate",
+      "id": "When"
+    },
+    {
+      "label": "types",
+      "type": "candidate",
+      "id": "types"
+    },
+    {
+      "label": "Para",
+      "type": "candidate",
+      "id": "Para"
+    },
+    {
+      "label": "These",
+      "type": "candidate",
+      "id": "These"
+    },
+    {
+      "label": "ICN",
+      "type": "candidate",
+      "id": "ICN"
+    },
+    {
+      "label": "function",
+      "type": "candidate",
+      "id": "function"
+    },
+    {
+      "label": "movement",
+      "type": "candidate",
+      "id": "movement"
+    },
+    {
+      "label": "Derailleur",
+      "type": "candidate",
+      "id": "Derailleur"
+    },
+    {
+      "label": "Front",
+      "type": "candidate",
+      "id": "Front"
+    },
+    {
+      "label": "sprockets",
+      "type": "candidate",
+      "id": "sprockets"
+    },
+    {
+      "label": "position",
+      "type": "candidate",
+      "id": "position"
+    },
+    {
+      "label": "Levelled",
+      "type": "candidate",
+      "id": "Levelled"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Ident",
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Ident",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Ident",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Ident",
+      "target": "AA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Ident",
+      "target": "US"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM",
+      "target": "DM Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "DM",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "DM",
+      "target": "Brex DM Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "AAA",
+      "target": "Applic Cross-Reference Table Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "AAA",
+      "target": "Brex DM Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "AA",
+      "target": "Applic Cross-Reference Table Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "AA",
+      "target": "Brex DM Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Address Items",
+      "target": "Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Address Items",
+      "target": "Description"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Address Items",
+      "target": "Mechs"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Address Items",
+      "target": "Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Address Items",
+      "target": "Address"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "DM Status",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Security",
+      "target": "Security"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Security",
+      "target": "Data Restrictions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "warranties"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Program"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Aerospace"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Steering Committee"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "ATA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Revisions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Publishers"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Neither"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "residence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "fitness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Committee"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "ASD"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Export"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "discretion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "details"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "SC"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Industries"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Europe"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Steering"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "There"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "restrictions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Restrictions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Aerospace Industries Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "liable"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Defence Industries Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "America"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "TOR"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Business"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Specification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Storage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Data Restrictions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Business Program"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "responsible"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "classification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Limitations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "maintenance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "Defence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data Restrictions",
+      "target": "use"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "There",
+      "target": "Levelled Para"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "This",
+      "target": "Levelled Para"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Responsible"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "ASSOCIATION"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Company"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "SECURITY"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "INDUSTRIES"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "DEFENCE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "AND"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Responsible Partner Company"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "OF"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Partner"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "AEROSPACE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "EUROPE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "ASSOCIATION",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "SECURITY",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "INDUSTRIES",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "DEFENCE",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "AND",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "OF",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "AEROSPACE",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "EUROPE",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Originator",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Applic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Applic Cross"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Reference Table Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Reference"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Cross"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Table"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Applic",
+      "target": "Applic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Applic",
+      "target": "Mountain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Applic",
+      "target": "Brook"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Tech Standard",
+      "target": "Tech Standard"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Tech Standard",
+      "target": "Tech"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Tech Standard",
+      "target": "Standard"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Brex DM Ref",
+      "target": "Brex"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Quality Assurance",
+      "target": "Assurance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Quality Assurance",
+      "target": "Quality"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Quality Assurance",
+      "target": "Quality Assurance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "System Breakdown Code",
+      "target": "Breakdown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "System Breakdown Code",
+      "target": "System"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "System Breakdown Code",
+      "target": "Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "System Breakdown Code",
+      "target": "System Breakdown Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        15
+      ],
+      "source": "Reason For Update",
+      "target": "Update"
+    },
+    {
+      "weight": 1,
+      "units": [
+        15
+      ],
+      "source": "Reason For Update",
+      "target": "Reason"
+    },
+    {
+      "weight": 1,
+      "units": [
+        15
+      ],
+      "source": "Reason For Update",
+      "target": "Reason For Update"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "out"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "Rear"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "When"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "types"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "Para"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "These"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "ICN"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "function"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "movement"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "Derailleur"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "Front"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "sprockets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "position"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "Levelled"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Levelled Para",
+      "target": "Levelled Para"
+    }
+  ]
+}

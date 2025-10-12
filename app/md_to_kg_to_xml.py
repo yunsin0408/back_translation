@@ -1,11 +1,11 @@
 """md_to_kg_to_xml.py
 
-Environment-driven pipeline (no CLI):
+Environment-driven pipeline:
 - Configure via env vars:
   - LLM_API_ENDPOINT (required)
   - MD_INPUT_FOLDER or MD_INPUT_FILE (one required)
 - Processes a file or all markdown files in a folder
-- Builds a simple KG and sends it + markdown to the LLM endpoint
+- Builds a KG and sends it + markdown to the LLM endpoint
 - Saves XML outputs under ./kg_xml/
 
 This minimal script avoids model-specific fields and sends an OpenAI-style messages array.
@@ -115,14 +115,45 @@ def call_llm_with_kg(llm_url: str,prompt: str, kg: Dict[str, Any], md_text: str)
     if "nx_graph" in kg_for_json and not isinstance(kg_for_json["nx_graph"], (dict, list, str, int, float, bool)):
         del kg_for_json["nx_graph"]
     headers = {"Content-Type": "application/json"}
+
+    # Stronger, explicit system prompt to force the model to consult the KG
+    system_msg = (
+        "You are an expert XML generator. You MUST use the provided Knowledge Graph (KG) as the PRIMARY source of structuralinformation when reconstructing the XML.\n"
+        "Instructions:\n"
+        "- ALWAYS consult the KG and prioritize node/edge relationships when deciding element nesting and attributes.\n"
+        "- Return ONLY well-formed XML, with no surrounding commentary, no markdown fences, and no extra text.\n"
+        "- If any information is ambiguous between the markdown and the KG, prefer the KG and document nothing in the output other than XML.\n"
+        "- Start the response with '<?xml' and end with the final closing tag.\n"
+    )
+
+    # Build the chat-style payload. Use temperature=0.0 for deterministic output.
     data = {
         "model": "gemma3:27b",
         "messages": [
-            {"role": "system", "content": "You are an expert at converting structured markdown back to valid XML format. Always return only well-formed XML."},
-            {"role": "user", "content": json.dumps({"kg": kg_for_json, "markdown": md_text}, ensure_ascii=False) + "\n\n" + prompt}
+            {"role": "system", "content": system_msg},
+            {
+                "role": "user",
+                "content": json.dumps({"kg": kg_for_json, "markdown": md_text}, ensure_ascii=False) + "\n\n" + prompt,
+            },
         ],
         "temperature": 0.7
     }
+
+    # Save outgoing payload for inspection alongside KG JSONs (if cwd/kg_xml/jsons exists)
+    try:
+        from urllib.parse import urlparse
+        parsed = urlparse(llm_url)
+        host_tag = parsed.netloc.replace(":", "_") if parsed.netloc else "llm"
+    except Exception:
+        host_tag = "llm"
+    try:
+        out_dir = Path.cwd() / "kg_xml2" / "payload"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        payload_path = out_dir / f"payload_{host_tag}.json"
+        payload_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"Saved outgoing payload to {payload_path}")
+    except Exception as e:
+        print(f"Warning: failed to save outgoing payload: {e}")
 
     resp = requests.post(llm_url, json=data, headers=headers, timeout=600)
     try:
@@ -154,7 +185,7 @@ def generate_xml_from_markdown(md_path: str, llm_url: str, out_xml_path: Optiona
     kg = build_knowledge_graph(units)
 
     # Persist KG for debugging and later reuse (save JSONs into kg_xml/jsons)
-    kg_dir = Path.cwd() / "kg_xml"
+    kg_dir = Path.cwd() / "kg_xml2"
     kg_dir.mkdir(parents=True, exist_ok=True)
     json_subdir = kg_dir / "jsons"
     json_subdir.mkdir(parents=True, exist_ok=True)

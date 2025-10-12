@@ -1,0 +1,1463 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Bike Business Rules Document",
+      "type": "heading",
+      "id": "Bike Business Rules Document"
+    },
+    {
+      "label": "defined",
+      "type": "candidate",
+      "id": "defined"
+    },
+    {
+      "label": "Bike",
+      "type": "candidate",
+      "id": "Bike"
+    },
+    {
+      "label": "Bike Business Rules Document This",
+      "type": "candidate",
+      "id": "Bike Business Rules Document This"
+    },
+    {
+      "label": "Rules",
+      "type": "candidate",
+      "id": "Rules"
+    },
+    {
+      "label": "Business",
+      "type": "candidate",
+      "id": "Business"
+    },
+    {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Overview",
+      "type": "heading",
+      "id": "Overview"
+    },
+    {
+      "label": "Many",
+      "type": "candidate",
+      "id": "Many"
+    },
+    {
+      "label": "Overview This",
+      "type": "candidate",
+      "id": "Overview This"
+    },
+    {
+      "label": "1. Data Validation & Configuration (Configurable Attributes)",
+      "type": "heading",
+      "id": "1. Data Validation & Configuration (Configurable Attributes)"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Attribute",
+      "type": "candidate",
+      "id": "Attribute"
+    },
+    {
+      "label": "Wire",
+      "type": "candidate",
+      "id": "Wire"
+    },
+    {
+      "label": "Attributes",
+      "type": "candidate",
+      "id": "Attributes"
+    },
+    {
+      "label": "Attribute Source Type Code",
+      "type": "candidate",
+      "id": "Attribute Source Type Code"
+    },
+    {
+      "label": "RST",
+      "type": "candidate",
+      "id": "RST"
+    },
+    {
+      "label": "Threshold",
+      "type": "candidate",
+      "id": "Threshold"
+    },
+    {
+      "label": "Since",
+      "type": "candidate",
+      "id": "Since"
+    },
+    {
+      "label": "Detailed",
+      "type": "candidate",
+      "id": "Detailed"
+    },
+    {
+      "label": "Functional",
+      "type": "candidate",
+      "id": "Functional"
+    },
+    {
+      "label": "LUB",
+      "type": "candidate",
+      "id": "LUB"
+    },
+    {
+      "label": "Wheel",
+      "type": "candidate",
+      "id": "Wheel"
+    },
+    {
+      "label": "Partner",
+      "type": "candidate",
+      "id": "Partner"
+    },
+    {
+      "label": "Criticality",
+      "type": "candidate",
+      "id": "Criticality"
+    },
+    {
+      "label": "measurement",
+      "type": "candidate",
+      "id": "measurement"
+    },
+    {
+      "label": "OPC",
+      "type": "candidate",
+      "id": "OPC"
+    },
+    {
+      "label": "used",
+      "type": "candidate",
+      "id": "used"
+    },
+    {
+      "label": "Years",
+      "type": "candidate",
+      "id": "Years"
+    },
+    {
+      "label": "Manufacturer",
+      "type": "candidate",
+      "id": "Manufacturer"
+    },
+    {
+      "label": "Validation",
+      "type": "candidate",
+      "id": "Validation"
+    },
+    {
+      "label": "These",
+      "type": "candidate",
+      "id": "These"
+    },
+    {
+      "label": "Lubrication",
+      "type": "candidate",
+      "id": "Lubrication"
+    },
+    {
+      "label": "Origin",
+      "type": "candidate",
+      "id": "Origin"
+    },
+    {
+      "label": "Check",
+      "type": "candidate",
+      "id": "Check"
+    },
+    {
+      "label": "VCK",
+      "type": "candidate",
+      "id": "VCK"
+    },
+    {
+      "label": "Equipment",
+      "type": "candidate",
+      "id": "Equipment"
+    },
+    {
+      "label": "Vendor",
+      "type": "candidate",
+      "id": "Vendor"
+    },
+    {
+      "label": "Auxiliary",
+      "type": "candidate",
+      "id": "Auxiliary"
+    },
+    {
+      "label": "Restoration",
+      "type": "candidate",
+      "id": "Restoration"
+    },
+    {
+      "label": "General",
+      "type": "candidate",
+      "id": "General"
+    },
+    {
+      "label": "Limit",
+      "type": "candidate",
+      "id": "Limit"
+    },
+    {
+      "label": "GVI",
+      "type": "candidate",
+      "id": "GVI"
+    },
+    {
+      "label": "Time",
+      "type": "candidate",
+      "id": "Time"
+    },
+    {
+      "label": "Evident",
+      "type": "candidate",
+      "id": "Evident"
+    },
+    {
+      "label": "Days",
+      "type": "candidate",
+      "id": "Days"
+    },
+    {
+      "label": "Valid",
+      "type": "candidate",
+      "id": "Valid"
+    },
+    {
+      "label": "Source",
+      "type": "candidate",
+      "id": "Source"
+    },
+    {
+      "label": "Threshold Interval Unit",
+      "type": "candidate",
+      "id": "Threshold Interval Unit"
+    },
+    {
+      "label": "Months",
+      "type": "candidate",
+      "id": "Months"
+    },
+    {
+      "label": "Operational",
+      "type": "candidate",
+      "id": "Operational"
+    },
+    {
+      "label": "Weeks",
+      "type": "candidate",
+      "id": "Weeks"
+    },
+    {
+      "label": "Data Validation",
+      "type": "candidate",
+      "id": "Data Validation"
+    },
+    {
+      "label": "Code",
+      "type": "candidate",
+      "id": "Code"
+    },
+    {
+      "label": "Configurable Attributes",
+      "type": "candidate",
+      "id": "Configurable Attributes"
+    },
+    {
+      "label": "Hidden",
+      "type": "candidate",
+      "id": "Hidden"
+    },
+    {
+      "label": "Harness",
+      "type": "candidate",
+      "id": "Harness"
+    },
+    {
+      "label": "Limit Type",
+      "type": "candidate",
+      "id": "Limit Type"
+    },
+    {
+      "label": "DET",
+      "type": "candidate",
+      "id": "DET"
+    },
+    {
+      "label": "values",
+      "type": "candidate",
+      "id": "values"
+    },
+    {
+      "label": "Discard",
+      "type": "candidate",
+      "id": "Discard"
+    },
+    {
+      "label": "Attribute Source Criticality",
+      "type": "candidate",
+      "id": "Attribute Source Criticality"
+    },
+    {
+      "label": "Task Code",
+      "type": "candidate",
+      "id": "Task Code"
+    },
+    {
+      "label": "Economic",
+      "type": "candidate",
+      "id": "Economic"
+    },
+    {
+      "label": "Unit",
+      "type": "candidate",
+      "id": "Unit"
+    },
+    {
+      "label": "Configuration",
+      "type": "candidate",
+      "id": "Configuration"
+    },
+    {
+      "label": "units",
+      "type": "candidate",
+      "id": "units"
+    },
+    {
+      "label": "DIS",
+      "type": "candidate",
+      "id": "DIS"
+    },
+    {
+      "label": "SVC",
+      "type": "candidate",
+      "id": "SVC"
+    },
+    {
+      "label": "Visual",
+      "type": "candidate",
+      "id": "Visual"
+    },
+    {
+      "label": "Task",
+      "type": "candidate",
+      "id": "Task"
+    },
+    {
+      "label": "FNC",
+      "type": "candidate",
+      "id": "FNC"
+    },
+    {
+      "label": "Interval",
+      "type": "candidate",
+      "id": "Interval"
+    },
+    {
+      "label": "Shop",
+      "type": "candidate",
+      "id": "Shop"
+    },
+    {
+      "label": "Servicing",
+      "type": "candidate",
+      "id": "Servicing"
+    },
+    {
+      "label": "Configurable",
+      "type": "candidate",
+      "id": "Configurable"
+    },
+    {
+      "label": "Safety",
+      "type": "candidate",
+      "id": "Safety"
+    },
+    {
+      "label": "Type",
+      "type": "candidate",
+      "id": "Type"
+    },
+    {
+      "label": "Functional Check",
+      "type": "candidate",
+      "id": "Functional Check"
+    },
+    {
+      "label": "Hard",
+      "type": "candidate",
+      "id": "Hard"
+    },
+    {
+      "label": "2. Quality Assurance & Process",
+      "type": "heading",
+      "id": "2. Quality Assurance & Process"
+    },
+    {
+      "label": "Review",
+      "type": "candidate",
+      "id": "Review"
+    },
+    {
+      "label": "Product",
+      "type": "candidate",
+      "id": "Product"
+    },
+    {
+      "label": "Engineering Product Working Group",
+      "type": "candidate",
+      "id": "Engineering Product Working Group"
+    },
+    {
+      "label": "Engineering",
+      "type": "candidate",
+      "id": "Engineering"
+    },
+    {
+      "label": "Working",
+      "type": "candidate",
+      "id": "Working"
+    },
+    {
+      "label": "Process",
+      "type": "candidate",
+      "id": "Process"
+    },
+    {
+      "label": "Quality",
+      "type": "candidate",
+      "id": "Quality"
+    },
+    {
+      "label": "Quality Assurance",
+      "type": "candidate",
+      "id": "Quality Assurance"
+    },
+    {
+      "label": "Approval",
+      "type": "candidate",
+      "id": "Approval"
+    },
+    {
+      "label": "Group",
+      "type": "candidate",
+      "id": "Group"
+    },
+    {
+      "label": "Assurance",
+      "type": "candidate",
+      "id": "Assurance"
+    },
+    {
+      "label": "EPWG",
+      "type": "candidate",
+      "id": "EPWG"
+    },
+    {
+      "label": "3. Content & Data Requirements",
+      "type": "heading",
+      "id": "3. Content & Data Requirements"
+    },
+    {
+      "label": "Requirements",
+      "type": "candidate",
+      "id": "Requirements"
+    },
+    {
+      "label": "levels",
+      "type": "candidate",
+      "id": "levels"
+    },
+    {
+      "label": "Concept Sophistication Examples",
+      "type": "candidate",
+      "id": "Concept Sophistication Examples"
+    },
+    {
+      "label": "Examples",
+      "type": "candidate",
+      "id": "Examples"
+    },
+    {
+      "label": "application",
+      "type": "candidate",
+      "id": "application"
+    },
+    {
+      "label": "Sophistication",
+      "type": "candidate",
+      "id": "Sophistication"
+    },
+    {
+      "label": "The Bike",
+      "type": "candidate",
+      "id": "The Bike"
+    },
+    {
+      "label": "Data Requirements",
+      "type": "candidate",
+      "id": "Data Requirements"
+    },
+    {
+      "label": "Concept",
+      "type": "candidate",
+      "id": "Concept"
+    },
+    {
+      "label": "Content",
+      "type": "candidate",
+      "id": "Content"
+    },
+    {
+      "label": "Notes",
+      "type": "heading",
+      "id": "Notes"
+    },
+    {
+      "label": "interpretation",
+      "type": "candidate",
+      "id": "interpretation"
+    },
+    {
+      "label": "categorization",
+      "type": "candidate",
+      "id": "categorization"
+    },
+    {
+      "label": "Notes The",
+      "type": "candidate",
+      "id": "Notes The"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Document",
+      "target": "Bike Business Rules Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bike Business Rules Document",
+      "target": "defined"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bike Business Rules Document",
+      "target": "Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bike Business Rules Document",
+      "target": "Bike Business Rules Document This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bike Business Rules Document",
+      "target": "Rules"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bike Business Rules Document",
+      "target": "Business"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bike Business Rules Document",
+      "target": "XML"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bike Business Rules Document",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Bike",
+      "target": "1. Data Validation & Configuration (Configurable Attributes)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Bike",
+      "target": "2. Quality Assurance & Process"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Bike",
+      "target": "3. Content & Data Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Rules",
+      "target": "Notes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "This",
+      "target": "Overview"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Overview",
+      "target": "Many"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Overview",
+      "target": "Overview This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Overview",
+      "target": "Overview"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Attribute"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Wire"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Attributes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Attribute Source Type Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "RST"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Threshold"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Since"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Detailed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Functional"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "LUB"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Wheel"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Partner"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Criticality"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "measurement"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "OPC"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "used"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Years"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Manufacturer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Validation"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "These"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Lubrication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Origin"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "VCK"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Vendor"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Auxiliary"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Restoration"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "General"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Limit"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "GVI"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Time"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Evident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Days"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Valid"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Source"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Threshold Interval Unit"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Months"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Operational"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Weeks"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Data Validation"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Configurable Attributes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Hidden"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Harness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Limit Type"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "DET"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "values"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Discard"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Attribute Source Criticality"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Task Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Economic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Unit"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Configuration"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "units"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "DIS"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "SVC"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Visual"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Task"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "FNC"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Interval"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Shop"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Servicing"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Configurable"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Safety"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Type"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Functional Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "1. Data Validation & Configuration (Configurable Attributes)",
+      "target": "Hard"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Data",
+      "target": "3. Content & Data Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Review"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Product"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Engineering Product Working Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Engineering"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Working"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Process"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Quality"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Quality Assurance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Approval"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "Assurance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2. Quality Assurance & Process",
+      "target": "EPWG"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "levels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "Concept Sophistication Examples"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "Examples"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "application"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "Sophistication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "The Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "Data Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "Concept"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3. Content & Data Requirements",
+      "target": "Content"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Notes",
+      "target": "Notes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Notes",
+      "target": "interpretation"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Notes",
+      "target": "categorization"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Notes",
+      "target": "Notes The"
+    }
+  ]
+}
