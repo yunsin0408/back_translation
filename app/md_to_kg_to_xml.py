@@ -22,6 +22,9 @@ import networkx as nx
 
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv(), override=False)
+from lxml import etree
+
+from validator import validate_xml as external_validate_xml
 
 
 # --- utilities ---
@@ -108,7 +111,7 @@ def build_knowledge_graph(units: List[Dict[str, str]]) -> Dict[str, Any]:
 
 # --- LLM call ---
 
-def call_llm_with_kg(llm_url: str,prompt: str, kg: Dict[str, Any], md_text: str) -> str:
+def call_llm_with_kg(llm_url: str, prompt: str, kg: Dict[str, Any], md_text: str, out_dir: Optional[Path] = None) -> str:
     if not llm_url:
         raise ValueError("LLM_API_ENDPOINT (llm_url) is required.")
     kg_for_json = dict(kg)
@@ -139,7 +142,7 @@ def call_llm_with_kg(llm_url: str,prompt: str, kg: Dict[str, Any], md_text: str)
         "temperature": 0.7
     }
 
-    # Save outgoing payload for inspection alongside KG JSONs (if cwd/kg_xml/jsons exists)
+    # Save outgoing payload for inspection. If caller provides out_dir, use it (per-attempt).
     try:
         from urllib.parse import urlparse
         parsed = urlparse(llm_url)
@@ -147,9 +150,9 @@ def call_llm_with_kg(llm_url: str,prompt: str, kg: Dict[str, Any], md_text: str)
     except Exception:
         host_tag = "llm"
     try:
-        out_dir = Path.cwd() / "kg_xml2" / "payload"
-        out_dir.mkdir(parents=True, exist_ok=True)
-        payload_path = out_dir / f"payload_{host_tag}.json"
+        save_dir = out_dir if out_dir is not None else (Path.cwd() / "kg_xml2" / "payload")
+        save_dir.mkdir(parents=True, exist_ok=True)
+        payload_path = save_dir / f"payload_{host_tag}.json"
         payload_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"Saved outgoing payload to {payload_path}")
     except Exception as e:
@@ -174,6 +177,147 @@ def call_llm_with_kg(llm_url: str,prompt: str, kg: Dict[str, Any], md_text: str)
     if isinstance(data, dict) and "text" in data:
         return data["text"]
     return json.dumps(data, ensure_ascii=False)
+
+
+# --- XML validation & fix helper ---
+
+
+def validate_xml_string(xml_content: str) -> tuple[bool, str]:
+    """Return (is_valid, message). Uses lxml strict parsing and collects errors when possible."""
+    try:
+        if isinstance(xml_content, str):
+            xml_bytes = xml_content.encode("utf-8")
+        else:
+            xml_bytes = xml_content
+        parser = etree.XMLParser(recover=False)
+        etree.fromstring(xml_bytes, parser=parser)
+        return True, "Valid XML"
+    except (etree.XMLSyntaxError, etree.ParseError) as e:
+        # try to get recover parser logs
+        recover_parser = etree.XMLParser(recover=True)
+        try:
+            etree.fromstring(xml_bytes, parser=recover_parser)
+        except Exception:
+            pass
+        errors = []
+        if hasattr(recover_parser, "error_log"):
+            for err in recover_parser.error_log:
+                errors.append(f"Line {err.line}, Col {err.column}: {err.message}")
+        if not errors:
+            errors = [str(e)]
+        return False, "\n".join(errors)
+    except Exception as e:
+        return False, str(e)
+
+
+def fix_xml_with_errors(
+    llm_url: str,
+    kg: Dict[str, Any],
+    md_text: str,
+    previous_xml: str,
+    error_log: str,
+    max_retries: int = 5,
+    out_dir: Optional[Path] = None,
+) -> Optional[str]:
+    """Attempt to fix `previous_xml` using the KG and the provided error_log by calling the LLM up to max_retries.
+
+    Returns the first valid XML string or None if all attempts fail.
+    Side effects: writes attempts to out_dir/jsons/<stem>_fix_attempt_<i>.XML and prints progress.
+    """
+    if out_dir is None:
+        out_dir = Path.cwd() / "kg_xml2"
+    json_subdir = out_dir / "jsons"
+    json_subdir.mkdir(parents=True, exist_ok=True)
+
+    # Short prompt that instructs the model to correct the provided XML using the KG.
+    fix_prompt_template = (
+        "You were previously asked to generate XML. The model's output failed validation.\n"
+        "Use the provided Knowledge Graph (KG) and the attached error log to produce a corrected, well-formed XML document.\n"
+        "Inputs available:\n"
+        "- KG (node/edge list) which you MUST consult for structure and nesting.\n"
+        "- The previously generated XML (PREVIOUS_XML).\n"
+        "- The parser error log (ERROR_LOG) describing syntactic problems.\n"
+        "Task:\n"
+        "- Return ONLY the corrected XML document. Do not include any explanation.\n"
+        "- Fix all syntax errors mentioned in ERROR_LOG.\n"
+        "- Ensure the output starts with '<?xml' and is well-formed.\n"
+    )
+
+    for attempt in range(1, max_retries + 1):
+        prompt = (
+            fix_prompt_template
+            + "\nERROR_LOG:\n"
+            + error_log
+            + "\n\nPREVIOUS_XML:\n"
+            + previous_xml
+            + "\n\nProvide the corrected XML now."
+        )
+
+        print(f"Fix attempt {attempt}/{max_retries} - calling LLM to correct XML...")
+        try:
+            model_output = call_llm_with_kg(llm_url=llm_url, prompt=prompt, kg=kg, md_text=md_text)
+        except Exception as e:
+            print(f"LLM call failed on attempt {attempt}: {e}")
+            model_output = None
+
+        if not model_output:
+            continue
+
+        # Create per-attempt folder and save inputs + output there for easy inspection
+        attempt_dir = json_subdir / f"attempt_{attempt}"
+        attempt_dir.mkdir(parents=True, exist_ok=True)
+        try:
+            (attempt_dir / "previous_xml.XML").write_text(previous_xml, encoding="utf-8")
+            (attempt_dir / "error_log.txt").write_text(error_log, encoding="utf-8")
+            (attempt_dir / "prompt.txt").write_text(prompt, encoding="utf-8")
+        except Exception as e:
+            print(f"Warning: failed to save attempt inputs for attempt {attempt}: {e}")
+
+        # Call LLM and instruct it to save payload into the attempt folder as well
+        try:
+            model_output = call_llm_with_kg(llm_url=llm_url, prompt=prompt, kg=kg, md_text=md_text, out_dir=attempt_dir)
+        except Exception as e:
+            print(f"LLM call failed on attempt {attempt}: {e}")
+            model_output = None
+
+        if not model_output:
+            continue
+
+        # Save attempt output
+        attempt_path = attempt_dir / f"fix_attempt.XML"
+        try:
+            attempt_path.write_text(model_output, encoding="utf-8")
+            print(f"Saved fix attempt {attempt} to {attempt_path}")
+        except Exception as e:
+            print(f"Warning: failed to save fix attempt {attempt}: {e}")
+
+        # Validate the returned XML using the external validator if available
+        try:
+            if external_validate_xml is not None:
+                is_valid, message = external_validate_xml(model_output)
+            else:
+                is_valid, message = validate_xml_string(model_output)
+        except Exception as e:
+            is_valid = False
+            message = f"Validation invocation failed: {e}"
+
+        if is_valid:
+            print(f"Fix attempt {attempt} produced valid XML.")
+            return model_output
+
+        # Not valid: save the new error log and use it for the next attempt
+        print(f"Fix attempt {attempt} did not validate: {message}")
+        try:
+            (attempt_dir / "error_log_after_attempt.txt").write_text(message, encoding="utf-8")
+        except Exception as e:
+            print(f"Warning: failed to save post-attempt error log: {e}")
+
+        # Prepare for next attempt: the previous_xml becomes this model_output and error_log becomes the latest parser message
+        previous_xml = model_output
+        error_log = message
+
+    print(f"All {max_retries} fix attempts failed to produce valid XML.")
+    return None
 
 
 # --- generator ---
@@ -239,6 +383,32 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
         Path(out_xml_path).parent.mkdir(parents=True, exist_ok=True)
     Path(out_xml_path).write_text(model_output, encoding="utf-8")
     print(f"Saved XML to {out_xml_path}")
+    # Validate the generated XML using validator if available (or local validator)
+    is_valid = False
+    message = ""
+    try:
+        if external_validate_xml is not None:
+            is_valid, message = external_validate_xml(model_output)
+        else:
+            is_valid, message = validate_xml_string(model_output)
+    except Exception as e:
+        print(f"Validation step failed: {e}")
+
+    if is_valid:
+        print("Generated XML validated as well-formed.")
+        return model_output
+
+    # If invalid, run the fixer which will create per-attempt folders
+    print(f"Generated XML failed validation: {message}")
+    error_log = message
+    fixed = fix_xml_with_errors(llm_url=llm_url, kg=kg, md_text=md_text, previous_xml=model_output, error_log=error_log, max_retries=5, out_dir=kg_dir)
+    if fixed:
+        fixed_path = kg_dir / (Path(md_path).stem + "_kg_fixed.XML")
+        fixed_path.write_text(fixed, encoding="utf-8")
+        print(f"Saved fixed XML to {fixed_path}")
+        return fixed
+
+    print("Failed to fix XML after retries. Returning original (invalid) output.")
     return model_output
 
 
