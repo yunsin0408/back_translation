@@ -1,0 +1,976 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Introduction",
+      "type": "heading",
+      "id": "Introduction"
+    },
+    {
+      "label": "procedure",
+      "type": "candidate",
+      "id": "procedure"
+    },
+    {
+      "label": "Introduction This",
+      "type": "candidate",
+      "id": "Introduction This"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Prerequisites",
+      "type": "heading",
+      "id": "Prerequisites"
+    },
+    {
+      "label": "Tools",
+      "type": "candidate",
+      "id": "Tools"
+    },
+    {
+      "label": "Safety Precautions",
+      "type": "candidate",
+      "id": "Safety Precautions"
+    },
+    {
+      "label": "Supplies",
+      "type": "candidate",
+      "id": "Supplies"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Safety",
+      "type": "candidate",
+      "id": "Safety"
+    },
+    {
+      "label": "Lubricant",
+      "type": "candidate",
+      "id": "Lubricant"
+    },
+    {
+      "label": "Module",
+      "type": "candidate",
+      "id": "Module"
+    },
+    {
+      "label": "Sponge",
+      "type": "candidate",
+      "id": "Sponge"
+    },
+    {
+      "label": "Avoid",
+      "type": "candidate",
+      "id": "Avoid"
+    },
+    {
+      "label": "Materials",
+      "type": "candidate",
+      "id": "Materials"
+    },
+    {
+      "label": "Detergent",
+      "type": "candidate",
+      "id": "Detergent"
+    },
+    {
+      "label": "Screwdriver",
+      "type": "candidate",
+      "id": "Screwdriver"
+    },
+    {
+      "label": "Precautions",
+      "type": "candidate",
+      "id": "Precautions"
+    },
+    {
+      "label": "Incorrect",
+      "type": "candidate",
+      "id": "Incorrect"
+    },
+    {
+      "label": "Apply",
+      "type": "candidate",
+      "id": "Apply"
+    },
+    {
+      "label": "Data Module",
+      "type": "candidate",
+      "id": "Data Module"
+    },
+    {
+      "label": "Water",
+      "type": "candidate",
+      "id": "Water"
+    },
+    {
+      "label": "Brush",
+      "type": "candidate",
+      "id": "Brush"
+    },
+    {
+      "label": "General",
+      "type": "candidate",
+      "id": "General"
+    },
+    {
+      "label": "Specific",
+      "type": "candidate",
+      "id": "Specific"
+    },
+    {
+      "label": "1. Initial Cleaning",
+      "type": "heading",
+      "id": "1. Initial Cleaning"
+    },
+    {
+      "label": "Initial Cleaning",
+      "type": "candidate",
+      "id": "Initial Cleaning"
+    },
+    {
+      "label": "Rinse",
+      "type": "candidate",
+      "id": "Rinse"
+    },
+    {
+      "label": "Figure",
+      "type": "candidate",
+      "id": "Figure"
+    },
+    {
+      "label": "Initial",
+      "type": "candidate",
+      "id": "Initial"
+    },
+    {
+      "label": "Cleaning",
+      "type": "candidate",
+      "id": "Cleaning"
+    },
+    {
+      "label": "ICN",
+      "type": "candidate",
+      "id": "ICN"
+    },
+    {
+      "label": "Bike",
+      "type": "candidate",
+      "id": "Bike"
+    },
+    {
+      "label": "Refer",
+      "type": "candidate",
+      "id": "Refer"
+    },
+    {
+      "label": "2. Grime Removal",
+      "type": "heading",
+      "id": "2. Grime Removal"
+    },
+    {
+      "label": "Flush",
+      "type": "candidate",
+      "id": "Flush"
+    },
+    {
+      "label": "Sprockets",
+      "type": "candidate",
+      "id": "Sprockets"
+    },
+    {
+      "label": "Chain",
+      "type": "candidate",
+      "id": "Chain"
+    },
+    {
+      "label": "Guide",
+      "type": "candidate",
+      "id": "Guide"
+    },
+    {
+      "label": "wheels",
+      "type": "candidate",
+      "id": "wheels"
+    },
+    {
+      "label": "Grime Removal",
+      "type": "candidate",
+      "id": "Grime Removal"
+    },
+    {
+      "label": "Grime",
+      "type": "candidate",
+      "id": "Grime"
+    },
+    {
+      "label": "Removal",
+      "type": "candidate",
+      "id": "Removal"
+    },
+    {
+      "label": "Repeat",
+      "type": "candidate",
+      "id": "Repeat"
+    },
+    {
+      "label": "3. Degreasing (Freehub)",
+      "type": "heading",
+      "id": "3. Degreasing (Freehub)"
+    },
+    {
+      "label": "Degreasing",
+      "type": "candidate",
+      "id": "Degreasing"
+    },
+    {
+      "label": "Freehub",
+      "type": "candidate",
+      "id": "Freehub"
+    },
+    {
+      "label": "4. Washing (Application-Specific)",
+      "type": "heading",
+      "id": "4. Washing (Application-Specific)"
+    },
+    {
+      "label": "Move",
+      "type": "candidate",
+      "id": "Move"
+    },
+    {
+      "label": "Note",
+      "type": "candidate",
+      "id": "Note"
+    },
+    {
+      "label": "Clean",
+      "type": "candidate",
+      "id": "Clean"
+    },
+    {
+      "label": "Application",
+      "type": "candidate",
+      "id": "Application"
+    },
+    {
+      "label": "Soak",
+      "type": "candidate",
+      "id": "Soak"
+    },
+    {
+      "label": "Washing",
+      "type": "candidate",
+      "id": "Washing"
+    },
+    {
+      "label": "5. Lubrication",
+      "type": "heading",
+      "id": "5. Lubrication"
+    },
+    {
+      "label": "System",
+      "type": "candidate",
+      "id": "System"
+    },
+    {
+      "label": "Lubrication",
+      "type": "candidate",
+      "id": "Lubrication"
+    },
+    {
+      "label": "Lubrication Refer",
+      "type": "candidate",
+      "id": "Lubrication Refer"
+    },
+    {
+      "label": "Completion Requirements",
+      "type": "heading",
+      "id": "Completion Requirements"
+    },
+    {
+      "label": "Ensure",
+      "type": "candidate",
+      "id": "Ensure"
+    },
+    {
+      "label": "Completion Requirements Ensure",
+      "type": "candidate",
+      "id": "Completion Requirements Ensure"
+    },
+    {
+      "label": "Completion",
+      "type": "candidate",
+      "id": "Completion"
+    },
+    {
+      "label": "Requirements",
+      "type": "candidate",
+      "id": "Requirements"
+    },
+    {
+      "label": "Data Module Reference",
+      "type": "heading",
+      "id": "Data Module Reference"
+    },
+    {
+      "label": "Reference",
+      "type": "candidate",
+      "id": "Reference"
+    },
+    {
+      "label": "document",
+      "type": "candidate",
+      "id": "document"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "Introduction"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "Introduction This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Tools"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Safety Precautions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Supplies"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Safety"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Lubricant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Module"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Sponge"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Avoid"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Materials"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Detergent"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Screwdriver"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Precautions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Incorrect"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Prerequisites"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Apply"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Data Module"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Water"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Prerequisites",
+      "target": "Brush"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Supplies",
+      "target": "Detergent"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Supplies",
+      "target": "General"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Supplies",
+      "target": "Specific"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Supplies",
+      "target": "Supplies"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Data",
+      "target": "5. Lubrication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Data",
+      "target": "Data Module Reference"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Module",
+      "target": "5. Lubrication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Module",
+      "target": "Data Module Reference"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Detergent",
+      "target": "4. Washing (Application-Specific)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Data Module",
+      "target": "5. Lubrication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Data Module",
+      "target": "Data Module Reference"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Brush",
+      "target": "2. Grime Removal"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Specific",
+      "target": "4. Washing (Application-Specific)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "1. Initial Cleaning",
+      "target": "Initial Cleaning"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "1. Initial Cleaning",
+      "target": "Rinse"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "1. Initial Cleaning",
+      "target": "Figure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "1. Initial Cleaning",
+      "target": "Initial"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "1. Initial Cleaning",
+      "target": "Cleaning"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "1. Initial Cleaning",
+      "target": "ICN"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "1. Initial Cleaning",
+      "target": "Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "1. Initial Cleaning",
+      "target": "Refer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Figure",
+      "target": "3. Degreasing (Freehub)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "ICN",
+      "target": "3. Degreasing (Freehub)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Refer",
+      "target": "3. Degreasing (Freehub)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Refer",
+      "target": "5. Lubrication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Refer",
+      "target": "Data Module Reference"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2. Grime Removal",
+      "target": "Flush"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2. Grime Removal",
+      "target": "Sprockets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2. Grime Removal",
+      "target": "Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2. Grime Removal",
+      "target": "Guide"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2. Grime Removal",
+      "target": "wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2. Grime Removal",
+      "target": "Grime Removal"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2. Grime Removal",
+      "target": "Grime"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2. Grime Removal",
+      "target": "Removal"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2. Grime Removal",
+      "target": "Repeat"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Flush",
+      "target": "4. Washing (Application-Specific)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "3. Degreasing (Freehub)",
+      "target": "Degreasing"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "3. Degreasing (Freehub)",
+      "target": "Freehub"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "4. Washing (Application-Specific)",
+      "target": "Move"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "4. Washing (Application-Specific)",
+      "target": "Note"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "4. Washing (Application-Specific)",
+      "target": "Clean"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "4. Washing (Application-Specific)",
+      "target": "Application"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "4. Washing (Application-Specific)",
+      "target": "Soak"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "4. Washing (Application-Specific)",
+      "target": "Washing"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "5. Lubrication",
+      "target": "System"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "5. Lubrication",
+      "target": "Lubrication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "5. Lubrication",
+      "target": "Lubrication Refer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "System",
+      "target": "Data Module Reference"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Completion Requirements",
+      "target": "Ensure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Completion Requirements",
+      "target": "Completion Requirements Ensure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Completion Requirements",
+      "target": "Completion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Completion Requirements",
+      "target": "Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Data Module Reference",
+      "target": "Reference"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Data Module Reference",
+      "target": "document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Data Module Reference",
+      "target": "Data Module Reference"
+    }
+  ]
+}

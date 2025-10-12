@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <title>Fork Installation</title>
+  </identification>
+  <module_identification>
+    <model>S1000DBIKE</model>
+    <system>D00</system>
+    <assembly>01</assembly>
+    <info_code>930</info_code>
+    <variant>A</variant>
+    <issue>004</issue>
+  </module_identification>
+  <references>
+    <reference>
+      <ref_id>DM Ref 1</ref_id>
+      <model>S1000DBIKE</model>
+      <system>AAA</system>
+      <assembly>01</assembly>
+      <variant>A</variant>
+      <info_code>930</info_code>
+    </reference>
+    <reference>
+      <ref_id>DM Ref 2</ref_id>
+      <model>S1000DBIKE</model>
+      <system>DA2</system>
+      <assembly>1</assembly>
+      <variant>A</variant>
+      <info_code>720</info_code>
+    </reference>
+    <reference>
+      <ref_id>DM Ref 3</ref_id>
+      <model>S1000DBIKE</model>
+      <system>DA2</system>
+      <assembly>1</assembly>
+      <variant>A</variant>
+      <info_code>720</info_code>
+    </reference>
+    <reference>
+      <ref_id>DM Ref 4</ref_id>
+      <model>S1000DBIKE</model>
+      <system>DA2</system>
+      <assembly>3</assembly>
+      <variant>A</variant>
+      <info_code>720</info_code>
+    </reference>
+    <reference>
+      <ref_id>DM Ref 5</ref_id>
+      <model>S1000DBIKE</model>
+      <system>DA2</system>
+      <assembly>3</assembly>
+      <variant>A</variant>
+      <info_code>720</info_code>
+    </reference>
+  </references>
+  <step_list>
+    <step>
+      <step_no>1</step_no>
+      <step_text>Apply grease (Supply: General Grease) on the headset.</step_text>
+    </step>
+    <step>
+      <step_no>2</step_no>
+      <step_text>Install the headset (Refer to DM Ref – System: DA2, Assembly: 3).</step_text>
+    </step>
+    <step>
+      <step_no>3</step_no>
+      <step_text>Install the stem (Refer to DM Ref – System: DA2, Assembly: 1).</step_text>
+    </step>
+    <step>
+      <step_no>4</step_no>
+      <step_text>Install the fork (Spare: Fork).</step_text>
+    </step>
+  </step_list>
+  <requirements>
+    <requirement type="technical_information">
+      <description>Stem Installation Procedure (Reference: DM Ref - System: DA2, Assembly: 1)</description>
+    </requirement>
+    <requirement type="technical_information">
+      <description>Headset Installation Procedure (Reference: DM Ref - System: DA2, Assembly: 3)</description>
+    </requirement>
+    <requirement type="supply">
+      <name>General Grease</name>
+      <manufacturer>KZ222</manufacturer>
+      <part_number>LL-005</part_number>
+      <quantity>As required</quantity>
+    </requirement>
+    <requirement type="spare">
+      <name>Fork</name>
+      <material_set>FK-TEL1002</material_set>
+      <issue>001</issue>
+      <quantity>1 EA</quantity>
+      <spare_part>
+        <name>Fork</name>
+        <manufacturer>KZ666</manufacturer>
+        <part_number>FK-TEL1002</part_number>
+        <quantity>1 EA</quantity>
+      </spare_part>
+    </requirement>
+  </requirements>
+  <close_requirements>
+    <description>No specific close requirements.</description>
+  </close_requirements>
+</procedure>

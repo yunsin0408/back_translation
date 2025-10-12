@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s1000d_content xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <content>
+    <ident>
+      <dmRef>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-040A-A_010-00_EN-US</dmRef>
+    </ident>
+    <section id="ident_status_section">
+      <title>Ident and Status Section</title>
+      <section id="dm_address">
+        <title>DM Address</title>
+        <section id="dm_ident">
+          <title>DM Ident</title>
+          <item>
+            <key>modelIdentCode</key>
+            <value>S1000DLIGHTING</value>
+          </item>
+          <item>
+            <key>systemDiffCode</key>
+            <value>AAA</value>
+          </item>
+          <item>
+            <key>systemCode</key>
+            <value>D00</value>
+          </item>
+          <item>
+            <key>subSystemCode</key>
+            <value>0</value>
+          </item>
+          <item>
+            <key>subSubSystemCode</key>
+            <value>0</value>
+          </item>
+          <item>
+            <key>assyCode</key>
+            <value>00</value>
+          </item>
+          <item>
+            <key>disassyCode</key>
+            <value>00</value>
+          </item>
+          <item>
+            <key>disassyCodeVariant</key>
+            <value>AA</value>
+          </item>
+          <item>
+            <key>infoCode</key>
+            <value>040</value>
+          </item>
+          <item>
+            <key>infoCodeVariant</key>
+            <value>A</value>
+          </item>
+          <item>
+            <key>itemLocationCode</key>
+            <value>A</value>
+          </item>
+          <item>
+            <key>language</key>
+            <value>US (en)</value>
+          </item>
+          <item>
+            <key>issueInfo</key>
+            <value>
+              <issueNumber>010</issueNumber>
+              <inWork>00</inWork>
+            </value>
+          </item>
+        </section>
+        <section id="dm_address_items">
+          <title>DM Address Items</title>
+          <item>
+            <key>issueDate</key>
+            <value>2024-06-19</value>
+          </item>
+          <item>
+            <key>DM Title</key>
+            <value>
+              <techName>Electrical system</techName>
+              <infoName>Description of how it is made and its function</infoName>
+            </value>
+          </item>
+        </section>
+      </section>
+      <section id="dm_status">
+        <title>DM Status</title>
+        <item>
+          <key>issueType</key>
+          <value>changed</value>
+        </item>
+        <item>
+          <key>security</key>
+          <value>
+            <securityClassification>01</securityClassification>
+            <commercialClassification>cc51</commercialClassification>
+            <caveat>cv51</caveat>
+          </value>
+        </item>
+        <item>
+          <key>derivativeClassification</key>
+          <value>
+            <section id="classification_action_group_001">
+              <title>Classification Action Group (dcg-001)</title>
+              <item>
+                <key>Action 1</key>
+                <value>2012-03-15 (ai01) - Classified By</value>
+                <subitem>
+                  <key>Business Unit</key>
+                  <value>ASD Couriers</value>
+                  <subitem>
+                    <key>Contact Person</key>
+                    <value>Clifford</value>
+                  </subitem>
+                </subitem>
+                <subitem>
+                  <key>Derivative Source</key>
+                  <value>Bike Security Guidance Book 1</value>
+                </subitem>
+              </item>
+              <item>
+                <key>Action 2</key>
+                <value>2012-11-02 (ai09) - Upgrade to securityClassification 04</value>
+                <subitem>
+                  <key>Value After Action</key>
+                  <value>2013-03-15 (ai02)</value>
+                </subitem>
+                <subitem>
+                  <key>Business Unit</key>
+                  <value>ASD Couriers</value>
+                  <subitem>
+                    <key>Contact Person</key>
+                    <value>Wink</value>
+                  </subitem>
+                </subitem>
+                <subitem>
+                  <key>Derivative Source</key>
+                  <value/>
+                </subitem>
+              </item>
+            </section>
+            <section id="classification_action_group_002">
+              <title>Classification Action Group (dcg-002)</title>
+              <item>
+                <key>Action 1</key>
+                <value>2012-01-02 (ai01) - Classified By</value>
+                <subitem>
+                  <key>Business Unit</key>
+                  <value>Calm Security</value>
+                  <subitem>
+                    <key>Contact Person</key>
+                    <value>Calm</value>
+                  </subitem>
+                </subitem>
+                <subitem>
+                  <key>Derivative Source</key>
+                  <value>Bike Security Guidance Book 2</value>
+                </subitem>
+              </item>
+              <item>
+                <key>Action 2</key>
+                <value>2012-04-01 (ai02) - Declassify On</value>
+                <subitem>
+                  <key>Business Unit</key>
+                  <value>ASD Couriers</value>
+                  <subitem>
+                    <key>Contact Person</key>
+                    <value>Clifford</value>
+                  </subitem>
+                </subitem>
+                <subitem>
+                  <key>Derivative Source</key>
+                  <value>Bike Security Guidance Book 1</value>
+                </subitem>
+              </item>
+            </section>
+          </value>
+        </item>
+        <item>
+          <key>responsiblePartnerCompany</key>
+          <value>
+            <enterpriseCode>B6865</enterpriseCode>
+            <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+          </value>
+        </item>
+        <item>
+          <key>originator</key>
+          <value>
+            <enterpriseCode>B6865</enterpriseCode>
+            <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+          </value>
+        </item>
+        <item>
+          <key>applicCrossRefTableRef</key>
+          <value>
+            <dmRef>
+              <dmRefIdent>
+                <dmCode>
+                  <modelIdentCode>S1000DBIKE</modelIdentCode>
+                  <systemDiffCode>AAA</systemDiffCode>
+                  <systemCode>D00</systemCode>
+                  <subSystemCode>0</subSystemCode>
+                  <subSubSystemCode>0</subSubSystemCode>
+                  <assyCode>00</assyCode>
+                  <disassyCode>00</disassyCode>
+                  <disassyCodeVariant>AA</disassyCodeVariant>
+                  <infoCode>00W</infoCode>
+                  <infoCodeVariant>A</infoCodeVariant>
+                  <itemLocationCode>D</itemLocationCode>
+                </dmCode>
+              </dmRefIdent>
+            </dmRef>
+          </value>
+        </item>
+      </section>
+      <section id="content_section">
+        <title>Content</title>
+        <section id="description_section">
+          <title>Description</title>
+          <item>
+            <key>paragraph</key>
+            <value>
+              <figure>
+                <title>Figure</title>
+                <graphic/>
+                <caption/>
+              </figure>
+              <text>
+                <paragraph>
+                  <title>Paragraph</title>
+                  <content>
+                    <paragraph>
+                      <title>Paragraph</title>
+                      <content>
+                        <text>
+                          <paragraph>
+                            <title>Paragraph</title>
+                            <content>
+                              <text>
+                                <paragraph>
+                                  <title>Paragraph</title>
+                                  <content/>
+                                </paragraph>
+                              </text>
+                            </paragraph>
+                          </paragraph>
+                        </text>
+                      </paragraph>
+                    </paragraph>
+                  </content>
+                </paragraph>
+              </text>
+            </value>
+          </item>
+        </section>
+        <section id="illustration_section">
+          <title>Illustration</title>
+          <item>
+            <key>figure</key>
+            <value>
+              <title>Figure</title>
+              <graphic/>
+              <caption/>
+            </value>
+          </item>
+        </section>
+      </section>
+    </section>
+  </content>
+</s1000d_content>

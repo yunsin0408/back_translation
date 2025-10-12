@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm>
+  <dmIdent>
+    <modelIdentCode>S1000DBIKE</modelIdentCode>
+    <systemDiffCode>AAA</systemDiffCode>
+    <systemCode>D00</systemCode>
+    <subSystemCode>0</subSystemCode>
+    <subSubSystemCode>0</subSubSystemCode>
+    <assyCode>00</assyCode>
+    <disassyCode>00</disassyCode>
+    <disassyCodeVariant>AA</disassyCodeVariant>
+    <infoCode>00L</infoCode>
+    <infoCodeVariant>A</infoCodeVariant>
+    <itemLocationCode>D</itemLocationCode>
+    <language>
+      <languageIsoCode>en</languageIsoCode>
+      <countryIsoCode>US</countryIsoCode>
+    </language>
+    <issueInfo>
+      <issueNumber>001</issueNumber>
+      <inWork>00</inWork>
+    </issueInfo>
+  </dmIdent>
+  <dmAddressItems>
+    <issueDate>
+      <year>2024</year>
+      <month>06</month>
+      <day>19</day>
+    </issueDate>
+    <dmTitle>
+      <techName>Mountain bicycle</techName>
+      <infoName>Supplies - List of products common information repository</infoName>
+    </dmTitle>
+  </dmAddressItems>
+  <dmStatus>
+    <issueType>new</issueType>
+    <security>
+      <verificationType>tabtop</verificationType>
+    </security>
+    <qualityAssurance/>
+    <remarks>
+      CPF_2020-040EPWG Bike Enhancement with elements and attributes missing in the samples
+      enterpriseGroup, enterpriseInfo, shelfLife, shippingInfo, specDocument, specGroup, supplyClassification, supplyIdent, supplyRepository, supplySpec, transport
+    </remarks>
+    <brexDMRef>
+      <modelIdentCode>022</modelIdentCode>
+      <infoCodeVariant>A</infoCodeVariant>
+      <itemLocationCode>D</itemLocationCode>
+    </brexDMRef>
+    <dmStatusRef>
+      <modelIdentCode>022</modelIdentCode>
+      <infoCodeVariant>A</infoCodeVariant>
+      <itemLocationCode>D</itemLocationCode>
+    </dmStatusRef>
+  </dmStatus>
+  <content>
+    <commonRepository>
+      <supplyRepository id="SPEC-0021">
+        <supplySpec id="sup-0001">
+          <supplyIdent>
+            <supplyNumber>BKO200</supplyNumber>
+            <supplyNumberType>sp01</supplyNumberType>
+          </supplyIdent>
+          <supplyClassification>eco-efficiency level 3</supplyClassification>
+          <specGroup>
+            <vendorFlag>1</vendorFlag>
+            <specDocument>
+              <countryIsoCode>UK</countryIsoCode>
+              <specDocumentNumber>BIKE_OIL_NORM</specDocumentNumber>
+            </specDocument>
+          </specGroup>
+          <enterpriseGroup>
+            <enterpriseInfo>
+              <locallySuppliedFlag>1</locallySuppliedFlag>
+              <enterpriseRef manufacturerCodeValue="N4444"/>
+              <shippingInfo>
+                <packaging>1 LITER (0.265 ) CAN</packaging>
+                <shelfLife>APPROX 2 YEARS AT 20 DEG C (68 DEG F)</shelfLife>
+                <transport id="SPEC-0015">FLAMMABLE LIQUID</transport>
+              </shippingInfo>
+            </enterpriseInfo>
+          </enterpriseGroup>
+        </supplySpec>
+        <supplySpec id="sup-0002">
+          <supplyIdent>
+            <supplyNumber>OIL135</supplyNumber>
+            <supplyNumberType>sp01</supplyNumberType>
+          </supplyIdent>
+          <supplyClassification>eco-efficiency level 3</supplyClassification>
+          <specGroup>
+            <vendorFlag>1</vendorFlag>
+            <specDocument>
+              <countryIsoCode>UK</countryIsoCode>
+              <specDocumentNumber>BIKE_OIL_NORM</specDocumentNumber>
+            </specDocument>
+          </specGroup>
+          <enterpriseGroup>
+            <enterpriseInfo>
+              <locallySuppliedFlag>1</locallySuppliedFlag>
+              <enterpriseRef manufacturerCodeValue="35TT7"/>
+              <shippingInfo>
+                <packaging>0.5 LITER (0.132 ) CAN</packaging>
+                <shelfLife>APPROX 1 YEARS AT 20 DEG C (68 DEG F)</shelfLife>
+                <transport id="SPEC-0016">FLAMMABLE LIQUID</transport>
+              </shippingInfo>
+            </enterpriseInfo>
+          </enterpriseGroup>
+        </supplySpec>
+        <supplySpec id="sup-0003">
+          <supplyIdent>
+            <supplyNumber>BKO2000</supplyNumber>
+            <supplyNumberType>sp01</supplyNumberType>
+          </supplyIdent>
+          <supplyClassification>eco-efficiency level 5</supplyClassification>
+          <specGroup>
+            <vendorFlag>1</vendorFlag>
+            <specDocument>
+              <countryIsoCode>UK</countryIsoCode>
+              <specDocumentNumber>BIKE_OIL_NORM2020</specDocumentNumber>
+            </specDocument>
+          </specGroup>
+          <enterpriseGroup>
+            <enterpriseInfo>
+              <locallySuppliedFlag>1</locallySuppliedFlag>
+              <enterpriseRef manufacturerCodeValue="N4444"/>
+              <shippingInfo>
+                <packaging>1 LITER (0.265 ) CAN</packaging>
+                <shelfLife>APPROX 2 YEARS AT 20 DEG C (68 DEG F)</shelfLife>
+                <transport id="SPEC-0017">FLAMMABLE LIQUID</transport>
+              </shippingInfo>
+            </enterpriseInfo>
+          </enterpriseGroup>
+        </supplySpec>
+        <supplySpec id="sup-0004">
+          <supplyIdent>
+            <supplyNumber>OIL1355</supplyNumber>
+            <supplyNumberType>sp01</supplyNumberType>
+          </supplyIdent>
+          <supplyClassification>eco-efficiency level 5</supplyClassification>
+          <specGroup>
+            <vendorFlag>1</vendorFlag>
+            <specDocument>
+              <countryIsoCode>UK</countryIsoCode>
+              <specDocumentNumber>BIKE_OIL_NORM2020</specDocumentNumber>
+            </specDocument>
+          </specGroup>
+          <enterpriseGroup>
+            <enterpriseInfo>
+              <locallySuppliedFlag>1</locallySuppliedFlag>
+              <enterpriseRef manufacturerCodeValue="35TT7"/>
+              <shippingInfo>
+                <packaging>0.5 LITER (0.132 ) CAN</packaging>
+                <shelfLife>APPROX 1 YEARS AT 20 DEG C (68 DEG F)</shelfLife>
+                <transport id="SPEC-0018">FLAMMABLE LIQUID</transport>
+              </shippingInfo>
+            </enterpriseInfo>
+          </enterpriseGroup>
+        </supplySpec>
+        <supplySpec id="sup-0005">
+          <supplyIdent>
+            <id>SPEC-0013</id>
+            <supplyNumber>BSB-DUROFIX_FIXATIF_UW_SPECIAL</supplyNumber>
+            <supplyNumberType>sp01</supplyNumberType>
+          </supplyIdent>
+          <specGroup>
+            <id>SPEC-0011</id>
+            <vendorFlag>0</vendorFlag>
+            <specDocument>
+              <id>SPEC-0001</id>
+              <countryIsoCode>FR</countryIsoCode>
+              <specDocumentNumber>IPDA 28-05</specDocumentNumber>
+            </specDocument>
+          </specGroup>
+          <enterpriseGroup>
+            <id>SPEC-0003</id>
+            <enterpriseInfo>
+              <id>SPEC-0005</id>
+              <locallySuppliedFlag>0</locallySuppliedFlag>
+              <enterpriseRef manufacturerCodeValue="F8808"/>
+              <shippingInfo>
+                <id>SPEC-0009</id>
+                <packaging>1 AND 20 LITER (0.265 AND 5.3 GAL) CAN</packaging>
+                <shelfLife id="SPEC-0007">APPROX 4 YEARS AT 20 DEG C (68 DEG F)</shelfLife>
+                <transport id="SPEC-0009">FLAMMABLE LIQUID</transport>
+              </shippingInfo>
+            </enterpriseInfo>
+          </enterpriseGroup>
+        </supplySpec>
+        <supplySpec id="sup-0006">
+          <supplyIdent>
+            <id>SPEC-0013</id>
+            <supplyNumber>BSB-DUROFIX_FIXATIF_UW_SPECIAL</supplyNumber>
+            <supplyNumberType>sp01</supplyNumberType>
+          </supplyIdent>
+          <specGroup>
+            <id>SPEC-0011</id>
+            <vendorFlag>0</vendorFlag>
+            <specDocument>
+              <id>SPEC-0001</id>
+              <countryIsoCode>FR</countryIsoCode>
+              <specDocumentNumber>IPDA 28-05</specDocumentNumber>
+            </specDocument>
+          </specGroup>
+          <enterpriseGroup>
+            <id>SPEC-0003</id>
+            <enterpriseInfo>
+              <id>SPEC-0005</id>
+              <locallySuppliedFlag>0</locallySuppliedFlag>
+              <enterpriseRef manufacturerCodeValue="F8808"/>
+              <shippingInfo>
+                <id>SPEC-0009</id>
+                <packaging>1 AND 20 LITER (0.265 AND 5.3 GAL) CAN</packaging>
+                <shelfLife id="SPEC-0007">APPROX 4 YEARS AT 20 DEG C (68 DEG F)</shelfLife>
+                <transport id="SPEC-0009">FLAMMABLE LIQUID</transport>
+              </shippingInfo>
+            </enterpriseInfo>
+          </enterpriseGroup>
+        </supplySpec>
+      </supplyRepository>
+    </commonRepository>
+  </content>
+</dm>

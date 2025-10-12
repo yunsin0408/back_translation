@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <DMIdent>
+    <DMRef>DMC-S1000DBIKE-AAA-DA1-10-00-00AA-251A-A_010-00_EN-US</DMRef>
+    <DMType>Proced</DMType>
+    <IssuePoint>DMC-S1000DBIKE-AAA-DA1-10-00-00AA-251A-A</IssuePoint>
+    <Revision>1</Revision>
+    <Date>2024-06-19</Date>
+    <State>Published</State>
+  </DMIdent>
+  <DataModuleContent>
+    <IdentAndStatusSection>
+      <DMAddress>
+        <DMIdent>
+          <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+          <SystemDiffCode>AAA</SystemDiffCode>
+          <SystemCode>DA1</SystemCode>
+          <SubSystemCode>1</SubSystemCode>
+          <SubSubSystemCode>0</SubSubSystemCode>
+          <AssyCode>00</AssyCode>
+          <DisassyCode>00</DisassyCode>
+          <DisassyVariantCode>AA</DisassyVariantCode>
+          <InfoCode>251</InfoCode>
+          <InfoVariantCode>A</InfoVariantCode>
+          <ItemLocationCode>A</ItemLocationCode>
+          <Language>US / en</Language>
+        </DMIdent>
+        <DMAddressItems>
+          <IssueDate>2024-06-19</IssueDate>
+          <TechName>Brake pads</TechName>
+          <InfoName>Clean with rubbing alcohol</InfoName>
+        </DMAddressItems>
+      </DMAddress>
+      <DMStatus>
+        <IssueType>deleted</IssueType>
+        <Security>01 / cc51 / cv51</Security>
+      </DMStatus>
+      <DataRestrictions>
+        <DataDistribution>To be made available to all S1000D users.</DataDistribution>
+        <ExportControl>
+          <SimplePara>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</SimplePara>
+        </ExportControl>
+        <DataHandling>There are no specific handling instructions for this data module.</DataHandling>
+        <DataDestruction>Users may destroy this data module in accordance with their own local procedures.</DataDestruction>
+        <DataDisclosure>There are no dissemination limitations that apply to this data module.</DataDisclosure>
+      </DataRestrictions>
+      <RestrictionInfo>
+        <Copyright>
+          <Emphasis>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</Emphasis>
+          <Publishers>
+            <Publisher>Aerospace, Security and Defence Industries Association of Europe</Publisher>
+            <Publisher>Aerospace Industries Association of America</Publisher>
+            <Publisher>ATA e-Business Program</Publisher>
+          </Publishers>
+          <LimitationsOfLiability>
+            <Limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</Limitation>
+            <Limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</Limitation>
+            <Limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</Limitation>
+          </LimitationsOfLiability>
+          <CopyrightDetails>The details for copyright can be found in the S1000D Specification.</CopyrightDetails>
+        </Copyright>
+        <PolicyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</PolicyStatement>
+        <DataConditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</DataConditions>
+      </RestrictionInfo>
+      <ResponsiblePartnerCompany>
+        <EnterpriseCode>B6865</EnterpriseCode>
+        <EnterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</EnterpriseName>
+      </ResponsiblePartnerCompany>
+      <Originator>
+        <EnterpriseCode>B6865</EnterpriseCode>
+        <EnterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</EnterpriseName>
+      </Originator>
+      <ApplicCrossReferenceTableRef>
+        <DMRef>
+          <DMCode>
+            <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+            <SystemDiffCode>AAA</SystemDiffCode>
+            <SystemCode>D00</SystemCode>
+            <SubSystemCode>0</SubSystemCode>
+            <SubSubSystemCode>0</SubSubSystemCode>
+            <AssyCode>00</AssyCode>
+            <DisassyCode>00</DisassyCode>
+            <DisassyVariantCode>AA</DisassyVariantCode>
+            <InfoCode>00W</InfoCode>
+            <InfoVariantCode>A</InfoVariantCode>
+            <ItemLocationCode>D</ItemLocationCode>
+          </DMCode>
+        </DMRef>
+      </ApplicCrossReferenceTableRef>
+      <Applic>
+        <DisplayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</DisplayText>
+        <EvaluateAnd>
+          <AssertType>Mountain bicycle</AssertType>
+          <EvaluateOr>
+            <EvaluateAnd>
+              <AssertModel>Mountain storm</AssertModel>
+              <AssertCategory>Mk1</AssertCategory>
+            </EvaluateAnd>
+            <EvaluateAnd>
+              <AssertModel>Brook trekker</AssertModel>
+              <AssertCategory>Mk9</AssertCategory>
+            </EvaluateAnd>
+          </EvaluateOr>
+        </EvaluateAnd>
+      </Applic>
+    </IdentAndStatusSection>
+    <ContentSection>
+      <SystemBreakdownCode>
+        <Code>BY131</Code>
+        <SkillLevelCode>sk01</SkillLevelCode>
+      </SystemBreakdownCode>
+      <ReasonForUpdate>
+        <Id>rfu_general</Id>
+        <UpdateReasonType>urt03</UpdateReasonType>
+        <SimplePara>S1000D upissued</SimplePara>
+      </ReasonForUpdate>
+      <Refs>
+        <DMRef>
+          <DMCode>
+            <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+            <SystemDiffCode>AAA</SystemDiffCode>
+            <SystemCode>D00</SystemCode>
+            <SubSystemCode>0</SubSystemCode>
+            <SubSubSystemCode>0</SubSubSystemCode>
+            <AssyCode>00</AssyCode>
+            <DisassyCode>00</DisassyCode>
+            <DisassyVariantCode>AA</DisassyVariantCode>
+            <InfoCode>121</InfoCode>
+            <InfoVariantCode>A</InfoVariantCode>
+            <ItemLocationCode>A</ItemLocationCode>
+          </DMCode>
+        </DMRef>
+      </Refs>
+      <ProcedureSection>
+        <PreliminaryRequirements>
+          <ReqCondGroup>No conditions</ReqCondGroup>
+          <ReqPersons>
+            <Person>
+              <PersonId>A</PersonId>
+              <Category>Basic user</Category>
+              <Trade>Operator</Trade>
+              <EstimatedTime>0.3 h</EstimatedTime>
+            </Person>
+          </ReqPersons>
+          <ReqSupportEquips>None</ReqSupportEquips>
+          <ReqSupplies>
+            <SupplyDescr>
+              <SupplyId>sup-0001</SupplyId>
+              <Name>Rubbing alcohol</Name>
+              <IdentNumber>
+                <ManufacturerCode>KZ001</ManufacturerCode>
+                <PartNo>KZ001</PartNo>
+              </IdentNumber>
+            </SupplyDescr>
+          </ReqSupplies>
+        </PreliminaryRequirements>
+        <ProcedureSteps>
+          <Step>
+            <StepNo>1</StepNo>
+            <StepText>Apply cleaning agent.</StepText>
+          </Step>
+        </ProcedureSteps>
+      </ProcedureSection>
+    </ContentSection>
+  </DataModuleContent>
+</DataModule>

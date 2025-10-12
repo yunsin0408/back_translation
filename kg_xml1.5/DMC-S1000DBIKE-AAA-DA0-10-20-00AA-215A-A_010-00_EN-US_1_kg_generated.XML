@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <title>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215A-A_010-00_EN-US</title>
+  </identification>
+  <content>
+    <section id="ident_status_section">
+      <title>Ident and Status Section</title>
+      <section id="dm_address">
+        <title>DM Address</title>
+        <section id="dm_ident">
+          <title>DM Ident</title>
+          <item>
+            <attr name="modelIdentCode">S1000DBIKE</attr>
+          </item>
+          <item>
+            <attr name="systemDiffCode">AAA</attr>
+          </item>
+          <item>
+            <attr name="systemCode">DA0</attr>
+          </item>
+          <item>
+            <attr name="subSystemCode">1</attr>
+          </item>
+          <item>
+            <attr name="subSubSystemCode">0</attr>
+          </item>
+          <item>
+            <attr name="assyCode">20</attr>
+          </item>
+          <item>
+            <attr name="disassyCode">00</attr>
+          </item>
+          <item>
+            <attr name="disassyCodeVariant">AA</attr>
+          </item>
+          <item>
+            <attr name="infoCode">215</attr>
+          </item>
+          <item>
+            <attr name="infoCodeVariant">A</attr>
+          </item>
+          <item>
+            <attr name="itemLocationCode">A</attr>
+          </item>
+          <item>
+            <attr name="language countryIsoCode">US</attr>
+          </item>
+          <item>
+            <attr name="language languageIsoCode">en</attr>
+          </item>
+          <item>
+            <attr name="issueNumber">010</attr>
+          </item>
+          <item>
+            <attr name="inWork">00</attr>
+          </item>
+        </section>
+        <section id="dm_address_items">
+          <title>DM Address Items</title>
+          <item>
+            <attr name="issueDate year">2024</attr>
+          </item>
+          <item>
+            <attr name="issueDate month">06</attr>
+          </item>
+          <item>
+            <attr name="issueDate day">19</attr>
+          </item>
+          <item>
+            <attr name="techName">Tire</attr>
+          </item>
+          <item>
+            <attr name="infoName">Fill with air</attr>
+          </item>
+        </section>
+      </section>
+      <section id="dm_status">
+        <title>DM Status</title>
+        <item>
+          <attr name="issueType">changed</attr>
+        </item>
+        <item>
+          <attr name="security securityClassification">01</attr>
+        </item>
+        <item>
+          <attr name="security commercialClassification">cc51</attr>
+        </item>
+        <item>
+          <attr name="security caveat">cv51</attr>
+        </item>
+      </section>
+      <section id="data_restrictions">
+        <title>Data Restrictions</title>
+        <item>
+          <attr name="restrictionInstructions">
+            <subitem>
+              <attr name="dataDistribution">To be made available to all S1000D users.</attr>
+            </subitem>
+            <subitem>
+              <attr name="exportControl">
+                <subitem>
+                  <attr name="exportRegistrationStmt">
+                    <simplePara>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simplePara>
+                  </attr>
+                </subitem>
+              </attr>
+            </subitem>
+            <subitem>
+              <attr name="dataHandling">There are no specific handling instructions for this data module.</attr>
+            </subitem>
+            <subitem>
+              <attr name="dataDestruction">Users may destroy this data module in accordance with their own local procedures.</attr>
+            </subitem>
+            <subitem>
+              <attr name="dataDisclosure">There are no dissemination limitations that apply to this data module.</attr>
+            </subitem>
+          </attr>
+        </item>
+        <item>
+          <attr name="restrictionInfo">
+            <subitem>
+              <attr name="copyright">
+                <subitem>
+                  <attr name="copyrightPara">
+                    <emphasis>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</emphasis>
+                  </attr>
+                </subitem>
+                <subitem>
+                  <attr name="copyrightPara">
+                    <emphasis>Publishers:</emphasis>
+                  </attr>
+                </subitem>
+                <subitem>
+                  <attr name="randomList" listItemPrefix="pf01">
+                    <listItem>Aerospace, Security and Defence Industries Association of Europe</listItem>
+                    <listItem>Aerospace Industries Association of America</listItem>
+                    <listItem>ATA e-Business Program</listItem>
+                  </attr>
+                </subitem>
+                <subitem>
+                  <attr name="copyrightPara">
+                    <emphasis>Limitations of liability:</emphasis>
+                  </attr>
+                </subitem>
+                <subitem>
+                  <attr name="randomList" listItemPrefix="pf02">
+                    <listItem>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</listItem>
+                    <listItem>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</listItem>
+                    <listItem>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</listItem>
+                  </attr>
+                </subitem>
+                <subitem>
+                  <attr name="copyrightPara">The details for copyright can be found within.</attr>
+                </subitem>
+              </attr>
+            </subitem>
+          </attr>
+        </item>
+      </section>
+      <section id="responsible_person">
+        <title>Responsible Person</title>
+        <item>
+          <attr name="noResponsiblePerson"></attr>
+        </item>
+      </section>
+      <section id="applicable_regulations">
+        <title>Applicable Regulations</title>
+        <item>
+          <attr name="noApplicableRegulations"></attr>
+        </item>
+      </section>
+      <section id="quality_assurance">
+        <title>Quality Assurance</title>
+        <item>
+          <attr name="firstVerification" verificationType="tabtop"></attr>
+        </item>
+      </section>
+      <section id="system_breakdown_code">
+        <title>System Breakdown Code</title>
+        <item>
+          <attr name="systemBreakdownCode">BY112</attr>
+        </item>
+      </section>
+      <section id="skill_level">
+        <title>Skill Level</title>
+        <item>
+          <attr name="skillLevel" skillLevelCode="sk01"></attr>
+        </item>
+      </section>
+      <section id="reason_for_update">
+        <title>Reason For Update</title>
+        <item>
+          <attr name="id">rfu_general</attr>
+        </item>
+        <item>
+          <attr name="updateReasonType">urt03</attr>
+        </item>
+        <item>
+          <simplePara>
+          </simplePara>
+        </item>
+      </section>
+    </section>
+    <section id="procedure_steps">
+      <title>Procedure Steps</title>
+      <step>
+        <title>Step 1</title>
+      </step>
+    </section>
+  </content>
+</procedure>

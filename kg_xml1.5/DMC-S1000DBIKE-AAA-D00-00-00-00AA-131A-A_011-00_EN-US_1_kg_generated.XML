@@ -1,0 +1,127 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Pre-Ride Check Procedure</title>
+  <introduction>
+    This document outlines the pre-ride check procedure for bicycles, covering key areas to ensure safety and optimal performance.
+  </introduction>
+  <section>
+    <title>1. Brakes</title>
+    <step>
+      <title>Check Pads</title>
+      <instruction>Ensure brake pads have sufficient material.</instruction>
+    </step>
+    <step>
+      <title>Lever Action</title>
+      <instruction>Verify smooth and firm lever action.</instruction>
+    </step>
+  </section>
+  <section>
+    <title>2. Tires</title>
+    <step>
+      <title>Inflation</title>
+      <instruction>Check tire pressure. Recommended ranges:</instruction>
+      <list>
+        <item>On Road: 55-60 psi</item>
+        <item>Off Road: 35-40 psi</item>
+      </list>
+    </step>
+    <step>
+      <title>Condition</title>
+      <instruction>Inspect tires for cracks, splits, or embedded objects.</instruction>
+    </step>
+  </section>
+  <section>
+    <title>3. Wheels</title>
+    <step>
+      <title>Bearings</title>
+      <instruction>Check for loose bearings.</instruction>
+    </step>
+    <step>
+      <title>Trueness</title>
+      <instruction>Ensure wheels are true (not wobbling).</instruction>
+    </step>
+    <step>
+      <title>Spokes</title>
+      <instruction>Verify spokes are not broken and are tight.</instruction>
+    </step>
+    <step>
+      <title>Axle Nuts</title>
+      <instruction>Ensure axle nuts are tight.</instruction>
+    </step>
+  </section>
+  <section>
+    <title>4. Headset</title>
+    <step>
+      <title>Tightness</title>
+      <instruction>Check for headset bearing tightness. Ensure smooth steering operation.</instruction>
+    </step>
+  </section>
+  <section>
+    <title>5. Chain</title>
+    <step>
+      <title>Movement</title>
+      <instruction>Verify easy movement of chain links.</instruction>
+    </step>
+  </section>
+  <section>
+    <title>6. Handlebar and Stem</title>
+    <step>
+      <title>Stem Condition</title>
+      <warning>Do not ride with a cracked stem.</warning>
+      <list>
+        <item>If stem is cracked: Replace stem.</item>
+        <item>If stem is loose: Tighten stem.</item>
+      </list>
+    </step>
+    <step>
+      <title>Clamp Bolt</title>
+      <instruction>If handlebars twist in stem: Tighten clamp bolt.</instruction>
+    </step>
+  </section>
+  <section>
+    <title>7. Computer (if equipped)</title>
+    <step>
+      <title>Display Readings</title>
+      <instruction>Verify the computer displays appropriate readings. Example readings (may vary by model):</instruction>
+      <list>
+        <item>Altitude: 0 miles</item>
+        <item>Speed: 0 mph</item>
+        <item>Distance: 0 miles</item>
+      </list>
+    </step>
+    <note>Color Coding on Computer Display:</note>
+    <table id="computer_display_table">
+      <title>Computer Display Color Codes</title>
+      <header>
+        <cell>Item</cell>
+        <cell>Color</cell>
+      </header>
+      <row>
+        <cell>Altitude</cell>
+        <cell>co04</cell>
+      </row>
+      <row>
+        <cell>Speed</cell>
+        <cell>co02, co04</cell>
+      </row>
+      <row>
+        <cell>Distance</cell>
+        <cell>co51</cell>
+      </row>
+    </table>
+  </section>
+  <section>
+    <title>Appendix: Color Codes</title>
+    <list>
+      <item>co02: (Specific color - consult documentation)</item>
+      <item>co04: (Specific color - consult documentation)</item>
+      <item>co51: (Specific color - consult documentation)</item>
+    </list>
+  </section>
+</procedure>
+```

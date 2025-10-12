@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_info xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_id>DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-T-T61E_004-00_EN-US</dmc_id>
+  <issue_info>
+    <issue_number>004</issue_number>
+    <in_work>00</in_work>
+  </issue_info>
+  <dm_address>
+    <dm_ident>
+      <model_ident_code>S1000DBIKE</model_ident_code>
+      <system_diff_code>AAA</system_diff_code>
+      <system_code>DA0</system_code>
+      <sub_system_code>0</sub_system_code>
+      <sub_sub_system_code>0</sub_sub_system_code>
+      <assy_code>00</assy_code>
+      <dis_assy_code>00</dis_assy_code>
+      <dis_assy_code_variant>AA</dis_assy_code_variant>
+      <info_code>041</info_code>
+      <info_code_variant>A</info_code_variant>
+      <item_location_code>T</item_location_code>
+      <learn_code>T61</learn_code>
+      <learn_event_code>E</learn_event_code>
+    </dm_ident>
+    <language>
+      <country_iso_code>US</country_iso_code>
+      <language_iso_code>en</language_iso_code>
+    </language>
+    <dm_address_items>
+      <issue_date>2024-06-19</issue_date>
+      <tech_name>Wheels</tech_name>
+      <info_name>Description of how it is made: Knowledge Check</info_name>
+    </dm_address_items>
+  </dm_address>
+  <dm_status>
+    <issue_type>status</issue_type>
+    <security>
+      <security_classification>01</security_classification>
+    </security>
+    <data_restrictions>
+      <restriction_instructions>
+        <data_distribution>To be made available to all S1000D users.</data_distribution>
+        <export_control>
+          <export_registration_stmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</export_registration_stmt>
+        </export_control>
+        <data_handling>There are no specific handling instructions for this data module.</data_handling>
+        <data_destruction>Users may destroy this data module in accordance with their own local procedures.</data_destruction>
+        <data_disclosure>There are no dissemination limitations that apply to this data module.</data_disclosure>
+      </restriction_instructions>
+      <restriction_info>
+        <copyright>
+          <copyright_para>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright_para>
+          <copyright_para>Publishers:</copyright_para>
+          <random_list>
+            <item>Aerospace, Security and Defence Industries Association of Europe</item>
+            <item>Aerospace Industries Association of America</item>
+            <item>ATA e-Business Program</item>
+          </random_list>
+          <copyright_para>Limitations of liability:</copyright_para>
+          <random_list>
+            <item>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</item>
+            <item>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</item>
+            <item>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</item>
+          </random_list>
+          <copyright_para>The details for copyright can be found in the S1000D Specification.</copyright_para>
+        </copyright>
+        <policy_statement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policy_statement>
+        <data_conds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</data_conds>
+      </restriction_info>
+    </data_restrictions>
+  </dm_status>
+  <responsibility>
+    <responsible_partner>
+      <enterprise_code>B6865</enterprise_code>
+      <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+    </responsible_partner>
+    <originator>
+      <enterprise_code>B6865</enterprise_code>
+      <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+    </originator>
+    <applic>
+      <display_text>
+        <item>All</item>
+      </display_text>
+    </applic>
+  </responsibility>
+  <dm_ref>
+    <dm_ref_ident>
+      <model_ident_code>S1000DBIKE</model_ident_code>
+      <system_diff_code>AAA</system_diff_code>
+      <system_code>D00</system_code>
+      <sub_system_code>0</sub_system_code>
+      <sub_sub_system_code>0</sub_sub_system_code>
+      <assy_code>00</assy_code>
+      <dis_assy_code>00</dis_assy_code>
+      <dis_assy_code_variant>AA</dis_assy_code_variant>
+      <info_code>022</info_code>
+      <item_location_code>D</item_location_code>
+    </dm_ref_ident>
+  </dm_ref>
+  <quality_assurance>
+    <verification_type>tabtop</verification_type>
+  </quality_assurance>
+  <system_breakdown>
+    <system_breakdown_code>DA000</system_breakdown_code>
+  </system_breakdown>
+  <reason_for_update>
+    <update_reason_type>urt03</update_reason_type>
+    <update_reason>S1000D upissued</update_reason>
+  </reason_for_update>
+  <content>
+    <learning>
+      <learning_assessment>
+        <title>Drag-and-Drop Assessment Question</title>
+      </learning_assessment>
+      <lc_interaction>
+        <lc_drag_and_drop>
+          <title> </title>
+          <lc_question>
+            <description>Drag the answer options to the matching questions, and then click CHECK</description>
+          </lc_question>
+          <lc_match_table>
+            <lc_matching_pair>
+              <lc_item>Which part of the hub assembly allows wheel components to rotate freely around the axle?</lc_item>
+              <lc_matching_item>Bearings</lc_matching_item>
+            </lc_matching_pair>
+            <lc_matching_pair>
+              <lc_item>To which part of the assembly are the spokes attached?</lc_item>
+              <lc_matching_item>Hub shell</lc_matching_item>
+            </lc_matching_pair>
+            <lc_matching_pair>
+              <lc_item>Which part of the hub assembly is attached to the dropouts?</lc_item>
+              <lc_matching_item>Hub shell</lc_matching_item>
+            </lc_matching_pair>
+          </lc_match_table>
+        </lc_drag_and_drop>
+      </lc_interaction>
+    </learning>
+  </content>
+</dmc_info>

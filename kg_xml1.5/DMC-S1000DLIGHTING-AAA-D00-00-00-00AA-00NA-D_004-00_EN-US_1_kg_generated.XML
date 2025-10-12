@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <DModuleTitle>DModule Overview</DModuleTitle>
+  <DModuleContent>
+    <Paragraph>This document outlines the structure and content of a DModule, likely representing technical documentation for a bicycle maintenance procedure.</Paragraph>
+    <Heading level="1">1. Identification &amp; Metadata (Inferred)</Heading>
+    <Paragraph>While not explicitly stated, the document appears to be a technical manual or procedure guide. The presence of tool lists and explicit part names suggests a maintenance or repair focus.</Paragraph>
+    <Heading level="1">2. Applicable Models (Inferred)</Heading>
+    <Paragraph>The document covers maintenance and repair procedures applicable to bicycles, specifically those requiring the listed tools. The specific bicycle models are not defined within the provided excerpt.</Paragraph>
+    <Heading level="1">3. Technical Specifications &amp; Requirements</Heading>
+    <Paragraph>The core of the document focuses on a list of tools and materials required for a bicycle maintenance task. The list is extensive and detailed.</Paragraph>
+    <Heading level="2">3.1 Tool List</Heading>
+    <Paragraph>The document provides a comprehensive list of tools, including:</Paragraph>
+    <BulletedList>
+      <ListItem><b>Measuring &amp; Calibration:</b> (Implicitly covered through tool list)</ListItem>
+      <ListItem><b>Fastening Tools:</b> Allen wrenches (8mm, and sets), foot pump</ListItem>
+      <ListItem><b>Cleaning &amp; Lubrication:</b> Chain cleaning fluid (As required), Chain cleaning tool, Clean dry cloth</ListItem>
+      <ListItem><b>Disassembly/Assembly:</b> Tire lever, Chain cleaning tool</ListItem>
+      <ListItem><b>Support &amp; Positioning:</b> Work stand, Floor covering</ListItem>
+      <ListItem><b>Miscellaneous:</b> Extra firm hold hairspray, Marker pen, Tube patch kit, Set of Allen wrenches, Extra firm hold hairspray, Floor covering, Chain cleaning fluid, Chain cleaning tool.</ListItem>
+    </BulletedList>
+    <Paragraph><b>Detailed Tool List (with IDs):</b></Paragraph>
+    <Table>
+      <TableHeader>
+        <Cell><b>Tool ID</b></Cell>
+        <Cell><b>Tool Name</b></Cell>
+        <Cell><b>Quantity</b></Cell>
+        <Cell><b>Notes</b></Cell>
+      </TableHeader>
+      <TableRow>
+        <Cell>ID00015</Cell>
+        <Cell>Foot pump</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00016</Cell>
+        <Cell>Work stand</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00017</Cell>
+        <Cell>Stand-001</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00018</Cell>
+        <Cell>Clean dry cloth</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00019</Cell>
+        <Cell>Extra firm hold hairspray</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00020</Cell>
+        <Cell>8mm Allen wrench</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00021</Cell>
+        <Cell>Floor covering</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00022</Cell>
+        <Cell>Chain cleaning fluid</Cell>
+        <Cell>As required</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00023</Cell>
+        <Cell>Chain cleaning tool</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-03</Cell>
+        <Cell>Chain cleaning tool</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-05</Cell>
+        <Cell>Foot pump</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-06</Cell>
+        <Cell>Tube patch kit</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-07</Cell>
+        <Cell>Marker pen</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-08</Cell>
+        <Cell>8mm Allen wrench</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-12</Cell>
+        <Cell>Clean dry cloth</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-13</Cell>
+        <Cell>Set of Allen wrenches</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-15</Cell>
+        <Cell>Foot pump</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-16</Cell>
+        <Cell>Work stand</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-17</Cell>
+        <Cell>Stand-001</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-18</Cell>
+        <Cell>Clean dry cloth</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>BSK-TLST-001-19</Cell>
+        <Cell>Extra firm hold hairspray</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>HS-D001</Cell>
+        <Cell>Extra firm hold hairspray</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00016</Cell>
+        <Cell>Work stand</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00017</Cell>
+        <Cell>Stand-001</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00018</Cell>
+        <Cell>Clean dry cloth</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00019</Cell>
+        <Cell>Extra firm hold hairspray</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00021</Cell>
+        <Cell>Floor covering</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>ID00022</Cell>
+        <Cell>Chain cleaning fluid</Cell>
+        <Cell>As required</Cell>
+        <Cell> </Cell>
+      </TableRow>
+      <TableRow>
+        <Cell>LL00023</Cell>
+        <Cell>Chain cleaning tool</Cell>
+        <Cell>1</Cell>
+        <Cell> </Cell>
+      </TableRow>
+    </Table>
+    <Heading level="1">4. Applicable Models (Inferred)</Heading>
+    <Paragraph>The document covers maintenance and repair procedures applicable to bicycles, specifically those requiring the listed tools. The specific bicycle models are not defined within the provided excerpt.</Paragraph>
+    <Heading level="1">5. Technical Specifications &amp; Requirements</Heading>
+    <Paragraph>The core of the document focuses on a list of tools and materials required for a bicycle maintenance task. The list is extensive and detailed.</Paragraph>
+    <Heading level="1">6. Applicable Models (Inferred)</Heading>
+    <Paragraph>The document covers maintenance and repair procedures applicable to bicycles, specifically those requiring the listed tools. The specific bicycle models are not defined within the provided excerpt.</Paragraph>
+  </DModuleContent>
+</DModule>

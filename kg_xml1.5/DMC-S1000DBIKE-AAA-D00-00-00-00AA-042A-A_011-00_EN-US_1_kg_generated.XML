@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>Bicycle Overview</procTitle>
+  <procDesc>This document provides an overview of a bicycle, covering its history, components, and functionality.</procDesc>
+  <section>
+    <sectionTitle>History</sectionTitle>
+    <paragraph>The bicycle has a rich history, evolving from early "velocipedes" to the modern machines we know today. Key milestones include:</paragraph>
+    <list>
+      <listItem><b>Early 19th Century:</b> Development of the "draisienne" or "velocipede," a human-powered vehicle without pedals.</listItem>
+      <listItem><b>1860s:</b> Introduction of the "boneshaker," featuring pedals attached to the front wheel.</listItem>
+      <listItem><b>1870s:</b> The "penny-farthing" emerged, with a large front wheel and a smaller rear wheel.</listItem>
+      <listItem><b>Late 19th Century:</b> The "safety bicycle" with equal-sized wheels, a chain drive, and pneumatic tires became the standard.</listItem>
+      <listItem><b>20th &amp; 21st Centuries:</b> Continuous advancements in materials, design, and technology, leading to specialized bicycles for various purposes.</listItem>
+    </list>
+  </section>
+  <section>
+    <sectionTitle>Components &amp; Functionality</sectionTitle>
+    <subsection>
+      <subsectionTitle>Frame &amp; Basic Structure</subsectionTitle>
+      <paragraph>The bicycle frame provides the structural foundation. Common frame materials include steel, aluminum, carbon fiber, and titanium.</paragraph>
+    </subsection>
+    <subsection>
+      <subsectionTitle>Wheels &amp; Tires</subsectionTitle>
+      <list>
+        <listItem><b>Wheels:</b> Consist of a hub, spokes, and a rim.</listItem>
+        <listItem><b>Tires:</b> Provide cushioning and traction. Types include clincher, tubular, and tubeless.</listItem>
+      </list>
+    </subsection>
+    <subsection>
+      <subsectionTitle>Drivetrain</subsectionTitle>
+      <paragraph>The drivetrain transmits power from the pedals to the wheels. Key components include:</paragraph>
+      <list>
+        <listItem><b>Pedals:</b> Where the rider applies force.</listItem>
+        <listItem><b>Crank:</b> Converts pedal motion into rotational force.</listItem>
+        <listItem><b>Chainrings:</b> Gears attached to the crank.</listItem>
+        <listItem><b>Chain:</b> Connects the chainrings to the rear cogs.</listItem>
+        <listItem><b>Cassette/Freewheel:</b> Gears on the rear wheel.</listItem>
+        <listItem><b>Derailleurs (Front &amp; Rear):</b> Shift the chain between different gears.</listItem>
+        <listItem><b>Shifters:</b> Control the derailleurs.</listItem>
+      </list>
+    </subsection>
+    <subsection>
+      <subsectionTitle>Braking System</subsectionTitle>
+      <list>
+        <listItem><b>Brake Levers:</b> Activated by the rider.</listItem>
+        <listItem><b>Brake Calipers/Discs:</b> Apply friction to slow or stop the wheels.</listItem>
+        <listItem><b>Brake Pads:</b> Contact the rim or rotor to create friction.</listItem>
+      </list>
+    </subsection>
+    <subsection>
+      <subsectionTitle>Steering &amp; Control</subsectionTitle>
+      <list>
+        <listItem><b>Handlebars:</b> Used for steering and control.</listItem>
+        <listItem><b>Stem:</b> Connects the handlebars to the steering tube.</listItem>
+        <listItem><b>Headset:</b> Allows the steering tube to rotate smoothly.</listItem>
+      </list>
+    </subsection>
+    <subsection>
+      <subsectionTitle>Other Components</subsectionTitle>
+      <list>
+        <listItem><b>Seat/Saddle:</b> Provides a comfortable seating surface.</listItem>
+        <listItem><b>Seatpost:</b> Connects the seat to the frame.</listItem>
+        <listItem><b>Fork:</b> Holds the front wheel and contributes to steering.</listItem>
+      </list>
+    </subsection>
+  </section>
+  <section>
+    <sectionTitle>Detailed Component Functions:</sectionTitle>
+    <tableFrame>
+      <tableHeader>
+        <tableCell>Component</tableCell>
+        <tableCell>Function</tableCell>
+      </tableHeader>
+      <tableRow>
+        <tableCell><b>Frame</b></tableCell>
+        <tableCell>Provides the structural foundation for all other components.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Wheels</b></tableCell>
+        <tableCell>Allow the bicycle to roll and provide stability.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Tires</b></tableCell>
+        <tableCell>Provide cushioning, traction, and grip.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Pedals</b></tableCell>
+        <tableCell>Where the rider applies force to initiate movement.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Crank</b></tableCell>
+        <tableCell>Converts pedal motion into rotational force.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Chainrings</b></tableCell>
+        <tableCell>Gears attached to the crank that drive the chain.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Chain</b></tableCell>
+        <tableCell>Transmits power from the chainrings to the rear cogs.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Cassette/Freewheel</b></tableCell>
+        <tableCell>Gears on the rear wheel that determine the gear ratio.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Derailleurs</b></tableCell>
+        <tableCell>Shift the chain between different gears.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Shifters</b></tableCell>
+        <tableCell>Control the derailleurs.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Brake Levers</b></tableCell>
+        <tableCell>Activate the brakes.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Brakes</b></tableCell>
+        <tableCell>Slow or stop the bicycle.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Handlebars</b></tableCell>
+        <tableCell>Used for steering and control.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Stem</b></tableCell>
+        <tableCell>Connects the handlebars to the steering tube.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Seat/Saddle</b></tableCell>
+        <tableCell>Provides a comfortable seating surface.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Seatpost</b></tableCell>
+        <tableCell>Connects the seat to the frame.</tableCell>
+      </tableRow>
+      <tableRow>
+        <tableCell><b>Fork</b></tableCell>
+        <tableCell>Holds the front wheel and contributes to steering.</tableCell>
+      </tableRow>
+    </tableFrame>
+  </section>
+</procedure>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00-Content</procTitle>
+  <identAndStatusSection>
+    <generalInfo>
+      <docTitle>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00</docTitle>
+      <docType>Content</docType>
+    </generalInfo>
+    <statusInfo>
+      <qualityAssurance>First Verification (Tab Top)</qualityAssurance>
+      <systemBreakdownCode>BY</systemBreakdownCode>
+      <skillLevel>sk01</skillLevel>
+      <reasonForUpdateGeneral>S1000D upissued</reasonForUpdateGeneral>
+      <reasonForUpdateFig01>Figure added</reasonForUpdateFig01>
+    </statusInfo>
+  </identAndStatusSection>
+  <contentSection>
+    <applicGroup>
+      <application>
+        <id>app-0002</id>
+        <displayText>Mountain bicycle and Mountain storm Mk1</displayText>
+        <evaluation>Type = Mountain bicycle AND Model = Mountain storm</evaluation>
+      </application>
+      <application>
+        <id>app-0003</id>
+        <displayText>Mountain bicycle and Brook trekker Mk9</displayText>
+        <evaluation>Type = Mountain bicycle AND Model = Brook trekker</evaluation>
+      </application>
+    </applicGroup>
+    <warningsAndCautions>
+      <caution>
+        <id>C0001</id>
+        <cautionParagraph>Be sure to operate on a white surface in order to prevent lost of part that could fall on the floor.</cautionParagraph>
+      </caution>
+    </warningsAndCautions>
+    <procedureSection>
+      <preliminaryRequirements>
+        <noCondition>No conditions specified.</noCondition>
+        <personnel>No personnel specified.</personnel>
+        <supportEquipment>
+          <name>Specialist toolset</name>
+          <identification>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001</partNumber>
+          </identification>
+          <requiredQuantity>1 EA</requiredQuantity>
+        </supportEquipment>
+        <supplies>
+          <supply>
+            <referenceId>SPEC-0012</referenceId>
+            <supplyNumber>BKO200</supplyNumber>
+            <supplyNumberType>sp01</supplyNumberType>
+            <name>BIKOIL 200</name>
+            <requiredQuantity>As Required</requiredQuantity>
+          </supply>
+          <supply>
+            <referenceId>SPEC-0013</referenceId>
+            <supplyRequirementNumber>EU-OIL3212</supplyRequirementNumber>
+            <requiredQuantity>As Required</requiredQuantity>
+          </supply>
+        </supplies>
+        <spares>No spares specified.</spares>
+        <safety>No safety requirements specified.</safety>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step>
+          <stepNumber>1</stepNumber>
+          <stepText>Open the light circuit breaker located on the handlebar.</stepText>
+          <circuitBreakerDetailsApp0002>
+            <id>SPEC-0001</id>
+            <circuitBreakerNumber>CBLGT-1001-R</circuitBreakerNumber>
+            <name>Bike Lighting circuit breaker (right side)</name>
+            <accessPointNumber>any-access</accessPointNumber>
+            <location>Zone 131</location>
+            <action>open</action>
+          </circuitBreakerDetailsApp0002>
+          <circuitBreakerDetailsApp0003>
+            <id>SPEC-0002</id>
+            <circuitBreakerNumber>CBLGT-1001-L</circuitBreakerNumber>
+            <name>Bike Lighting circuit breaker (left side)</name>
+            <accessPointNumber>any-access</accessPointNumber>
+            <location>Zone 132</location>
+            <action>open</action>
+          </circuitBreakerDetailsApp0003>
+        </step>
+        <step>
+          <stepNumber>2</stepNumber>
+          <stepText>Hold the front of the bicycle.</stepText>
+        </step>
+        <step>
+          <stepNumber>3</stepNumber>
+          <stepText>Use the (sequence 0001) to disengage the fork from the chainring by pushing the wheel forwards and down. *(Caution Reference: C0001)*</stepText>
+          <figure>
+            <id>SPEC-0010</id>
+            <infoEntityIdent>ICN-C0419-S1000D0372-001-01</infoEntityIdent>
+            <reasonForAmendment>Addition of the wheel illustration</reasonForAmendment>
+          </figure>
+          <supplyReference>Use specific oil (SPEC-0012) if the fork do not desengage easily. If not available, use any oil compliant with requirements (SPEC-0013).</supplyReference>
+        </step>
+        <step>
+          <stepNumber>4</stepNumber>
+          <stepText>Lift the wheel away from the frame.</stepText>
+        </step>
+        <step>
+          <stepNumber>5</stepNumber>
+          <stepText>Put the frame on the floor.</stepText>
+        </step>
+      </mainProcedure>
+    </procedureSection>
+  </contentSection>
+  <closeRequirements>
+    <noCondition>No conditions specified.</noCondition>
+  </closeRequirements>
+</proced>

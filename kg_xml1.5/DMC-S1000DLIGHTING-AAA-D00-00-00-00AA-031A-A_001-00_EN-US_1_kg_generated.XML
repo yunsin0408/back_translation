@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applicability xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identAndStatus>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>031</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmIdent>
+    </dmAddress>
+    <language>
+      <languageCode>en</languageCode>
+    </language>
+    <applicabilityType>wiring</applicabilityType>
+    <revision>001</revision>
+    <date>2023-10-27</date>
+    <dmStatus>
+      <status>Released</status>
+      <configurationManagement>Approved</configurationManagement>
+      <originator>Unknown</originator>
+      <approval>Valid</approval>
+      <securityClassification>Unclassified</securityClassification>
+    </dmStatus>
+    <remarks>This document contains wiring data for standard parts including connectors, distribution parts, accessories, solder sleeves, shrink sleeves, ident sleeves, conduits, and wire materials.</remarks>
+  </identAndStatus>
+  <content>
+    <applicGroupRef>
+      <applicRef>app-00000000AA031A-0001</applicRef>
+      <id>app-0001</id>
+    </applicGroupRef>
+    <wiringData>
+      <standardPartGroup>
+        <connectorGroup>
+          <connector>
+            <partNumber>JN1003S-12</partNumber>
+            <mass>0.0154 kg</mass>
+            <orientation>A</orientation>
+            <rack>A</rack>
+            <contactCount>40</contactCount>
+          </connector>
+          <contactDescrGroup>
+            <contact>
+              <contact>1</contact>
+              <contactDiameter>1.15 mm</contactDiameter>
+              <thermoCouplePlus>Y</thermoCouplePlus>
+              <thermoCoupleMinus>Y</thermoCoupleMinus>
+              <specialTerminal>Y</specialTerminal>
+              <coaxialCableFlag>Y</coaxialCableFlag>
+              <triaxialCableFlag>N</triaxialCableFlag>
+            </contact>
+          </contactDescrGroup>
+          <connectorAccessories>
+            <accessory>JN1003P22</accessory>
+            <accessory>JN1003C22</accessory>
+            <accessory>JN1003D22</accessory>
+            <accessory>JN1003K22</accessory>
+            <accessory>JN1003L22</accessory>
+            <accessory>JN1003MA22</accessory>
+            <accessory>JN1003MB22</accessory>
+            <accessory>JN1003MF22</accessory>
+            <accessory>JN1003N22</accessory>
+          </connectorAccessories>
+        </connectorGroup>
+        <distributionPartGroup>
+          <distributionPart>
+            <partNumber>PAN6466A</partNumber>
+            <contactSize>12</contactSize>
+            <material>Copper alloy</material>
+            <wireColor>Orange/Blue/Green</wireColor>
+            <surfaceProtection>Gold plated</surfaceProtection>
+            <contactDiameter>2.41 mm</contactDiameter>
+            <temperature>
+              <minTemperature>-55 degC</minTemperature>
+              <maxTemperature>150 degC</maxTemperature>
+            </temperature>
+          </distributionPart>
+        </distributionPartGroup>
+        <accessoryGroup>
+          <accessory>
+            <partNumber>accy_123</partNumber>
+            <orientation>90</orientation>
+          </accessory>
+        </accessoryGroup>
+        <solderSleeveGroup>
+          <solderSleeve>
+            <partNumber>solder_987</partNumber>
+            <length>14.23 mm</length>
+            <material>Nickel</material>
+            <mass>0.226 g</mass>
+            <sleeveDiameter>
+              <minDiameter>2.04 mm</minDiameter>
+              <maxDiameter>5.08 mm</maxDiameter>
+            </sleeveDiameter>
+          </solderSleeve>
+        </solderSleeveGroup>
+        <shrinkSleeveGroup>
+          <shrinkSleeve>
+            <partNumber>shrink_456</partNumber>
+            <size>3/16 in</size>
+            <mass>0.350 kg/m</mass>
+            <wireColor>Transparent</wireColor>
+            <sleeveDiameter>
+              <minDiameter>1.6 mm</minDiameter>
+              <maxDiameter>0.8 mm</maxDiameter>
+            </sleeveDiameter>
+            <temperature>
+              <minTemperature>-55 degC</minTemperature>
+              <maxTemperature>175 degC</maxTemperature>
+            </temperature>
+            <harnessSize>
+              <minHarnessSize>0.8 mm</minHarnessSize>
+              <maxHarnessSize>1.2 mm</maxHarnessSize>
+            </harnessSize>
+          </shrinkSleeve>
+        </shrinkSleeveGroup>
+        <identSleeveGroup>
+          <identSleeve>
+            <partNumber>ident_642</partNumber>
+            <material>PVC-Nitrile</material>
+            <mass>0.0001 kg</mass>
+          </identSleeve>
+        </identSleeveGroup>
+        <conduitGroup>
+          <conduit>
+            <partNumber>condt_468</partNumber>
+            <size>11.4 mm</size>
+            <mass>4.67 g/m</mass>
+            <wireColor>Black</wireColor>
+            <wallThickness>0.15 mm</wallThickness>
+            <temperature>
+              <minTemperature>-55 degC</minTemperature>
+              <maxTemperature>200 degC</maxTemperature>
+            </temperature>
+          </conduit>
+        </conduitGroup>
+        <wireMaterialGroup>
+          <wireMaterial>
+            <partNumber>Connector_C1</partNumber>
+            <wireCode>
+              <wireType>QC</wireType>
+              <wireGauge>1.82</wireGauge>
+            </wireCode>
+            <numberOfCores>3</numberOfCores>
+            <size>030</size>
+            <mass>58.7 kg/km</mass>
+            <outerJacketColor>W</outerJacketColor>
+            <outerDiameter>4.85 mm</outerDiameter>
+            <resistance>6.8 mohm/m</resistance>
+            <voltage>600 V</voltage>
+            <amperage>10 A</amperage>
+            <temperature>
+              <maxTemperature>260 degC</maxTemperature>
+            </temperature>
+            <screenCount>1</screenCount>
+            <coaxialCableFlag>N</coaxialCableFlag>
+            <triaxialCableFlag>Y</triaxialCableFlag>
+            <frequencyCharacteristics>
+              <impedance>50 ohm</impedance>
+              <frequencyAttenuation>
+                <frequency>20 MHz</frequency>
+                <attenuation>14 dB/100m</attenuation>
+              </frequencyAttenuation>
+              <frequencyAttenuation>
+                <frequency>100 MHz</frequency>
+                <attenuation>31 dB/100m</attenuation>
+              </frequencyAttenuation>
+            </frequencyCharacteristics>
+          </wireMaterial>
+        </wireMaterialGroup>
+      </standardPartGroup>
+    </wiringData>
+  </content>
+</applicability>

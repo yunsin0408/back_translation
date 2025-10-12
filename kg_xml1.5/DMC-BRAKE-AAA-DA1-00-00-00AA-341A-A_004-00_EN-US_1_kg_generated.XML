@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmref>
+    <dmident>
+      <modelid>BRAKE</modelid>
+      <sysid>AAA</sysid>
+      <subsysid>DA1</subsysid>
+      <assyid>00</assyid>
+      <disassyid>00</disassyid>
+      <disassyvarid>AA</disassyvarid>
+      <infocode>341</infocode>
+      <infovarid>A</infovarid>
+      <itemlocid>A</itemlocid>
+    </dmident>
+  </dmref>
+  <langident>
+    <countrycode>US</countrycode>
+    <langcode>en</langcode>
+  </langident>
+  <issueinfo>
+    <issuenum>004</issuenum>
+    <inworkflag>00</inworkflag>
+  </issueinfo>
+  <dmaddressitems>
+    <issuedate>2024-06-19</issuedate>
+    <techname>Brake system</techname>
+    <infoname>Manual test</infoname>
+  </dmaddressitems>
+  <dmstatus>
+    <issuetype>status</issuetype>
+    <security>
+      <securityclass>01</securityclass>
+      <commercialclass>cc51</commercialclass>
+      <caveat>cv51</caveat>
+    </security>
+    <datarestrict>
+      <restrictinst>
+        <datadistrib>To be made available to all S1000D users.</datadistrib>
+        <exportcontrol>
+          <exportregstmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportregstmt>
+        </exportcontrol>
+        <datahandling>There are no specific handling instructions for this data module.</datahandling>
+        <datadeletion>Users may destroy this data module in accordance with their own local procedures.</datadeletion>
+        <datadivulge>There are no dissemination limitations that apply to this data module.</datadivulge>
+      </restrictinst>
+      <restrictinfo>
+        <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+        <publishers>
+          <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+          <publisher>Aerospace Industries Association of America</publisher>
+          <publisher>ATA e-Business Program</publisher>
+        </publishers>
+        <limliability>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limliability>
+        <limliability>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limliability>
+        <limliability>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limliability>
+        <copyrightinfo>The details for copyright can be found in the S1000D Specification.</copyrightinfo>
+        <policystatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policystatement>
+        <dataconds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataconds>
+      </restrictinfo>
+    </datarestrict>
+  </dmstatus>
+  <respcompany>
+    <enterprisecode>B6865</enterprisecode>
+    <enterprisename>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprisename>
+  </respcompany>
+  <originator>
+    <enterprisecode>B6865</enterprisecode>
+    <enterprisename>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprisename>
+  </originator>
+  <applicref>
+    <dmref>
+      <dmident>
+        <modelid>BRAKE</modelid>
+        <sysid>AAA</sysid>
+        <subsysid>D00</subsysid>
+        <assyid>00</assyid>
+        <disassyid>00</disassyid>
+        <disassyvarid>AA</disassyvarid>
+        <infocode>00W</infocode>
+        <infovarid>A</infovarid>
+        <itemlocid>D</itemlocid>
+      </dmident>
+    </dmref>
+  </applicref>
+  <applic>
+    <evaluate>
+      <and>
+        <assert>
+          <propident>SerialNo</propident>
+          <proptype>prodattr</proptype>
+          <propvalue>0111</propvalue>
+        </assert>
+        <assert>
+          <propident>model</propident>
+          <proptype>prodattr</proptype>
+          <propvalue>SS-11</propvalue>
+        </assert>
+      </and>
+    </evaluate>
+  </applic>
+  <techstandard>
+    <authinfoandtp>
+      <authinfo>20010131</authinfo>
+      <techpubbase>Bike book</techpubbase>
+    </authinfoandtp>
+    <authexcept/>
+    <authnotes/>
+  </techstandard>
+  <brexdmref>
+    <dmref>
+      <dmident>
+        <modelid>S1000DBIKE</modelid>
+        <sysid>AAA</sysid>
+        <subsysid>D00</subsysid>
+        <assyid>00</assyid>
+        <disassyid>00</disassyid>
+        <disassyvarid>AA</disassyvarid>
+        <infocode>022</infocode>
+        <infovarid>A</infovarid>
+        <itemlocid>D</itemlocid>
+      </dmident>
+    </dmref>
+  </brexdmref>
+  <qualityassurance>
+    <firstverification>tabtop</firstverification>
+  </qualityassurance>
+  <systembreakdown>BY13</systembreakdown>
+  <skilllevel>sk01</skilllevel>
+  <reasonupdate>
+    <id>rfu_general</id>
+    <updatereasontype>urt03</updatereasontype>
+    <simplepara>S1000D upissued</simplepara>
+  </reasonupdate>
+  <procedure>
+    <procstep>
+      <stepnum>1</stepnum>
+      <steptext>Put the bicycle in a vertical position.</steptext>
+    </procstep>
+    <procstep>
+      <stepnum>2</stepnum>
+      <steptext>Hold the handle bars and push the bicycle forwards.</steptext>
+    </procstep>
+    <procstep>
+      <stepnum>3</stepnum>
+      <steptext>Apply the brakes.</steptext>
+    </procstep>
+    <procstep>
+      <stepnum>4</stepnum>
+      <steptext>Make sure that the wheels lock and the bicycle stops.</steptext>
+    </procstep>
+  </procedure>
+  <closereq>
+    <reqcondgroup>No conditions</reqcondgroup>
+  </closereq>
+</proced>

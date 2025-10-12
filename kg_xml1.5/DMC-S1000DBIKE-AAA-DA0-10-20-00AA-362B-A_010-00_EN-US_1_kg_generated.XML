@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-362B-A_010-00_EN-US</title>
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>362</infoCode>
+        <infoCodeVariant>B</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+        <language>en-US</language>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>2024-06-19</issueDate>
+        <techName>Tire</techName>
+        <infoName>Check pressure</infoName>
+        <infoNameVariant>Use pressure gauge</infoNameVariant>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightPara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+            <copyrightPara>Publishers:</copyrightPara>
+            <randomList>
+              <randomListElement>Aerospace, Security and Defence Association of Europe</randomListElement>
+              <randomListElement>Aerospace Industries Association of America</randomListElement>
+              <randomListElement>ATA e-Business Program</randomListElement>
+            </randomList>
+            <copyrightPara>Limitations of liability:</copyrightPara>
+            <randomList>
+              <randomListElement>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</randomListElement>
+              <randomListElement>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising out of the use of this material.</randomListElement>
+              <randomListElement>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</randomListElement>
+            </randomList>
+            <copyrightPara>The details for copyright can be found in the S1000D Specification.</copyrightPara>
+          </copyright>
+          <policyStatement>S1000D upissued</policyStatement>
+        </restrictionInfo>
+      </dataRestrictions>
+      <qualityAssurance verificationType="tabtop"/>
+      <systemBreakdownCode>BY112</systemBreakdownCode>
+      <skillLevel>sk01</skillLevel>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <refs>
+      <dmRef>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>10</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>921</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+      <dmRef>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>215</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+    </refs>
+    <procedureSection>
+      <preliminaryRequirements>
+        <reqPersons>
+          <person>
+            <personCategory>Basic user</personCategory>
+            <trade>Operator</trade>
+            <estimatedTime>0.3 h</estimatedTime>
+          </person>
+        </reqPersons>
+        <reqSupportEquips>
+          <supportEquipDescr>
+            <name>Tire pressure gauge</name>
+            <identNumber>
+              <manufacturerCode>KZ666</manufacturerCode>
+              <partAndSerialNumber>
+                <partNumber>BSK-TLST-001-01</partNumber>
+              </partAndSerialNumber>
+            </identNumber>
+            <reqQuantity>1 EA</reqQuantity>
+          </supportEquipDescr>
+        </reqSupportEquips>
+      </preliminaryRequirements>
+      <mainProcedure>
+        <step>Locate the valve stem of tire.</step>
+        <step>Use the tire pressure gauge (<internalRef internalRefId="seq-0003" internalRefTargetType="irtt05"/>) to check the tire pressure.</step>
+        <step>Tire pressure should between 2000 hPa to 2700 hPa.</step>
+        <conditionalStep>
+          <condition>If tire pressure is less than 2000 hPa</condition>
+          <action>inflate tire. Refer to <dmRef>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>DA0</systemCode>
+            <subSystemCode>1</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>20</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>215</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>A</itemLocationCode>
+          </dmRef></action>
+        </conditionalStep>
+        <conditionalStep>
+          <condition>If the tire cannot maintain pressure or the tire pressure is greater than 2700 hPa</condition>
+          <action>replace the inner tube. Refer to <dmRef>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>DA0</systemCode>
+            <subSystemCode>1</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>10</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>921</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>A</itemLocationCode>
+          </dmRef></action>
+        </conditionalStep>
+      </mainProcedure>
+    </procedureSection>
+  </content>
+  <closingRemarks>
+    <finalStep>
+      <stepText>No closing remarks.</stepText>
+    </finalStep>
+  </closingRemarks>
+</procedure>
