@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_document_id>DMC-S1000DBIKE-AAA-DA2-30-00-00AA-520A-A_011-00_EN-US</dmc_document_id>
+  <dmc_document_title>
+    <tech_name>Headset</tech_name>
+    <info_name>Remove procedures</info_name>
+  </dmc_document_title>
+  <dmc_address>
+    <dm_ident>
+      <model_ident_code>S1000DBIKE</model_ident_code>
+      <system_diff_code>AAA</system_diff_code>
+      <system_code>DA2</system_code>
+      <sub_system_code>3</sub_system_code>
+      <sub_sub_system_code>0</sub_sub_system_code>
+      <assy_code>00</assy_code>
+      <disassy_code>00</disassy_code>
+      <disassy_code_variant>AA</disassy_code_variant>
+      <info_code>520</info_code>
+      <info_code_variant>A</info_code_variant>
+      <item_location_code>A</item_location_code>
+    </dm_ident>
+    <language>
+      <country_iso_code>US</country_iso_code>
+      <language_iso_code>en</language_iso_code>
+    </language>
+    <issue_info>
+      <issue_number>011</issue_number>
+      <in_work>00</in_work>
+    </issue_info>
+    <dm_address_items>
+      <issue_date>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issue_date>
+    </dm_address_items>
+  </dmc_address>
+  <dmc_status>
+    <issue_type>changed</issue_type>
+    <security>
+      <security_classification>01</security_classification>
+      <commercial_classification>cc51</commercial_classification>
+      <caveat>cv51</caveat>
+    </security>
+    <data_restrictions>
+      <restriction_instructions>
+        <data_distribution>To be made available to all S1000D users.</data_distribution>
+        <export_control>
+          <export_registration_stmt>
+            <simple_para>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simple_para>
+          </export_registration_stmt>
+        </export_control>
+        <data_handling>There are no specific handling instructions for this data module.</data_handling>
+        <data_destruction>Users may destroy this data module in accordance with their own local procedures.</data_destruction>
+        <data_disclosure>There are no dissemination limitations that apply to this data module.</data_disclosure>
+      </restriction_instructions>
+      <restriction_info>
+        <copyright>
+          <copyright_para>*Copyright (C) 2024* by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright_para>
+          <copyright_para>*Publishers:*</copyright_para>
+          <random_list>
+            <item>Aerospace, Security and Defence Industries Association of Europe</item>
+            <item>Aerospace Industries Association of America</item>
+            <item>ATA e-Business Program</item>
+          </random_list>
+          <copyright_para>*Limitations of liability:*</copyright_para>
+          <random_list>
+            <item>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</item>
+            <item>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</item>
+            <item>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</item>
+          </random_list>
+          <copyright_para>The details for copyright can be found in the S1000D Specification.</copyright_para>
+        </copyright>
+        <policy_statements/>
+      </restriction_info>
+    </data_restrictions>
+    <system_breakdown_code>BY143</system_breakdown_code>
+    <skill_level>sk02</skill_level>
+    <reason_for_update>
+      <id>rfu_general</id>
+      <update_reason_type>urt03</update_reason_type>
+      <simple_para>S1000D upissued</simple_para>
+    </reason_for_update>
+  </dmc_status>
+  <dmc_content>
+    <refs>
+      <dm_ref>
+        <dm_ref_ident>
+          <dm_code>
+            <model_ident_code>S1000DBIKE</model_ident_code>
+            <system_diff_code>AAA</system_diff_code>
+            <system_code>DA2</system_code>
+            <sub_system_code>1</sub_system_code>
+            <sub_sub_system_code>0</sub_sub_system_code>
+            <assy_code>00</assy_code>
+            <disassy_code>00</disassy_code>
+            <disassy_code_variant>AA</disassy_code_variant>
+            <info_code>520</info_code>
+            <info_code_variant>A</info_code_variant>
+            <item_location_code>A</item_location_code>
+          </dm_code>
+        </dm_ref_ident>
+      </dm_ref>
+    </refs>
+    <procedure>
+      <preliminary_requirements>
+        <req_cond_group>
+          <req_cond_no_ref>
+            <req_cond>The bicycle is safely held on a work stand</req_cond>
+          </req_cond_no_ref>
+        </req_cond_group>
+        <req_persons>
+          <person>
+            <man>A</man>
+            <person_category>Bike Rider</person_category>
+            <person_skill>sk02</person_skill>
+            <trade>Operator</trade>
+            <estimated_time>0,5 h</estimated_time>
+          </person>
+        </req_persons>
+        <req_support_equips>
+          <support_equip_descr_group>
+            <support_equip_descr>
+              <name>Work stand</name>
+              <ident_number>
+                <manufacturer_code>Bikey</manufacturer_code>
+                <part_and_serial_number>
+                  <part_number>Stand-001</part_number>
+                </part_and_serial_number>
+              </ident_number>
+              <req_quantity>1 EA</req_quantity>
+            </support_equip_descr>
+          </support_equip_descr_group>
+        </req_support_equips>
+        <req_supplies>No Supplies</req_supplies>
+        <req_spares>No Spares</req_spares>
+        <req_safety>
+          <safety_rqmts>
+            <note>
+              <note_para>It is not necessary to remove the handlebar for this procedure.</note_para>
+            </note>
+          </safety_rqmts>
+        </req_safety>
+      </preliminary_requirements>
+      <proc_step>
+        <proc_step_number/>
+        <proc_step_text>
+          <simple_para>
+            </simple_para>
+        </proc_step_text>
+      </proc_step>
+    </procedure>
+  </dmc_content>
+</dmc_document>

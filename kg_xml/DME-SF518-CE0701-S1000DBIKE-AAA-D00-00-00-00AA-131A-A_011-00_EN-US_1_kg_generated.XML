@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Pre-Ride Check - Crew Procedure</title>
+  <content>
+    <section>
+      <title>Introduction</title>
+      <paragraph>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</paragraph>
+    </section>
+    <section>
+      <title>Crew Procedure Steps</title>
+      <subsection>
+        <title>1. Brakes</title>
+        <list>
+          <item>
+            <check>Inspect brake pads for wear.</check>
+          </item>
+          <item>
+            <check>Ensure brake levers operate smoothly.</check>
+          </item>
+          <item>
+            <check>Verify cable integrity (no cuts or fraying).</check>
+          </item>
+          <item>
+            <check>Confirm proper brake function - both front and rear.</check>
+          </item>
+        </list>
+      </subsection>
+      <subsection>
+        <title>2. Tires</title>
+        <list>
+          <item>
+            <check>Tire pressure (see table below for recommended ranges).</check>
+          </item>
+          <item>
+            <check>Inspect tires for cracks, splits, or embedded objects.</check>
+          </item>
+        </list>
+        <tableTitle>Tire Pressure Guide</tableTitle>
+        <table>
+          <header>
+            <field>Terrain</field>
+            <field>Minimum Pressure</field>
+            <field>Maximum Pressure</field>
+          </header>
+          <row>
+            <field>Off Road</field>
+            <field>35 lbs</field>
+            <field>40 lbs</field>
+          </row>
+          <row>
+            <field>On Road</field>
+            <field>55 lbs</field>
+            <field>60 lbs</field>
+          </row>
+        </table>
+      </subsection>
+      <subsection>
+        <title>3. Wheels</title>
+        <list>
+          <item>
+            <check>Spin wheels to verify smooth rotation.</check>
+          </item>
+          <item>
+            <check>Listen for unusual noises indicating bearing issues.</check>
+          </item>
+          <item>
+            <check>Inspect spokes for breakage.</check>
+          </item>
+          <item>
+            <check>Ensure spokes are tight.</check>
+          </item>
+          <item>
+            <check>Confirm axle nuts are securely tightened.</check>
+          </item>
+          <item>
+            <check>Confirm wheel is 'true' (not wobbling).</check>
+          </item>
+        </list>
+      </subsection>
+      <subsection>
+        <title>4. Headset</title>
+        <list>
+          <item>
+            <check>Ensure headset bearings are tight and smooth.</check>
+          </item>
+        </list>
+      </subsection>
+      <subsection>
+        <title>5. Chain</title>
+        <list>
+          <item>
+            <check>Verify easy movement of chain links.</check>
+          </item>
+        </list>
+      </subsection>
+      <subsection>
+        <title>6. Handlebar &amp; Stem</title>
+        <list>
+          <item>
+            <warning>Do not ride with a cracked stem.</warning>
+          </item>
+          <item>
+            <instruction>If Stem Cracked: Replace stem immediately.</instruction>
+          </item>
+          <item>
+            <instruction>If Stem Loose: Tighten stem.</instruction>
+          </item>
+          <item>
+            <instruction>If Handlebars Twist: Tighten clamp bolt.</instruction>
+          </item>
+        </list>
+      </subsection>
+      <subsection>
+        <title>7. Computer Display</title>
+        <list>
+          <item>
+            <check>Ensure the computer is displaying accurate information (example):</check>
+          </item>
+        </list>
+        <table>
+          <header>
+            <field>Component</field>
+            <field>Displayed Value</field>
+          </header>
+          <row>
+            <field>Speed</field>
+            <field>0 mph</field>
+          </row>
+          <row>
+            <field>Distance</field>
+            <field>0 miles</field>
+          </row>
+        </table>
+      </subsection>
+    </section>
+    <section>
+      <title>Notes</title>
+      <list>
+        <item>This procedure is a guideline; adapt it based on specific bicycle types and rider needs.</item>
+        <item>Regular maintenance and inspection are crucial for safety and performance.</item>
+        <item>Always prioritize safety; if unsure about any component, seek professional assistance.</item>
+      </list>
+    </section>
+  </content>
+</procedure>

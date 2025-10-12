@@ -20,6 +20,15 @@
       ]
     },
     {
+      "id": "Delivery",
+      "label": "Delivery",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3
+      ]
+    },
+    {
       "id": "content",
       "label": "content",
       "type": "candidate",
@@ -37,12 +46,11 @@
       ]
     },
     {
-      "id": "Delivery",
-      "label": "Delivery",
+      "id": "This",
+      "label": "This",
       "type": "candidate",
       "source_units": [
-        2,
-        3
+        2
       ]
     },
     {
@@ -54,16 +62,8 @@
       ]
     },
     {
-      "id": "This",
-      "label": "This",
-      "type": "candidate",
-      "source_units": [
-        2
-      ]
-    },
-    {
-      "id": "PNG",
-      "label": "PNG",
+      "id": "SVG",
+      "label": "SVG",
       "type": "candidate",
       "source_units": [
         3
@@ -78,8 +78,8 @@
       ]
     },
     {
-      "id": "SVG",
-      "label": "SVG",
+      "id": "PNG",
+      "label": "PNG",
       "type": "candidate",
       "source_units": [
         3
@@ -93,6 +93,15 @@
       "weight": 1,
       "units": [
         1
+      ]
+    },
+    {
+      "source": "Delivery",
+      "target": "Delivery List",
+      "weight": 2,
+      "units": [
+        2,
+        3
       ]
     },
     {
@@ -113,12 +122,11 @@
       ]
     },
     {
-      "source": "Delivery",
-      "target": "Delivery List",
-      "weight": 2,
+      "source": "Delivery List",
+      "target": "This",
+      "weight": 1,
       "units": [
-        2,
-        3
+        2
       ]
     },
     {
@@ -131,15 +139,7 @@
     },
     {
       "source": "Delivery List",
-      "target": "This",
-      "weight": 1,
-      "units": [
-        2
-      ]
-    },
-    {
-      "source": "Delivery List",
-      "target": "PNG",
+      "target": "SVG",
       "weight": 1,
       "units": [
         3
@@ -163,7 +163,7 @@
     },
     {
       "source": "Delivery List",
-      "target": "SVG",
+      "target": "PNG",
       "weight": 1,
       "units": [
         3
@@ -186,6 +186,11 @@
         "id": "Delivery List"
       },
       {
+        "label": "Delivery",
+        "type": "candidate",
+        "id": "Delivery"
+      },
+      {
         "label": "content",
         "type": "candidate",
         "id": "content"
@@ -196,9 +201,9 @@
         "id": "List"
       },
       {
-        "label": "Delivery",
+        "label": "This",
         "type": "candidate",
-        "id": "Delivery"
+        "id": "This"
       },
       {
         "label": "Delivery List This",
@@ -206,14 +211,9 @@
         "id": "Delivery List This"
       },
       {
-        "label": "This",
+        "label": "SVG",
         "type": "candidate",
-        "id": "This"
-      },
-      {
-        "label": "PNG",
-        "type": "candidate",
-        "id": "PNG"
+        "id": "SVG"
       },
       {
         "label": "CGM",
@@ -221,9 +221,9 @@
         "id": "CGM"
       },
       {
-        "label": "SVG",
+        "label": "PNG",
         "type": "candidate",
-        "id": "SVG"
+        "id": "PNG"
       }
     ],
     "links": [
@@ -234,6 +234,15 @@
         ],
         "source": "Document",
         "target": "Document"
+      },
+      {
+        "weight": 2,
+        "units": [
+          2,
+          3
+        ],
+        "source": "Delivery List",
+        "target": "Delivery"
       },
       {
         "weight": 1,
@@ -253,13 +262,12 @@
         "target": "List"
       },
       {
-        "weight": 2,
+        "weight": 1,
         "units": [
-          2,
-          3
+          2
         ],
         "source": "Delivery List",
-        "target": "Delivery"
+        "target": "This"
       },
       {
         "weight": 1,
@@ -272,18 +280,10 @@
       {
         "weight": 1,
         "units": [
-          2
-        ],
-        "source": "Delivery List",
-        "target": "This"
-      },
-      {
-        "weight": 1,
-        "units": [
           3
         ],
         "source": "Delivery List",
-        "target": "PNG"
+        "target": "SVG"
       },
       {
         "weight": 1,
@@ -307,7 +307,7 @@
           3
         ],
         "source": "Delivery List",
-        "target": "SVG"
+        "target": "PNG"
       }
     ]
   }

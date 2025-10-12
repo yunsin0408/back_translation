@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced docname="DMC-S1000DBIKE-AAA-DA2-40-00-00AA-720A-A_004-00_EN-US" lang="en-US">
+  <dmaddress>
+    <dmident>
+      <modelidentcode>S1000DBIKE</modelidentcode>
+      <systemdiffcode>AAA</systemdiffcode>
+      <systemcode>DA2</systemcode>
+      <subsystemcode>4</subsystemcode>
+      <subsubsystemcode>0</subsubsystemcode>
+      <assycode>00</assycode>
+      <disassycode>00</disassycode>
+      <disassycodevariant>AA</disassycodevariant>
+      <infocode>720</infocode>
+      <infocodevariant>A</infocodevariant>
+      <itemlocationcode>A</itemlocationcode>
+      <language>US / en</language>
+    </dmident>
+    <dmaddressitems>
+      <issuedate>2024-06-19</issuedate>
+      <techname>Spacer</techname>
+      <infoname>Install procedures</infoname>
+    </dmaddressitems>
+  </dmaddress>
+  <dmstatus>
+    <issuetype>status</issuetype>
+    <security>
+      <securityclassification>01</securityclassification>
+      <commercialclassification>cc51</commercialclassification>
+      <caveat>cv51</caveat>
+    </security>
+    <datarestrictions>
+      <restrictioninstructions>
+        <datadistribution>To be made available to all S1000D users.</datadistribution>
+        <exportcontrol>
+          <exportregistrationstmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportregistrationstmt>
+        </exportcontrol>
+        <datahandling>There are no specific handling instructions for this data module.</datahandling>
+        <datadestruction>Users may destroy this data module in accordance with their own local procedures.</datadestruction>
+        <datadisclosure>There are no dissemination limitations that apply to this data module.</datadisclosure>
+      </restrictioninstructions>
+      <restrictioninfo>
+        <copyright>
+          <copyrightpara>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightpara>
+          <copyrightpara>Publishers:</copyrightpara>
+          <randomlist>
+            <item>Aerospace, Security and Defence Industries Association of Europe</item>
+            <item>Aerospace Industries Association of America</item>
+            <item>ATA e-Business Program</item>
+          </randomlist>
+          <copyrightpara>Limitations of liability:</copyrightpara>
+          <randomlist>
+            <item>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</item>
+            <item>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</item>
+            <item>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</item>
+          </randomlist>
+          <copyrightpara>The details for copyright can be found in the S1000D Specification.</copyrightpara>
+        </copyright>
+        <policystatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policystatement>
+        <dataconds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataconds>
+      </restrictioninfo>
+    </datarestrictions>
+    <responsiblepartnercompany>
+      <enterprisecode>B6865</enterprisecode>
+      <enterprisename>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprisename>
+    </responsiblepartnercompany>
+    <originator>
+      <enterprisecode>B6865</enterprisecode>
+      <enterprisename>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprisename>
+    </originator>
+    <appliccrosstableref>
+      <dmref>
+        <dmrefident>
+          <dmcode>
+            <modelidentcode>S1000DBIKE</modelidentcode>
+            <systemdiffcode>AAA</systemdiffcode>
+            <systemcode>D00</systemcode>
+            <subsystemcode>0</subsystemcode>
+            <subsubsystemcode>0</subsubsystemcode>
+            <assycode>00</assycode>
+            <disassycode>00</disassycode>
+            <disassycodevariant>AA</disassycodevariant>
+            <infocode>00W</infocode>
+            <infocodevariant>A</infocodevariant>
+            <itemlocationcode>D</itemlocationcode>
+          </dmcode>
+        </dmrefident>
+      </dmref>
+    </appliccrosstableref>
+    <applic>
+      <displaytext>Mountain bicycle and Mountain storm Mk1</displaytext>
+      <evaluate>
+        <assert>
+          <applicpropertyident>type</applicpropertyident>
+          <applicpropertytype>prodattr</applicpropertytype>
+          <applicpropertyvalues>Mountain bicycle</applicpropertyvalues>
+        </assert>
+        <evaluate>
+          <assert>
+            <applicpropertyident>model</applicpropertyident>
+            <applicpropertytype>prodattr</applicpropertytype>
+            <applicpropertyvalues>Mountain storm</applicpropertyvalues>
+          </assert>
+          <assert>
+            <applicpropertyident>model</applicpropertyident>
+            <applicpropertytype>prodattr</applicpropertytype>
+            <applicpropertyvalues>Mountain storm</applicpropertyvalues>
+          </assert>
+        </evaluate>
+      </evaluate>
+    </applic>
+    <tech>
+      <tech>
+        <tech/>
+      </tech>
+    </tech>
+    <reasonupdate>
+      <reason>S1000D upissued</reason>
+    </reasonupdate>
+  </dmstatus>
+  <content>
+    <refs>
+      <dmref>
+        <dmrefident>
+          <dmcode>
+            <modelidentcode>S1000DBIKE</modelidentcode>
+            <systemdiffcode>AAA</systemdiffcode>
+            <systemcode>D00</systemcode>
+            <subsystemcode>0</subsystemcode>
+            <subsubsystemcode>0</subsubsystemcode>
+            <assycode>01</assycode>
+            <disassycode>00</disassycode>
+            <disassycodevariant>AA</disassycodevariant>
+            <infocode>930</infocode>
+            <infocodevariant>A</infocodevariant>
+            <itemlocationcode>A</itemlocationcode>
+          </dmcode>
+        </dmrefident>
+      </dmref>
+    </refs>
+    <procedure>
+      <preliminaryrequirements>
+        <reqcondgroup>No conditions.</reqcondgroup>
+        <reqpersons>No personnel specified.</reqpersons>
+        <reqsupportequips>No support equipment specified.</reqsupportequips>
+        <reqsupplies>No supplies specified.</reqsupplies>
+        <reqspares>
+          <sparedescrgroup>
+            <sparedescr>
+              <materialusage>mu05</materialusage>
+              <name>Fork set</name>
+              <identnumber>
+                <manufacturercode>KZ666</manufacturercode>
+                <partandserialnumber>
+                  <partnumber>SPA-1000-1</partnumber>
+                </partandserialnumber>
+              </identnumber>
+              <materialsetref>
+                <materialsetident>SPA-1000-1</materialsetident>
+                <materialsetissue>001</materialsetissue>
+                <dmref>
+                  <dmrefident>
+                    <dmcode>
+                      <modelidentcode>S1000DBIKE</modelidentcode>
+                      <systemdiffcode>AAA</systemdiffcode>
+                      <systemcode>D00</systemcode>
+                      <subsystemcode>0</subsystemcode>
+                      <subsubsystemcode>0</subsubsystemcode>
+                      <assycode>01</assycode>
+                      <disassycode>00</disassycode>
+                      <disassycodevariant>AA</disassycodevariant>
+                      <infocode>930</infocode>
+                      <infocodevariant>A</infocodevariant>
+                      <itemlocationcode>A</itemlocationcode>
+                    </dmcode>
+                  </dmrefident>
+                </dmref>
+              </materialsetref>
+            </sparedescr>
+          </sparedescrgroup>
+        </reqspares>
+      </preliminaryrequirements>
+      <step>
+        <stepnumber>1</stepnumber>
+        <steptext>Install the spacer.</steptext>
+      </step>
+    </procedure>
+  </content>
+</proced>

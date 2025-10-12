@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmEntry xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>PM Data Extract</title>
+  <content>
+    <section>
+      <title>Data Structure</title>
+      <paragraph>The data is organized within a &lt;pmEntry&gt; tag. Each &lt;dmRef&gt; tag within represents a single entry. Key attributes within each entry include:</paragraph>
+      <list>
+        <item><b>applicRefId</b>: An identifier for the application or specific context of the entry.</item>
+        <item><b>modelIdentCode</b>: The model identifier (always "S1000DBIKE" in this dataset).</item>
+        <item><b>systemCode</b>: Identifies the system or subsystem. (e.g., "DA4", "DA5").</item>
+        <item><b>subSystemCode</b>: Further identifies a component within the system (e.g., "1", "2", "0").</item>
+        <item><b>infoCode</b>: A code representing a specific piece of information or issue.</item>
+        <item><b>infoCodeVariant</b>: A variant of the &lt;infoCode&gt;, potentially indicating a revision or specific type of issue.</item>
+        <item><b>itemLocationCode</b>: Indicates the location of the item or issue.</item>
+        <item><b>issueNumber</b>: A numeric identifier for the issue.</item>
+        <item><b>inWork</b>: A flag indicating whether the issue is currently being worked on (always "00" in this data, meaning likely not).</item>
+      </list>
+    </section>
+    <section>
+      <title>Data Summary</title>
+      <paragraph>The following table summarizes the data extracted from the XML. This table is organized by &lt;systemCode&gt; for easier analysis. Due to the length of the data, only key attributes are included.</paragraph>
+      <table>
+        <thead>
+          <tr>
+            <th>System Code</th>
+            <th>Sub System Code</th>
+            <th>Info Code</th>
+            <th>Info Code Variant</th>
+            <th>Issue Number</th>
+            <th>Item Location Code</th>
+            <th>Applic Ref Id</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>DA3</td>
+            <td>0</td>
+            <td>041</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA3</td>
+            <td>1</td>
+            <td>411</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA3</td>
+            <td>1</td>
+            <td>921</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA4</td>
+            <td>0</td>
+            <td>041</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA4</td>
+            <td>1</td>
+            <td>241</td>
+            <td>A</td>
+            <td>011</td>
+            <td>A</td>
+            <td>app-006</td>
+          </tr>
+          <tr>
+            <td>DA4</td>
+            <td>1</td>
+            <td>251</td>
+            <td>B</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA4</td>
+            <td>1</td>
+            <td>414</td>
+            <td>A</td>
+            <td>008</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA5</td>
+            <td>0</td>
+            <td>041</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA5</td>
+            <td>1</td>
+            <td>041</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA5</td>
+            <td>2</td>
+            <td>251</td>
+            <td>C</td>
+            <td>011</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA5</td>
+            <td>3</td>
+            <td>041</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA4</td>
+            <td>1</td>
+            <td>251</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA3</td>
+            <td>0</td>
+            <td>041</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA5</td>
+            <td>0</td>
+            <td>041</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+          <tr>
+            <td>DA4</td>
+            <td>0</td>
+            <td>041</td>
+            <td>A</td>
+            <td>010</td>
+            <td>A</td>
+            <td>app-001</td>
+          </tr>
+        </tbody>
+      </table>
+      <paragraph><b>Note:</b> This is a partial data representation due to space constraints. The full XML contains more entries.</paragraph>
+    </section>
+    <section>
+      <title>Observations &amp; Potential Analysis</title>
+      <list>
+        <item><b>System Coverage:</b> The data covers systems DA3, DA4, and DA5.</item>
+        <item><b>Issue Status:</b> All issues in this dataset have <code>inWork</code> set to "00," suggesting they are either resolved or not currently being actively addressed.</item>
+        <item><b>Info Code Variants:</b> The use of <code>infoCodeVariant</code> (A, B, C) indicates that the <code>infoCode</code> represents a general category, and the variant provides more specific details.</item>
+        <item><b>Applic Ref Id diversity:</b> Different <code>applicRefId</code> values suggest multiple applications or data sources contributing to this dataset.</item>
+        <item><b>Potential use cases:</b> This data could be used for:</item>
+        <sublist>
+          <item>Tracking issues and resolutions.</item>
+          <item>Analyzing system reliability.</item>
+          <item>Identifying areas for improvement.</item>
+          <item>Generating reports on system performance.</item>
+        </sublist>
+      </list>
+    </section>
+    <section>
+      <title>Conclusion</title>
+      <paragraph>This document provides a summarized view of the extracted PM data. Further analysis could reveal more detailed insights into the product's performance and areas for improvement.</paragraph>
+    </section>
+  </content>
+</pmEntry>

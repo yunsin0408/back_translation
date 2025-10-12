@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApplicableTo xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <Title>Wiring Data Document</Title>
+  <Content>
+    <Section>
+      <Title>Wiring Group</Title>
+      <Paragraph>This section outlines the defined wire groups and their contents.</Paragraph>
+      <Section>
+        <Title>Wire Group 1</Title>
+        <Paragraph>This group contains multiple wires and alternate specifications.</Paragraph>
+        <List>
+          <ListItem>Wire 1: (Details omitted for brevity - see original XML)</ListItem>
+          <ListItem>Wire 2: (Details omitted for brevity - see original XML)</ListItem>
+          <ListItem>... (Other wires in the group)</ListItem>
+        </List>
+        <Section>
+          <Title>Wire Alternates (SPEC-0001)</Title>
+          <Paragraph>This section details alternate wire specifications.</Paragraph>
+          <List>
+            <ListItem>Circuit Ident: YD</ListItem>
+            <ListItem>Wire Number: 0486</ListItem>
+            <ListItem>Section Ident: AA</ListItem>
+          </List>
+          <List>
+            <ListItem>From Equipment: 6QXA</ListItem>
+            <List>
+              <ListItem>Connection Details:</ListItem>
+              <List>
+                <ListItem>Screen Order: 3</ListItem>
+                <ListItem>Special Connection: 100</ListItem>
+                <ListItem>Electrical Potential: Termination Module Grouping Value: 1, Block Grouping Value: 1, Shunt Grouping Value: 1, Contact Order Value: 1, Potential Connections Order: 2</ListItem>
+              </List>
+              <ListItem>Screen Group: Screen Level: 01, Screen Type: 03, Screen Style: 01</ListItem>
+              <ListItem>Twist Group: Twist Type: 2, Twist Value: T%CM0005AA</ListItem>
+              <ListItem>Wire Installation Code:</ListItem>
+              <List>
+                <ListItem>Preparation Info: Instruction Ident: PRE609</ListItem>
+                <ListItem>Finishing Info: Instruction Ident: PRE609</ListItem>
+              </List>
+            </List>
+            <List>
+              <ListItem>Wire Info:</ListItem>
+              <List>
+                <ListItem>Wire Code: Wire Type: QC, Wire Gauge (AWG): 006</ListItem>
+                <ListItem>Part Number: JN1018QC020</ListItem>
+                <ListItem>Harness Ident: 1109VB</ListItem>
+                <ListItem>Wire Sequence Number: 0161</ListItem>
+                <ListItem>Coaxial Cable Flag: Y</ListItem>
+                <ListItem>Triaxial Cable Flag: N</ListItem>
+                <ListItem>EMC Code: E</ListItem>
+                <ListItem>Length: 2150 mm (estimated)</ListItem>
+                <ListItem>Wire Color: R</ListItem>
+                <ListItem>Signal Info: 115V AC, 400Hz</ListItem>
+                <ListItem>Responsible Partner Company: K0999</ListItem>
+                <ListItem>Routing:</ListItem>
+                <List>
+                  <ListItem>Clipping Point: 271-11</ListItem>
+                  <ListItem>Clipping Point: 271-12</ListItem>
+                  <ListItem>Feed Thru: Functional Item Number: 42XU4T, Hole Ident: 3</ListItem>
+                </List>
+                <ListItem>Wire Route: L1</ListItem>
+                <ListItem>Restriction: None</ListItem>
+                <ListItem>Next Higher Assembly: Functional Item Number: 231VU</ListItem>
+                <ListItem>Change Authority Data: Change Authority Condition Number: 2012-26-51, Change Authority Type Name: AD</ListItem>
+              </List>
+            </List>
+          </List>
+        </Section>
+      </Section>
+    </Section>
+    <Section>
+      <Title>Summary</Title>
+      <Paragraph>This document provides a detailed view of the wiring data, including specific connections, wire properties, and routing information. The XML structure allows for complex wiring configurations to be defined and documented.</Paragraph>
+    </Section>
+  </Content>
+</ApplicableTo>

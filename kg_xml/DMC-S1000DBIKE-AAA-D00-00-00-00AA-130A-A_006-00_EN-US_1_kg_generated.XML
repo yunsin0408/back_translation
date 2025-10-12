@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <DMTitle>Bicycle Operation Manual</DMTitle>
+  <DMContent>
+    <Section>
+      <Heading>Introduction</Heading>
+      <Paragraph>This document provides a guide to operating a bicycle, tailored to the user's experience level. It includes both theoretical knowledge and practical instructions.</Paragraph>
+    </Section>
+    <Section>
+      <Heading>User Input &amp; Validation</Heading>
+      <Paragraph>The manual begins by gathering information about the user, including age and prior cycling experience. Age is validated to ensure it falls within the range of 4 to 100 years. Based on experience, the manual adapts to provide a more detailed introduction for novice riders.</Paragraph>
+      <List type="bullet">
+        <ListItem>
+          <Heading>Data Collected:</Heading>
+          <List type="bullet">
+            <ListItem>
+              <Text>
+                <Bold>Age:</Bold> Integer value between 4 and 100.
+              </Text>
+            </ListItem>
+            <ListItem>
+              <Text>
+                <Bold>Cycling Experience:</Bold> Yes/No. Determines the level of introductory material.
+              </Text>
+            </ListItem>
+          </List>
+        </ListItem>
+      </List>
+    </Section>
+    <Section>
+      <Heading>Content Based on Experience Level</Heading>
+      <Section>
+        <Heading>Experienced Riders</Heading>
+        <Paragraph>If the user indicates prior cycling experience, the manual proceeds directly to the practical section, assuming a baseline level of knowledge.</Paragraph>
+      </Section>
+      <Section>
+        <Heading>Novice Riders</Heading>
+        <Paragraph>For users with no prior experience, the manual provides a detailed introduction, followed by a knowledge check before proceeding to practical instructions.</Paragraph>
+        <List type="bullet">
+          <ListItem>
+            <Heading>Introductory Material:</Heading>
+            <List type="bullet">
+              <ListItem>
+                <Text>
+                  <Bold>Basic Bicycle Components:</Bold> Explanation of key parts (brakes, pedals, handlebars, etc.).
+                </Text>
+              </ListItem>
+              <ListItem>
+                <Text>
+                  <Bold>Safety Precautions:</Bold> Emphasis on wearing appropriate safety gear.
+                </Text>
+              </ListItem>
+              <ListItem>
+                <Text>
+                  <Bold>Brake Operation:</Bold> Detailed explanation of how to use the brakes effectively.
+                </Text>
+              </ListItem>
+            </List>
+          </ListItem>
+        </List>
+        <Section>
+          <Heading>Knowledge Check</Heading>
+          <Paragraph>A simple question is posed to assess whether the user has understood the introductory material.</Paragraph>
+          <List type="bullet">
+            <ListItem>
+              <Text>
+                <Bold>Question:</Bold> "The rear brake is operated by..."
+              </Text>
+              <List type="bullet">
+                <ListItem>Left brake lever (Incorrect)</ListItem>
+                <ListItem>Right brake lever (Correct)</ListItem>
+              </List>
+              <Paragraph>
+                <Emphasis>Incorrect answers result in repetition of the introductory material.</Emphasis>
+              </Paragraph>
+            </ListItem>
+          </List>
+        </Section>
+      </Section>
+    </Section>
+    <Section>
+      <Heading>Practical Instructions</Heading>
+      <Paragraph>Regardless of experience level, the practical section guides the user through the steps of preparing and operating the bicycle.</Paragraph>
+      <List type="numbered">
+        <ListItem>
+          <Heading>Preparation:</Heading>
+          <List type="bullet">
+            <ListItem>Retrieve the bicycle from storage.</ListItem>
+            <ListItem>Clean the bicycle.</ListItem>
+            <ListItem>Mount the bicycle.</ListItem>
+          </List>
+        </ListItem>
+        <ListItem>
+          <Heading>Operation:</Heading>
+          <List type="bullet">
+            <ListItem>Begin riding.</ListItem>
+          </List>
+        </ListItem>
+      </List>
+    </Section>
+    <Section>
+      <Heading>Conclusion</Heading>
+      <Paragraph>This manual provides a comprehensive guide to bicycle operation, adapting to the user's experience level to ensure a safe and enjoyable ride.</Paragraph>
+    </Section>
+  </DMContent>
+  <DMNote>
+    <Text>This markdown document represents a cleaned and restructured version of the provided DModule content, focusing on clarity and readability. Specific details like validation and branching logic are summarized to provide a high-level overview. The original document contained embedded instructions for a procedural flow, which are reflected here in a more narrative format.</Text>
+  </DMNote>
+</DModule>

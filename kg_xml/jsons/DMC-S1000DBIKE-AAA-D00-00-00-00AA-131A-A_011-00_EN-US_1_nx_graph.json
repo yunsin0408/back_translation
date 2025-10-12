@@ -1,0 +1,1623 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Bicycle Pre-Ride Check Procedure",
+      "type": "heading",
+      "id": "Bicycle Pre-Ride Check Procedure"
+    },
+    {
+      "label": "Ride Check Procedure This",
+      "type": "candidate",
+      "id": "Ride Check Procedure This"
+    },
+    {
+      "label": "Ride",
+      "type": "candidate",
+      "id": "Ride"
+    },
+    {
+      "label": "Check",
+      "type": "candidate",
+      "id": "Check"
+    },
+    {
+      "label": "Bicycle Pre",
+      "type": "candidate",
+      "id": "Bicycle Pre"
+    },
+    {
+      "label": "procedure",
+      "type": "candidate",
+      "id": "procedure"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Procedure",
+      "type": "candidate",
+      "id": "Procedure"
+    },
+    {
+      "label": "Bicycle",
+      "type": "candidate",
+      "id": "Bicycle"
+    },
+    {
+      "label": "1. Brakes",
+      "type": "heading",
+      "id": "1. Brakes"
+    },
+    {
+      "label": "Ensure",
+      "type": "candidate",
+      "id": "Ensure"
+    },
+    {
+      "label": "Lever",
+      "type": "candidate",
+      "id": "Lever"
+    },
+    {
+      "label": "Lever Action",
+      "type": "candidate",
+      "id": "Lever Action"
+    },
+    {
+      "label": "Action",
+      "type": "candidate",
+      "id": "Action"
+    },
+    {
+      "label": "Check Pads",
+      "type": "candidate",
+      "id": "Check Pads"
+    },
+    {
+      "label": "Verify",
+      "type": "candidate",
+      "id": "Verify"
+    },
+    {
+      "label": "Brakes",
+      "type": "candidate",
+      "id": "Brakes"
+    },
+    {
+      "label": "Pads",
+      "type": "candidate",
+      "id": "Pads"
+    },
+    {
+      "label": "2. Tires",
+      "type": "heading",
+      "id": "2. Tires"
+    },
+    {
+      "label": "Tires",
+      "type": "candidate",
+      "id": "Tires"
+    },
+    {
+      "label": "tires",
+      "type": "candidate",
+      "id": "tires"
+    },
+    {
+      "label": "Condition",
+      "type": "candidate",
+      "id": "Condition"
+    },
+    {
+      "label": "Inspect",
+      "type": "candidate",
+      "id": "Inspect"
+    },
+    {
+      "label": "Road",
+      "type": "candidate",
+      "id": "Road"
+    },
+    {
+      "label": "On Road",
+      "type": "candidate",
+      "id": "On Road"
+    },
+    {
+      "label": "Off Road",
+      "type": "candidate",
+      "id": "Off Road"
+    },
+    {
+      "label": "Inflation",
+      "type": "candidate",
+      "id": "Inflation"
+    },
+    {
+      "label": "Recommended",
+      "type": "candidate",
+      "id": "Recommended"
+    },
+    {
+      "label": "3. Wheels",
+      "type": "heading",
+      "id": "3. Wheels"
+    },
+    {
+      "label": "Wheels",
+      "type": "candidate",
+      "id": "Wheels"
+    },
+    {
+      "label": "Bearings",
+      "type": "candidate",
+      "id": "Bearings"
+    },
+    {
+      "label": "Axle Nuts",
+      "type": "candidate",
+      "id": "Axle Nuts"
+    },
+    {
+      "label": "Spokes",
+      "type": "candidate",
+      "id": "Spokes"
+    },
+    {
+      "label": "Axle",
+      "type": "candidate",
+      "id": "Axle"
+    },
+    {
+      "label": "Nuts",
+      "type": "candidate",
+      "id": "Nuts"
+    },
+    {
+      "label": "Trueness",
+      "type": "candidate",
+      "id": "Trueness"
+    },
+    {
+      "label": "4. Headset",
+      "type": "heading",
+      "id": "4. Headset"
+    },
+    {
+      "label": "Tightness",
+      "type": "candidate",
+      "id": "Tightness"
+    },
+    {
+      "label": "Headset",
+      "type": "candidate",
+      "id": "Headset"
+    },
+    {
+      "label": "5. Chain",
+      "type": "heading",
+      "id": "5. Chain"
+    },
+    {
+      "label": "movement",
+      "type": "candidate",
+      "id": "movement"
+    },
+    {
+      "label": "Chain",
+      "type": "candidate",
+      "id": "Chain"
+    },
+    {
+      "label": "Movement",
+      "type": "candidate",
+      "id": "Movement"
+    },
+    {
+      "label": "6. Handlebar and Stem",
+      "type": "heading",
+      "id": "6. Handlebar and Stem"
+    },
+    {
+      "label": "Bolt",
+      "type": "candidate",
+      "id": "Bolt"
+    },
+    {
+      "label": "Tighten",
+      "type": "candidate",
+      "id": "Tighten"
+    },
+    {
+      "label": "Warning",
+      "type": "candidate",
+      "id": "Warning"
+    },
+    {
+      "label": "Stem Condition",
+      "type": "candidate",
+      "id": "Stem Condition"
+    },
+    {
+      "label": "Stem",
+      "type": "candidate",
+      "id": "Stem"
+    },
+    {
+      "label": "Clamp",
+      "type": "candidate",
+      "id": "Clamp"
+    },
+    {
+      "label": "Clamp Bolt",
+      "type": "candidate",
+      "id": "Clamp Bolt"
+    },
+    {
+      "label": "Replace",
+      "type": "candidate",
+      "id": "Replace"
+    },
+    {
+      "label": "Handlebar",
+      "type": "candidate",
+      "id": "Handlebar"
+    },
+    {
+      "label": "7. Computer (if equipped)",
+      "type": "heading",
+      "id": "7. Computer (if equipped)"
+    },
+    {
+      "label": "Item",
+      "type": "candidate",
+      "id": "Item"
+    },
+    {
+      "label": "Note",
+      "type": "candidate",
+      "id": "Note"
+    },
+    {
+      "label": "Example",
+      "type": "candidate",
+      "id": "Example"
+    },
+    {
+      "label": "Computer",
+      "type": "candidate",
+      "id": "Computer"
+    },
+    {
+      "label": "Distance",
+      "type": "candidate",
+      "id": "Distance"
+    },
+    {
+      "label": "Computer Display",
+      "type": "candidate",
+      "id": "Computer Display"
+    },
+    {
+      "label": "Altitude",
+      "type": "candidate",
+      "id": "Altitude"
+    },
+    {
+      "label": "Speed",
+      "type": "candidate",
+      "id": "Speed"
+    },
+    {
+      "label": "Display",
+      "type": "candidate",
+      "id": "Display"
+    },
+    {
+      "label": "Coding",
+      "type": "candidate",
+      "id": "Coding"
+    },
+    {
+      "label": "Color",
+      "type": "candidate",
+      "id": "Color"
+    },
+    {
+      "label": "Display Readings",
+      "type": "candidate",
+      "id": "Display Readings"
+    },
+    {
+      "label": "Color Coding",
+      "type": "candidate",
+      "id": "Color Coding"
+    },
+    {
+      "label": "Readings",
+      "type": "candidate",
+      "id": "Readings"
+    },
+    {
+      "label": "Appendix: Color Codes",
+      "type": "heading",
+      "id": "Appendix: Color Codes"
+    },
+    {
+      "label": "Concise Language",
+      "type": "candidate",
+      "id": "Concise Language"
+    },
+    {
+      "label": "Uses",
+      "type": "candidate",
+      "id": "Uses"
+    },
+    {
+      "label": "Formatted Tables",
+      "type": "candidate",
+      "id": "Formatted Tables"
+    },
+    {
+      "label": "Formatted",
+      "type": "candidate",
+      "id": "Formatted"
+    },
+    {
+      "label": "Points",
+      "type": "candidate",
+      "id": "Points"
+    },
+    {
+      "label": "Redundancy",
+      "type": "candidate",
+      "id": "Redundancy"
+    },
+    {
+      "label": "Oriented",
+      "type": "candidate",
+      "id": "Oriented"
+    },
+    {
+      "label": "Markdown Formatting",
+      "type": "candidate",
+      "id": "Markdown Formatting"
+    },
+    {
+      "label": "Eliminated",
+      "type": "candidate",
+      "id": "Eliminated"
+    },
+    {
+      "label": "Table",
+      "type": "candidate",
+      "id": "Table"
+    },
+    {
+      "label": "Tables",
+      "type": "candidate",
+      "id": "Tables"
+    },
+    {
+      "label": "suitable",
+      "type": "candidate",
+      "id": "suitable"
+    },
+    {
+      "label": "Color Codes",
+      "type": "candidate",
+      "id": "Color Codes"
+    },
+    {
+      "label": "Bullet",
+      "type": "candidate",
+      "id": "Bullet"
+    },
+    {
+      "label": "Removed Redundancy",
+      "type": "candidate",
+      "id": "Removed Redundancy"
+    },
+    {
+      "label": "Tags",
+      "type": "candidate",
+      "id": "Tags"
+    },
+    {
+      "label": "Clear Sections",
+      "type": "candidate",
+      "id": "Clear Sections"
+    },
+    {
+      "label": "Color Code Appendix",
+      "type": "candidate",
+      "id": "Color Code Appendix"
+    },
+    {
+      "label": "Emphasis",
+      "type": "candidate",
+      "id": "Emphasis"
+    },
+    {
+      "label": "Formatting",
+      "type": "candidate",
+      "id": "Formatting"
+    },
+    {
+      "label": "Explanations",
+      "type": "candidate",
+      "id": "Explanations"
+    },
+    {
+      "label": "Language",
+      "type": "candidate",
+      "id": "Language"
+    },
+    {
+      "label": "Markdown",
+      "type": "candidate",
+      "id": "Markdown"
+    },
+    {
+      "label": "Warnings",
+      "type": "candidate",
+      "id": "Warnings"
+    },
+    {
+      "label": "Clear",
+      "type": "candidate",
+      "id": "Clear"
+    },
+    {
+      "label": "Concise",
+      "type": "candidate",
+      "id": "Concise"
+    },
+    {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
+    },
+    {
+      "label": "syntax",
+      "type": "candidate",
+      "id": "syntax"
+    },
+    {
+      "label": "Includes",
+      "type": "candidate",
+      "id": "Includes"
+    },
+    {
+      "label": "Improvements",
+      "type": "candidate",
+      "id": "Improvements"
+    },
+    {
+      "label": "Safety",
+      "type": "candidate",
+      "id": "Safety"
+    },
+    {
+      "label": "Bullet Points",
+      "type": "candidate",
+      "id": "Bullet Points"
+    },
+    {
+      "label": "manual",
+      "type": "candidate",
+      "id": "manual"
+    },
+    {
+      "label": "Appendix",
+      "type": "candidate",
+      "id": "Appendix"
+    },
+    {
+      "label": "Code",
+      "type": "candidate",
+      "id": "Code"
+    },
+    {
+      "label": "Specific",
+      "type": "candidate",
+      "id": "Specific"
+    },
+    {
+      "label": "Removed",
+      "type": "candidate",
+      "id": "Removed"
+    },
+    {
+      "label": "Clearer Instructions",
+      "type": "candidate",
+      "id": "Clearer Instructions"
+    },
+    {
+      "label": "Phrases",
+      "type": "candidate",
+      "id": "Phrases"
+    },
+    {
+      "label": "Codes",
+      "type": "candidate",
+      "id": "Codes"
+    },
+    {
+      "label": "Computer Display Table",
+      "type": "candidate",
+      "id": "Computer Display Table"
+    },
+    {
+      "label": "Key Improvements",
+      "type": "candidate",
+      "id": "Key Improvements"
+    },
+    {
+      "label": "Clearer",
+      "type": "candidate",
+      "id": "Clearer"
+    },
+    {
+      "label": "Instructions",
+      "type": "candidate",
+      "id": "Instructions"
+    },
+    {
+      "label": "Remember",
+      "type": "candidate",
+      "id": "Remember"
+    },
+    {
+      "label": "lists",
+      "type": "candidate",
+      "id": "lists"
+    },
+    {
+      "label": "Lists",
+      "type": "candidate",
+      "id": "Lists"
+    },
+    {
+      "label": "Sections",
+      "type": "candidate",
+      "id": "Sections"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bicycle Pre-Ride Check Procedure",
+      "target": "Ride Check Procedure This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bicycle Pre-Ride Check Procedure",
+      "target": "Ride"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bicycle Pre-Ride Check Procedure",
+      "target": "Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bicycle Pre-Ride Check Procedure",
+      "target": "Bicycle Pre"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bicycle Pre-Ride Check Procedure",
+      "target": "procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bicycle Pre-Ride Check Procedure",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bicycle Pre-Ride Check Procedure",
+      "target": "Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Bicycle Pre-Ride Check Procedure",
+      "target": "Bicycle"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Check",
+      "target": "1. Brakes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Check",
+      "target": "2. Tires"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Check",
+      "target": "3. Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Check",
+      "target": "4. Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Check",
+      "target": "Appendix: Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "This",
+      "target": "Appendix: Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Ensure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Lever"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Lever Action"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Action"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Check Pads"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Verify"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Brakes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Pads"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ensure",
+      "target": "3. Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Ensure",
+      "target": "4. Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Ensure",
+      "target": "Appendix: Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Action",
+      "target": "Appendix: Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Verify",
+      "target": "3. Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Verify",
+      "target": "5. Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Verify",
+      "target": "7. Computer (if equipped)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Verify",
+      "target": "Appendix: Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Tires"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "tires"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Condition"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Inspect"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Road"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "On Road"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Off Road"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Inflation"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Recommended"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Condition",
+      "target": "6. Handlebar and Stem"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Bearings"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Axle Nuts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Spokes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Axle"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Nuts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Trueness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "4. Headset",
+      "target": "Tightness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "4. Headset",
+      "target": "Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "5. Chain",
+      "target": "movement"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "5. Chain",
+      "target": "Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "5. Chain",
+      "target": "Movement"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar and Stem",
+      "target": "Bolt"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar and Stem",
+      "target": "Tighten"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar and Stem",
+      "target": "Warning"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar and Stem",
+      "target": "Stem Condition"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar and Stem",
+      "target": "Stem"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar and Stem",
+      "target": "Clamp"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar and Stem",
+      "target": "Clamp Bolt"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar and Stem",
+      "target": "Replace"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar and Stem",
+      "target": "Handlebar"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Tighten",
+      "target": "Appendix: Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Item"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Note"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Example"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Computer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Distance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Computer Display"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Altitude"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Speed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Display"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Coding"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Color"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Display Readings"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Color Coding"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer (if equipped)",
+      "target": "Readings"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Computer",
+      "target": "Appendix: Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Display",
+      "target": "Appendix: Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Color",
+      "target": "Appendix: Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Concise Language"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Uses"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Formatted Tables"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Formatted"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Points"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Redundancy"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Oriented"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Markdown Formatting"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Eliminated"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Table"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Tables"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "suitable"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Color Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Bullet"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Removed Redundancy"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Tags"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Clear Sections"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Color Code Appendix"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Emphasis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Formatting"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Explanations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Language"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Markdown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Warnings"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Clear"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Concise"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "XML"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "syntax"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Includes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Improvements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Safety"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Bullet Points"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "manual"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Appendix"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Specific"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Removed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Clearer Instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Phrases"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Codes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Computer Display Table"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Key Improvements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Clearer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Remember"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "lists"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Lists"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Appendix: Color Codes",
+      "target": "Sections"
+    }
+  ]
+}

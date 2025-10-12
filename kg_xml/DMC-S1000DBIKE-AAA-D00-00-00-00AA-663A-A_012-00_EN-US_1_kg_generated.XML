@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc title="Rear Wheel Puncture Repair - Bicycle" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <introduction>
+    <p>This document details the procedure for repairing a puncture in the rear wheel of a bicycle.</p>
+  </introduction>
+  <preliminary_requirements>
+    <heading>Tools &amp; Equipment:</heading>
+    <item>
+      <name>Tire Lever</name>
+      <quantity>1</quantity>
+      <manufacturer_code>KZ666</manufacturer_code>
+      <part_number>BSK-TLST-001-04</part_number>
+    </item>
+    <item>
+      <name>Foot Pump</name>
+      <quantity>1</quantity>
+      <manufacturer_code>KZ666</manufacturer_code>
+      <part_number>BSK-TLST-001-05</part_number>
+    </item>
+    <item>
+      <name>Marker Pen</name>
+      <quantity>1</quantity>
+      <manufacturer_code>KZ666</manufacturer_code>
+      <part_number>BSK-TLST-001-07</part_number>
+    </item>
+    <item>
+      <name>Tube Patch Kit</name>
+      <quantity>1</quantity>
+      <manufacturer_code>KZ666</manufacturer_code>
+      <part_number>BSK-TLST-001-07</part_number>
+    </item>
+    <heading>Spares:</heading>
+    <item>
+      <name>Inner Tube</name>
+      <quantity>1</quantity>
+      <manufacturer_code>KT222</manufacturer_code>
+      <part_number>IT-001</part_number>
+    </item>
+    <heading>Safety Precautions:</heading>
+    <caution>When removing the rear wheel, disconnect the brake arm from the chain stay.</caution>
+  </preliminary_requirements>
+  <procedure>
+    <step number="1">
+      <heading>Removing the Wheel and Tube</heading>
+      <instruction number="1">Remove the rear wheel. (Refer to <dmRef modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0" subSystemCode="2" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="AA" infoCode="520" infoCodeVariant="A"/>)</instruction>
+      <instruction number="2">Ensure there is no air remaining in the tube.</instruction>
+      <instruction number="3">Loosen the cap on the valve stem.</instruction>
+      <instruction number="4">Push the valve stem core down to bleed all air.</instruction>
+      <instruction number="5">Use a tire lever to move the tire bead out of its seat, lifting it above the rim lip.</instruction>
+      <instruction number="6">Remove the tube.</instruction>
+    </step>
+    <step number="2">
+      <heading>Locating and Preparing the Puncture</heading>
+      <instruction number="1">Inflate the tube slightly with the foot pump.</instruction>
+      <instruction number="2">Examine the tube for leaks.</instruction>
+      <instruction number="3">Identify any leaks with a circle drawn using the marker pen.</instruction>
+      <instruction number="4">Release most of the air from the tube.</instruction>
+    </step>
+    <step number="3">
+      <heading>Applying the Patch</heading>
+      <instruction number="1">Use sandpaper from the tube patch kit to roughen the area around the puncture.</instruction>
+      <instruction number="2">Apply a thin layer of glue from the patch kit over the roughened area, ensuring it's larger than the puncture.</instruction>
+      <instruction number="3">Allow the glue to dry for approximately five minutes, until it becomes tacky and dull.</instruction>
+      <instruction number="4">Remove the protective foil from the patch.</instruction>
+      <instruction number="5">Apply the patch over the glue, centering it on the puncture.</instruction>
+      <instruction number="6">Press firmly from the center of the patch outwards, ensuring good adhesion.</instruction>
+      <instruction number="7">Remove the thin cover from the patch.</instruction>
+      <instruction number="8">Apply a light dusting of talcum powder around the patch.</instruction>
+    </step>
+    <step number="4">
+      <heading>Reinstalling the Tube and Wheel</heading>
+      <instruction number="1">Slightly inflate the repaired tube with the foot pump.</instruction>
+      <instruction number="2">Starting at the valve stem, carefully install the tube between the tire and the rim.</instruction>
+      <instruction number="3">Push the valve stem through the hole in the rim, ensuring it is straight.</instruction>
+      <instruction number="4">Install the remaining portion of the tire onto the rim.</instruction>
+      <instruction number="5">Reinstall the wheel onto the bicycle.</instruction>
+    </step>
+  </procedure>
+  <closing_requirements>
+    <p>None.</p>
+  </closing_requirements>
+</proc>

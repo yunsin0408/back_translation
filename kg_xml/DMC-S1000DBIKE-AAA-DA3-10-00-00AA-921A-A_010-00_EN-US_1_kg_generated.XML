@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <document_id>DMC-S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_010-00_EN-US</document_id>
+  </identification>
+  <issue>
+    <dm_address>
+      <dm_ident>
+        <model_ident_code>S1000DBIKE</model_ident_code>
+        <system_diff_code>AAA</system_diff_code>
+        <system_code>DA3</system_code>
+        <sub_system_code>1</sub_system_code>
+        <sub_sub_system_code>0</sub_sub_system_code>
+        <assy_code>00</assy_code>
+        <disassy_code>00</disassy_code>
+        <disassy_code_variant>AA</disassy_code_variant>
+        <info_code>921</info_code>
+        <info_code_variant>A</info_code_variant>
+        <item_location_code>A</item_location_code>
+      </dm_ident>
+      <language>
+        <country_iso_code>US</country_iso_code>
+        <language_iso_code>en</language_iso_code>
+      </language>
+      <issue_info>
+        <issue_number>010</issue_number>
+        <in_work>00</in_work>
+      </issue_info>
+      <dm_address_items>
+        <issue_date>2024-06-19</issue_date>
+        <tech_name>Horn</tech_name>
+        <info_name>Remove and install a new item</info_name>
+      </dm_address_items>
+    </dm_address>
+    <dm_status>
+      <issue_type>changed</issue_type>
+    </dm_status>
+    <security>
+      <security_classification>01</security_classification>
+      <commercial_classification>cc51</commercial_classification>
+      <caveat>cv51</caveat>
+    </security>
+    <data_restrictions>
+      <restriction_instructions>
+        <data_distribution>To be made available to all S1000D users.</data_distribution>
+        <export_control>
+          <export_registration_stmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</export_registration_stmt>
+        </export_control>
+        <data_handling>There are no specific handling instructions for this data module.</data_handling>
+        <data_destruction>Users may destroy this data module in accordance with their own local procedures.</data_destruction>
+        <data_disclosure>There are no dissemination limitations that apply to this data module.</data_disclosure>
+      </restriction_instructions>
+      <restriction_info>
+        <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+        <publishers>
+          <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+          <publisher>Aerospace Industries Association of America</publisher>
+          <publisher>ATA e-Business Program</publisher>
+        </publishers>
+        <limitations_of_liability>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitations_of_liability>
+        <limitations_of_liability>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitations_of_liability>
+        <limitations_of_liability>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitations_of_liability>
+        <copyright_details>The details for copyright can be found in the S1000D Specification.</copyright_details>
+        <policy_statement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policy_statement>
+        <data_conds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</data_conds>
+      </restriction_info>
+    </data_restrictions>
+    <responsible_partner_company>
+      <enterprise_code>B6865</enterprise_code>
+      <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+    </responsible_partner_company>
+    <originator>
+      <enterprise_code>B6865</enterprise_code>
+      <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+    </originator>
+    <applic_cross_reference_table_ref>
+      <dm_ref>
+        <model_ident_code>S1000DBIKE</model_ident_code>
+        <system_diff_code>AAA</system_diff_code>
+        <system_code>DA3</system_code>
+      </dm_ref>
+    </applic_cross_reference_table_ref>
+    <quality_assurance>
+      <verification_type>tabtop</verification_type>
+    </quality_assurance>
+    <system_breakdown_code>
+      <code_value>BY151</code_value>
+    </system_breakdown_code>
+    <skill_level>
+      <code_value>sk01</code_value>
+    </skill_level>
+    <reason_for_update>
+      <id>rfu_general</id>
+      <update_reason_type>urt03</update_reason_type>
+      <simple_para>S1000D upissued</simple_para>
+    </reason_for_update>
+  </issue>
+  <content>
+    <references>
+      <external_pub_ref>
+        <external_pub_title>Local Disposal Procedures</external_pub_title>
+      </external_pub_ref>
+    </references>
+    <procedure_step>
+      <step_number>1</step_number>
+      <step_text>Safely hold the bicycle.</step_text>
+    </procedure_step>
+    <procedure_step>
+      <step_number>2</step_number>
+      <step_text>Remove the horn.</step_text>
+      <step_detail>
+        <step_detail_text>Use the 8mm Allen wrench from the &lt;internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/&gt; and remove the two Allen screws.</step_detail_text>
+      </step_detail>
+      <step_detail>
+        <step_detail_text>Remove the horn.</step_detail_text>
+      </step_detail>
+    </procedure_step>
+    <procedure_step>
+      <step_number>3</step_number>
+      <step_text>Install the new &lt;internalRef internalRefId="spa-0001" internalRefTargetType="irtt06"/&gt;.</step_text>
+      <step_detail>
+        <step_detail_text>Install the new &lt;internalRef internalRefId="spa-0001" internalRefTargetType="irtt06"/&gt; on the handlebars.</step_detail_text>
+      </step_detail>
+      <step_detail>
+        <step_detail_text>Use the &lt;internalRef internalRefId="seq-0002" internalRefTargetType="irtt05"/&gt; and tighten the screws.</step_detail_text>
+      </step_detail>
+    </procedure_step>
+  </content>
+</procedure>

@@ -1,0 +1,167 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <title>Bicycle Pre-Ride Check Procedure</title>
+  </identification>
+  <content>
+    <section>
+      <title level="1">1. Brakes</title>
+      <list type="bullet">
+        <item>
+          <title>Check Pads</title>
+          <text>Ensure brake pads have sufficient material.</text>
+        </item>
+        <item>
+          <title>Lever Action</title>
+          <text>Verify smooth and firm lever action.</text>
+        </item>
+      </list>
+    </section>
+    <section>
+      <title level="1">2. Tires</title>
+      <list type="bullet">
+        <item>
+          <title>Inflation</title>
+          <text>Check tire pressure. Recommended ranges:</text>
+          <list type="bullet">
+            <item>
+              <title>On Road</title>
+              <text>55-60 psi</text>
+            </item>
+            <item>
+              <title>Off Road</title>
+              <text>35-40 psi</text>
+            </item>
+          </list>
+        </item>
+        <item>
+          <title>Condition</title>
+          <text>Inspect tires for cracks, splits, or embedded objects.</text>
+        </item>
+      </list>
+    </section>
+    <section>
+      <title level="1">3. Wheels</title>
+      <list type="bullet">
+        <item>
+          <title>Bearings</title>
+          <text>Check for loose bearings.</text>
+        </item>
+        <item>
+          <title>Trueness</title>
+          <text>Ensure wheels are true (not wobbling).</text>
+        </item>
+        <item>
+          <title>Spokes</title>
+          <text>Verify spokes are not broken and are tight.</text>
+        </item>
+        <item>
+          <title>Axle Nuts</title>
+          <text>Ensure axle nuts are tight.</text>
+        </item>
+      </list>
+    </section>
+    <section>
+      <title level="1">4. Headset</title>
+      <list type="bullet">
+        <item>
+          <title>Tightness</title>
+          <text>Check for headset bearing tightness. Ensure smooth steering operation.</text>
+        </item>
+      </list>
+    </section>
+    <section>
+      <title level="1">5. Chain</title>
+      <list type="bullet">
+        <item>
+          <title>Movement</title>
+          <text>Verify easy movement of chain links.</text>
+        </item>
+      </list>
+    </section>
+    <section>
+      <title level="1">6. Handlebar and Stem</title>
+      <list type="bullet">
+        <item>
+          <title>Stem Condition</title>
+          <text>*Warning: Do not ride with a cracked stem.*</text>
+          <list type="bullet">
+            <item>
+              <title>If stem is cracked</title>
+              <text>Replace stem.</text>
+            </item>
+            <item>
+              <title>If stem is loose</title>
+              <text>Tighten stem.</text>
+            </item>
+          </list>
+        </item>
+        <item>
+          <title>Clamp Bolt</title>
+          <text>If handlebars twist in stem: Tighten clamp bolt.</text>
+        </item>
+      </list>
+    </section>
+    <section>
+      <title level="1">7. Computer (if equipped)</title>
+      <list type="bullet">
+        <item>
+          <title>Display Readings</title>
+          <text>Verify the computer displays appropriate readings. Example readings (may vary by model):</text>
+          <list type="bullet">
+            <item>
+              <title>Altitude</title>
+              <text>0 miles</text>
+            </item>
+            <item>
+              <title>Speed</title>
+              <text>0 mph</text>
+            </item>
+            <item>
+              <title>Distance</title>
+              <text>0 miles</text>
+            </item>
+          </list>
+        </item>
+      </list>
+      <text>Note: Color Coding on Computer Display:</text>
+      <table>
+        <header>
+          <cell>Item</cell>
+          <cell>Color</cell>
+        </header>
+        <row>
+          <cell>Altitude</cell>
+          <cell>co04</cell>
+        </row>
+        <row>
+          <cell>Speed</cell>
+          <cell>co02, co04</cell>
+        </row>
+        <row>
+          <cell>Distance</cell>
+          <cell>co51</cell>
+        </row>
+      </table>
+    </section>
+    <section>
+      <title level="1">Appendix: Color Codes</title>
+      <list type="bullet">
+        <item>
+          <title>co02</title>
+          <text>(Specific color - consult documentation)</text>
+        </item>
+        <item>
+          <title>co04</title>
+          <text>(Specific color - consult documentation)</text>
+        </item>
+        <item>
+          <title>co51</title>
+          <text>(Specific color - consult documentation)</text>
+        </item>
+      </list>
+    </section>
+  </content>
+</procedure>
+```

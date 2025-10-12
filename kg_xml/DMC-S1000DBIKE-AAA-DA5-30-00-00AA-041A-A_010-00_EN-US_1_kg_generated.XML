@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_info xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_id>DMC-S1000DBIKE-AAA-DA5-30-00-00AA-041A-A_010-00_EN-US</dmc_id>
+  <applicability>
+    <tech_info>
+      <issue_info>
+        <issue_type>changed</issue_type>
+      </tech_info>
+    </applicability>
+  <ident_and_status>
+    <dm_address>
+      <dm_ident>
+        <model_ident_code>S1000DBIKE</model_ident_code>
+        <system_diff_code>AAA</system_diff_code>
+        <system_code>DA5</system_code>
+        <sub_system_code>3</sub_system_code>
+        <sub_sub_system_code>0</sub_sub_system_code>
+        <assy_code>00</assy_code>
+        <disassy_code>00</disassy_code>
+        <disassy_code_variant>AA</disassy_code_variant>
+        <info_code>041</info_code>
+        <info_code_variant>A</info_code_variant>
+        <item_location_code>A</item_location_code>
+        <language>US (en)</language>
+        <issue_info>010 / 00</issue_info>
+      </dm_ident>
+      <dm_address_items>
+        <issue_date>2024-06-19</issue_date>
+        <tech_name>Shifters</tech_name>
+        <info_name>Description of how it is made</info_name>
+      </dm_address_items>
+    </dm_address>
+    <security>
+      <security_classification>01</security_classification>
+      <commercial_classification>cc51</commercial_classification>
+      <caveat>cv51</caveat>
+    </security>
+    <data_restrictions>
+      <restriction_instructions>
+        <data_distribution>To be made available to all S1000D users.</data_distribution>
+        <export_control>
+          <simple_para>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simple_para>
+        </export_control>
+        <data_handling>There are no specific handling instructions for this data module.</data_handling>
+        <data_destruction>Users may destroy this data module in accordance with their own local procedures.</data_destruction>
+        <data_disclosure>There are no dissemination limitations that apply to this data module.</data_disclosure>
+      </restriction_instructions>
+      <restriction_info>
+        <copyright>
+          <copyright_para>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright_para>
+          <copyright_para>Publishers:</copyright_para>
+          <random_list>
+            <random_item>Aerospace, Security and Defence Industries Association of Europe</random_item>
+            <random_item>Aerospace Industries Association of America</random_item>
+            <random_item>ATA e-Business Program</random_item>
+          </random_list>
+          <copyright_para>Limitations of liability:</copyright_para>
+          <random_list>
+            <random_item>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</random_item>
+            <random_item>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</random_item>
+            <random_item>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</random_item>
+          </random_list>
+          <copyright_para>The details for copyright can be found in the S1000D Specification.</copyright_para>
+        </copyright>
+        <policy_statement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policy_statement>
+        <data_conds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</data_conds>
+      </restriction_info>
+    </data_restrictions>
+    <responsible_partner_company>
+      <enterprise_code>B6865</enterprise_code>
+      <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+    </responsible_partner_company>
+    <originator>
+      <enterprise_code>B6865</enterprise_code>
+      <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+    </originator>
+    <applicability>
+      <system_breakdown_code>BY173</system_breakdown_code>
+      <skill_level>sk01</skill_level>
+      <reason_for_update>S1000D upissued</reason_for_update>
+    </applicability>
+    <applicability>
+      <technical_standard>
+        <authority_info_and_tp>
+          <authority_info>20010131</authority_info>
+          <tech_pub_base>Bike book</tech_pub_base>
+        </authority_info_and_tp>
+      </technical_standard>
+    </applicability>
+  </ident_and_status>
+  <content>
+    <description>
+      <levelled_para>
+        <title>Shifters</title>
+        <para>The thumb shifter is a usual type in modern bicycles. It is possible to adjust this type of shifter for operation in the index position or in the friction position. The differences between the two are:</para>
+        <random_list>
+          <random_item>The index shifters change the gears with a click of a lever.</random_item>
+          <random_item>The friction shifters hold the derailleur in its position by friction.</random_item>
+        </random_list>
+        <para>The thumb shifters (refer to [fig-0001](fig-0001)) are held on the bicycle with a screw. The paragraph that follows gives a description of a thumb shifter.</para>
+        <figure>
+          <id>fig-0001</id>
+          <title>Thumb shifter index type</title>
+          <graphic>ICN-C0419-S1000D0405-001-01</graphic>
+        </figure>
+      </levelled_para>
+      <levelled_para>
+        <title>How a thumb shifter is made up</title>
+        <para>A wing nut (refer to [fig-0002](fig-0002)) from the top of the lever holds the thumb shifter. The lever is on top of the mount and the mount is on the handle bar with a nut. To remove the mount, it is necessary to loosen the nut of two turns (refer to [fig-0003](fig-0003)), then the mount can move from the handle bar from the top of the lever. The lever sits on top of the mount and the mount is fixed into pace on the handle bar by a nut.</para>
+        <figure>
+          <id>fig-0002</id>
+          <title>Unscrew wingnut</title>
+          <graphic>ICN-C0419-S1000D0402-001-01</graphic>
+        </figure>
+        <figure>
+          <id>fig-0003</id>
+          <title>Unscrew nut</title>
+          <graphic>ICN-C0419-S1000D0403-001-01</graphic>
+        </figure>
+        <para>The lever sits on top of the mount and the mount is fixed into pace on the handle bar by a nut.</para>
+        <figure>
+          <id>fig-0004</id>
+          <title>Loosen nut</title>
+          <graphic>ICN-C0419-S1000D0404-001-01</graphic>
+        </figure>
+        <para>The lever sits on top of the mount and the mount is fixed into pace on the handle bar by a nut.</para>
+        <figure>
+          <id>fig-0005</id>
+          <title>Tighten nut</title>
+          <graphic>ICN-C0419-S1000D0405-001-01</graphic>
+        </figure>
+        <para>The lever sits on top of the mount and the mount is fixed into pace on the handle bar by a nut.</para>
+      </levelled_para>
+    </description>
+  </content>
+</dmc_info>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DModule Content - Data Module Rules</title>
+  <content>
+    <paragraph>This document outlines the rules governing data modules, extracted from the provided `dmodule` XML.</paragraph>
+    <heading level="2">Context Rules - Structure Object Rule Groups</heading>
+    <paragraph>The following rules are context-dependent and organized into rule groups.</paragraph>
+    <heading level="3">Structure Object Rule Group</heading>
+    <paragraph>This group defines permissible values for various attributes within the data module structure.</paragraph>
+    <heading level="4">Attribute Definitions &amp; Permissible Values</heading>
+    <list type="bullet">
+      <item>
+        <bold>`updateReasonType`</bold>: Defines the reason for updating the data module.
+        <list type="bullet">
+          <item>`urt01`: Editorial change (minor changes, technically insignificant).</item>
+          <item>`urt02`: Technical change (significant changes requiring review).</item>
+          <item>`urt03`: Markup change (changes related solely to XML markup).</item>
+          <item>`urt04`: Applicability change (only the applicability has changed).</item>
+          <item>`urt05`: Unique identifier of the referencing structure has changed.</item>
+          <item>`urt51-urt99`: Reserved for project/organization-specific values.</item>
+        </list>
+      </item>
+      <item>
+        <bold>`verbatimStyle`</bold>: Defines the style of verbatim text.
+        <list type="bullet">
+          <item>`vs01`: Generic verbatim.</item>
+          <item>`vs02`: Filename.</item>
+          <item>`vs11`: XML/SGML markup.</item>
+          <item>`vs12`: XML/SGML element name.</item>
+          <item>`vs13`: XML/SGML attribute name.</item>
+          <item>`vs14`: XML/SGML attribute value.</item>
+          <item>`vs15`: XML/SGML entity name.</item>
+          <item>`vs16`: XML/SGML processing instruction.</item>
+          <item>`vs21`: Program prompt.</item>
+          <item>`vs22`: User input.</item>
+          <item>`vs23`: Computer output.</item>
+          <item>`vs24`: Program listing.</item>
+          <item>`vs25`: Program variable name.</item>
+          <item>`vs26`: Program variable value.</item>
+          <item>`vs27`: Constant.</item>
+          <item>`vs28`: Class name.</item>
+          <item>`vs29`: Parameter name.</item>
+          <item>`vs51-vs99`: Reserved for project/organization-specific values.</item>
+        </list>
+      </item>
+      <item>
+        <bold>`quantityUnitOfMeasure`</bold>: Defines the unit of measure for quantity data. Values within the range `um51-um99` can be allocated and defined by projects or organizations. (Refer to Table 2 in document section 3.9.6.2)
+      </item>
+    </list>
+    <heading level="2">Non-Context Rules</heading>
+    <paragraph>These rules are not dependent on specific context within the data module.</paragraph>
+    <heading level="3">Deletion of Data Modules</heading>
+    <paragraph>Deletion of data modules is treated as a special case of update. The data module itself is not physically deleted but is marked as deleted. (Refer to document section 3.9.5.1, Para 2.2)</paragraph>
+  </content>
+</document>

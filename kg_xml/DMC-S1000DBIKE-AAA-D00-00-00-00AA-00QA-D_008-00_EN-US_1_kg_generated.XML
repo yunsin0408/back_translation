@@ -1,196 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DataModule xmlns="http://www.s1000d.org/xml/s1000d">
-  <DataModuleHeader>
-    <ModuleId>DMCondCrossRefTable</ModuleId>
-    <Version>1.0</Version>
-    <ModuleTitle>Conditions cross-reference table</ModuleTitle>
-    <IssueType>changed</IssueType>
-    <Security>
-      <SecurityClassification>01</SecurityClassification>
-    </Security>
-    <DataRestrictions>
-      <RestrictionInstructions>
-        <DataDistribution>To be made available to all S1000D users.</DataDistribution>
-        <ExportControl>
-          <ExportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</ExportRegistrationStmt>
-          <DataHandling>There are no specific handling instructions for this data module.</DataHandling>
-          <DataDestruction>Users may destroy this data module in accordance with their own local procedures.</DataDestruction>
-          <DataDisclosure>There are no dissemination limitations that apply to this data module.</DataDisclosure>
-        </ExportControl>
-      </RestrictionInstructions>
-      <RestrictionInfo>
-        <Copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</Copyright>
-        <Publishers>
-          <Publisher>Aerospace, Security and Defence Industries Association of Europe</Publisher>
-          <Publisher>Aerospace Industries Association of America</Publisher>
-          <Publisher>ATA e-Business Program</Publisher>
-        </Publishers>
-        <LimitationsOfLiability>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</LimitationsOfLiability>
-        <LimitationsOfLiability>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability.</LimitationsOfLiability>
-      </RestrictionInfo>
-    </DataRestrictions>
-    <ResponsibleDepartment>Engineering</ResponsibleDepartment>
-    <IssueDate>
-      <Year>2024</Year>
-      <Month>06</Month>
-      <Day>19</Day>
-    </IssueDate>
-  </DataModuleHeader>
-  <Content>
-    <ApplicGroup>
-      <Applic id="A-1">
-        <Assert>
-          <ApplicPropertyType>condition</ApplicPropertyType>
-          <ApplicPropertyIdent>SB-S001</ApplicPropertyIdent>
-          <ApplicPropertyValues>POST-001~POST-999</ApplicPropertyValues>
-        </Assert>
-      </Applic>
-      <Applic id="A-2">
-        <Evaluate>
-          <AndOr>and</AndOr>
-          <Assert>
-            <ApplicPropertyType>condition</ApplicPropertyType>
-            <ApplicPropertyIdent>SB-S001</ApplicPropertyIdent>
-            <ApplicPropertyValues>POST-001~POST-999</ApplicPropertyValues>
-          </Assert>
-          <Assert>
-            <ApplicPropertyType>condition</ApplicPropertyType>
-            <ApplicPropertyIdent>SB-S009</ApplicPropertyIdent>
-            <ApplicPropertyValues>PRE</ApplicPropertyValues>
-          </Assert>
-        </Evaluate>
-      </Applic>
-    </ApplicGroup>
-    <CondCrossReferenceTable>
-      <CondTypeList>
-        <CondType id="SB">
-          <ValueDataType>string</ValueDataType>
-          <Name>Service bulletin</Name>
-          <Description>Generic service bulletin type</Description>
-          <Enumeration>PRE</Enumeration>
-        </CondType>
-        <CondType id="Boolean">
-          <Name>generic Boolean condition</Name>
-          <Description>Boolean condition</Description>
-          <Enumeration>True|False</Enumeration>
-        </CondType>
-      </CondTypeList>
-      <CondList>
-        <Cond id="SB-S001">
-          <CondTypeRefId>SB</CondTypeRefId>
-          <Name>Service bulletin S001 - Chain guard</Name>
-          <Description>Service bulletin S001 for the installation of the chain guard</Description>
-          <Refs>
-            <DmRef>
-              <DmRefIdent>
-                <DmCode>
-                  <ModelIdentCode>S1000DBIKE</ModelIdentCode>
-                  <SystemDiffCode>AAA</SystemDiffCode>
-                  <SystemCode>DA0</SystemCode>
-                  <SubSystemCode>2</SubSystemCode>
-                  <SubSubSystemCode>0</SubSubSystemCode>
-                  <AssyCode>00</AssyCode>
-                  <DisassyCode>00</DisassyCode>
-                  <DisassyCodeVariant>AA</DisassyCodeVariant>
-                  <InfoCode>520</InfoCode>
-                  <InfoCodeVariant>A</InfoCodeVariant>
-                  <ItemLocationCode>A</ItemLocationCode>
-                </DmCode>
-              </DmRefIdent>
-            </DmRef>
-          </Refs>
-        </Cond>
-        <Cond id="SB-S009">
-          <CondTypeRefId>SB</CondTypeRefId>
-          <Name>Service bulletin 9 - Chain guard (2)</Name>
-          <Description>Service bulletin 9 for the installation of the chain guard (2)</Description>
-          <Refs>
-            <DmRef>
-              <DmRefIdent>
-                <DmCode>
-                  <ModelIdentCode>S1000DBIKE</ModelIdentCode>
-                  <SystemDiffCode>AAA</SystemDiffCode>
-                  <SystemCode>DA0</SystemCode>
-                  <SubSystemCode>2</SubSystemCode>
-                  <SubSubSystemCode>0</SubSubSystemCode>
-                  <AssyCode>01</AssyCode>
-                  <DisassyCode>00</DisassyCode>
-                  <DisassyCodeVariant>AA</DisassyCodeVariant>
-                  <InfoCode>520</InfoCode>
-                  <InfoCodeVariant>A</InfoCodeVariant>
-                  <ItemLocationCode>A</ItemLocationCode>
-                </DmCode>
-              </DmRefIdent>
-            </DmRef>
-          </Refs>
-        </Cond>
-        <Cond id="tourFinished">
-          <CondTypeRefId>Boolean</CondTypeRefId>
-          <Name>tour finished</Name>
-          <Description>finished tour</Description>
-        </Cond>
-      </CondList>
-      <IncorporationList>
-        <CondIncorporation id="SB-S001-00">
-          <CondRefId>SB-S001</CondRefId>
-          <CondIssueNumber>00</CondIssueNumber>
-          <DocumentIncorporation>
-            <Refs>
-              <DmRef>
-                <DmRefIdent>
-                  <DmCode>
-                    <ModelIdentCode>S1000DBIKE</ModelIdentCode>
-                    <SystemDiffCode>AAA</SystemDiffCode>
-                    <SystemCode>DA0</SystemCode>
-                    <SubSystemCode>2</SubSystemCode>
-                    <SubSubSystemCode>0</SubSubSystemCode>
-                    <AssyCode>00</AssyCode>
-                    <DisassyCode>00</DisassyCode>
-                    <DisassyCodeVariant>AA</DisassyCodeVariant>
-                    <InfoCode>520</InfoCode>
-                    <InfoCodeVariant>A</InfoCodeVariant>
-                    <ItemLocationCode>A</ItemLocationCode>
-                  </DmCode>
-                </DmRefIdent>
-              </DmRef>
-            </Refs>
-            <IncorporationStatus>
-              <IncorporationStatus>incorporated</IncorporationStatus>
-              <Year>2007</Year>
-              <Month>07</Month>
-              <Day>31</Day>
-            </IncorporationStatus>
-          </DocumentIncorporation>
-        </CondIncorporation>
-        <CondIncorporation id="SB-S001-01">
-          <CondRefId>SB-S001</CondRefId>
-          <CondIssueNumber>01</CondIssueNumber>
-          <DocumentIncorporation>
-            <Refs>
-              <DmRef>
-                <DmRefIdent>
-                  <DmCode>
-                    <ModelIdentCode>S1000DBIKE</ModelIdentCode>
-                    <SystemDiffCode>AAA</SystemDiffCode>
-                    <SystemCode>DA0</SystemCode>
-                    <SubSystemCode>2</SubSystemCode>
-                    <SubSubSystemCode>0</SubSubSystemCode>
-                    <AssyCode>00</AssyCode>
-                    <DisassyCode>00</DisassyCode>
-                    <DisassyCodeVariant>AA</DisassyCodeVariant>
-                    <InfoCode>520</InfoCode>
-                    <InfoCodeVariant>A</InfoCodeVariant>
-                    <ItemLocationCode>A</ItemLocationCode>
-                  </DmCode>
-                </DmRefIdent>
-              </DmRef>
-            </Refs>
-            <IncorporationStatus>
-              <IncorporationStatus>no effect</IncorporationStatus>
-            </IncorporationStatus>
-          </DocumentIncorporation>
-        </CondIncorporation>
-      </IncorporationList>
-    </CondCrossReferenceTable>
-  </Content>
-</DataModule>
+<dataModule xmlns="http://www.s1000d.org/xml/s1000d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.s1000d.org/xml/s1000d ../../s1000d_csdm_4_2.xsd">
+  <dmIdent>
+    <dmId>DMCondCrossRefTable</dmId>
+    <dmNumber>001</dmNumber>
+    <issue>1</issue>
+    <date>2024-06-19</date>
+  </dmIdent>
+  <dmTitle>
+    <techName>Mountain bicycle</techName>
+    <infoName>Conditions cross-reference table</infoName>
+  </dmTitle>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+    </security>
+    <dataRestrictions>
+      <restrictionInstructions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </exportControl>
+      </restrictionInstructions>
+      <restrictionInfo>
+        <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+        <publishers>
+          <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+          <publisher>Aerospace Industries Association of America</publisher>
+          <publisher>ATA e-Business Program</publisher>
+        </publishers>
+        <limitationsOfLiability>
+          <liabilityStatement>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</liabilityStatement>
+          <liabilityStatement>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability.</liabilityStatement>
+        </limitationsOfLiability>
+      </restrictionInfo>
+    </dataRestrictions>
+    <responsibleDepartment>Engineering</responsibleDepartment>
+  </dmStatus>
+  <dependencies>
+    <forCondValues>POST-001</forCondValues>
+    <dependencyTest>A-1</dependencyTest>
+  </dependencies>
+  <content>
+    <applicGroup>
+      <applic id="A-1">
+        <assert>
+          <applicPropertyType>condition</applicPropertyType>
+          <applicPropertyIdent>SB-S001</applicPropertyIdent>
+          <applicPropertyValues>POST-001~POST-999</applicPropertyValues>
+        </assert>
+      </applic>
+      <applic id="A-2">
+        <evaluate>
+          <andOr>and</andOr>
+          <assert>
+            <applicPropertyType>condition</applicPropertyType>
+            <applicPropertyIdent>SB-S001</applicPropertyIdent>
+            <applicPropertyValues>POST-001~POST-999</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyType>condition</applicPropertyType>
+            <applicPropertyIdent>SB-S009</applicPropertyIdent>
+            <applicPropertyValues>PRE</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </applic>
+    </applicGroup>
+    <condCrossReferenceTable>
+      <condTypeList>
+        <condType id="SB">
+          <valueDataType>string</valueDataType>
+          <name>Service bulletin</name>
+          <descr>Generic service bulletin type</descr>
+          <enumeration>PRE</enumeration>
+        </condType>
+        <condType id="Boolean">
+          <name>generic Boolean condition</name>
+          <descr>Boolean condition</descr>
+          <enumeration>True|False</enumeration>
+        </condType>
+      </condTypeList>
+      <condList>
+        <cond id="SB-S001">
+          <condTypeRefId>SB</condTypeRefId>
+          <name>Service bulletin S001 - Chain guard</name>
+          <descr>Service bulletin S001 for the installation of the chain guard</descr>
+          <refs>
+            <dmRef>
+              <dmRefIdent>
+                <dmCode>
+                  <modelIdentCode>S1000DBIKE</modelIdentCode>
+                  <systemDiffCode>AAA</systemDiffCode>
+                  <systemCode>DA0</systemCode>
+                  <subSystemCode>2</subSystemCode>
+                  <subSubSystemCode>0</subSubSystemCode>
+                  <assyCode>00</assyCode>
+                  <disassyCode>00</disassyCode>
+                  <disassyCodeVariant>AA</disassyCodeVariant>
+                  <infoCode>520</infoCode>
+                  <infoCodeVariant>A</infoCodeVariant>
+                  <itemLocationCode>A</itemLocationCode>
+                </dmCode>
+              </dmRefIdent>
+            </dmRef>
+          </refs>
+        </cond>
+        <cond id="SB-S009">
+          <condTypeRefId>SB</condTypeRefId>
+          <name>Service bulletin 9 - Chain guard (2)</name>
+          <descr>Service bulletin 9 for the installation of the chain guard (2)</descr>
+          <refs>
+            <dmRef>
+              <dmRefIdent>
+                <dmCode>
+                  <modelIdentCode>S1000DBIKE</modelIdentCode>
+                  <systemDiffCode>AAA</systemDiffCode>
+                  <systemCode>DA0</systemCode>
+                  <subSystemCode>2</subSystemCode>
+                  <subSubSystemCode>0</subSubSystemCode>
+                  <assyCode>01</assyCode>
+                  <disassyCode>00</disassyCode>
+                  <disassyCodeVariant>AA</disassyCodeVariant>
+                  <infoCode>520</infoCode>
+                  <infoCodeVariant>A</infoCodeVariant>
+                  <itemLocationCode>A</itemLocationCode>
+                </dmCode>
+              </dmRefIdent>
+            </dmRef>
+          </refs>
+        </cond>
+        <cond id="tourFinished">
+          <condTypeRefId>Boolean</condTypeRefId>
+          <name>tour finished</name>
+          <descr>finished tour</descr>
+        </cond>
+      </condList>
+      <incorporationList>
+        <condIncorporation id="SB-S001-00">
+          <condRefId>SB-S001</condRefId>
+          <condIssueNumber>00</condIssueNumber>
+          <documentIncorporation>
+            <refs>
+              <dmRef>
+                <dmRefIdent>
+                  <dmCode>
+                    <modelIdentCode>S1000DBIKE</modelIdentCode>
+                    <systemDiffCode>AAA</systemDiffCode>
+                    <systemCode>DA0</systemCode>
+                    <subSystemCode>2</subSystemCode>
+                    <subSubSystemCode>0</subSubSystemCode>
+                    <assyCode>00</assyCode>
+                    <disassyCode>00</disassyCode>
+                    <disassyCodeVariant>AA</disassyCodeVariant>
+                    <infoCode>520</infoCode>
+                    <infoCodeVariant>A</infoCodeVariant>
+                    <itemLocationCode>A</itemLocationCode>
+                  </dmCode>
+                </dmRefIdent>
+              </dmRef>
+            </refs>
+            <incorporationStatus>
+              <incorporationStatus>incorporated</incorporationStatus>
+              <year>2007</year>
+              <month>07</month>
+              <day>31</day>
+            </incorporationStatus>
+          </documentIncorporation>
+        </condIncorporation>
+        <condIncorporation id="SB-S001-01">
+          <condRefId>SB-S001</condRefId>
+          <condIssueNumber>01</condIssueNumber>
+          <documentIncorporation>
+            <incorporationStatus>
+              <incorporationStatus>incorporated</incorporationStatus>
+            </incorporationStatus>
+          </documentIncorporation>
+        </condIncorporation>
+      </incorporationList>
+    </condCrossReferenceTable>
+  </content>
+</dataModule>

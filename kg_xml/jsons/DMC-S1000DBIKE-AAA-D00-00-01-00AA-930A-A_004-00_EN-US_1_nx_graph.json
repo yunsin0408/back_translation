@@ -1,0 +1,1216 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Service Bulletin Content",
+      "type": "heading",
+      "id": "Service Bulletin Content"
+    },
+    {
+      "label": "Service Bulletin Content This",
+      "type": "candidate",
+      "id": "Service Bulletin Content This"
+    },
+    {
+      "label": "Content",
+      "type": "candidate",
+      "id": "Content"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Bulletin",
+      "type": "candidate",
+      "id": "Bulletin"
+    },
+    {
+      "label": "Service",
+      "type": "candidate",
+      "id": "Service"
+    },
+    {
+      "label": "Support Equipment",
+      "type": "heading",
+      "id": "Support Equipment"
+    },
+    {
+      "label": "Support Equipment No",
+      "type": "candidate",
+      "id": "Support Equipment No"
+    },
+    {
+      "label": "Equipment",
+      "type": "candidate",
+      "id": "Equipment"
+    },
+    {
+      "label": "Support",
+      "type": "candidate",
+      "id": "Support"
+    },
+    {
+      "label": "Material Summary",
+      "type": "heading",
+      "id": "Material Summary"
+    },
+    {
+      "label": "Parts",
+      "type": "candidate",
+      "id": "Parts"
+    },
+    {
+      "label": "Summary",
+      "type": "candidate",
+      "id": "Summary"
+    },
+    {
+      "label": "Removed",
+      "type": "candidate",
+      "id": "Removed"
+    },
+    {
+      "label": "Total Parts",
+      "type": "candidate",
+      "id": "Total Parts"
+    },
+    {
+      "label": "Consumables",
+      "type": "candidate",
+      "id": "Consumables"
+    },
+    {
+      "label": "Total Removed Parts",
+      "type": "candidate",
+      "id": "Total Removed Parts"
+    },
+    {
+      "label": "Total Consumables",
+      "type": "candidate",
+      "id": "Total Consumables"
+    },
+    {
+      "label": "Total",
+      "type": "candidate",
+      "id": "Total"
+    },
+    {
+      "label": "Material",
+      "type": "candidate",
+      "id": "Material"
+    },
+    {
+      "label": "Supply Parts",
+      "type": "heading",
+      "id": "Supply Parts"
+    },
+    {
+      "label": "AXS",
+      "type": "candidate",
+      "id": "AXS"
+    },
+    {
+      "label": "Part",
+      "type": "candidate",
+      "id": "Part"
+    },
+    {
+      "label": "ST",
+      "type": "candidate",
+      "id": "ST"
+    },
+    {
+      "label": "Number",
+      "type": "candidate",
+      "id": "Number"
+    },
+    {
+      "label": "Supply",
+      "type": "candidate",
+      "id": "Supply"
+    },
+    {
+      "label": "FK",
+      "type": "candidate",
+      "id": "FK"
+    },
+    {
+      "label": "Measure",
+      "type": "candidate",
+      "id": "Measure"
+    },
+    {
+      "label": "Part Number",
+      "type": "candidate",
+      "id": "Part Number"
+    },
+    {
+      "label": "Conical",
+      "type": "candidate",
+      "id": "Conical"
+    },
+    {
+      "label": "Unit",
+      "type": "candidate",
+      "id": "Unit"
+    },
+    {
+      "label": "Description",
+      "type": "candidate",
+      "id": "Description"
+    },
+    {
+      "label": "Fork",
+      "type": "candidate",
+      "id": "Fork"
+    },
+    {
+      "label": "Wheel",
+      "type": "candidate",
+      "id": "Wheel"
+    },
+    {
+      "label": "EA",
+      "type": "candidate",
+      "id": "EA"
+    },
+    {
+      "label": "BSK",
+      "type": "candidate",
+      "id": "BSK"
+    },
+    {
+      "label": "Consumables No",
+      "type": "candidate",
+      "id": "Consumables No"
+    },
+    {
+      "label": "Removed Parts",
+      "type": "heading",
+      "id": "Removed Parts"
+    },
+    {
+      "label": "Removed Spare Sets",
+      "type": "heading",
+      "id": "Removed Spare Sets"
+    },
+    {
+      "label": "Reidentified Material",
+      "type": "candidate",
+      "id": "Reidentified Material"
+    },
+    {
+      "label": "Removed Spare Set",
+      "type": "candidate",
+      "id": "Removed Spare Set"
+    },
+    {
+      "label": "Reidentified",
+      "type": "candidate",
+      "id": "Reidentified"
+    },
+    {
+      "label": "Spare",
+      "type": "candidate",
+      "id": "Spare"
+    },
+    {
+      "label": "Individual Removed Spare",
+      "type": "candidate",
+      "id": "Individual Removed Spare"
+    },
+    {
+      "label": "Sets",
+      "type": "candidate",
+      "id": "Sets"
+    },
+    {
+      "label": "Material Usage",
+      "type": "candidate",
+      "id": "Material Usage"
+    },
+    {
+      "label": "Individual",
+      "type": "candidate",
+      "id": "Individual"
+    },
+    {
+      "label": "Usage",
+      "type": "candidate",
+      "id": "Usage"
+    },
+    {
+      "label": "External Parts/Spares",
+      "type": "heading",
+      "id": "External Parts/Spares"
+    },
+    {
+      "label": "External Parts",
+      "type": "candidate",
+      "id": "External Parts"
+    },
+    {
+      "label": "External",
+      "type": "candidate",
+      "id": "External"
+    },
+    {
+      "label": "External Spare Set",
+      "type": "candidate",
+      "id": "External Spare Set"
+    },
+    {
+      "label": "External Removed Spare Set",
+      "type": "candidate",
+      "id": "External Removed Spare Set"
+    },
+    {
+      "label": "Referenced",
+      "type": "candidate",
+      "id": "Referenced"
+    },
+    {
+      "label": "Spares",
+      "type": "candidate",
+      "id": "Spares"
+    },
+    {
+      "label": "Interchangeability",
+      "type": "heading",
+      "id": "Interchangeability"
+    },
+    {
+      "label": "Removed Fork",
+      "type": "candidate",
+      "id": "Removed Fork"
+    },
+    {
+      "label": "Additional Information",
+      "type": "heading",
+      "id": "Additional Information"
+    },
+    {
+      "label": "examples",
+      "type": "candidate",
+      "id": "examples"
+    },
+    {
+      "label": "Additional",
+      "type": "candidate",
+      "id": "Additional"
+    },
+    {
+      "label": "Additional Information This",
+      "type": "candidate",
+      "id": "Additional Information This"
+    },
+    {
+      "label": "Information",
+      "type": "candidate",
+      "id": "Information"
+    },
+    {
+      "label": "Accomplishment Instructions",
+      "type": "heading",
+      "id": "Accomplishment Instructions"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Instructions",
+      "type": "candidate",
+      "id": "Instructions"
+    },
+    {
+      "label": "Accomplishment Instructions References",
+      "type": "candidate",
+      "id": "Accomplishment Instructions References"
+    },
+    {
+      "label": "Data Module",
+      "type": "candidate",
+      "id": "Data Module"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
+      "label": "Module",
+      "type": "candidate",
+      "id": "Module"
+    },
+    {
+      "label": "Accomplishment",
+      "type": "candidate",
+      "id": "Accomplishment"
+    },
+    {
+      "label": "References",
+      "type": "candidate",
+      "id": "References"
+    },
+    {
+      "label": "Additional Information Contains",
+      "type": "candidate",
+      "id": "Additional Information Contains"
+    },
+    {
+      "label": "Contains",
+      "type": "candidate",
+      "id": "Contains"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Service Bulletin Content",
+      "target": "Service Bulletin Content This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Service Bulletin Content",
+      "target": "Content"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Service Bulletin Content",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Service Bulletin Content",
+      "target": "Bulletin"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Service Bulletin Content",
+      "target": "Service"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "This",
+      "target": "Additional Information"
+    },
+    {
+      "weight": 2,
+      "units": [
+        10,
+        3
+      ],
+      "source": "Support Equipment",
+      "target": "Support Equipment No"
+    },
+    {
+      "weight": 2,
+      "units": [
+        10,
+        3
+      ],
+      "source": "Support Equipment",
+      "target": "Equipment"
+    },
+    {
+      "weight": 2,
+      "units": [
+        10,
+        3
+      ],
+      "source": "Support Equipment",
+      "target": "Support"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Summary"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Material Summary"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Removed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Total Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Consumables"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Total Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Total Consumables"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Total"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Material Summary",
+      "target": "Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Parts",
+      "target": "Supply Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Parts",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Parts",
+      "target": "External Parts/Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Removed",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed",
+      "target": "Removed Spare Sets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Removed",
+      "target": "External Parts/Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Removed",
+      "target": "Interchangeability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Consumables",
+      "target": "Consumables"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Consumables",
+      "target": "Consumables No"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "AXS"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Part"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "ST"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Supply"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "FK"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Measure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Part Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Conical"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Unit"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Description"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Fork"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Wheel"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "EA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "BSK"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Supply Parts",
+      "target": "Supply Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "AXS",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "AXS",
+      "target": "Removed Spare Sets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "AXS",
+      "target": "Interchangeability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Part",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "ST",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Number",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "FK",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "FK",
+      "target": "Interchangeability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Measure",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Part Number",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Conical",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Conical",
+      "target": "Removed Spare Sets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Unit",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Description",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Fork",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Fork",
+      "target": "Removed Spare Sets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Fork",
+      "target": "Interchangeability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Wheel",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Wheel",
+      "target": "Removed Spare Sets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Wheel",
+      "target": "Interchangeability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "EA",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "EA",
+      "target": "Removed Spare Sets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "BSK",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "BSK",
+      "target": "Removed Spare Sets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "BSK",
+      "target": "Interchangeability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Removed Parts",
+      "target": "Removed Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Reidentified Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Removed Spare Set"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Reidentified"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Spare"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Individual Removed Spare"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Removed Spare Sets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Sets"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Material Usage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Individual"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Removed Spare Sets",
+      "target": "Usage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Spare",
+      "target": "External Parts/Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "External Parts/Spares",
+      "target": "External Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "External Parts/Spares",
+      "target": "External"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "External Parts/Spares",
+      "target": "External Spare Set"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "External Parts/Spares",
+      "target": "External Removed Spare Set"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "External Parts/Spares",
+      "target": "Referenced"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "External Parts/Spares",
+      "target": "Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Interchangeability",
+      "target": "Removed Fork"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Interchangeability",
+      "target": "Interchangeability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Additional Information",
+      "target": "examples"
+    },
+    {
+      "weight": 2,
+      "units": [
+        12,
+        14
+      ],
+      "source": "Additional Information",
+      "target": "Additional"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Additional Information",
+      "target": "Additional Information This"
+    },
+    {
+      "weight": 2,
+      "units": [
+        12,
+        14
+      ],
+      "source": "Additional Information",
+      "target": "Information"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Additional Information",
+      "target": "Additional Information Contains"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Additional Information",
+      "target": "Contains"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Accomplishment Instructions",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Accomplishment Instructions",
+      "target": "Instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Accomplishment Instructions",
+      "target": "Accomplishment Instructions References"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Accomplishment Instructions",
+      "target": "Data Module"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Accomplishment Instructions",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Accomplishment Instructions",
+      "target": "Module"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Accomplishment Instructions",
+      "target": "Accomplishment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Accomplishment Instructions",
+      "target": "References"
+    }
+  ]
+}

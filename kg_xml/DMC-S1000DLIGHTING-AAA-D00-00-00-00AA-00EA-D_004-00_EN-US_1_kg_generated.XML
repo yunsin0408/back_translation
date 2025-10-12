@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc:DMC_DModule xmlns:dmc="http://www.s1000d.org/S1000D_6/xml_schema_flat/dmc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/dmc.xsd" dmctype="proc">
+  <dmc:DModuleId>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00EA-D_004-00</dmc:DModuleId>
+  <dmc:DModuleTitle>Functional Module Documentation</dmc:DModuleTitle>
+  <dmc:Applicability>
+    <dmc:ApplicableTo>
+      <dmc:Platform>Bicycle</dmc:Platform>
+    </dmc:ApplicableTo>
+  </dmc:Applicability>
+  <dmc:Content>
+    <dmc:DProcedure>
+      <dmc:ProcedureId>1</dmc:ProcedureId>
+      <dmc:ProcedureTitle>Overview</dmc:ProcedureTitle>
+      <dmc:ProcedureText>This document details a functional module, likely related to bicycle electrical systems. It outlines the components, their installation locations, and relevant identifiers. The module focuses on the electrical system of a bicycle, potentially for features like speed sensing, lighting, or data logging.</dmc:ProcedureText>
+    </dmc:DProcedure>
+    <dmc:DProcedure>
+      <dmc:ProcedureId>2</dmc:ProcedureId>
+      <dmc:ProcedureTitle>Module Metadata</dmc:ProcedureTitle>
+      <dmc:ProcedureText>(Information is implicitly defined within the XML, not explicitly stated.)</dmc:ProcedureText>
+      <dmc:DList>
+        <dmc:DListItem>Module Type: Electrical System / Component Module</dmc:DListItem>
+        <dmc:DListItem>Applicable Vehicle: Bicycle</dmc:DListItem>
+        <dmc:DListItem>Purpose: Defines the functional components and installation details for the bicycle's electrical system.</dmc:DListItem>
+      </dmc:DList>
+    </dmc:DProcedure>
+    <dmc:DProcedure>
+      <dmc:ProcedureId>3</dmc:ProcedureId>
+      <dmc:ProcedureTitle>Applicable Models</dmc:ProcedureTitle>
+      <dmc:DList>
+        <dmc:DListItem>Mountain Bike: (Inferred, based on component selection)</dmc:DListItem>
+        <dmc:DListItem>Hybrid Bike: (Inferred, based on component selection)</dmc:DListItem>
+      </dmc:DList>
+    </dmc:DProcedure>
+    <dmc:DProcedure>
+      <dmc:ProcedureId>4</dmc:ProcedureId>
+      <dmc:ProcedureTitle>Components and Installation Details</dmc:ProcedureTitle>
+      <dmc:ProcedureText>The following table details the functional components and their installation locations. "Installation Type" refers to the type of mounting or integration method.</dmc:ProcedureText>
+      <dmc:DTable>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Component Name</dmc:DTableCell>
+          <dmc:DTableCell>Functional Identifier</dmc:DTableCell>
+          <dmc:DTableCell>Installation Identifier</dmc:DTableCell>
+          <dmc:DTableCell>Installation Type</dmc:DTableCell>
+          <dmc:DTableCell>Installation Location (cm)</dmc:DTableCell>
+          <dmc:DTableCell>Notes</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Front Light</dmc:DTableCell>
+          <dmc:DTableCell>L1</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Rear Light</dmc:DTableCell>
+          <dmc:DTableCell>L2</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Front Tachometer</dmc:DTableCell>
+          <dmc:DTableCell>FT1</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>10</dmc:DTableCell>
+          <dmc:DTableCell>GT-002-WD</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Rear Tachometer</dmc:DTableCell>
+          <dmc:DTableCell>FT2</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>10</dmc:DTableCell>
+          <dmc:DTableCell>GT-004-WD</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Side Tachometer</dmc:DTableCell>
+          <dmc:DTableCell>FT3</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>10</dmc:DTableCell>
+          <dmc:DTableCell>GT-004-WD</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Front Light</dmc:DTableCell>
+          <dmc:DTableCell>L1</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Rear Light</dmc:DTableCell>
+          <dmc:DTableCell>L2</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Front Light</dmc:DTableCell>
+          <dmc:DTableCell>L1</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Rear Light</dmc:DTableCell>
+          <dmc:DTableCell>L2</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Front Tachometer</dmc:DTableCell>
+          <dmc:DTableCell>T1</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>6</dmc:DTableCell>
+          <dmc:DTableCell>GT-002-WD</dmc:DTableCell>
+        </dmc:DTableRow>
+        <dmc:DTableRow>
+          <dmc:DTableCell>Rear Tachometer</dmc:DTableCell>
+          <dmc:DTableCell>FT2</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>N/A</dmc:DTableCell>
+          <dmc:DTableCell>10</dmc:DTableCell>
+          <dmc:DTableCell>GT-004-WD</dmc:DTableCell>
+        </dmc:DTableRow>
+      </dmc:DTable>
+    </dmc:DProcedure>
+    <dmc:DProcedure>
+      <dmc:ProcedureId>5</dmc:ProcedureId>
+      <dmc:ProcedureTitle>Functional Identifiers</dmc:ProcedureTitle>
+      <dmc:DList>
+        <dmc:DListItem>L1: Front Light</dmc:DListItem>
+        <dmc:DListItem>L2: Rear Light</dmc:DListItem>
+        <dmc:DListItem>FT1: Front Tachometer</dmc:DListItem>
+        <dmc:DListItem>FT2: Rear Tachometer</dmc:DListItem>
+        <dmc:DListItem>FT3: Side Tachometer</dmc:DListItem>
+      </dmc:DList>
+    </dmc:DProcedure>
+  </dmc:Content>
+</dmc:DMC_DModule>

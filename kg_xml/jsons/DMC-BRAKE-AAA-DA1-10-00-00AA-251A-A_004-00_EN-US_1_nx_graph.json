@@ -9,11 +9,6 @@
       "id": "DM Ident"
     },
     {
-      "label": "Ident",
-      "type": "candidate",
-      "id": "Ident"
-    },
-    {
       "label": "US",
       "type": "candidate",
       "id": "US"
@@ -29,14 +24,19 @@
       "id": "AA"
     },
     {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
       "label": "AAA",
       "type": "candidate",
       "id": "AAA"
     },
     {
-      "label": "DM",
+      "label": "Ident",
       "type": "candidate",
-      "id": "DM"
+      "id": "Ident"
     },
     {
       "label": "DM Address Items",
@@ -44,24 +44,14 @@
       "id": "DM Address Items"
     },
     {
-      "label": "Address",
-      "type": "candidate",
-      "id": "Address"
-    },
-    {
-      "label": "Clean",
-      "type": "candidate",
-      "id": "Clean"
-    },
-    {
       "label": "Brake",
       "type": "candidate",
       "id": "Brake"
     },
     {
-      "label": "Items",
+      "label": "Address",
       "type": "candidate",
-      "id": "Items"
+      "id": "Address"
     },
     {
       "label": "Address Items",
@@ -69,59 +59,24 @@
       "id": "Address Items"
     },
     {
+      "label": "Clean",
+      "type": "candidate",
+      "id": "Clean"
+    },
+    {
+      "label": "Items",
+      "type": "candidate",
+      "id": "Items"
+    },
+    {
       "label": "DM Status",
       "type": "heading",
       "id": "DM Status"
     },
     {
-      "label": "Status",
+      "label": "Aerospace",
       "type": "candidate",
-      "id": "Status"
-    },
-    {
-      "label": "Limitations",
-      "type": "candidate",
-      "id": "Limitations"
-    },
-    {
-      "label": "Industries",
-      "type": "candidate",
-      "id": "Industries"
-    },
-    {
-      "label": "Export",
-      "type": "candidate",
-      "id": "Export"
-    },
-    {
-      "label": "This",
-      "type": "candidate",
-      "id": "This"
-    },
-    {
-      "label": "Europe",
-      "type": "candidate",
-      "id": "Europe"
-    },
-    {
-      "label": "Defence Industries Association",
-      "type": "candidate",
-      "id": "Defence Industries Association"
-    },
-    {
-      "label": "Business Program",
-      "type": "candidate",
-      "id": "Business Program"
-    },
-    {
-      "label": "liable",
-      "type": "candidate",
-      "id": "liable"
-    },
-    {
-      "label": "Copyright",
-      "type": "candidate",
-      "id": "Copyright"
+      "id": "Aerospace"
     },
     {
       "label": "fitness",
@@ -134,19 +89,14 @@
       "id": "Added"
     },
     {
-      "label": "Security",
-      "type": "candidate",
-      "id": "Security"
-    },
-    {
-      "label": "ATA",
-      "type": "candidate",
-      "id": "ATA"
-    },
-    {
       "label": "Defence",
       "type": "candidate",
       "id": "Defence"
+    },
+    {
+      "label": "Business Program",
+      "type": "candidate",
+      "id": "Business Program"
     },
     {
       "label": "Storage",
@@ -154,54 +104,14 @@
       "id": "Storage"
     },
     {
-      "label": "ASD",
-      "type": "candidate",
-      "id": "ASD"
-    },
-    {
-      "label": "discretion",
-      "type": "candidate",
-      "id": "discretion"
-    },
-    {
-      "label": "America",
-      "type": "candidate",
-      "id": "America"
-    },
-    {
       "label": "Neither",
       "type": "candidate",
       "id": "Neither"
     },
     {
-      "label": "maintenance",
-      "type": "candidate",
-      "id": "maintenance"
-    },
-    {
-      "label": "Association",
-      "type": "candidate",
-      "id": "Association"
-    },
-    {
       "label": "Publishers",
       "type": "candidate",
       "id": "Publishers"
-    },
-    {
-      "label": "users",
-      "type": "candidate",
-      "id": "users"
-    },
-    {
-      "label": "Aerospace Industries Association",
-      "type": "candidate",
-      "id": "Aerospace Industries Association"
-    },
-    {
-      "label": "Users",
-      "type": "candidate",
-      "id": "Users"
     },
     {
       "label": "Program",
@@ -214,9 +124,9 @@
       "id": "warranties"
     },
     {
-      "label": "There",
+      "label": "ASD",
       "type": "candidate",
-      "id": "There"
+      "id": "ASD"
     },
     {
       "label": "residence",
@@ -224,9 +134,89 @@
       "id": "residence"
     },
     {
+      "label": "liable",
+      "type": "candidate",
+      "id": "liable"
+    },
+    {
+      "label": "Industries",
+      "type": "candidate",
+      "id": "Industries"
+    },
+    {
+      "label": "There",
+      "type": "candidate",
+      "id": "There"
+    },
+    {
+      "label": "Copyright",
+      "type": "candidate",
+      "id": "Copyright"
+    },
+    {
+      "label": "users",
+      "type": "candidate",
+      "id": "users"
+    },
+    {
+      "label": "Defence Industries Association",
+      "type": "candidate",
+      "id": "Defence Industries Association"
+    },
+    {
+      "label": "ATA",
+      "type": "candidate",
+      "id": "ATA"
+    },
+    {
+      "label": "Association",
+      "type": "candidate",
+      "id": "Association"
+    },
+    {
+      "label": "Limitations",
+      "type": "candidate",
+      "id": "Limitations"
+    },
+    {
+      "label": "discretion",
+      "type": "candidate",
+      "id": "discretion"
+    },
+    {
+      "label": "America",
+      "type": "candidate",
+      "id": "America"
+    },
+    {
+      "label": "maintenance",
+      "type": "candidate",
+      "id": "maintenance"
+    },
+    {
+      "label": "Export",
+      "type": "candidate",
+      "id": "Export"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
       "label": "instructions",
       "type": "candidate",
       "id": "instructions"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Aerospace Industries Association",
+      "type": "candidate",
+      "id": "Aerospace Industries Association"
     },
     {
       "label": "Business",
@@ -234,9 +224,19 @@
       "id": "Business"
     },
     {
-      "label": "Aerospace",
+      "label": "Users",
       "type": "candidate",
-      "id": "Aerospace"
+      "id": "Users"
+    },
+    {
+      "label": "Europe",
+      "type": "candidate",
+      "id": "Europe"
+    },
+    {
+      "label": "Security",
+      "type": "candidate",
+      "id": "Security"
     },
     {
       "label": "Refs",
@@ -249,34 +249,19 @@
       "id": "Preliminary Requirements"
     },
     {
-      "label": "Requirements",
-      "type": "candidate",
-      "id": "Requirements"
-    },
-    {
-      "label": "Operator",
-      "type": "candidate",
-      "id": "Operator"
-    },
-    {
-      "label": "Basic",
-      "type": "candidate",
-      "id": "Basic"
-    },
-    {
-      "label": "Highly",
-      "type": "candidate",
-      "id": "Highly"
-    },
-    {
       "label": "ICN",
       "type": "candidate",
       "id": "ICN"
     },
     {
-      "label": "Lint",
+      "label": "Causes",
       "type": "candidate",
-      "id": "Lint"
+      "id": "Causes"
+    },
+    {
+      "label": "Operator",
+      "type": "candidate",
+      "id": "Operator"
     },
     {
       "label": "Rubbing",
@@ -289,9 +274,24 @@
       "id": "LL"
     },
     {
-      "label": "Causes",
+      "label": "Lint",
       "type": "candidate",
-      "id": "Causes"
+      "id": "Lint"
+    },
+    {
+      "label": "Highly",
+      "type": "candidate",
+      "id": "Highly"
+    },
+    {
+      "label": "Requirements",
+      "type": "candidate",
+      "id": "Requirements"
+    },
+    {
+      "label": "Basic",
+      "type": "candidate",
+      "id": "Basic"
     },
     {
       "label": "Preliminary",
@@ -304,6 +304,46 @@
       "id": "Main Procedure"
     },
     {
+      "label": "Apply",
+      "type": "candidate",
+      "id": "Apply"
+    },
+    {
+      "label": "each",
+      "type": "candidate",
+      "id": "each"
+    },
+    {
+      "label": "Find",
+      "type": "candidate",
+      "id": "Find"
+    },
+    {
+      "label": "Main",
+      "type": "candidate",
+      "id": "Main"
+    },
+    {
+      "label": "inspection",
+      "type": "candidate",
+      "id": "inspection"
+    },
+    {
+      "label": "Internal Ref",
+      "type": "candidate",
+      "id": "Internal Ref"
+    },
+    {
+      "label": "surface",
+      "type": "candidate",
+      "id": "surface"
+    },
+    {
+      "label": "layer",
+      "type": "candidate",
+      "id": "layer"
+    },
+    {
       "label": "Hazard",
       "type": "candidate",
       "id": "Hazard"
@@ -314,54 +354,14 @@
       "id": "Procedure"
     },
     {
-      "label": "each",
-      "type": "candidate",
-      "id": "each"
-    },
-    {
-      "label": "surface",
-      "type": "candidate",
-      "id": "surface"
-    },
-    {
-      "label": "inspection",
-      "type": "candidate",
-      "id": "inspection"
-    },
-    {
-      "label": "layer",
-      "type": "candidate",
-      "id": "layer"
-    },
-    {
-      "label": "Find",
-      "type": "candidate",
-      "id": "Find"
-    },
-    {
       "label": "Remove",
       "type": "candidate",
       "id": "Remove"
     },
     {
-      "label": "Internal Ref",
-      "type": "candidate",
-      "id": "Internal Ref"
-    },
-    {
-      "label": "Main",
-      "type": "candidate",
-      "id": "Main"
-    },
-    {
       "label": "Internal",
       "type": "candidate",
       "id": "Internal"
-    },
-    {
-      "label": "Apply",
-      "type": "candidate",
-      "id": "Apply"
     },
     {
       "label": "Close Requirements",
@@ -375,14 +375,6 @@
     }
   ],
   "links": [
-    {
-      "weight": 1,
-      "units": [
-        1
-      ],
-      "source": "DM Ident",
-      "target": "Ident"
-    },
     {
       "weight": 1,
       "units": [
@@ -413,6 +405,14 @@
         1
       ],
       "source": "DM Ident",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
       "target": "AAA"
     },
     {
@@ -421,7 +421,7 @@
         1
       ],
       "source": "DM Ident",
-      "target": "DM"
+      "target": "Ident"
     },
     {
       "weight": 1,
@@ -429,14 +429,6 @@
         4
       ],
       "source": "AA",
-      "target": "Refs"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "AAA",
       "target": "Refs"
     },
     {
@@ -458,18 +450,10 @@
     {
       "weight": 1,
       "units": [
-        2
+        4
       ],
-      "source": "DM Address Items",
-      "target": "Address"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "DM Address Items",
-      "target": "Clean"
+      "source": "AAA",
+      "target": "Refs"
     },
     {
       "weight": 1,
@@ -485,7 +469,7 @@
         2
       ],
       "source": "DM Address Items",
-      "target": "Items"
+      "target": "Address"
     },
     {
       "weight": 1,
@@ -494,6 +478,22 @@
       ],
       "source": "DM Address Items",
       "target": "Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Clean"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Items"
     },
     {
       "weight": 1,
@@ -509,79 +509,7 @@
         3
       ],
       "source": "DM Status",
-      "target": "Status"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Limitations"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Industries"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Export"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "This"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Europe"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Defence Industries Association"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Business Program"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "liable"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Copyright"
+      "target": "Aerospace"
     },
     {
       "weight": 1,
@@ -605,23 +533,15 @@
         3
       ],
       "source": "DM Status",
-      "target": "Security"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "ATA"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
       "target": "Defence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Business Program"
     },
     {
       "weight": 1,
@@ -637,30 +557,6 @@
         3
       ],
       "source": "DM Status",
-      "target": "ASD"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "discretion"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "America"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
       "target": "Neither"
     },
     {
@@ -669,47 +565,7 @@
         3
       ],
       "source": "DM Status",
-      "target": "maintenance"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Association"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
       "target": "Publishers"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "users"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Aerospace Industries Association"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "DM Status",
-      "target": "Users"
     },
     {
       "weight": 1,
@@ -733,7 +589,7 @@
         3
       ],
       "source": "DM Status",
-      "target": "There"
+      "target": "ASD"
     },
     {
       "weight": 1,
@@ -749,7 +605,135 @@
         3
       ],
       "source": "DM Status",
+      "target": "liable"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Industries"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "There"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Defence Industries Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "ATA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Limitations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "discretion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "America"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "maintenance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Export"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
       "target": "instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Aerospace Industries Association"
     },
     {
       "weight": 1,
@@ -765,7 +749,23 @@
         3
       ],
       "source": "DM Status",
-      "target": "Aerospace"
+      "target": "Users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Europe"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Security"
     },
     {
       "weight": 1,
@@ -781,46 +781,6 @@
         5
       ],
       "source": "Preliminary Requirements",
-      "target": "Requirements"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Preliminary Requirements",
-      "target": "Operator"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Preliminary Requirements",
-      "target": "Basic"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Preliminary Requirements",
-      "target": "Preliminary Requirements"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Preliminary Requirements",
-      "target": "Highly"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Preliminary Requirements",
       "target": "ICN"
     },
     {
@@ -829,7 +789,15 @@
         5
       ],
       "source": "Preliminary Requirements",
-      "target": "Lint"
+      "target": "Causes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Preliminary Requirements",
+      "target": "Operator"
     },
     {
       "weight": 1,
@@ -853,7 +821,39 @@
         5
       ],
       "source": "Preliminary Requirements",
-      "target": "Causes"
+      "target": "Lint"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Preliminary Requirements",
+      "target": "Highly"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Preliminary Requirements",
+      "target": "Preliminary Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Preliminary Requirements",
+      "target": "Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Preliminary Requirements",
+      "target": "Basic"
     },
     {
       "weight": 1,
@@ -877,6 +877,78 @@
         6
       ],
       "source": "Main Procedure",
+      "target": "Main Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Main Procedure",
+      "target": "Apply"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Main Procedure",
+      "target": "each"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Main Procedure",
+      "target": "Find"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Main Procedure",
+      "target": "Main"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Main Procedure",
+      "target": "inspection"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Main Procedure",
+      "target": "Internal Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Main Procedure",
+      "target": "surface"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Main Procedure",
+      "target": "layer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Main Procedure",
       "target": "Hazard"
     },
     {
@@ -893,46 +965,6 @@
         6
       ],
       "source": "Main Procedure",
-      "target": "each"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Main Procedure",
-      "target": "surface"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Main Procedure",
-      "target": "inspection"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Main Procedure",
-      "target": "layer"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Main Procedure",
-      "target": "Find"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Main Procedure",
       "target": "Remove"
     },
     {
@@ -941,39 +973,7 @@
         6
       ],
       "source": "Main Procedure",
-      "target": "Internal Ref"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Main Procedure",
-      "target": "Main"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Main Procedure",
-      "target": "Main Procedure"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Main Procedure",
       "target": "Internal"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Main Procedure",
-      "target": "Apply"
     },
     {
       "weight": 1,

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s1000d_document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <document_identification>
+    <document_name>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-040A-A_010-00_EN-US.XML</document_name>
+  </document_identification>
+  <content>
+    <ident_and_status_section>
+      <dm_address>
+        <dm_ident>
+          <model_ident_code>S1000DLIGHTING</model_ident_code>
+          <system_diff_code>AAA</system_diff_code>
+          <system_code>D00</system_code>
+          <sub_system_code>0</sub_system_code>
+          <sub_sub_system_code>0</sub_sub_system_code>
+          <assy_code>00</assy_code>
+          <dis_assy_code>00</dis_assy_code>
+          <dis_assy_variant>AA</dis_assy_variant>
+          <info_code>040</info_code>
+          <info_variant>A</info_variant>
+          <item_location_code>A</item_location_code>
+        </dm_ident>
+        <dm_address_items>
+          <issue_date>2024-06-19</issue_date>
+          <dm_title>
+            <tech_name>Electrical system</tech_name>
+            <info_name>Description of how it is made and its function</info_name>
+          </dm_title>
+        </dm_address_items>
+      </dm_address>
+      <dm_status>
+        <issue_type>changed</issue_type>
+        <security>
+          <security_classification>01</security_classification>
+          <commercial_classification>cc51</commercial_classification>
+          <caveat>cv51</caveat>
+        </security>
+        <derivative_classification>
+          <classification_action_group id="dcg-001">
+            <action>
+              <action_number>1</action_number>
+              <action_date>2012-03-15</action_date>
+              <action_identifier>ai01</action_identifier>
+              <action_description>Classified By</action_description>
+              <business_unit>ASD Couriers</business_unit>
+              <contact_person>Clifford</contact_person>
+              <derivative_source>Bike Security Guidance Book 1</derivative_source>
+            </action>
+            <action>
+              <action_number>2</action_number>
+              <action_date>2012-11-02</action_date>
+              <action_identifier>ai09</action_identifier>
+              <action_description>Upgrade to securityClassification 04</action_description>
+              <value_after_action>2013-03-15</value_after_action>
+              <action_identifier>ai02</action_identifier>
+              <business_unit>ASD Couriers</business_unit>
+              <contact_person>Wink</contact_person>
+              <derivative_source/>
+            </action>
+          </classification_action_group>
+          <classification_action_group id="dcg-002">
+            <action>
+              <action_number>1</action_number>
+              <action_date>2012-01-02</action_date>
+              <action_identifier>ai01</action_identifier>
+              <action_description>Classified By</action_description>
+              <business_unit>Calm Security</business_unit>
+              <contact_person>Calm</contact_person>
+              <derivative_source>Bike Security Guidance Book 2</derivative_source>
+            </action>
+            <action>
+              <action_number>2</action_number>
+              <action_date>2012-04-01</action_date>
+              <action_identifier>ai02</action_identifier>
+              <action_description>Declassify On</action_description>
+              <business_unit>ASD Couriers</business_unit>
+              <contact_person>Clifford</contact_person>
+              <derivative_source>Bike Security Guidance Book 1</derivative_source>
+            </action>
+          </classification_action_group>
+        </derivative_classification>
+        <responsible_partner_company>
+          <enterprise_code>B6865</enterprise_code>
+          <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+        </responsible_partner_company>
+        <originator>
+          <enterprise_code>B6865</enterprise_code>
+          <enterprise_name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterprise_name>
+        </originator>
+        <applic_cross_ref_table_ref>
+          <dm_ref>
+            <dm_ref_ident>
+              <dm_code>
+                <model_ident_code>S1000DBIKE</model_ident_code>
+                <system_diff_code>AAA</system_diff_code>
+                <system_code>D00</system_code>
+                <sub_system_code>0</sub_system_code>
+                <sub_sub_system_code>0</sub_sub_system_code>
+                <assy_code>00</assy_code>
+                <dis_assy_code>00</dis_assy_code>
+                <dis_assy_variant>AA</dis_assy_variant>
+                <info_code>00W</info_code>
+                <info_variant>A</info_variant>
+                <item_location_code>D</item_location_code>
+              </dm_code>
+            </dm_ref_ident>
+          </dm_ref>
+        </applic_cross_ref_table_ref>
+        <applic_ref>app-00000000AA040A-0000</applic_ref>
+        <tech_standard>
+          <authority_info_and_tp>
+            <authority_info>20010131</authority_info>
+            <tech_pub_base>Bike book</tech_pub_base>
+          </authority_info_and_tp>
+        </tech_standard>
+        <brex_dm_ref>
+          <dm_ref>
+            <dm_ref_ident>
+              <dm_code>
+                <model_ident_code>S1000DBIKE</model_ident_code>
+                <system_diff_code>AAA</system_diff_code>
+                <system_code>D00</system_code>
+                <sub_system_code>0</sub_system_code>
+                <sub_sub_system_code>0</sub_sub_system_code>
+                <assy_code>00</assy_code>
+                <dis_assy_code>00</dis_assy_code>
+                <dis_assy_variant>AA</dis_assy_variant>
+                <info_code>022</info_code>
+                <info_variant>A</info_variant>
+                <item_location_code>D</item_location_code>
+              </dm_code>
+            </dm_ref_ident>
+          </dm_ref>
+        </brex_dm_ref>
+        <quality_assurance>
+          <first_verification>tabtop</first_verification>
+        </quality_assurance>
+        <system_breakdown_code>LT</system_breakdown_code>
+        <reason_for_update>
+          <id>rfu_general</id>
+          <update_reason_type>urt03</update_reason_type>
+          <simple_para>S1000D upissued</simple_para>
+        </reason_for_update>
+      </dm_status>
+    </ident_and_status_section>
+    <content_section>
+      <subject>
+        <title>Lighting</title>
+        <paragraph>
+          <title>General</title>
+          <paragraph_content>
+        <title>Lighting</title>
+        <paragraph_content>
+          <level_1>
+            <title>General</title>
+            <content>
+          <level_1>
+            <title>Lighting</title>
+            <content>
+          </content>
+        </level_1>
+      </paragraph_content>
+    </level_1>
+  </paragraph_content>
+</paragraph>
+        </paragraph>
+      </subject>
+    </content_section>
+  </content>
+</s1000d_document>

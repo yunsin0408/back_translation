@@ -1,0 +1,834 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "DModule Content - Data Module Rules",
+      "type": "heading",
+      "id": "DModule Content - Data Module Rules"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Rules",
+      "type": "candidate",
+      "id": "Rules"
+    },
+    {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
+    },
+    {
+      "label": "Module Content",
+      "type": "candidate",
+      "id": "Module Content"
+    },
+    {
+      "label": "Content",
+      "type": "candidate",
+      "id": "Content"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Module",
+      "type": "candidate",
+      "id": "Module"
+    },
+    {
+      "label": "Data Module Rules This",
+      "type": "candidate",
+      "id": "Data Module Rules This"
+    },
+    {
+      "label": "Context Rules - Structure Object Rule Groups",
+      "type": "heading",
+      "id": "Context Rules - Structure Object Rule Groups"
+    },
+    {
+      "label": "Object",
+      "type": "candidate",
+      "id": "Object"
+    },
+    {
+      "label": "Context Rules",
+      "type": "candidate",
+      "id": "Context Rules"
+    },
+    {
+      "label": "Context",
+      "type": "candidate",
+      "id": "Context"
+    },
+    {
+      "label": "Groups",
+      "type": "candidate",
+      "id": "Groups"
+    },
+    {
+      "label": "Rule",
+      "type": "candidate",
+      "id": "Rule"
+    },
+    {
+      "label": "Structure",
+      "type": "candidate",
+      "id": "Structure"
+    },
+    {
+      "label": "Structure Object Rule Groups The",
+      "type": "candidate",
+      "id": "Structure Object Rule Groups The"
+    },
+    {
+      "label": "Structure Object Rule Group",
+      "type": "heading",
+      "id": "Structure Object Rule Group"
+    },
+    {
+      "label": "Structure Object Rule Group This",
+      "type": "candidate",
+      "id": "Structure Object Rule Group This"
+    },
+    {
+      "label": "values",
+      "type": "candidate",
+      "id": "values"
+    },
+    {
+      "label": "Group",
+      "type": "candidate",
+      "id": "Group"
+    },
+    {
+      "label": "Attribute Definitions & Permissible Values",
+      "type": "heading",
+      "id": "Attribute Definitions & Permissible Values"
+    },
+    {
+      "label": "Permissible Values",
+      "type": "candidate",
+      "id": "Permissible Values"
+    },
+    {
+      "label": "Generic",
+      "type": "candidate",
+      "id": "Generic"
+    },
+    {
+      "label": "Values",
+      "type": "candidate",
+      "id": "Values"
+    },
+    {
+      "label": "Table",
+      "type": "candidate",
+      "id": "Table"
+    },
+    {
+      "label": "Program",
+      "type": "candidate",
+      "id": "Program"
+    },
+    {
+      "label": "Unique",
+      "type": "candidate",
+      "id": "Unique"
+    },
+    {
+      "label": "Computer",
+      "type": "candidate",
+      "id": "Computer"
+    },
+    {
+      "label": "Attribute",
+      "type": "candidate",
+      "id": "Attribute"
+    },
+    {
+      "label": "identifier",
+      "type": "candidate",
+      "id": "identifier"
+    },
+    {
+      "label": "Editorial",
+      "type": "candidate",
+      "id": "Editorial"
+    },
+    {
+      "label": "reason",
+      "type": "candidate",
+      "id": "reason"
+    },
+    {
+      "label": "style",
+      "type": "candidate",
+      "id": "style"
+    },
+    {
+      "label": "Applicability",
+      "type": "candidate",
+      "id": "Applicability"
+    },
+    {
+      "label": "Filename",
+      "type": "candidate",
+      "id": "Filename"
+    },
+    {
+      "label": "measure",
+      "type": "candidate",
+      "id": "measure"
+    },
+    {
+      "label": "Attribute Definitions",
+      "type": "candidate",
+      "id": "Attribute Definitions"
+    },
+    {
+      "label": "Markup",
+      "type": "candidate",
+      "id": "Markup"
+    },
+    {
+      "label": "Reserved",
+      "type": "candidate",
+      "id": "Reserved"
+    },
+    {
+      "label": "Technical",
+      "type": "candidate",
+      "id": "Technical"
+    },
+    {
+      "label": "Permissible",
+      "type": "candidate",
+      "id": "Permissible"
+    },
+    {
+      "label": "Class",
+      "type": "candidate",
+      "id": "Class"
+    },
+    {
+      "label": "User",
+      "type": "candidate",
+      "id": "User"
+    },
+    {
+      "label": "Definitions",
+      "type": "candidate",
+      "id": "Definitions"
+    },
+    {
+      "label": "Defines",
+      "type": "candidate",
+      "id": "Defines"
+    },
+    {
+      "label": "Constant",
+      "type": "candidate",
+      "id": "Constant"
+    },
+    {
+      "label": "Refer",
+      "type": "candidate",
+      "id": "Refer"
+    },
+    {
+      "label": "unit",
+      "type": "candidate",
+      "id": "unit"
+    },
+    {
+      "label": "Parameter",
+      "type": "candidate",
+      "id": "Parameter"
+    },
+    {
+      "label": "SGML",
+      "type": "candidate",
+      "id": "SGML"
+    },
+    {
+      "label": "Non-Context Rules",
+      "type": "heading",
+      "id": "Non-Context Rules"
+    },
+    {
+      "label": "Context Rules These",
+      "type": "candidate",
+      "id": "Context Rules These"
+    },
+    {
+      "label": "These",
+      "type": "candidate",
+      "id": "These"
+    },
+    {
+      "label": "Deletion of Data Modules",
+      "type": "heading",
+      "id": "Deletion of Data Modules"
+    },
+    {
+      "label": "Deletion",
+      "type": "candidate",
+      "id": "Deletion"
+    },
+    {
+      "label": "Data Modules Deletion",
+      "type": "candidate",
+      "id": "Data Modules Deletion"
+    },
+    {
+      "label": "Modules",
+      "type": "candidate",
+      "id": "Modules"
+    },
+    {
+      "label": "case",
+      "type": "candidate",
+      "id": "case"
+    },
+    {
+      "label": "Para",
+      "type": "candidate",
+      "id": "Para"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content - Data Module Rules",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content - Data Module Rules",
+      "target": "Rules"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content - Data Module Rules",
+      "target": "XML"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content - Data Module Rules",
+      "target": "Module Content"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content - Data Module Rules",
+      "target": "Content"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content - Data Module Rules",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content - Data Module Rules",
+      "target": "Module"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content - Data Module Rules",
+      "target": "Data Module Rules This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Data",
+      "target": "Deletion of Data Modules"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Rules",
+      "target": "Context Rules - Structure Object Rule Groups"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Rules",
+      "target": "Non-Context Rules"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "XML",
+      "target": "Attribute Definitions & Permissible Values"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "This",
+      "target": "Structure Object Rule Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Context Rules - Structure Object Rule Groups",
+      "target": "Object"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Context Rules - Structure Object Rule Groups",
+      "target": "Context Rules"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Context Rules - Structure Object Rule Groups",
+      "target": "Context"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Context Rules - Structure Object Rule Groups",
+      "target": "Groups"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Context Rules - Structure Object Rule Groups",
+      "target": "Rule"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Context Rules - Structure Object Rule Groups",
+      "target": "Structure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Context Rules - Structure Object Rule Groups",
+      "target": "Structure Object Rule Groups The"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Object",
+      "target": "Structure Object Rule Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Context",
+      "target": "Non-Context Rules"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Rule",
+      "target": "Structure Object Rule Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Structure",
+      "target": "Structure Object Rule Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Structure Object Rule Group",
+      "target": "Structure Object Rule Group This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Structure Object Rule Group",
+      "target": "values"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Structure Object Rule Group",
+      "target": "Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Permissible Values"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Generic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Values"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Table"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Program"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Unique"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Computer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Attribute"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "identifier"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Editorial"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "reason"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "style"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Applicability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Filename"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "measure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Attribute Definitions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Markup"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Reserved"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Technical"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Permissible"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Class"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "User"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Definitions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Defines"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Constant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Refer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "unit"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "Parameter"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Attribute Definitions & Permissible Values",
+      "target": "SGML"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Refer",
+      "target": "Deletion of Data Modules"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Non-Context Rules",
+      "target": "Context Rules These"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Non-Context Rules",
+      "target": "These"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Deletion of Data Modules",
+      "target": "Deletion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Deletion of Data Modules",
+      "target": "Data Modules Deletion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Deletion of Data Modules",
+      "target": "Modules"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Deletion of Data Modules",
+      "target": "case"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Deletion of Data Modules",
+      "target": "Para"
+    }
+  ]
+}

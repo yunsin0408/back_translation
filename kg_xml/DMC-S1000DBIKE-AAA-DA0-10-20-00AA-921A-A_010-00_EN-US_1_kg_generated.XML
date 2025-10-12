@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <ProcedTitle>Bicycle Tire Replacement Procedure</ProcedTitle>
+  <Issue>010</Issue>
+  <Applicability>All bicycle models</Applicability>
+  <Content>
+    <Step>
+      <StepTitle>1. Introduction</StepTitle>
+      <StepText>This document details the procedure for replacing a bicycle tire.</StepText>
+    </Step>
+    <Step>
+      <StepTitle>2. Preliminary Requirements</StepTitle>
+      <SubStep>
+        <SubStepTitle>2.1 Personnel</SubStepTitle>
+        <ListItem>
+          <ItemText>
+            <bold>Role:</bold> Operator
+          </ItemText>
+        </ListItem>
+        <ListItem>
+          <ItemText>
+            <bold>Category:</bold> Basic user
+          </ItemText>
+        </ListItem>
+        <ListItem>
+          <ItemText>
+            <bold>Estimated Time:</bold> 0.3 hours
+          </ItemText>
+        </ListItem>
+      </SubStep>
+      <SubStep>
+        <SubStepTitle>2.2 Support Equipment</SubStepTitle>
+        <Table>
+          <HeaderRow>
+            <TableHeader>ID</TableHeader>
+            <TableHeader>Name</TableHeader>
+            <TableHeader>Manufacturer</TableHeader>
+            <TableHeader>Part Number</TableHeader>
+            <TableHeader>Quantity</TableHeader>
+          </HeaderRow>
+          <TableRow>
+            <TableCell>seq-0001</TableCell>
+            <TableCell>Specialist toolset</TableCell>
+            <TableCell>KZ666</TableCell>
+            <TableCell>BSK-TLST-001</TableCell>
+            <TableCell>1</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell>seq-0002</TableCell>
+            <TableCell>Tire lever</TableCell>
+            <TableCell>KZ666</TableCell>
+            <TableCell>BSK-TLST-001-04</TableCell>
+            <TableCell>1</TableCell>
+          </TableRow>
+          <TableRow>
+            <TableCell>seq-0003</TableCell>
+            <TableCell>Tire pressure gauge</TableCell>
+            <TableCell>KZ666</TableCell>
+            <TableCell>BSK-TLST-001-01</TableCell>
+            <TableCell>1</TableCell>
+          </TableRow>
+        </Table>
+      </SubStep>
+      <SubStep>
+        <SubStepTitle>2.3 Spares</SubStepTitle>
+        <Table>
+          <HeaderRow>
+            <TableHeader>ID</TableHeader>
+            <TableHeader>Name</TableHeader>
+            <TableHeader>Manufacturer</TableHeader>
+            <TableHeader>Part Number</TableHeader>
+            <TableHeader>Quantity</TableHeader>
+          </HeaderRow>
+          <TableRow>
+            <TableCell>spa-0001</TableCell>
+            <TableCell>Tire</TableCell>
+            <TableCell>KT666</TableCell>
+            <TableCell>TIRES-010101</TableCell>
+            <TableCell>1</TableCell>
+          </TableRow>
+        </Table>
+      </SubStep>
+    </Step>
+    <Step>
+      <StepTitle>3. Procedure</StepTitle>
+      <SubStep>
+        <SubStepTitle>3.1 Preparation</SubStepTitle>
+        <StepList>
+          <StepItem>1. Lift and turn the bicycle, ensuring it is held safely.</StepItem>
+          <StepItem>2. Use a standard wrench (from Specialist toolset - seq-0001) to loosen the brake caliper.</StepItem>
+          <StepItem>3. Remove the axle bolt.</StepItem>
+          <StepItem>4. Remove the wheel.</StepItem>
+          <StepItem>5. Deflate the tire.</StepItem>
+        </StepList>
+      </SubStep>
+      <SubStep>
+        <SubStepTitle>3.2 Tire Replacement</SubStepTitle>
+        <StepList>
+          <StepItem>1. Use the Tire lever (seq-0002) to remove the old tire from the wheel.</StepItem>
+          <StepItem>2. Use the Tire lever (seq-0002) to attach the new tire (spa-0001) to the wheel. Refer to [DM Code: S1000DBIKE-AAA-DA0-00-00-00-041-A-A](S1000DBIKE-AAA-DA0-00-00-00-041-A-A).</StepItem>
+        </StepList>
+      </SubStep>
+      <SubStep>
+        <SubStepTitle>3.3 Finalization</SubStepTitle>
+        <StepList>
+          <StepItem>1. Inflate the tire (refer to [DM Code: S1000DBIKE-AAA-DA0-1-0-20-215-A-A](S1000DBIKE-AAA-DA0-1-0-20-215-A-A)).</StepItem>
+          <StepItem>2. Install the wheel.</StepItem>
+          <StepItem>3. Tighten the axle bolt.</StepItem>
+          <StepItem>4. Tighten the brake caliper.</StepItem>
+        </StepList>
+      </SubStep>
+    </Step>
+    <Step>
+      <StepTitle>4. Close-Out Requirements</StepTitle>
+      <StepList>
+        <StepItem>**Condition 1:** Lift and turn the bicycle to the correct position.</StepItem>
+        <StepItem>**Condition 2:** Perform a brake test as outlined in [DM Code: S1000DBIKE-AAA-DA1-0-0-00-341-A-A](S1000DBIKE-AAA-DA1-0-0-00-341-A-A).</StepItem>
+      </StepList>
+    </Step>
+  </Content>
+</Proced>

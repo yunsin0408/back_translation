@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <title>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215A-A_010-00_EN-US</title>
+  </identification>
+  <content>
+    <section id="ident_status_section">
+      <title>Ident and Status Section</title>
+      <section id="dm_address">
+        <title>DM Address</title>
+        <section id="dm_ident">
+          <title>DM Ident</title>
+          <item>
+            <key>modelIdentCode</key>
+            <value>S1000DBIKE</value>
+          </item>
+          <item>
+            <key>systemDiffCode</key>
+            <value>AAA</value>
+          </item>
+          <item>
+            <key>systemCode</key>
+            <value>DA0</value>
+          </item>
+          <item>
+            <key>subSystemCode</key>
+            <value>1</value>
+          </item>
+          <item>
+            <key>subSubSystemCode</key>
+            <value>0</value>
+          </item>
+          <item>
+            <key>assyCode</key>
+            <value>20</value>
+          </item>
+          <item>
+            <key>disassyCode</key>
+            <value>00</value>
+          </item>
+          <item>
+            <key>disassyCodeVariant</key>
+            <value>AA</value>
+          </item>
+          <item>
+            <key>infoCode</key>
+            <value>215</value>
+          </item>
+          <item>
+            <key>infoCodeVariant</key>
+            <value>A</value>
+          </item>
+          <item>
+            <key>itemLocationCode</key>
+            <value>A</value>
+          </item>
+          <item>
+            <key>language countryIsoCode</key>
+            <value>US</value>
+          </item>
+          <item>
+            <key>language languageIsoCode</key>
+            <value>en</value>
+          </item>
+          <item>
+            <key>issueNumber</key>
+            <value>010</value>
+          </item>
+          <item>
+            <key>inWork</key>
+            <value>00</value>
+          </item>
+        </section>
+        <section id="dm_address_items">
+          <title>DM Address Items</title>
+          <item>
+            <key>issueDate year</key>
+            <value>2024</value>
+          </item>
+          <item>
+            <key>issueDate month</key>
+            <value>06</value>
+          </item>
+          <item>
+            <key>issueDate day</key>
+            <value>19</value>
+          </item>
+          <item>
+            <key>techName</key>
+            <value>Tire</value>
+          </item>
+          <item>
+            <key>infoName</key>
+            <value>Fill with air</value>
+          </item>
+        </section>
+      </section>
+      <section id="dm_status">
+        <title>DM Status</title>
+        <item>
+          <key>issueType</key>
+          <value>changed</value>
+        </item>
+        <item>
+          <key>security securityClassification</key>
+          <value>01</value>
+        </item>
+        <item>
+          <key>security commercialClassification</key>
+          <value>cc51</value>
+        </item>
+        <item>
+          <key>security caveat</key>
+          <value>cv51</value>
+        </item>
+      </section>
+      <section id="data_restrictions">
+        <title>Data Restrictions</title>
+        <item>
+          <key>restrictionInstructions</key>
+          <value>
+            <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+            <exportControl>
+              <exportRegistrationStmt>
+                <simplePara>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simplePara>
+              </exportRegistrationStmt>
+            </exportControl>
+            <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+            <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+            <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+          </value>
+        </item>
+        <item>
+          <key>restrictionInfo</key>
+          <value>
+            <copyright>
+              <copyrightPara emphasis="true">Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+              <copyrightPara emphasis="true">Publishers:</copyrightPara>
+              <randomList listItemPrefix="pf01">
+                <listItem>Aerospace, Security and Defence Industries Association of Europe</listItem>
+                <listItem>Aerospace Industries Association of America</listItem>
+                <listItem>ATA e-Business Program</listItem>
+              </randomList>
+              <copyrightPara emphasis="true">Limitations of liability:</copyrightPara>
+              <randomList listItemPrefix="pf02">
+                <listItem>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</listItem>
+                <listItem>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</listItem>
+                <listItem>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</listItem>
+              </randomList>
+              <copyrightPara>The details for copyright can be found within.</copyrightPara>
+            </copyright>
+            <policyStatements>
+              <noPolicyStatements/>
+            </policyStatements>
+          </value>
+        </item>
+      </section>
+      <section id="responsible_person">
+        <title>Responsible Person</title>
+        <item>
+          <key>noResponsiblePerson</key>
+          <value/>
+        </item>
+      </section>
+      <section id="applicable_regulations">
+        <title>Applicable Regulations</title>
+        <item>
+          <key>noApplicableRegulations</key>
+          <value/>
+        </item>
+      </section>
+      <section id="quality_assurance">
+        <title>Quality Assurance</title>
+        <item>
+          <key>firstVerification verificationType</key>
+          <value>tabtop</value>
+        </item>
+      </section>
+      <section id="reason_for_update">
+        <title>Reason For Update</title>
+        <item>
+          <key>id</key>
+          <value>rfu_general</value>
+        </item>
+        <item>
+          <key>updateReasonType</key>
+          <value>urt03</value>
+        </item>
+        <item>
+          <key/>
+          <value>
+            <simplePara>S1000D upissued</simplePara>
+          </value>
+        </item>
+      </section>
+    </section>
+    <section id="content_section">
+      <title>Content</title>
+      <section id="references_section">
+        <title>References</title>
+        <section id="dm_ref_section">
+          <title>DM Ref</title>
+          <item>
+            <key>modelIdentCode</key>
+            <value>S1000DBIKE</value>
+          </item>
+          <item>
+            <key>systemDiffCode</key>
+            <value>AAA</value>
+          </item>
+          <item>
+            <key>systemCode</key>
+            <value>DA0</value>
+          </item>
+          <item>
+            <key>subSystemCode</key>
+            <value>1</value>
+          </item>
+          <item>
+            <key>subSubSystemCode</key>
+            <value>0</value>
+          </item>
+          <item>
+            <key>assyCode</key>
+            <value>20</value>
+          </item>
+          <item>
+            <key>disassyCode</key>
+            <value>00</value>
+          </item>
+          <item>
+            <key>disassyCodeVariant</key>
+            <value>AA</value>
+          </item>
+          <item>
+            <key>infoCode</key>
+            <value>215</value>
+          </item>
+          <item>
+            <key>infoCodeVariant</key>
+            <value>A</value>
+          </item>
+        </section>
+      </section>
+      <section id="procedure_steps">
+        <title>Procedure Steps</title>
+        <step>
+          <para>This section contains the steps for the procedure.</para>
+        </step>
+      </section>
+    </section>
+  </content>
+</procedure>

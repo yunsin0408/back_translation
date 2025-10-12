@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dm id="DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00FA-D_001-00_EN-US_1" type="assembly">
+    <title>Bike Lighting Circuit Breaker Documentation</title>
+    <section id="1" title="Identification and Status">
+      <paragraph>
+        <listItem>
+          <label>Document ID:</label>
+          <content>DModule (Implied from XML root element)</content>
+        </listItem>
+        <listItem>
+          <label>Date:</label>
+          <content>(Not present in the document)</content>
+        </listItem>
+        <listItem>
+          <label>Revision:</label>
+          <content>(Not present in the document)</content>
+        </listItem>
+      </paragraph>
+    </section>
+    <section id="2" title="Content">
+      <subsection id="2.1" title="Referenced Applic Groups">
+        <subsubsection id="2.1.1" title="Application: Mountain Storm Mk1">
+          <paragraph>
+            <listItem>
+              <label>ID:</label>
+              <content>app-0001</content>
+            </listItem>
+            <listItem>
+              <label>Description:</label>
+              <content>Mountain Storm Mk1</content>
+            </listItem>
+            <listItem>
+              <label>Applicability Criteria:</label>
+              <paragraph>
+                <listItem>
+                  <label>Type:</label>
+                  <content>Model</content>
+                </listItem>
+                <listItem>
+                  <label>Value:</label>
+                  <content>Mountain storm</content>
+                </listItem>
+                <listItem>
+                  <label>Version:</label>
+                  <content>Mk1</content>
+                </listItem>
+                <listItem>
+                  <label>Version Range:</label>
+                  <content>1-3</content>
+                </listItem>
+              </paragraph>
+            </listItem>
+          </paragraph>
+        </subsubsection>
+        <subsubsection id="2.1.2" title="Application: Brook Trekker Mk9">
+          <paragraph>
+            <listItem>
+              <label>ID:</label>
+              <content>app-0002</content>
+            </listItem>
+            <listItem>
+              <label>Description:</label>
+              <content>Brook Trekker Mk9</content>
+            </listItem>
+            <listItem>
+              <label>Applicability Criteria:</label>
+              <paragraph>
+                <listItem>
+                  <label>Type:</label>
+                  <content>Model</content>
+                </listItem>
+                <listItem>
+                  <label>Value:</label>
+                  <content>Brook trekker</content>
+                </listItem>
+                <listItem>
+                  <label>Version:</label>
+                  <content>Mk9</content>
+                </listItem>
+                <listItem>
+                  <label>Version Range:</label>
+                  <content>1-2</content>
+                </listItem>
+              </paragraph>
+            </listItem>
+          </paragraph>
+        </subsubsection>
+        <subsubsection id="2.1.3" title="Application: Mountain Bicycle (with Storm or Trekker)">
+          <paragraph>
+            <listItem>
+              <label>ID:</label>
+              <content>app-0003</content>
+            </listItem>
+            <listItem>
+              <label>Description:</label>
+              <content>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</content>
+            </listItem>
+            <listItem>
+              <label>Applicability Criteria:</label>
+              <paragraph>
+                <listItem>
+                  <label>Type:</label>
+                  <content>Type</content>
+                </listItem>
+                <listItem>
+                  <label>Value:</label>
+                  <content>Mountain bicycle</content>
+                </listItem>
+                <listItem>
+                  <label>Condition:</label>
+                  <content>Either:</content>
+                  <paragraph>
+                    <listItem>
+                      <label>Model:</label>
+                      <content>Mountain storm, Version: Mk1, Version Range: 1-3</content>
+                    </listItem>
+                    <listItem>
+                      <label>Model:</label>
+                      <content>Brook trekker, Version: Mk9, Version Range: 1-2</content>
+                    </listItem>
+                  </paragraph>
+                </listItem>
+              </paragraph>
+            </listItem>
+          </paragraph>
+        </subsubsection>
+      </subsection>
+      <subsection id="2.2" title="Common Repository: Circuit Breaker Repository">
+        <subsubsection id="2.2.1" title="Circuit Breaker Specification: CBLGT-1001-R (Right Side)">
+          <paragraph>
+            <listItem>
+              <label>ID:</label>
+              <content>SPEC-0010 / cb-CBLGT-1001-R</content>
+            </listItem>
+            <listItem>
+              <label>Name:</label>
+              <content>Bike Lighting circuit breaker (right side)</content>
+            </listItem>
+            <listItem>
+              <label>Functional Area:</label>
+              <content>DA2 / 2 / 0 / 00</content>
+            </listItem>
+            <listItem>
+              <label>References:</label>
+              <content>SPEC-0008 (CBLGT-1001-E)</content>
+            </listItem>
+            <listItem>
+              <label>Alternatives:</label>
+              <paragraph>
+                <listItem>
+                  <label>ID:</label>
+                  <content>cb-CBLGT-1001-R.001</content>
+                </listItem>
+                <listItem>
+                  <label>Applicability:</label>
+                  <content>app-0001 (Mountain Storm Mk1)</content>
+                </listItem>
+                <listItem>
+                  <label>Name:</label>
+                  <content>CBLGT-1001-R</content>
+                </listItem>
+                <listItem>
+                  <label>Class:</label>
+                  <content>cbt02</content>
+                </listItem>
+                <listItem>
+                  <label>Location:</label>
+                  <content>Zone 131</content>
+                </listItem>
+              </paragraph>
+            </listItem>
+          </paragraph>
+        </subsubsection>
+        <subsubsection id="2.2.2" title="Circuit Breaker Specification: CBLGT-1001-L (Left Side)">
+          <paragraph>
+            <listItem>
+              <label>ID:</label>
+              <content>SPEC-0010 / cb-CBLGT-1001-L</content>
+            </listItem>
+            <listItem>
+              <label>Name:</label>
+              <content>Bike Lighting circuit breaker (left side)</content>
+            </listItem>
+            <listItem>
+              <label>Functional Area:</label>
+              <content>DA2 / 2 / 0 / 00</content>
+            </listItem>
+            <listItem>
+              <label>References:</label>
+              <content>SPEC-0009 (CBLGT-1001-E)</content>
+            </listItem>
+            <listItem>
+              <label>Alternatives:</label>
+              <paragraph>
+                <listItem>
+                  <label>ID:</label>
+                  <content>cb-CBLGT-1001-L.001</content>
+                </listItem>
+                <listItem>
+                  <label>Applicability:</label>
+                  <content>app-0002 (Brook Trekker Mk9)</content>
+                </listItem>
+                <listItem>
+                  <label>Name:</label>
+                  <content>CBLGT-1001-L</content>
+                </listItem>
+                <listItem>
+                  <label>Class:</label>
+                  <content>cbt02</content>
+                </listItem>
+                <listItem>
+                  <label>Location:</label>
+                  <content>Zone 132</content>
+                </listItem>
+              </paragraph>
+            </listItem>
+          </paragraph>
+        </subsubsection>
+        <subsubsection id="2.2.3" title="Circuit Breaker Specification: CBLGT-1001-R (Right Side)">
+          <paragraph>
+            <listItem>
+              <label>ID:</label>
+              <content>SPEC-0010 / cb-CBLGT-1001-R</content>
+            </listItem>
+            <listItem>
+              <label>Name:</label>
+              <content>Bike Lighting circuit breaker (right side)</content>
+            </listItem>
+            <listItem>
+              <label>Functional Area:</label>
+              <content>DA2 / 2 / 0 / 00</content>
+            </listItem>
+            <listItem>
+              <label>References:</label>
+              <content>SPEC-0008 (CBLGT-1001-E)</content>
+            </listItem>
+            <listItem>
+              <label>Alternatives:</label>
+              <paragraph>
+                <listItem>
+                  <label>ID:</label>
+                  <content>cb-CBLGT-1001-R.001</content>
+                </listItem>
+                <listItem>
+                  <label>Applicability:</label>
+                  <content>app-0001 (Mountain Storm Mk1)</content>
+                </listItem>
+                <listItem>
+                  <label>Name:</label>
+                  <content>CBLGT-1001-R</content>
+                </listItem>
+                <listItem>
+                  <label>Class:</label>
+                  <content>cbt02</content>
+                </listItem>
+                <listItem>
+                  <label>Location:</label>
+                  <content>Zone 131</content>
+                </listItem>
+              </paragraph>
+            </listItem>
+          </paragraph>
+        </subsubsection>
+      </subsection>
+    </section>
+  </dm>
+</assembly>

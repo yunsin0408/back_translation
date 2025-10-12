@@ -1,0 +1,956 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "DM Ident",
+      "type": "heading",
+      "id": "DM Ident"
+    },
+    {
+      "label": "US",
+      "type": "candidate",
+      "id": "US"
+    },
+    {
+      "label": "AA",
+      "type": "candidate",
+      "id": "AA"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
+      "label": "DM Address Items",
+      "type": "heading",
+      "id": "DM Address Items"
+    },
+    {
+      "label": "Address",
+      "type": "candidate",
+      "id": "Address"
+    },
+    {
+      "label": "Address Items",
+      "type": "candidate",
+      "id": "Address Items"
+    },
+    {
+      "label": "Remove",
+      "type": "candidate",
+      "id": "Remove"
+    },
+    {
+      "label": "Items",
+      "type": "candidate",
+      "id": "Items"
+    },
+    {
+      "label": "Handlebar",
+      "type": "candidate",
+      "id": "Handlebar"
+    },
+    {
+      "label": "DM Status",
+      "type": "heading",
+      "id": "DM Status"
+    },
+    {
+      "label": "Aerospace",
+      "type": "candidate",
+      "id": "Aerospace"
+    },
+    {
+      "label": "fitness",
+      "type": "candidate",
+      "id": "fitness"
+    },
+    {
+      "label": "Defence",
+      "type": "candidate",
+      "id": "Defence"
+    },
+    {
+      "label": "Business Program",
+      "type": "candidate",
+      "id": "Business Program"
+    },
+    {
+      "label": "Storage",
+      "type": "candidate",
+      "id": "Storage"
+    },
+    {
+      "label": "Neither",
+      "type": "candidate",
+      "id": "Neither"
+    },
+    {
+      "label": "Publishers",
+      "type": "candidate",
+      "id": "Publishers"
+    },
+    {
+      "label": "Program",
+      "type": "candidate",
+      "id": "Program"
+    },
+    {
+      "label": "warranties",
+      "type": "candidate",
+      "id": "warranties"
+    },
+    {
+      "label": "ASD",
+      "type": "candidate",
+      "id": "ASD"
+    },
+    {
+      "label": "residence",
+      "type": "candidate",
+      "id": "residence"
+    },
+    {
+      "label": "liable",
+      "type": "candidate",
+      "id": "liable"
+    },
+    {
+      "label": "Industries",
+      "type": "candidate",
+      "id": "Industries"
+    },
+    {
+      "label": "There",
+      "type": "candidate",
+      "id": "There"
+    },
+    {
+      "label": "Copyright",
+      "type": "candidate",
+      "id": "Copyright"
+    },
+    {
+      "label": "users",
+      "type": "candidate",
+      "id": "users"
+    },
+    {
+      "label": "Defence Industries Association",
+      "type": "candidate",
+      "id": "Defence Industries Association"
+    },
+    {
+      "label": "ATA",
+      "type": "candidate",
+      "id": "ATA"
+    },
+    {
+      "label": "Association",
+      "type": "candidate",
+      "id": "Association"
+    },
+    {
+      "label": "Limitations",
+      "type": "candidate",
+      "id": "Limitations"
+    },
+    {
+      "label": "use",
+      "type": "candidate",
+      "id": "use"
+    },
+    {
+      "label": "discretion",
+      "type": "candidate",
+      "id": "discretion"
+    },
+    {
+      "label": "America",
+      "type": "candidate",
+      "id": "America"
+    },
+    {
+      "label": "maintenance",
+      "type": "candidate",
+      "id": "maintenance"
+    },
+    {
+      "label": "Export",
+      "type": "candidate",
+      "id": "Export"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "instructions",
+      "type": "candidate",
+      "id": "instructions"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Aerospace Industries Association",
+      "type": "candidate",
+      "id": "Aerospace Industries Association"
+    },
+    {
+      "label": "Business",
+      "type": "candidate",
+      "id": "Business"
+    },
+    {
+      "label": "Users",
+      "type": "candidate",
+      "id": "Users"
+    },
+    {
+      "label": "Europe",
+      "type": "candidate",
+      "id": "Europe"
+    },
+    {
+      "label": "Security",
+      "type": "candidate",
+      "id": "Security"
+    },
+    {
+      "label": "Preliminary Rqmts",
+      "type": "heading",
+      "id": "Preliminary Rqmts"
+    },
+    {
+      "label": "Set",
+      "type": "candidate",
+      "id": "Set"
+    },
+    {
+      "label": "Allen",
+      "type": "candidate",
+      "id": "Allen"
+    },
+    {
+      "label": "Stand",
+      "type": "candidate",
+      "id": "Stand"
+    },
+    {
+      "label": "Operator",
+      "type": "candidate",
+      "id": "Operator"
+    },
+    {
+      "label": "Rqmts",
+      "type": "candidate",
+      "id": "Rqmts"
+    },
+    {
+      "label": "TLST",
+      "type": "candidate",
+      "id": "TLST"
+    },
+    {
+      "label": "EA",
+      "type": "candidate",
+      "id": "EA"
+    },
+    {
+      "label": "BSK",
+      "type": "candidate",
+      "id": "BSK"
+    },
+    {
+      "label": "hands",
+      "type": "candidate",
+      "id": "hands"
+    },
+    {
+      "label": "Work",
+      "type": "candidate",
+      "id": "Work"
+    },
+    {
+      "label": "Bike",
+      "type": "candidate",
+      "id": "Bike"
+    },
+    {
+      "label": "Preliminary",
+      "type": "candidate",
+      "id": "Preliminary"
+    },
+    {
+      "label": "Main Procedure",
+      "type": "heading",
+      "id": "Main Procedure"
+    },
+    {
+      "label": "ICN",
+      "type": "candidate",
+      "id": "ICN"
+    },
+    {
+      "label": "Graphic",
+      "type": "candidate",
+      "id": "Graphic"
+    },
+    {
+      "label": "Main",
+      "type": "candidate",
+      "id": "Main"
+    },
+    {
+      "label": "Turn",
+      "type": "candidate",
+      "id": "Turn"
+    },
+    {
+      "label": "Loosen",
+      "type": "candidate",
+      "id": "Loosen"
+    },
+    {
+      "label": "Figure",
+      "type": "candidate",
+      "id": "Figure"
+    },
+    {
+      "label": "Procedure",
+      "type": "candidate",
+      "id": "Procedure"
+    },
+    {
+      "label": "end",
+      "type": "candidate",
+      "id": "end"
+    },
+    {
+      "label": "out",
+      "type": "candidate",
+      "id": "out"
+    },
+    {
+      "label": "Close Rqmts",
+      "type": "heading",
+      "id": "Close Rqmts"
+    },
+    {
+      "label": "Close",
+      "type": "candidate",
+      "id": "Close"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "US"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM",
+      "target": "DM Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Remove"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Handlebar"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Remove",
+      "target": "Main Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Aerospace"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "fitness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Defence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Business Program"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Storage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Neither"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Publishers"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Program"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "warranties"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "ASD"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "residence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "liable"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Industries"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "There"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Defence Industries Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "ATA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Limitations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "use"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "discretion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "America"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "maintenance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Export"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Aerospace Industries Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Business"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Europe"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Security"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "This",
+      "target": "Preliminary Rqmts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "Set"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "Allen"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "Stand"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "Operator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "Rqmts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "TLST"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "EA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "BSK"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "hands"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "Work"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "Preliminary Rqmts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Preliminary Rqmts",
+      "target": "Preliminary"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Allen",
+      "target": "Main Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Rqmts",
+      "target": "Close Rqmts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "Main Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "ICN"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "Graphic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "Main"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "Turn"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "Loosen"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "Figure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "end"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Main Procedure",
+      "target": "out"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Close Rqmts",
+      "target": "Close Rqmts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Close Rqmts",
+      "target": "Close"
+    }
+  ]
+}

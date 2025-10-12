@@ -1,0 +1,988 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Introduction",
+      "type": "heading",
+      "id": "Introduction"
+    },
+    {
+      "label": "lifespan",
+      "type": "candidate",
+      "id": "lifespan"
+    },
+    {
+      "label": "procedure",
+      "type": "candidate",
+      "id": "procedure"
+    },
+    {
+      "label": "Introduction This",
+      "type": "candidate",
+      "id": "Introduction This"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Safety Precautions",
+      "type": "heading",
+      "id": "Safety Precautions"
+    },
+    {
+      "label": "Avoid",
+      "type": "candidate",
+      "id": "Avoid"
+    },
+    {
+      "label": "Warning",
+      "type": "candidate",
+      "id": "Warning"
+    },
+    {
+      "label": "Precautions",
+      "type": "candidate",
+      "id": "Precautions"
+    },
+    {
+      "label": "Heavy",
+      "type": "candidate",
+      "id": "Heavy"
+    },
+    {
+      "label": "Safety",
+      "type": "candidate",
+      "id": "Safety"
+    },
+    {
+      "label": "AECMA",
+      "type": "candidate",
+      "id": "AECMA"
+    },
+    {
+      "label": "Applicable",
+      "type": "candidate",
+      "id": "Applicable"
+    },
+    {
+      "label": "ACME",
+      "type": "candidate",
+      "id": "ACME"
+    },
+    {
+      "label": "Required Materials & Tools",
+      "type": "heading",
+      "id": "Required Materials & Tools"
+    },
+    {
+      "label": "Tools",
+      "type": "candidate",
+      "id": "Tools"
+    },
+    {
+      "label": "Brake",
+      "type": "candidate",
+      "id": "Brake"
+    },
+    {
+      "label": "Required",
+      "type": "candidate",
+      "id": "Required"
+    },
+    {
+      "label": "Clean",
+      "type": "candidate",
+      "id": "Clean"
+    },
+    {
+      "label": "Materials",
+      "type": "candidate",
+      "id": "Materials"
+    },
+    {
+      "label": "Supplies",
+      "type": "candidate",
+      "id": "Supplies"
+    },
+    {
+      "label": "Chain",
+      "type": "candidate",
+      "id": "Chain"
+    },
+    {
+      "label": "Floor",
+      "type": "candidate",
+      "id": "Floor"
+    },
+    {
+      "label": "Derailleur",
+      "type": "candidate",
+      "id": "Derailleur"
+    },
+    {
+      "label": "Figures",
+      "type": "candidate",
+      "id": "Figures"
+    },
+    {
+      "label": "Required Materials",
+      "type": "candidate",
+      "id": "Required Materials"
+    },
+    {
+      "label": "Lubricants",
+      "type": "candidate",
+      "id": "Lubricants"
+    },
+    {
+      "label": "Step 1: Apply Penetrating Lubricant",
+      "type": "heading",
+      "id": "Step 1: Apply Penetrating Lubricant"
+    },
+    {
+      "label": "Apply",
+      "type": "candidate",
+      "id": "Apply"
+    },
+    {
+      "label": "Step",
+      "type": "candidate",
+      "id": "Step"
+    },
+    {
+      "label": "Including",
+      "type": "candidate",
+      "id": "Including"
+    },
+    {
+      "label": "Apply Penetrating Lubricant",
+      "type": "candidate",
+      "id": "Apply Penetrating Lubricant"
+    },
+    {
+      "label": "Lubricant",
+      "type": "candidate",
+      "id": "Lubricant"
+    },
+    {
+      "label": "figures",
+      "type": "candidate",
+      "id": "figures"
+    },
+    {
+      "label": "Penetrating",
+      "type": "candidate",
+      "id": "Penetrating"
+    },
+    {
+      "label": "Step 2: Lubricate the Chain",
+      "type": "heading",
+      "id": "Step 2: Lubricate the Chain"
+    },
+    {
+      "label": "Conditions",
+      "type": "candidate",
+      "id": "Conditions"
+    },
+    {
+      "label": "Ensure",
+      "type": "candidate",
+      "id": "Ensure"
+    },
+    {
+      "label": "Conditional",
+      "type": "candidate",
+      "id": "Conditional"
+    },
+    {
+      "label": "Allow",
+      "type": "candidate",
+      "id": "Allow"
+    },
+    {
+      "label": "Caution",
+      "type": "candidate",
+      "id": "Caution"
+    },
+    {
+      "label": "Position",
+      "type": "candidate",
+      "id": "Position"
+    },
+    {
+      "label": "Slowly",
+      "type": "candidate",
+      "id": "Slowly"
+    },
+    {
+      "label": "Lubrication",
+      "type": "candidate",
+      "id": "Lubrication"
+    },
+    {
+      "label": "Wet Conditions",
+      "type": "candidate",
+      "id": "Wet Conditions"
+    },
+    {
+      "label": "Lubricate",
+      "type": "candidate",
+      "id": "Lubricate"
+    },
+    {
+      "label": "Conditional Lubrication",
+      "type": "candidate",
+      "id": "Conditional Lubrication"
+    },
+    {
+      "label": "Dry Conditions",
+      "type": "candidate",
+      "id": "Dry Conditions"
+    },
+    {
+      "label": "Step 3: Check Lubricated Parts",
+      "type": "heading",
+      "id": "Step 3: Check Lubricated Parts"
+    },
+    {
+      "label": "Parts",
+      "type": "candidate",
+      "id": "Parts"
+    },
+    {
+      "label": "Inspect",
+      "type": "candidate",
+      "id": "Inspect"
+    },
+    {
+      "label": "Check",
+      "type": "candidate",
+      "id": "Check"
+    },
+    {
+      "label": "Check Lubricated Parts",
+      "type": "candidate",
+      "id": "Check Lubricated Parts"
+    },
+    {
+      "label": "Relubricate",
+      "type": "candidate",
+      "id": "Relubricate"
+    },
+    {
+      "label": "Verify",
+      "type": "candidate",
+      "id": "Verify"
+    },
+    {
+      "label": "Lubricated",
+      "type": "candidate",
+      "id": "Lubricated"
+    },
+    {
+      "label": "Closing Requirements",
+      "type": "heading",
+      "id": "Closing Requirements"
+    },
+    {
+      "label": "Internal References",
+      "type": "candidate",
+      "id": "Internal References"
+    },
+    {
+      "label": "Closing",
+      "type": "candidate",
+      "id": "Closing"
+    },
+    {
+      "label": "References",
+      "type": "candidate",
+      "id": "References"
+    },
+    {
+      "label": "Requirements",
+      "type": "candidate",
+      "id": "Requirements"
+    },
+    {
+      "label": "Internal",
+      "type": "candidate",
+      "id": "Internal"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "lifespan"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "Introduction This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "Introduction"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Safety Precautions",
+      "target": "Avoid"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Safety Precautions",
+      "target": "Warning"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Safety Precautions",
+      "target": "Precautions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Safety Precautions",
+      "target": "Heavy"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Safety Precautions",
+      "target": "Safety"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Safety Precautions",
+      "target": "AECMA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Safety Precautions",
+      "target": "Applicable"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Safety Precautions",
+      "target": "ACME"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Safety Precautions",
+      "target": "Safety Precautions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Avoid",
+      "target": "Step 2: Lubricate the Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Heavy",
+      "target": "Required Materials & Tools"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Heavy",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "AECMA",
+      "target": "Required Materials & Tools"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "AECMA",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Applicable",
+      "target": "Required Materials & Tools"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "ACME",
+      "target": "Required Materials & Tools"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "ACME",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Tools"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Brake"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Required"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Clean"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Materials"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Supplies"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Floor"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Derailleur"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Figures"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Required Materials"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Required Materials & Tools",
+      "target": "Lubricants"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Brake",
+      "target": "Step 1: Apply Penetrating Lubricant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Brake",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Clean",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Chain",
+      "target": "Step 2: Lubricate the Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Chain",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Floor",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Derailleur",
+      "target": "Step 1: Apply Penetrating Lubricant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Derailleur",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Step 1: Apply Penetrating Lubricant",
+      "target": "Apply"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Step 1: Apply Penetrating Lubricant",
+      "target": "Step"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Step 1: Apply Penetrating Lubricant",
+      "target": "Including"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Step 1: Apply Penetrating Lubricant",
+      "target": "Apply Penetrating Lubricant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Step 1: Apply Penetrating Lubricant",
+      "target": "Lubricant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Step 1: Apply Penetrating Lubricant",
+      "target": "figures"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Step 1: Apply Penetrating Lubricant",
+      "target": "Penetrating"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Apply",
+      "target": "Step 2: Lubricate the Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step",
+      "target": "Step 2: Lubricate the Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Step",
+      "target": "Step 3: Check Lubricated Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Step",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Conditions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Ensure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Conditional"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Allow"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Caution"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Position"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Slowly"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Lubrication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Wet Conditions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Lubricate"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Conditional Lubrication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Step 2: Lubricate the Chain",
+      "target": "Dry Conditions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Conditions",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Wet Conditions",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Lubricate",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Dry Conditions",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Step 3: Check Lubricated Parts",
+      "target": "Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Step 3: Check Lubricated Parts",
+      "target": "Inspect"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Step 3: Check Lubricated Parts",
+      "target": "Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Step 3: Check Lubricated Parts",
+      "target": "Check Lubricated Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Step 3: Check Lubricated Parts",
+      "target": "Relubricate"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Step 3: Check Lubricated Parts",
+      "target": "Verify"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Step 3: Check Lubricated Parts",
+      "target": "Lubricated"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Closing Requirements",
+      "target": "Internal References"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Closing Requirements",
+      "target": "Closing Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Closing Requirements",
+      "target": "Closing"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Closing Requirements",
+      "target": "References"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Closing Requirements",
+      "target": "Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Closing Requirements",
+      "target": "Internal"
+    }
+  ]
+}

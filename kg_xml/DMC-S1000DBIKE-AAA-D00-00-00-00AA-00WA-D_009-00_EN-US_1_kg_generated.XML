@@ -26,7 +26,7 @@
             <simplePara>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simplePara>
           </exportRegistrationStmt>
         </exportControl>
-        <dataHandling/>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
         <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
         <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
       </restrictionInstructions>
@@ -48,7 +48,7 @@
           <copyrightPara>The details for copyright can be found in the S1000D Specification.</copyrightPara>
         </copyright>
         <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
-        <dataConds/>
+        <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
       </restrictionInfo>
     </dataRestrictions>
     <responsiblePartnerCompany>
@@ -131,49 +131,32 @@
     </refs>
     <applicCrossReferenceTable>
       <productAttributeList>
-        <tableHeaders>
-          <header>ID</header>
-          <header>Name</header>
-          <header>Display Name</header>
-          <header>Description</header>
-          <header>Value Pattern</header>
-          <header>Enumeration</header>
-        </tableHeaders>
-        <tableRows>
-          <row>
-            <cell>type</cell>
-            <cell>Type</cell>
-            <cell></cell>
-            <cell>Type of bike</cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-          <row>
-            <cell>model</cell>
-            <cell>Model</cell>
-            <cell></cell>
-            <cell>Model of the bike</cell>
-            <cell>.*</cell>
-            <cell>Brook trekker, Mountain storm</cell>
-          </row>
-          <row>
-            <cell>version</cell>
-            <cell>Version</cell>
-            <cell></cell>
-            <cell>Version of the bike</cell>
-            <cell>Mk(1|9)</cell>
-            <cell>Mk1, Mk9</cell>
-          </row>
-          <row>
-            <cell>versrank</cell>
-            <cell>Version rank</cell>
-            <cell>series</cell>
-            <cell>Version rank</cell>
-            <cell></cell>
-            <cell></cell>
-          </row>
-        </tableRows>
+        <attribute id="type" name="Type" displayName="" description="Type of bike"/>
+        <attribute id="model" name="Model" displayName="" description="Model of the bike"/>
+        <attribute id="version" name="Version" displayName="" description="Version of the bike"/>
+        <attribute id="versrank" name="Version rank" displayName="series" description="Version rank"/>
+        <attribute id="brakeSerialno" name="Brake Serial number" displayName="BSN" description="Serial number on the brake"/>
+        <attribute id="brakeModel" name="Brake Model" displayName="" description="Brake model - The model of the brake in a bike"/>
       </productAttributeList>
     </applicCrossReferenceTable>
+    <condCrossRefTableRef>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>022</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>D</itemLocationCode>
+          </dmCode>
+        </dmRefIdent>
+      </dmRef>
+    </condCrossRefTableRef>
   </content>
 </dm>

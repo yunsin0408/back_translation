@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>DMC-S1000DBIKE-AAA-D00-00-00-00AA-200A-T-T36D_004-00_EN-US</dmTitle>
+  <dmIdent>
+    <dmIdentId>DMC-S1000DBIKE-AAA-D00-00-00-00AA-200A-T-T36D_004-00_EN-US</dmIdentId>
+  </dmIdent>
+  <dmSection>
+    <dmSectionTitle>Ident and Status Section</dmSectionTitle>
+    <dmSubSection>
+      <dmSubSectionTitle>DM Address</dmSubSectionTitle>
+      <dmSubSubSection>
+        <dmSubSubSectionTitle>DM Ident</dmSubSubSectionTitle>
+        <dmItem>
+          <dmItemName>modelIdentCode</dmItemName>
+          <dmItemValue>S1000DBIKE</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>systemDiffCode</dmItemName>
+          <dmItemValue>AAA</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>systemCode</dmItemName>
+          <dmItemValue>D00</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>subSystemCode</dmItemName>
+          <dmItemValue>0</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>subSubSystemCode</dmItemName>
+          <dmItemValue>0</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>assyCode</dmItemName>
+          <dmItemValue>00</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>disassyCode</dmItemName>
+          <dmItemValue>00</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>disassyCodeVariant</dmItemName>
+          <dmItemValue>AA</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>infoCode</dmItemName>
+          <dmItemValue>200</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>infoCodeVariant</dmItemName>
+          <dmItemValue>A</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>itemLocationCode</dmItemName>
+          <dmItemValue>T</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>learnCode</dmItemName>
+          <dmItemValue>T36</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>learnEventCode</dmItemName>
+          <dmItemValue>D</dmItemValue>
+        </dmItem>
+      </dmSubSubSection>
+      <dmSubSubSection>
+        <dmSubSubSectionTitle>Language</dmSubSubSectionTitle>
+        <dmItem>
+          <dmItemName>countryIsoCode</dmItemName>
+          <dmItemValue>US</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>languageIsoCode</dmItemName>
+          <dmItemValue>en</dmItemValue>
+        </dmItem>
+      </dmSubSubSection>
+      <dmSubSubSection>
+        <dmSubSubSectionTitle>Issue Info</dmSubSubSectionTitle>
+        <dmItem>
+          <dmItemName>issueNumber</dmItemName>
+          <dmItemValue>004</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>inWork</dmItemName>
+          <dmItemValue>00</dmItemValue>
+        </dmItem>
+      </dmSubSubSection>
+      <dmSubSubSection>
+        <dmSubSubSectionTitle>DM Address Items</dmSubSubSectionTitle>
+        <dmItem>
+          <dmItemName>issueDate</dmItemName>
+          <dmItemValue>2024-06-19</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>techName</dmItemName>
+          <dmItemValue>Bicycle</dmItemValue>
+        </dmItem>
+        <dmItem>
+          <dmItemName>infoName</dmItemName>
+          <dmItemValue>Servicing: Prerequisite concept review</dmItemValue>
+        </dmItem>
+      </dmSubSubSection>
+    </dmSubSection>
+    <dmSubSection>
+      <dmSubSectionTitle>DM Status</dmSubSectionTitle>
+      <dmItem>
+        <dmItemName>issueType</dmItemName>
+        <dmItemValue>status</dmItemValue>
+      </dmItem>
+    </dmSubSection>
+    <dmSubSection>
+      <dmSubSectionTitle>Security</dmSubSectionTitle>
+      <dmItem>
+        <dmItemName>securityClassification</dmItemName>
+        <dmItemValue>01</dmItemValue>
+      </dmItem>
+    </dmSubSection>
+    <dmSubSection>
+      <dmSubSectionTitle>Data Restrictions</dmSubSectionTitle>
+      <dmItem>
+        <dmItemName>restrictionInstructions</dmItemName>
+        <dmItemValue>To be made available to all S1000D users.</dmItemValue>
+      </dmItem>
+      <dmItem>
+        <dmItemName>exportControl</dmItemName>
+        <dmItemValue>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</dmItemValue>
+      </dmItem>
+      <dmItem>
+        <dmItemName>dataHandling</dmItemName>
+        <dmItemValue>There are no specific handling instructions for this data module.</dmItemValue>
+      </dmItem>
+      <dmItem>
+        <dmItemName>dataDestruction</dmItemName>
+        <dmItemValue>Users may destroy this data module in accordance with their own local procedures.</dmItemValue>
+      </dmItem>
+      <dmItem>
+        <dmItemName>dataDisclosure</dmItemName>
+        <dmItemValue>There are no dissemination limitations that apply to this data module.</dmItemValue>
+      </dmItem>
+    </dmSubSection>
+    <dmSubSection>
+      <dmSubSectionTitle>Responsible Partner Company</dmSubSectionTitle>
+      <dmItem>
+        <dmItemName>enterpriseCode</dmItemName>
+        <dmItemValue>B6865</dmItemValue>
+      </dmItem>
+      <dmItem>
+        <dmItemName>enterpriseName</dmItemName>
+        <dmItemValue>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</dmItemValue>
+      </dmItem>
+    </dmSubSection>
+    <dmSubSection>
+      <dmSubSectionTitle>Originator</dmSubSectionTitle>
+      <dmItem>
+        <dmItemName>enterpriseCode</dmItemName>
+        <dmItemValue>B6865</dmItemValue>
+      </dmItem>
+      <dmItem>
+        <dmItemName>enterpriseName</dmItemName>
+        <dmItemValue>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</dmItemValue>
+      </dmItem>
+    </dmSubSection>
+    <dmSubSection>
+      <dmSubSectionTitle>Applic</dmSubSectionTitle>
+      <dmItem>
+        <dmItemName>displayText</dmItemName>
+        <dmItemValue>All</dmItemValue>
+      </dmItem>
+    </dmSubSection>
+  </dmSection>
+  <dmSection>
+    <dmSectionTitle>Learning</dmSectionTitle>
+    <dmSubSection>
+      <dmSubSectionTitle>General</dmSubSectionTitle>
+      <dmItem>
+        <dmItemName>graphic</dmItemName>
+        <dmItemValue>Image of bicycle</dmItemValue>
+      </dmItem>
+    </dmSubSection>
+  </dmSection>
+</dm>

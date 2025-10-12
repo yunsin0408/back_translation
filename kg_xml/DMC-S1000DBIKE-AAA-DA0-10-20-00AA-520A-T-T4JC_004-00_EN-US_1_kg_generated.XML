@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:as xmlns:as="http://www.airbus.com/xml/aria/as" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <as:dm>
+    <as:ident>
+      <as:dmRef>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-520A-T-T4JC_004-00_EN-US</as:dmRef>
+      <as:dmTitle>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-520A-T-T4JC_004-00_EN-US</as:dmTitle>
+    </as:ident>
+    <as:section>
+      <as:title>Ident and Status Section</as:title>
+      <as:subSection>
+        <as:title>DM Address</as:title>
+        <as:subSubSection>
+          <as:title>DM Ident</as:title>
+          <as:item>
+            <as:key>modelIdentCode</as:key>
+            <as:value>S1000DBIKE</as:value>
+          </as:item>
+          <as:item>
+            <as:key>systemDiffCode</as:key>
+            <as:value>AAA</as:value>
+          </as:item>
+          <as:item>
+            <as:key>systemCode</as:key>
+            <as:value>DA0</as:value>
+          </as:item>
+          <as:item>
+            <as:key>subSystemCode</as:key>
+            <as:value>1</as:value>
+          </as:item>
+          <as:item>
+            <as:key>subSubSystemCode</as:key>
+            <as:value>0</as:value>
+          </as:item>
+          <as:item>
+            <as:key>assyCode</as:key>
+            <as:value>20</as:value>
+          </as:item>
+          <as:item>
+            <as:key>disassyCode</as:key>
+            <as:value>00</as:value>
+          </as:item>
+          <as:item>
+            <as:key>disassyCodeVariant</as:key>
+            <as:value>AA</as:value>
+          </as:item>
+          <as:item>
+            <as:key>infoCode</as:key>
+            <as:value>520</as:value>
+          </as:item>
+          <as:item>
+            <as:key>infoCodeVariant</as:key>
+            <as:value>A</as:value>
+          </as:item>
+          <as:item>
+            <as:key>itemLocationCode</as:key>
+            <as:value>T</as:value>
+          </as:item>
+          <as:item>
+            <as:key>learnCode</as:key>
+            <as:value>T4J</as:value>
+          </as:item>
+          <as:item>
+            <as:key>learnEventCode</as:key>
+            <as:value>C</as:value>
+          </as:item>
+        </as:subSubSection>
+        <as:subSubSection>
+          <as:title>Language</as:title>
+          <as:item>
+            <as:key>countryIsoCode</as:key>
+            <as:value>US</as:value>
+          </as:item>
+          <as:item>
+            <as:key>languageIsoCode</as:key>
+            <as:value>en</as:value>
+          </as:item>
+        </as:subSubSection>
+        <as:subSubSection>
+          <as:title>Issue Info</as:title>
+          <as:item>
+            <as:key>issueNumber</as:key>
+            <as:value>004</as:value>
+          </as:item>
+          <as:item>
+            <as:key>inWork</as:key>
+            <as:value>00</as:value>
+          </as:item>
+        </as:subSubSection>
+        <as:subSubSection>
+          <as:title>DM Address Items</as:title>
+          <as:item>
+            <as:key>issueDate</as:key>
+            <as:value>2024-06-19</as:value>
+          </as:item>
+          <as:item>
+            <as:key>techName</as:key>
+            <as:value>Front wheel</as:value>
+          </as:item>
+          <as:item>
+            <as:key>infoName</as:key>
+            <as:value>Remove procedures: Interactive content - Procedure</as:value>
+          </as:item>
+        </as:subSubSection>
+      </as:subSection>
+      <as:subSection>
+        <as:title>DM Status</as:title>
+        <as:item>
+          <as:key>issueType</as:key>
+          <as:value>status</as:value>
+        </as:item>
+      </as:subSection>
+      <as:subSection>
+        <as:title>Security</as:title>
+        <as:item>
+          <as:key>securityClassification</as:key>
+          <as:value>01</as:value>
+        </as:item>
+      </as:subSection>
+      <as:subSection>
+        <as:title>Data Restrictions</as:title>
+        <as:item>
+          <as:key>restrictionInstructions</as:key>
+          <as:value>To be made available to all S1000D users.</as:value>
+        </as:item>
+        <as:item>
+          <as:key>exportControl</as:key>
+          <as:value>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</as:value>
+        </as:item>
+        <as:item>
+          <as:key>dataHandling</as:key>
+          <as:value>There are no specific handling instructions for this data module.</as:value>
+        </as:item>
+        <as:item>
+          <as:key>dataDestruction</as:key>
+          <as:value>Users may destroy this data module in accordance with their own local procedures.</as:value>
+        </as:item>
+        <as:item>
+          <as:key>dataDisclosure</as:key>
+          <as:value>There are no dissemination limitations that apply to this data module.</as:value>
+        </as:item>
+        <as:item>
+          <as:key>restrictionInfo</as:key>
+          <as:value>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</as:value>
+        </as:item>
+        <as:item>
+          <as:key>publishers</as:key>
+          <as:value>Aerospace, Security and Defence Industries Association of Europe</as:value>
+        </as:item>
+        <as:item>
+          <as:key>publishers</as:key>
+          <as:value>Aerospace Industries Association of America</as:value>
+        </as:item>
+        <as:item>
+          <as:key>publishers</as:key>
+          <as:value>ATA e-Business Program</as:value>
+        </as:item>
+        <as:item>
+          <as:key>limitationsOfLiability</as:key>
+          <as:value>This material is protected by copyright.</as:value>
+        </as:item>
+        <as:item>
+          <as:key>policy</as:key>
+          <as:value>This material is protected by copyright.</as:value>
+        </as:item>
+      </as:subSection>
+      <as:subSection>
+        <as:title>Content</as:title>
+        <as:content>
+          <as:paragraph>
+            <as:text>This is a paragraph of text.</as:text>
+          </as:paragraph>
+        </as:content>
+      </as:subSection>
+    </as:section>
+    <as:section>
+      <as:title>Learning Process</as:title>
+      <as:content>
+        <as:paragraph>
+          <as:text>This is a paragraph of text.</as:text>
+        </as:paragraph>
+      </as:content>
+    </as:section>
+  </as:dm>
+</as:as>

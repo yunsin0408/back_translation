@@ -1,0 +1,823 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "DM Ident",
+      "type": "heading",
+      "id": "DM Ident"
+    },
+    {
+      "label": "US",
+      "type": "candidate",
+      "id": "US"
+    },
+    {
+      "label": "AA",
+      "type": "candidate",
+      "id": "AA"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
+      "label": "DM Address Items",
+      "type": "heading",
+      "id": "DM Address Items"
+    },
+    {
+      "label": "Address",
+      "type": "candidate",
+      "id": "Address"
+    },
+    {
+      "label": "Address Items",
+      "type": "candidate",
+      "id": "Address Items"
+    },
+    {
+      "label": "Electrical",
+      "type": "candidate",
+      "id": "Electrical"
+    },
+    {
+      "label": "Title",
+      "type": "candidate",
+      "id": "Title"
+    },
+    {
+      "label": "Description",
+      "type": "candidate",
+      "id": "Description"
+    },
+    {
+      "label": "Items",
+      "type": "candidate",
+      "id": "Items"
+    },
+    {
+      "label": "DM Status",
+      "type": "heading",
+      "id": "DM Status"
+    },
+    {
+      "label": "Calm Security",
+      "type": "candidate",
+      "id": "Calm Security"
+    },
+    {
+      "label": "After",
+      "type": "candidate",
+      "id": "After"
+    },
+    {
+      "label": "Source",
+      "type": "candidate",
+      "id": "Source"
+    },
+    {
+      "label": "Classified By",
+      "type": "candidate",
+      "id": "Classified By"
+    },
+    {
+      "label": "AND",
+      "type": "candidate",
+      "id": "AND"
+    },
+    {
+      "label": "Derivative Source",
+      "type": "candidate",
+      "id": "Derivative Source"
+    },
+    {
+      "label": "Book",
+      "type": "candidate",
+      "id": "Book"
+    },
+    {
+      "label": "Upgrade",
+      "type": "candidate",
+      "id": "Upgrade"
+    },
+    {
+      "label": "Bike",
+      "type": "candidate",
+      "id": "Bike"
+    },
+    {
+      "label": "AEROSPACE",
+      "type": "candidate",
+      "id": "AEROSPACE"
+    },
+    {
+      "label": "INDUSTRIES",
+      "type": "candidate",
+      "id": "INDUSTRIES"
+    },
+    {
+      "label": "ASSOCIATION",
+      "type": "candidate",
+      "id": "ASSOCIATION"
+    },
+    {
+      "label": "LT",
+      "type": "candidate",
+      "id": "LT"
+    },
+    {
+      "label": "ASD",
+      "type": "candidate",
+      "id": "ASD"
+    },
+    {
+      "label": "Declassify",
+      "type": "candidate",
+      "id": "Declassify"
+    },
+    {
+      "label": "Value",
+      "type": "candidate",
+      "id": "Value"
+    },
+    {
+      "label": "Person",
+      "type": "candidate",
+      "id": "Person"
+    },
+    {
+      "label": "Value After Action",
+      "type": "candidate",
+      "id": "Value After Action"
+    },
+    {
+      "label": "SECURITY",
+      "type": "candidate",
+      "id": "SECURITY"
+    },
+    {
+      "label": "EUROPE",
+      "type": "candidate",
+      "id": "EUROPE"
+    },
+    {
+      "label": "Classification",
+      "type": "candidate",
+      "id": "Classification"
+    },
+    {
+      "label": "Wink",
+      "type": "candidate",
+      "id": "Wink"
+    },
+    {
+      "label": "Guidance",
+      "type": "candidate",
+      "id": "Guidance"
+    },
+    {
+      "label": "Classified",
+      "type": "candidate",
+      "id": "Classified"
+    },
+    {
+      "label": "Clifford",
+      "type": "candidate",
+      "id": "Clifford"
+    },
+    {
+      "label": "Calm",
+      "type": "candidate",
+      "id": "Calm"
+    },
+    {
+      "label": "Classification Action Group",
+      "type": "candidate",
+      "id": "Classification Action Group"
+    },
+    {
+      "label": "Group",
+      "type": "candidate",
+      "id": "Group"
+    },
+    {
+      "label": "Declassify On",
+      "type": "candidate",
+      "id": "Declassify On"
+    },
+    {
+      "label": "Bike Security Guidance Book",
+      "type": "candidate",
+      "id": "Bike Security Guidance Book"
+    },
+    {
+      "label": "Contact Person",
+      "type": "candidate",
+      "id": "Contact Person"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "OF",
+      "type": "candidate",
+      "id": "OF"
+    },
+    {
+      "label": "Unit",
+      "type": "candidate",
+      "id": "Unit"
+    },
+    {
+      "label": "Contact",
+      "type": "candidate",
+      "id": "Contact"
+    },
+    {
+      "label": "Action",
+      "type": "candidate",
+      "id": "Action"
+    },
+    {
+      "label": "Couriers",
+      "type": "candidate",
+      "id": "Couriers"
+    },
+    {
+      "label": "Business",
+      "type": "candidate",
+      "id": "Business"
+    },
+    {
+      "label": "DEFENCE",
+      "type": "candidate",
+      "id": "DEFENCE"
+    },
+    {
+      "label": "Derivative",
+      "type": "candidate",
+      "id": "Derivative"
+    },
+    {
+      "label": "Business Unit",
+      "type": "candidate",
+      "id": "Business Unit"
+    },
+    {
+      "label": "Security",
+      "type": "candidate",
+      "id": "Security"
+    },
+    {
+      "label": "Levelled Para",
+      "type": "heading",
+      "id": "Levelled Para"
+    },
+    {
+      "label": "ICN",
+      "type": "candidate",
+      "id": "ICN"
+    },
+    {
+      "label": "Levelled",
+      "type": "candidate",
+      "id": "Levelled"
+    },
+    {
+      "label": "system",
+      "type": "candidate",
+      "id": "system"
+    },
+    {
+      "label": "Para",
+      "type": "candidate",
+      "id": "Para"
+    },
+    {
+      "label": "Lighting",
+      "type": "candidate",
+      "id": "Lighting"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "US"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "AA",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM",
+      "target": "DM Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "AAA",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Electrical"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Title"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Description"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DM Address Items",
+      "target": "Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Calm Security"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "After"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Source"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Classified By"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "AND"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Derivative Source"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Book"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Upgrade"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "AEROSPACE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "INDUSTRIES"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "ASSOCIATION"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "LT"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "ASD"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Declassify"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Value"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Person"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Value After Action"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "SECURITY"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "EUROPE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Classification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Wink"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Guidance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Classified"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Clifford"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Calm"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Classification Action Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Declassify On"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Bike Security Guidance Book"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Contact Person"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "OF"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Unit"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Contact"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Action"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Couriers"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Business"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "DEFENCE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Derivative"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Business Unit"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "DM Status",
+      "target": "Security"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "ICN"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Levelled Para"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Levelled"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "system"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Para"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Levelled Para",
+      "target": "Lighting"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procDocument xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>Lighting Component Data</procTitle>
+  <procDesc>This document details the components associated with a lighting system, as extracted from the provided XML data.</procDesc>
+  <applicationSpecificModels>
+    <model>
+      <modelName>Mountain Bike</modelName>
+      <modelDesc>(Implied, based on component descriptions)</modelDesc>
+    </model>
+    <model>
+      <modelName>Vehicle Lighting System</modelName>
+      <modelDesc>(General context of the components)</modelDesc>
+    </model>
+  </applicationSpecificModels>
+  <componentList>
+    <componentGroup>
+      <groupTitle>2.1. Light Assemblies &amp; Sub-Assemblies</groupTitle>
+      <component>
+        <partNumber>LRU1022</partNumber>
+        <description>Seal</description>
+      </component>
+      <component>
+        <partNumber>LRU-B001</partNumber>
+        <description>Bracket, light mounting</description>
+      </component>
+      <component>
+        <partNumber>LRU-B124</partNumber>
+        <description>Screw, special</description>
+      </component>
+      <component>
+        <partNumber>LRU-B178</partNumber>
+        <description>Washer, flat</description>
+      </component>
+      <component>
+        <partNumber>LRU-B556</partNumber>
+        <description>Grip, strip</description>
+      </component>
+      <component>
+        <partNumber>LRU2010</partNumber>
+        <description>Light, sub assembly rear</description>
+      </component>
+      <component>
+        <partNumber>LRU2018</partNumber>
+        <description>Lens, assembly rear</description>
+      </component>
+      <component>
+        <partNumber>LRU1026</partNumber>
+        <description>Loom wiring</description>
+      </component>
+      <component>
+        <partNumber>LRU1022</partNumber>
+        <description>Seal</description>
+      </component>
+    </componentGroup>
+    <componentGroup>
+      <groupTitle>2.2. Bulbs &amp; Lighting Elements</groupTitle>
+      <component>
+        <partNumber>LIRUS-B1-12F</partNumber>
+        <description>Front Bulb</description>
+      </component>
+      <component>
+        <partNumber>LIRUS-B1-12R</partNumber>
+        <description>Rear Bulb</description>
+      </component>
+      <component>
+        <partNumber>LIRUS-G1-10</partNumber>
+        <description>Glass</description>
+      </component>
+      <component>
+        <partNumber>LIRUS-G1-10H</partNumber>
+        <description>Glass with hole</description>
+      </component>
+      <component>
+        <partNumber>LIRUS-B1-12F</partNumber>
+        <description>Front Bulb</description>
+      </component>
+    </componentGroup>
+    <componentGroup>
+      <groupTitle>2.3. Structural &amp; Fastening Components</groupTitle>
+      <component>
+        <partNumber>LRU-B003</partNumber>
+        <description>Clip</description>
+      </component>
+      <component>
+        <partNumber>LRU-B789</partNumber>
+        <description>Washer, flat</description>
+      </component>
+      <component>
+        <partNumber>LRU-B124</partNumber>
+        <description>Screw, special</description>
+      </component>
+    </componentGroup>
+    <componentGroup>
+      <groupTitle>2.4. Core Lighting Components</groupTitle>
+      <component>
+        <partNumber>LRU1020</partNumber>
+        <description>Light, sub assembly front</description>
+      </component>
+      <component>
+        <partNumber>LRU1019</partNumber>
+        <description>Lens, assembly front</description>
+      </component>
+      <component>
+        <partNumber>LRU1014</partNumber>
+        <description>Glass</description>
+      </component>
+      <component>
+        <partNumber>LRU1015</partNumber>
+        <description>Glass with hole</description>
+      </component>
+      <component>
+        <partNumber>LRU1016</partNumber>
+        <description>Bulb</description>
+      </component>
+      <component>
+        <partNumber>LRU1017</partNumber>
+        <description>Bulb</description>
+      </component>
+      <component>
+        <partNumber>LRU1018</partNumber>
+        <description>Seal</description>
+      </component>
+    </componentGroup>
+    <componentGroup>
+      <groupTitle>2.5. Other Components</groupTitle>
+      <component>
+        <partNumber>LRU1012</partNumber>
+        <description>Seal</description>
+      </component>
+      <component>
+        <partNumber>LRU1013</partNumber>
+        <description>Seal</description>
+      </component>
+      <component>
+        <partNumber>LRU1010</partNumber>
+        <description>Seal</description>
+      </component>
+      <component>
+        <partNumber>LRU1011</partNumber>
+        <description>Seal</description>
+      </component>
+    </componentGroup>
+  </componentList>
+  <supplierInformation>
+    <supplier>KZ777</supplier>
+    <supplierNote>Consistent across all parts</supplierNote>
+    <supplierNote>All parts are sourced from the same supplier.</supplierNote>
+  </supplierInformation>
+  <notes>
+    <note>The data appears to be related to a bicycle or small vehicle lighting system.</note>
+    <note>Multiple components share similar descriptions (e.g., different types of seals).</note>
+    <note>The data includes both complete assemblies and individual components.</note>
+    <note>The parts from CPF 2009-158S1 spf proposal for modifying LIGHTING 941 are specifically mentioned.</note>
+    <note>The data contains some repetition and inconsistencies in component descriptions.</note>
+  </notes>
+</procDocument>

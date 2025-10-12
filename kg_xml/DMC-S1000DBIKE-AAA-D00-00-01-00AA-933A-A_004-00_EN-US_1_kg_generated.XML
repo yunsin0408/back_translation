@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>Bike Fork Replacement Procedure</procTitle>
+  <introduction>
+    <para>This document outlines the procedure for replacing a bike fork. It details the necessary steps, precautions, and references to relevant documentation.</para>
+  </introduction>
+  <prereq>
+    <heading>Prerequisites &amp; Materials</heading>
+    <list>
+      <item>New Bike Fork</item>
+      <item>Standard Bike Tools (Wrenches, Allen Keys, etc.)</item>
+      <item>Grease/Lubricant</item>
+      <item>Reference Documentation (as indicated throughout the procedure)</item>
+    </list>
+  </prereq>
+  <prelimReqs>
+    <heading>Preliminary Requirements</heading>
+    <list>
+      <item>Ensure the bike is securely positioned on a repair stand or stable surface.</item>
+      <item>Disconnect any electrical components if applicable.</item>
+    </list>
+  </prelimReqs>
+  <procedureStep>
+    <stepNumber>1</stepNumber>
+    <stepTitle>Preparation</stepTitle>
+    <list>
+      <item>
+        <bold>Remove Front Wheel:</bold> Refer to documentation <xref xlink:href="S1000BIKE-DA0-3-0-00-00-AA-520" type="dmref"/> for instructions on front wheel removal.</item>
+      <item>
+        <bold>Remove Front Brakes:</bold> Refer to documentation <xref xlink:href="S1000BIKE-DA1-2-0-00-00-AA-520" type="dmref"/> for instructions on front brake removal.</item>
+    </list>
+  </procedureStep>
+  <procedureStep>
+    <stepNumber>2</stepNumber>
+    <stepTitle>Fork Removal</stepTitle>
+    <list>
+      <item>
+        <bold>Remove Fork:</bold> Refer to documentation <xref xlink:href="S1000BIKE-D00-0-0-01-00-AA-520" type="dmref"/> for instructions on fork removal.</item>
+      <item>
+        <bold>Change Bike Axis:</bold> Refer to documentation <xref xlink:href="S1000BIKE-D00-0-0-01-00-AA-93A" type="dmref"/> for instructions on changing the bike axis.</item>
+    </list>
+  </procedureStep>
+  <procedureStep>
+    <stepNumber>3</stepNumber>
+    <stepTitle>Fork Installation</stepTitle>
+    <list>
+      <item>
+        <bold>Install New Fork:</bold> Options depend on the specific fork model.
+        <list>
+          <item>
+            <bold>Option 1:</bold> Refer to documentation <xref xlink:href="S1000BIKE-D00-0-0-01-00-AA-720" type="dmref"/>.</item>
+          <item>
+            <bold>Option 2:</bold> Refer to documentation <xref xlink:href="S1000BIKE-D00-0-0-01-00-AB-720" type="dmref"/>.</item>
+        </list>
+      </item>
+    </list>
+  </procedureStep>
+  <procedureStep>
+    <stepNumber>4</stepNumber>
+    <stepTitle>Reassembly</stepTitle>
+    <list>
+      <item>
+        <bold>Install Front Brakes:</bold> Refer to documentation <xref xlink:href="S1000BIKE-DA1-2-0-00-00-AA-720" type="dmref"/> for instructions on front brake installation.</item>
+      <item>
+        <bold>Install Front Wheel:</bold> Refer to documentation <xref xlink:href="S1000BIKE-DA0-3-0-00-00-AA-720" type="dmref"/> for instructions on front wheel installation.</item>
+    </list>
+  </procedureStep>
+  <procedureStep>
+    <stepNumber>5</stepNumber>
+    <stepTitle>Testing &amp; Verification</stepTitle>
+    <list>
+      <item>
+        <bold>Fork Installation Test:</bold> Refer to documentation <xref xlink:href="S1000BIKE-D00-0-0-01-00-AA-341" type="dmref"/> to verify proper fork installation.</item>
+      <item>
+        <bold>Front Brakes Test:</bold> Refer to documentation <xref xlink:href="BRAKE-DA1-0-0-00-00-AA-341" type="dmref"/> to verify proper brake function.</item>
+    </list>
+  </procedureStep>
+  <closingRemarks>
+    <para>This procedure provides a general guideline for bike fork replacement. Always consult the manufacturer's specifications and safety guidelines for your specific bike and components. Ensure all connections are secure before operating the bike.</para>
+  </closingRemarks>
+</procedure>

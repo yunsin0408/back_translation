@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dm>
-  <dmIdent>
-    <modelIdentCode>S1000DLIGHTING</modelIdentCode>
-    <systemDiffCode>AAA</systemDiffCode>
-    <systemCode>D00</systemCode>
-    <subSystemCode>0</subSystemCode>
-    <subSubSystemCode>0</subSubSystemCode>
-    <assyCode>00</assyCode>
-    <disassyCode>00</disassyCode>
-    <disassyCodeVariant>AA</disassyCodeVariant>
-    <infoCode>00J</infoCode>
-    <infoCodeVariant>A</infoCodeVariant>
-    <itemLocationCode>D</itemLocationCode>
+  <dmAddress>
+    <dmIdent>
+      <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>D00</systemCode>
+      <subSystemCode>0</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assyCode>00</assyCode>
+      <disassyCode>00</disassyCode>
+      <disassyCodeVariant>AA</disassyCodeVariant>
+      <infoCode>00J</infoCode>
+      <infoCodeVariant>A</infoCodeVariant>
+      <itemLocationCode>D</itemLocationCode>
+    </dmIdent>
     <language>
       <countryIsoCode>US</countryIsoCode>
       <languageIsoCode>en</languageIsoCode>
@@ -20,7 +22,7 @@
       <issueNumber>001</issueNumber>
       <inWork>00</inWork>
     </issueInfo>
-  </dmIdent>
+  </dmAddress>
   <dmAddressItems>
     <issueDate>
       <year>2024</year>
@@ -53,17 +55,17 @@
       </restrictionInstructions>
       <restrictionInfo>
         <copyright>
-          <copyrightPara emphasis="Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD"/>
-          <copyrightPara emphasis="Publishers:"/>
+          <copyrightPara emphasis="true">Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+          <copyrightPara emphasis="true">Publishers:</copyrightPara>
           <randomList>
             <listItem>Aerospace, Security and Defence Industries Association of Europe</listItem>
             <listItem>Aerospace Industries Association of America</listItem>
             <listItem>ATA e-Business Program</listItem>
           </randomList>
-          <copyrightPara emphasis="Limitations of liability:"/>
+          <copyrightPara emphasis="true">Limitations of liability:</copyrightPara>
           <randomList>
-            <listItem>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</listItem>
-            <listItem>Neither ASD nor any person who has contributed to the creation, revision or maintenance of the material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</listItem>
+            <listItem>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for a particular purpose.</listItem>
+            <listItem>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising out of the use of this material.</listItem>
             <listItem>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</listItem>
           </randomList>
           <copyrightPara>The details for copyright can be found in the S1000D Specification.</copyrightPara>
@@ -172,7 +174,7 @@
           <assyCode>00</assyCode>
           <disassyCode>00</disassyCode>
           <disassyCodeVariant>AA</disassyCodeVariant>
-          <infoCode>022</infoCode>
+          <infoCode>00W</infoCode>
           <infoCodeVariant>A</infoCodeVariant>
           <itemLocationCode>D</itemLocationCode>
         </dmCode>
@@ -181,55 +183,64 @@
   </brexDmRef>
   <commonContent>
     <accessPoint>
-      <id>AP1</id>
-      <contentType>text/html</contentType>
-      <contentLocation>http://example.com</contentLocation>
+      <contentAccess>
+        <identification>
+          <id>d1</id>
+        </identification>
+      </contentAccess>
     </accessPoint>
   </commonContent>
   <accessPoint>
-    <id>AP1</id>
-    <contentType>text/html</contentType>
-    <contentLocation>http://example.com</contentLocation>
+    <contentAccess>
+      <identification>
+        <id>123</id>
+      </identification>
+    </contentAccess>
   </accessPoint>
   <commonContent>
     <accessPoint>
-      <id>AP1</id>
-      <contentType>text/html</contentType>
-      <contentLocation>http://example.com</contentLocation>
+      <contentAccess>
+        <identification>
+          <id>d1</id>
+        </identification>
+      </contentAccess>
     </accessPoint>
   </commonContent>
+  <accessPoint>
+    <contentAccess>
+      <identification>
+        <id>123</id>
+      </identification>
+    </contentAccess>
+  </accessPoint>
   <commonContent>
     <accessPoint>
-      <id>AP1</id>
-      <contentType>text/html</contentType>
-      <contentLocation>http://example.com</contentLocation>
-    </accessPoint>
-  </commonContent>
-  <commonContent>
-    <accessPoint>
-      <id>AP1</id>
-      <contentType>text/html</contentType>
-      <contentLocation>http://example.com</contentLocation>
+      <contentAccess>
+        <identification>
+          <id>d1</id>
+        </identification>
+      </contentAccess>
     </accessPoint>
   </commonContent>
   <accessPoint>
-    <id>AP1</id>
-    <contentType>text/html</contentType>
-    <contentLocation>http://example.com</contentLocation>
+    <contentAccess>
+      <identification>
+        <id>123</id>
+      </identification>
+    </contentAccess>
   </accessPoint>
   <accessPoint>
-    <id>AP1</id>
-    <contentType>text/html</contentType>
-    <contentLocation>http://example.com</contentLocation>
+    <contentAccess>
+      <identification>
+        <id>123</id>
+      </identification>
+    </contentAccess>
   </accessPoint>
   <accessPoint>
-    <id>AP1</id>
-    <contentType>text/html</contentType>
-    <contentLocation>http://example.com</contentLocation>
-  </accessPoint>
-  <accessPoint>
-    <id>AP1</id>
-    <contentType>text/html</contentType>
-    <contentLocation>http://example.com</contentLocation>
+    <contentAccess>
+      <identification>
+        <id>123</id>
+      </identification>
+    </contentAccess>
   </accessPoint>
 </dm>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmaddress>
+    <dmident>
+      <modelidentcode>S1000DBIKE</modelidentcode>
+      <systemdiffcode>AAA</systemdiffcode>
+      <systemcode>D00</systemcode>
+      <subsystemcode>0</subsystemcode>
+      <subsystembasecode>0</subsystembasecode>
+      <assycode>01</assycode>
+      <disassycode>00</disassycode>
+      <disassyvariantcode>AA</disassyvariantcode>
+      <infocode>93A</infocode>
+      <infovariantcode>A</infovariantcode>
+      <itemlocationcode>A</itemlocationcode>
+    </dmident>
+    <language>
+      <countryisocode>US</countryisocode>
+      <languageisocode>en</languageisocode>
+    </language>
+    <issueinfo>
+      <issuenumber>004</issuenumber>
+      <inwork>00</inwork>
+    </issueinfo>
+    <dmaddressitems>
+      <issuedate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issuedate>
+      <dmtitle>
+        <techname>Bicycle axis</techname>
+        <infoname>Modification procedures</infoname>
+      </dmtitle>
+    </dmaddressitems>
+  </dmaddress>
+  <dmstatus>
+    <issuetype>status</issuetype>
+    <security>
+      <securityclassification>01</securityclassification>
+      <commercialclassification>cc51</commercialclassification>
+      <caveat>cv51</caveat>
+    </security>
+    <datarestrictions>
+      <restrictioninstructions>
+        <datadistribution>To be made available to all S1000D users.</datadistribution>
+        <exportcontrol>
+          <exportregistrationstmt>Simple Paragraph: Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportregistrationstmt>
+        </exportcontrol>
+        <datahandling>There are no specific handling instructions for this data module.</datahandling>
+        <datadestruction>Users may destroy this data module in accordance with their own local procedures.</datadestruction>
+        <datadischlosure>There are no dissemination limitations that apply to this data module.</datadischlosure>
+      </restrictioninstructions>
+      <restrictioninfo>
+        <copyright>
+          <copyrightparagraph>*Copyright (C) 2024* by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightparagraph>
+          <copyrightparagraph>*Publishers:*</copyrightparagraph>
+          <randomlist>
+            <item>Aerospace, Security and Defence Industries Association of Europe</item>
+            <item>Aerospace Industries Association of America</item>
+            <item>ATA e-Business Program</item>
+          </randomlist>
+          <copyrightparagraph>*Limitations of liability:*</copyrightparagraph>
+          <randomlist>
+            <item>This material is provided "As is" and there are no warranties.</item>
+            <item>This material is provided "As is" and there are no warranties.</item>
+          </randomlist>
+        </copyright>
+        <qualityassurance verificationtype="tabtop">firstVerification</qualityassurance>
+      </restrictioninfo>
+    </datarestrictions>
+    <systembreakdowncode>BY</systembreakdowncode>
+    <skilllevel skilllevelcode="sk01"/>
+    <reasonforupdate id="rfu_general" updateReasonType="urt03">
+      <simpleparagraph>S1000D upissued</simpleparagraph>
+    </reasonforupdate>
+  </dmstatus>
+  <content>
+    <refs>
+      <dmref>
+        <modelidentcode>S1000DBIKE</modelidentcode>
+        <systemdiffcode>AAA</systemdiffcode>
+        <systemcode>D00</systemcode>
+        <subsystemcode>0</subsystemcode>
+        <subsystembasecode>0</subsystembasecode>
+        <assycode>01</assycode>
+        <disassycode>00</disassycode>
+        <disassyvariantcode>AA</disassyvariantcode>
+        <infocode>930</infocode>
+        <infovariantcode>A</infovariantcode>
+        <itemlocationcode>A</itemlocationcode>
+      </dmref>
+    </refs>
+    <procedure>
+      <preliminaryrqmts>
+        <reqcondgroup>No conditions</reqcondgroup>
+        <reqsupportequips>
+          <supportequipdescrgroup>
+            <supportequipdescr materialUsage="mu05">(material set)</supportequipdescr>
+            <name>Saw tool set</name>
+            <materialsetref materialSetIdent="BSK-TLST-200" materialSetIssue="001">
+              <dmref>
+                <modelidentcode>S1000DBIKE</modelidentcode>
+                <systemdiffcode>AAA</systemdiffcode>
+                <systemcode>D00</systemcode>
+                <subsystemcode>0</subsystemcode>
+                <subsystembasecode>0</subsystembasecode>
+                <assycode>01</assycode>
+                <disassycode>00</disassycode>
+                <disassyvariantcode>AA</disassyvariantcode>
+                <infocode>930</infocode>
+                <infovariantcode>A</infovariantcode>
+                <itemlocationcode>A</itemlocationcode>
+              </dmref>
+            </materialsetref>
+            <reqquantity unitOfMeasure="EA">1</reqquantity>
+            <embeddedsupportequipdescr id="seq-0001">
+              <name>Saw tool</name>
+              <identnumber>
+                <manufacturerCode>KZ666</manufacturerCode>
+                <partandsnumber>
+                  <partnumber>BSK-TW-100</partnumber>
+                </partandsnumber>
+              </identnumber>
+              <reqquantity unitOfMeasure="EA">1</reqquantity>
+            </embeddedsupportequipdescr>
+            <embeddedsupportequipdescr id="seq-0002">
+              <name>Threading tool</name>
+              <identnumber>
+                <manufacturerCode>KZ666</manufacturerCode>
+                <partandsnumber>
+                  <partnumber>BSK-THR-3001</partnumber>
+                </partandsnumber>
+              </identnumber>
+              <reqquantity unitOfMeasure="EA">1</reqquantity>
+            </embeddedsupportequipdescr>
+          </supportequipdescrgroup>
+        </reqsupportequips>
+        <reqsupplies>No supplies</reqsupplies>
+        <reqspares>
+          <sparedescrgroup>
+            <sparedescr id="spa-0001" materialUsage="mu03">(modified from)
+              <name>Wheel axis</name>
+              <identnumber>
+                <manufacturerCode>KZ666</manufacturerCode>
+                <partandsnumber>
+                  <partnumber>BSK-AXS-2001</partnumber>
+                </partandsnumber>
+              </identnumber>
+              <reqquantity unitOfMeasure="EA">1</reqquantity>
+              <embeddedsparedescr id="spa-0002">
+                <name>Wheel axis</name>
+                <identnumber>
+                  <manufacturerCode>KZ666</manufacturerCode>
+                  <partandsnumber>
+                    <partnumber>BSK-AXS-2000</partnumber>
+                  </partandsnumber>
+                </identnumber>
+                <reqquantity unitOfMeasure="EA">1</reqquantity>
+              </embeddedsparedescr>
+            </sparedescr>
+          </sparedescrgroup>
+        </reqspares>
+        <reqsafety>No safety</reqsafety>
+      </preliminaryrqmts>
+      <mainprocedure>
+        <proceduralstep>Procedural step: Procedural step</proceduralstep>
+        <proceduralstep>Procedural step: Procedural step</proceduralstep>
+      </mainprocedure>
+    </procedure>
+  </content>
+</data>

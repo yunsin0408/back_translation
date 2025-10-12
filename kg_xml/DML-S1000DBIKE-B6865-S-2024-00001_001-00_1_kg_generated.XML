@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Technical Documentation - Bike Maintenance &amp; Troubleshooting</title>
+  <documentid>DML-S1000DBIKE-B6865-S-2024-00001_001-00_1</documentid>
+  <applicability>
+    <system>Bicycle</system>
+  </applicability>
+  <content>
+    <section>
+      <title>1. Headset &amp; Steering (System DA1)</title>
+      <task>
+        <taskid>1</taskid>
+        <tasktitle>Headset Installation</tasktitle>
+        <component>Headset</component>
+        <procedure>Installation</procedure>
+        <issuenumber>008</issuenumber>
+        <status>Open</status>
+      </task>
+    </section>
+    <section>
+      <title>2. Braking System (System DA2)</title>
+      <task>
+        <taskid>2</taskid>
+        <tasktitle>Brake Pad Replacement</tasktitle>
+        <component>Brake Pads</component>
+        <procedure>Replace</procedure>
+        <issuenumber>011</issuenumber>
+        <status>Open</status>
+      </task>
+    </section>
+    <section>
+      <title>3. Drivetrain - Chain (System DA4)</title>
+      <task>
+        <taskid>3</taskid>
+        <tasktitle>Chain Oiling</tasktitle>
+        <component>Chain</component>
+        <procedure>Oil</procedure>
+        <issuenumber>011</issuenumber>
+        <date>2024-06-19</date>
+      </task>
+      <task>
+        <taskid>4</taskid>
+        <tasktitle>Chain Cleaning</tasktitle>
+        <component>Chain</component>
+        <procedure>Clean with chemical agent</procedure>
+        <issuenumber>010</issuenumber>
+        <variant>Use chain cleaning fluid</variant>
+        <date>2024-06-19</date>
+      </task>
+      <task>
+        <taskid>5</taskid>
+        <tasktitle>Correlated Fault</tasktitle>
+        <component>Chain</component>
+        <procedure>Correlated fault</procedure>
+        <issuenumber>008</issuenumber>
+        <date>2024-06-19</date>
+      </task>
+    </section>
+    <section>
+      <title>4. Drivetrain - Gears (System DA5)</title>
+      <task>
+        <taskid>6</taskid>
+        <tasktitle>Gear Construction</tasktitle>
+        <component>Gears</component>
+        <procedure>Description of how it is made</procedure>
+        <issuenumber>010</issuenumber>
+        <date>2024-06-19</date>
+      </task>
+      <task>
+        <taskid>7</taskid>
+        <tasktitle>Mech Construction</tasktitle>
+        <component>Mechs</component>
+        <procedure>Description of how it is made</procedure>
+        <issuenumber>010</issuenumber>
+        <date>2024-06-19</date>
+      </task>
+      <task>
+        <taskid>8</taskid>
+        <tasktitle>Hub Cleaning</tasktitle>
+        <component>Hubs</component>
+        <procedure>Clean with chemical agent</procedure>
+        <variant>Use degreasing agent</variant>
+        <issuenumber>011</issuenumber>
+        <date>2024-06-19</date>
+      </task>
+      <task>
+        <taskid>9</taskid>
+        <tasktitle>Shifter Construction</tasktitle>
+        <component>Shifters</component>
+        <procedure>Description of how it is made</procedure>
+        <issuenumber>010</issuenumber>
+        <date>2024-06-19</date>
+      </task>
+    </section>
+    <section>
+      <title>5. Wheels &amp; Tires (System DA5 - continued)</title>
+      <task>
+        <taskid>10</taskid>
+        <tasktitle>Hub Cleaning (Continued)</tasktitle>
+        <component>Hubs</component>
+        <procedure>Clean with chemical agent</procedure>
+        <variant>Use degreasing agent</variant>
+        <issuenumber>011</issuenumber>
+        <date>2024-06-19</date>
+      </task>
+    </section>
+    <section>
+      <title>6. General / Undefined Systems (Systems DA1, DA2)</title>
+      <task>
+        <taskid>11</taskid>
+        <tasktitle>Headset Installation (DA1)</tasktitle>
+        <system>DA1 - Headset &amp; Steering</system>
+        <component>Headset</component>
+        <procedure>Installation</procedure>
+        <issuenumber>008</issuenumber>
+      </task>
+      <task>
+        <taskid>12</taskid>
+        <tasktitle>Brake Pad Replacement (DA2)</tasktitle>
+        <system>DA2 - Braking</system>
+        <component>Brake Pads</component>
+        <procedure>Replace</procedure>
+        <issuenumber>011</issuenumber>
+      </task>
+    </section>
+    <notes>
+      <note>This documentation is structured by system/component.</note>
+      <note>Issue numbers can indicate the severity or priority of the task.</note>
+      <note>Dates indicate when the procedure/troubleshooting information was last updated.</note>
+      <note>Some components are listed in multiple systems as they may belong to both.</note>
+    </notes>
+  </content>
+</proced>

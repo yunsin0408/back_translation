@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_info xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_info_title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00HA-D_004-00_EN-US</dmc_info_title>
+  <ident_and_status_section>
+    <dm_address>
+      <dm_ident>
+        <model_ident_code>S1000DLIGHTING</model_ident_code>
+        <system_diff_code>AAA</system_diff_code>
+        <system_code>D00</system_code>
+        <sub_system_code>0</sub_system_code>
+        <sub_sub_system_code>0</sub_sub_system_code>
+        <assy_code>00</assy_code>
+        <disassy_code>00</disassy_code>
+        <disassy_code_variant>AA</disassy_code_variant>
+        <info_code>00H</info_code>
+        <info_code_variant>A</info_code_variant>
+        <item_location_code>D</item_location_code>
+      </dm_ident>
+      <language>
+        <language_iso_code>en</language_iso_code>
+        <country_iso_code>US</country_iso_code>
+      </language>
+      <issue_info>
+        <issue_number>004</issue_number>
+        <in_work>00</in_work>
+      </issue_info>
+      <dm_address_items>
+        <issue_date>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issue_date>
+        <dm_title>
+          <tech_name>Lighting</tech_name>
+          <info_name>Zones common information repository</info_name>
+        </dm_title>
+      </dm_address_items>
+    </dm_address>
+    <dm_status>
+      <issue_type>revised</issue_type>
+    </dm_status>
+    <security>
+      <security_note>(No specific security attributes provided in the XML)</security_note>
+    </security>
+    <quality_assurance>
+      <first_verification>tabtop</first_verification>
+    </quality_assurance>
+    <reason_for_update>
+      <id>rfu_general</id>
+      <update_reason_type>urt03</update_reason_type>
+      <simple_para>S1000D upissued</simple_para>
+    </reason_for_update>
+    <reason_for_update>
+      <id>RFU-CPF_2020-040EPWG</id>
+      <update_reason_type>urt01</update_reason_type>
+      <simple_para>CPF_2020-040EPWG Bike Enhancement with elements and attributes missing in the samples</simple_para>
+    </reason_for_update>
+  </ident_and_status_section>
+  <content>
+    <referenced_applic_group>
+      <applic id="app-0001">
+        <display_text>
+          <simple_para>Mountain storm Mk1</simple_para>
+        </display_text>
+        <evaluate>
+          <assert>
+            <applic_property_ident>model</applic_property_ident>
+            <applic_property_type>prodattr</applic_property_type>
+            <applic_property_values>Mountain storm</applic_property_values>
+          </assert>
+          <assert>
+            <applic_property_ident>version</applic_property_ident>
+            <applic_property_type>prodattr</applic_property_type>
+            <applic_property_values>Mk1</applic_property_values>
+          </assert>
+          <assert>
+            <applic_property_ident>versrank</applic_property_ident>
+            <applic_property_type>prodattr</applic_property_type>
+            <applic_property_values>1~3</applic_property_values>
+          </assert>
+        </evaluate>
+      </applic>
+      <applic id="app-0002">
+        <display_text>
+          <simple_para>Brook trekker Mk9</simple_para>
+        </display_text>
+        <evaluate>
+          <assert>
+            <applic_property_ident>model</applic_property_ident>
+            <applic_property_type>prodattr</applic_property_type>
+            <applic_property_values>Brook trekker</applic_property_values>
+          </assert>
+          <assert>
+            <applic_property_ident>version</applic_property_ident>
+            <applic_property_type>prodattr</applic_property_type>
+            <applic_property_values>Mk9</applic_property_values>
+          </assert>
+          <assert>
+            <applic_property_ident>versrank</applic_property_ident>
+            <applic_property_type>prodattr</applic_property_type>
+            <applic_property_values>1~2</applic_property_values>
+          </assert>
+        </evaluate>
+      </applic>
+      <applic id="app-0003">
+        <display_text>
+          <simple_para>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simple_para>
+        </display_text>
+        <evaluate>
+          <assert>
+            <applic_property_ident>type</applic_property_ident>
+            <applic_property_type>prodattr</applic_property_type>
+            <applic_property_values>Mountain bicycle</applic_property_values>
+          </assert>
+          <evaluate>
+            <assert>
+              <applic_property_ident>model</applic_property_ident>
+              <applic_property_type>prodattr</applic_property_type>
+              <applic_property_values>Mountain storm</applic_property_values>
+            </assert>
+            <assert>
+              <applic_property_ident>version</applic_property_ident>
+              <applic_property_type>prodattr</applic_property_type>
+              <applic_property_values>Mk1</applic_property_values>
+            </assert>
+            <evaluate>
+              <assert>
+                <applic_property_ident>model</applic_property_ident>
+                <applic_property_type>prodattr</applic_property_type>
+                <applic_property_values>Brook trekker</applic_property_values>
+              </assert>
+              <assert>
+                <applic_property_ident>version</applic_property_ident>
+                <applic_property_type>prodattr</applic_property_type>
+                <applic_property_values>Mk9</applic_property_values>
+              </assert>
+            </evaluate>
+          </evaluate>
+        </evaluate>
+      </applic>
+    </referenced_applic_group>
+    <common_repository>
+      <zone_repository>
+        <zone id="100">
+          <zone_name>FRONT</zone_name>
+          <zone_type>majorzone</zone_type>
+          <zone_ident>100</zone_ident>
+          <zone_ref_group>contains (110, 130)</zone_ref_group>
+          <zone_alts>
+            <zone id="app-0002">
+              <item_descr>FRONT ZONE BEGINS BY FRONT TIRE. IT STARTS FROM LENGTH "0 cm" TO LENGTH "50 cm"</item_descr>
+            </zone>
+          </zone_alts>
+        </zone>
+        <zone id="110">
+          <zone_name>TIRE</zone_name>
+          <zone_type>subzone</zone_type>
+          <zone_ident>110</zone_ident>
+          <zone_ref_group>contains (110, 130)</zone_ref_group>
+          <zone_alts>
+            <zone id="app-0002">
+              <item_descr>FRONT ZONE BEGINS BY FRONT TIRE. IT STARTS FROM LENGTH "0 cm" TO LENGTH "50 cm"</item_descr>
+            </zone>
+          </zone_alts>
+        </zone>
+        <zone id="130">
+          <zone_name>TIRE</zone_name>
+          <zone_type>subzone</zone_type>
+          <zone_ident>130</zone_ident>
+          <zone_ref_group>contains (110, 130)</zone_ref_group>
+          <zone_alts>
+            <zone id="app-0002">
+              <item_descr>FRONT ZONE BEGINS BY FRONT TIRE. IT STARTS FROM LENGTH "0 cm" TO LENGTH "50 cm"</item_descr>
+            </zone>
+          </zone_alts>
+        </zone>
+      </zone_repository>
+    </common_repository>
+  </content>
+</dmc_info>

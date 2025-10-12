@@ -1,352 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<applicability xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
-  <applicabilityIdent>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US</applicabilityIdent>
-  <applicabilityName>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US</applicabilityName>
-  <issuePoint>
-    <issueIdent>010-00</issueIdent>
-    <issueDate>2019-01-28</issueDate>
-  </issuePoint>
-  <content>
-    <section id="ident_status_section">
-      <title>Ident and Status Section</title>
-      <section id="dm_address">
-        <title>DM Address</title>
-        <section id="dm_ident">
-          <title>DM Ident</title>
-          <item>
-            <key>modelIdentCode</key>
+<ApplicableTo>
+  <Title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US</Title>
+  <Issue>010-00</Issue>
+  <Content>
+    <Section title="Ident and Status Section">
+      <SubSection title="DM Address">
+        <SubSubSection title="DM Ident">
+          <Item>
+            <fieldName>modelIdentCode</fieldName>
             <value>S1000DLIGHTING</value>
-          </item>
-          <item>
-            <key>systemDiffCode</key>
+          </Item>
+          <Item>
+            <fieldName>systemDiffCode</fieldName>
             <value>AAA</value>
-          </item>
-          <item>
-            <key>systemCode</key>
+          </Item>
+          <Item>
+            <fieldName>systemCode</fieldName>
             <value>D00</value>
-          </item>
-          <item>
-            <key>subSystemCode</key>
+          </Item>
+          <Item>
+            <fieldName>subSystemCode</fieldName>
             <value>0</value>
-          </item>
-          <item>
-            <key>subSubSystemCode</key>
+          </Item>
+          <Item>
+            <fieldName>subSubSystemCode</fieldName>
             <value>0</value>
-          </item>
-          <item>
-            <key>assyCode</key>
+          </Item>
+          <Item>
+            <fieldName>assyCode</fieldName>
             <value>00</value>
-          </item>
-          <item>
-            <key>disassyCode</key>
+          </Item>
+          <Item>
+            <fieldName>disassyCode</fieldName>
             <value>00</value>
-          </item>
-          <item>
-            <key>disassyCodeVariant</key>
+          </Item>
+          <Item>
+            <fieldName>disassyCodeVariant</fieldName>
             <value>AA</value>
-          </item>
-          <item>
-            <key>infoCode</key>
+          </Item>
+          <Item>
+            <fieldName>infoCode</fieldName>
             <value>029</value>
-          </item>
-          <item>
-            <key>infoCodeVariant</key>
+          </Item>
+          <Item>
+            <fieldName>infoCodeVariant</fieldName>
             <value>A</value>
-          </item>
-          <item>
-            <key>itemLocationCode</key>
+          </Item>
+          <Item>
+            <fieldName>itemLocationCode</fieldName>
             <value>A</value>
-          </item>
-        </section>
-        <section id="language_issue_info">
-          <title>language</title>
-          <item>
-            <key>countryIsoCode</key>
+          </Item>
+        </SubSubSection>
+        <SubSubSection title="Language">
+          <Item>
+            <fieldName>countryIsoCode</fieldName>
             <value>US</value>
-          </item>
-          <item>
-            <key>languageIsoCode</key>
+          </Item>
+          <Item>
+            <fieldName>languageIsoCode</fieldName>
             <value>en</value>
-          </item>
-        </section>
-        <section id="issue_info">
-          <title>issueInfo</title>
-          <item>
-            <key>issueNumber</key>
+          </Item>
+        </SubSubSection>
+        <SubSubSection title="Issue Info">
+          <Item>
+            <fieldName>issueNumber</fieldName>
             <value>010</value>
-          </item>
-          <item>
-            <key>inWork</key>
+          </Item>
+          <Item>
+            <fieldName>inWork</fieldName>
             <value>0</value>
-          </item>
-        </section>
-      </section>
-      <section id="dm_configuration_management">
-        <title>DM Configuration Management</title>
-        <item>
-          <key>configurationManagement</key>
+          </Item>
+        </SubSubSection>
+      </SubSection>
+      <SubSection title="DM Issue">
+        <Item>
+          <fieldName>issueDate</fieldName>
+          <value>2019-01-28</value>
+        </Item>
+      </SubSection>
+      <SubSection title="DM Status">
+        <Item>
+          <fieldName>status</fieldName>
+          <value>Released</value>
+        </Item>
+      </SubSection>
+      <SubSection title="DM Configuration Management">
+        <Item>
+          <fieldName>configurationManagement</fieldName>
           <value>Not applicable</value>
-        </item>
-      </section>
-      <section id="dm_related_documents">
-        <title>DM Related Documents</title>
-        <item>
-          <key>relatedDocument</key>
+        </Item>
+      </SubSection>
+      <SubSection title="DM Related Documents">
+        <Item>
+          <fieldName>relatedDocument</fieldName>
           <value>Not applicable</value>
-        </item>
-      </section>
-    </section>
-    <section id="content_section">
-      <title>Content</title>
-      <section id="wiring_fields">
-        <title>Wiring Fields</title>
-        <section id="descr_wire">
-          <title>DescrWire</title>
-          <item>
-            <key>fieldName</key>
-            <value>Field Name</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Description of the field. (Repeated for each field)</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Wire</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contains the sequential number of the wire, e.g. in the harness.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Harness ident</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Wire sequential number</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contains the sequential number of the wire, e.g. in the harness.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Wire information circuit code</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contains the identifier of the circuit to which the wire belongs.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Wire information wire section identification</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contains the identifier of the section to which the wire belongs.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Length</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Length identifies the length of the wire. The given value is approximately 10% higher than necessary to install the wire on the bicycle.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Color</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Color identifies the color of the wire sheating.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Twisting</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Twistig identifies wires, which are twisted together with a unique identifier.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Electric ident</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Contact</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contact identifies the electrical contact to which the wire is connected.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Group code</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Identifies wires, which are connected to the same terminal lug.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Screens</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Responsible partner company</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>The given value is approximately 10% higher than necessary to install the wire on the bicycle.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Length</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>The given value is approximately 10% higher than necessary to install the wire on the bicycle.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Length</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>The given value is approximately 10% higher than necessary to install the wire on the bicycle.</value>
-          </item>
-        </section>
-        <section id="descr_wire">
-          <title>DescrWire</title>
-          <item>
-            <key>fieldName</key>
-            <value>Field Name</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Description of the field. (Repeated for each field)</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Wire</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contains the sequential number of the wire, e.g. in the harness.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Harness ident</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Wire sequential number</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contains the sequential number of the wire, e.g. in the harness.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Wire information circuit code</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contains the identifier of the circuit to which the wire belongs.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Wire information wire section identification</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contains the identifier of the section to which the wire belongs.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Length</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Length identifies the length of the wire. The given value is approximately 10% higher than necessary to install the wire on the bicycle.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Color</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Color identifies the color of the wire sheating.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Twisting</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Twistig identifies wires, which are twisted together with a unique identifier.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Electric ident</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Contact</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Contact identifies the electrical contact to which the wire is connected.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Group code</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Identifies wires, which are connected to the same terminal lug.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Screens</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</value>
-          </item>
-          <item>
-            <key>fieldName</key>
-            <value>Responsible partner company</value>
-          </item>
-          <item>
-            <key>description</key>
-            <value>The given value is approximately 10% higher than necessary to install the wire on the bicycle.</value>
-          </item>
-        </section>
-      </section>
-    </section>
-  </content>
-</applicability>
+        </Item>
+      </SubSection>
+    </Section>
+    <Section title="Content">
+      <SubSection title="Wiring Fields">
+        <SubSubSection title="DescrWire">
+          <Item>
+            <fieldName>Field Name</fieldName>
+            <description>Description of the field. (Repeated for each field)</description>
+          </Item>
+          <Item>
+            <fieldName>Wire</fieldName>
+            <description>Contains the sequential number of the wire, e.g. in the harness.</description>
+          </Item>
+          <Item>
+            <fieldName>Harness ident</fieldName>
+            <description>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</description>
+          </Item>
+          <Item>
+            <fieldName>Wire sequential number</fieldName>
+            <description>Contains the sequential number of the wire, e.g. in the harness.</description>
+          </Item>
+          <Item>
+            <fieldName>Wire information circuit code</fieldName>
+            <description>Contains the identifier of the circuit to which the wire belongs.</description>
+          </Item>
+          <Item>
+            <fieldName>Wire information wire section identification</fieldName>
+            <description>Contains the identifier of the section to which the wire belongs.</description>
+          </Item>
+          <Item>
+            <fieldName>Length</fieldName>
+            <description>Length identifies the length of the wire. The given value is approximately 10% higher than necessary to install the wire on the bicycle.</description>
+          </Item>
+          <Item>
+            <fieldName>Color</fieldName>
+            <description>Color identifies the color of the wire sheating.</description>
+          </Item>
+          <Item>
+            <fieldName>Twisting</fieldName>
+            <description>Twistig identifies wires, which are twisted together with a unique identifier.</description>
+          </Item>
+          <Item>
+            <fieldName>Electric ident</fieldName>
+            <description>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</description>
+          </Item>
+          <Item>
+            <fieldName>Contact</fieldName>
+            <description>Contact identifies the electrical contact to which the wire is connected.</description>
+          </Item>
+          <Item>
+            <fieldName>Group code</fieldName>
+            <description>Identifies wires, which are connected to the same terminal lug.</description>
+          </Item>
+          <Item>
+            <fieldName>Screens</fieldName>
+            <description>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</description>
+          </Item>
+          <Item>
+            <fieldName>Responsible partner company</fieldName>
+            <description>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</description>
+          </Item>
+          <Item>
+            <fieldName>Feed-through</fieldName>
+            <description>Identifies bunges through which the wire is routed.</description>
+          </Item>
+          <Item>
+            <fieldName>Next higher assembly</fieldName>
+            <description>Identifies the next higher assenbly, in which the wire is installed.</description>
+          </Item>
+        </SubSubSection>
+        <SubSubSection title="DescrHarness">
+          <Item>
+            <fieldName>Field Name</fieldName>
+            <description>Description of the field. (Repeated for each field)</description>
+          </Item>
+          <Item>
+            <fieldName>Harness ident</fieldName>
+            <description>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</description>
+          </Item>
+          <Item>
+            <fieldName>Harness Part number</fieldName>
+            <description>Harness part number gives the part number of the harness identified by the harness ident.</description>
+          </Item>
+          <Item>
+            <fieldName>Harness variant</fieldName>
+            <description>Harness variant identifies the variant of the harness in addition to the harness part number.</description>
+          </Item>
+          <Item>
+            <fieldName>Harness issue</fieldName>
+            <description>Harness issue identifies the production variant of the harness in addition to the harness part number.</description>
+          </Item>
+          <Item>
+            <fieldName>Harness nomenclature</fieldName>
+            <description>Harness nomenclature identifies the harness by using a specific name.</description>
+          </Item>
+          <Item>
+            <fieldName>Harness separation code</fieldName>
+            <description>Harness separation code gives the separation code of the harness.</description>
+          </Item>
+          <Item>
+            <fieldName>Minimum temperature</fieldName>
+            <description>Minimum temperature gives the minimum environment temperature in which the harness can be used.</description>
+          </Item>
+          <Item>
+            <fieldName>Maximum temperature</fieldName>
+            <description>Maximum temperature gives the maximum environment temperature in which the harness can be used.</description>
+          </Item>
+          <Item>
+            <fieldName>Harness environment</fieldName>
+            <description>Harness environment indicates that a harness is used in high vibriation or/and hydraulic areas.</description>
+          </Item>
+          <Item>
+            <fieldName>Sleeve</fieldName>
+            <description>Gives the part number and/or the material of the sleeves used on the harness.</description>
+          </Item>
+        </SubSubSection>
+        <SubSubSection title="DescrHarness">
+          <Item>
+            <fieldName>Field Name</fieldName>
+            <description>Description of the field. (Repeated for each field)</description>
+          </Item>
+          <Item>
+            <fieldName>Electric ident</fieldName>
+            <description>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</description>
+          </Item>
+          <Item>
+            <fieldName>Contact</fieldName>
+            <description>Contact identifies the electrical contact to which the wire is connected.</description>
+          </Item>
+          <Item>
+            <fieldName>Group code</fieldName>
+            <description>Identifies wires, which are connected to the same terminal lug.</description>
+          </Item>
+          <Item>
+            <fieldName>Screens</fieldName>
+            <description>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</description>
+          </Item>
+          <Item>
+            <fieldName>Responsible partner company</fieldName>
+            <description>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</description>
+          </Item>
+          <Item>
+            <fieldName>Feed-through</fieldName>
+            <description>Identifies bunges through which the wire is routed.</description>
+          </Item>
+          <Item>
+            <fieldName>Next higher assembly</fieldName>
+            <description>Identifies the next higher assenbly, in which the wire is installed.</description>
+          </Item>
+        </SubSubSection>
+      </SubSection>
+    </Section>
+  </Content>
+</ApplicableTo>

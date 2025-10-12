@@ -1,31 +1,25 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
   <title>Maintenance Planning Document</title>
-  <section>
+  <sect>
     <title>Overview</title>
-    <paragraph>This document details the maintenance planning for a system, including maintenance allocations, tools lists, and remarks.</paragraph>
-  </section>
-  <section>
+    <p>This document details the maintenance planning for a system, including maintenance allocations, tools lists, and remarks.</p>
+  </sect>
+  <sect>
     <title>Maintenance Allocation</title>
-    <section>
+    <sect>
       <title>System Maintenance</title>
-      <paragraph>This section outlines the maintenance schedule and tasks for the system.</paragraph>
-      <section>
+      <p>This section outlines the maintenance schedule and tasks for the system.</p>
+      <sect>
         <title>Allocation Group 1: Brakes</title>
-        <paragraph>This group encompasses maintenance tasks related to the brake system.</paragraph>
-        <item>
-          <name>Group Number</name>
-          <value>1005</value>
-        </item>
-        <item>
-          <name>Component Assembly</name>
-          <value>Brakes - Pads</value>
-        </item>
-        <item>
-          <name>Skill Level</name>
-          <value>sk01</value>
-        </item>
-        <table>
+        <p>This group encompasses maintenance tasks related to the brake system.</p>
+        <ul>
+          <li><b>Group Number:</b> 1005</li>
+          <li><b>Component Assembly:</b> Brakes - Pads</li>
+          <li><b>Skill Level:</b> sk01</li>
+        </ul>
+        <table frame="header">
           <header>
             <cell>Maintenance Function</cell>
             <cell>Maintenance Level</cell>
@@ -59,22 +53,15 @@
             <cell>0.8</cell>
           </row>
         </table>
-      </section>
-      <section>
+      </sect>
+      <sect>
         <title>Allocation Group 2: Brakes - Cables</title>
-        <item>
-          <name>Group Number</name>
-          <value>1005</value>
-        </item>
-        <item>
-          <name>Component Assembly</name>
-          <value>Brakes - Cables</value>
-        </item>
-        <item>
-          <name>Skill Level</name>
-          <value>sk02</value>
-        </item>
-        <table>
+        <ul>
+          <li><b>Group Number:</b> 1005</li>
+          <li><b>Component Assembly:</b> Brakes - Cables</li>
+          <li><b>Skill Level:</b> sk02</li>
+        </ul>
+        <table frame="header">
           <header>
             <cell>Maintenance Function</cell>
             <cell>Maintenance Level</cell>
@@ -108,22 +95,15 @@
             <cell>0.8</cell>
           </row>
         </table>
-      </section>
-      <section>
+      </sect>
+      <sect>
         <title>Allocation Group 3: Brakes - Disks</title>
-        <item>
-          <name>Group Number</name>
-          <value>1005</value>
-        </item>
-        <item>
-          <name>Component Assembly</name>
-          <value>Brakes - Disks</value>
-        </item>
-        <item>
-          <name>Skill Level</name>
-          <value>sk02</value>
-        </item>
-        <table>
+        <ul>
+          <li><b>Group Number:</b> 1005</li>
+          <li><b>Component Assembly:</b> Brakes - Disks</li>
+          <li><b>Skill Level:</b> sk02</li>
+        </ul>
+        <table frame="header">
           <header>
             <cell>Maintenance Function</cell>
             <cell>Maintenance Level</cell>
@@ -157,22 +137,15 @@
             <cell>0.8</cell>
           </row>
         </table>
-      </section>
-      <section>
+      </sect>
+      <sect>
         <title>Allocation Group 4: Brakes - Calipers</title>
-        <item>
-          <name>Group Number</name>
-          <value>1005</value>
-        </item>
-        <item>
-          <name>Component Assembly</name>
-          <value>Brakes - Calipers</value>
-        </item>
-        <item>
-          <name>Skill Level</name>
-          <value>sk02</value>
-        </item>
-        <table>
+        <ul>
+          <li><b>Group Number:</b> 1005</li>
+          <li><b>Component Assembly:</b> Brakes - Calipers</li>
+          <li><b>Skill Level:</b> sk02</li>
+        </ul>
+        <table frame="header">
           <header>
             <cell>Maintenance Function</cell>
             <cell>Maintenance Level</cell>
@@ -206,22 +179,15 @@
             <cell>0.8</cell>
           </row>
         </table>
-      </section>
-      <section>
+      </sect>
+      <sect>
         <title>Allocation Group 5: Brakes - Pads</title>
-        <item>
-          <name>Group Number</name>
-          <value>1005</value>
-        </item>
-        <item>
-          <name>Component Assembly</name>
-          <value>Brakes - Pads</value>
-        </item>
-        <item>
-          <name>Skill Level</name>
-          <value>sk01</value>
-        </item>
-        <table>
+        <ul>
+          <li><b>Group Number:</b> 1005</li>
+          <li><b>Component Assembly:</b> Brakes - Pads</li>
+          <li><b>Skill Level:</b> sk01</li>
+        </ul>
+        <table frame="header">
           <header>
             <cell>Maintenance Function</cell>
             <cell>Maintenance Level</cell>
@@ -255,33 +221,36 @@
             <cell>0.8</cell>
           </row>
         </table>
-      </section>
-    </section>
-  </section>
-  <section>
-    <title>Tools Lists</title>
-    <table>
-      <header>
-        <cell>Tool Name</cell>
-        <cell>Tool Number</cell>
-      </header>
-      <row>
-        <cell>Wrench</cell>
-        <cell>12345</cell>
-      </row>
-    </table>
-  </section>
-  <section>
+      </sect>
+    </title>
+  </sect>
+  <sect>
+    <title>Tools List</title>
+    <sect>
+      <title>Maintenance Tools</title>
+      <p>This section details the tools required for maintenance operations.</p>
+      <table frame="header">
+        <header>
+          <cell>Tools List Code</cell>
+          <cell>Maintenance Level</cell>
+          <cell>Maintenance Level</cell>
+          <cell>Maintenance Level</cell>
+        </header>
+        <row>
+          <cell>TL-123</cell>
+          <cell>Maintenance Level</cell>
+          <cell>Maintenance Level</cell>
+          <cell>Maintenance Level</cell>
+        </row>
+      </table>
+    </sect>
+  </sect>
+  <sect>
     <title>Remarks</title>
-    <table>
-      <header>
-        <cell>Remark ID</cell>
-        <cell>Remark Text</cell>
-      </header>
-      <row>
-        <cell>1</cell>
-        <cell>This document provides a comprehensive overview of maintenance planning.</cell>
-      </row>
-    </table>
-  </section>
+    <sect>
+      <title>General Remarks</title>
+      <p>Please consult the relevant maintenance manual for detailed instructions.</p>
+    </sect>
+  </sect>
 </proced>
+```

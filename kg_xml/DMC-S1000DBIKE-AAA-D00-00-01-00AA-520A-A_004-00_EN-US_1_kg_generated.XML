@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <ident>
+    <modelIdentCode>S1000DBIKE</modelIdentCode>
+    <systemDiffCode>AAA</systemDiffCode>
+    <systemCode>D00</systemCode>
+    <subSystemCode>0</subSystemCode>
+    <subSubSystemCode>0</subSubSystemCode>
+    <assyCode>01</assyCode>
+    <disassyCode>00</disassyCode>
+    <disassyCodeVariant>AA</disassyCodeVariant>
+    <infoCode>520</infoCode>
+    <infoCodeVariant>A</infoCodeVariant>
+    <itemLocationCode>A</itemLocationCode>
+    <language countryIsoCode="US">
+      <languageIsoCode>en</languageIsoCode>
+    </language>
+    <issueInfo>
+      <issueNumber>004</issueNumber>
+      <inWork>00</inWork>
+    </issueInfo>
+  </ident>
+  <dmAddressItems>
+    <issueDate>
+      <year>2024</year>
+      <month>06</month>
+      <day>19</day>
+    </issueDate>
+    <techName>Fork</techName>
+    <infoName>Remove procedures</infoName>
+  </dmAddressItems>
+  <dmStatus>
+    <issueType>status</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </security>
+  </dmStatus>
+  <dataRestrictions>
+    <restrictionInstructions>
+      <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+      <exportControl>
+        <exportRegistrationStmt>
+          <simplePara>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simplePara>
+        </exportRegistrationStmt>
+      </exportControl>
+      <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+      <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+      <dataDisclosure>No disclosure restrictions.</dataDisclosure>
+    </restrictionInstructions>
+    <restrictionReason>No specific reason.</restrictionReason>
+    <restrictionInformation>
+      <restrictionOriginator>N/A</restrictionOriginator>
+    </restrictionInformation>
+    <restrictionDetails>
+      <restrictionEffectiveDate>N/A</restrictionEffectiveDate>
+    </restrictionDetails>
+    <restrictionValidity>
+      <restrictionValidityDate>N/A</restrictionValidityDate>
+    </restrictionValidity>
+    <restrictionApplicability>Global</restrictionApplicability>
+    <restrictionRights>All rights reserved.</restrictionRights>
+    <restrictionTerms>Standard terms and conditions apply.</restrictionTerms>
+    <restrictionContact>N/A</restrictionContact>
+    <restrictionNotes>N/A</restrictionNotes>
+    <restrictionAcknowledgement>N/A</restrictionAcknowledgement>
+    <restrictionCompliance>N/A</restrictionCompliance>
+    <restrictionEnforcement>N/A</restrictionEnforcement>
+    <restrictionLiability>N/A</restrictionLiability>
+    <restrictionDisclaimer>N/A</restrictionDisclaimer>
+    <restrictionRevision>N/A</restrictionRevision>
+    <restrictionHistory>N/A</restrictionHistory>
+    <restrictionRevisionDate>N/A</restrictionRevisionDate>
+    <restrictionAuthor>N/A</restrictionAuthor>
+    <restrictionApprover>N/A</restrictionApprover>
+    <restrictionReviewer>N/A</restrictionReviewer>
+    <restrictionPublisher>N/A</restrictionPublisher>
+    <restrictionDistribution>N/A</restrictionDistribution>
+    <restrictionAccess>N/A</restrictionAccess>
+    <restrictionSecurity>N/A</restrictionSecurity>
+    <restrictionPrivacy>N/A</restrictionPrivacy>
+    <restrictionConfidentiality>N/A</restrictionConfidentiality>
+    <restrictionIntellectualProperty>N/A</restrictionIntellectualProperty>
+    <restrictionCopyright>N/A</restrictionCopyright>
+    <restrictionTrademark>N/A</restrictionTrademark>
+    <restrictionPatent>N/A</restrictionPatent>
+    <restrictionLicense>N/A</restrictionLicense>
+    <restrictionUsage>N/A</restrictionUsage>
+    <restrictionModification>N/A</restrictionModification>
+    <restrictionDerivativeWorks>N/A</restrictionDerivativeWorks>
+    <restrictionAttribution>N/A</restrictionAttribution>
+    <restrictionWarranty>N/A</restrictionWarranty>
+    <restrictionLimitationOfLiability>N/A</restrictionLimitationOfLiability>
+    <restrictionIndemnification>N/A</restrictionIndemnification>
+    <restrictionGoverningLaw>N/A</restrictionGoverningLaw>
+    <restrictionDisputeResolution>N/A</restrictionDisputeResolution>
+    <restrictionEntireAgreement>N/A</restrictionEntireAgreement>
+    <restrictionSeverability>N/A</restrictionSeverability>
+    <restrictionAmendment>N/A</restrictionAmendment>
+    <restrictionTermination>N/A</restrictionTermination>
+  </dataRestrictions>
+  <systemBreakdownCode>BY18</systemBreakdownCode>
+  <skillLevel skillLevelCode="sk01"/>
+  <reasonForUpdate id="rfu_general">
+    <updateReasonType>urt03</updateReasonType>
+    <simplePara>S1000D upissued</simplePara>
+  </reasonForUpdate>
+  <refs>
+    <dmRef>
+      <dmRefIdent>
+        <dmCode modelIdentCode="S1000DBIKE"/>
+        <dmCode systemDiffCode="AAA"/>
+        <dmCode systemCode="DA2"/>
+        <dmCode subSystemCode="1"/>
+        <dmCode subSubSystemCode="0"/>
+        <dmCode assyCode="00"/>
+        <dmCode disassyCode="00"/>
+        <dmCode disassyCodeVariant="AA"/>
+        <dmCode infoCode="520"/>
+        <dmCode infoCodeVariant="A"/>
+        <dmCode itemLocationCode="A"/>
+      </dmRefIdent>
+    </dmRef>
+    <dmRef>
+      <dmRefIdent>
+        <dmCode modelIdentCode="S1000DBIKE"/>
+        <dmCode systemDiffCode="AAA"/>
+        <dmCode systemCode="DA2"/>
+        <dmCode subSystemCode="1"/>
+        <dmCode subSubSystemCode="0"/>
+        <dmCode assyCode="00"/>
+        <dmCode disassyCode="00"/>
+        <dmCode disassyCodeVariant="AA"/>
+        <dmCode infoCode="520"/>
+        <dmCode infoCodeVariant="A"/>
+        <dmCode itemLocationCode="A"/>
+      </dmRefIdent>
+    </dmRef>
+    <dmRef>
+      <dmRefIdent>
+        <dmCode modelIdentCode="S1000DBIKE"/>
+        <dmCode systemDiffCode="AAA"/>
+        <dmCode systemCode="DA2"/>
+        <dmCode subSystemCode="1"/>
+        <dmCode subSubSystemCode="0"/>
+        <dmCode assyCode="00"/>
+        <dmCode disassyCode="00"/>
+        <dmCode disassyCodeVariant="AA"/>
+        <dmCode infoCode="520"/>
+        <dmCode infoCodeVariant="A"/>
+        <dmCode itemLocationCode="A"/>
+      </dmRefIdent>
+    </dmRef>
+  </refs>
+  <procedure>
+    <preliminaryRequirements>
+      <reqCondGroup>No conditions</reqCondGroup>
+      <reqPersons>No personnel specified.</reqPersons>
+      <reqTechInfoGroup>
+        <reqTechInfo reqTechInfoCategory="ti02">
+          <dmRef>
+            <dmRefIdent>
+              <dmCode modelIdentCode="S1000DBIKE"/>
+              <dmCode systemDiffCode="AAA"/>
+              <dmCode systemCode="DA2"/>
+              <dmCode subSystemCode="1"/>
+              <dmCode subSubSystemCode="0"/>
+              <dmCode assyCode="00"/>
+              <dmCode disassyCode="00"/>
+              <dmCode disassyCodeVariant="AA"/>
+              <dmCode infoCode="520"/>
+              <dmCode infoCodeVariant="A"/>
+              <dmCode itemLocationCode="A"/>
+            </dmRefIdent>
+          </dmRef>
+        </reqTechInfo>
+      </reqTechInfoGroup>
+    </preliminaryRequirements>
+    <step>
+      <description>Remove the old part.</description>
+    </step>
+    <step>
+      <description>Install the new part.</description>
+    </step>
+  </procedure>
+</proced>

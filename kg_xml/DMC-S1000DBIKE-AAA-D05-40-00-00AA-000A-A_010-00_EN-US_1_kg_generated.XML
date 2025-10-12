@@ -79,7 +79,7 @@
           </limitRange>
         </inspection>
         <taskGroup>
-          <taskItem taskSeqNumber="001">
+          <taskItem seqNumber="001">
             <taskName>Inspect Brakes</taskName>
             <refs>
               <dmRef>
@@ -104,7 +104,7 @@
               <taskDescr>To do an inspection of the brakes</taskDescr>
             </task>
           </taskItem>
-          <taskItem taskSeqNumber="002">
+          <taskItem seqNumber="002">
             <taskName>Inspect brakes installation</taskName>
             <refs>
               <dmRef>
@@ -129,7 +129,7 @@
               <taskDescr>To do an inspection of the brakes installation</taskDescr>
             </task>
           </taskItem>
-          <taskItem taskSeqNumber="003">
+          <taskItem seqNumber="003">
             <taskName>Check Tire Pressure</taskName>
             <refs>
               <dmRef>
@@ -154,7 +154,7 @@
               <taskDescr>To do a check of the tire pressure</taskDescr>
             </task>
           </taskItem>
-          <taskItem taskSeqNumber="004">
+          <taskItem seqNumber="004">
             <taskName>Inspect wheel condition</taskName>
             <refs>
               <dmRef>
@@ -179,7 +179,7 @@
               <taskDescr>To do an inspection of the wheel condition</taskDescr>
             </task>
           </taskItem>
-          <taskItem taskSeqNumber="005">
+          <taskItem seqNumber="005">
             <taskName>Check headset bearings</taskName>
             <refs>
               <dmRef>
@@ -204,8 +204,8 @@
               <taskDescr>To do a check of the headset bearings</taskDescr>
             </task>
           </taskItem>
-          <taskItem taskSeqNumber="006">
-            <taskName>Check chain</taskName>
+          <taskItem seqNumber="006">
+            <taskName>Check chain wear</taskName>
             <refs>
               <dmRef>
                 <dmRefIdent>
@@ -226,7 +226,7 @@
               </dmRef>
             </refs>
             <task>
-              <taskDescr>To do a check of the chain</taskDescr>
+              <taskDescr>To do a check of the chain wear</taskDescr>
             </task>
           </taskItem>
         </taskGroup>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applicability xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dm>
+    <title>Service Bulletin Material Information</title>
+    <content>
+      <p>This document details material information associated with a service bulletin.</p>
+      <h3>Material Information</h3>
+      <h4>Support Equipment</h4>
+      <p>No support equipment is listed.</p>
+      <h4>Material Summary</h4>
+      <ul>
+        <li><b>Total Parts:</b> 18</li>
+        <li><b>Total Removed Parts:</b> 7</li>
+        <li><b>Total Consumables:</b> 0</li>
+      </ul>
+      <h4>Material Details</h4>
+      <h5>Supply Parts</h5>
+      <table>
+        <thead>
+          <tr>
+            <th>Part Number</th>
+            <th>Qty</th>
+            <th>Unit of Measure</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>FK-TEL1001</td>
+            <td>1</td>
+            <td>EA</td>
+            <td>Fork</td>
+          </tr>
+          <tr>
+            <td>FK-TEL1002</td>
+            <td>1</td>
+            <td>EA</td>
+            <td>Fork</td>
+          </tr>
+          <tr>
+            <td>ST-001-05</td>
+            <td>2</td>
+            <td>EA</td>
+            <td>Conical expansion washer</td>
+          </tr>
+          <tr>
+            <td>BSK-AXS-2000</td>
+            <td>1</td>
+            <td>EA</td>
+            <td>Wheel axis</td>
+          </tr>
+          <tr>
+            <td>BSK-AXS-2001</td>
+            <td>1</td>
+            <td>EA</td>
+            <td>Wheel axis</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <h5>Consumables</h5>
+      <p>No consumables are listed.</p>
+      <h5>Removed Parts</h5>
+      <table>
+        <thead>
+          <tr>
+            <th>Part Number</th>
+            <th>Qty</th>
+            <th>Unit of Measure</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>FK-1000</td>
+            <td>2</td>
+            <td>EA</td>
+            <td>Fork</td>
+          </tr>
+          <tr>
+            <td>ST-001-05</td>
+            <td>2</td>
+            <td>EA</td>
+            <td>Conical expansion washer</td>
+          </tr>
+          <tr>
+            <td>BSK-AXS-2000</td>
+            <td>1</td>
+            <td>EA</td>
+            <td>Wheel axis</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <h5>Removed Spare Sets</h5>
+      <ul>
+        <li><b>Removed Spare Set 1:</b>
+          <ul>
+            <li>Fork (1 EA)</li>
+            <li>Conical expansion washer (1 EA)</li>
+          </ul>
+        </li>
+        <li><b>Removed Spare Set 2:</b>
+          <ul>
+            <li>Fork (1 EA)</li>
+            <li>Conical expansion washer (1 EA)</li>
+          </ul>
+        </li>
+        <li><b>Individual Removed Spare:</b> Wheel axis (1 EA)
+          <ul>
+            <li><i>Material Usage: Reidentified Material</i></li>
+            <li><i>Modified to: BSK-AXS-2001</i></li>
+          </ul>
+        </li>
+      </ul>
+      <h5>External Parts/Spares</h5>
+      <ul>
+        <li><b>External Spare Set:</b> Referenced parts</li>
+        <li><b>External Removed Spare Set:</b> Referenced parts</li>
+      </ul>
+      <h3>Material Identification</h3>
+      <h4>Support Equipment</h4>
+      <p>No support equipment listed.</p>
+      <h4>Interchangeability</h4>
+      <ul>
+        <li>Removed Fork (FK-1000) replaced by Fork (FK-TEL1001) if tire width is less than 7 cm</li>
+        <li>Removed Fork (FK-1000) replaced by Fork (FK-TEL1002) if tire width is less than 7 cm</li>
+        <li>Wheel axis (BSK-AXS-2000) modified to Wheel axis (BSK-AXS-2001)</li>
+      </ul>
+      <h4>Additional Information</h4>
+      <p>This service bulletin is enhanced with examples of formerly unused elements defined by a terminology reference.</p>
+      <h3>Accomplishment Instructions</h3>
+      <p>References a Data Module (DM) with specific identification codes.</p>
+      <h3>Additional Information</h3>
+      <p>Contains additional information related to the service bulletin.</p>
+    </content>
+  </dm>
+</applicability>
