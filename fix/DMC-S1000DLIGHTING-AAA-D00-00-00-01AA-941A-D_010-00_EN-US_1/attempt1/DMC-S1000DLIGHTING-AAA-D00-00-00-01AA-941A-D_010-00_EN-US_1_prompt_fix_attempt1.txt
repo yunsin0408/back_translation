@@ -1,0 +1,23 @@
+You were previously asked to generate XML. The model's output failed validation.
+Use the provided Knowledge Graph (KG) and the attached error log to produce a corrected, well-formed XML document.
+Inputs available:
+- KG (node/edge list) which you MUST consult for structure and nesting.
+- The previously generated XML (PREVIOUS_XML).
+- The parser error log (ERROR_LOG) describing syntactic problems.
+Task:
+- Return ONLY the corrected XML document. Do not include any explanation.
+- Fix all syntax errors mentioned in ERROR_LOG.
+- Ensure the output starts with '<?xml' and is well-formed.
+
+ERROR_LOG:
+Errors found:
+Error 1: Line 1, Column 1: Start tag expected, '<' not found
+
+PREVIOUS_XML:
+I am sorry, but there is no XML content provided in the prompt. The prompt contains a table of data, not XML. I am unable to fulfill the request to return raw XML as there isn't any in the given input.  I can only work with the data that is provided to me.
+
+
+
+
+
+Provide the corrected XML now.

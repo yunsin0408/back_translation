@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <DMTitle>Bicycle Operation Manual</DMTitle>
+  <DMContent>
+    <Section>
+      <Heading>Introduction</Heading>
+      <Paragraph>This document provides a guide to operating a bicycle, tailored to the user's experience level. It includes both theoretical knowledge and practical instructions.</Paragraph>
+    </Section>
+    <Section>
+      <Heading>User Input &amp; Validation</Heading>
+      <Paragraph>The manual begins by gathering information about the user, including age and prior cycling experience. Age is validated to ensure it falls within the range of 4 to 100 years.  Based on experience, the manual adapts to provide a more detailed introduction for novice riders.</Paragraph>
+      <Subsection>
+        <Heading>Data Collected:</Heading>
+        <List>
+          <ListItem><b>Age:</b>  Integer value between 4 and 100.</ListItem>
+          <ListItem><b>Cycling Experience:</b>  Yes/No. Determines the level of introductory material.</ListItem>
+        </List>
+      </Subsection>
+    </Section>
+    <Section>
+      <Heading>Content Based on Experience Level</Heading>
+      <Subsection>
+        <Heading>Experienced Riders</Heading>
+        <Paragraph>If the user indicates prior cycling experience, the manual proceeds directly to the practical section, assuming a baseline level of knowledge.</Paragraph>
+      </Subsection>
+      <Subsection>
+        <Heading>Novice Riders</Heading>
+        <Paragraph>For users with no prior experience, the manual provides a detailed introduction, followed by a knowledge check before proceeding to practical instructions.</Paragraph>
+        <Subsection>
+          <Heading>Introductory Material:</Heading>
+          <List>
+            <ListItem><b>Basic Bicycle Components:</b> Explanation of key parts (brakes, pedals, handlebars, etc.).</ListItem>
+            <ListItem><b>Safety Precautions:</b> Emphasis on wearing appropriate safety gear.</ListItem>
+            <ListItem><b>Brake Operation:</b> Detailed explanation of how to use the brakes effectively.</ListItem>
+          </List>
+        </Subsection>
+        <Subsection>
+          <Heading>Knowledge Check</Heading>
+          <Paragraph>A simple question is posed to assess whether the user has understood the introductory material.</Paragraph>
+          <List>
+            <ListItem><b>Question:</b> "The rear brake is operated by..."
+              <List>
+                <ListItem>Left brake lever (Incorrect)</ListItem>
+                <ListItem>Right brake lever (Correct)</ListItem>
+              </List>
+            </ListItem>
+          </List>
+          <Paragraph>*Incorrect answers result in repetition of the introductory material.*</Paragraph>
+        </Subsection>
+      </Subsection>
+    </Section>
+    <Section>
+      <Heading>Practical Instructions</Heading>
+      <Paragraph>Regardless of experience level, the practical section guides the user through the steps of preparing and operating the bicycle.</Paragraph>
+      <NumberedList>
+        <ListItem><b>Preparation:</b>
+          <List>
+            <ListItem>Retrieve the bicycle from storage.</ListItem>
+            <ListItem>Clean the bicycle.</ListItem>
+            <ListItem>Mount the bicycle.</ListItem>
+          </List>
+        </ListItem>
+        <ListItem><b>Operation:</b>
+          <List>
+            <ListItem>Begin riding.</ListItem>
+          </List>
+        </ListItem>
+      </NumberedList>
+    </Section>
+    <Section>
+      <Heading>Conclusion</Heading>
+      <Paragraph>This manual provides a comprehensive guide to bicycle operation, adapting to the user's experience level to ensure a safe and enjoyable ride.</Paragraph>
+    </Section>
+    <Note>This markdown document represents a cleaned and restructured version of the provided DModule content, focusing on clarity and readability.  Specific details like validation and branching logic are summarized to provide a high-level overview. The original document contained embedded instructions for a procedural flow, which are reflected here in a more narrative format.</Note>
+  </DMContent>
+</DModule>

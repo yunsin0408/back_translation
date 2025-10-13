@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <applicability>
+    <dmRef>
+      <modelIdentCode>S1000DBIKE</modelIdentCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>DA3</systemCode>
+    </dmRef>
+  </applicability>
+  <identification>
+    <docNumber>DMC-S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_010-00_EN-US</docNumber>
+  </identification>
+  <status>
+    <issueType>changed</issueType>
+  </status>
+  <security>
+    <securityClassification>01</securityClassification>
+    <commercialClassification>cc51</commercialClassification>
+    <caveat>cv51</caveat>
+  </security>
+  <dataRestrictions>
+    <restrictionInstructions>
+      <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+      <exportControl>
+        <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+      </exportControl>
+      <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+      <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+      <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+    </restrictionInstructions>
+    <restrictionInfo>
+      <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+      <publishers>
+        <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+        <publisher>Aerospace Industries Association of America</publisher>
+        <publisher>ATA e-Business Program</publisher>
+      </publishers>
+      <limitationsOfLiability>
+        <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for a particular purpose.</limitation>
+        <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising out of the use of this material.</limitation>
+        <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+      </limitationsOfLiability>
+      <copyrightSpecification>The details for copyright can be found in the S1000D Specification.</copyrightSpecification>
+      <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+      <dataCondition>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataCondition>
+    </restrictionInfo>
+  </dataRestrictions>
+  <responsibleParty>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </responsibleParty>
+  <originator>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </originator>
+  <qualityAssurance>
+    <verificationType>tabtop</verificationType>
+  </qualityAssurance>
+  <systemBreakdown>
+    <codeValue>BY151</codeValue>
+  </systemBreakdown>
+  <skillLevel>
+    <codeValue>sk01</codeValue>
+  </skillLevel>
+  <reasonForUpdate>
+    <id>rfu_general</id>
+    <updateReasonType>urt03</updateReasonType>
+    <simpleParagraph>S1000D upissued</simpleParagraph>
+  </reasonForUpdate>
+  <references>
+    <externalPubRef>
+      <externalPubTitle>Local Disposal Procedures</externalPubTitle>
+    </externalPubRef>
+  </references>
+  <procedureContent>
+    <procedureStep>
+      <stepNumber>1</stepNumber>
+      <stepText>Safely hold the bicycle.</stepText>
+    </procedureStep>
+    <procedureStep>
+      <stepNumber>2</stepNumber>
+      <stepText>Remove the horn.</stepText>
+      <subStep>
+        <subStepText>Use the 8mm Allen wrench from the &lt;internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/&gt; and remove the two Allen screws.</subStepText>
+      </subStep>
+      <subStep>
+        <subStepText>Remove the horn.</subStepText>
+      </subStep>
+    </procedureStep>
+    <procedureStep>
+      <stepNumber>3</stepNumber>
+      <stepText>Install the new &lt;internalRef internalRefId="spa-0001" internalRefTargetType="irtt06"/&gt;.</stepText>
+      <subStep>
+        <subStepText>Install the new &lt;internalRef internalRefId="spa-0001" internalRefTargetType="irtt06"/&gt; on the handlebars.</subStepText>
+      </subStep>
+      <subStep>
+        <subStepText>Use the &lt;internalRef internalRefId="seq-0002" internalRefTargetType="irtt05"/&gt; from the &lt;internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/&gt; and tighten the two Allen screws.</subStepText>
+      </subStep>
+    </procedureStep>
+  </procedureContent>
+  <closeRequirements>
+    <reqCondGroup>
+      <reqCondExternalPub>
+        <reqCond>Safely discard the horn that you removed</reqCond>
+        <externalPubRef>
+          <externalPubTitle>Local Disposal Procedures</externalPubTitle>
+        </externalPubRef>
+      </reqCondExternalPub>
+    </reqCondGroup>
+  </closeRequirements>
+  <reqSupportEquipment>
+    <supportEquipDesc id="seq-0001">
+      <name>Specialist toolset</name>
+      <identNumber>
+        <manufacturerCode>KZ666</manufacturerCode>
+        <partAndSerialNumber>
+          <partNumber>BSK-TLST-001</partNumber>
+        </partAndSerialNumber>
+        <reqQuantity>1 (EA)</reqQuantity>
+      </identNumber>
+    </supportEquipDesc>
+    <supportEquipDesc id="seq-0002">
+      <name>8mm Allen wrench</name>
+      <identNumber>
+        <manufacturerCode>KZ666</manufacturerCode>
+        <partAndSerialNumber>
+          <partNumber>BSK-TLST-001-08</partNumber>
+        </partAndSerialNumber>
+        <reqQuantity>1 (EA)</reqQuantity>
+      </identNumber>
+    </supportEquipDesc>
+  </reqSupportEquipment>
+  <reqSpares>
+    <spareDesc id="spa-0001">
+      <name>Horn</name>
+      <identNumber>
+        <manufacturerCode>KZ444</manufacturerCode>
+        <partAndSerialNumber>
+          <partNumber>Horn-001</partNumber>
+        </partAndSerialNumber>
+        <reqQuantity>1 (EA)</reqQuantity>
+      </identNumber>
+    </spareDesc>
+  </reqSpares>
+</procedure>

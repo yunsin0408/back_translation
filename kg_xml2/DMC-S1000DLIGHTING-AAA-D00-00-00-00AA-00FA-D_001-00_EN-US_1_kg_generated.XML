@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_info>
+    <dmc_document_id>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00FA-D_001-00_EN-US_1</dmc_document_id>
+    <dmc_issue>1</dmc_issue>
+    <dmc_date>2024-02-29</dmc_date>
+  </dmc_info>
+  <content>
+    <section id="1">
+      <title>Identification and Status</title>
+      <paragraph>
+        <bullet_list>
+          <bullet_item>
+            <text>Document ID: DModule (Implied from XML root element)</text>
+          </bullet_item>
+          <bullet_item>
+            <text>Date: (Not present in the document)</text>
+          </bullet_item>
+          <bullet_item>
+            <text>Revision: (Not present in the document)</text>
+          </bullet_item>
+        </bullet_list>
+      </paragraph>
+    </section>
+    <section id="2">
+      <title>Content</title>
+      <subsection id="2.1">
+        <title>Referenced Applic Groups</title>
+        <subsubsection id="2.1.1">
+          <title>Application: Mountain Storm Mk1</title>
+          <bullet_list>
+            <bullet_item>
+              <text>ID: app-0001</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Description: Mountain Storm Mk1</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Applicability Criteria:</text>
+              <bullet_list>
+                <bullet_item>
+                  <text>Type: Model</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Value: Mountain storm</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Version: Mk1</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Version Range: 1-3</text>
+                </bullet_item>
+              </bullet_list>
+            </bullet_item>
+          </bullet_list>
+        </subsubsection>
+        <subsubsection id="2.1.2">
+          <title>Application: Brook Trekker Mk9</title>
+          <bullet_list>
+            <bullet_item>
+              <text>ID: app-0002</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Description: Brook Trekker Mk9</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Applicability Criteria:</text>
+              <bullet_list>
+                <bullet_item>
+                  <text>Type: Model</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Value: Brook trekker</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Version: Mk9</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Version Range: 1-2</text>
+                </bullet_item>
+              </bullet_list>
+            </bullet_item>
+          </bullet_list>
+        </subsubsection>
+        <subsubsection id="2.1.3">
+          <title>Application: Mountain Bicycle (with Storm or Trekker)</title>
+          <bullet_list>
+            <bullet_item>
+              <text>ID: app-0003</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Description: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Applicability Criteria:</text>
+              <bullet_list>
+                <bullet_item>
+                  <text>Type: Type</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Value: Mountain bicycle</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Condition: Either:</text>
+                  <bullet_list>
+                    <bullet_item>
+                      <text>Model: Mountain storm, Version: Mk1, Version Range: 1-3</text>
+                    </bullet_item>
+                    <bullet_item>
+                      <text>Model: Brook trekker, Version: Mk9, Version Range: 1-2</text>
+                    </bullet_item>
+                  </bullet_list>
+                </bullet_item>
+              </bullet_list>
+            </bullet_item>
+          </bullet_list>
+        </subsubsection>
+      </subsection>
+      <subsection id="2.2">
+        <title>Common Repository: Circuit Breaker Repository</title>
+        <subsubsection id="2.2.1">
+          <title>Circuit Breaker Specification: CBLGT-1001-R (Right Side)</title>
+          <bullet_list>
+            <bullet_item>
+              <text>ID: SPEC-0010 / cb-CBLGT-1001-R</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Name: Bike Lighting circuit breaker (right side)</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Functional Area: DA2 / 2 / 0 / 00</text>
+            </bullet_item>
+            <bullet_item>
+              <text>References: SPEC-0008 (CBLGT-1001-E)</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Alternatives:</text>
+              <bullet_list>
+                <bullet_item>
+                  <text>ID: cb-CBLGT-1001-R.001</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Applicability: app-0001 (Mountain Storm Mk1)</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Name: CBLGT-1001-R</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Class: cbt02</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Location: Zone 131</text>
+                </bullet_item>
+              </bullet_list>
+            </bullet_item>
+          </bullet_list>
+        </subsubsection>
+        <subsubsection id="2.2.2">
+          <title>Circuit Breaker Specification: CBLGT-1001-L (Left Side)</title>
+          <bullet_list>
+            <bullet_item>
+              <text>ID: SPEC-0010 / cb-CBLGT-1001-L</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Name: Bike Lighting circuit breaker (left side)</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Functional Area: DA2 / 2 / 0 / 00</text>
+            </bullet_item>
+            <bullet_item>
+              <text>References: SPEC-0009 (CBLGT-1001-E)</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Alternatives:</text>
+              <bullet_list>
+                <bullet_item>
+                  <text>ID: cb-CBLGT-1001-L.001</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Applicability: app-0002 (Brook Trekker Mk9)</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Name: CBLGT-1001-L</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Class: cbt02</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Location: Zone 131</text>
+                </bullet_item>
+              </bullet_list>
+            </bullet_item>
+          </bullet_list>
+        </subsubsection>
+        <subsubsection id="2.2.3">
+          <title>Circuit Breaker Specification: CBLGT-1001-R (Right Side)</title>
+          <bullet_list>
+            <bullet_item>
+              <text>ID: SPEC-0010 / cb-CBLGT-1001-R</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Name: Bike Lighting circuit breaker (right side)</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Functional Area: DA2 / 2 / 0 / 00</text>
+            </bullet_item>
+            <bullet_item>
+              <text>References: SPEC-0008 (CBLGT-1001-E)</text>
+            </bullet_item>
+            <bullet_item>
+              <text>Alternatives:</text>
+              <bullet_list>
+                <bullet_item>
+                  <text>ID: cb-CBLGT-1001-R.001</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Applicability: app-0001 (Mountain Storm Mk1)</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Name: CBLGT-1001-R</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Class: cbt02</text>
+                </bullet_item>
+                <bullet_item>
+                  <text>Location: Zone 131</text>
+                </bullet_item>
+              </bullet_list>
+            </bullet_item>
+          </bullet_list>
+        </subsubsection>
+      </subsection>
+    </section>
+  </content>
+</dmc>

@@ -1,0 +1,3273 @@
+{
+  "nodes": [
+    {
+      "id": "Document",
+      "label": "Document",
+      "type": "heading",
+      "source_units": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "1. Module Identification",
+      "label": "1. Module Identification",
+      "type": "heading",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Module",
+      "label": "Module",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Issue",
+      "label": "Issue",
+      "type": "candidate",
+      "source_units": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "Info",
+      "label": "Info",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "Module Identification",
+      "label": "Module Identification",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Model",
+      "label": "Model",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "Assembly",
+      "label": "Assembly",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "Variant",
+      "label": "Variant",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "Code",
+      "label": "Code",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "System",
+      "label": "System",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "Identification",
+      "label": "Identification",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Info Code",
+      "label": "Info Code",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "2. References",
+      "label": "2. References",
+      "type": "heading",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "DM",
+      "label": "DM",
+      "type": "candidate",
+      "source_units": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "AAA",
+      "label": "AAA",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "References",
+      "label": "References",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "3.1. Preliminary Requirements",
+      "label": "3.1. Preliminary Requirements",
+      "type": "heading",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Embedded Spare",
+      "label": "Embedded Spare",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Material",
+      "label": "Material",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "FK",
+      "label": "FK",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Required Technical Information",
+      "label": "Required Technical Information",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Spares",
+      "label": "Spares",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Supplies",
+      "label": "Supplies",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Reference",
+      "label": "Reference",
+      "type": "candidate",
+      "source_units": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "Part Number",
+      "label": "Part Number",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Stem Installation Procedure",
+      "label": "Stem Installation Procedure",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Fork",
+      "label": "Fork",
+      "type": "candidate",
+      "source_units": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "Number",
+      "label": "Number",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "LL",
+      "label": "LL",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Headset",
+      "label": "Headset",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Embedded",
+      "label": "Embedded",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Material Set",
+      "label": "Material Set",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Required Supplies",
+      "label": "Required Supplies",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Spare",
+      "label": "Spare",
+      "type": "candidate",
+      "source_units": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "Information",
+      "label": "Information",
+      "type": "candidate",
+      "source_units": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "Quantity",
+      "label": "Quantity",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "EA",
+      "label": "EA",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Headset Installation Procedure",
+      "label": "Headset Installation Procedure",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Technical",
+      "label": "Technical",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Manufacturer",
+      "label": "Manufacturer",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Requirements",
+      "label": "Requirements",
+      "type": "candidate",
+      "source_units": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "General Grease",
+      "label": "General Grease",
+      "type": "candidate",
+      "source_units": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "Required Spares",
+      "label": "Required Spares",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Stem",
+      "label": "Stem",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "General",
+      "label": "General",
+      "type": "candidate",
+      "source_units": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "Grease",
+      "label": "Grease",
+      "type": "candidate",
+      "source_units": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "Preliminary",
+      "label": "Preliminary",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Procedure",
+      "label": "Procedure",
+      "type": "candidate",
+      "source_units": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "Installation",
+      "label": "Installation",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Preliminary Requirements",
+      "label": "Preliminary Requirements",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Part",
+      "label": "Part",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Required",
+      "label": "Required",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "3.2. Main Procedure",
+      "label": "3.2. Main Procedure",
+      "type": "heading",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Refer",
+      "label": "Refer",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Apply",
+      "label": "Apply",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Supply",
+      "label": "Supply",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Main Procedure",
+      "label": "Main Procedure",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Main",
+      "label": "Main",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Install",
+      "label": "Install",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "3.3. Close Requirements",
+      "label": "3.3. Close Requirements",
+      "type": "heading",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Ensures",
+      "label": "Ensures",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "usability",
+      "label": "usability",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Clearer Sectioning",
+      "label": "Clearer Sectioning",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Reference Linking",
+      "label": "Reference Linking",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Correct Markdown Syntax",
+      "label": "Correct Markdown Syntax",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "presentation",
+      "label": "presentation",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Close Requirements",
+      "label": "Close Requirements",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "This",
+      "label": "This",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "User",
+      "label": "User",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Focus",
+      "label": "Focus",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Formatting",
+      "label": "Formatting",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Directness",
+      "label": "Directness",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Close",
+      "label": "Close",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Lists",
+      "label": "Lists",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Clearer",
+      "label": "Clearer",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Concise Language",
+      "label": "Concise Language",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Key Information",
+      "label": "Key Information",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "User Needs",
+      "label": "User Needs",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Uses Markdown",
+      "label": "Uses Markdown",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Markdown",
+      "label": "Markdown",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "crucial",
+      "label": "crucial",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Sectioning",
+      "label": "Sectioning",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Needs",
+      "label": "Needs",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Clear",
+      "label": "Clear",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "lists",
+      "label": "lists",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Removed",
+      "label": "Removed",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Correct",
+      "label": "Correct",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Readability",
+      "label": "Readability",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Tables",
+      "label": "Tables",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Highlights",
+      "label": "Highlights",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "optimized",
+      "label": "optimized",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Improved",
+      "label": "Improved",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Syntax",
+      "label": "Syntax",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "XML",
+      "label": "XML",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Uses",
+      "label": "Uses",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Concise",
+      "label": "Concise",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Improved Readability",
+      "label": "Improved Readability",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Emphasis",
+      "label": "Emphasis",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Language",
+      "label": "Language",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Linking",
+      "label": "Linking",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Document",
+      "target": "Document",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Module",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Issue",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Info",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Module Identification",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Model",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Assembly",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Variant",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Code",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "System",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Identification",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "1. Module Identification",
+      "target": "Info Code",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "DM",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "AAA",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "Info",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "Model",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "Assembly",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "Variant",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "Code",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "System",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "References",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "2. References",
+      "target": "Info Code",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Embedded Spare",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Material",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "FK",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Required Technical Information",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Spares",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Supplies",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Reference",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Part Number",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Stem Installation Procedure",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Fork",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Number",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "LL",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Headset",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Issue",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Embedded",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "System",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Material Set",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Required Supplies",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Spare",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Information",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Quantity",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "EA",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Headset Installation Procedure",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Technical",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Manufacturer",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "General Grease",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Required Spares",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Assembly",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Stem",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "General",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "DM",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Grease",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Preliminary",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Procedure",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Installation",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Part",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.1. Preliminary Requirements",
+      "target": "Required",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Refer",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "General",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Spare",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Apply",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "DM",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Grease",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Procedure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Fork",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Supply",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "General Grease",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Main Procedure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Main",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Assembly",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "Install",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.2. Main Procedure",
+      "target": "System",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Ensures",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "usability",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Clearer Sectioning",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Reference Linking",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Correct Markdown Syntax",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "presentation",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Close Requirements",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "This",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "User",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Focus",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Formatting",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Reference",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Directness",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Close",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Lists",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Clearer",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Concise Language",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Key Information",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "User Needs",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Uses Markdown",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Markdown",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "crucial",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Sectioning",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Needs",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Clear",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Information",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "lists",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Removed",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Requirements",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Correct",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Readability",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Tables",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Highlights",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "optimized",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Improved",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Syntax",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "XML",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Uses",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Concise",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "DM",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Improved Readability",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Emphasis",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Language",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "3.3. Close Requirements",
+      "target": "Linking",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    }
+  ],
+  "nx_graph": {
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "label": "Document",
+        "type": "heading",
+        "id": "Document"
+      },
+      {
+        "label": "1. Module Identification",
+        "type": "heading",
+        "id": "1. Module Identification"
+      },
+      {
+        "label": "Module",
+        "type": "candidate",
+        "id": "Module"
+      },
+      {
+        "label": "Issue",
+        "type": "candidate",
+        "id": "Issue"
+      },
+      {
+        "label": "Info",
+        "type": "candidate",
+        "id": "Info"
+      },
+      {
+        "label": "Module Identification",
+        "type": "candidate",
+        "id": "Module Identification"
+      },
+      {
+        "label": "Model",
+        "type": "candidate",
+        "id": "Model"
+      },
+      {
+        "label": "Assembly",
+        "type": "candidate",
+        "id": "Assembly"
+      },
+      {
+        "label": "Variant",
+        "type": "candidate",
+        "id": "Variant"
+      },
+      {
+        "label": "Code",
+        "type": "candidate",
+        "id": "Code"
+      },
+      {
+        "label": "System",
+        "type": "candidate",
+        "id": "System"
+      },
+      {
+        "label": "Identification",
+        "type": "candidate",
+        "id": "Identification"
+      },
+      {
+        "label": "Info Code",
+        "type": "candidate",
+        "id": "Info Code"
+      },
+      {
+        "label": "2. References",
+        "type": "heading",
+        "id": "2. References"
+      },
+      {
+        "label": "DM",
+        "type": "candidate",
+        "id": "DM"
+      },
+      {
+        "label": "AAA",
+        "type": "candidate",
+        "id": "AAA"
+      },
+      {
+        "label": "References",
+        "type": "candidate",
+        "id": "References"
+      },
+      {
+        "label": "3.1. Preliminary Requirements",
+        "type": "heading",
+        "id": "3.1. Preliminary Requirements"
+      },
+      {
+        "label": "Embedded Spare",
+        "type": "candidate",
+        "id": "Embedded Spare"
+      },
+      {
+        "label": "Material",
+        "type": "candidate",
+        "id": "Material"
+      },
+      {
+        "label": "FK",
+        "type": "candidate",
+        "id": "FK"
+      },
+      {
+        "label": "Required Technical Information",
+        "type": "candidate",
+        "id": "Required Technical Information"
+      },
+      {
+        "label": "Spares",
+        "type": "candidate",
+        "id": "Spares"
+      },
+      {
+        "label": "Supplies",
+        "type": "candidate",
+        "id": "Supplies"
+      },
+      {
+        "label": "Reference",
+        "type": "candidate",
+        "id": "Reference"
+      },
+      {
+        "label": "Part Number",
+        "type": "candidate",
+        "id": "Part Number"
+      },
+      {
+        "label": "Stem Installation Procedure",
+        "type": "candidate",
+        "id": "Stem Installation Procedure"
+      },
+      {
+        "label": "Fork",
+        "type": "candidate",
+        "id": "Fork"
+      },
+      {
+        "label": "Number",
+        "type": "candidate",
+        "id": "Number"
+      },
+      {
+        "label": "LL",
+        "type": "candidate",
+        "id": "LL"
+      },
+      {
+        "label": "Headset",
+        "type": "candidate",
+        "id": "Headset"
+      },
+      {
+        "label": "Embedded",
+        "type": "candidate",
+        "id": "Embedded"
+      },
+      {
+        "label": "Material Set",
+        "type": "candidate",
+        "id": "Material Set"
+      },
+      {
+        "label": "Required Supplies",
+        "type": "candidate",
+        "id": "Required Supplies"
+      },
+      {
+        "label": "Spare",
+        "type": "candidate",
+        "id": "Spare"
+      },
+      {
+        "label": "Information",
+        "type": "candidate",
+        "id": "Information"
+      },
+      {
+        "label": "Quantity",
+        "type": "candidate",
+        "id": "Quantity"
+      },
+      {
+        "label": "EA",
+        "type": "candidate",
+        "id": "EA"
+      },
+      {
+        "label": "Headset Installation Procedure",
+        "type": "candidate",
+        "id": "Headset Installation Procedure"
+      },
+      {
+        "label": "Technical",
+        "type": "candidate",
+        "id": "Technical"
+      },
+      {
+        "label": "Manufacturer",
+        "type": "candidate",
+        "id": "Manufacturer"
+      },
+      {
+        "label": "Requirements",
+        "type": "candidate",
+        "id": "Requirements"
+      },
+      {
+        "label": "General Grease",
+        "type": "candidate",
+        "id": "General Grease"
+      },
+      {
+        "label": "Required Spares",
+        "type": "candidate",
+        "id": "Required Spares"
+      },
+      {
+        "label": "Stem",
+        "type": "candidate",
+        "id": "Stem"
+      },
+      {
+        "label": "General",
+        "type": "candidate",
+        "id": "General"
+      },
+      {
+        "label": "Grease",
+        "type": "candidate",
+        "id": "Grease"
+      },
+      {
+        "label": "Preliminary",
+        "type": "candidate",
+        "id": "Preliminary"
+      },
+      {
+        "label": "Procedure",
+        "type": "candidate",
+        "id": "Procedure"
+      },
+      {
+        "label": "Installation",
+        "type": "candidate",
+        "id": "Installation"
+      },
+      {
+        "label": "Preliminary Requirements",
+        "type": "candidate",
+        "id": "Preliminary Requirements"
+      },
+      {
+        "label": "Part",
+        "type": "candidate",
+        "id": "Part"
+      },
+      {
+        "label": "Required",
+        "type": "candidate",
+        "id": "Required"
+      },
+      {
+        "label": "3.2. Main Procedure",
+        "type": "heading",
+        "id": "3.2. Main Procedure"
+      },
+      {
+        "label": "Refer",
+        "type": "candidate",
+        "id": "Refer"
+      },
+      {
+        "label": "Apply",
+        "type": "candidate",
+        "id": "Apply"
+      },
+      {
+        "label": "Supply",
+        "type": "candidate",
+        "id": "Supply"
+      },
+      {
+        "label": "Main Procedure",
+        "type": "candidate",
+        "id": "Main Procedure"
+      },
+      {
+        "label": "Main",
+        "type": "candidate",
+        "id": "Main"
+      },
+      {
+        "label": "Install",
+        "type": "candidate",
+        "id": "Install"
+      },
+      {
+        "label": "3.3. Close Requirements",
+        "type": "heading",
+        "id": "3.3. Close Requirements"
+      },
+      {
+        "label": "Ensures",
+        "type": "candidate",
+        "id": "Ensures"
+      },
+      {
+        "label": "usability",
+        "type": "candidate",
+        "id": "usability"
+      },
+      {
+        "label": "Clearer Sectioning",
+        "type": "candidate",
+        "id": "Clearer Sectioning"
+      },
+      {
+        "label": "Reference Linking",
+        "type": "candidate",
+        "id": "Reference Linking"
+      },
+      {
+        "label": "Correct Markdown Syntax",
+        "type": "candidate",
+        "id": "Correct Markdown Syntax"
+      },
+      {
+        "label": "presentation",
+        "type": "candidate",
+        "id": "presentation"
+      },
+      {
+        "label": "Close Requirements",
+        "type": "candidate",
+        "id": "Close Requirements"
+      },
+      {
+        "label": "This",
+        "type": "candidate",
+        "id": "This"
+      },
+      {
+        "label": "User",
+        "type": "candidate",
+        "id": "User"
+      },
+      {
+        "label": "Focus",
+        "type": "candidate",
+        "id": "Focus"
+      },
+      {
+        "label": "Formatting",
+        "type": "candidate",
+        "id": "Formatting"
+      },
+      {
+        "label": "Directness",
+        "type": "candidate",
+        "id": "Directness"
+      },
+      {
+        "label": "Close",
+        "type": "candidate",
+        "id": "Close"
+      },
+      {
+        "label": "Lists",
+        "type": "candidate",
+        "id": "Lists"
+      },
+      {
+        "label": "Clearer",
+        "type": "candidate",
+        "id": "Clearer"
+      },
+      {
+        "label": "Concise Language",
+        "type": "candidate",
+        "id": "Concise Language"
+      },
+      {
+        "label": "Key Information",
+        "type": "candidate",
+        "id": "Key Information"
+      },
+      {
+        "label": "User Needs",
+        "type": "candidate",
+        "id": "User Needs"
+      },
+      {
+        "label": "Uses Markdown",
+        "type": "candidate",
+        "id": "Uses Markdown"
+      },
+      {
+        "label": "Markdown",
+        "type": "candidate",
+        "id": "Markdown"
+      },
+      {
+        "label": "crucial",
+        "type": "candidate",
+        "id": "crucial"
+      },
+      {
+        "label": "Sectioning",
+        "type": "candidate",
+        "id": "Sectioning"
+      },
+      {
+        "label": "Needs",
+        "type": "candidate",
+        "id": "Needs"
+      },
+      {
+        "label": "Clear",
+        "type": "candidate",
+        "id": "Clear"
+      },
+      {
+        "label": "lists",
+        "type": "candidate",
+        "id": "lists"
+      },
+      {
+        "label": "Removed",
+        "type": "candidate",
+        "id": "Removed"
+      },
+      {
+        "label": "Correct",
+        "type": "candidate",
+        "id": "Correct"
+      },
+      {
+        "label": "Readability",
+        "type": "candidate",
+        "id": "Readability"
+      },
+      {
+        "label": "Tables",
+        "type": "candidate",
+        "id": "Tables"
+      },
+      {
+        "label": "Highlights",
+        "type": "candidate",
+        "id": "Highlights"
+      },
+      {
+        "label": "optimized",
+        "type": "candidate",
+        "id": "optimized"
+      },
+      {
+        "label": "Improved",
+        "type": "candidate",
+        "id": "Improved"
+      },
+      {
+        "label": "Syntax",
+        "type": "candidate",
+        "id": "Syntax"
+      },
+      {
+        "label": "XML",
+        "type": "candidate",
+        "id": "XML"
+      },
+      {
+        "label": "Uses",
+        "type": "candidate",
+        "id": "Uses"
+      },
+      {
+        "label": "Concise",
+        "type": "candidate",
+        "id": "Concise"
+      },
+      {
+        "label": "Improved Readability",
+        "type": "candidate",
+        "id": "Improved Readability"
+      },
+      {
+        "label": "Emphasis",
+        "type": "candidate",
+        "id": "Emphasis"
+      },
+      {
+        "label": "Language",
+        "type": "candidate",
+        "id": "Language"
+      },
+      {
+        "label": "Linking",
+        "type": "candidate",
+        "id": "Linking"
+      }
+    ],
+    "links": [
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "Document",
+        "target": "Document"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Module"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Issue"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Info"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Module Identification"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Model"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Assembly"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Variant"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Code"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "System"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Identification"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "1. Module Identification",
+        "target": "Info Code"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Issue",
+        "target": "3.1. Preliminary Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Info",
+        "target": "2. References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Model",
+        "target": "2. References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Assembly",
+        "target": "2. References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Assembly",
+        "target": "3.1. Preliminary Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Assembly",
+        "target": "3.2. Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Variant",
+        "target": "2. References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Code",
+        "target": "2. References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "System",
+        "target": "2. References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "System",
+        "target": "3.1. Preliminary Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "System",
+        "target": "3.2. Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Info Code",
+        "target": "2. References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "2. References",
+        "target": "DM"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "2. References",
+        "target": "AAA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "2. References",
+        "target": "References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "DM",
+        "target": "3.1. Preliminary Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "DM",
+        "target": "3.2. Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DM",
+        "target": "3.3. Close Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Embedded Spare"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Material"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "FK"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Required Technical Information"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Spares"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Supplies"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Reference"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Part Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Stem Installation Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Fork"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "LL"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Headset"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Embedded"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Material Set"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Required Supplies"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Spare"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Information"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Quantity"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "EA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Headset Installation Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Technical"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Manufacturer"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "General Grease"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Required Spares"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Stem"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "General"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Grease"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Preliminary"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Installation"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Preliminary Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Part"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "3.1. Preliminary Requirements",
+        "target": "Required"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "Reference",
+        "target": "3.3. Close Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Fork",
+        "target": "3.2. Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Spare",
+        "target": "3.2. Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "Information",
+        "target": "3.3. Close Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "Requirements",
+        "target": "3.3. Close Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "General Grease",
+        "target": "3.2. Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "General",
+        "target": "3.2. Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Grease",
+        "target": "3.2. Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Procedure",
+        "target": "3.2. Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3.2. Main Procedure",
+        "target": "Refer"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3.2. Main Procedure",
+        "target": "Apply"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3.2. Main Procedure",
+        "target": "Supply"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3.2. Main Procedure",
+        "target": "Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3.2. Main Procedure",
+        "target": "Main"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3.2. Main Procedure",
+        "target": "Install"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Ensures"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "usability"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Clearer Sectioning"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Reference Linking"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Correct Markdown Syntax"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "presentation"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Close Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "This"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "User"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Focus"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Formatting"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Directness"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Close"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Lists"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Clearer"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Concise Language"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Key Information"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "User Needs"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Uses Markdown"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Markdown"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "crucial"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Sectioning"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Needs"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Clear"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "lists"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Removed"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Correct"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Readability"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Tables"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Highlights"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "optimized"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Improved"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Syntax"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "XML"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Uses"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Concise"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Improved Readability"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Emphasis"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Language"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "3.3. Close Requirements",
+        "target": "Linking"
+      }
+    ]
+  }
+}

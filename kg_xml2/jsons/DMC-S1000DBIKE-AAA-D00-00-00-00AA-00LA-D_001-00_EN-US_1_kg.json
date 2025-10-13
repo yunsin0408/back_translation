@@ -1,0 +1,2572 @@
+{
+  "nodes": [
+    {
+      "id": "DM Ident",
+      "label": "DM Ident",
+      "type": "heading",
+      "source_units": [
+        1
+      ]
+    },
+    {
+      "id": "Ident",
+      "label": "Ident",
+      "type": "candidate",
+      "source_units": [
+        1
+      ]
+    },
+    {
+      "id": "DM",
+      "label": "DM",
+      "type": "candidate",
+      "source_units": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "AAA",
+      "label": "AAA",
+      "type": "candidate",
+      "source_units": [
+        1
+      ]
+    },
+    {
+      "id": "AA",
+      "label": "AA",
+      "type": "candidate",
+      "source_units": [
+        1
+      ]
+    },
+    {
+      "id": "US",
+      "label": "US",
+      "type": "candidate",
+      "source_units": [
+        1
+      ]
+    },
+    {
+      "id": "DM Address Items",
+      "label": "DM Address Items",
+      "type": "heading",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Items",
+      "label": "Items",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Mountain",
+      "label": "Mountain",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Address Items",
+      "label": "Address Items",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Title",
+      "label": "Title",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Supplies",
+      "label": "Supplies",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "List",
+      "label": "List",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Address",
+      "label": "Address",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "DM Status",
+      "label": "DM Status",
+      "type": "heading",
+      "source_units": [
+        3,
+        7
+      ]
+    },
+    {
+      "id": "Status",
+      "label": "Status",
+      "type": "candidate",
+      "source_units": [
+        3,
+        7
+      ]
+    },
+    {
+      "id": "Security",
+      "label": "Security",
+      "type": "heading",
+      "source_units": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "Remarks",
+      "label": "Remarks",
+      "type": "heading",
+      "source_units": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "CPF",
+      "label": "CPF",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Bike Enhancement",
+      "label": "Bike Enhancement",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Bike",
+      "label": "Bike",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Enhancement",
+      "label": "Enhancement",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Brex DM Ref",
+      "label": "Brex DM Ref",
+      "type": "heading",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Brex",
+      "label": "Brex",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Supply Spec (id: sup-0001)",
+      "label": "Supply Spec (id: sup-0001)",
+      "type": "heading",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "APPROX",
+      "label": "APPROX",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "YEARS",
+      "label": "YEARS",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "UK",
+      "label": "UK",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "CAN",
+      "label": "CAN",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "DEG",
+      "label": "DEG",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "Supply Spec",
+      "label": "Supply Spec",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "SPEC",
+      "label": "SPEC",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "Supply",
+      "label": "Supply",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "LITER",
+      "label": "LITER",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "FLAMMABLE",
+      "label": "FLAMMABLE",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "BIKE",
+      "label": "BIKE",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "Spec",
+      "label": "Spec",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "LIQUID",
+      "label": "LIQUID",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "AT",
+      "label": "AT",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "Supply Spec (id: sup-0002)",
+      "label": "Supply Spec (id: sup-0002)",
+      "type": "heading",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Supply Spec (id: sup-0003)",
+      "label": "Supply Spec (id: sup-0003)",
+      "type": "heading",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Supply Spec (id: sup-0004)",
+      "label": "Supply Spec (id: sup-0004)",
+      "type": "heading",
+      "source_units": [
+        11
+      ]
+    },
+    {
+      "id": "Supply Spec (id: sup-0005)",
+      "label": "Supply Spec (id: sup-0005)",
+      "type": "heading",
+      "source_units": [
+        12
+      ]
+    },
+    {
+      "id": "AND",
+      "label": "AND",
+      "type": "candidate",
+      "source_units": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "GAL",
+      "label": "GAL",
+      "type": "candidate",
+      "source_units": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "BSB",
+      "label": "BSB",
+      "type": "candidate",
+      "source_units": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "IPDA",
+      "label": "IPDA",
+      "type": "candidate",
+      "source_units": [
+        12
+      ]
+    },
+    {
+      "id": "DUROFIX",
+      "label": "DUROFIX",
+      "type": "candidate",
+      "source_units": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "FR",
+      "label": "FR",
+      "type": "candidate",
+      "source_units": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "Supply Spec (id: sup-0006)",
+      "label": "Supply Spec (id: sup-0006)",
+      "type": "heading",
+      "source_units": [
+        13
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "DM Ident",
+      "target": "Ident",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "DM",
+      "target": "DM Ident",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "AAA",
+      "target": "DM Ident",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "AA",
+      "target": "DM Ident",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "DM Ident",
+      "target": "US",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "DM Address Items",
+      "target": "Items",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Address Items",
+      "target": "Mountain",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM",
+      "target": "DM Address Items",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Address Items",
+      "target": "DM Address Items",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Address Items",
+      "target": "Title",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Address Items",
+      "target": "Supplies",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Address Items",
+      "target": "List",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Address",
+      "target": "DM Address Items",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Status",
+      "weight": 2,
+      "units": [
+        3,
+        7
+      ]
+    },
+    {
+      "source": "DM",
+      "target": "DM Status",
+      "weight": 2,
+      "units": [
+        3,
+        7
+      ]
+    },
+    {
+      "source": "Security",
+      "target": "Security",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "CPF",
+      "target": "Remarks",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Bike Enhancement",
+      "target": "Remarks",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Remarks",
+      "target": "Remarks",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Bike",
+      "target": "Remarks",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Enhancement",
+      "target": "Remarks",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Brex DM Ref",
+      "target": "DM",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Brex",
+      "target": "Brex DM Ref",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "APPROX",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0001)",
+      "target": "YEARS",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0001)",
+      "target": "UK",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "CAN",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DEG",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Supply Spec",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "SPEC",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Supply",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "LITER",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "FLAMMABLE",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "BIKE",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Spec",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "LIQUID",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "AT",
+      "target": "Supply Spec (id: sup-0001)",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "APPROX",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0002)",
+      "target": "YEARS",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0002)",
+      "target": "UK",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "CAN",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "DEG",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Supply Spec",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "SPEC",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Supply",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "LITER",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "FLAMMABLE",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "BIKE",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Spec",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "LIQUID",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "AT",
+      "target": "Supply Spec (id: sup-0002)",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "APPROX",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0003)",
+      "target": "YEARS",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0003)",
+      "target": "UK",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "CAN",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "DEG",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "Supply Spec",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "SPEC",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "Supply",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "LITER",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "FLAMMABLE",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "BIKE",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "Spec",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "LIQUID",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "AT",
+      "target": "Supply Spec (id: sup-0003)",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "APPROX",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0004)",
+      "target": "YEARS",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0004)",
+      "target": "UK",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "CAN",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "DEG",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "Supply Spec",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "SPEC",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "Supply",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "LITER",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "FLAMMABLE",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "BIKE",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "Spec",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "LIQUID",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "AT",
+      "target": "Supply Spec (id: sup-0004)",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
+      "source": "APPROX",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "AND",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "GAL",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0005)",
+      "target": "YEARS",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "CAN",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "DEG",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "Supply Spec",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "SPEC",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "BSB",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "IPDA",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "Supply",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "LITER",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "FLAMMABLE",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "LIQUID",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "Spec",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "DUROFIX",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "FR",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "AT",
+      "target": "Supply Spec (id: sup-0005)",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "APPROX",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "AND",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "GAL",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "Supply Spec (id: sup-0006)",
+      "target": "YEARS",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "CAN",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "DEG",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "Supply Spec",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "SPEC",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "BSB",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "Supply",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "LITER",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "FLAMMABLE",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "LIQUID",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "Spec",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "DUROFIX",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "FR",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "AT",
+      "target": "Supply Spec (id: sup-0006)",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    }
+  ],
+  "nx_graph": {
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "label": "DM Ident",
+        "type": "heading",
+        "id": "DM Ident"
+      },
+      {
+        "label": "Ident",
+        "type": "candidate",
+        "id": "Ident"
+      },
+      {
+        "label": "DM",
+        "type": "candidate",
+        "id": "DM"
+      },
+      {
+        "label": "AAA",
+        "type": "candidate",
+        "id": "AAA"
+      },
+      {
+        "label": "AA",
+        "type": "candidate",
+        "id": "AA"
+      },
+      {
+        "label": "US",
+        "type": "candidate",
+        "id": "US"
+      },
+      {
+        "label": "DM Address Items",
+        "type": "heading",
+        "id": "DM Address Items"
+      },
+      {
+        "label": "Items",
+        "type": "candidate",
+        "id": "Items"
+      },
+      {
+        "label": "Mountain",
+        "type": "candidate",
+        "id": "Mountain"
+      },
+      {
+        "label": "Address Items",
+        "type": "candidate",
+        "id": "Address Items"
+      },
+      {
+        "label": "Title",
+        "type": "candidate",
+        "id": "Title"
+      },
+      {
+        "label": "Supplies",
+        "type": "candidate",
+        "id": "Supplies"
+      },
+      {
+        "label": "List",
+        "type": "candidate",
+        "id": "List"
+      },
+      {
+        "label": "Address",
+        "type": "candidate",
+        "id": "Address"
+      },
+      {
+        "label": "DM Status",
+        "type": "heading",
+        "id": "DM Status"
+      },
+      {
+        "label": "Status",
+        "type": "candidate",
+        "id": "Status"
+      },
+      {
+        "label": "Security",
+        "type": "heading",
+        "id": "Security"
+      },
+      {
+        "label": "Remarks",
+        "type": "heading",
+        "id": "Remarks"
+      },
+      {
+        "label": "CPF",
+        "type": "candidate",
+        "id": "CPF"
+      },
+      {
+        "label": "Bike Enhancement",
+        "type": "candidate",
+        "id": "Bike Enhancement"
+      },
+      {
+        "label": "Bike",
+        "type": "candidate",
+        "id": "Bike"
+      },
+      {
+        "label": "Enhancement",
+        "type": "candidate",
+        "id": "Enhancement"
+      },
+      {
+        "label": "Brex DM Ref",
+        "type": "heading",
+        "id": "Brex DM Ref"
+      },
+      {
+        "label": "Brex",
+        "type": "candidate",
+        "id": "Brex"
+      },
+      {
+        "label": "Supply Spec (id: sup-0001)",
+        "type": "heading",
+        "id": "Supply Spec (id: sup-0001)"
+      },
+      {
+        "label": "APPROX",
+        "type": "candidate",
+        "id": "APPROX"
+      },
+      {
+        "label": "YEARS",
+        "type": "candidate",
+        "id": "YEARS"
+      },
+      {
+        "label": "UK",
+        "type": "candidate",
+        "id": "UK"
+      },
+      {
+        "label": "CAN",
+        "type": "candidate",
+        "id": "CAN"
+      },
+      {
+        "label": "DEG",
+        "type": "candidate",
+        "id": "DEG"
+      },
+      {
+        "label": "Supply Spec",
+        "type": "candidate",
+        "id": "Supply Spec"
+      },
+      {
+        "label": "SPEC",
+        "type": "candidate",
+        "id": "SPEC"
+      },
+      {
+        "label": "Supply",
+        "type": "candidate",
+        "id": "Supply"
+      },
+      {
+        "label": "LITER",
+        "type": "candidate",
+        "id": "LITER"
+      },
+      {
+        "label": "FLAMMABLE",
+        "type": "candidate",
+        "id": "FLAMMABLE"
+      },
+      {
+        "label": "BIKE",
+        "type": "candidate",
+        "id": "BIKE"
+      },
+      {
+        "label": "Spec",
+        "type": "candidate",
+        "id": "Spec"
+      },
+      {
+        "label": "LIQUID",
+        "type": "candidate",
+        "id": "LIQUID"
+      },
+      {
+        "label": "AT",
+        "type": "candidate",
+        "id": "AT"
+      },
+      {
+        "label": "Supply Spec (id: sup-0002)",
+        "type": "heading",
+        "id": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "label": "Supply Spec (id: sup-0003)",
+        "type": "heading",
+        "id": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "label": "Supply Spec (id: sup-0004)",
+        "type": "heading",
+        "id": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "label": "Supply Spec (id: sup-0005)",
+        "type": "heading",
+        "id": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "label": "AND",
+        "type": "candidate",
+        "id": "AND"
+      },
+      {
+        "label": "GAL",
+        "type": "candidate",
+        "id": "GAL"
+      },
+      {
+        "label": "BSB",
+        "type": "candidate",
+        "id": "BSB"
+      },
+      {
+        "label": "IPDA",
+        "type": "candidate",
+        "id": "IPDA"
+      },
+      {
+        "label": "DUROFIX",
+        "type": "candidate",
+        "id": "DUROFIX"
+      },
+      {
+        "label": "FR",
+        "type": "candidate",
+        "id": "FR"
+      },
+      {
+        "label": "Supply Spec (id: sup-0006)",
+        "type": "heading",
+        "id": "Supply Spec (id: sup-0006)"
+      }
+    ],
+    "links": [
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "Ident"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "DM"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "AAA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "AA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "US"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM",
+        "target": "DM Address Items"
+      },
+      {
+        "weight": 2,
+        "units": [
+          3,
+          7
+        ],
+        "source": "DM",
+        "target": "DM Status"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DM",
+        "target": "Brex DM Ref"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Address Items",
+        "target": "Items"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Address Items",
+        "target": "Mountain"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Address Items",
+        "target": "Address Items"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Address Items",
+        "target": "Title"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Address Items",
+        "target": "Supplies"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Address Items",
+        "target": "List"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Address Items",
+        "target": "Address"
+      },
+      {
+        "weight": 2,
+        "units": [
+          3,
+          7
+        ],
+        "source": "DM Status",
+        "target": "Status"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Security",
+        "target": "Security"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Remarks",
+        "target": "CPF"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Remarks",
+        "target": "Bike Enhancement"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Remarks",
+        "target": "Remarks"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Remarks",
+        "target": "Bike"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Remarks",
+        "target": "Enhancement"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "Brex DM Ref",
+        "target": "Brex"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "APPROX"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "YEARS"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "UK"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "CAN"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "DEG"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "Supply Spec"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "SPEC"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "Supply"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "LITER"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "FLAMMABLE"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "BIKE"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "Spec"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "LIQUID"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Supply Spec (id: sup-0001)",
+        "target": "AT"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "APPROX",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "APPROX",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "APPROX",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "APPROX",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "APPROX",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "YEARS",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "YEARS",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "YEARS",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "YEARS",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "YEARS",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "UK",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "UK",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "UK",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "CAN",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "CAN",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "CAN",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "CAN",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "CAN",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "DEG",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "DEG",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "DEG",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "DEG",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "DEG",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Supply Spec",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "Supply Spec",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "Supply Spec",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Supply Spec",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "Supply Spec",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "SPEC",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "SPEC",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "SPEC",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "SPEC",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "SPEC",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Supply",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "Supply",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "Supply",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Supply",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "Supply",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "LITER",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "LITER",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "LITER",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "LITER",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "LITER",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "FLAMMABLE",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "FLAMMABLE",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "FLAMMABLE",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "FLAMMABLE",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "FLAMMABLE",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "BIKE",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "BIKE",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "BIKE",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Spec",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "Spec",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "Spec",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Spec",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "Spec",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "LIQUID",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "LIQUID",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "LIQUID",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "LIQUID",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "LIQUID",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "AT",
+        "target": "Supply Spec (id: sup-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "AT",
+        "target": "Supply Spec (id: sup-0003)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "AT",
+        "target": "Supply Spec (id: sup-0004)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "AT",
+        "target": "Supply Spec (id: sup-0005)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "AT",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Supply Spec (id: sup-0005)",
+        "target": "AND"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Supply Spec (id: sup-0005)",
+        "target": "GAL"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Supply Spec (id: sup-0005)",
+        "target": "BSB"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Supply Spec (id: sup-0005)",
+        "target": "IPDA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Supply Spec (id: sup-0005)",
+        "target": "DUROFIX"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Supply Spec (id: sup-0005)",
+        "target": "FR"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "AND",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "GAL",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "BSB",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "DUROFIX",
+        "target": "Supply Spec (id: sup-0006)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "FR",
+        "target": "Supply Spec (id: sup-0006)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Fork, Stem, Headset &amp; Spacer Installation Procedure</title>
+  <introduction>
+    <p>This document details the procedure for installing the fork, stem, headset, and spacers on a bicycle. It references related technical information and provides necessary supply/spare requirements.</p>
+  </introduction>
+  <preliminary_requirements>
+    <required_personnel>
+      <p>None specified.</p>
+    </required_personnel>
+    <technical_information>
+      <item>
+        <name>Stem Installation</name>
+        <description>Referenced documentation for stem installation procedure.</description>
+      </item>
+      <item>
+        <name>Headset Installation</name>
+        <description>Referenced documentation for headset installation procedure.</description>
+      </item>
+      <item>
+        <name>Spacer Installation</name>
+        <description>Referenced documentation for spacer installation procedure.</description>
+      </item>
+    </technical_information>
+    <support_equipment>
+      <p>None specified.</p>
+    </support_equipment>
+    <supplies>
+      <table_data>
+        <header>
+          <item>Item Description</item>
+          <item>Category</item>
+          <item>Identifier</item>
+          <item>Quantity</item>
+        </header>
+        <row>
+          <item>General Grease</item>
+          <item>Supply</item>
+          <item>KZ222-LL-005</item>
+          <item>As Required</item>
+        </row>
+      </table_data>
+    </supplies>
+    <spares>
+      <table_data>
+        <header>
+          <item>Item Description</item>
+          <item>Material Usage</item>
+          <item>Identifier</item>
+          <item>Quantity</item>
+        </header>
+        <row>
+          <item>Fork Set</item>
+          <item>mu05</item>
+          <item>KZ666-SPA-1000-1</item>
+          <item>1 EA</item>
+        </row>
+        <row>
+          <item>Fork (Embedded Spare)</item>
+          <item>N/A</item>
+          <item>KZ666-FK-TEL1001</item>
+          <item>1 EA</item>
+        </row>
+      </table_data>
+    </spares>
+    <safety_precautions>
+      <p>None specified.</p>
+    </safety_precautions>
+  </preliminary_requirements>
+  <main_procedure>
+    <step>
+      <title>Step 1: Apply Grease</title>
+      <p>Apply general grease (KZ222-LL-005) to the headset.</p>
+    </step>
+    <step>
+      <title>Step 2: Install Headset</title>
+      <p>Install the headset. Refer to the referenced headset installation documentation.</p>
+    </step>
+    <step>
+      <title>Step 3: Install Spacers</title>
+      <p>Install the spacers. Refer to the referenced spacer installation documentation.</p>
+    </step>
+    <step>
+      <title>Step 4: Install Stem</title>
+      <p>Install the stem. Refer to the referenced stem installation documentation.</p>
+    </step>
+    <step>
+      <title>Step 5: Install Fork</title>
+      <p>Install the fork (KZ666-FK-TEL1001).</p>
+    </step>
+  </main_procedure>
+  <close_out_requirements>
+    <p>No specific close-out conditions are defined.</p>
+  </close_out_requirements>
+  <document_information>
+    <document_type>Procedure</document_type>
+    <date>(Not specified in source)</date>
+    <revision>(Not specified in source)</revision>
+  </document_information>
+</procedure>

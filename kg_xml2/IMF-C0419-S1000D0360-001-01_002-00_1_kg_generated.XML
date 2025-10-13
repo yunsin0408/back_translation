@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModule xmlns="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <DataModuleId>IMF-C0419-S1000D0360-001-01_002-00</DataModuleId>
+  <ImfIdentAndStatusSection>
+    <ImfAddress>
+      <ImfIdent>
+        <ImfCode>
+          <ImfIdentIcn>C0419-S1000D0360-001-01</ImfIdentIcn>
+        </ImfCode>
+        <IssueInfo>
+          <IssueNumber>002</IssueNumber>
+          <InWork>00</InWork>
+        </IssueInfo>
+      </ImfIdent>
+      <ImfAddressItems>
+        <IcnTitle>Bicycle</IcnTitle>
+        <IssueDate>
+          <Year>2024</Year>
+          <Month>06</Month>
+          <Day>19</Day>
+        </IssueDate>
+        <IcnKeywordGroup>
+          <IcnKeyword>mountain</IcnKeyword>
+          <IcnKeyword>mountain bike</IcnKeyword>
+          <IcnKeyword>Mk1</IcnKeyword>
+          <IcnKeyword>Mk9</IcnKeyword>
+        </IcnKeywordGroup>
+      </ImfAddressItems>
+    </ImfAddress>
+    <ImfStatus>
+      <Security>
+        <SecurityClassification>01</SecurityClassification>
+        <CommercialClassification>cc51</CommercialClassification>
+      </Security>
+    </ImfStatus>
+    <DataRestrictions>
+      <RestrictionInstructions>
+        <DataDistribution>To be made available to all S1000D users.</DataDistribution>
+        <ExportControl>
+          <ExportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</ExportRegistrationStmt>
+        </ExportControl>
+        <DataHandling>There are no specific handling instructions for this data module.</DataHandling>
+        <DataDestruction>Users may destroy this data module in accordance with their own local procedures.</DataDestruction>
+        <DataDisclosure>There are no dissemination limitations that apply to this data module.</DataDisclosure>
+      </RestrictionInstructions>
+      <RestrictionInfo>
+        <Copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</Copyright>
+        <Publishers>
+          <RandomList>
+            <Item>Aerospace, Security and Defence Industries Association of Europe</Item>
+            <Item>Aerospace Industries Association of America</Item>
+            <Item>ATA e-Business Program</Item>
+          </RandomList>
+        </Publishers>
+        <LimitationsOfLiability>
+          <RandomList>
+            <Item>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</Item>
+            <Item>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising out of the use of this material.</Item>
+            <Item>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</Item>
+          </RandomList>
+        </LimitationsOfLiability>
+        <CopyrightDetails>The details for copyright can be found in the S1000D Specification.</CopyrightDetails>
+      </RestrictionInfo>
+      <PolicyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</PolicyStatement>
+      <DataCondition>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</DataCondition>
+    </DataRestrictions>
+    <ResponsiblePartnerCompany>
+      <EnterpriseCode>B6865</EnterpriseCode>
+      <EnterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</EnterpriseName>
+    </ResponsiblePartnerCompany>
+    <Originator>
+      <EnterpriseCode>B6865</EnterpriseCode>
+      <EnterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</EnterpriseName>
+    </Originator>
+    <BrexDmRef>
+      <DmRef>
+        <DmRefIdent>
+          <DmCode>
+            <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+            <SystemDiffCode>AAA</SystemDiffCode>
+            <SystemCode>D00</SystemCode>
+            <SubSystemCode>0</SubSystemCode>
+            <SubSubSystemCode>0</SubSubSystemCode>
+            <AssyCode>00</AssyCode>
+            <DisassyCode>00</DisassyCode>
+            <DisassyCodeVariant>AA</DisassyCodeVariant>
+            <InfoCode>022</InfoCode>
+            <InfoCodeVariant>A</InfoCodeVariant>
+            <ItemLocationCode>D</ItemLocationCode>
+          </DmCode>
+          <IssueInfo>
+            <IssueNumber>011</IssueNumber>
+            <InWork>00</InWork>
+          </IssueInfo>
+        </DmRefIdent>
+      </DmRef>
+    </BrexDmRef>
+    <QualityAssurance>
+      <FirstVerification>
+        <VerificationType>tabtop</VerificationType>
+      </FirstVerification>
+    </QualityAssurance>
+  </ImfIdentAndStatusSection>
+  <ImfContent>
+    <IcnVariation>
+      <FileExtension>svg</FileExtension>
+    </IcnVariation>
+    <IcnContents>
+      <IcnObjectGroup>
+        <IcnObject>
+          <IcnObjectIdent>hot000</IcnObjectIdent>
+          <IcnObjectName>0</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>BICYCLE</IcnObjectTitle>
+        </IcnObject>
+        <IcnObject>
+          <IcnObjectIdent>hot001</IcnObjectIdent>
+          <IcnObjectName>1</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>BRAKE SUB-SYSTEM</IcnObjectTitle>
+        </IcnObject>
+        <IcnObject>
+          <IcnObjectIdent>hot002</IcnObjectIdent>
+          <IcnObjectName>2</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>GEAR SUB-SYSTEM</IcnObjectTitle>
+        </IcnObject>
+        <IcnObject>
+          <IcnObjectIdent>hot003</IcnObjectIdent>
+          <IcnObjectName>3</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>WHEEL, ASSEMBLY FRONT</IcnObjectTitle>
+        </IcnObject>
+        <IcnObject>
+          <IcnObjectIdent>hot004</IcnObjectIdent>
+          <IcnObjectName>4</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>PEDALS</IcnObjectTitle>
+        </IcnObject>
+        <IcnObject>
+          <IcnObjectIdent>hot005</IcnObjectIdent>
+          <IcnObjectName>5</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>CRANKS</IcnObjectTitle>
+        </IcnObject>
+        <IcnObject>
+          <IcnObjectIdent>hot006</IcnObjectIdent>
+          <IcnObjectName>6</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>CHAIN</IcnObjectTitle>
+        </IcnObject>
+        <IcnObject>
+          <IcnObjectIdent>hot007</IcnObjectIdent>
+          <IcnObjectName>7</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>REAR SPROCKET</IcnObjectTitle>
+        </IcnObject>
+        <IcnObject>
+          <IcnObjectIdent>hot008</IcnObjectIdent>
+          <IcnObjectName>8</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>FRONT SPROCKET</IcnObjectTitle>
+        </IcnObject>
+        <IcnObject>
+          <IcnObjectIdent>hot009</IcnObjectIdent>
+          <IcnObjectName>9</IcnObjectName>
+          <IcnObjectType>CALLOUT</IcnObjectType>
+          <IcnObjectTitle>BRAKE LEVER</IcnObjectTitle>
+        </IcnObject>
+      </IcnObjectGroup>
+    </IcnContents>
+    <IcnVariation>
+      <FileExtension>png</FileExtension>
+    </IcnVariation>
+  </ImfContent>
+</DataModule>

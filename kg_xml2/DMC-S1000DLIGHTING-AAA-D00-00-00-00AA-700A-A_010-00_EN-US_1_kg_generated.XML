@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <title>Lighting System Installation Procedure</title>
+  </identification>
+  <content>
+    <section>
+      <title>Introduction</title>
+      <paragraph>This document details the procedure for installing the lighting system on a bicycle.</paragraph>
+    </section>
+    <section>
+      <title>Preliminary Requirements</title>
+      <subsection>
+        <title>Work Area</title>
+        <list>
+          <item>Impacted zones: Zone 200, Zone 300, and Zone 130.</item>
+        </list>
+      </subsection>
+      <subsection>
+        <title>Tools &amp; Equipment</title>
+        <list>
+          <item>
+            <b>Toolset:</b> Specialist toolset (BSK-TLST-001, Manufacturer: KZ666, Quantity: 1)
+          </item>
+        </list>
+      </subsection>
+      <subsection>
+        <title>Prerequisites</title>
+        <list>
+          <item>Bike must be stationary.</item>
+        </list>
+      </subsection>
+    </section>
+    <section>
+      <title>Procedure</title>
+      <subsection>
+        <title>Step 1: Unpacking &amp; Inspection</title>
+        <list>
+          <item>Remove the lighting system from its packaging.</item>
+          <item>Verify that all components match the parts list in document [S1000DLIGHTING - Disassembly 01 - D](S1000DLIGHTING - Disassembly 01 - D).</item>
+        </list>
+      </subsection>
+      <subsection>
+        <title>Step 2: Front Light Installation</title>
+        <numbered_list>
+          <item>Apply protective strip around the handlebar.</item>
+          <item>Open the clamp and position it around the protective strip, ensuring the light connector is at the top.</item>
+          <item>Install the washer on the screw.</item>
+          <item>Tighten the screw into the hole at the bottom of the clamp using the correct screwdriver from the toolset.</item>
+        </numbered_list>
+      </subsection>
+      <subsection>
+        <title>Step 3: Rear Light Installation</title>
+        <numbered_list>
+          <item>Apply protective strip around one of the rear triangle up-tubes.</item>
+          <item>Open the clamp and position it around the protective strip, ensuring the light connector points rearward.</item>
+          <item>Install the washer on the screw.</item>
+          <item>Tighten the screw into the hole at the bottom of the clamp using the correct screwdriver from the toolset.</item>
+        </numbered_list>
+      </subsection>
+      <subsection>
+        <title>Step 4: Connecting Lights</title>
+        <numbered_list>
+          <item>Attach the light with the white glass to the front connector.</item>
+          <item>Attach the light with the red glass to the rear connector.</item>
+        </numbered_list>
+      </subsection>
+      <subsection>
+        <title>Step 5: Circuit Breaker Installation (Conditional)</title>
+        <paragraph><b>Note:</b> Installation varies based on bike type.</paragraph>
+        <list>
+          <item>
+            <b>Mountain Bike (Storm type):</b>
+            <list>
+              <item>Install circuit breaker CBLGT-1001-R on the right handlebar using the clamping ring.</item>
+              <item>Connect the circuit breaker electrical wire to the rear connector of the front light.</item>
+              <item>Secure the wire to the frame using a protective strip.</item>
+            </list>
+          </item>
+          <item>
+            <b>Mountain Bike (Trekker type):</b>
+            <list>
+              <item>Install circuit breaker CBLGT-1001-L on the left handlebar using the clamping ring.</item>
+              <item>Connect the circuit breaker electrical wire to the rear connector of the front light.</item>
+              <item>Secure the wire to the frame using a protective strip.</item>
+            </list>
+          </item>
+        </list>
+        <paragraph><b>Figure:</b> [Circuit Breaker (See Figures Below)](figs-0001)</paragraph>
+      </subsection>
+    </section>
+    <section>
+      <title>Figures</title>
+      <paragraph><b>Figure 1: Circuit Breaker (Storm Type - Right Side)</b></paragraph>
+      <image>![Circuit Breaker (Storm Type - Right Side)](ICN-FAPE3-S1000D0101-001-01)</image>
+      <paragraph><b>Figure 2: Circuit Breaker (Trekker Type - Left Side)</b></paragraph>
+      <image>![Circuit Breaker (Trekker Type - Left Side)](ICN-FAPE3-S1000D0102-001-01)</image>
+    </section>
+    <section>
+      <title>Closing Requirements</title>
+      <list>
+        <item>No specific conditions apply.</item>
+      </list>
+    </section>
+  </content>
+</procedure>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <Title>IMF-C0419-S1000D0360-001-01_002-00_1_1 - Bicycle</Title>
+  <Description>This document represents the IMF (Information Management Function) data for a bicycle, adhering to the S1000D standard.</Description>
+  <Section id="1. IMF Ident and Status Section">
+    <Heading>1. IMF Ident and Status Section</Heading>
+    <Section id="1.1 IMF Address">
+      <Heading>1.1 IMF Address</Heading>
+      <Section id="1.1.1 IMF Ident">
+        <Heading>1.1.1 IMF Ident</Heading>
+        <Attribute name="imfCode">C0419-S1000D0360-001-01</Attribute>
+        <Attribute name="issueNumber">002</Attribute>
+        <Attribute name="inWork">00</Attribute>
+      </Section>
+      <Section id="1.1.2 IMF Address Items">
+        <Heading>1.1.2 IMF Address Items</Heading>
+        <Attribute name="icnTitle">Bicycle</Attribute>
+        <Attribute name="issueDate">
+          <Attribute name="year">2024</Attribute>
+          <Attribute name="month">06</Attribute>
+          <Attribute name="day">19</Attribute>
+        </Attribute>
+      </Section>
+      <Section id="1.1.3 ICn Keyword Group">
+        <Heading>1.1.3 ICn Keyword Group</Heading>
+        <Attribute name="icnKeyword">mountain</Attribute>
+        <Attribute name="icnKeyword">mountain bike</Attribute>
+        <Attribute name="icnKeyword">Mk1</Attribute>
+        <Attribute name="icnKeyword">Mk9</Attribute>
+      </Section>
+    </Section>
+    <Section id="1.2 IMF Status">
+      <Heading>1.2 IMF Status</Heading>
+      <Section id="1.2.1 Security">
+        <Heading>1.2.1 Security</Heading>
+        <Attribute name="securityClassification">01</Attribute>
+        <Attribute name="commercialClassification">cc51</Attribute>
+      </Section>
+      <Section id="1.2.2 Data Restrictions">
+        <Heading>1.2.2 Data Restrictions</Heading>
+        <Attribute name="restrictionInstructions">
+          <Attribute name="dataDistribution">To be made available to all S1000D users.</Attribute>
+          <Attribute name="exportControl">
+            <Attribute name="exportRegistrationStmt">Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</Attribute>
+          </Attribute>
+          <Attribute name="dataHandling">There are no specific handling instructions for this data module.</Attribute>
+          <Attribute name="dataDestruction">Users may destroy this data module in accordance with their own local procedures.</Attribute>
+          <Attribute name="dataDisclosure">There are no dissemination limitations that apply to this data module.</Attribute>
+        </Attribute>
+        <Attribute name="restrictionInfo">
+          <Attribute name="copyright">
+            <Attribute name="copyrightText">Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</Attribute>
+            <Attribute name="publishers">
+              <Attribute name="randomList">
+                <Attribute name="item">Aerospace, Security and Defence Industries Association of Europe</Attribute>
+                <Attribute name="item">Aerospace Industries Association of America</Attribute>
+                <Attribute name="item">ATA e-Business Program</Attribute>
+              </Attribute>
+            </Attribute>
+            <Attribute name="limitationsOfLiability">
+              <Attribute name="randomList">
+                <Attribute name="item">This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</Attribute>
+                <Attribute name="item">Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</Attribute>
+                <Attribute name="item">Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</Attribute>
+              </Attribute>
+            </Attribute>
+            <Attribute name="copyrightDetails">The details for copyright can be found in the S1000D Specification.</Attribute>
+          </Attribute>
+          <Attribute name="policyStatement">S1000D-SC-2016-017-002-00 Steering Committee TOR</Attribute>
+          <Attribute name="dataConds">There are no known conditions that would change the data restrictions for, or security classification of, this data module.</Attribute>
+        </Attribute>
+      </Section>
+      <Section id="1.2.3 Responsible Partner Company">
+        <Heading>1.2.3 Responsible Partner Company</Heading>
+        <Attribute name="enterpriseCode">B6865</Attribute>
+        <Attribute name="enterpriseName">AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</Attribute>
+      </Section>
+      <Section id="1.2.4 Originator">
+        <Heading>1.2.4 Originator</Heading>
+        <Attribute name="enterpriseCode">B6865</Attribute>
+        <Attribute name="enterpriseName">AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</Attribute>
+      </Section>
+      <Section id="1.2.5 Brex Dm Ref">
+        <Heading>1.2.5 Brex Dm Ref</Heading>
+        <Attribute name="dmRef">
+          <Attribute name="dmRefIdent">
+            <Attribute name="dmCode">
+              <Attribute name="modelIdentCode">S1000DBIKE</Attribute>
+              <Attribute name="systemDiffCode">AAA</Attribute>
+              <Attribute name="systemCode">D00</Attribute>
+              <Attribute name="subSystemCode">0</Attribute>
+              <Attribute name="subSubSystemCode">0</Attribute>
+              <Attribute name="assyCode">00</Attribute>
+              <Attribute name="disassyCode">00</Attribute>
+              <Attribute name="disassyCodeVariant">AA</Attribute>
+              <Attribute name="infoCode">022</Attribute>
+              <Attribute name="infoCodeVariant">A</Attribute>
+              <Attribute name="itemLocationCode">D</Attribute>
+            </Attribute>
+            <Attribute name="issueInfo">
+              <Attribute name="issueNumber">011</Attribute>
+              <Attribute name="inWork">00</Attribute>
+            </Attribute>
+            <Attribute name="language">
+              <Attribute name="countryIsoCode">US</Attribute>
+              <Attribute name="languageIsoCode">en</Attribute>
+            </Attribute>
+          </Attribute>
+        </Attribute>
+      </Section>
+      <Section id="1.2.6 Quality Assurance">
+        <Heading>1.2.6 Quality Assurance</Heading>
+        <Attribute name="firstVerification">tabtop</Attribute>
+      </Section>
+    </Section>
+  </Section>
+  <Section id="2. IMF Content">
+    <Heading>2. IMF Content</Heading>
+    <Section id="2.1 ICn Variation (SVG)">
+      <Heading>2.1 ICn Variation (SVG)</Heading>
+      <Attribute name="fileExtension">svg</Attribute>
+      <Attribute name="icnContents">
+        <Attribute name="icnObjectGroup">
+          <Attribute name="icnObject (hot000)">
+            <Attribute name="icnObjectName">0</Attribute>
+            <Attribute name="icnObjectType">CALLOUT</Attribute>
+            <Attribute name="icnObjectTitle">BICYCLE</Attribute>
+          </Attribute>
+          <Attribute name="icnObject (hot001)">
+            <Attribute name="icnObjectName">1</Attribute>
+            <Attribute name="icnObjectType">CALLOUT</Attribute>
+            <Attribute name="icnObjectTitle">BICYCLE</Attribute>
+          </Attribute>
+          <Attribute name="icnObject (hot002)">
+            <Attribute name="icnObjectName">2</Attribute>
+            <Attribute name="icnObjectType">CALLOUT</Attribute>
+            <Attribute name="icnObjectTitle">BICYCLE</Attribute>
+          </Attribute>
+        </Attribute>
+      </Attribute>
+    </Section>
+  </Section>
+</Data>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DModule Content - Data Module Rules</title>
+  <contentItem>
+    <para>This document outlines the rules governing data modules, extracted from the provided `dmodule` XML.</para>
+  </contentItem>
+  <section>
+    <title>Context Rules - Structure Object Rule Groups</title>
+    <contentItem>
+      <para>The following rules are context-dependent and organized into rule groups.</para>
+    </contentItem>
+    <section>
+      <title>Structure Object Rule Group</title>
+      <contentItem>
+        <para>This group defines permissible values for various attributes within the data module structure.</para>
+      </contentItem>
+      <section>
+        <title>Attribute Definitions &amp; Permissible Values</title>
+        <list>
+          <listItem>
+            <bold>&#x20;`updateReasonType`</bold>: Defines the reason for updating the data module.
+            <list>
+              <listItem>&#x20;`urt01`: Editorial change (minor changes, technically insignificant).</listItem>
+              <listItem>&#x20;`urt02`: Technical change (significant changes requiring review).</listItem>
+              <listItem>&#x20;`urt03`: Markup change (changes related solely to XML markup).</listItem>
+              <listItem>&#x20;`urt04`: Applicability change (only the applicability has changed).</listItem>
+              <listItem>&#x20;`urt05`: Unique identifier of the referencing structure has changed.</listItem>
+              <listItem>&#x20;`urt51-urt99`: Reserved for project/organization-specific values.</listItem>
+            </list>
+          </listItem>
+          <listItem>
+            <bold>&#x20;`verbatimStyle`</bold>: Defines the style of verbatim text.
+            <list>
+              <listItem>&#x20;`vs01`: Generic verbatim.</listItem>
+              <listItem>&#x20;`vs02`: Filename.</listItem>
+              <listItem>&#x20;`vs11`: XML/SGML markup.</listItem>
+              <listItem>&#x20;`vs12`: XML/SGML element name.</listItem>
+              <listItem>&#x20;`vs13`: XML/SGML attribute name.</listItem>
+              <listItem>&#x20;`vs14`: XML/SGML attribute value.</listItem>
+              <listItem>&#x20;`vs15`: XML/SGML entity name.</listItem>
+              <listItem>&#x20;`vs16`: XML/SGML processing instruction.</listItem>
+              <listItem>&#x20;`vs21`: Program prompt.</listItem>
+              <listItem>&#x20;`vs22`: User input.</listItem>
+              <listItem>&#x20;`vs23`: Computer output.</listItem>
+              <listItem>&#x20;`vs24`: Program listing.</listItem>
+              <listItem>&#x20;`vs25`: Program variable name.</listItem>
+              <listItem>&#x20;`vs26`: Program variable value.</listItem>
+              <listItem>&#x20;`vs27`: Constant.</listItem>
+              <listItem>&#x20;`vs28`: Class name.</listItem>
+              <listItem>&#x20;`vs29`: Parameter name.</listItem>
+              <listItem>&#x20;`vs51-vs99`: Reserved for project/organization-specific values.</listItem>
+            </list>
+          </listItem>
+          <listItem>
+            <bold>&#x20;`quantityUnitOfMeasure`</bold>: Defines the unit of measure for quantity data.  Values within the range `um51-um99` can be allocated and defined by projects or organizations. (Refer to Table 2 in document section 3.9.6.2)
+          </listItem>
+        </list>
+      </section>
+    </section>
+  </section>
+  <section>
+    <title>Non-Context Rules</title>
+    <contentItem>
+      <para>These rules are not dependent on specific context within the data module.</para>
+    </contentItem>
+    <section>
+      <title>Deletion of Data Modules</title>
+      <contentItem>
+        <para>Deletion of data modules is treated as a special case of update. The data module itself is not physically deleted but is marked as deleted. (Refer to document section 3.9.5.1, Para 2.2)</para>
+      </contentItem>
+    </section>
+  </section>
+</content>

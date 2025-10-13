@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm dataModuleId="DMC-S1000DBIKE-AAA-DA1-00-00-00AA-041A-A_010-00_EN-US" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdent>
+    <modelIdentCode>S1000DBIKE</modelIdentCode>
+    <systemDiffCode>AAA</systemDiffCode>
+    <systemCode>DA1</systemCode>
+    <subSystemCode>0</subSystemCode>
+    <subSubSystemCode>0</subSubSystemCode>
+    <assyCode>00</assyCode>
+    <disassyCode>00</disassyCode>
+    <disassyCodeVariant>AA</disassyCodeVariant>
+    <infoCode>041</infoCode>
+    <infoCodeVariant>A</infoCodeVariant>
+    <itemLocationCode>A</itemLocationCode>
+    <language>US-en</language>
+    <issueInfo>
+      <issueNumber>010</issueNumber>
+      <inWork>00</inWork>
+    </issueInfo>
+  </dmIdent>
+  <dmAddress>
+    <dmAddressItems>
+      <issueDate>2024-06-19</issueDate>
+      <dmTitle>
+        <techName>Brake system</techName>
+        <infoName>Description of how it is made</infoName>
+      </dmTitle>
+    </dmAddressItems>
+  </dmAddress>
+  <dmStatus>
+    <issueType>deleted</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </security>
+    <dataRestrictions>
+      <restrictionInstructions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </restrictionInstructions>
+      <restrictionInfo>
+        <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+        <publishers>Aerospace, Security and Defence Industries Association of Europe</publishers>
+        <randomList>
+          <listItem>
+            <listItem/>
+          </listItem>
+        </randomList>
+      </restrictionInfo>
+    </dataRestrictions>
+    <authorityInfoAndTp>
+      <authorityInfo>20010131</authorityInfo>
+      <techPubBase>Bike book</techPubBase>
+    </authorityInfoAndTp>
+    <brexDmRef>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode>S1000DBIKE</dmCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>DA0</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>022</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>D</itemLocationCode>
+        </dmRefIdent>
+      </dmRef>
+    </brexDmRef>
+    <techStandard/>
+    <skillLevel>sk01</skillLevel>
+    <reasonForUpdate>
+      <id>rfu_general</id>
+      <updateReasonType>urt03</updateReasonType>
+      <simplePara>S1000D upissued</simplePara>
+    </reasonForUpdate>
+    <reasonForUpdate>
+      <id>RFU-CPF_2020-040EPWG</id>
+      <updateReasonType>urt01</updateReasonType>
+      <simplePara>CPF_2020-040EPWG Bike Enhancement with elements and attributes missing in the samples</simplePara>
+    </reasonForUpdate>
+  </dmStatus>
+  <content>
+    <description>
+      <levelledPara>
+        <title>Brake system</title>
+        <para>The most important part of the bicycle&lt;indexFlag indexLevelOne="bicycle"/> is the brake system&lt;indexFlag indexLevelTwo="brake system"/>. Only a minimum maintenance of the brake system is necessary. But, when a problem does occur, make sure you to do the necessary maintenance as quickly as possible. If you do not do this the bicycle&lt;indexFlag indexLevelOne="bicycle"/> will be dangerous to use.</para>
+        <para>There are nine different types of brake systems. The one found on most bicycles is the cantilever&lt;indexFlag indexLevelFour="cantilever"/>brake&lt;indexFlag indexLevelThree="brake"/> (refer to &lt;internalRef internalRefId="par-0001" internalRefTargetType="irtt07"/>).</para>
+        <levelledPara>
+          <title>Cantilever brake</title>
+          <para>The brake system (refer to &lt;internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/>) has these primary components:</para>
+          <randomList>
+            <listItem>
+              <listItem/>
+            </listItem>
+            <listItem>
+              <listItem/>
+            </listItem>
+            <listItem>
+              <listItem/>
+            </listItem>
+            <listItem>
+              <listItem/>
+            </listItem>
+            <listItem>
+              <listItem/>
+            </listItem>
+          </randomList>
+          <figure>
+            <title>Cantilever brake with straddle cable</title>
+            <graphic>ICN-C0419-S1000D0379-001-01</graphic>
+          </figure>
+          <para>A cable that goes from the brake levers on the handlebars pulls the two levers on the brakes together. This presses the brake pads against the outer rim of the wheel, which decreases the speed of the bicycle.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Brake pads</title>
+          <para>There are four brake pads (refer to &lt;internalRef internalRefId="fig-0002" internalRefTargetType="irtt01"/>) on the bicycle. Two are found on the front wheel and two on the rear wheel. The brake pads are made out of hard wearing rubber. The pads press against the rim of the wheel to cause friction when you operate the levers.</para>
+          <figure>
+            <title>Exploded diagram of a brake</title>
+            <graphic>ICN-C0419-S1000D0380-001-01</graphic>
+          </figure>
+        </levelledPara>
+        <levelledPara>
+          <title>Brake lever</title>
+          <para>The brake levers (refer to &lt;internalRef internalRefId="fig-0003" internalRefTargetType="irtt01"/>) are easily damaged. The lever is installed in the mount. A clamp bolt holds the mount. This bolt is not visible because it is found in the mount. The lever turns on a lever pivot bolt. The adjuster lock nut holds the brake cable. This lock nut adjusts the tension of the cable.</para>
+          <figure>
+            <title>Typical components of a mountain bicycle lever</title>
+            <graphic>ICN-C0419-S1000D0381-001-01</graphic>
+          </figure>
+        </levelledPara>
+      </levelledPara>
+    </description>
+  </content>
+</dm>

@@ -1,0 +1,196 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<dm>
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>413</infoCode>
+        <itemLocationCode>A</itemLocationCode>
+      </dmIdent>
+      <language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>010</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+      <dmTitle>
+        <techName>Lights</techName>
+        <infoName>Observed fault</infoName>
+      </dmTitle>
+    </dmAddressItems>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>
+              <simplePara>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simplePara>
+            </exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightPara>*Copyright (C) 2024* by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+            <copyrightPara>*Publishers*</copyrightPara>
+            <random list item/>
+          </copyright>
+          <remarks>random remark</remarks>
+        </restrictionInfo>
+      </dataRestrictions>
+      <applicability>random applicability</applicability>
+      <remarks>random remark</remarks>
+    </dmStatus>
+    <additionalDmStatusInformation>
+      <responsibleParty>random responsible party</responsibleParty>
+      <applicability>random applicability</applicability>
+      <remarks>random remark</remarks>
+    </additionalDmStatusInformation>
+  </identAndStatusSection>
+  <content>
+    <references>
+      <dmRef>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>0A5</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>A</infoCode>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+      <dmRef>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>0A4</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>A</infoCode>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+    </references>
+    <warningsAndCautionsReferences>
+      <warningRef>
+        <id>w001</id>
+        <warningIdentNumber>warning-001</warningIdentNumber>
+        <dmRef>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>0A4</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>A</infoCode>
+          <itemLocationCode>A</itemLocationCode>
+        </dmRef>
+      </warningRef>
+      <warningRef>
+        <id>w002</id>
+        <warningIdentNumber>warning-002</warningIdentNumber>
+        <dmRef>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>0A4</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>A</infoCode>
+          <itemLocationCode>A</itemLocationCode>
+        </dmRef>
+      </warningRef>
+      <cautionRef>
+        <id>c001</id>
+        <cautionIdentNumber>caution-001</cautionIdentNumber>
+        <dmRef>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>0A5</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>A</infoCode>
+          <itemLocationCode>A</itemLocationCode>
+        </dmRef>
+      </cautionRef>
+    </warningsAndCautionsReferences>
+    <faultReporting>
+      <preliminaryRequirements>
+        <reqCondGroup>
+          <noConds/>
+        </reqCondGroup>
+        <reqSupportEquips>
+          <noSupportEquips/>
+        </reqSupportEquips>
+        <reqSupplies>
+          <noSupplies/>
+        </reqSupplies>
+        <reqSpares>
+          <noSpares/>
+        </reqSpares>
+        <reqSafety>
+          <safetyRqmts cautionRefs="c001" warningRefs="w001 w002"/>
+        </reqSafety>
+      </preliminaryRequirements>
+      <observedFault>
+        <id>flt-0001</id>
+        <faultCode>NYCJD02</faultCode>
+        <faultDescr>
+          <descr>The lights are set to the dim position.</descr>
+        </faultDescr>
+        <contextAndIsolationInfo>
+          <faultContext>During use or maintenance</faultContext>
+          <isolationInfo>
+            <lruItem>
+              <lru>
+                <name>Bulb</name>
+                <identNumber>
+                  <manufacturerCode>KZ111</manufacturerCode>
+                  <partAndSerialNumber>
+                    <partNumber>Li111</partNumber>
+                  </partAndSerialNumber>
+                </identNumber>
+              </lru>
+            </lruItem>
+          </isolationInfo>
+        </contextAndIsolationInfo>
+      </observedFault>
+    </faultReporting>
+  </content>
+</dm>
+```

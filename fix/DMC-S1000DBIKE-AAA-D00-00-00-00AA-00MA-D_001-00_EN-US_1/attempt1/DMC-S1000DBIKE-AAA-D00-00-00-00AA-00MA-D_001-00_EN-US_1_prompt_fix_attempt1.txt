@@ -1,0 +1,185 @@
+You were previously asked to generate XML. The model's output failed validation.
+Use the provided Knowledge Graph (KG) and the attached error log to produce a corrected, well-formed XML document.
+Inputs available:
+- KG (node/edge list) which you MUST consult for structure and nesting.
+- The previously generated XML (PREVIOUS_XML).
+- The parser error log (ERROR_LOG) describing syntactic problems.
+Task:
+- Return ONLY the corrected XML document. Do not include any explanation.
+- Fix all syntax errors mentioned in ERROR_LOG.
+- Ensure the output starts with '<?xml' and is well-formed.
+
+ERROR_LOG:
+Errors found:
+Error 1: Line 85, Column 28: Opening and ending tag mismatch: supplySetGroup line 67 and supplyRqmt
+Error 2: Line 86, Column 30: Opening and ending tag mismatch: supplyRqmt line 61 and supplyRqmtAlts
+Error 3: Line 87, Column 28: Opening and ending tag mismatch: supplyRqmtAlts line 60 and supplyRqmtSpec
+Error 4: Line 114, Column 30: Opening and ending tag mismatch: supplySetGroup line 100 and supplyRqmt
+Error 5: Line 115, Column 32: Opening and ending tag mismatch: supplyRqmt line 94 and supplyRqmtAlts
+Error 6: Line 116, Column 30: Opening and ending tag mismatch: supplyRqmtAlts line 93 and supplyRqmtSpec
+Error 7: Line 148, Column 32: Opening and ending tag mismatch: supplySetGroup line 132 and supplyRqmt
+Error 8: Line 149, Column 34: Opening and ending tag mismatch: supplyRqmt line 125 and supplyRqmtAlts
+Error 9: Line 150, Column 32: Opening and ending tag mismatch: supplyRqmtAlts line 123 and supplyRqmtSpec
+Error 10: Line 151, Column 36: Opening and ending tag mismatch: supplyRqmtSpec line 117 and supplyRqmtRepository
+Error 11: Line 152, Column 30: Opening and ending tag mismatch: supplyRqmtSpec line 88 and commonRepository
+Error 12: Line 153, Column 19: Opening and ending tag mismatch: supplyRqmtSpec line 51 and content
+Error 13: Line 154, Column 12: Opening and ending tag mismatch: supplyRqmtRepository line 50 and dm
+
+PREVIOUS_XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<dm ident="S1000DBIKE" systemDiffCode="AAA" systemCode="D00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="AA" infoCode="00M" infoCodeVariant="A" itemLocationCode="D" language="en" countryIsoCode="US" issueNumber="001" inWork="00">
+  <issueDate year="2024" month="06" day="19"/>
+  <dmTitle techName="Mountain bicycle" infoName="Supplies - List of requirements common information repository"/>
+  <dmStatus issueType="new"/>
+  <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+  <dataRestrictions>
+    <restrictionInstructions>
+      <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+      <exportControl>
+        <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+      </exportControl>
+      <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+      <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+      <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+    </restrictionInstructions>
+    <restrictionInfo>
+      <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+      <publishers>
+        <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+        <publisher>Aerospace Industries Association of America</publisher>
+        <publisher>ATA e-Business Program</publisher>
+      </publishers>
+      <limitationsOfLiability>
+        <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+        <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+        <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+      </limitationsOfLiability>
+      <copyrightDetails>The details for copyright can be found in the S1000D Specification.</copyrightDetails>
+      <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+      <dataConditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConditions>
+    </restrictionInfo>
+  </dataRestrictions>
+  <responsiblePartnerCompany>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </responsiblePartnerCompany>
+  <brexDmRef>
+    <dmRef>022</dmRef>
+  </brexDmRef>
+  <qualityAssurance>
+    <verificationType>tabtop</verificationType>
+  </qualityAssurance>
+  <remarks>
+    <remark>CPF_2020-040EPWG Bike Enhancement with elements and attributes missing in the samples</remark>
+    <remark>supplyRqmt, supplyRqmtAltIdent, supplyRqmtAltStatus, supplyRqmtAlts, supplyRqmtIdent, supplyRqmtRepository, supplyRqmtSpec, supplyRqmtStatus, supplySet, supplySetGroup, unique elements</remark>
+  </remarks>
+  <content>
+    <commonRepository>
+      <supplyRqmtRepository id="SPEC-0008">
+        <supplyRqmtSpec id="supr-0001">
+          <supplyRqmtIdent>
+            <materialCategory>05</materialCategory>
+            <supplyRqmtNumber>EU-OIL3212</supplyRqmtNumber>
+          </supplyRqmtIdent>
+          <supplyRqmtStatus>
+            <supplyRqmtStatusValue>superseded</supplyRqmtStatusValue>
+            <supplyRqmtRef>EU-OIL3212-1</supplyRqmtRef>
+          </supplyRqmtStatus>
+          <supplyRqmtAlts>
+            <supplyRqmt id="SPEC-0007">
+              <supplyRqmtAltIdent>
+                <materialCategory>05</materialCategory>
+                <supplyRqmtNumber>EU-OIL3212</supplyRqmtNumber>
+                <vendorFlag>0</vendorFlag>
+              </supplyRqmtAltIdent>
+              <supplySetGroup>
+                <supplySet>
+                  <supplyRef>
+                    <supplyNumber>BKO200</supplyNumber>
+                    <supplyNumberType>sp01</supplyNumberType>
+                  </supplyRef>
+                  <supplyRef>
+                    <supplyNumber>OIL135</supplyNumber>
+                    <supplyNumberType>sp01</supplyNumberType>
+                  </supplyRef>
+                </supplySet>
+                <supplyRqmtAltStatus>
+                  <authorizationStatusDate>20100801</authorizationStatusDate>
+                  <authorizationStatus>REACH banned</authorizationStatus>
+                </supplyRqmtAltStatus>
+                <name>OIL FOR BIKE</name>
+                <safetyCategory>C</safetyCategory>
+                <usage>removal of strongly fixed parts</usage>
+              </supplyRqmt>
+            </supplyRqmtAlts>
+          </supplyRqmtSpec>
+          <supplyRqmtSpec id="supr-0002">
+            <supplyRqmtIdent>
+              <materialCategory>05</materialCategory>
+              <supplyRqmtNumber>EU-OIL3212-1</supplyRqmtNumber>
+            </supplyRqmtIdent>
+            <supplyRqmtAlts>
+              <supplyRqmt>
+                <supplyRqmtAltIdent>
+                  <materialCategory>05</materialCategory>
+                  <supplyRqmtNumber>EU-OIL3212-1</supplyRqmtNumber>
+                  <vendorFlag>0</vendorFlag>
+                </supplyRqmtAltIdent>
+                <supplySetGroup>
+                  <supplySet>
+                    <supplyRef>
+                      <supplyNumber>BKO2000</supplyNumber>
+                      <supplyNumberType>sp01</supplyNumberType>
+                    </supplyRef>
+                    <supplyRef>
+                      <supplyNumber>OIL1355</supplyNumber>
+                      <supplyNumberType>sp01</supplyNumberType>
+                    </supplyRef>
+                  </supplySet>
+                  <name>OIL FOR BIKE</name>
+                  <safetyCategory>C</safetyCategory>
+                  <usage>removal of strongly fixed parts</usage>
+                </supplyRqmt>
+              </supplyRqmtAlts>
+            </supplyRqmtSpec>
+            <supplyRqmtSpec id="inv0105029-">
+              <supplyRqmtIdent>
+                <id>SPEC-0004</id>
+                <materialCategory>05</materialCategory>
+                <supplyRqmtNumber>029</supplyRqmtNumber>
+              </supplyRqmtIdent>
+              <supplyRqmtAlts>
+                <id>SPEC-0003</id>
+                <supplyRqmt>
+                  <id>SPEC-0001</id>
+                  <supplyRqmtAltIdent>
+                    <materialCategory>05</materialCategory>
+                    <supplyRqmtNumber>029</supplyRqmtNumber>
+                    <vendorFlag>0</vendorFlag>
+                  </supplyRqmtAltIdent>
+                  <supplySetGroup>
+                    <id>SPEC-0006</id>
+                    <supplySet>
+                      <id>SPEC-0005</id>
+                      <supplyRef>
+                        <supplyNumber>BSB-DUROFIX_FIXATIF_UW_SPECIAL</supplyNumber>
+                        <supplyNumberType>sp01</supplyNumberType>
+                      </supplyRef>
+                      <supplyRef>
+                        <supplyNumber>BSB-DUROFIX_FIXATIF_UW</supplyNumber>
+                        <supplyNumberType>sp01</supplyNumberType>
+                      </supplyRef>
+                    </supplySet>
+                    <name>FIXATIVE FOR PLACARD INSTALLATION</name>
+                    <safetyCategory>C</safetyCategory>
+                    <usage>removal of strongly fixed parts</usage>
+                  </supplyRqmt>
+                </supplyRqmtAlts>
+              </supplyRqmtSpec>
+            </supplyRqmtRepository>
+          </commonRepository>
+        </content>
+      </dm>
+
+
+Provide the corrected XML now.

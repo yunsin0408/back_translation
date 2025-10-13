@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applicability xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identAndStatus>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <language>EN</language>
+        <country>US</country>
+      </dmIdent>
+      <dmStatus>
+        <firstVerification>tabtop</firstVerification>
+        <qualityAssurance>tabtop</qualityAssurance>
+        <systemBreakdownCode>BY112</systemBreakdownCode>
+        <skillLevel>sk01</skillLevel>
+        <reasonForUpdate>S1000D upissued</reasonForUpdate>
+      </dmStatus>
+    </dmAddress>
+  </identAndStatus>
+  <content>
+    <references>
+      <dmRef>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>10</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>921</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+      <dmRef>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>215</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+      <dmRef>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>921</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef>
+    </references>
+    <faultIsolation>
+      <faultIsolationProcedure>
+        <faultCode>NYCJD04</faultCode>
+        <faultDescription>Tire does not function correctly</faultDescription>
+        <preliminaryRequirements>
+          <supportEquipment>
+            <name>Tire pressure gauge</name>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001-01</partNumber>
+            <quantity>1 EA</quantity>
+          </supportEquipment>
+          <supportEquipment>
+            <name>Specialist toolset</name>
+            <manufacturerCode>KZ666</manufacturerCode>
+            <partNumber>BSK-TLST-001</partNumber>
+            <quantity>1 EA</quantity>
+          </supportEquipment>
+        </preliminaryRequirements>
+        <isolationMainProcedure>
+          <step>
+            <stepId>stp-0001</stepId>
+            <action>Use the tire pressure gauge to check the pressure.</action>
+            <question>What is the tire pressure reading?</question>
+            <choices>
+              <choice>More than 2700 hPa (Next Action: stp-0002)</choice>
+              <choice>Between 100 hPa and 2700 hPa (Next Action: stp-0003)</choice>
+              <choice>Less than 100 hPa (Next Action: stp-0004)</choice>
+            </choices>
+          </step>
+          <endStep>
+            <stepId>stp-0002</stepId>
+            <text>Deflate the tire until the pressure is 2700 hPa</text>
+          </endStep>
+          <endStep>
+            <stepId>stp-0003</stepId>
+            <text>Inflate the tire as given in DM Ref.</text>
+          </endStep>
+          <step>
+            <stepId>stp-0004</stepId>
+            <action>Check the tire for damage.</action>
+            <question>Is there damage to the tire?</question>
+            <choices>
+              <choice>Yes (Next Action: stp-0005)</choice>
+              <choice>No (Next Action: stp-0006)</choice>
+            </choices>
+          </step>
+          <endStep>
+            <stepId>stp-0005</stepId>
+            <text>Replace the tire (refer to DM Ref).</text>
+          </endStep>
+          <endStep>
+            <stepId>stp-0006</stepId>
+            <text>Replace the inner-tube (refer to DM Ref).</text>
+          </endStep>
+        </isolationMainProcedure>
+      </faultIsolationProcedure>
+    </faultIsolation>
+  </content>
+</applicability>

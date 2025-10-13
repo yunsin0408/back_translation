@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <docNumber>DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A_011-00_EN-US</docNumber>
+    <issue>011-00</issue>
+  </identification>
+  <content>
+    <section id="ident_status_section">
+      <title>Ident And Status Section</title>
+      <section id="dm_address">
+        <title>DM Address</title>
+        <section id="dm_ident">
+          <title>DM Ident</title>
+          <listItem>
+            <attributeName>modelIdentCode</attributeName>
+            <attributeValue>S1000DBIKE</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>systemDiffCode</attributeName>
+            <attributeValue>AAA</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>systemCode</attributeName>
+            <attributeValue>DA2</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>subSystemCode</attributeName>
+            <attributeValue>3</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>subSubSystemCode</attributeName>
+            <attributeValue>0</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>assyCode</attributeName>
+            <attributeValue>00</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>disassyCode</attributeName>
+            <attributeValue>00</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>disassyCodeVariant</attributeName>
+            <attributeValue>AA</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>infoCode</attributeName>
+            <attributeValue>720</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>infoCodeVariant</attributeName>
+            <attributeValue>A</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>itemLocationCode</attributeName>
+            <attributeValue>A</attributeValue>
+          </listItem>
+          <section id="language">
+            <title>language</title>
+            <listItem>
+              <attributeName>countryIsoCode</attributeName>
+              <attributeValue>US</attributeValue>
+            </listItem>
+            <listItem>
+              <attributeName>languageIsoCode</attributeName>
+              <attributeValue>en</attributeValue>
+            </listItem>
+          </section>
+          <section id="issue_info">
+            <title>issueInfo</title>
+            <listItem>
+              <attributeName>issueNumber</attributeName>
+              <attributeValue>011</attributeValue>
+            </listItem>
+            <listItem>
+              <attributeName>inWork</attributeName>
+              <attributeValue>00</attributeValue>
+            </listItem>
+          </section>
+        </section>
+        <section id="dm_address_items">
+          <title>DM Address Items</title>
+          <listItem>
+            <attributeName>issueDate</attributeName>
+            <listItem>
+              <attributeName>year</attributeName>
+              <attributeValue>2024</attributeValue>
+            </listItem>
+            <listItem>
+              <attributeName>month</attributeName>
+              <attributeValue>06</attributeValue>
+            </listItem>
+            <listItem>
+              <attributeName>day</attributeName>
+              <attributeValue>19</attributeValue>
+            </listItem>
+          </listItem>
+          <listItem>
+            <attributeName>dmTitle</attributeName>
+            <listItem>
+              <attributeName>techName</attributeName>
+              <attributeValue>Headset</attributeValue>
+            </listItem>
+            <listItem>
+              <attributeName>infoName</attributeName>
+              <attributeValue>Install procedures</attributeValue>
+            </listItem>
+          </listItem>
+        </section>
+      </section>
+      <section id="dm_status">
+        <title>DM Status</title>
+        <listItem>
+          <attributeName>issueType</attributeName>
+          <attributeValue>changed</attributeValue>
+        </listItem>
+        <section id="security">
+          <title>Security</title>
+          <listItem>
+            <attributeName>securityClassification</attributeName>
+            <attributeValue>01</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>commercialClassification</attributeName>
+            <attributeValue>cc51</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>caveat</attributeName>
+            <attributeValue>cv51</attributeValue>
+          </listItem>
+        </section>
+        <section id="data_restrictions">
+          <title>Data Restrictions</title>
+          <section id="restriction_instructions">
+            <title>Restriction Instructions</title>
+            <section id="data_distribution">
+              <title>Data Distribution</title>
+            </section>
+            <section id="data_use">
+              <title>Data Use</title>
+            </section>
+          </section>
+          <section id="data_support">
+            <title>Data Support</title>
+          </section>
+        </section>
+        <listItem>
+          <attributeName>qualityAssurance</attributeName>
+        </listItem>
+        <listItem>
+          <attributeName>systemBreakdownCode</attributeName>
+          <attributeValue>BY143</attributeValue>
+        </listItem>
+        <listItem>
+          <attributeName>skillLevel</attributeName>
+          <attributeValue>sk02</attributeValue>
+        </listItem>
+        <section id="reason_for_update">
+          <title>Reason For Update</title>
+          <listItem>
+            <attributeName>id</attributeName>
+            <attributeValue>rfu_general</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>updateReasonType</attributeName>
+            <attributeValue>urt03</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>simplePara</attributeName>
+            <attributeValue>S1000D upissued</attributeValue>
+          </listItem>
+        </section>
+      </section>
+    </section>
+    <section id="content_section">
+      <title>Content</title>
+      <section id="references">
+        <title>References</title>
+        <section id="dm_ref">
+          <title>DM Ref</title>
+          <listItem>
+            <attributeName>modelIdentCode</attributeName>
+            <attributeValue>S1000DBIKE</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>systemDiffCode</attributeName>
+            <attributeValue>AAA</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>systemCode</attributeName>
+            <attributeValue>DA2</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>subSystemCode</attributeName>
+            <attributeValue>1</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>subSubSystemCode</attributeName>
+            <attributeValue>0</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>assyCode</attributeName>
+            <attributeValue>00</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>disassyCode</attributeName>
+            <attributeValue>00</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>disassyCodeVariant</attributeName>
+            <attributeValue>AA</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>infoCode</attributeName>
+            <attributeValue>720</attributeValue>
+          </listItem>
+          <listItem>
+            <attributeName>infoCodeVariant</attributeName>
+            <attributeValue>A</attributeValue>
+          </listItem>
+        </section>
+      </section>
+      <section id="procedure_section">
+        <title>Procedure</title>
+        <section id="preliminary_remarks">
+          <title>Preliminary Remarks</title>
+        </section>
+        <section id="step_list">
+          <title>Step List</title>
+          <step>
+            <stepNumber>1</stepNumber>
+            <stepText>
+              <paragraph>
+                <paragraphText>
+                </paragraphText>
+              </paragraph>
+            </stepText>
+          </step>
+        </section>
+        <section id="required_tooling">
+          <title>Required Tooling</title>
+        </section>
+        <section id="materials_and_parts">
+          <title>Materials and Parts</title>
+        </section>
+        <section id="references_section">
+          <title>References</title>
+        </section>
+      </section>
+    </section>
+  </content>
+</procedure>
