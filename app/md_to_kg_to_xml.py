@@ -1,195 +1,113 @@
 """md_to_kg_to_xml.py
 
-Environment-driven pipeline:
-- Configure via env vars:
-  - LLM_API_ENDPOINT (required)
-  - MD_INPUT_FOLDER or MD_INPUT_FILE (one required)
-- Processes a file or all markdown files in a folder
-- Builds a KG and sends it + markdown to the LLM endpoint
-- Saves XML outputs under ./kg_xml/
+Clean, self-contained implementation of the md -> KG -> LLM -> XML pipeline.
 
-This minimal script avoids model-specific fields and sends an OpenAI-style messages array.
+Behavior:
+- Reads markdown via build_kg.read_markdown()
+- Builds a KG via build_kg.build_knowledge_graph()
+- Calls an LLM endpoint (env LLM_API_ENDPOINT) with a messages payload
+- Saves KG JSON and networkx node-link JSON under ./kg_xml2/jsons
+- Validates XML using validator.validate_xml()
+- If invalid, iteratively asks the LLM to fix the XML and saves per-attempt artifacts
+
+Functions are intentionally explicit about return values so the runner can collect a final summary
+with fields: needed_fix (bool), attempts (int), fixed (bool), last_error (str|None)
 """
-
 from __future__ import annotations
 import os
 import re
 import json
+import time
 import requests
 from pathlib import Path
-from typing import List, Dict, Any, Tuple, Optional
-import networkx as nx
-
+from typing import Any, Dict, Optional, Tuple
 from dotenv import load_dotenv, find_dotenv
+
 load_dotenv(find_dotenv(), override=False)
-from lxml import etree
 
-from validator import validate_xml as external_validate_xml
-
-
-# --- utilities ---
-
-def read_markdown(md_path: str) -> str:
-    p = Path(md_path)
-    if not p.exists():
-        raise FileNotFoundError(f"Markdown file not found: {md_path}")
-    return p.read_text(encoding="utf-8")
+from build_kg import read_markdown, split_to_text_units, build_knowledge_graph
+from validator import validate_xml
 
 
-def split_to_text_units(md: str) -> List[Dict[str, str]]:
-    lines = md.splitlines()
-    units: List[Dict[str, str]] = []
-    cur_heading = "Document"
-    cur_text_lines: List[str] = []
-    header_rx = re.compile(r"^#{1,6}\s+(.*)")
-    for ln in lines:
-        m = header_rx.match(ln)
-        if m:
-            if cur_text_lines:
-                units.append({"heading": cur_heading, "text": "\n".join(cur_text_lines).strip()})
-            cur_heading = m.group(1).strip()
-            cur_text_lines = []
-        else:
-            cur_text_lines.append(ln)
-    if cur_text_lines:
-        units.append({"heading": cur_heading, "text": "\n".join(cur_text_lines).strip()})
-    units = [u for u in units if u.get("text")]
-    return units
+def sanitize_for_json(obj: Any):
+    if isinstance(obj, (str, int, float, bool)) or obj is None:
+        return obj
+    if isinstance(obj, dict):
+        return {k: sanitize_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [sanitize_for_json(v) for v in obj]
+    return str(obj)
 
 
-def candidate_entities_from_text(text: str) -> List[str]:
-    entities = set()
-    for match in re.finditer(r"([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)", text):
-        entities.add(match.group(1).strip())
-    for match in re.finditer(r"\b([A-Z]{2,}|[A-Z][a-z]{3,})\b", text):
-        entities.add(match.group(1).strip())
-    for match in re.finditer(r"\b([A-Za-z0-9\-]+)\s+(?:of|for)\b", text, flags=re.I):
-        if len(match.group(1)) > 2:
-            entities.add(match.group(1).strip())
-    clean = []
-    for e in entities:
-        e2 = re.sub(r"\s+", " ", e).strip()
-        if len(e2) > 1:
-            clean.append(e2)
-    return clean
+def call_llm_with_kg(llm_url: str, prompt: str, kg: Dict[str, Any], md_text: str, out_dir: Optional[Path] = None, timeout: int = 600) -> str:
+    """Send a messages-style payload to the LLM and return the textual response.
 
-
-def build_knowledge_graph(units: List[Dict[str, str]]) -> Dict[str, Any]:
-    nodes: Dict[str, Dict[str, Any]] = {}
-    edges: Dict[Tuple[str, str], Dict[str, Any]] = {}
-    for uid, unit in enumerate(units, start=1):
-        heading = unit["heading"]
-        text = unit["text"]
-        nodes.setdefault(heading, {"label": heading, "type": "heading", "source_units": []})
-        nodes[heading]["source_units"].append(uid)
-        cands = candidate_entities_from_text(heading + "\n" + text)
-        for ent in cands:
-            nodes.setdefault(ent, {"label": ent, "type": "candidate", "source_units": []})
-            nodes[ent]["source_units"].append(uid)
-        for ent in cands:
-            key = (heading, ent) if heading <= ent else (ent, heading)
-            e = edges.setdefault(key, {"weight": 0, "units": set()})
-            e["weight"] += 1
-            e["units"].add(uid)
-    edges_list = []
-    for (a, b), info in edges.items():
-        edges_list.append({"source": a, "target": b, "weight": info["weight"], "units": list(info["units"])})
-    nodes_list = []
-    for k, v in nodes.items():
-        nodes_list.append({"id": k, "label": v["label"], "type": v["type"], "source_units": v["source_units"]})
-    kg = {"nodes": nodes_list, "edges": edges_list}
-    
-    from networkx.readwrite import json_graph
-    G = nx.Graph()
-    for n in nodes_list:
-        G.add_node(n["id"], **{"label": n["label"], "type": n["type"]})
-    for e in edges_list:
-        G.add_edge(e["source"], e["target"], weight=e.get("weight", 1), units=e.get("units", []))
-    kg["nx_graph"] = json_graph.node_link_data(G)
-    return kg
-
-
-# --- LLM call ---
-
-def call_llm_with_kg(llm_url: str, prompt: str, kg: Dict[str, Any], md_text: str, out_dir: Optional[Path] = None) -> str:
+    When out_dir is provided, payload and response are saved for debugging.
+    """
     if not llm_url:
         raise ValueError("LLM_API_ENDPOINT (llm_url) is required.")
-    kg_for_json = dict(kg)
-    if "nx_graph" in kg_for_json and not isinstance(kg_for_json["nx_graph"], (dict, list, str, int, float, bool)):
-        del kg_for_json["nx_graph"]
-    headers = {"Content-Type": "application/json"}
 
-    # system prompt to force the model to consult the KG
     system_msg = (
-        "You are an expert XML generator. You MUST use the provided Knowledge Graph (KG) as the PRIMARY source of structuralinformation when reconstructing the XML.\n"
-        "Instructions:\n"
-        "- ALWAYS consult the KG and prioritize node/edge relationships when deciding element nesting and attributes.\n"
-        "- Return ONLY well-formed XML, with no surrounding commentary, no markdown fences, and no extra text.\n"
-        "- If any information is ambiguous between the markdown and the KG, prefer the KG and document nothing in the output other than XML.\n"
-        "- Start the response with '<?xml' and end with the final closing tag.\n"
+        "You are an expert XML generator. You MUST use the provided Knowledge Graph (KG) as the PRIMARY source of structural information when reconstructing the XML.\n"
+        "Return ONLY well-formed XML (no commentary, no markdown fences). If the markdown conflicts with the KG, prefer the KG. Start the response with '<?xml'."
     )
 
-    data = {
+    kg_clean = sanitize_for_json(kg)
+    user_content = json.dumps({"kg": kg_clean, "markdown": md_text}, ensure_ascii=False)
+    if prompt:
+        user_content = user_content + "\n\n" + prompt
+
+    payload = {
         "model": "gemma3:27b",
         "messages": [
             {"role": "system", "content": system_msg},
-            {
-                "role": "user",
-                "content": json.dumps({"kg": kg_for_json, "markdown": md_text}, ensure_ascii=False) + "\n\n" + prompt,
-            },
+            {"role": "user", "content": user_content},
         ],
-        "temperature": 0.7
+        "temperature": 0.0,
     }
 
-    resp = requests.post(llm_url, json=data, headers=headers, timeout=600)
+    if out_dir is not None:
+        try:
+            out_dir.mkdir(parents=True, exist_ok=True)
+            (out_dir / "payload.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+
+    resp = requests.post(llm_url, json=payload, headers={"Content-Type": "application/json"}, timeout=timeout)
     try:
         resp.raise_for_status()
     except Exception as e:
-        raise RuntimeError(f"LLM request failed: {e} - {resp.text}")
+        if out_dir is not None:
+            try:
+                (out_dir / "response_error.txt").write_text(resp.text, encoding="utf-8")
+            except Exception:
+                pass
+        raise
+
+    text = None
     try:
-        data = resp.json()
+        j = resp.json()
+        if isinstance(j, dict) and "choices" in j and isinstance(j["choices"], list) and j["choices"]:
+            first = j["choices"][0]
+            if isinstance(first, dict):
+                if "message" in first and isinstance(first["message"], dict) and "content" in first["message"]:
+                    text = first["message"]["content"]
+                elif "text" in first:
+                    text = first["text"]
+        if text is None and isinstance(j, dict) and "text" in j and isinstance(j["text"], str):
+            text = j["text"]
+        if text is None:
+            text = json.dumps(j, ensure_ascii=False)
     except ValueError:
-        return resp.text
-    if isinstance(data, dict) and "choices" in data and isinstance(data["choices"], list) and len(data["choices"]) > 0:
-        choice = data["choices"][0]
-        if isinstance(choice, dict):
-            if "message" in choice and isinstance(choice["message"], dict) and "content" in choice["message"]:
-                return choice["message"]["content"]
-            if "text" in choice:
-                return choice["text"]
-    if isinstance(data, dict) and "text" in data:
-        return data["text"]
-    return json.dumps(data, ensure_ascii=False)
+        text = resp.text
 
-
-# --- XML validation & fix helper ---
-
-def validate_xml_string(xml_content: str) -> tuple[bool, str]:
-    """Return (is_valid, message). Uses lxml strict parsing and collects errors when possible."""
-    try:
-        if isinstance(xml_content, str):
-            xml_bytes = xml_content.encode("utf-8")
-        else:
-            xml_bytes = xml_content
-        parser = etree.XMLParser(recover=False)
-        etree.fromstring(xml_bytes, parser=parser)
-        return True, "Valid XML"
-    except (etree.XMLSyntaxError, etree.ParseError) as e:
-        # try to get recover parser logs
-        recover_parser = etree.XMLParser(recover=True)
+    if out_dir is not None:
         try:
-            etree.fromstring(xml_bytes, parser=recover_parser)
+            (out_dir / "response.txt").write_text(text, encoding="utf-8")
         except Exception:
             pass
-        errors = []
-        if hasattr(recover_parser, "error_log"):
-            for err in recover_parser.error_log:
-                errors.append(f"Line {err.line}, Col {err.column}: {err.message}")
-        if not errors:
-            errors = [str(e)]
-        return False, "\n".join(errors)
-    except Exception as e:
-        return False, str(e)
+
+    return text
 
 
 def fix_xml_with_errors(
@@ -199,168 +117,105 @@ def fix_xml_with_errors(
     previous_xml: str,
     error_log: str,
     max_retries: int = 5,
+    md_filename: Optional[str] = None,
     out_dir: Optional[Path] = None,
-) -> Optional[str]:
-    """Attempt to fix `previous_xml` using the KG and the provided error_log by calling the LLM up to max_retries.
+) -> Tuple[Optional[str], int, bool, Optional[str]]:
+    """Try to repair previous_xml using validator error_log and the KG.
 
-    Returns the first valid XML string or None if all attempts fail.
-    Side effects: writes attempts to out_dir/jsons/<stem>_fix_attempt_<i>.XML and prints progress.
+    Returns (fixed_xml_or_None, attempts, fixed_bool, last_error_message)
     """
-
-    if out_dir is None:
-        out_dir = Path.cwd() / "kg_xml2"
-
-    # Determine md_filename before using it
-    import inspect
-    md_filename = None
-    # Try to get md_filename from the call stack (generate_xml_from_markdown)
-    for frame_info in inspect.stack():
-        if 'md_path' in frame_info.frame.f_locals:
-            md_path_val = frame_info.frame.f_locals['md_path']
-            if isinstance(md_path_val, (str, Path)):
-                md_filename = Path(md_path_val).stem
-                break
-    if not md_filename:
-        md_filename = 'output'
-
-    # Save fix attempts in fix/{filename}/attempt{i}/
+    base_name = md_filename or "output"
     fix_root = Path.cwd() / "fix"
-    fix_file_dir = fix_root / md_filename
-    fix_file_dir.mkdir(parents=True, exist_ok=True)
+    attempt_base = fix_root / base_name
+    attempt_base.mkdir(parents=True, exist_ok=True)
 
-    # Short prompt that instructs the model to correct the provided XML using the KG.
-    fix_prompt_template = (
-        "You were previously asked to generate XML. The model's output failed validation.\n"
-        "Use the provided Knowledge Graph (KG) and the attached error log to produce a corrected, well-formed XML document.\n"
-        "Inputs available:\n"
-        "- KG (node/edge list) which you MUST consult for structure and nesting.\n"
-        "- The previously generated XML (PREVIOUS_XML).\n"
-        "- The parser error log (ERROR_LOG) describing syntactic problems.\n"
-        "Task:\n"
-        "- Return ONLY the corrected XML document. Do not include any explanation.\n"
-        "- Fix all syntax errors mentioned in ERROR_LOG.\n"
-        "- Ensure the output starts with '<?xml' and is well-formed.\n"
+    fix_prompt = (
+        "The XML failed validation. Use the provided KG and the parser error log to correct the XML. Return only the corrected XML (no extra text)."
     )
 
-    # Try to get the original filename for saving
-    # Use the markdown filename (without extension) for fix attempt files
-    import inspect
-    md_filename = None
-    # Try to get md_filename from the call stack (generate_xml_from_markdown)
-    for frame_info in inspect.stack():
-        if 'md_path' in frame_info.frame.f_locals:
-            md_path_val = frame_info.frame.f_locals['md_path']
-            if isinstance(md_path_val, (str, Path)):
-                md_filename = Path(md_path_val).stem
-                break
-    if not md_filename:
-        md_filename = 'output'
-
+    attempts = 0
+    last_error: Optional[str] = None
 
     for attempt in range(1, max_retries + 1):
+        attempts = attempt
+        attempt_dir = attempt_base / f"attempt{attempt}"
+        attempt_dir.mkdir(parents=True, exist_ok=True)
+
         prompt = (
-            fix_prompt_template
-            + "\nERROR_LOG:\n"
-            + error_log
-            + "\n\nPREVIOUS_XML:\n"
-            + previous_xml
-            + "\n\nProvide the corrected XML now."
+            fix_prompt + "\nERROR_LOG:\n" + error_log + "\n\nPREVIOUS_XML:\n" + previous_xml + "\n\nProvide corrected XML now."
         )
 
-        print(f"Fix attempt {attempt}/{max_retries} - calling LLM to correct XML...")
         try:
-            model_output = call_llm_with_kg(llm_url=llm_url, prompt=prompt, kg=kg, md_text=md_text)
-        except Exception as e:
-            print(f"LLM call failed on attempt {attempt}: {e}")
-            model_output = None
+            (attempt_dir / "previous.xml").write_text(previous_xml, encoding="utf-8")
+            (attempt_dir / "error_log.txt").write_text(error_log, encoding="utf-8")
+            (attempt_dir / "prompt.txt").write_text(prompt, encoding="utf-8")
+        except Exception:
+            pass
 
-        if not model_output:
-            continue
-
-        # Create per-attempt folder and save inputs + output there for easy inspection
-        attempt_dir = fix_file_dir / f"attempt{attempt}"
-        attempt_dir.mkdir(parents=True, exist_ok=True)
-        try:
-            (attempt_dir / f"{md_filename}_previous_xml_fix_attempt{attempt}.XML").write_text(previous_xml, encoding="utf-8")
-            (attempt_dir / f"{md_filename}_error_log_fix_attempt{attempt}.txt").write_text(error_log, encoding="utf-8")
-            (attempt_dir / f"{md_filename}_prompt_fix_attempt{attempt}.txt").write_text(prompt, encoding="utf-8")
-        except Exception as e:
-            print(f"Warning: failed to save attempt inputs for attempt {attempt}: {e}")
-
-        # Call LLM and instruct it to save payload into the attempt folder as well
         try:
             model_output = call_llm_with_kg(llm_url=llm_url, prompt=prompt, kg=kg, md_text=md_text, out_dir=attempt_dir)
         except Exception as e:
-            print(f"LLM call failed on attempt {attempt}: {e}")
-            model_output = None
-
-        if not model_output:
+            last_error = str(e)
+            try:
+                (attempt_dir / "exception.txt").write_text(last_error, encoding="utf-8")
+            except Exception:
+                pass
+            time.sleep(min(2 ** attempt, 30))
             continue
 
-        # Save attempt output with original filename + _fix_attempt{attempt}.XML
-        attempt_path = attempt_dir / f"{md_filename}_fix_attempt{attempt}.XML"
-        try:
-            attempt_path.write_text(model_output, encoding="utf-8")
-            print(f"Saved fix attempt {attempt} to {attempt_path}")
-        except Exception as e:
-            print(f"Warning: failed to save fix attempt {attempt}: {e}")
+        if not (isinstance(model_output, str) and model_output.strip()):
+            last_error = "empty response"
+            time.sleep(1)
+            continue
 
-        # Validate the returned XML using the external validator if available
         try:
-            if external_validate_xml is not None:
-                is_valid, message = external_validate_xml(model_output)
-            else:
-                is_valid, message = validate_xml_string(model_output)
+            (attempt_dir / "candidate.xml").write_text(model_output, encoding="utf-8")
+        except Exception:
+            pass
+
+        try:
+            is_valid, message = validate_xml(model_output)
         except Exception as e:
             is_valid = False
-            message = f"Validation invocation failed: {e}"
+            message = str(e)
 
         if is_valid:
-            print(f"Fix attempt {attempt} produced valid XML.")
-            return model_output
+            return model_output, attempts, True, None
 
-        # Not valid: save the new error log and use it for the next attempt
-        print(f"Fix attempt {attempt} did not validate: {message}")
+        last_error = message
         try:
-            (attempt_dir / f"{md_filename}_error_log_after_attempt{attempt}.txt").write_text(message, encoding="utf-8")
-        except Exception as e:
-            print(f"Warning: failed to save post-attempt error log: {e}")
+            (attempt_dir / "error_after.txt").write_text(message, encoding="utf-8")
+        except Exception:
+            pass
 
-        # Prepare for next attempt: the previous_xml becomes this model_output and error_log becomes the latest parser message
         previous_xml = model_output
         error_log = message
+        time.sleep(0.5)
 
-    print(f"All {max_retries} fix attempts failed to produce valid XML.")
-    return None
-
-
-# --- generator ---
+    return None, attempts, False, last_error
 
 
-def generate_xml_from_markdown(md_path: str, llm_url: str, out_xml_path: Optional[str] = None) -> str:
+def generate_xml_from_markdown(md_path: str, llm_url: str, out_xml_path: Optional[str] = None) -> Tuple[str, int, bool, Optional[str]]:
     md_text = read_markdown(md_path)
     units = split_to_text_units(md_text)
     kg = build_knowledge_graph(units)
 
-    # Persist KG for debugging and later reuse (save JSONs into kg_xml/jsons)
     kg_dir = Path.cwd() / "kg_xml2"
     kg_dir.mkdir(parents=True, exist_ok=True)
     json_subdir = kg_dir / "jsons"
     json_subdir.mkdir(parents=True, exist_ok=True)
+
     stem = Path(md_path).stem
-    kg_json_path = json_subdir / f"{stem}_kg.json"
     try:
-        kg_json_path.write_text(json.dumps(kg, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"Saved KG JSON to {kg_json_path}")
-    except Exception as e:
-        print(f"Warning: failed to save KG JSON: {e}")
+        (json_subdir / f"{stem}_kg.json").write_text(json.dumps(sanitize_for_json(kg), ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception:
+        pass
+
     if isinstance(kg.get("nx_graph"), dict):
-        nx_path = json_subdir / f"{stem}_nx_graph.json"
         try:
-            nx_path.write_text(json.dumps(kg["nx_graph"], ensure_ascii=False, indent=2), encoding="utf-8")
-            print(f"Saved nx_graph JSON to {nx_path}")
-        except Exception as e:
-            print(f"Warning: failed to save nx_graph JSON: {e}")
+            (json_subdir / f"{stem}_nx_graph.json").write_text(json.dumps(sanitize_for_json(kg["nx_graph"]), ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
 
     original_filename = Path(md_path).name
     prompt = f"""Please convert the markdown document back to its original XML format.
@@ -395,157 +250,81 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
     model_output = re.sub(r'^`\s*', '', model_output, flags=re.MULTILINE)
     model_output = re.sub(r'`\s*$', '', model_output, flags=re.MULTILINE)
 
-    # Save XML output
-    if out_xml_path is None:
-        out_xml_path = str(kg_dir / (Path(md_path).stem + "_kg_generated.XML"))
-    else:
-        Path(out_xml_path).parent.mkdir(parents=True, exist_ok=True)
-    Path(out_xml_path).write_text(model_output, encoding="utf-8")
-    print(f"Saved XML to {out_xml_path}")
-    # Validate the generated XML using validator if available (or local validator)
-    is_valid = False
-    message = ""
+    (kg_dir / (stem + "_kg_generated.XML")).write_text(model_output, encoding="utf-8")
+
     try:
-        if external_validate_xml is not None:
-            is_valid, message = external_validate_xml(model_output)
-        else:
-            is_valid, message = validate_xml_string(model_output)
+        is_valid, message = validate_xml(model_output)
     except Exception as e:
-        print(f"Validation step failed: {e}")
+        is_valid = False
+        message = str(e)
 
     if is_valid:
-        print("Generated XML validated as well-formed.")
-        return model_output
+        return model_output, 0, True, None
 
-    # If invalid, run the fixer which will create per-attempt folders
-    print(f"Generated XML failed validation: {message}")
-    error_log = message
-    fixed = fix_xml_with_errors(llm_url=llm_url, kg=kg, md_text=md_text, previous_xml=model_output, error_log=error_log, max_retries=5, out_dir=kg_dir)
-    if fixed:
-        fixed_path = kg_dir / (Path(md_path).stem + "_kg_fixed.XML")
-        fixed_path.write_text(fixed, encoding="utf-8")
-        print(f"Saved fixed XML to {fixed_path}")
-        return fixed
+    fixed_xml, attempts, fixed_flag, last_error = fix_xml_with_errors(
+        llm_url=llm_url,
+        kg=kg,
+        md_text=md_text,
+        previous_xml=model_output,
+        error_log=message,
+        max_retries=5,
+        md_filename=stem,
+        out_dir=kg_dir,
+    )
 
-    print("Failed to fix XML after retries. Returning original (invalid) output.")
-    return model_output
+    if fixed_xml:
+        (kg_dir / (stem + "_kg_fixed.XML")).write_text(fixed_xml, encoding="utf-8")
+        return fixed_xml, attempts, True, None
 
+    return model_output, attempts, False, last_error
 
-# --- runner  ---
 
 if __name__ == "__main__":
     llm_url = os.getenv("LLM_API_ENDPOINT")
     if not llm_url:
         raise RuntimeError("LLM API endpoint not specified. Set LLM_API_ENDPOINT env var.")
+
     md_input = os.getenv("MD_INPUT_FOLDER") or os.getenv("MD_INPUT_FILE")
     if not md_input:
         raise RuntimeError("Markdown input not specified. Set MD_INPUT_FOLDER or MD_INPUT_FILE env var.")
+
     md_path = Path(md_input)
+
     if md_path.is_dir():
         md_files = list(md_path.rglob("*.md")) + list(md_path.rglob("*.markdown"))
         if not md_files:
             raise RuntimeError(f"No markdown files found in directory: {md_path}")
 
-        fix_summary = []  # List of dicts: {file, needed_fix, attempts, fixed, last_error}
-
+        fix_summary = []
         for m in md_files:
             print(f"\n--- Processing {m} ---")
-            needed_fix = False
-            attempts = 0
-            fixed = False
-            last_error = None
             try:
-                # Patch generate_xml_from_markdown to return (xml, fix_attempts, fixed, last_error)
-                # We'll wrap it here for now
-                def patched_generate_xml_from_markdown(md_path, llm_url):
-                    md_text = read_markdown(md_path)
-                    units = split_to_text_units(md_text)
-                    kg = build_knowledge_graph(units)
-                    kg_dir = Path.cwd() / "kg_xml2"
-                    kg_dir.mkdir(parents=True, exist_ok=True)
-                    json_subdir = kg_dir / "jsons"
-                    json_subdir.mkdir(parents=True, exist_ok=True)
-                    stem = Path(md_path).stem
-                    original_filename = Path(md_path).name
-                    prompt = f"""Please convert the markdown document back to its original XML format.\n\nGuidelines for conversion:\n1. Recreate the XML structure based on the markdown hierarchy and content\n2. Convert markdown headers back to appropriate XML elements\n3. Restore all attributes that were mentioned in the markdown\n4. Preserve all text content exactly as shown\n5. Ensure the XML is well-formed and valid\n6. Use proper XML syntax with matching opening and closing tags\n7. Include XML declaration if appropriate\n8. IMPORTANT: Include these specific schema references in the root element:\n   xmlns:dc=\"http://www.purl.org/dc/elements/1.1/\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n   xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:noNamespaceSchemaLocation=\"http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd\"\n\nOriginal filename: {original_filename}\n\nMarkdown content to convert:\n{md_text}\n\nIMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blocks (```), do NOT add backticks (`), do NOT add any markdown formatting. Just return the pure XML text starting with <?xml and ending with the closing tag."""
-                    model_output = call_llm_with_kg(llm_url=llm_url, prompt=prompt, kg=kg, md_text=md_text)
-                    xml_content = model_output.strip()
-                    xml_content = re.sub(r'^```xml\s*', '', xml_content, flags=re.MULTILINE)
-                    xml_content = re.sub(r'^```\s*', '', xml_content, flags=re.MULTILINE)
-                    xml_content = re.sub(r'^`\s*', '', xml_content, flags=re.MULTILINE)
-                    xml_content = re.sub(r'`\s*$', '', xml_content, flags=re.MULTILINE)
-                    out_xml_path = str(kg_dir / (Path(md_path).stem + "_kg_generated.XML"))
-                    Path(out_xml_path).write_text(model_output, encoding="utf-8")
-                    is_valid = False
-                    message = ""
-                    try:
-                        if external_validate_xml is not None:
-                            is_valid, message = external_validate_xml(model_output)
-                        else:
-                            is_valid, message = validate_xml_string(model_output)
-                    except Exception as e:
-                        message = str(e)
-                    if is_valid:
-                        return model_output, 0, True, None
-                    # If invalid, run the fixer which will create per-attempt folders
-                    error_log = message
-                    needed_fix = True
-                    fixed = False
-                    fix_attempts = 0
-                    last_error = error_log
-                    fixed_xml = None
-                    for attempt in range(1, 6):
-                        fixed_xml = fix_xml_with_errors(llm_url=llm_url, kg=kg, md_text=md_text, previous_xml=model_output, error_log=error_log, max_retries=1, out_dir=kg_dir)
-                        fix_attempts = attempt
-                        if fixed_xml:
-                            # Validate again
-                            try:
-                                if external_validate_xml is not None:
-                                    is_valid, message = external_validate_xml(fixed_xml)
-                                else:
-                                    is_valid, message = validate_xml_string(fixed_xml)
-                            except Exception as e:
-                                is_valid = False
-                                message = str(e)
-                            if is_valid:
-                                fixed = True
-                                last_error = None
-                                break
-                            else:
-                                last_error = message
-                                model_output = fixed_xml
-                                error_log = message
-                        else:
-                            last_error = error_log
-                    return fixed_xml if fixed else model_output, fix_attempts, fixed, last_error
-
-                xml, fix_attempts, was_fixed, last_error = patched_generate_xml_from_markdown(str(m), llm_url)
-                needed_fix = fix_attempts > 0
-                attempts = fix_attempts
-                fixed = was_fixed
+                xml, attempts, fixed, last_error = generate_xml_from_markdown(str(m), llm_url)
+                needed_fix = attempts > 0
             except Exception as e:
                 print(f"Error processing {m}: {e}")
-                needed_fix = True
+                xml = ""
                 attempts = 0
                 fixed = False
+                needed_fix = False
                 last_error = str(e)
+
             fix_summary.append({
                 "file": str(m),
                 "needed_fix": needed_fix,
                 "attempts": attempts,
                 "fixed": fixed,
-                "last_error": last_error
+                "last_error": last_error,
             })
 
-        # Print summary
         print("\n=== XML Fix Summary ===")
         total = len(fix_summary)
         needed = sum(1 for f in fix_summary if f["needed_fix"])
-        fixed = sum(1 for f in fix_summary if f["fixed"])
+        fixed_count = sum(1 for f in fix_summary if f["fixed"])
         still_invalid = [f for f in fix_summary if f["needed_fix"] and not f["fixed"]]
         print(f"Total files processed: {total}")
         print(f"Files needing fix: {needed}")
-        print(f"Files fixed: {fixed}")
+        print(f"Files fixed: {fixed_count}")
         print(f"Files still invalid after all attempts: {len(still_invalid)}")
         if still_invalid:
             print("\nFiles still invalid:")
@@ -557,6 +336,8 @@ if __name__ == "__main__":
                 print(f"- {f['file']}: {f['attempts']} attempts, fixed: {f['fixed']}")
 
     elif md_path.is_file():
-        generate_xml_from_markdown(str(md_path), llm_url)
+        xml, attempts, fixed, last_error = generate_xml_from_markdown(str(md_path), llm_url)
+        print(f"Processed single file: {md_path} -> fixed={fixed}, attempts={attempts}, last_error={last_error}")
+
     else:
         raise RuntimeError(f"Specified markdown input does not exist: {md_path}")
