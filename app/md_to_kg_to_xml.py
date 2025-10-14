@@ -29,7 +29,6 @@ load_dotenv(find_dotenv(), override=False)
 from build_kg import read_markdown, split_to_text_units, build_knowledge_graph
 from validator import validate_xml
 
-
 def sanitize_for_json(obj: Any):
     if isinstance(obj, (str, int, float, bool)) or obj is None:
         return obj
@@ -42,8 +41,7 @@ def sanitize_for_json(obj: Any):
 
 def call_llm_with_kg(llm_url: str, prompt: str, kg: Dict[str, Any], md_text: str, out_dir: Optional[Path] = None, timeout: int = 600) -> str:
     """Send a messages-style payload to the LLM and return the textual response.
-
-    When out_dir is provided, payload and response are saved for debugging.
+     payload and response are saved for debugging.
     """
     if not llm_url:
         raise ValueError("LLM_API_ENDPOINT (llm_url) is required.")
@@ -263,9 +261,10 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
     model_output = re.sub(r'^`\s*', '', model_output, flags=re.MULTILINE)
     model_output = re.sub(r'`\s*$', '', model_output, flags=re.MULTILINE)
 
-    print(f"Initial XML generation complete. Validating...")
+   
     (kg_dir / (stem + "_kg_generated.XML")).write_text(model_output, encoding="utf-8")
-
+    print(f"Initial XML generation complete. Validating...")
+    
     try:
         is_valid, message = validate_xml(model_output)
     except Exception as e:
@@ -289,6 +288,7 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
 
     if fixed_xml:
         (kg_dir / (stem + "_kg_fixed.XML")).write_text(fixed_xml, encoding="utf-8")
+        print(f"XML successfully fixed after {attempts} attempts.")
         return fixed_xml, attempts, True, None
 
     return model_output, attempts, False, last_error
