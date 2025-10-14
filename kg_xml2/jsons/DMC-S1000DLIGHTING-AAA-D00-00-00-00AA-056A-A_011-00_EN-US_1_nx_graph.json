@@ -14,39 +14,9 @@
       "id": "DModule Data - Bike Wiring Information"
     },
     {
-      "label": "XML",
-      "type": "candidate",
-      "id": "XML"
-    },
-    {
-      "label": "Module Data",
-      "type": "candidate",
-      "id": "Module Data"
-    },
-    {
-      "label": "Information",
-      "type": "candidate",
-      "id": "Information"
-    },
-    {
-      "label": "Data",
-      "type": "candidate",
-      "id": "Data"
-    },
-    {
-      "label": "This",
-      "type": "candidate",
-      "id": "This"
-    },
-    {
       "label": "information",
       "type": "candidate",
       "id": "information"
-    },
-    {
-      "label": "Wiring",
-      "type": "candidate",
-      "id": "Wiring"
     },
     {
       "label": "Bike",
@@ -59,14 +29,44 @@
       "id": "Bike Wiring Information This"
     },
     {
+      "label": "Module Data",
+      "type": "candidate",
+      "id": "Module Data"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Information",
+      "type": "candidate",
+      "id": "Information"
+    },
+    {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
+    },
+    {
+      "label": "Wiring",
+      "type": "candidate",
+      "id": "Wiring"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
       "label": "General Information",
       "type": "heading",
       "id": "General Information"
     },
     {
-      "label": "General",
+      "label": "Volume",
       "type": "candidate",
-      "id": "General"
+      "id": "Volume"
     },
     {
       "label": "Issuer",
@@ -74,14 +74,24 @@
       "id": "Issuer"
     },
     {
-      "label": "PM",
+      "label": "Identifier",
       "type": "candidate",
-      "id": "PM"
+      "id": "Identifier"
     },
     {
       "label": "Model Identifier",
       "type": "candidate",
       "id": "Model Identifier"
+    },
+    {
+      "label": "PM",
+      "type": "candidate",
+      "id": "PM"
+    },
+    {
+      "label": "General",
+      "type": "candidate",
+      "id": "General"
     },
     {
       "label": "Number",
@@ -94,16 +104,6 @@
       "id": "Model"
     },
     {
-      "label": "Identifier",
-      "type": "candidate",
-      "id": "Identifier"
-    },
-    {
-      "label": "Volume",
-      "type": "candidate",
-      "id": "Volume"
-    },
-    {
       "label": "Electrical Equipment Group",
       "type": "heading",
       "id": "Electrical Equipment Group"
@@ -112,6 +112,11 @@
       "label": "Electrical",
       "type": "candidate",
       "id": "Electrical"
+    },
+    {
+      "label": "Equipment",
+      "type": "candidate",
+      "id": "Equipment"
     },
     {
       "label": "Electrical Equipment Group This",
@@ -124,54 +129,14 @@
       "id": "Group"
     },
     {
-      "label": "Equipment",
-      "type": "candidate",
-      "id": "Equipment"
-    },
-    {
       "label": "Electronic Box 01 (ELO-Box)",
       "type": "heading",
       "id": "Electronic Box 01 (ELO-Box)"
     },
     {
-      "label": "Class",
+      "label": "Item",
       "type": "candidate",
-      "id": "Class"
-    },
-    {
-      "label": "Responsible",
-      "type": "candidate",
-      "id": "Responsible"
-    },
-    {
-      "label": "Location",
-      "type": "candidate",
-      "id": "Location"
-    },
-    {
-      "label": "Functional Item Number",
-      "type": "candidate",
-      "id": "Functional Item Number"
-    },
-    {
-      "label": "Installation Location",
-      "type": "candidate",
-      "id": "Installation Location"
-    },
-    {
-      "label": "Company",
-      "type": "candidate",
-      "id": "Company"
-    },
-    {
-      "label": "Part Number",
-      "type": "candidate",
-      "id": "Part Number"
-    },
-    {
-      "label": "Max Mounting Positions",
-      "type": "candidate",
-      "id": "Max Mounting Positions"
+      "id": "Item"
     },
     {
       "label": "Functional",
@@ -179,44 +144,14 @@
       "id": "Functional"
     },
     {
-      "label": "Electronic Box",
-      "type": "candidate",
-      "id": "Electronic Box"
-    },
-    {
-      "label": "Positions",
-      "type": "candidate",
-      "id": "Positions"
-    },
-    {
-      "label": "Electronic",
-      "type": "candidate",
-      "id": "Electronic"
-    },
-    {
-      "label": "Partner",
-      "type": "candidate",
-      "id": "Partner"
-    },
-    {
       "label": "Mounting",
       "type": "candidate",
       "id": "Mounting"
     },
     {
-      "label": "Responsible Partner Company",
-      "type": "candidate",
-      "id": "Responsible Partner Company"
-    },
-    {
       "label": "ELO",
       "type": "candidate",
       "id": "ELO"
-    },
-    {
-      "label": "Item",
-      "type": "candidate",
-      "id": "Item"
     },
     {
       "label": "Connection Class",
@@ -229,9 +164,24 @@
       "id": "Installation"
     },
     {
-      "label": "Connection",
+      "label": "Part",
       "type": "candidate",
-      "id": "Connection"
+      "id": "Part"
+    },
+    {
+      "label": "Installation Location",
+      "type": "candidate",
+      "id": "Installation Location"
+    },
+    {
+      "label": "Electronic",
+      "type": "candidate",
+      "id": "Electronic"
+    },
+    {
+      "label": "Class",
+      "type": "candidate",
+      "id": "Class"
     },
     {
       "label": "Frame",
@@ -239,9 +189,59 @@
       "id": "Frame"
     },
     {
-      "label": "Part",
+      "label": "Part Number",
       "type": "candidate",
-      "id": "Part"
+      "id": "Part Number"
+    },
+    {
+      "label": "Max Mounting Positions",
+      "type": "candidate",
+      "id": "Max Mounting Positions"
+    },
+    {
+      "label": "Location",
+      "type": "candidate",
+      "id": "Location"
+    },
+    {
+      "label": "Connection",
+      "type": "candidate",
+      "id": "Connection"
+    },
+    {
+      "label": "Responsible Partner Company",
+      "type": "candidate",
+      "id": "Responsible Partner Company"
+    },
+    {
+      "label": "Positions",
+      "type": "candidate",
+      "id": "Positions"
+    },
+    {
+      "label": "Partner",
+      "type": "candidate",
+      "id": "Partner"
+    },
+    {
+      "label": "Functional Item Number",
+      "type": "candidate",
+      "id": "Functional Item Number"
+    },
+    {
+      "label": "Responsible",
+      "type": "candidate",
+      "id": "Responsible"
+    },
+    {
+      "label": "Electronic Box",
+      "type": "candidate",
+      "id": "Electronic Box"
+    },
+    {
+      "label": "Company",
+      "type": "candidate",
+      "id": "Company"
     },
     {
       "label": "Battery Master Switch (AC1650) -  Alternative Identifications",
@@ -249,44 +249,9 @@
       "id": "Battery Master Switch (AC1650) -  Alternative Identifications"
     },
     {
-      "label": "Instructions",
+      "label": "Switch",
       "type": "candidate",
-      "id": "Instructions"
-    },
-    {
-      "label": "Contact",
-      "type": "candidate",
-      "id": "Contact"
-    },
-    {
-      "label": "Door",
-      "type": "candidate",
-      "id": "Door"
-    },
-    {
-      "label": "Panel",
-      "type": "candidate",
-      "id": "Panel"
-    },
-    {
-      "label": "Instruction",
-      "type": "candidate",
-      "id": "Instruction"
-    },
-    {
-      "label": "Not Specified",
-      "type": "candidate",
-      "id": "Not Specified"
-    },
-    {
-      "label": "Alternative Identifications",
-      "type": "candidate",
-      "id": "Alternative Identifications"
-    },
-    {
-      "label": "Identifications",
-      "type": "candidate",
-      "id": "Identifications"
+      "id": "Switch"
     },
     {
       "label": "MASTER",
@@ -294,89 +259,29 @@
       "id": "MASTER"
     },
     {
-      "label": "Access",
+      "label": "Position",
       "type": "candidate",
-      "id": "Access"
+      "id": "Position"
     },
     {
-      "label": "Higher",
+      "label": "Identifications",
       "type": "candidate",
-      "id": "Higher"
+      "id": "Identifications"
     },
     {
-      "label": "Plug",
+      "label": "Equipment Description",
       "type": "candidate",
-      "id": "Plug"
+      "id": "Equipment Description"
     },
     {
-      "label": "Manufacturer Code",
+      "label": "Sibling",
       "type": "candidate",
-      "id": "Manufacturer Code"
+      "id": "Sibling"
     },
     {
-      "label": "Ident",
+      "label": "Instructions",
       "type": "candidate",
-      "id": "Ident"
-    },
-    {
-      "label": "Alternative",
-      "type": "candidate",
-      "id": "Alternative"
-    },
-    {
-      "label": "Name",
-      "type": "candidate",
-      "id": "Name"
-    },
-    {
-      "label": "Description",
-      "type": "candidate",
-      "id": "Description"
-    },
-    {
-      "label": "Equipment Name",
-      "type": "candidate",
-      "id": "Equipment Name"
-    },
-    {
-      "label": "NO",
-      "type": "candidate",
-      "id": "NO"
-    },
-    {
-      "label": "Mounting Position",
-      "type": "candidate",
-      "id": "Mounting Position"
-    },
-    {
-      "label": "Instruction Ident",
-      "type": "candidate",
-      "id": "Instruction Ident"
-    },
-    {
-      "label": "Assembly Instructions",
-      "type": "candidate",
-      "id": "Assembly Instructions"
-    },
-    {
-      "label": "System",
-      "type": "candidate",
-      "id": "System"
-    },
-    {
-      "label": "Breakdown",
-      "type": "candidate",
-      "id": "Breakdown"
-    },
-    {
-      "label": "Code",
-      "type": "candidate",
-      "id": "Code"
-    },
-    {
-      "label": "Next Higher Assembly",
-      "type": "candidate",
-      "id": "Next Higher Assembly"
+      "id": "Instructions"
     },
     {
       "label": "Logic",
@@ -384,9 +289,99 @@
       "id": "Logic"
     },
     {
-      "label": "References",
+      "label": "Manufacturer Code",
       "type": "candidate",
-      "id": "References"
+      "id": "Manufacturer Code"
+    },
+    {
+      "label": "Assembly",
+      "type": "candidate",
+      "id": "Assembly"
+    },
+    {
+      "label": "Next",
+      "type": "candidate",
+      "id": "Next"
+    },
+    {
+      "label": "Contact",
+      "type": "candidate",
+      "id": "Contact"
+    },
+    {
+      "label": "Manufacturer",
+      "type": "candidate",
+      "id": "Manufacturer"
+    },
+    {
+      "label": "Access Door",
+      "type": "candidate",
+      "id": "Access Door"
+    },
+    {
+      "label": "Higher",
+      "type": "candidate",
+      "id": "Higher"
+    },
+    {
+      "label": "State",
+      "type": "candidate",
+      "id": "State"
+    },
+    {
+      "label": "DEENERGIZED",
+      "type": "candidate",
+      "id": "DEENERGIZED"
+    },
+    {
+      "label": "Equipment Name",
+      "type": "candidate",
+      "id": "Equipment Name"
+    },
+    {
+      "label": "Alternative Identifications",
+      "type": "candidate",
+      "id": "Alternative Identifications"
+    },
+    {
+      "label": "Assembly Instructions",
+      "type": "candidate",
+      "id": "Assembly Instructions"
+    },
+    {
+      "label": "Illustration",
+      "type": "candidate",
+      "id": "Illustration"
+    },
+    {
+      "label": "SWITCH",
+      "type": "candidate",
+      "id": "SWITCH"
+    },
+    {
+      "label": "Instruction Ident",
+      "type": "candidate",
+      "id": "Instruction Ident"
+    },
+    {
+      "label": "Panel",
+      "type": "candidate",
+      "id": "Panel"
+    },
+    {
+      "label": "Specified",
+      "type": "candidate",
+      "id": "Specified"
+    },
+    {
+      "label": "Next Higher Assembly",
+      "type": "candidate",
+      "id": "Next Higher Assembly"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
     },
     {
       "label": "Sibling Plug Ident",
@@ -399,104 +394,9 @@
       "id": "Quantity"
     },
     {
-      "label": "NC",
+      "label": "Not Specified",
       "type": "candidate",
-      "id": "NC"
-    },
-    {
-      "label": "Energized",
-      "type": "candidate",
-      "id": "Energized"
-    },
-    {
-      "label": "State",
-      "type": "candidate",
-      "id": "State"
-    },
-    {
-      "label": "Installation Information",
-      "type": "candidate",
-      "id": "Installation Information"
-    },
-    {
-      "label": "Battery",
-      "type": "candidate",
-      "id": "Battery"
-    },
-    {
-      "label": "Manufacturer",
-      "type": "candidate",
-      "id": "Manufacturer"
-    },
-    {
-      "label": "Position",
-      "type": "candidate",
-      "id": "Position"
-    },
-    {
-      "label": "Specified",
-      "type": "candidate",
-      "id": "Specified"
-    },
-    {
-      "label": "BATTERY",
-      "type": "candidate",
-      "id": "BATTERY"
-    },
-    {
-      "label": "Sibling",
-      "type": "candidate",
-      "id": "Sibling"
-    },
-    {
-      "label": "Required Quantity",
-      "type": "candidate",
-      "id": "Required Quantity"
-    },
-    {
-      "label": "Assembly",
-      "type": "candidate",
-      "id": "Assembly"
-    },
-    {
-      "label": "Electrical Logic",
-      "type": "candidate",
-      "id": "Electrical Logic"
-    },
-    {
-      "label": "Next",
-      "type": "candidate",
-      "id": "Next"
-    },
-    {
-      "label": "Battery Master Switch",
-      "type": "candidate",
-      "id": "Battery Master Switch"
-    },
-    {
-      "label": "SWITCH",
-      "type": "candidate",
-      "id": "SWITCH"
-    },
-    {
-      "label": "Equipment Description",
-      "type": "candidate",
-      "id": "Equipment Description"
-    },
-    {
-      "label": "Access Door",
-      "type": "candidate",
-      "id": "Access Door"
-    },
-    {
-      "label": "DEENERGIZED",
-      "type": "candidate",
-      "id": "DEENERGIZED"
-    },
-    {
-      "label": "Illustration",
-      "type": "candidate",
-      "id": "Illustration"
+      "id": "Not Specified"
     },
     {
       "label": "System Breakdown Code",
@@ -504,14 +404,29 @@
       "id": "System Breakdown Code"
     },
     {
-      "label": "Functional Description",
+      "label": "Mounting Position",
       "type": "candidate",
-      "id": "Functional Description"
+      "id": "Mounting Position"
     },
     {
-      "label": "Master",
+      "label": "System",
       "type": "candidate",
-      "id": "Master"
+      "id": "System"
+    },
+    {
+      "label": "Code",
+      "type": "candidate",
+      "id": "Code"
+    },
+    {
+      "label": "Battery Master Switch",
+      "type": "candidate",
+      "id": "Battery Master Switch"
+    },
+    {
+      "label": "Plug",
+      "type": "candidate",
+      "id": "Plug"
     },
     {
       "label": "Initial",
@@ -519,9 +434,34 @@
       "id": "Initial"
     },
     {
-      "label": "Switch",
+      "label": "Required Quantity",
       "type": "candidate",
-      "id": "Switch"
+      "id": "Required Quantity"
+    },
+    {
+      "label": "Alternative",
+      "type": "candidate",
+      "id": "Alternative"
+    },
+    {
+      "label": "BATTERY",
+      "type": "candidate",
+      "id": "BATTERY"
+    },
+    {
+      "label": "Master",
+      "type": "candidate",
+      "id": "Master"
+    },
+    {
+      "label": "Functional Description",
+      "type": "candidate",
+      "id": "Functional Description"
+    },
+    {
+      "label": "Breakdown",
+      "type": "candidate",
+      "id": "Breakdown"
     },
     {
       "label": "Required",
@@ -529,59 +469,69 @@
       "id": "Required"
     },
     {
+      "label": "NC",
+      "type": "candidate",
+      "id": "NC"
+    },
+    {
+      "label": "Instruction",
+      "type": "candidate",
+      "id": "Instruction"
+    },
+    {
+      "label": "References",
+      "type": "candidate",
+      "id": "References"
+    },
+    {
+      "label": "Name",
+      "type": "candidate",
+      "id": "Name"
+    },
+    {
+      "label": "Access",
+      "type": "candidate",
+      "id": "Access"
+    },
+    {
+      "label": "Installation Information",
+      "type": "candidate",
+      "id": "Installation Information"
+    },
+    {
+      "label": "Door",
+      "type": "candidate",
+      "id": "Door"
+    },
+    {
+      "label": "Energized",
+      "type": "candidate",
+      "id": "Energized"
+    },
+    {
+      "label": "Battery",
+      "type": "candidate",
+      "id": "Battery"
+    },
+    {
+      "label": "Description",
+      "type": "candidate",
+      "id": "Description"
+    },
+    {
+      "label": "NO",
+      "type": "candidate",
+      "id": "NO"
+    },
+    {
+      "label": "Electrical Logic",
+      "type": "candidate",
+      "id": "Electrical Logic"
+    },
+    {
       "label": "Other Electrical Equipment",
       "type": "heading",
       "id": "Other Electrical Equipment"
-    },
-    {
-      "label": "Mount Positions",
-      "type": "candidate",
-      "id": "Mount Positions"
-    },
-    {
-      "label": "Notes",
-      "type": "candidate",
-      "id": "Notes"
-    },
-    {
-      "label": "Organization",
-      "type": "candidate",
-      "id": "Organization"
-    },
-    {
-      "label": "Mount",
-      "type": "candidate",
-      "id": "Mount"
-    },
-    {
-      "label": "Added",
-      "type": "candidate",
-      "id": "Added"
-    },
-    {
-      "label": "Formatting",
-      "type": "candidate",
-      "id": "Formatting"
-    },
-    {
-      "label": "Clear Organization",
-      "type": "candidate",
-      "id": "Clear Organization"
-    },
-    {
-      "label": "Sections",
-      "type": "candidate",
-      "id": "Sections"
-    },
-    {
-      "label": "Clarifications",
-      "type": "candidate",
-      "id": "Clarifications"
-    },
-    {
-      "label": "Uses",
-      "type": "candidate",
-      "id": "Uses"
     },
     {
       "label": "Complete Information",
@@ -589,24 +539,9 @@
       "id": "Complete Information"
     },
     {
-      "label": "Complete",
+      "label": "Sections",
       "type": "candidate",
-      "id": "Complete"
-    },
-    {
-      "label": "Diode",
-      "type": "candidate",
-      "id": "Diode"
-    },
-    {
-      "label": "Improved Structure",
-      "type": "candidate",
-      "id": "Improved Structure"
-    },
-    {
-      "label": "Tachometer",
-      "type": "candidate",
-      "id": "Tachometer"
+      "id": "Sections"
     },
     {
       "label": "Note",
@@ -614,59 +549,24 @@
       "id": "Note"
     },
     {
+      "label": "data",
+      "type": "candidate",
+      "id": "data"
+    },
+    {
       "label": "LH",
       "type": "candidate",
       "id": "LH"
     },
     {
-      "label": "Markdown",
+      "label": "Clear Organization",
       "type": "candidate",
-      "id": "Markdown"
+      "id": "Clear Organization"
     },
     {
-      "label": "Electrical Equipment",
+      "label": "Improved Structure",
       "type": "candidate",
-      "id": "Electrical Equipment"
-    },
-    {
-      "label": "tables",
-      "type": "candidate",
-      "id": "tables"
-    },
-    {
-      "label": "Avoids",
-      "type": "candidate",
-      "id": "Avoids"
-    },
-    {
-      "label": "Includes",
-      "type": "candidate",
-      "id": "Includes"
-    },
-    {
-      "label": "Language",
-      "type": "candidate",
-      "id": "Language"
-    },
-    {
-      "label": "Markdown Formatting",
-      "type": "candidate",
-      "id": "Markdown Formatting"
-    },
-    {
-      "label": "Key Data",
-      "type": "candidate",
-      "id": "Key Data"
-    },
-    {
-      "label": "Mount Position",
-      "type": "candidate",
-      "id": "Mount Position"
-    },
-    {
-      "label": "Important",
-      "type": "candidate",
-      "id": "Important"
+      "id": "Improved Structure"
     },
     {
       "label": "Clear",
@@ -674,49 +574,19 @@
       "id": "Clear"
     },
     {
-      "label": "data",
+      "label": "Key Data",
       "type": "candidate",
-      "id": "data"
+      "id": "Key Data"
     },
     {
-      "label": "mix",
+      "label": "Uses",
       "type": "candidate",
-      "id": "mix"
+      "id": "Uses"
     },
     {
-      "label": "Improved",
+      "label": "Diode",
       "type": "candidate",
-      "id": "Improved"
-    },
-    {
-      "label": "Other",
-      "type": "candidate",
-      "id": "Other"
-    },
-    {
-      "label": "Concise",
-      "type": "candidate",
-      "id": "Concise"
-    },
-    {
-      "label": "Handling",
-      "type": "candidate",
-      "id": "Handling"
-    },
-    {
-      "label": "Table",
-      "type": "candidate",
-      "id": "Table"
-    },
-    {
-      "label": "GT",
-      "type": "candidate",
-      "id": "GT"
-    },
-    {
-      "label": "Corrected",
-      "type": "candidate",
-      "id": "Corrected"
+      "id": "Diode"
     },
     {
       "label": "Sensor",
@@ -724,24 +594,29 @@
       "id": "Sensor"
     },
     {
+      "label": "Mount Positions",
+      "type": "candidate",
+      "id": "Mount Positions"
+    },
+    {
       "label": "Structure",
       "type": "candidate",
       "id": "Structure"
     },
     {
-      "label": "Steering",
+      "label": "Mount Position",
       "type": "candidate",
-      "id": "Steering"
+      "id": "Mount Position"
     },
     {
-      "label": "Concise Language",
+      "label": "Formatting",
       "type": "candidate",
-      "id": "Concise Language"
+      "id": "Formatting"
     },
     {
-      "label": "Speed",
+      "label": "Electrical Equipment",
       "type": "candidate",
-      "id": "Speed"
+      "id": "Electrical Equipment"
     },
     {
       "label": "WD",
@@ -754,9 +629,134 @@
       "id": "Handle"
     },
     {
+      "label": "Tachometer",
+      "type": "candidate",
+      "id": "Tachometer"
+    },
+    {
+      "label": "Table",
+      "type": "candidate",
+      "id": "Table"
+    },
+    {
+      "label": "Clarifications",
+      "type": "candidate",
+      "id": "Clarifications"
+    },
+    {
+      "label": "Language",
+      "type": "candidate",
+      "id": "Language"
+    },
+    {
+      "label": "Other",
+      "type": "candidate",
+      "id": "Other"
+    },
+    {
+      "label": "Improved",
+      "type": "candidate",
+      "id": "Improved"
+    },
+    {
+      "label": "Important",
+      "type": "candidate",
+      "id": "Important"
+    },
+    {
       "label": "RH",
       "type": "candidate",
       "id": "RH"
+    },
+    {
+      "label": "Markdown",
+      "type": "candidate",
+      "id": "Markdown"
+    },
+    {
+      "label": "Mount",
+      "type": "candidate",
+      "id": "Mount"
+    },
+    {
+      "label": "Handling",
+      "type": "candidate",
+      "id": "Handling"
+    },
+    {
+      "label": "Avoids",
+      "type": "candidate",
+      "id": "Avoids"
+    },
+    {
+      "label": "mix",
+      "type": "candidate",
+      "id": "mix"
+    },
+    {
+      "label": "Notes",
+      "type": "candidate",
+      "id": "Notes"
+    },
+    {
+      "label": "Corrected",
+      "type": "candidate",
+      "id": "Corrected"
+    },
+    {
+      "label": "Concise Language",
+      "type": "candidate",
+      "id": "Concise Language"
+    },
+    {
+      "label": "Added",
+      "type": "candidate",
+      "id": "Added"
+    },
+    {
+      "label": "Speed",
+      "type": "candidate",
+      "id": "Speed"
+    },
+    {
+      "label": "Concise",
+      "type": "candidate",
+      "id": "Concise"
+    },
+    {
+      "label": "Organization",
+      "type": "candidate",
+      "id": "Organization"
+    },
+    {
+      "label": "Includes",
+      "type": "candidate",
+      "id": "Includes"
+    },
+    {
+      "label": "Markdown Formatting",
+      "type": "candidate",
+      "id": "Markdown Formatting"
+    },
+    {
+      "label": "tables",
+      "type": "candidate",
+      "id": "tables"
+    },
+    {
+      "label": "GT",
+      "type": "candidate",
+      "id": "GT"
+    },
+    {
+      "label": "Complete",
+      "type": "candidate",
+      "id": "Complete"
+    },
+    {
+      "label": "Steering",
+      "type": "candidate",
+      "id": "Steering"
     },
     {
       "label": "Emphasis",
@@ -779,55 +779,7 @@
         2
       ],
       "source": "DModule Data - Bike Wiring Information",
-      "target": "XML"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "DModule Data - Bike Wiring Information",
-      "target": "Module Data"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "DModule Data - Bike Wiring Information",
-      "target": "Information"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "DModule Data - Bike Wiring Information",
-      "target": "Data"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "DModule Data - Bike Wiring Information",
-      "target": "This"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "DModule Data - Bike Wiring Information",
       "target": "information"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "DModule Data - Bike Wiring Information",
-      "target": "Wiring"
     },
     {
       "weight": 1,
@@ -848,9 +800,65 @@
     {
       "weight": 1,
       "units": [
+        2
+      ],
+      "source": "DModule Data - Bike Wiring Information",
+      "target": "Module Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Data - Bike Wiring Information",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Data - Bike Wiring Information",
+      "target": "Information"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Data - Bike Wiring Information",
+      "target": "XML"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Data - Bike Wiring Information",
+      "target": "Wiring"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Data - Bike Wiring Information",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
         7
       ],
-      "source": "XML",
+      "source": "information",
+      "target": "Other Electrical Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Data",
       "target": "Other Electrical Equipment"
     },
     {
@@ -882,7 +890,7 @@
       "units": [
         7
       ],
-      "source": "Data",
+      "source": "XML",
       "target": "Other Electrical Equipment"
     },
     {
@@ -904,18 +912,10 @@
     {
       "weight": 1,
       "units": [
-        7
-      ],
-      "source": "information",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
         3
       ],
       "source": "General Information",
-      "target": "General"
+      "target": "Volume"
     },
     {
       "weight": 1,
@@ -931,7 +931,7 @@
         3
       ],
       "source": "General Information",
-      "target": "PM"
+      "target": "Identifier"
     },
     {
       "weight": 1,
@@ -947,7 +947,7 @@
         3
       ],
       "source": "General Information",
-      "target": "Number"
+      "target": "PM"
     },
     {
       "weight": 1,
@@ -955,7 +955,15 @@
         3
       ],
       "source": "General Information",
-      "target": "General Information"
+      "target": "General"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "General Information",
+      "target": "Number"
     },
     {
       "weight": 1,
@@ -971,15 +979,7 @@
         3
       ],
       "source": "General Information",
-      "target": "Identifier"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "General Information",
-      "target": "Volume"
+      "target": "General Information"
     },
     {
       "weight": 1,
@@ -992,10 +992,10 @@
     {
       "weight": 1,
       "units": [
-        7
+        6
       ],
-      "source": "General",
-      "target": "Other Electrical Equipment"
+      "source": "Volume",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
     },
     {
       "weight": 1,
@@ -1012,6 +1012,14 @@
       ],
       "source": "PM",
       "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "General",
+      "target": "Other Electrical Equipment"
     },
     {
       "weight": 1,
@@ -1040,10 +1048,10 @@
     {
       "weight": 1,
       "units": [
-        6
+        4
       ],
-      "source": "Volume",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
+      "source": "Electrical Equipment Group",
+      "target": "Electrical"
     },
     {
       "weight": 1,
@@ -1051,7 +1059,7 @@
         4
       ],
       "source": "Electrical Equipment Group",
-      "target": "Electrical"
+      "target": "Equipment"
     },
     {
       "weight": 1,
@@ -1072,14 +1080,6 @@
     {
       "weight": 1,
       "units": [
-        4
-      ],
-      "source": "Electrical Equipment Group",
-      "target": "Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
         6
       ],
       "source": "Electrical",
@@ -1115,63 +1115,7 @@
         5
       ],
       "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Class"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Responsible"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Location"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Functional Item Number"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Installation Location"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Company"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Part Number"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Max Mounting Positions"
+      "target": "Item"
     },
     {
       "weight": 1,
@@ -1187,38 +1131,6 @@
         5
       ],
       "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Electronic Box"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Positions"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Electronic"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Partner"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
       "target": "Mounting"
     },
     {
@@ -1227,23 +1139,7 @@
         5
       ],
       "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Responsible Partner Company"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
       "target": "ELO"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Item"
     },
     {
       "weight": 1,
@@ -1267,7 +1163,31 @@
         5
       ],
       "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Connection"
+      "target": "Part"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Installation Location"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Electronic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Class"
     },
     {
       "weight": 1,
@@ -1283,94 +1203,102 @@
         5
       ],
       "source": "Electronic Box 01 (ELO-Box)",
-      "target": "Part"
+      "target": "Part Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Max Mounting Positions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Location"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Connection"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Responsible Partner Company"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Positions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Partner"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Functional Item Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Responsible"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Electronic Box"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Electronic Box 01 (ELO-Box)",
+      "target": "Company"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Item",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
     },
     {
       "weight": 1,
       "units": [
         7
       ],
-      "source": "Class",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Responsible",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Location",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Location",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Functional Item Number",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Functional Item Number",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Installation Location",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Installation Location",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Company",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Part Number",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Part Number",
+      "source": "Item",
       "target": "Other Electrical Equipment"
     },
     {
@@ -1388,22 +1316,6 @@
       ],
       "source": "Functional",
       "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Positions",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Partner",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
     },
     {
       "weight": 1,
@@ -1416,33 +1328,9 @@
     {
       "weight": 1,
       "units": [
-        6
-      ],
-      "source": "Responsible Partner Company",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
-    },
-    {
-      "weight": 1,
-      "units": [
         7
       ],
       "source": "ELO",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Item",
-      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Item",
       "target": "Other Electrical Equipment"
     },
     {
@@ -1472,22 +1360,6 @@
     {
       "weight": 1,
       "units": [
-        7
-      ],
-      "source": "Connection",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Frame",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
         6
       ],
       "source": "Part",
@@ -1506,8 +1378,128 @@
       "units": [
         6
       ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Instructions"
+      "source": "Installation Location",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Installation Location",
+      "target": "Other Electrical Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Class",
+      "target": "Other Electrical Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Frame",
+      "target": "Other Electrical Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Part Number",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Part Number",
+      "target": "Other Electrical Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Location",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Location",
+      "target": "Other Electrical Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Connection",
+      "target": "Other Electrical Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Positions",
+      "target": "Other Electrical Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Partner",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Functional Item Number",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Functional Item Number",
+      "target": "Other Electrical Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Responsible",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Company",
+      "target": "Battery Master Switch (AC1650) -  Alternative Identifications"
     },
     {
       "weight": 1,
@@ -1515,55 +1507,7 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Contact"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Door"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Panel"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Instruction"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Not Specified"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Alternative Identifications"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Identifications"
+      "target": "Switch"
     },
     {
       "weight": 1,
@@ -1579,7 +1523,7 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Access"
+      "target": "Position"
     },
     {
       "weight": 1,
@@ -1587,7 +1531,7 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Higher"
+      "target": "Identifications"
     },
     {
       "weight": 1,
@@ -1595,7 +1539,7 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Plug"
+      "target": "Equipment Description"
     },
     {
       "weight": 1,
@@ -1603,7 +1547,7 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Manufacturer Code"
+      "target": "Sibling"
     },
     {
       "weight": 1,
@@ -1611,103 +1555,7 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Ident"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Alternative"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Name"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Description"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Equipment Name"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "NO"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Mounting Position"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Instruction Ident"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Assembly Instructions"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "System"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Breakdown"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Code"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Next Higher Assembly"
+      "target": "Instructions"
     },
     {
       "weight": 1,
@@ -1723,7 +1571,151 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "References"
+      "target": "Manufacturer Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Assembly"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Next"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Contact"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Manufacturer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Access Door"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Higher"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "State"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "DEENERGIZED"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Equipment Name"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Alternative Identifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Assembly Instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Illustration"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "SWITCH"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Instruction Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Panel"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Specified"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Next Higher Assembly"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Ident"
     },
     {
       "weight": 1,
@@ -1747,159 +1739,7 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "NC"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Energized"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "State"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Installation Information"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Battery"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Manufacturer"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Position"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Specified"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "BATTERY"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Sibling"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Required Quantity"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Assembly"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Electrical Logic"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Next"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Battery Master Switch"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "SWITCH"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Equipment Description"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Access Door"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "DEENERGIZED"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Illustration"
+      "target": "Not Specified"
     },
     {
       "weight": 1,
@@ -1915,7 +1755,7 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Functional Description"
+      "target": "Mounting Position"
     },
     {
       "weight": 1,
@@ -1923,7 +1763,31 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Master"
+      "target": "System"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Battery Master Switch"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Plug"
     },
     {
       "weight": 1,
@@ -1939,7 +1803,47 @@
         6
       ],
       "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
-      "target": "Switch"
+      "target": "Required Quantity"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Alternative"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "BATTERY"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Master"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Functional Description"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Breakdown"
     },
     {
       "weight": 1,
@@ -1952,34 +1856,98 @@
     {
       "weight": 1,
       "units": [
-        7
+        6
       ],
-      "source": "Not Specified",
-      "target": "Other Electrical Equipment"
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "NC"
     },
     {
       "weight": 1,
       "units": [
-        7
+        6
       ],
-      "source": "Higher",
-      "target": "Other Electrical Equipment"
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Instruction"
     },
     {
       "weight": 1,
       "units": [
-        7
+        6
       ],
-      "source": "Next Higher Assembly",
-      "target": "Other Electrical Equipment"
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "References"
     },
     {
       "weight": 1,
       "units": [
-        7
+        6
       ],
-      "source": "Quantity",
-      "target": "Other Electrical Equipment"
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Name"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Access"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Installation Information"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Door"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Energized"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Battery"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Description"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "NO"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Battery Master Switch (AC1650) -  Alternative Identifications",
+      "target": "Electrical Logic"
     },
     {
       "weight": 1,
@@ -1987,14 +1955,6 @@
         7
       ],
       "source": "Position",
-      "target": "Other Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Specified",
       "target": "Other Electrical Equipment"
     },
     {
@@ -2018,80 +1978,40 @@
       "units": [
         7
       ],
-      "source": "Other Electrical Equipment",
-      "target": "Mount Positions"
+      "source": "Higher",
+      "target": "Other Electrical Equipment"
     },
     {
       "weight": 1,
       "units": [
         7
       ],
-      "source": "Other Electrical Equipment",
-      "target": "Notes"
+      "source": "Specified",
+      "target": "Other Electrical Equipment"
     },
     {
       "weight": 1,
       "units": [
         7
       ],
-      "source": "Other Electrical Equipment",
-      "target": "Organization"
+      "source": "Next Higher Assembly",
+      "target": "Other Electrical Equipment"
     },
     {
       "weight": 1,
       "units": [
         7
       ],
-      "source": "Other Electrical Equipment",
-      "target": "Mount"
+      "source": "Quantity",
+      "target": "Other Electrical Equipment"
     },
     {
       "weight": 1,
       "units": [
         7
       ],
-      "source": "Other Electrical Equipment",
-      "target": "Added"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Formatting"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Clear Organization"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Sections"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Clarifications"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Uses"
+      "source": "Not Specified",
+      "target": "Other Electrical Equipment"
     },
     {
       "weight": 1,
@@ -2107,95 +2027,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Complete"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Diode"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Improved Structure"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Tachometer"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Note"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "LH"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Markdown"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Electrical Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "tables"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Avoids"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Includes"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Language"
+      "target": "Sections"
     },
     {
       "weight": 1,
@@ -2211,39 +2043,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Markdown Formatting"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Key Data"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Mount Position"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Important"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Clear"
+      "target": "Note"
     },
     {
       "weight": 1,
@@ -2259,7 +2059,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "mix"
+      "target": "LH"
     },
     {
       "weight": 1,
@@ -2267,7 +2067,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Improved"
+      "target": "Clear Organization"
     },
     {
       "weight": 1,
@@ -2275,7 +2075,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Other"
+      "target": "Improved Structure"
     },
     {
       "weight": 1,
@@ -2283,7 +2083,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Concise"
+      "target": "Clear"
     },
     {
       "weight": 1,
@@ -2291,7 +2091,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Handling"
+      "target": "Key Data"
     },
     {
       "weight": 1,
@@ -2299,7 +2099,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Table"
+      "target": "Uses"
     },
     {
       "weight": 1,
@@ -2307,15 +2107,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "GT"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Other Electrical Equipment",
-      "target": "Corrected"
+      "target": "Diode"
     },
     {
       "weight": 1,
@@ -2331,6 +2123,14 @@
         7
       ],
       "source": "Other Electrical Equipment",
+      "target": "Mount Positions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
       "target": "Structure"
     },
     {
@@ -2339,7 +2139,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Steering"
+      "target": "Mount Position"
     },
     {
       "weight": 1,
@@ -2347,7 +2147,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Concise Language"
+      "target": "Formatting"
     },
     {
       "weight": 1,
@@ -2355,7 +2155,7 @@
         7
       ],
       "source": "Other Electrical Equipment",
-      "target": "Speed"
+      "target": "Electrical Equipment"
     },
     {
       "weight": 1,
@@ -2379,7 +2179,207 @@
         7
       ],
       "source": "Other Electrical Equipment",
+      "target": "Tachometer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Table"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Clarifications"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Language"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Other"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Improved"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Important"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
       "target": "RH"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Markdown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Mount"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Handling"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Avoids"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "mix"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Notes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Corrected"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Concise Language"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Added"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Speed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Concise"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Organization"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Includes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Markdown Formatting"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "tables"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "GT"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Complete"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Other Electrical Equipment",
+      "target": "Steering"
     },
     {
       "weight": 1,

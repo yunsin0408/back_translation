@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_s1000dbike_aaa_d05_80_00_00aa_916a_a_003_00_en_us_1 xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc>
+    <title>Maintenance Planning Document</title>
+    <overview>This document details the maintenance planning for a system, including maintenance allocations, tools lists, and remarks.</overview>
+    <maintenance_allocation>
+      <system_maintenance>
+        <title>System Maintenance</title>
+        <description>This section outlines the maintenance schedule and tasks for the system.</description>
+        <allocation_group>
+          <title>Allocation Group 1: Brakes</title>
+          <description>This group encompasses maintenance tasks related to the brake system.</description>
+          <group_number>1005</group_number>
+          <component_assembly>Brakes - Pads</component_assembly>
+          <skill_level>sk01</skill_level>
+          <table>
+            <header>
+              <cell>Maintenance Function</cell>
+              <cell>Maintenance Level</cell>
+            </header>
+            <row>
+              <cell>ft01</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft02</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft03</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft04</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft05</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft07</cell>
+              <cell>0.8</cell>
+            </row>
+            <row>
+              <cell>ft08</cell>
+              <cell>0.8</cell>
+            </row>
+          </table>
+        </allocation_group>
+        <allocation_group>
+          <title>Allocation Group 2: Brakes - Cables</title>
+          <group_number>1005</group_number>
+          <component_assembly>Brakes - Cables</component_assembly>
+          <skill_level>sk02</skill_level>
+          <table>
+            <header>
+              <cell>Maintenance Function</cell>
+              <cell>Maintenance Level</cell>
+            </header>
+            <row>
+              <cell>ft01</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft02</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft03</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft04</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft05</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft07</cell>
+              <cell>0.8</cell>
+            </row>
+            <row>
+              <cell>ft08</cell>
+              <cell>0.8</cell>
+            </row>
+          </table>
+        </allocation_group>
+        <allocation_group>
+          <title>Allocation Group 3: Brakes - Disks</title>
+          <group_number>1005</group_number>
+          <component_assembly>Brakes - Disks</component_assembly>
+          <skill_level>sk02</skill_level>
+          <table>
+            <header>
+              <cell>Maintenance Function</cell>
+              <cell>Maintenance Level</cell>
+            </header>
+            <row>
+              <cell>ft01</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft02</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft03</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft04</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft05</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft07</cell>
+              <cell>0.8</cell>
+            </row>
+            <row>
+              <cell>ft08</cell>
+              <cell>0.8</cell>
+            </row>
+          </table>
+        </allocation_group>
+        <allocation_group>
+          <title>Allocation Group 4: Brakes - Calipers</title>
+          <group_number>1005</group_number>
+          <component_assembly>Brakes - Calipers</component_assembly>
+          <skill_level>sk02</skill_level>
+          <table>
+            <header>
+              <cell>Maintenance Function</cell>
+              <cell>Maintenance Level</cell>
+            </header>
+            <row>
+              <cell>ft01</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft02</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft03</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft04</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft05</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft07</cell>
+              <cell>0.8</cell>
+            </row>
+            <row>
+              <cell>ft08</cell>
+              <cell>0.8</cell>
+            </row>
+          </table>
+        </allocation_group>
+        <allocation_group>
+          <title>Allocation Group 5: Brakes - Pads</title>
+          <group_number>1005</group_number>
+          <component_assembly>Brakes - Pads</component_assembly>
+          <skill_level>sk01</skill_level>
+          <table>
+            <header>
+              <cell>Maintenance Function</cell>
+              <cell>Maintenance Level</cell>
+            </header>
+            <row>
+              <cell>ft01</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft02</cell>
+              <cell>0.2</cell>
+            </row>
+            <row>
+              <cell>ft03</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft04</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft05</cell>
+              <cell>0.3</cell>
+            </row>
+            <row>
+              <cell>ft07</cell>
+              <cell>0.8</cell>
+            </row>
+            <row>
+              <cell>ft08</cell>
+              <cell>0.8</cell>
+            </row>
+          </table>
+        </allocation_group>
+      </system_maintenance>
+      <tools_list>
+        <title>Tools List</title>
+        <maintenance_tools>
+          <table>
+            <header>
+              <cell>Tools List Code</cell>
+              <cell>Maintenance Level</cell>
+              <cell>Maintenance Level</cell>
+            </header>
+            <row>
+              <cell>Tools List Code</cell>
+              <cell>Maintenance Level</cell>
+              <cell>Maintenance Level</cell>
+            </row>
+          </table>
+          <table>
+            <header>
+              <cell>Tools List Code</cell>
+              <cell>Maintenance Level</cell>
+              <cell>Maintenance Level</cell>
+            </header>
+            <row>
+              <cell>Tools List Code</cell>
+              <cell>Maintenance Level</cell>
+              <cell>Maintenance Level</cell>
+            </row>
+          </table>
+          <table>
+            <header>
+              <cell>Tools List Code</cell>
+              <cell>Maintenance Level</cell>
+              <cell>Maintenance Level</cell>
+            </header>
+            <row>
+              <cell>Tools List Code</cell>
+              <cell>Maintenance Level</cell>
+              <cell>Maintenance Level</cell>
+            </row>
+          </table>
+        </maintenance_tools>
+      </tools_list>
+      <remarks>
+        <title>Remarks</title>
+        <table>
+          <header>
+            <cell>Remarks</cell>
+          </header>
+          <row>
+            <cell>Remarks</cell>
+          </row>
+        </table>
+      </remarks>
+    </maintenance_allocation>
+  </dmc>
+</dmc_s1000dbike_aaa_d05_80_00_00aa_916a_a_003_00_en_us_1>

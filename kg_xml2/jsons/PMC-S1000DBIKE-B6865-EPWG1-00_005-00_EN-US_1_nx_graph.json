@@ -14,24 +14,19 @@
       "id": "PM Data Extract"
     },
     {
-      "label": "XML",
+      "label": "overview",
       "type": "candidate",
-      "id": "XML"
+      "id": "overview"
     },
     {
-      "label": "Extract",
+      "label": "PM",
       "type": "candidate",
-      "id": "Extract"
+      "id": "PM"
     },
     {
-      "label": "Product Management",
+      "label": "Management",
       "type": "candidate",
-      "id": "Product Management"
-    },
-    {
-      "label": "Product",
-      "type": "candidate",
-      "id": "Product"
+      "id": "Management"
     },
     {
       "label": "Data",
@@ -39,9 +34,14 @@
       "id": "Data"
     },
     {
-      "label": "PM",
+      "label": "Product Management",
       "type": "candidate",
-      "id": "PM"
+      "id": "Product Management"
+    },
+    {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
     },
     {
       "label": "This",
@@ -54,14 +54,14 @@
       "id": "Data Extract This"
     },
     {
-      "label": "overview",
+      "label": "Extract",
       "type": "candidate",
-      "id": "overview"
+      "id": "Extract"
     },
     {
-      "label": "Management",
+      "label": "Product",
       "type": "candidate",
-      "id": "Management"
+      "id": "Product"
     },
     {
       "label": "Data Structure",
@@ -69,14 +69,14 @@
       "id": "Data Structure"
     },
     {
-      "label": "identifier",
-      "type": "candidate",
-      "id": "identifier"
-    },
-    {
       "label": "Further",
       "type": "candidate",
       "id": "Further"
+    },
+    {
+      "label": "variant",
+      "type": "candidate",
+      "id": "variant"
     },
     {
       "label": "Each",
@@ -89,14 +89,19 @@
       "id": "Indicates"
     },
     {
+      "label": "Identifies",
+      "type": "candidate",
+      "id": "Identifies"
+    },
+    {
       "label": "context",
       "type": "candidate",
       "id": "context"
     },
     {
-      "label": "Data Structure The",
+      "label": "piece",
       "type": "candidate",
-      "id": "Data Structure The"
+      "id": "piece"
     },
     {
       "label": "type",
@@ -109,14 +114,9 @@
       "id": "Structure"
     },
     {
-      "label": "piece",
+      "label": "Data Structure The",
       "type": "candidate",
-      "id": "piece"
-    },
-    {
-      "label": "variant",
-      "type": "candidate",
-      "id": "variant"
+      "id": "Data Structure The"
     },
     {
       "label": "location",
@@ -124,9 +124,9 @@
       "id": "location"
     },
     {
-      "label": "Identifies",
+      "label": "identifier",
       "type": "candidate",
-      "id": "Identifies"
+      "id": "identifier"
     },
     {
       "label": "Data Summary",
@@ -134,79 +134,9 @@
       "id": "Data Summary"
     },
     {
-      "label": "Location",
+      "label": "Item Location Code",
       "type": "candidate",
-      "id": "Location"
-    },
-    {
-      "label": "Applic",
-      "type": "candidate",
-      "id": "Applic"
-    },
-    {
-      "label": "Variant",
-      "type": "candidate",
-      "id": "Variant"
-    },
-    {
-      "label": "length",
-      "type": "candidate",
-      "id": "length"
-    },
-    {
-      "label": "Note",
-      "type": "candidate",
-      "id": "Note"
-    },
-    {
-      "label": "Number",
-      "type": "candidate",
-      "id": "Number"
-    },
-    {
-      "label": "Issue Number",
-      "type": "candidate",
-      "id": "Issue Number"
-    },
-    {
-      "label": "Issue",
-      "type": "candidate",
-      "id": "Issue"
-    },
-    {
-      "label": "Code",
-      "type": "candidate",
-      "id": "Code"
-    },
-    {
-      "label": "System",
-      "type": "candidate",
-      "id": "System"
-    },
-    {
-      "label": "Data Summary The",
-      "type": "candidate",
-      "id": "Data Summary The"
-    },
-    {
-      "label": "Info Code",
-      "type": "candidate",
-      "id": "Info Code"
-    },
-    {
-      "label": "Summary",
-      "type": "candidate",
-      "id": "Summary"
-    },
-    {
-      "label": "Info Code Variant",
-      "type": "candidate",
-      "id": "Info Code Variant"
-    },
-    {
-      "label": "Applic Ref Id",
-      "type": "candidate",
-      "id": "Applic Ref Id"
+      "id": "Item Location Code"
     },
     {
       "label": "Item",
@@ -214,9 +144,14 @@
       "id": "Item"
     },
     {
-      "label": "System Code",
+      "label": "Info Code Variant",
       "type": "candidate",
-      "id": "System Code"
+      "id": "Info Code Variant"
+    },
+    {
+      "label": "Note",
+      "type": "candidate",
+      "id": "Note"
     },
     {
       "label": "Sub System Code",
@@ -224,9 +159,54 @@
       "id": "Sub System Code"
     },
     {
-      "label": "Item Location Code",
+      "label": "Info Code",
       "type": "candidate",
-      "id": "Item Location Code"
+      "id": "Info Code"
+    },
+    {
+      "label": "Data Summary The",
+      "type": "candidate",
+      "id": "Data Summary The"
+    },
+    {
+      "label": "Variant",
+      "type": "candidate",
+      "id": "Variant"
+    },
+    {
+      "label": "Issue Number",
+      "type": "candidate",
+      "id": "Issue Number"
+    },
+    {
+      "label": "System",
+      "type": "candidate",
+      "id": "System"
+    },
+    {
+      "label": "Issue",
+      "type": "candidate",
+      "id": "Issue"
+    },
+    {
+      "label": "System Code",
+      "type": "candidate",
+      "id": "System Code"
+    },
+    {
+      "label": "Location",
+      "type": "candidate",
+      "id": "Location"
+    },
+    {
+      "label": "length",
+      "type": "candidate",
+      "id": "length"
+    },
+    {
+      "label": "Applic",
+      "type": "candidate",
+      "id": "Applic"
     },
     {
       "label": "Info",
@@ -234,19 +214,34 @@
       "id": "Info"
     },
     {
+      "label": "Summary",
+      "type": "candidate",
+      "id": "Summary"
+    },
+    {
+      "label": "Applic Ref Id",
+      "type": "candidate",
+      "id": "Applic Ref Id"
+    },
+    {
+      "label": "Number",
+      "type": "candidate",
+      "id": "Number"
+    },
+    {
+      "label": "Code",
+      "type": "candidate",
+      "id": "Code"
+    },
+    {
       "label": "Observations & Potential Analysis",
       "type": "heading",
       "id": "Observations & Potential Analysis"
     },
     {
-      "label": "use",
+      "label": "Observations",
       "type": "candidate",
-      "id": "use"
-    },
-    {
-      "label": "Status",
-      "type": "candidate",
-      "id": "Status"
+      "id": "Observations"
     },
     {
       "label": "Variants",
@@ -254,14 +249,59 @@
       "id": "Variants"
     },
     {
-      "label": "System Coverage",
-      "type": "candidate",
-      "id": "System Coverage"
-    },
-    {
       "label": "Different",
       "type": "candidate",
       "id": "Different"
+    },
+    {
+      "label": "Tracking",
+      "type": "candidate",
+      "id": "Tracking"
+    },
+    {
+      "label": "Coverage",
+      "type": "candidate",
+      "id": "Coverage"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "Potential",
+      "type": "candidate",
+      "id": "Potential"
+    },
+    {
+      "label": "Info Code Variants",
+      "type": "candidate",
+      "id": "Info Code Variants"
+    },
+    {
+      "label": "areas",
+      "type": "candidate",
+      "id": "areas"
+    },
+    {
+      "label": "Issue Status",
+      "type": "candidate",
+      "id": "Issue Status"
+    },
+    {
+      "label": "Analysis",
+      "type": "candidate",
+      "id": "Analysis"
+    },
+    {
+      "label": "Generating",
+      "type": "candidate",
+      "id": "Generating"
+    },
+    {
+      "label": "Potential Analysis",
+      "type": "candidate",
+      "id": "Potential Analysis"
     },
     {
       "label": "Identifying",
@@ -274,59 +314,19 @@
       "id": "Analyzing"
     },
     {
-      "label": "Tracking",
+      "label": "use",
       "type": "candidate",
-      "id": "Tracking"
+      "id": "use"
     },
     {
-      "label": "Info Code Variants",
+      "label": "System Coverage",
       "type": "candidate",
-      "id": "Info Code Variants"
-    },
-    {
-      "label": "Issue Status",
-      "type": "candidate",
-      "id": "Issue Status"
-    },
-    {
-      "label": "Observations",
-      "type": "candidate",
-      "id": "Observations"
-    },
-    {
-      "label": "areas",
-      "type": "candidate",
-      "id": "areas"
-    },
-    {
-      "label": "Analysis",
-      "type": "candidate",
-      "id": "Analysis"
-    },
-    {
-      "label": "Coverage",
-      "type": "candidate",
-      "id": "Coverage"
-    },
-    {
-      "label": "Potential Analysis",
-      "type": "candidate",
-      "id": "Potential Analysis"
+      "id": "System Coverage"
     },
     {
       "label": "used",
       "type": "candidate",
       "id": "used"
-    },
-    {
-      "label": "Generating",
-      "type": "candidate",
-      "id": "Generating"
-    },
-    {
-      "label": "Potential",
-      "type": "candidate",
-      "id": "Potential"
     },
     {
       "label": "Conclusion",
@@ -359,7 +359,7 @@
         2
       ],
       "source": "PM Data Extract",
-      "target": "XML"
+      "target": "overview"
     },
     {
       "weight": 1,
@@ -367,7 +367,7 @@
         2
       ],
       "source": "PM Data Extract",
-      "target": "Extract"
+      "target": "PM"
     },
     {
       "weight": 1,
@@ -375,15 +375,7 @@
         2
       ],
       "source": "PM Data Extract",
-      "target": "Product Management"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "PM Data Extract",
-      "target": "Product"
+      "target": "Management"
     },
     {
       "weight": 1,
@@ -399,7 +391,15 @@
         2
       ],
       "source": "PM Data Extract",
-      "target": "PM"
+      "target": "Product Management"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "XML"
     },
     {
       "weight": 1,
@@ -423,7 +423,7 @@
         2
       ],
       "source": "PM Data Extract",
-      "target": "overview"
+      "target": "Extract"
     },
     {
       "weight": 1,
@@ -431,15 +431,15 @@
         2
       ],
       "source": "PM Data Extract",
-      "target": "Management"
+      "target": "Product"
     },
     {
       "weight": 1,
       "units": [
-        4
+        6
       ],
-      "source": "XML",
-      "target": "Data Summary"
+      "source": "PM",
+      "target": "Conclusion"
     },
     {
       "weight": 1,
@@ -460,10 +460,10 @@
     {
       "weight": 1,
       "units": [
-        6
+        4
       ],
-      "source": "PM",
-      "target": "Conclusion"
+      "source": "XML",
+      "target": "Data Summary"
     },
     {
       "weight": 1,
@@ -495,7 +495,7 @@
         3
       ],
       "source": "Data Structure",
-      "target": "identifier"
+      "target": "Further"
     },
     {
       "weight": 1,
@@ -503,7 +503,7 @@
         3
       ],
       "source": "Data Structure",
-      "target": "Further"
+      "target": "variant"
     },
     {
       "weight": 1,
@@ -527,6 +527,14 @@
         3
       ],
       "source": "Data Structure",
+      "target": "Identifies"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
       "target": "context"
     },
     {
@@ -535,7 +543,7 @@
         3
       ],
       "source": "Data Structure",
-      "target": "Data Structure The"
+      "target": "piece"
     },
     {
       "weight": 1,
@@ -559,15 +567,7 @@
         3
       ],
       "source": "Data Structure",
-      "target": "piece"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "Data Structure",
-      "target": "variant"
+      "target": "Data Structure The"
     },
     {
       "weight": 1,
@@ -583,7 +583,7 @@
         3
       ],
       "source": "Data Structure",
-      "target": "Identifies"
+      "target": "identifier"
     },
     {
       "weight": 1,
@@ -599,119 +599,7 @@
         4
       ],
       "source": "Data Summary",
-      "target": "Location"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Applic"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Variant"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "length"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Note"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Number"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Issue Number"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Issue"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Code"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "System"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Data Summary The"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Info Code"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Summary"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Info Code Variant"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Data Summary",
-      "target": "Applic Ref Id"
+      "target": "Item Location Code"
     },
     {
       "weight": 1,
@@ -727,7 +615,15 @@
         4
       ],
       "source": "Data Summary",
-      "target": "System Code"
+      "target": "Info Code Variant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Note"
     },
     {
       "weight": 1,
@@ -743,7 +639,79 @@
         4
       ],
       "source": "Data Summary",
-      "target": "Item Location Code"
+      "target": "Info Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Data Summary The"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Variant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Issue Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "System"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Issue"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "System Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Location"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "length"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Applic"
     },
     {
       "weight": 1,
@@ -756,9 +724,41 @@
     {
       "weight": 1,
       "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Summary"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Applic Ref Id"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Code"
+    },
+    {
+      "weight": 1,
+      "units": [
         5
       ],
-      "source": "Applic",
+      "source": "System",
       "target": "Observations & Potential Analysis"
     },
     {
@@ -774,23 +774,7 @@
       "units": [
         5
       ],
-      "source": "Code",
-      "target": "Observations & Potential Analysis"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "System",
-      "target": "Observations & Potential Analysis"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Applic Ref Id",
+      "source": "Applic",
       "target": "Observations & Potential Analysis"
     },
     {
@@ -806,8 +790,16 @@
       "units": [
         5
       ],
-      "source": "Observations & Potential Analysis",
-      "target": "use"
+      "source": "Applic Ref Id",
+      "target": "Observations & Potential Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Code",
+      "target": "Observations & Potential Analysis"
     },
     {
       "weight": 1,
@@ -815,7 +807,7 @@
         5
       ],
       "source": "Observations & Potential Analysis",
-      "target": "Status"
+      "target": "Observations"
     },
     {
       "weight": 1,
@@ -831,7 +823,7 @@
         5
       ],
       "source": "Observations & Potential Analysis",
-      "target": "System Coverage"
+      "target": "Different"
     },
     {
       "weight": 1,
@@ -839,7 +831,79 @@
         5
       ],
       "source": "Observations & Potential Analysis",
-      "target": "Different"
+      "target": "Tracking"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Coverage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Potential"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Info Code Variants"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "areas"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Issue Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Generating"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Potential Analysis"
     },
     {
       "weight": 1,
@@ -863,7 +927,7 @@
         5
       ],
       "source": "Observations & Potential Analysis",
-      "target": "Tracking"
+      "target": "use"
     },
     {
       "weight": 1,
@@ -871,55 +935,7 @@
         5
       ],
       "source": "Observations & Potential Analysis",
-      "target": "Info Code Variants"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Observations & Potential Analysis",
-      "target": "Issue Status"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Observations & Potential Analysis",
-      "target": "Observations"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Observations & Potential Analysis",
-      "target": "areas"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Observations & Potential Analysis",
-      "target": "Analysis"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Observations & Potential Analysis",
-      "target": "Coverage"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Observations & Potential Analysis",
-      "target": "Potential Analysis"
+      "target": "System Coverage"
     },
     {
       "weight": 1,
@@ -928,22 +944,6 @@
       ],
       "source": "Observations & Potential Analysis",
       "target": "used"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Observations & Potential Analysis",
-      "target": "Generating"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Observations & Potential Analysis",
-      "target": "Potential"
     },
     {
       "weight": 1,
@@ -959,7 +959,7 @@
         6
       ],
       "source": "Conclusion",
-      "target": "view"
+      "target": "Conclusion"
     },
     {
       "weight": 1,
@@ -967,7 +967,7 @@
         6
       ],
       "source": "Conclusion",
-      "target": "Conclusion"
+      "target": "view"
     },
     {
       "weight": 1,

@@ -1,4 +1,5 @@
-"""md_to_kg_to_xml.py
+"""
+md_to_kg_to_xml.py
 
 Clean, self-contained implementation of the md -> KG -> LLM -> XML pipeline.
 
@@ -63,8 +64,17 @@ def call_llm_with_kg(llm_url: str, prompt: str, kg: Dict[str, Any], md_text: str
             {"role": "system", "content": system_msg},
             {"role": "user", "content": user_content},
         ],
-        "temperature": 0.0,
+        "temperature": 0.7,
     }
+
+    # Log prompt and payload size for debugging
+    prompt_size = len(prompt.encode('utf-8')) if prompt else 0
+    kg_size = len(json.dumps(kg, ensure_ascii=False).encode('utf-8'))
+    md_size = len(md_text.encode('utf-8'))
+    user_content_size = len(user_content.encode('utf-8'))
+    payload_size = len(json.dumps(payload, ensure_ascii=False).encode('utf-8'))
+    print(f"[DEBUG] Prompt size: {prompt_size} bytes, KG size: {kg_size} bytes, Markdown size: {md_size} bytes, User content size: {user_content_size} bytes, Payload size: {payload_size} bytes")
+
 
     if out_dir is not None:
         try:
@@ -106,8 +116,8 @@ def call_llm_with_kg(llm_url: str, prompt: str, kg: Dict[str, Any], md_text: str
             (out_dir / "response.txt").write_text(text, encoding="utf-8")
         except Exception:
             pass
-
-    return text
+     
+    return text 
 
 
 def fix_xml_with_errors(
@@ -153,7 +163,13 @@ def fix_xml_with_errors(
             pass
 
         try:
+            print(f"Fix attempt {attempt} calling LLM at {llm_url} ...")
             model_output = call_llm_with_kg(llm_url=llm_url, prompt=prompt, kg=kg, md_text=md_text, out_dir=attempt_dir)
+            
+            model_output = re.sub(r'^```xml\s*', '', model_output, flags=re.MULTILINE)
+            model_output = re.sub(r'^```\s*', '', model_output, flags=re.MULTILINE)
+            model_output = re.sub(r'^`\s*', '', model_output, flags=re.MULTILINE)
+            model_output = re.sub(r'`\s*$', '', model_output, flags=re.MULTILINE)
         except Exception as e:
             last_error = str(e)
             try:
@@ -207,9 +223,11 @@ def generate_xml_from_markdown(md_path: str, llm_url: str, out_xml_path: Optiona
 
     stem = Path(md_path).stem
     try:
-        (json_subdir / f"{stem}_kg.json").write_text(json.dumps(sanitize_for_json(kg), ensure_ascii=False, indent=2), encoding="utf-8")
-    except Exception:
-        pass
+        kg_path = json_subdir / f"{stem}_kg.json"
+        kg_path.write_text(json.dumps(sanitize_for_json(kg), ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[INFO] KG saved to {kg_path}")
+    except Exception as e:
+        print(f"[ERROR] Failed to save KG for {md_path}: {e}")
 
     if isinstance(kg.get("nx_graph"), dict):
         try:
@@ -235,11 +253,6 @@ Guidelines for conversion:
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd"
 
-Original filename: {original_filename}
-
-Markdown content to convert:
-{md_text}
-
 IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blocks (```), do NOT add backticks (`), do NOT add any markdown formatting. Just return the pure XML text starting with <?xml and ending with the closing tag."""
 
     print(f"Calling LLM at {llm_url} with KG ({len(kg['nodes'])} nodes, {len(kg['edges'])} edges) ...")
@@ -250,6 +263,7 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
     model_output = re.sub(r'^`\s*', '', model_output, flags=re.MULTILINE)
     model_output = re.sub(r'`\s*$', '', model_output, flags=re.MULTILINE)
 
+    print(f"Initial XML generation complete. Validating...")
     (kg_dir / (stem + "_kg_generated.XML")).write_text(model_output, encoding="utf-8")
 
     try:
@@ -260,8 +274,9 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
 
     if is_valid:
         return model_output, 0, True, None
+    
 
-    fixed_xml, attempts, fixed_flag, last_error = fix_xml_with_errors(
+    fixed_xml, attempts, last_error = fix_xml_with_errors(
         llm_url=llm_url,
         kg=kg,
         md_text=md_text,
@@ -277,6 +292,7 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
         return fixed_xml, attempts, True, None
 
     return model_output, attempts, False, last_error
+
 
 
 if __name__ == "__main__":

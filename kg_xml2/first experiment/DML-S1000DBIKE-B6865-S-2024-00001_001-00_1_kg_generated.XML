@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Technical Documentation - Bike Maintenance &amp; Troubleshooting</title>
+  <docnr>DML-S1000DBIKE-B6865-S-2024-00001_001-00_1</docnr>
+  <content>
+    <section>
+      <heading level="1">1. Headset &amp; Steering (System DA1)</heading>
+      <list>
+        <item>
+          <bold>Component:</bold> Headset
+          <bold>Procedure/Issue:</bold> Installation
+          <bold>Issue Number:</bold> 008
+          <bold>Status:</bold> Open
+        </item>
+      </list>
+    </section>
+    <section>
+      <heading level="1">2. Braking System (System DA2)</heading>
+      <list>
+        <item>
+          <bold>Component:</bold> Brake Pads
+          <bold>Procedure/Issue:</bold> Replace
+          <bold>Issue Number:</bold> 011
+          <bold>Status:</bold> Open
+        </item>
+      </list>
+    </section>
+    <section>
+      <heading level="1">3. Drivetrain - Chain (System DA4)</heading>
+      <list>
+        <item>
+          <bold>Component:</bold> Chain
+          <bold>Procedure/Issue:</bold> Oil
+          <bold>Issue Number:</bold> 011
+          <bold>Date:</bold> 2024-06-19
+        </item>
+        <item>
+          <bold>Procedure/Issue:</bold> Clean with chemical agent
+          <bold>Issue Number:</bold> 010
+          <bold>Variant:</bold> Use chain cleaning fluid
+          <bold>Date:</bold> 2024-06-19
+        </item>
+        <item>
+          <bold>Procedure/Issue:</bold> Correlated fault
+          <bold>Issue Number:</bold> 008
+          <bold>Date:</bold> 2024-06-19
+        </item>
+      </list>
+    </section>
+    <section>
+      <heading level="1">4. Drivetrain - Gears (System DA5)</heading>
+      <list>
+        <item>
+          <bold>Component:</bold> Gears
+          <bold>Procedure/Issue:</bold> Description of how it is made
+          <bold>Issue Number:</bold> 010
+          <bold>Date:</bold> 2024-06-19
+        </item>
+        <item>
+          <bold>Component:</bold> Mechs
+          <bold>Procedure/Issue:</bold> Description of how it is made
+          <bold>Issue Number:</bold> 010
+          <bold>Date:</bold> 2024-06-19
+        </item>
+        <item>
+          <bold>Component:</bold> Hubs
+          <bold>Procedure/Issue:</bold> Clean with chemical agent
+          <bold>Variant:</bold> Use degreasing agent
+          <bold>Issue Number:</bold> 011
+          <bold>Date:</bold> 2024-06-19
+        </item>
+        <item>
+          <bold>Component:</bold> Shifters
+          <bold>Procedure/Issue:</bold> Description of how it is made
+          <bold>Issue Number:</bold> 010
+          <bold>Date:</bold> 2024-06-19
+        </item>
+      </list>
+    </section>
+    <section>
+      <heading level="1">5. Wheels &amp; Tires (System DA5 - continued)</heading>
+      <list>
+        <item>
+          <bold>Component:</bold> Hubs (Also listed under Drivetrain)
+          <bold>Procedure/Issue:</bold> Clean with chemical agent
+          <bold>Variant:</bold> Use degreasing agent
+          <bold>Issue Number:</bold> 011
+          <bold>Date:</bold> 2024-06-19
+        </item>
+      </list>
+    </section>
+    <section>
+      <heading level="1">6. General / Undefined Systems (Systems DA1, DA2)</heading>
+      <list>
+        <item>
+          <bold>System:</bold> DA1 - Headset &amp; Steering
+          <bold>Component:</bold> Headset
+          <bold>Procedure/Issue:</bold> Installation
+          <bold>Issue Number:</bold> 008
+        </item>
+        <item>
+          <bold>System:</bold> DA2 - Braking
+          <bold>Component:</bold> Brake Pads
+          <bold>Procedure/Issue:</bold> Replace
+          <bold>Issue Number:</bold> 011
+        </item>
+      </list>
+    </section>
+    <section>
+      <heading level="1">Notes:</heading>
+      <list>
+        <item>This documentation is structured by system/component.</item>
+        <item>Issue numbers can indicate the severity or priority of the task.</item>
+        <item>Dates indicate when the procedure/troubleshooting information was last updated.</item>
+        <item>Some components are listed in multiple systems as they may belong to both.</item>
+      </list>
+    </section>
+  </content>
+</proced>

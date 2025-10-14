@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModule xmlns="http://www.s1000d.org/xml/s1000d">
+  <DataModuleHeader>
+    <ModuleId>DMConditionsCrossReferenceTable</ModuleId>
+    <IssueNumber>001</IssueNumber>
+    <IssueDate>
+      <Year>2024</Year>
+      <Month>06</Month>
+      <Day>19</Day>
+    </IssueDate>
+    <Title>
+      <TechName>Mountain bicycle</TechName>
+      <InfoName>Conditions cross-reference table</InfoName>
+    </Title>
+    <Security>
+      <SecurityClassification>01</SecurityClassification>
+    </Security>
+    <DataRestrictions>
+      <RestrictionInstructions>
+        <DataDistribution>To be made available to all S1000D users.</DataDistribution>
+        <ExportControl>
+          <ExportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</ExportRegistrationStmt>
+          <DataHandling>There are no specific handling instructions for this data module.</DataHandling>
+          <DataDestruction>Users may destroy this data module in accordance with their own local procedures.</DataDestruction>
+          <DataDisclosure>There are no dissemination limitations that apply to this data module.</DataDisclosure>
+        </ExportControl>
+      </RestrictionInstructions>
+      <RestrictionInfo>
+        <Copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</Copyright>
+        <Publishers>
+          <Publisher>Aerospace, Security and Defence Industries Association of Europe</Publisher>
+          <Publisher>Aerospace Industries Association of America</Publisher>
+          <Publisher>ATA e-Business Program</Publisher>
+        </Publishers>
+        <LimitationsOfLiability>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</LimitationsOfLiability>
+        <LimitationsOfLiability>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability.</LimitationsOfLiability>
+      </RestrictionInfo>
+    </DataRestrictions>
+    <ResponsibleDepartment>Engineering</ResponsibleDepartment>
+  </DataModuleHeader>
+  <Content>
+    <ApplicGroup>
+      <Applic id="A-1">
+        <Assert>
+          <ApplicPropertyType>condition</ApplicPropertyType>
+          <ApplicPropertyIdent>SB-S001</ApplicPropertyIdent>
+          <ApplicPropertyValues>POST-001~POST-999</ApplicPropertyValues>
+        </Assert>
+      </Applic>
+      <Applic id="A-2">
+        <Evaluate>
+          <AndOr>and</AndOr>
+          <Assert>
+            <ApplicPropertyType>condition</ApplicPropertyType>
+            <ApplicPropertyIdent>SB-S001</ApplicPropertyIdent>
+            <ApplicPropertyValues>POST-001~POST-999</ApplicPropertyValues>
+          </Assert>
+          <Assert>
+            <ApplicPropertyType>condition</ApplicPropertyType>
+            <ApplicPropertyIdent>SB-S009</ApplicPropertyIdent>
+            <ApplicPropertyValues>PRE</ApplicPropertyValues>
+          </Assert>
+        </Evaluate>
+      </Applic>
+    </ApplicGroup>
+    <CondCrossReferenceTable>
+      <CondTypeList>
+        <CondType id="SB">
+          <ValueDataType>string</ValueDataType>
+          <Name>Service bulletin</Name>
+          <Description>Generic service bulletin type</Description>
+          <Enumeration>PRE</Enumeration>
+        </CondType>
+        <CondType id="Boolean">
+          <Name>generic Boolean condition</Name>
+          <Description>Boolean condition</Description>
+          <Enumeration>True|False</Enumeration>
+        </CondType>
+      </CondTypeList>
+      <CondList>
+        <Cond id="SB-S001">
+          <CondTypeRefId>SB</CondTypeRefId>
+          <Name>Service bulletin S001 - Chain guard</Name>
+          <Description>Service bulletin S001 for the installation of the chain guard</Description>
+          <Refs>
+            <DmRef>
+              <DmRefIdent>
+                <DmCode>
+                  <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+                  <SystemDiffCode>AAA</SystemDiffCode>
+                  <SystemCode>DA0</SystemCode>
+                  <SubSystemCode>2</SubSystemCode>
+                  <SubSystemSubSystemCode>0</SubSystemSubSystemCode>
+                  <AssyCode>00</AssyCode>
+                  <DisassyCode>00</DisassyCode>
+                  <DisassyCodeVariant>AA</DisassyCodeVariant>
+                  <InfoCode>520</InfoCode>
+                  <InfoCodeVariant>A</InfoCodeVariant>
+                  <ItemLocationCode>A</ItemLocationCode>
+                </DmCode>
+              </DmRefIdent>
+            </DmRef>
+          </Refs>
+        </Cond>
+        <Cond id="SB-S009">
+          <CondTypeRefId>SB</CondTypeRefId>
+          <Name>Service bulletin 9 - Chain guard (2)</Name>
+          <Description>Service bulletin 9 for the installation of the chain guard (2)</Description>
+          <Refs>
+            <DmRef>
+              <DmRefIdent>
+                <DmCode>
+                  <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+                  <SystemDiffCode>AAA</SystemDiffCode>
+                  <SystemCode>DA0</SystemCode>
+                  <SubSystemCode>2</SubSystemCode>
+                  <SubSystemSubSystemCode>0</SubSystemSubSystemCode>
+                  <AssyCode>01</AssyCode>
+                  <DisassyCode>00</DisassyCode>
+                  <DisassyCodeVariant>AA</DisassyCodeVariant>
+                  <InfoCode>520</InfoCode>
+                  <InfoCodeVariant>A</InfoCodeVariant>
+                  <ItemLocationCode>A</ItemLocationCode>
+                </DmCode>
+              </DmRefIdent>
+            </DmRef>
+          </Refs>
+        </Cond>
+        <Cond id="tourFinished">
+          <CondTypeRefId>Boolean</CondTypeRefId>
+          <Name>tour finished</Name>
+          <Description>finished tour</Description>
+        </Cond>
+      </CondList>
+      <IncorporationList>
+        <CondIncorporation id="SB-S001-00">
+          <CondRefId>SB-S001</CondRefId>
+          <CondIssueNumber>00</CondIssueNumber>
+          <DocumentIncorporation>
+            <Refs>
+              <DmRef>
+                <DmRefIdent>
+                  <DmCode>
+                    <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+                    <SystemDiffCode>AAA</SystemDiffCode>
+                    <SystemCode>DA0</SystemCode>
+                    <SubSystemCode>2</SubSystemCode>
+                    <SubSystemSubSystemCode>0</SubSystemSubSystemCode>
+                    <AssyCode>00</AssyCode>
+                    <DisassyCode>00</DisassyCode>
+                    <DisassyCodeVariant>AA</DisassyCodeVariant>
+                    <InfoCode>520</InfoCode>
+                    <InfoCodeVariant>A</InfoCodeVariant>
+                    <ItemLocationCode>A</ItemLocationCode>
+                  </DmCode>
+                </DmRefIdent>
+              </DmRef>
+            </Refs>
+            <IncorporationStatus>
+              <IncorporationStatus>incorporated</IncorporationStatus>
+              <Year>2007</Year>
+              <Month>07</Month>
+              <Day>31</Day>
+            </IncorporationStatus>
+          </DocumentIncorporation>
+        </CondIncorporation>
+        <CondIncorporation id="SB-S001-01">
+          <CondRefId>SB-S001</CondRefId>
+          <CondIssueNumber>01</CondIssueNumber>
+          <DocumentIncorporation>
+            <Refs>
+              <DmRef>
+                <DmRefIdent>
+                  <DmCode>
+                    <ModelIdentCode>S1000DBIKE</ModelIdentCode>
+                    <SystemDiffCode>AAA</SystemDiffCode>
+                    <SystemCode>DA0</SystemCode>
+                    <SubSystemCode>2</SubSystemCode>
+                    <SubSystemSubSystemCode>0</SubSystemSubSystemCode>
+                    <AssyCode>00</AssyCode>
+                    <DisassyCode>00</DisassyCode>
+                    <DisassyCodeVariant>AA</DisassyCodeVariant>
+                    <InfoCode>520</InfoCode>
+                    <InfoCodeVariant>A</InfoCodeVariant>
+                    <ItemLocationCode>A</ItemLocationCode>
+                  </DmCode>
+                </DmRefIdent>
+              </DmRef>
+            </Refs>
+            <IncorporationStatus>
+              <IncorporationStatus>no effect</IncorporationStatus>
+            </IncorporationStatus>
+          </DocumentIncorporation>
+        </CondIncorporation>
+      </IncorporationList>
+    </CondCrossReferenceTable>
+  </Content>
+</DataModule>

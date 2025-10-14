@@ -14,14 +14,14 @@
       "id": "Delivery List"
     },
     {
-      "label": "Delivery",
-      "type": "candidate",
-      "id": "Delivery"
-    },
-    {
       "label": "Delivery List This",
       "type": "candidate",
       "id": "Delivery List This"
+    },
+    {
+      "label": "Delivery",
+      "type": "candidate",
+      "id": "Delivery"
     },
     {
       "label": "This",
@@ -39,9 +39,9 @@
       "id": "List"
     },
     {
-      "label": "CGM",
+      "label": "PNG",
       "type": "candidate",
-      "id": "CGM"
+      "id": "PNG"
     },
     {
       "label": "SVG",
@@ -49,9 +49,9 @@
       "id": "SVG"
     },
     {
-      "label": "PNG",
+      "label": "CGM",
       "type": "candidate",
-      "id": "PNG"
+      "id": "CGM"
     }
   ],
   "links": [
@@ -64,6 +64,14 @@
       "target": "Document"
     },
     {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Delivery List",
+      "target": "Delivery List This"
+    },
+    {
       "weight": 2,
       "units": [
         2,
@@ -71,14 +79,6 @@
       ],
       "source": "Delivery List",
       "target": "Delivery"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "Delivery List",
-      "target": "Delivery List This"
     },
     {
       "weight": 1,
@@ -111,15 +111,7 @@
         3
       ],
       "source": "Delivery List",
-      "target": "Delivery List"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "Delivery List",
-      "target": "CGM"
+      "target": "PNG"
     },
     {
       "weight": 1,
@@ -135,7 +127,15 @@
         3
       ],
       "source": "Delivery List",
-      "target": "PNG"
+      "target": "Delivery List"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Delivery List",
+      "target": "CGM"
     }
   ]
 }

@@ -9,16 +9,6 @@
       ]
     },
     {
-      "id": "Ident",
-      "label": "Ident",
-      "type": "candidate",
-      "source_units": [
-        1,
-        18,
-        19
-      ]
-    },
-    {
       "id": "DM",
       "label": "DM",
       "type": "candidate",
@@ -50,6 +40,16 @@
       ]
     },
     {
+      "id": "Ident",
+      "label": "Ident",
+      "type": "candidate",
+      "source_units": [
+        1,
+        18,
+        19
+      ]
+    },
+    {
       "id": "Language",
       "label": "Language",
       "type": "heading",
@@ -76,16 +76,6 @@
       ]
     },
     {
-      "id": "Info",
-      "label": "Info",
-      "type": "candidate",
-      "source_units": [
-        3,
-        5,
-        9
-      ]
-    },
-    {
       "id": "Issue",
       "label": "Issue",
       "type": "candidate",
@@ -93,6 +83,16 @@
         3,
         4,
         6
+      ]
+    },
+    {
+      "id": "Info",
+      "label": "Info",
+      "type": "candidate",
+      "source_units": [
+        3,
+        5,
+        9
       ]
     },
     {
@@ -121,21 +121,11 @@
       ]
     },
     {
-      "id": "Mountain",
-      "label": "Mountain",
+      "id": "Title",
+      "label": "Title",
       "type": "candidate",
       "source_units": [
-        5,
-        13
-      ]
-    },
-    {
-      "id": "Tech",
-      "label": "Tech",
-      "type": "candidate",
-      "source_units": [
-        5,
-        14
+        5
       ]
     },
     {
@@ -149,8 +139,8 @@
       ]
     },
     {
-      "id": "Title",
-      "label": "Title",
+      "id": "Tech Name",
+      "label": "Tech Name",
       "type": "candidate",
       "source_units": [
         5
@@ -165,11 +155,21 @@
       ]
     },
     {
-      "id": "Tech Name",
-      "label": "Tech Name",
+      "id": "Tech",
+      "label": "Tech",
       "type": "candidate",
       "source_units": [
-        5
+        5,
+        14
+      ]
+    },
+    {
+      "id": "Mountain",
+      "label": "Mountain",
+      "type": "candidate",
+      "source_units": [
+        5,
+        13
       ]
     },
     {
@@ -184,14 +184,6 @@
       "id": "DM Status",
       "label": "DM Status",
       "type": "heading",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Issue Type",
-      "label": "Issue Type",
-      "type": "candidate",
       "source_units": [
         6
       ]
@@ -214,6 +206,14 @@
       ]
     },
     {
+      "id": "Issue Type",
+      "label": "Issue Type",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
       "id": "Security",
       "label": "Security",
       "type": "heading",
@@ -233,6 +233,47 @@
       ]
     },
     {
+      "id": "Control",
+      "label": "Control",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "instructions",
+      "label": "instructions",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "residence",
+      "label": "residence",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Export Control",
+      "label": "Export Control",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Data",
+      "label": "Data",
+      "type": "candidate",
+      "source_units": [
+        8,
+        9
+      ]
+    },
+    {
       "id": "Instructions",
       "label": "Instructions",
       "type": "candidate",
@@ -249,34 +290,72 @@
       ]
     },
     {
-      "id": "There",
-      "label": "There",
-      "type": "candidate",
-      "source_units": [
-        8,
-        9
-      ]
-    },
-    {
-      "id": "Data Destruction",
-      "label": "Data Destruction",
+      "id": "users",
+      "label": "users",
       "type": "candidate",
       "source_units": [
         8
       ]
     },
     {
-      "id": "Restriction",
-      "label": "Restriction",
+      "id": "Data Disclosure",
+      "label": "Data Disclosure",
       "type": "candidate",
       "source_units": [
-        8,
-        9
+        8
       ]
     },
     {
-      "id": "users",
-      "label": "users",
+      "id": "Export",
+      "label": "Export",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Data Distribution",
+      "label": "Data Distribution",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Disclosure",
+      "label": "Disclosure",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Handling",
+      "label": "Handling",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "discretion",
+      "label": "discretion",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Users",
+      "label": "Users",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Destruction",
+      "label": "Destruction",
       "type": "candidate",
       "source_units": [
         8
@@ -299,96 +378,16 @@
       ]
     },
     {
-      "id": "Export Control",
-      "label": "Export Control",
+      "id": "Data Destruction",
+      "label": "Data Destruction",
       "type": "candidate",
       "source_units": [
         8
       ]
     },
     {
-      "id": "Export",
-      "label": "Export",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "instructions",
-      "label": "instructions",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Data Disclosure",
-      "label": "Data Disclosure",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "residence",
-      "label": "residence",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Data Distribution",
-      "label": "Data Distribution",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Control",
-      "label": "Control",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Destruction",
-      "label": "Destruction",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Disclosure",
-      "label": "Disclosure",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "discretion",
-      "label": "discretion",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Handling",
-      "label": "Handling",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Data",
-      "label": "Data",
+      "id": "There",
+      "label": "There",
       "type": "candidate",
       "source_units": [
         8,
@@ -396,11 +395,12 @@
       ]
     },
     {
-      "id": "Users",
-      "label": "Users",
+      "id": "Restriction",
+      "label": "Restriction",
       "type": "candidate",
       "source_units": [
-        8
+        8,
+        9
       ]
     },
     {
@@ -413,46 +413,6 @@
       ]
     },
     {
-      "id": "use",
-      "label": "use",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Defence Industries Association",
-      "label": "Defence Industries Association",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "details",
-      "label": "details",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "SC",
-      "label": "SC",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Data Conditions",
-      "label": "Data Conditions",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
       "id": "TOR",
       "label": "TOR",
       "type": "candidate",
@@ -461,88 +421,8 @@
       ]
     },
     {
-      "id": "This",
-      "label": "This",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Committee",
-      "label": "Committee",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Limitations",
-      "label": "Limitations",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Statement",
-      "label": "Statement",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Policy Statement",
-      "label": "Policy Statement",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "warranties",
-      "label": "warranties",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Neither",
-      "label": "Neither",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Specification",
-      "label": "Specification",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Steering",
-      "label": "Steering",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "ASD",
-      "label": "ASD",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Defence",
-      "label": "Defence",
+      "id": "Publishers",
+      "label": "Publishers",
       "type": "candidate",
       "source_units": [
         9
@@ -557,56 +437,16 @@
       ]
     },
     {
+      "id": "Defence",
+      "label": "Defence",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
       "id": "Industries",
       "label": "Industries",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Business Program",
-      "label": "Business Program",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "maintenance",
-      "label": "maintenance",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "liable",
-      "label": "liable",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Revisions",
-      "label": "Revisions",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "America",
-      "label": "America",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Policy",
-      "label": "Policy",
       "type": "candidate",
       "source_units": [
         9
@@ -623,8 +463,8 @@
       ]
     },
     {
-      "id": "Aerospace",
-      "label": "Aerospace",
+      "id": "Policy",
+      "label": "Policy",
       "type": "candidate",
       "source_units": [
         9
@@ -639,24 +479,24 @@
       ]
     },
     {
-      "id": "restrictions",
-      "label": "restrictions",
+      "id": "Conditions",
+      "label": "Conditions",
       "type": "candidate",
       "source_units": [
         9
       ]
     },
     {
-      "id": "Steering Committee",
-      "label": "Steering Committee",
+      "id": "Committee",
+      "label": "Committee",
       "type": "candidate",
       "source_units": [
         9
       ]
     },
     {
-      "id": "Program",
-      "label": "Program",
+      "id": "Defence Industries Association",
+      "label": "Defence Industries Association",
       "type": "candidate",
       "source_units": [
         9
@@ -671,32 +511,8 @@
       ]
     },
     {
-      "id": "Aerospace Industries Association",
-      "label": "Aerospace Industries Association",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Conditions",
-      "label": "Conditions",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Copyright",
-      "label": "Copyright",
-      "type": "candidate",
-      "source_units": [
-        9
-      ]
-    },
-    {
-      "id": "Publishers",
-      "label": "Publishers",
+      "id": "Business Program",
+      "label": "Business Program",
       "type": "candidate",
       "source_units": [
         9
@@ -711,6 +527,70 @@
       ]
     },
     {
+      "id": "Europe",
+      "label": "Europe",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Program",
+      "label": "Program",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Copyright",
+      "label": "Copyright",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Data Conditions",
+      "label": "Data Conditions",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Revisions",
+      "label": "Revisions",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Policy Statement",
+      "label": "Policy Statement",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "ASD",
+      "label": "ASD",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "liable",
+      "label": "liable",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
       "id": "fitness",
       "label": "fitness",
       "type": "candidate",
@@ -719,8 +599,128 @@
       ]
     },
     {
-      "id": "Europe",
-      "label": "Europe",
+      "id": "restrictions",
+      "label": "restrictions",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Aerospace",
+      "label": "Aerospace",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Limitations",
+      "label": "Limitations",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "maintenance",
+      "label": "maintenance",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Neither",
+      "label": "Neither",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Steering",
+      "label": "Steering",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Statement",
+      "label": "Statement",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Aerospace Industries Association",
+      "label": "Aerospace Industries Association",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "use",
+      "label": "use",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "SC",
+      "label": "SC",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "America",
+      "label": "America",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Specification",
+      "label": "Specification",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "warranties",
+      "label": "warranties",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "Steering Committee",
+      "label": "Steering Committee",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "This",
+      "label": "This",
+      "type": "candidate",
+      "source_units": [
+        9
+      ]
+    },
+    {
+      "id": "details",
+      "label": "details",
       "type": "candidate",
       "source_units": [
         9
@@ -736,12 +736,11 @@
       ]
     },
     {
-      "id": "DEFENCE",
-      "label": "DEFENCE",
+      "id": "Responsible",
+      "label": "Responsible",
       "type": "candidate",
       "source_units": [
-        10,
-        11
+        10
       ]
     },
     {
@@ -763,51 +762,17 @@
       ]
     },
     {
-      "id": "Responsible",
-      "label": "Responsible",
+      "id": "AEROSPACE",
+      "label": "AEROSPACE",
       "type": "candidate",
       "source_units": [
-        10
+        10,
+        11
       ]
     },
     {
       "id": "OF",
       "label": "OF",
-      "type": "candidate",
-      "source_units": [
-        10,
-        11
-      ]
-    },
-    {
-      "id": "ASSOCIATION",
-      "label": "ASSOCIATION",
-      "type": "candidate",
-      "source_units": [
-        10,
-        11
-      ]
-    },
-    {
-      "id": "EUROPE",
-      "label": "EUROPE",
-      "type": "candidate",
-      "source_units": [
-        10,
-        11
-      ]
-    },
-    {
-      "id": "Company",
-      "label": "Company",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "AEROSPACE",
-      "label": "AEROSPACE",
       "type": "candidate",
       "source_units": [
         10,
@@ -832,6 +797,41 @@
       ]
     },
     {
+      "id": "ASSOCIATION",
+      "label": "ASSOCIATION",
+      "type": "candidate",
+      "source_units": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "DEFENCE",
+      "label": "DEFENCE",
+      "type": "candidate",
+      "source_units": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "EUROPE",
+      "label": "EUROPE",
+      "type": "candidate",
+      "source_units": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "Company",
+      "label": "Company",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
       "id": "Originator",
       "label": "Originator",
       "type": "heading",
@@ -844,40 +844,6 @@
       "id": "Applic Cross-Reference Table Ref",
       "label": "Applic Cross-Reference Table Ref",
       "type": "heading",
-      "source_units": [
-        12
-      ]
-    },
-    {
-      "id": "Applic",
-      "label": "Applic",
-      "type": "candidate",
-      "source_units": [
-        12,
-        13,
-        13
-      ]
-    },
-    {
-      "id": "Reference Table Ref",
-      "label": "Reference Table Ref",
-      "type": "candidate",
-      "source_units": [
-        12
-      ]
-    },
-    {
-      "id": "Cross",
-      "label": "Cross",
-      "type": "candidate",
-      "source_units": [
-        12
-      ]
-    },
-    {
-      "id": "Table",
-      "label": "Table",
-      "type": "candidate",
       "source_units": [
         12
       ]
@@ -899,24 +865,42 @@
       ]
     },
     {
-      "id": "Text",
-      "label": "Text",
+      "id": "Reference Table Ref",
+      "label": "Reference Table Ref",
       "type": "candidate",
       "source_units": [
+        12
+      ]
+    },
+    {
+      "id": "Applic",
+      "label": "Applic",
+      "type": "candidate",
+      "source_units": [
+        12,
+        13,
         13
+      ]
+    },
+    {
+      "id": "Table",
+      "label": "Table",
+      "type": "candidate",
+      "source_units": [
+        12
+      ]
+    },
+    {
+      "id": "Cross",
+      "label": "Cross",
+      "type": "candidate",
+      "source_units": [
+        12
       ]
     },
     {
       "id": "Display Text",
       "label": "Display Text",
-      "type": "candidate",
-      "source_units": [
-        13
-      ]
-    },
-    {
-      "id": "Display",
-      "label": "Display",
       "type": "candidate",
       "source_units": [
         13
@@ -931,6 +915,14 @@
       ]
     },
     {
+      "id": "Brook",
+      "label": "Brook",
+      "type": "candidate",
+      "source_units": [
+        13
+      ]
+    },
+    {
       "id": "Assert",
       "label": "Assert",
       "type": "candidate",
@@ -939,8 +931,16 @@
       ]
     },
     {
-      "id": "Brook",
-      "label": "Brook",
+      "id": "Display",
+      "label": "Display",
+      "type": "candidate",
+      "source_units": [
+        13
+      ]
+    },
+    {
+      "id": "Text",
+      "label": "Text",
       "type": "candidate",
       "source_units": [
         13
@@ -956,20 +956,20 @@
       ]
     },
     {
+      "id": "Standard",
+      "label": "Standard",
+      "type": "candidate",
+      "source_units": [
+        14
+      ]
+    },
+    {
       "id": "Bike",
       "label": "Bike",
       "type": "candidate",
       "source_units": [
         14,
         17
-      ]
-    },
-    {
-      "id": "Standard",
-      "label": "Standard",
-      "type": "candidate",
-      "source_units": [
-        14
       ]
     },
     {
@@ -998,16 +998,8 @@
       ]
     },
     {
-      "id": "Verification",
-      "label": "Verification",
-      "type": "candidate",
-      "source_units": [
-        16
-      ]
-    },
-    {
-      "id": "Verification Type",
-      "label": "Verification Type",
+      "id": "Quality",
+      "label": "Quality",
       "type": "candidate",
       "source_units": [
         16
@@ -1022,8 +1014,16 @@
       ]
     },
     {
-      "id": "Quality",
-      "label": "Quality",
+      "id": "Verification Type",
+      "label": "Verification Type",
+      "type": "candidate",
+      "source_units": [
+        16
+      ]
+    },
+    {
+      "id": "Verification",
+      "label": "Verification",
       "type": "candidate",
       "source_units": [
         16
@@ -1039,14 +1039,6 @@
       ]
     },
     {
-      "id": "CPF",
-      "label": "CPF",
-      "type": "candidate",
-      "source_units": [
-        17
-      ]
-    },
-    {
       "id": "Bike Enhancement",
       "label": "Bike Enhancement",
       "type": "candidate",
@@ -1055,8 +1047,8 @@
       ]
     },
     {
-      "id": "EPWG",
-      "label": "EPWG",
+      "id": "CPF",
+      "label": "CPF",
       "type": "candidate",
       "source_units": [
         17
@@ -1071,6 +1063,14 @@
       ]
     },
     {
+      "id": "EPWG",
+      "label": "EPWG",
+      "type": "candidate",
+      "source_units": [
+        17
+      ]
+    },
+    {
       "id": "Enterprise Spec (id: C001)",
       "label": "Enterprise Spec (id: C001)",
       "type": "heading",
@@ -1079,33 +1079,16 @@
       ]
     },
     {
-      "id": "Services",
-      "label": "Services",
+      "id": "Line",
+      "label": "Line",
       "type": "candidate",
       "source_units": [
         18
       ]
     },
     {
-      "id": "Email",
-      "label": "Email",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Enterprise Ident",
-      "label": "Enterprise Ident",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "SPEC",
-      "label": "SPEC",
+      "id": "Country",
+      "label": "Country",
       "type": "candidate",
       "source_units": [
         18,
@@ -1122,8 +1105,8 @@
       ]
     },
     {
-      "id": "City",
-      "label": "City",
+      "id": "SPEC",
+      "label": "SPEC",
       "type": "candidate",
       "source_units": [
         18,
@@ -1131,17 +1114,8 @@
       ]
     },
     {
-      "id": "Country",
-      "label": "Country",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "Phone",
-      "label": "Phone",
+      "id": "Phone Number",
+      "label": "Phone Number",
       "type": "candidate",
       "source_units": [
         18
@@ -1157,185 +1131,8 @@
       ]
     },
     {
-      "id": "Number",
-      "label": "Number",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Address",
-      "label": "Address",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "Fax Number",
-      "label": "Fax Number",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Code",
-      "label": "Code",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "UTOPIA",
-      "label": "UTOPIA",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Customers",
-      "label": "Customers",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Phone Number",
-      "label": "Phone Number",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Line",
-      "label": "Line",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Saint Vitus",
-      "label": "Saint Vitus",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Heaven",
-      "label": "Heaven",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Saint",
-      "label": "Saint",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Unit",
-      "label": "Unit",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "Enterprise Spec",
-      "label": "Enterprise Spec",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "Street",
-      "label": "Street",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "Vitus",
-      "label": "Vitus",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
       "id": "Postal",
       "label": "Postal",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "Enterprise Name",
-      "label": "Enterprise Name",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "Spec",
-      "label": "Spec",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "Internet",
-      "label": "Internet",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Customers Services Business Line",
-      "label": "Customers Services Business Line",
-      "type": "candidate",
-      "source_units": [
-        18
-      ]
-    },
-    {
-      "id": "Enterprise",
-      "label": "Enterprise",
-      "type": "candidate",
-      "source_units": [
-        18,
-        19
-      ]
-    },
-    {
-      "id": "Business Unit",
-      "label": "Business Unit",
       "type": "candidate",
       "source_units": [
         18,
@@ -1352,33 +1149,212 @@
       ]
     },
     {
+      "id": "Phone",
+      "label": "Phone",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Enterprise Spec",
+      "label": "Enterprise Spec",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "City",
+      "label": "City",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Business Unit",
+      "label": "Business Unit",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Spec",
+      "label": "Spec",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Services",
+      "label": "Services",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Enterprise Name",
+      "label": "Enterprise Name",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Saint",
+      "label": "Saint",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Enterprise",
+      "label": "Enterprise",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Heaven",
+      "label": "Heaven",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Enterprise Ident",
+      "label": "Enterprise Ident",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Address",
+      "label": "Address",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Customers",
+      "label": "Customers",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Internet",
+      "label": "Internet",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Unit",
+      "label": "Unit",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Street",
+      "label": "Street",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Customers Services Business Line",
+      "label": "Customers Services Business Line",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Saint Vitus",
+      "label": "Saint Vitus",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Number",
+      "label": "Number",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Vitus",
+      "label": "Vitus",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Code",
+      "label": "Code",
+      "type": "candidate",
+      "source_units": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "Fax Number",
+      "label": "Fax Number",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "Email",
+      "label": "Email",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
+      "id": "UTOPIA",
+      "label": "UTOPIA",
+      "type": "candidate",
+      "source_units": [
+        18
+      ]
+    },
+    {
       "id": "Enterprise Spec (id: SPEC-0002)",
       "label": "Enterprise Spec (id: SPEC-0002)",
       "type": "heading",
-      "source_units": [
-        19
-      ]
-    },
-    {
-      "id": "Off Road",
-      "label": "Off Road",
-      "type": "candidate",
-      "source_units": [
-        19
-      ]
-    },
-    {
-      "id": "Bikes",
-      "label": "Bikes",
-      "type": "candidate",
-      "source_units": [
-        19
-      ]
-    },
-    {
-      "id": "Greasy",
-      "label": "Greasy",
-      "type": "candidate",
       "source_units": [
         19
       ]
@@ -1392,24 +1368,16 @@
       ]
     },
     {
-      "id": "Atlantis",
-      "label": "Atlantis",
+      "id": "Enterprise Ident Alt",
+      "label": "Enterprise Ident Alt",
       "type": "candidate",
       "source_units": [
         19
       ]
     },
     {
-      "id": "DUNS",
-      "label": "DUNS",
-      "type": "candidate",
-      "source_units": [
-        19
-      ]
-    },
-    {
-      "id": "Noway",
-      "label": "Noway",
+      "id": "Off Road",
+      "label": "Off Road",
       "type": "candidate",
       "source_units": [
         19
@@ -1432,8 +1400,40 @@
       ]
     },
     {
-      "id": "Enterprise Ident Alt",
-      "label": "Enterprise Ident Alt",
+      "id": "DUNS",
+      "label": "DUNS",
+      "type": "candidate",
+      "source_units": [
+        19
+      ]
+    },
+    {
+      "id": "Noway",
+      "label": "Noway",
+      "type": "candidate",
+      "source_units": [
+        19
+      ]
+    },
+    {
+      "id": "Bikes",
+      "label": "Bikes",
+      "type": "candidate",
+      "source_units": [
+        19
+      ]
+    },
+    {
+      "id": "Atlantis",
+      "label": "Atlantis",
+      "type": "candidate",
+      "source_units": [
+        19
+      ]
+    },
+    {
+      "id": "Greasy",
+      "label": "Greasy",
       "type": "candidate",
       "source_units": [
         19
@@ -1441,14 +1441,6 @@
     }
   ],
   "edges": [
-    {
-      "source": "DM Ident",
-      "target": "Ident",
-      "weight": 1,
-      "units": [
-        1
-      ]
-    },
     {
       "source": "DM",
       "target": "DM Ident",
@@ -1474,11 +1466,11 @@
       ]
     },
     {
-      "source": "Language",
-      "target": "Language",
+      "source": "DM Ident",
+      "target": "Ident",
       "weight": 1,
       "units": [
-        2
+        1
       ]
     },
     {
@@ -1487,6 +1479,22 @@
       "weight": 1,
       "units": [
         2
+      ]
+    },
+    {
+      "source": "Language",
+      "target": "Language",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Issue",
+      "target": "Issue Info",
+      "weight": 1,
+      "units": [
+        3
       ]
     },
     {
@@ -1506,11 +1514,11 @@
       ]
     },
     {
-      "source": "Issue",
-      "target": "Issue Info",
+      "source": "Date",
+      "target": "Issue Date",
       "weight": 1,
       "units": [
-        3
+        4
       ]
     },
     {
@@ -1522,14 +1530,6 @@
       ]
     },
     {
-      "source": "Date",
-      "target": "Issue Date",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
       "source": "Issue",
       "target": "Issue Date",
       "weight": 1,
@@ -1539,23 +1539,7 @@
     },
     {
       "source": "DM Title",
-      "target": "Mountain",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "DM",
-      "target": "DM Title",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "DM Title",
-      "target": "Tech",
+      "target": "Title",
       "weight": 1,
       "units": [
         5
@@ -1571,15 +1555,7 @@
     },
     {
       "source": "DM Title",
-      "target": "Info",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "DM Title",
-      "target": "Title",
+      "target": "Tech Name",
       "weight": 1,
       "units": [
         5
@@ -1595,7 +1571,15 @@
     },
     {
       "source": "DM Title",
-      "target": "Tech Name",
+      "target": "Tech",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "DM Title",
+      "target": "Mountain",
       "weight": 1,
       "units": [
         5
@@ -1611,18 +1595,18 @@
     },
     {
       "source": "DM",
-      "target": "DM Status",
+      "target": "DM Title",
       "weight": 1,
       "units": [
-        6
+        5
       ]
     },
     {
-      "source": "DM Status",
-      "target": "Issue Type",
+      "source": "DM Title",
+      "target": "Info",
       "weight": 1,
       "units": [
-        6
+        5
       ]
     },
     {
@@ -1650,11 +1634,67 @@
       ]
     },
     {
+      "source": "DM Status",
+      "target": "Issue Type",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DM",
+      "target": "DM Status",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
       "source": "Security",
       "target": "Security",
       "weight": 1,
       "units": [
         7
+      ]
+    },
+    {
+      "source": "Control",
+      "target": "Restriction Instructions",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Restriction Instructions",
+      "target": "instructions",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Restriction Instructions",
+      "target": "residence",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Export Control",
+      "target": "Restriction Instructions",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Data",
+      "target": "Restriction Instructions",
+      "weight": 1,
+      "units": [
+        8
       ]
     },
     {
@@ -1675,14 +1715,14 @@
     },
     {
       "source": "Restriction Instructions",
-      "target": "There",
+      "target": "users",
       "weight": 1,
       "units": [
         8
       ]
     },
     {
-      "source": "Data Destruction",
+      "source": "Data Disclosure",
       "target": "Restriction Instructions",
       "weight": 1,
       "units": [
@@ -1690,7 +1730,7 @@
       ]
     },
     {
-      "source": "Restriction",
+      "source": "Export",
       "target": "Restriction Instructions",
       "weight": 1,
       "units": [
@@ -1699,7 +1739,55 @@
     },
     {
       "source": "Restriction Instructions",
-      "target": "users",
+      "target": "Restriction Instructions",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Data Distribution",
+      "target": "Restriction Instructions",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Disclosure",
+      "target": "Restriction Instructions",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Handling",
+      "target": "Restriction Instructions",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Restriction Instructions",
+      "target": "discretion",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Restriction Instructions",
+      "target": "Users",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Destruction",
+      "target": "Restriction Instructions",
       "weight": 1,
       "units": [
         8
@@ -1722,15 +1810,7 @@
       ]
     },
     {
-      "source": "Export Control",
-      "target": "Restriction Instructions",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Export",
+      "source": "Data Destruction",
       "target": "Restriction Instructions",
       "weight": 1,
       "units": [
@@ -1739,95 +1819,15 @@
     },
     {
       "source": "Restriction Instructions",
-      "target": "instructions",
+      "target": "There",
       "weight": 1,
       "units": [
         8
       ]
     },
     {
-      "source": "Data Disclosure",
+      "source": "Restriction",
       "target": "Restriction Instructions",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Restriction Instructions",
-      "target": "residence",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Data Distribution",
-      "target": "Restriction Instructions",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Control",
-      "target": "Restriction Instructions",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Destruction",
-      "target": "Restriction Instructions",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Disclosure",
-      "target": "Restriction Instructions",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Restriction Instructions",
-      "target": "discretion",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Restriction Instructions",
-      "target": "Restriction Instructions",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Handling",
-      "target": "Restriction Instructions",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Data",
-      "target": "Restriction Instructions",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Restriction Instructions",
-      "target": "Users",
       "weight": 1,
       "units": [
         8
@@ -1835,7 +1835,15 @@
     },
     {
       "source": "Restriction Info",
-      "target": "use",
+      "target": "TOR",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Publishers",
+      "target": "Restriction Info",
       "weight": 1,
       "units": [
         9
@@ -1843,6 +1851,70 @@
     },
     {
       "source": "Restriction Info",
+      "target": "classification",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Defence",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Industries",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Business",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Policy",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "ATA",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Conditions",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Data",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Committee",
       "target": "Restriction Info",
       "weight": 1,
       "units": [
@@ -1859,30 +1931,22 @@
     },
     {
       "source": "Restriction Info",
-      "target": "details",
+      "target": "responsible",
       "weight": 1,
       "units": [
         9
       ]
     },
     {
-      "source": "Restriction Info",
-      "target": "SC",
+      "source": "Business Program",
+      "target": "Restriction Info",
       "weight": 1,
       "units": [
         9
       ]
     },
     {
-      "source": "Restriction Info",
-      "target": "There",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Data Conditions",
+      "source": "Association",
       "target": "Restriction Info",
       "weight": 1,
       "units": [
@@ -1898,8 +1962,32 @@
       ]
     },
     {
-      "source": "Restriction Info",
-      "target": "TOR",
+      "source": "Europe",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Program",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Copyright",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Data Conditions",
+      "target": "Restriction Info",
       "weight": 1,
       "units": [
         9
@@ -1907,14 +1995,70 @@
     },
     {
       "source": "Restriction Info",
-      "target": "This",
+      "target": "Revisions",
       "weight": 1,
       "units": [
         9
       ]
     },
     {
-      "source": "Committee",
+      "source": "Policy Statement",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "ASD",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Restriction Info",
+      "target": "liable",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Restriction Info",
+      "target": "fitness",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Restriction Info",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Restriction Info",
+      "target": "restrictions",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Info",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Aerospace",
       "target": "Restriction Info",
       "weight": 1,
       "units": [
@@ -1931,14 +2075,14 @@
     },
     {
       "source": "Restriction Info",
-      "target": "Statement",
+      "target": "maintenance",
       "weight": 1,
       "units": [
         9
       ]
     },
     {
-      "source": "Policy Statement",
+      "source": "Neither",
       "target": "Restriction Info",
       "weight": 1,
       "units": [
@@ -1947,14 +2091,54 @@
     },
     {
       "source": "Restriction Info",
-      "target": "warranties",
+      "target": "Steering",
       "weight": 1,
       "units": [
         9
       ]
     },
     {
-      "source": "Neither",
+      "source": "Restriction Info",
+      "target": "There",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Restriction Info",
+      "target": "Statement",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Aerospace Industries Association",
+      "target": "Restriction Info",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Restriction Info",
+      "target": "use",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Restriction Info",
+      "target": "SC",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "America",
       "target": "Restriction Info",
       "weight": 1,
       "units": [
@@ -1971,119 +2155,7 @@
     },
     {
       "source": "Restriction Info",
-      "target": "Steering",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "ASD",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Defence",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Restriction Info",
-      "target": "classification",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Industries",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Business Program",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Restriction Info",
-      "target": "maintenance",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Restriction Info",
-      "target": "liable",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Restriction Info",
-      "target": "Revisions",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "America",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Policy",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Business",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Aerospace",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "ATA",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Restriction Info",
-      "target": "restrictions",
+      "target": "warranties",
       "weight": 1,
       "units": [
         9
@@ -2099,6 +2171,22 @@
     },
     {
       "source": "Restriction Info",
+      "target": "This",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Restriction Info",
+      "target": "details",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "Restriction Info",
       "target": "Security",
       "weight": 1,
       "units": [
@@ -2106,95 +2194,7 @@
       ]
     },
     {
-      "source": "Program",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Restriction Info",
-      "target": "responsible",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Aerospace Industries Association",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Conditions",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Copyright",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Data",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Info",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Publishers",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Association",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Restriction Info",
-      "target": "fitness",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "Europe",
-      "target": "Restriction Info",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "DEFENCE",
+      "source": "Responsible",
       "target": "Responsible Partner Company",
       "weight": 1,
       "units": [
@@ -2218,7 +2218,7 @@
       ]
     },
     {
-      "source": "Responsible",
+      "source": "AEROSPACE",
       "target": "Responsible Partner Company",
       "weight": 1,
       "units": [
@@ -2234,31 +2234,7 @@
       ]
     },
     {
-      "source": "ASSOCIATION",
-      "target": "Responsible Partner Company",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "EUROPE",
-      "target": "Responsible Partner Company",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "Company",
-      "target": "Responsible Partner Company",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "AEROSPACE",
+      "source": "Responsible Partner Company",
       "target": "Responsible Partner Company",
       "weight": 1,
       "units": [
@@ -2282,7 +2258,7 @@
       ]
     },
     {
-      "source": "Responsible Partner Company",
+      "source": "ASSOCIATION",
       "target": "Responsible Partner Company",
       "weight": 1,
       "units": [
@@ -2291,18 +2267,26 @@
     },
     {
       "source": "DEFENCE",
-      "target": "Originator",
+      "target": "Responsible Partner Company",
       "weight": 1,
       "units": [
-        11
+        10
       ]
     },
     {
-      "source": "Originator",
-      "target": "Originator",
+      "source": "EUROPE",
+      "target": "Responsible Partner Company",
       "weight": 1,
       "units": [
-        11
+        10
+      ]
+    },
+    {
+      "source": "Company",
+      "target": "Responsible Partner Company",
+      "weight": 1,
+      "units": [
+        10
       ]
     },
     {
@@ -2322,6 +2306,14 @@
       ]
     },
     {
+      "source": "AEROSPACE",
+      "target": "Originator",
+      "weight": 1,
+      "units": [
+        11
+      ]
+    },
+    {
       "source": "OF",
       "target": "Originator",
       "weight": 1,
@@ -2330,23 +2322,7 @@
       ]
     },
     {
-      "source": "ASSOCIATION",
-      "target": "Originator",
-      "weight": 1,
-      "units": [
-        11
-      ]
-    },
-    {
-      "source": "EUROPE",
-      "target": "Originator",
-      "weight": 1,
-      "units": [
-        11
-      ]
-    },
-    {
-      "source": "AEROSPACE",
+      "source": "Originator",
       "target": "Originator",
       "weight": 1,
       "units": [
@@ -2362,43 +2338,27 @@
       ]
     },
     {
-      "source": "Applic",
-      "target": "Applic Cross-Reference Table Ref",
+      "source": "ASSOCIATION",
+      "target": "Originator",
       "weight": 1,
       "units": [
-        12
+        11
       ]
     },
     {
-      "source": "AAA",
-      "target": "Applic Cross-Reference Table Ref",
+      "source": "DEFENCE",
+      "target": "Originator",
       "weight": 1,
       "units": [
-        12
+        11
       ]
     },
     {
-      "source": "Applic Cross-Reference Table Ref",
-      "target": "Reference Table Ref",
+      "source": "EUROPE",
+      "target": "Originator",
       "weight": 1,
       "units": [
-        12
-      ]
-    },
-    {
-      "source": "Applic Cross-Reference Table Ref",
-      "target": "Cross",
-      "weight": 1,
-      "units": [
-        12
-      ]
-    },
-    {
-      "source": "Applic Cross-Reference Table Ref",
-      "target": "Table",
-      "weight": 1,
-      "units": [
-        12
+        11
       ]
     },
     {
@@ -2426,40 +2386,48 @@
       ]
     },
     {
-      "source": "Applic",
-      "target": "Text",
+      "source": "AAA",
+      "target": "Applic Cross-Reference Table Ref",
       "weight": 1,
       "units": [
-        13
+        12
+      ]
+    },
+    {
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Reference Table Ref",
+      "weight": 1,
+      "units": [
+        12
       ]
     },
     {
       "source": "Applic",
-      "target": "Mountain",
+      "target": "Applic Cross-Reference Table Ref",
       "weight": 1,
       "units": [
-        13
+        12
+      ]
+    },
+    {
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Table",
+      "weight": 1,
+      "units": [
+        12
+      ]
+    },
+    {
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Cross",
+      "weight": 1,
+      "units": [
+        12
       ]
     },
     {
       "source": "Applic",
       "target": "Display Text",
-      "weight": 1,
-      "units": [
-        13
-      ]
-    },
-    {
-      "source": "Applic",
-      "target": "Applic",
-      "weight": 1,
-      "units": [
-        13
-      ]
-    },
-    {
-      "source": "Applic",
-      "target": "Display",
       "weight": 1,
       "units": [
         13
@@ -2475,7 +2443,15 @@
     },
     {
       "source": "Applic",
-      "target": "Assert",
+      "target": "Mountain",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "Applic",
+      "target": "Applic",
       "weight": 1,
       "units": [
         13
@@ -2490,11 +2466,27 @@
       ]
     },
     {
-      "source": "Bike",
-      "target": "Tech Standard",
+      "source": "Applic",
+      "target": "Assert",
       "weight": 1,
       "units": [
-        14
+        13
+      ]
+    },
+    {
+      "source": "Applic",
+      "target": "Display",
+      "weight": 1,
+      "units": [
+        13
+      ]
+    },
+    {
+      "source": "Applic",
+      "target": "Text",
+      "weight": 1,
+      "units": [
+        13
       ]
     },
     {
@@ -2522,16 +2514,24 @@
       ]
     },
     {
-      "source": "AAA",
-      "target": "Brex DM Ref",
+      "source": "Bike",
+      "target": "Tech Standard",
+      "weight": 1,
+      "units": [
+        14
+      ]
+    },
+    {
+      "source": "Brex DM Ref",
+      "target": "DM",
       "weight": 1,
       "units": [
         15
       ]
     },
     {
-      "source": "Brex DM Ref",
-      "target": "DM",
+      "source": "AAA",
+      "target": "Brex DM Ref",
       "weight": 1,
       "units": [
         15
@@ -2554,23 +2554,7 @@
       ]
     },
     {
-      "source": "Quality Assurance",
-      "target": "Verification",
-      "weight": 1,
-      "units": [
-        16
-      ]
-    },
-    {
-      "source": "Quality Assurance",
-      "target": "Verification Type",
-      "weight": 1,
-      "units": [
-        16
-      ]
-    },
-    {
-      "source": "Assurance",
+      "source": "Quality",
       "target": "Quality Assurance",
       "weight": 1,
       "units": [
@@ -2586,8 +2570,24 @@
       ]
     },
     {
-      "source": "Quality",
+      "source": "Assurance",
       "target": "Quality Assurance",
+      "weight": 1,
+      "units": [
+        16
+      ]
+    },
+    {
+      "source": "Quality Assurance",
+      "target": "Verification Type",
+      "weight": 1,
+      "units": [
+        16
+      ]
+    },
+    {
+      "source": "Quality Assurance",
+      "target": "Verification",
       "weight": 1,
       "units": [
         16
@@ -2602,7 +2602,7 @@
       ]
     },
     {
-      "source": "CPF",
+      "source": "Bike",
       "target": "Remarks",
       "weight": 1,
       "units": [
@@ -2618,7 +2618,7 @@
       ]
     },
     {
-      "source": "EPWG",
+      "source": "CPF",
       "target": "Remarks",
       "weight": 1,
       "units": [
@@ -2634,14 +2634,6 @@
       ]
     },
     {
-      "source": "Bike",
-      "target": "Remarks",
-      "weight": 1,
-      "units": [
-        17
-      ]
-    },
-    {
       "source": "Enhancement",
       "target": "Remarks",
       "weight": 1,
@@ -2650,15 +2642,23 @@
       ]
     },
     {
+      "source": "EPWG",
+      "target": "Remarks",
+      "weight": 1,
+      "units": [
+        17
+      ]
+    },
+    {
       "source": "Enterprise Spec (id: C001)",
-      "target": "Services",
+      "target": "Line",
       "weight": 1,
       "units": [
         18
       ]
     },
     {
-      "source": "Email",
+      "source": "Country",
       "target": "Enterprise Spec (id: C001)",
       "weight": 1,
       "units": [
@@ -2666,7 +2666,15 @@
       ]
     },
     {
-      "source": "Enterprise Ident",
+      "source": "Business Unit Address",
+      "target": "Enterprise Spec (id: C001)",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Business",
       "target": "Enterprise Spec (id: C001)",
       "weight": 1,
       "units": [
@@ -2682,40 +2690,8 @@
       ]
     },
     {
-      "source": "Business Unit Address",
-      "target": "Enterprise Spec (id: C001)",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "City",
-      "target": "Enterprise Spec (id: C001)",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Country",
-      "target": "Enterprise Spec (id: C001)",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
       "source": "Enterprise Spec (id: C001)",
-      "target": "Ident",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Phone",
+      "target": "Phone Number",
       "weight": 1,
       "units": [
         18
@@ -2731,7 +2707,7 @@
     },
     {
       "source": "Enterprise Spec (id: C001)",
-      "target": "Name",
+      "target": "Postal",
       "weight": 1,
       "units": [
         18
@@ -2739,14 +2715,38 @@
     },
     {
       "source": "Enterprise Spec (id: C001)",
-      "target": "Number",
+      "target": "Postal Zip Code",
       "weight": 1,
       "units": [
         18
       ]
     },
     {
-      "source": "Address",
+      "source": "Enterprise Spec (id: C001)",
+      "target": "Phone",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Enterprise Spec",
+      "target": "Enterprise Spec (id: C001)",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "City",
+      "target": "Enterprise Spec (id: C001)",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Business Unit",
       "target": "Enterprise Spec (id: C001)",
       "weight": 1,
       "units": [
@@ -2755,15 +2755,7 @@
     },
     {
       "source": "Enterprise Spec (id: C001)",
-      "target": "Fax Number",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Code",
-      "target": "Enterprise Spec (id: C001)",
+      "target": "Spec",
       "weight": 1,
       "units": [
         18
@@ -2771,54 +2763,14 @@
     },
     {
       "source": "Enterprise Spec (id: C001)",
-      "target": "UTOPIA",
+      "target": "Services",
       "weight": 1,
       "units": [
         18
       ]
     },
     {
-      "source": "Customers",
-      "target": "Enterprise Spec (id: C001)",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Phone Number",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Line",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Saint Vitus",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Heaven",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Business",
+      "source": "Enterprise Name",
       "target": "Enterprise Spec (id: C001)",
       "weight": 1,
       "units": [
@@ -2835,71 +2787,7 @@
     },
     {
       "source": "Enterprise Spec (id: C001)",
-      "target": "Unit",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec",
-      "target": "Enterprise Spec (id: C001)",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Street",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Vitus",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Postal",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Name",
-      "target": "Enterprise Spec (id: C001)",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Spec",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: C001)",
-      "target": "Internet",
-      "weight": 1,
-      "units": [
-        18
-      ]
-    },
-    {
-      "source": "Customers Services Business Line",
-      "target": "Enterprise Spec (id: C001)",
+      "target": "Ident",
       "weight": 1,
       "units": [
         18
@@ -2914,7 +2802,31 @@
       ]
     },
     {
-      "source": "Business Unit",
+      "source": "Enterprise Spec (id: C001)",
+      "target": "Heaven",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Enterprise Ident",
+      "target": "Enterprise Spec (id: C001)",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Address",
+      "target": "Enterprise Spec (id: C001)",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Customers",
       "target": "Enterprise Spec (id: C001)",
       "weight": 1,
       "units": [
@@ -2923,22 +2835,102 @@
     },
     {
       "source": "Enterprise Spec (id: C001)",
-      "target": "Postal Zip Code",
+      "target": "Internet",
       "weight": 1,
       "units": [
         18
       ]
     },
     {
-      "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Off Road",
+      "source": "Enterprise Spec (id: C001)",
+      "target": "Name",
       "weight": 1,
       "units": [
-        19
+        18
       ]
     },
     {
-      "source": "Bikes",
+      "source": "Enterprise Spec (id: C001)",
+      "target": "Unit",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: C001)",
+      "target": "Street",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Customers Services Business Line",
+      "target": "Enterprise Spec (id: C001)",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: C001)",
+      "target": "Saint Vitus",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: C001)",
+      "target": "Number",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: C001)",
+      "target": "Vitus",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Code",
+      "target": "Enterprise Spec (id: C001)",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: C001)",
+      "target": "Fax Number",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Email",
+      "target": "Enterprise Spec (id: C001)",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: C001)",
+      "target": "UTOPIA",
+      "weight": 1,
+      "units": [
+        18
+      ]
+    },
+    {
+      "source": "Country",
       "target": "Enterprise Spec (id: SPEC-0002)",
       "weight": 1,
       "units": [
@@ -2946,7 +2938,15 @@
       ]
     },
     {
-      "source": "Enterprise Ident",
+      "source": "Business Unit Address",
+      "target": "Enterprise Spec (id: SPEC-0002)",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Business",
       "target": "Enterprise Spec (id: SPEC-0002)",
       "weight": 1,
       "units": [
@@ -2962,62 +2962,6 @@
       ]
     },
     {
-      "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Greasy",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Business Unit Address",
-      "target": "Enterprise Spec (id: SPEC-0002)",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Greasy Bikes Co",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "City",
-      "target": "Enterprise Spec (id: SPEC-0002)",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Country",
-      "target": "Enterprise Spec (id: SPEC-0002)",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Ident",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Atlantis",
-      "target": "Enterprise Spec (id: SPEC-0002)",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
       "source": "Business Unit Name",
       "target": "Enterprise Spec (id: SPEC-0002)",
       "weight": 1,
@@ -3026,8 +2970,8 @@
       ]
     },
     {
-      "source": "DUNS",
-      "target": "Enterprise Spec (id: SPEC-0002)",
+      "source": "Enterprise Spec (id: SPEC-0002)",
+      "target": "Postal",
       "weight": 1,
       "units": [
         19
@@ -3035,55 +2979,7 @@
     },
     {
       "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Name",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Noway",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Address",
-      "target": "Enterprise Spec (id: SPEC-0002)",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Code",
-      "target": "Enterprise Spec (id: SPEC-0002)",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Heavy",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Road",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Business",
-      "target": "Enterprise Spec (id: SPEC-0002)",
+      "target": "Greasy Bikes Co",
       "weight": 1,
       "units": [
         19
@@ -3099,7 +2995,7 @@
     },
     {
       "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Unit",
+      "target": "Postal Zip Code",
       "weight": 1,
       "units": [
         19
@@ -3115,7 +3011,7 @@
     },
     {
       "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Street",
+      "target": "Off Road",
       "weight": 1,
       "units": [
         19
@@ -3123,30 +3019,14 @@
     },
     {
       "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Postal",
+      "target": "Heavy",
       "weight": 1,
       "units": [
         19
       ]
     },
     {
-      "source": "Enterprise Name",
-      "target": "Enterprise Spec (id: SPEC-0002)",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Spec",
-      "weight": 1,
-      "units": [
-        19
-      ]
-    },
-    {
-      "source": "Enterprise",
+      "source": "City",
       "target": "Enterprise Spec (id: SPEC-0002)",
       "weight": 1,
       "units": [
@@ -3163,7 +3043,127 @@
     },
     {
       "source": "Enterprise Spec (id: SPEC-0002)",
-      "target": "Postal Zip Code",
+      "target": "Road",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: SPEC-0002)",
+      "target": "Spec",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "DUNS",
+      "target": "Enterprise Spec (id: SPEC-0002)",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise Name",
+      "target": "Enterprise Spec (id: SPEC-0002)",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: SPEC-0002)",
+      "target": "Noway",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: SPEC-0002)",
+      "target": "Ident",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise",
+      "target": "Enterprise Spec (id: SPEC-0002)",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise Ident",
+      "target": "Enterprise Spec (id: SPEC-0002)",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Address",
+      "target": "Enterprise Spec (id: SPEC-0002)",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: SPEC-0002)",
+      "target": "Name",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Bikes",
+      "target": "Enterprise Spec (id: SPEC-0002)",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Atlantis",
+      "target": "Enterprise Spec (id: SPEC-0002)",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: SPEC-0002)",
+      "target": "Unit",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: SPEC-0002)",
+      "target": "Street",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Enterprise Spec (id: SPEC-0002)",
+      "target": "Greasy",
+      "weight": 1,
+      "units": [
+        19
+      ]
+    },
+    {
+      "source": "Code",
+      "target": "Enterprise Spec (id: SPEC-0002)",
       "weight": 1,
       "units": [
         19
@@ -3181,11 +3181,6 @@
         "id": "DM Ident"
       },
       {
-        "label": "Ident",
-        "type": "candidate",
-        "id": "Ident"
-      },
-      {
         "label": "DM",
         "type": "candidate",
         "id": "DM"
@@ -3199,6 +3194,11 @@
         "label": "AA",
         "type": "candidate",
         "id": "AA"
+      },
+      {
+        "label": "Ident",
+        "type": "candidate",
+        "id": "Ident"
       },
       {
         "label": "Language",
@@ -3216,14 +3216,14 @@
         "id": "Issue Info"
       },
       {
-        "label": "Info",
-        "type": "candidate",
-        "id": "Info"
-      },
-      {
         "label": "Issue",
         "type": "candidate",
         "id": "Issue"
+      },
+      {
+        "label": "Info",
+        "type": "candidate",
+        "id": "Info"
       },
       {
         "label": "Issue Date",
@@ -3241,14 +3241,9 @@
         "id": "DM Title"
       },
       {
-        "label": "Mountain",
+        "label": "Title",
         "type": "candidate",
-        "id": "Mountain"
-      },
-      {
-        "label": "Tech",
-        "type": "candidate",
-        "id": "Tech"
+        "id": "Title"
       },
       {
         "label": "Name",
@@ -3256,9 +3251,9 @@
         "id": "Name"
       },
       {
-        "label": "Title",
+        "label": "Tech Name",
         "type": "candidate",
-        "id": "Title"
+        "id": "Tech Name"
       },
       {
         "label": "Organizations",
@@ -3266,9 +3261,14 @@
         "id": "Organizations"
       },
       {
-        "label": "Tech Name",
+        "label": "Tech",
         "type": "candidate",
-        "id": "Tech Name"
+        "id": "Tech"
+      },
+      {
+        "label": "Mountain",
+        "type": "candidate",
+        "id": "Mountain"
       },
       {
         "label": "Info Name",
@@ -3281,11 +3281,6 @@
         "id": "DM Status"
       },
       {
-        "label": "Issue Type",
-        "type": "candidate",
-        "id": "Issue Type"
-      },
-      {
         "label": "Status",
         "type": "candidate",
         "id": "Status"
@@ -3294,6 +3289,11 @@
         "label": "Type",
         "type": "candidate",
         "id": "Type"
+      },
+      {
+        "label": "Issue Type",
+        "type": "candidate",
+        "id": "Issue Type"
       },
       {
         "label": "Security",
@@ -3306,6 +3306,31 @@
         "id": "Restriction Instructions"
       },
       {
+        "label": "Control",
+        "type": "candidate",
+        "id": "Control"
+      },
+      {
+        "label": "instructions",
+        "type": "candidate",
+        "id": "instructions"
+      },
+      {
+        "label": "residence",
+        "type": "candidate",
+        "id": "residence"
+      },
+      {
+        "label": "Export Control",
+        "type": "candidate",
+        "id": "Export Control"
+      },
+      {
+        "label": "Data",
+        "type": "candidate",
+        "id": "Data"
+      },
+      {
         "label": "Instructions",
         "type": "candidate",
         "id": "Instructions"
@@ -3316,24 +3341,49 @@
         "id": "Data Handling"
       },
       {
-        "label": "There",
-        "type": "candidate",
-        "id": "There"
-      },
-      {
-        "label": "Data Destruction",
-        "type": "candidate",
-        "id": "Data Destruction"
-      },
-      {
-        "label": "Restriction",
-        "type": "candidate",
-        "id": "Restriction"
-      },
-      {
         "label": "users",
         "type": "candidate",
         "id": "users"
+      },
+      {
+        "label": "Data Disclosure",
+        "type": "candidate",
+        "id": "Data Disclosure"
+      },
+      {
+        "label": "Export",
+        "type": "candidate",
+        "id": "Export"
+      },
+      {
+        "label": "Data Distribution",
+        "type": "candidate",
+        "id": "Data Distribution"
+      },
+      {
+        "label": "Disclosure",
+        "type": "candidate",
+        "id": "Disclosure"
+      },
+      {
+        "label": "Handling",
+        "type": "candidate",
+        "id": "Handling"
+      },
+      {
+        "label": "discretion",
+        "type": "candidate",
+        "id": "discretion"
+      },
+      {
+        "label": "Users",
+        "type": "candidate",
+        "id": "Users"
+      },
+      {
+        "label": "Destruction",
+        "type": "candidate",
+        "id": "Destruction"
       },
       {
         "label": "Distribution",
@@ -3346,69 +3396,19 @@
         "id": "Storage"
       },
       {
-        "label": "Export Control",
+        "label": "Data Destruction",
         "type": "candidate",
-        "id": "Export Control"
+        "id": "Data Destruction"
       },
       {
-        "label": "Export",
+        "label": "There",
         "type": "candidate",
-        "id": "Export"
+        "id": "There"
       },
       {
-        "label": "instructions",
+        "label": "Restriction",
         "type": "candidate",
-        "id": "instructions"
-      },
-      {
-        "label": "Data Disclosure",
-        "type": "candidate",
-        "id": "Data Disclosure"
-      },
-      {
-        "label": "residence",
-        "type": "candidate",
-        "id": "residence"
-      },
-      {
-        "label": "Data Distribution",
-        "type": "candidate",
-        "id": "Data Distribution"
-      },
-      {
-        "label": "Control",
-        "type": "candidate",
-        "id": "Control"
-      },
-      {
-        "label": "Destruction",
-        "type": "candidate",
-        "id": "Destruction"
-      },
-      {
-        "label": "Disclosure",
-        "type": "candidate",
-        "id": "Disclosure"
-      },
-      {
-        "label": "discretion",
-        "type": "candidate",
-        "id": "discretion"
-      },
-      {
-        "label": "Handling",
-        "type": "candidate",
-        "id": "Handling"
-      },
-      {
-        "label": "Data",
-        "type": "candidate",
-        "id": "Data"
-      },
-      {
-        "label": "Users",
-        "type": "candidate",
-        "id": "Users"
+        "id": "Restriction"
       },
       {
         "label": "Restriction Info",
@@ -3416,179 +3416,9 @@
         "id": "Restriction Info"
       },
       {
-        "label": "use",
-        "type": "candidate",
-        "id": "use"
-      },
-      {
-        "label": "Defence Industries Association",
-        "type": "candidate",
-        "id": "Defence Industries Association"
-      },
-      {
-        "label": "details",
-        "type": "candidate",
-        "id": "details"
-      },
-      {
-        "label": "SC",
-        "type": "candidate",
-        "id": "SC"
-      },
-      {
-        "label": "Data Conditions",
-        "type": "candidate",
-        "id": "Data Conditions"
-      },
-      {
         "label": "TOR",
         "type": "candidate",
         "id": "TOR"
-      },
-      {
-        "label": "This",
-        "type": "candidate",
-        "id": "This"
-      },
-      {
-        "label": "Committee",
-        "type": "candidate",
-        "id": "Committee"
-      },
-      {
-        "label": "Limitations",
-        "type": "candidate",
-        "id": "Limitations"
-      },
-      {
-        "label": "Statement",
-        "type": "candidate",
-        "id": "Statement"
-      },
-      {
-        "label": "Policy Statement",
-        "type": "candidate",
-        "id": "Policy Statement"
-      },
-      {
-        "label": "warranties",
-        "type": "candidate",
-        "id": "warranties"
-      },
-      {
-        "label": "Neither",
-        "type": "candidate",
-        "id": "Neither"
-      },
-      {
-        "label": "Specification",
-        "type": "candidate",
-        "id": "Specification"
-      },
-      {
-        "label": "Steering",
-        "type": "candidate",
-        "id": "Steering"
-      },
-      {
-        "label": "ASD",
-        "type": "candidate",
-        "id": "ASD"
-      },
-      {
-        "label": "Defence",
-        "type": "candidate",
-        "id": "Defence"
-      },
-      {
-        "label": "classification",
-        "type": "candidate",
-        "id": "classification"
-      },
-      {
-        "label": "Industries",
-        "type": "candidate",
-        "id": "Industries"
-      },
-      {
-        "label": "Business Program",
-        "type": "candidate",
-        "id": "Business Program"
-      },
-      {
-        "label": "maintenance",
-        "type": "candidate",
-        "id": "maintenance"
-      },
-      {
-        "label": "liable",
-        "type": "candidate",
-        "id": "liable"
-      },
-      {
-        "label": "Revisions",
-        "type": "candidate",
-        "id": "Revisions"
-      },
-      {
-        "label": "America",
-        "type": "candidate",
-        "id": "America"
-      },
-      {
-        "label": "Policy",
-        "type": "candidate",
-        "id": "Policy"
-      },
-      {
-        "label": "Business",
-        "type": "candidate",
-        "id": "Business"
-      },
-      {
-        "label": "Aerospace",
-        "type": "candidate",
-        "id": "Aerospace"
-      },
-      {
-        "label": "ATA",
-        "type": "candidate",
-        "id": "ATA"
-      },
-      {
-        "label": "restrictions",
-        "type": "candidate",
-        "id": "restrictions"
-      },
-      {
-        "label": "Steering Committee",
-        "type": "candidate",
-        "id": "Steering Committee"
-      },
-      {
-        "label": "Program",
-        "type": "candidate",
-        "id": "Program"
-      },
-      {
-        "label": "responsible",
-        "type": "candidate",
-        "id": "responsible"
-      },
-      {
-        "label": "Aerospace Industries Association",
-        "type": "candidate",
-        "id": "Aerospace Industries Association"
-      },
-      {
-        "label": "Conditions",
-        "type": "candidate",
-        "id": "Conditions"
-      },
-      {
-        "label": "Copyright",
-        "type": "candidate",
-        "id": "Copyright"
       },
       {
         "label": "Publishers",
@@ -3596,14 +3426,64 @@
         "id": "Publishers"
       },
       {
+        "label": "classification",
+        "type": "candidate",
+        "id": "classification"
+      },
+      {
+        "label": "Defence",
+        "type": "candidate",
+        "id": "Defence"
+      },
+      {
+        "label": "Industries",
+        "type": "candidate",
+        "id": "Industries"
+      },
+      {
+        "label": "Business",
+        "type": "candidate",
+        "id": "Business"
+      },
+      {
+        "label": "Policy",
+        "type": "candidate",
+        "id": "Policy"
+      },
+      {
+        "label": "ATA",
+        "type": "candidate",
+        "id": "ATA"
+      },
+      {
+        "label": "Conditions",
+        "type": "candidate",
+        "id": "Conditions"
+      },
+      {
+        "label": "Committee",
+        "type": "candidate",
+        "id": "Committee"
+      },
+      {
+        "label": "Defence Industries Association",
+        "type": "candidate",
+        "id": "Defence Industries Association"
+      },
+      {
+        "label": "responsible",
+        "type": "candidate",
+        "id": "responsible"
+      },
+      {
+        "label": "Business Program",
+        "type": "candidate",
+        "id": "Business Program"
+      },
+      {
         "label": "Association",
         "type": "candidate",
         "id": "Association"
-      },
-      {
-        "label": "fitness",
-        "type": "candidate",
-        "id": "fitness"
       },
       {
         "label": "Europe",
@@ -3611,14 +3491,134 @@
         "id": "Europe"
       },
       {
+        "label": "Program",
+        "type": "candidate",
+        "id": "Program"
+      },
+      {
+        "label": "Copyright",
+        "type": "candidate",
+        "id": "Copyright"
+      },
+      {
+        "label": "Data Conditions",
+        "type": "candidate",
+        "id": "Data Conditions"
+      },
+      {
+        "label": "Revisions",
+        "type": "candidate",
+        "id": "Revisions"
+      },
+      {
+        "label": "Policy Statement",
+        "type": "candidate",
+        "id": "Policy Statement"
+      },
+      {
+        "label": "ASD",
+        "type": "candidate",
+        "id": "ASD"
+      },
+      {
+        "label": "liable",
+        "type": "candidate",
+        "id": "liable"
+      },
+      {
+        "label": "fitness",
+        "type": "candidate",
+        "id": "fitness"
+      },
+      {
+        "label": "restrictions",
+        "type": "candidate",
+        "id": "restrictions"
+      },
+      {
+        "label": "Aerospace",
+        "type": "candidate",
+        "id": "Aerospace"
+      },
+      {
+        "label": "Limitations",
+        "type": "candidate",
+        "id": "Limitations"
+      },
+      {
+        "label": "maintenance",
+        "type": "candidate",
+        "id": "maintenance"
+      },
+      {
+        "label": "Neither",
+        "type": "candidate",
+        "id": "Neither"
+      },
+      {
+        "label": "Steering",
+        "type": "candidate",
+        "id": "Steering"
+      },
+      {
+        "label": "Statement",
+        "type": "candidate",
+        "id": "Statement"
+      },
+      {
+        "label": "Aerospace Industries Association",
+        "type": "candidate",
+        "id": "Aerospace Industries Association"
+      },
+      {
+        "label": "use",
+        "type": "candidate",
+        "id": "use"
+      },
+      {
+        "label": "SC",
+        "type": "candidate",
+        "id": "SC"
+      },
+      {
+        "label": "America",
+        "type": "candidate",
+        "id": "America"
+      },
+      {
+        "label": "Specification",
+        "type": "candidate",
+        "id": "Specification"
+      },
+      {
+        "label": "warranties",
+        "type": "candidate",
+        "id": "warranties"
+      },
+      {
+        "label": "Steering Committee",
+        "type": "candidate",
+        "id": "Steering Committee"
+      },
+      {
+        "label": "This",
+        "type": "candidate",
+        "id": "This"
+      },
+      {
+        "label": "details",
+        "type": "candidate",
+        "id": "details"
+      },
+      {
         "label": "Responsible Partner Company",
         "type": "heading",
         "id": "Responsible Partner Company"
       },
       {
-        "label": "DEFENCE",
+        "label": "Responsible",
         "type": "candidate",
-        "id": "DEFENCE"
+        "id": "Responsible"
       },
       {
         "label": "AND",
@@ -3631,34 +3631,14 @@
         "id": "INDUSTRIES"
       },
       {
-        "label": "Responsible",
+        "label": "AEROSPACE",
         "type": "candidate",
-        "id": "Responsible"
+        "id": "AEROSPACE"
       },
       {
         "label": "OF",
         "type": "candidate",
         "id": "OF"
-      },
-      {
-        "label": "ASSOCIATION",
-        "type": "candidate",
-        "id": "ASSOCIATION"
-      },
-      {
-        "label": "EUROPE",
-        "type": "candidate",
-        "id": "EUROPE"
-      },
-      {
-        "label": "Company",
-        "type": "candidate",
-        "id": "Company"
-      },
-      {
-        "label": "AEROSPACE",
-        "type": "candidate",
-        "id": "AEROSPACE"
       },
       {
         "label": "Partner",
@@ -3671,6 +3651,26 @@
         "id": "SECURITY"
       },
       {
+        "label": "ASSOCIATION",
+        "type": "candidate",
+        "id": "ASSOCIATION"
+      },
+      {
+        "label": "DEFENCE",
+        "type": "candidate",
+        "id": "DEFENCE"
+      },
+      {
+        "label": "EUROPE",
+        "type": "candidate",
+        "id": "EUROPE"
+      },
+      {
+        "label": "Company",
+        "type": "candidate",
+        "id": "Company"
+      },
+      {
         "label": "Originator",
         "type": "heading",
         "id": "Originator"
@@ -3679,26 +3679,6 @@
         "label": "Applic Cross-Reference Table Ref",
         "type": "heading",
         "id": "Applic Cross-Reference Table Ref"
-      },
-      {
-        "label": "Applic",
-        "type": "candidate",
-        "id": "Applic"
-      },
-      {
-        "label": "Reference Table Ref",
-        "type": "candidate",
-        "id": "Reference Table Ref"
-      },
-      {
-        "label": "Cross",
-        "type": "candidate",
-        "id": "Cross"
-      },
-      {
-        "label": "Table",
-        "type": "candidate",
-        "id": "Table"
       },
       {
         "label": "Applic Cross",
@@ -3711,9 +3691,24 @@
         "id": "Reference"
       },
       {
-        "label": "Text",
+        "label": "Reference Table Ref",
         "type": "candidate",
-        "id": "Text"
+        "id": "Reference Table Ref"
+      },
+      {
+        "label": "Applic",
+        "type": "candidate",
+        "id": "Applic"
+      },
+      {
+        "label": "Table",
+        "type": "candidate",
+        "id": "Table"
+      },
+      {
+        "label": "Cross",
+        "type": "candidate",
+        "id": "Cross"
       },
       {
         "label": "Display Text",
@@ -3721,19 +3716,9 @@
         "id": "Display Text"
       },
       {
-        "label": "Display",
-        "type": "candidate",
-        "id": "Display"
-      },
-      {
         "label": "Evaluate",
         "type": "candidate",
         "id": "Evaluate"
-      },
-      {
-        "label": "Assert",
-        "type": "candidate",
-        "id": "Assert"
       },
       {
         "label": "Brook",
@@ -3741,19 +3726,34 @@
         "id": "Brook"
       },
       {
+        "label": "Assert",
+        "type": "candidate",
+        "id": "Assert"
+      },
+      {
+        "label": "Display",
+        "type": "candidate",
+        "id": "Display"
+      },
+      {
+        "label": "Text",
+        "type": "candidate",
+        "id": "Text"
+      },
+      {
         "label": "Tech Standard",
         "type": "heading",
         "id": "Tech Standard"
       },
       {
-        "label": "Bike",
-        "type": "candidate",
-        "id": "Bike"
-      },
-      {
         "label": "Standard",
         "type": "candidate",
         "id": "Standard"
+      },
+      {
+        "label": "Bike",
+        "type": "candidate",
+        "id": "Bike"
       },
       {
         "label": "Brex DM Ref",
@@ -3771,14 +3771,9 @@
         "id": "Quality Assurance"
       },
       {
-        "label": "Verification",
+        "label": "Quality",
         "type": "candidate",
-        "id": "Verification"
-      },
-      {
-        "label": "Verification Type",
-        "type": "candidate",
-        "id": "Verification Type"
+        "id": "Quality"
       },
       {
         "label": "Assurance",
@@ -3786,9 +3781,14 @@
         "id": "Assurance"
       },
       {
-        "label": "Quality",
+        "label": "Verification Type",
         "type": "candidate",
-        "id": "Quality"
+        "id": "Verification Type"
+      },
+      {
+        "label": "Verification",
+        "type": "candidate",
+        "id": "Verification"
       },
       {
         "label": "Remarks",
@@ -3796,19 +3796,14 @@
         "id": "Remarks"
       },
       {
-        "label": "CPF",
-        "type": "candidate",
-        "id": "CPF"
-      },
-      {
         "label": "Bike Enhancement",
         "type": "candidate",
         "id": "Bike Enhancement"
       },
       {
-        "label": "EPWG",
+        "label": "CPF",
         "type": "candidate",
-        "id": "EPWG"
+        "id": "CPF"
       },
       {
         "label": "Enhancement",
@@ -3816,89 +3811,14 @@
         "id": "Enhancement"
       },
       {
+        "label": "EPWG",
+        "type": "candidate",
+        "id": "EPWG"
+      },
+      {
         "label": "Enterprise Spec (id: C001)",
         "type": "heading",
         "id": "Enterprise Spec (id: C001)"
-      },
-      {
-        "label": "Services",
-        "type": "candidate",
-        "id": "Services"
-      },
-      {
-        "label": "Email",
-        "type": "candidate",
-        "id": "Email"
-      },
-      {
-        "label": "Enterprise Ident",
-        "type": "candidate",
-        "id": "Enterprise Ident"
-      },
-      {
-        "label": "SPEC",
-        "type": "candidate",
-        "id": "SPEC"
-      },
-      {
-        "label": "Business Unit Address",
-        "type": "candidate",
-        "id": "Business Unit Address"
-      },
-      {
-        "label": "City",
-        "type": "candidate",
-        "id": "City"
-      },
-      {
-        "label": "Country",
-        "type": "candidate",
-        "id": "Country"
-      },
-      {
-        "label": "Phone",
-        "type": "candidate",
-        "id": "Phone"
-      },
-      {
-        "label": "Business Unit Name",
-        "type": "candidate",
-        "id": "Business Unit Name"
-      },
-      {
-        "label": "Number",
-        "type": "candidate",
-        "id": "Number"
-      },
-      {
-        "label": "Address",
-        "type": "candidate",
-        "id": "Address"
-      },
-      {
-        "label": "Fax Number",
-        "type": "candidate",
-        "id": "Fax Number"
-      },
-      {
-        "label": "Code",
-        "type": "candidate",
-        "id": "Code"
-      },
-      {
-        "label": "UTOPIA",
-        "type": "candidate",
-        "id": "UTOPIA"
-      },
-      {
-        "label": "Customers",
-        "type": "candidate",
-        "id": "Customers"
-      },
-      {
-        "label": "Phone Number",
-        "type": "candidate",
-        "id": "Phone Number"
       },
       {
         "label": "Line",
@@ -3906,39 +3826,29 @@
         "id": "Line"
       },
       {
-        "label": "Saint Vitus",
+        "label": "Country",
         "type": "candidate",
-        "id": "Saint Vitus"
+        "id": "Country"
       },
       {
-        "label": "Heaven",
+        "label": "Business Unit Address",
         "type": "candidate",
-        "id": "Heaven"
+        "id": "Business Unit Address"
       },
       {
-        "label": "Saint",
+        "label": "SPEC",
         "type": "candidate",
-        "id": "Saint"
+        "id": "SPEC"
       },
       {
-        "label": "Unit",
+        "label": "Phone Number",
         "type": "candidate",
-        "id": "Unit"
+        "id": "Phone Number"
       },
       {
-        "label": "Enterprise Spec",
+        "label": "Business Unit Name",
         "type": "candidate",
-        "id": "Enterprise Spec"
-      },
-      {
-        "label": "Street",
-        "type": "candidate",
-        "id": "Street"
-      },
-      {
-        "label": "Vitus",
-        "type": "candidate",
-        "id": "Vitus"
+        "id": "Business Unit Name"
       },
       {
         "label": "Postal",
@@ -3946,29 +3856,24 @@
         "id": "Postal"
       },
       {
-        "label": "Enterprise Name",
+        "label": "Postal Zip Code",
         "type": "candidate",
-        "id": "Enterprise Name"
+        "id": "Postal Zip Code"
       },
       {
-        "label": "Spec",
+        "label": "Phone",
         "type": "candidate",
-        "id": "Spec"
+        "id": "Phone"
       },
       {
-        "label": "Internet",
+        "label": "Enterprise Spec",
         "type": "candidate",
-        "id": "Internet"
+        "id": "Enterprise Spec"
       },
       {
-        "label": "Customers Services Business Line",
+        "label": "City",
         "type": "candidate",
-        "id": "Customers Services Business Line"
-      },
-      {
-        "label": "Enterprise",
-        "type": "candidate",
-        "id": "Enterprise"
+        "id": "City"
       },
       {
         "label": "Business Unit",
@@ -3976,9 +3881,104 @@
         "id": "Business Unit"
       },
       {
-        "label": "Postal Zip Code",
+        "label": "Spec",
         "type": "candidate",
-        "id": "Postal Zip Code"
+        "id": "Spec"
+      },
+      {
+        "label": "Services",
+        "type": "candidate",
+        "id": "Services"
+      },
+      {
+        "label": "Enterprise Name",
+        "type": "candidate",
+        "id": "Enterprise Name"
+      },
+      {
+        "label": "Saint",
+        "type": "candidate",
+        "id": "Saint"
+      },
+      {
+        "label": "Enterprise",
+        "type": "candidate",
+        "id": "Enterprise"
+      },
+      {
+        "label": "Heaven",
+        "type": "candidate",
+        "id": "Heaven"
+      },
+      {
+        "label": "Enterprise Ident",
+        "type": "candidate",
+        "id": "Enterprise Ident"
+      },
+      {
+        "label": "Address",
+        "type": "candidate",
+        "id": "Address"
+      },
+      {
+        "label": "Customers",
+        "type": "candidate",
+        "id": "Customers"
+      },
+      {
+        "label": "Internet",
+        "type": "candidate",
+        "id": "Internet"
+      },
+      {
+        "label": "Unit",
+        "type": "candidate",
+        "id": "Unit"
+      },
+      {
+        "label": "Street",
+        "type": "candidate",
+        "id": "Street"
+      },
+      {
+        "label": "Customers Services Business Line",
+        "type": "candidate",
+        "id": "Customers Services Business Line"
+      },
+      {
+        "label": "Saint Vitus",
+        "type": "candidate",
+        "id": "Saint Vitus"
+      },
+      {
+        "label": "Number",
+        "type": "candidate",
+        "id": "Number"
+      },
+      {
+        "label": "Vitus",
+        "type": "candidate",
+        "id": "Vitus"
+      },
+      {
+        "label": "Code",
+        "type": "candidate",
+        "id": "Code"
+      },
+      {
+        "label": "Fax Number",
+        "type": "candidate",
+        "id": "Fax Number"
+      },
+      {
+        "label": "Email",
+        "type": "candidate",
+        "id": "Email"
+      },
+      {
+        "label": "UTOPIA",
+        "type": "candidate",
+        "id": "UTOPIA"
       },
       {
         "label": "Enterprise Spec (id: SPEC-0002)",
@@ -3986,39 +3986,19 @@
         "id": "Enterprise Spec (id: SPEC-0002)"
       },
       {
-        "label": "Off Road",
-        "type": "candidate",
-        "id": "Off Road"
-      },
-      {
-        "label": "Bikes",
-        "type": "candidate",
-        "id": "Bikes"
-      },
-      {
-        "label": "Greasy",
-        "type": "candidate",
-        "id": "Greasy"
-      },
-      {
         "label": "Greasy Bikes Co",
         "type": "candidate",
         "id": "Greasy Bikes Co"
       },
       {
-        "label": "Atlantis",
+        "label": "Enterprise Ident Alt",
         "type": "candidate",
-        "id": "Atlantis"
+        "id": "Enterprise Ident Alt"
       },
       {
-        "label": "DUNS",
+        "label": "Off Road",
         "type": "candidate",
-        "id": "DUNS"
-      },
-      {
-        "label": "Noway",
-        "type": "candidate",
-        "id": "Noway"
+        "id": "Off Road"
       },
       {
         "label": "Heavy",
@@ -4031,20 +4011,32 @@
         "id": "Road"
       },
       {
-        "label": "Enterprise Ident Alt",
+        "label": "DUNS",
         "type": "candidate",
-        "id": "Enterprise Ident Alt"
+        "id": "DUNS"
+      },
+      {
+        "label": "Noway",
+        "type": "candidate",
+        "id": "Noway"
+      },
+      {
+        "label": "Bikes",
+        "type": "candidate",
+        "id": "Bikes"
+      },
+      {
+        "label": "Atlantis",
+        "type": "candidate",
+        "id": "Atlantis"
+      },
+      {
+        "label": "Greasy",
+        "type": "candidate",
+        "id": "Greasy"
       }
     ],
     "links": [
-      {
-        "weight": 1,
-        "units": [
-          1
-        ],
-        "source": "DM Ident",
-        "target": "Ident"
-      },
       {
         "weight": 1,
         "units": [
@@ -4072,18 +4064,10 @@
       {
         "weight": 1,
         "units": [
-          18
+          1
         ],
-        "source": "Ident",
-        "target": "Enterprise Spec (id: C001)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Ident",
-        "target": "Enterprise Spec (id: SPEC-0002)"
+        "source": "DM Ident",
+        "target": "Ident"
       },
       {
         "weight": 1,
@@ -4144,10 +4128,18 @@
       {
         "weight": 1,
         "units": [
-          2
+          18
         ],
-        "source": "Language",
-        "target": "Language"
+        "source": "Ident",
+        "target": "Enterprise Spec (id: C001)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Ident",
+        "target": "Enterprise Spec (id: SPEC-0002)"
       },
       {
         "weight": 1,
@@ -4156,6 +4148,22 @@
         ],
         "source": "Language",
         "target": "US"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "Language",
+        "target": "Language"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Issue Info",
+        "target": "Issue"
       },
       {
         "weight": 1,
@@ -4176,10 +4184,18 @@
       {
         "weight": 1,
         "units": [
-          3
+          4
         ],
-        "source": "Issue Info",
-        "target": "Issue"
+        "source": "Issue",
+        "target": "Issue Date"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "Issue",
+        "target": "DM Status"
       },
       {
         "weight": 1,
@@ -4202,56 +4218,16 @@
         "units": [
           4
         ],
-        "source": "Issue",
-        "target": "Issue Date"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "Issue",
-        "target": "DM Status"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Issue Date",
-        "target": "Issue Date"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
         "source": "Issue Date",
         "target": "Date"
       },
       {
         "weight": 1,
         "units": [
-          5
+          4
         ],
-        "source": "DM Title",
-        "target": "Mountain"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "DM Title",
-        "target": "Tech"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "DM Title",
-        "target": "Name"
+        "source": "Issue Date",
+        "target": "Issue Date"
       },
       {
         "weight": 1,
@@ -4267,7 +4243,7 @@
           5
         ],
         "source": "DM Title",
-        "target": "Organizations"
+        "target": "Name"
       },
       {
         "weight": 1,
@@ -4283,23 +4259,31 @@
           5
         ],
         "source": "DM Title",
+        "target": "Organizations"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "DM Title",
+        "target": "Tech"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "DM Title",
+        "target": "Mountain"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "DM Title",
         "target": "Info Name"
-      },
-      {
-        "weight": 1,
-        "units": [
-          13
-        ],
-        "source": "Mountain",
-        "target": "Applic"
-      },
-      {
-        "weight": 1,
-        "units": [
-          14
-        ],
-        "source": "Tech",
-        "target": "Tech Standard"
       },
       {
         "weight": 1,
@@ -4320,10 +4304,18 @@
       {
         "weight": 1,
         "units": [
-          6
+          14
         ],
-        "source": "DM Status",
-        "target": "Issue Type"
+        "source": "Tech",
+        "target": "Tech Standard"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "Mountain",
+        "target": "Applic"
       },
       {
         "weight": 1,
@@ -4340,6 +4332,14 @@
         ],
         "source": "DM Status",
         "target": "Type"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DM Status",
+        "target": "Issue Type"
       },
       {
         "weight": 1,
@@ -4371,6 +4371,46 @@
           8
         ],
         "source": "Restriction Instructions",
+        "target": "Control"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "instructions"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "residence"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Export Control"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Data"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
         "target": "Instructions"
       },
       {
@@ -4387,31 +4427,79 @@
           8
         ],
         "source": "Restriction Instructions",
-        "target": "There"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Data Destruction"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Restriction"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
         "target": "users"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Data Disclosure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Export"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Restriction Instructions"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Data Distribution"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Disclosure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Handling"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "discretion"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Users"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Restriction Instructions",
+        "target": "Destruction"
       },
       {
         "weight": 1,
@@ -4435,7 +4523,7 @@
           8
         ],
         "source": "Restriction Instructions",
-        "target": "Export Control"
+        "target": "Data Destruction"
       },
       {
         "weight": 1,
@@ -4443,7 +4531,7 @@
           8
         ],
         "source": "Restriction Instructions",
-        "target": "Export"
+        "target": "There"
       },
       {
         "weight": 1,
@@ -4451,95 +4539,15 @@
           8
         ],
         "source": "Restriction Instructions",
-        "target": "instructions"
+        "target": "Restriction"
       },
       {
         "weight": 1,
         "units": [
-          8
+          9
         ],
-        "source": "Restriction Instructions",
-        "target": "Data Disclosure"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "residence"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Data Distribution"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Control"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Destruction"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Disclosure"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "discretion"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Restriction Instructions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Handling"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Data"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Restriction Instructions",
-        "target": "Users"
+        "source": "Data",
+        "target": "Restriction Info"
       },
       {
         "weight": 1,
@@ -4562,296 +4570,8 @@
         "units": [
           9
         ],
-        "source": "Data",
-        "target": "Restriction Info"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "use"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Restriction Info"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Defence Industries Association"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "details"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "SC"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Data Conditions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
         "source": "Restriction Info",
         "target": "TOR"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "This"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Committee"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Limitations"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Statement"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Policy Statement"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "warranties"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Neither"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Specification"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Steering"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "ASD"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Defence"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "classification"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Industries"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Business Program"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "maintenance"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "liable"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Revisions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "America"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Policy"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Business"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Aerospace"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "ATA"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "restrictions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Steering Committee"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Program"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "responsible"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Aerospace Industries Association"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Conditions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Restriction Info",
-        "target": "Copyright"
       },
       {
         "weight": 1,
@@ -4867,7 +4587,159 @@
           9
         ],
         "source": "Restriction Info",
+        "target": "classification"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Defence"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Industries"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Business"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Policy"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "ATA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Conditions"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Committee"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Defence Industries Association"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "responsible"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Business Program"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
         "target": "Association"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Europe"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Program"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Copyright"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Data Conditions"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Revisions"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Policy Statement"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "ASD"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "liable"
       },
       {
         "weight": 1,
@@ -4883,7 +4755,135 @@
           9
         ],
         "source": "Restriction Info",
-        "target": "Europe"
+        "target": "Restriction Info"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "restrictions"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Aerospace"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Limitations"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "maintenance"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Neither"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Steering"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Statement"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Aerospace Industries Association"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "use"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "SC"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "America"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Specification"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "warranties"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "Steering Committee"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "This"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Restriction Info",
+        "target": "details"
       },
       {
         "weight": 1,
@@ -4907,7 +4907,7 @@
           10
         ],
         "source": "Responsible Partner Company",
-        "target": "DEFENCE"
+        "target": "Responsible"
       },
       {
         "weight": 1,
@@ -4931,7 +4931,7 @@
           10
         ],
         "source": "Responsible Partner Company",
-        "target": "Responsible"
+        "target": "AEROSPACE"
       },
       {
         "weight": 1,
@@ -4947,31 +4947,7 @@
           10
         ],
         "source": "Responsible Partner Company",
-        "target": "ASSOCIATION"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "Responsible Partner Company",
-        "target": "EUROPE"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "Responsible Partner Company",
-        "target": "Company"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "Responsible Partner Company",
-        "target": "AEROSPACE"
+        "target": "Responsible Partner Company"
       },
       {
         "weight": 1,
@@ -4995,15 +4971,31 @@
           10
         ],
         "source": "Responsible Partner Company",
-        "target": "Responsible Partner Company"
+        "target": "ASSOCIATION"
       },
       {
         "weight": 1,
         "units": [
-          11
+          10
         ],
-        "source": "DEFENCE",
-        "target": "Originator"
+        "source": "Responsible Partner Company",
+        "target": "DEFENCE"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "Responsible Partner Company",
+        "target": "EUROPE"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "Responsible Partner Company",
+        "target": "Company"
       },
       {
         "weight": 1,
@@ -5026,31 +5018,15 @@
         "units": [
           11
         ],
-        "source": "OF",
-        "target": "Originator"
-      },
-      {
-        "weight": 1,
-        "units": [
-          11
-        ],
-        "source": "ASSOCIATION",
-        "target": "Originator"
-      },
-      {
-        "weight": 1,
-        "units": [
-          11
-        ],
-        "source": "EUROPE",
-        "target": "Originator"
-      },
-      {
-        "weight": 1,
-        "units": [
-          11
-        ],
         "source": "AEROSPACE",
+        "target": "Originator"
+      },
+      {
+        "weight": 1,
+        "units": [
+          11
+        ],
+        "source": "OF",
         "target": "Originator"
       },
       {
@@ -5066,40 +5042,32 @@
         "units": [
           11
         ],
-        "source": "Originator",
+        "source": "ASSOCIATION",
         "target": "Originator"
       },
       {
         "weight": 1,
         "units": [
-          12
+          11
         ],
-        "source": "Applic Cross-Reference Table Ref",
-        "target": "Applic"
+        "source": "DEFENCE",
+        "target": "Originator"
       },
       {
         "weight": 1,
         "units": [
-          12
+          11
         ],
-        "source": "Applic Cross-Reference Table Ref",
-        "target": "Reference Table Ref"
+        "source": "EUROPE",
+        "target": "Originator"
       },
       {
         "weight": 1,
         "units": [
-          12
+          11
         ],
-        "source": "Applic Cross-Reference Table Ref",
-        "target": "Cross"
-      },
-      {
-        "weight": 1,
-        "units": [
-          12
-        ],
-        "source": "Applic Cross-Reference Table Ref",
-        "target": "Table"
+        "source": "Originator",
+        "target": "Originator"
       },
       {
         "weight": 1,
@@ -5120,10 +5088,34 @@
       {
         "weight": 1,
         "units": [
-          13
+          12
         ],
-        "source": "Applic",
-        "target": "Text"
+        "source": "Applic Cross-Reference Table Ref",
+        "target": "Reference Table Ref"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Applic Cross-Reference Table Ref",
+        "target": "Applic"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Applic Cross-Reference Table Ref",
+        "target": "Table"
+      },
+      {
+        "weight": 1,
+        "units": [
+          12
+        ],
+        "source": "Applic Cross-Reference Table Ref",
+        "target": "Cross"
       },
       {
         "weight": 1,
@@ -5139,6 +5131,14 @@
           13
         ],
         "source": "Applic",
+        "target": "Evaluate"
+      },
+      {
+        "weight": 1,
+        "units": [
+          13
+        ],
+        "source": "Applic",
         "target": "Applic"
       },
       {
@@ -5147,15 +5147,7 @@
           13
         ],
         "source": "Applic",
-        "target": "Display"
-      },
-      {
-        "weight": 1,
-        "units": [
-          13
-        ],
-        "source": "Applic",
-        "target": "Evaluate"
+        "target": "Brook"
       },
       {
         "weight": 1,
@@ -5171,15 +5163,15 @@
           13
         ],
         "source": "Applic",
-        "target": "Brook"
+        "target": "Display"
       },
       {
         "weight": 1,
         "units": [
-          14
+          13
         ],
-        "source": "Tech Standard",
-        "target": "Bike"
+        "source": "Applic",
+        "target": "Text"
       },
       {
         "weight": 1,
@@ -5196,6 +5188,14 @@
         ],
         "source": "Tech Standard",
         "target": "Standard"
+      },
+      {
+        "weight": 1,
+        "units": [
+          14
+        ],
+        "source": "Tech Standard",
+        "target": "Bike"
       },
       {
         "weight": 1,
@@ -5219,15 +5219,7 @@
           16
         ],
         "source": "Quality Assurance",
-        "target": "Verification"
-      },
-      {
-        "weight": 1,
-        "units": [
-          16
-        ],
-        "source": "Quality Assurance",
-        "target": "Verification Type"
+        "target": "Quality"
       },
       {
         "weight": 1,
@@ -5243,7 +5235,15 @@
           16
         ],
         "source": "Quality Assurance",
-        "target": "Quality"
+        "target": "Verification Type"
+      },
+      {
+        "weight": 1,
+        "units": [
+          16
+        ],
+        "source": "Quality Assurance",
+        "target": "Verification"
       },
       {
         "weight": 1,
@@ -5259,14 +5259,6 @@
           17
         ],
         "source": "Remarks",
-        "target": "CPF"
-      },
-      {
-        "weight": 1,
-        "units": [
-          17
-        ],
-        "source": "Remarks",
         "target": "Bike Enhancement"
       },
       {
@@ -5275,7 +5267,7 @@
           17
         ],
         "source": "Remarks",
-        "target": "EPWG"
+        "target": "CPF"
       },
       {
         "weight": 1,
@@ -5296,130 +5288,10 @@
       {
         "weight": 1,
         "units": [
-          18
+          17
         ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Services"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Email"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Enterprise Ident"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "SPEC"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Business Unit Address"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "City"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Country"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Phone"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Business Unit Name"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Number"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Address"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Fax Number"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Code"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "UTOPIA"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Customers"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Phone Number"
+        "source": "Remarks",
+        "target": "EPWG"
       },
       {
         "weight": 1,
@@ -5435,7 +5307,7 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Saint Vitus"
+        "target": "Country"
       },
       {
         "weight": 1,
@@ -5443,7 +5315,7 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Heaven"
+        "target": "Business Unit Address"
       },
       {
         "weight": 1,
@@ -5451,7 +5323,7 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Saint"
+        "target": "SPEC"
       },
       {
         "weight": 1,
@@ -5459,7 +5331,7 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Unit"
+        "target": "Phone Number"
       },
       {
         "weight": 1,
@@ -5467,23 +5339,7 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Enterprise Spec"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Street"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Vitus"
+        "target": "Business Unit Name"
       },
       {
         "weight": 1,
@@ -5499,7 +5355,7 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Enterprise Name"
+        "target": "Postal Zip Code"
       },
       {
         "weight": 1,
@@ -5507,7 +5363,7 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Spec"
+        "target": "Phone"
       },
       {
         "weight": 1,
@@ -5515,7 +5371,7 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Internet"
+        "target": "Enterprise Spec"
       },
       {
         "weight": 1,
@@ -5523,15 +5379,7 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Customers Services Business Line"
-      },
-      {
-        "weight": 1,
-        "units": [
-          18
-        ],
-        "source": "Enterprise Spec (id: C001)",
-        "target": "Enterprise"
+        "target": "City"
       },
       {
         "weight": 1,
@@ -5547,22 +5395,166 @@
           18
         ],
         "source": "Enterprise Spec (id: C001)",
-        "target": "Postal Zip Code"
+        "target": "Spec"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Services"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Enterprise Name"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Saint"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Enterprise"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Heaven"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Enterprise Ident"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Address"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Customers"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Internet"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Unit"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Street"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Customers Services Business Line"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Saint Vitus"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Vitus"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Code"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Fax Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "Email"
+      },
+      {
+        "weight": 1,
+        "units": [
+          18
+        ],
+        "source": "Enterprise Spec (id: C001)",
+        "target": "UTOPIA"
       },
       {
         "weight": 1,
         "units": [
           19
         ],
-        "source": "Enterprise Ident",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "SPEC",
+        "source": "Country",
         "target": "Enterprise Spec (id: SPEC-0002)"
       },
       {
@@ -5578,15 +5570,7 @@
         "units": [
           19
         ],
-        "source": "City",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Country",
+        "source": "SPEC",
         "target": "Enterprise Spec (id: SPEC-0002)"
       },
       {
@@ -5602,79 +5586,7 @@
         "units": [
           19
         ],
-        "source": "Address",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Code",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Unit",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Enterprise Spec",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Street",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
         "source": "Postal",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Enterprise Name",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Spec",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Enterprise",
-        "target": "Enterprise Spec (id: SPEC-0002)"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Business Unit",
         "target": "Enterprise Spec (id: SPEC-0002)"
       },
       {
@@ -5690,24 +5602,88 @@
         "units": [
           19
         ],
-        "source": "Enterprise Spec (id: SPEC-0002)",
-        "target": "Off Road"
+        "source": "Enterprise Spec",
+        "target": "Enterprise Spec (id: SPEC-0002)"
       },
       {
         "weight": 1,
         "units": [
           19
         ],
-        "source": "Enterprise Spec (id: SPEC-0002)",
-        "target": "Bikes"
+        "source": "City",
+        "target": "Enterprise Spec (id: SPEC-0002)"
       },
       {
         "weight": 1,
         "units": [
           19
         ],
-        "source": "Enterprise Spec (id: SPEC-0002)",
-        "target": "Greasy"
+        "source": "Business Unit",
+        "target": "Enterprise Spec (id: SPEC-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Spec",
+        "target": "Enterprise Spec (id: SPEC-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Enterprise Name",
+        "target": "Enterprise Spec (id: SPEC-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Enterprise",
+        "target": "Enterprise Spec (id: SPEC-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Enterprise Ident",
+        "target": "Enterprise Spec (id: SPEC-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Address",
+        "target": "Enterprise Spec (id: SPEC-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Unit",
+        "target": "Enterprise Spec (id: SPEC-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Street",
+        "target": "Enterprise Spec (id: SPEC-0002)"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Code",
+        "target": "Enterprise Spec (id: SPEC-0002)"
       },
       {
         "weight": 1,
@@ -5723,7 +5699,7 @@
           19
         ],
         "source": "Enterprise Spec (id: SPEC-0002)",
-        "target": "Atlantis"
+        "target": "Enterprise Ident Alt"
       },
       {
         "weight": 1,
@@ -5731,15 +5707,7 @@
           19
         ],
         "source": "Enterprise Spec (id: SPEC-0002)",
-        "target": "DUNS"
-      },
-      {
-        "weight": 1,
-        "units": [
-          19
-        ],
-        "source": "Enterprise Spec (id: SPEC-0002)",
-        "target": "Noway"
+        "target": "Off Road"
       },
       {
         "weight": 1,
@@ -5763,7 +5731,39 @@
           19
         ],
         "source": "Enterprise Spec (id: SPEC-0002)",
-        "target": "Enterprise Ident Alt"
+        "target": "DUNS"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Enterprise Spec (id: SPEC-0002)",
+        "target": "Noway"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Enterprise Spec (id: SPEC-0002)",
+        "target": "Bikes"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Enterprise Spec (id: SPEC-0002)",
+        "target": "Atlantis"
+      },
+      {
+        "weight": 1,
+        "units": [
+          19
+        ],
+        "source": "Enterprise Spec (id: SPEC-0002)",
+        "target": "Greasy"
       }
     ]
   }

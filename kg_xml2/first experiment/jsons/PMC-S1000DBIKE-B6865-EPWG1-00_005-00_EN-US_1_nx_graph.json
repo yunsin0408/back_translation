@@ -1,0 +1,981 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "PM Data Extract",
+      "type": "heading",
+      "id": "PM Data Extract"
+    },
+    {
+      "label": "Product",
+      "type": "candidate",
+      "id": "Product"
+    },
+    {
+      "label": "overview",
+      "type": "candidate",
+      "id": "overview"
+    },
+    {
+      "label": "PM",
+      "type": "candidate",
+      "id": "PM"
+    },
+    {
+      "label": "Data Extract This",
+      "type": "candidate",
+      "id": "Data Extract This"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Product Management",
+      "type": "candidate",
+      "id": "Product Management"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Management",
+      "type": "candidate",
+      "id": "Management"
+    },
+    {
+      "label": "Extract",
+      "type": "candidate",
+      "id": "Extract"
+    },
+    {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
+    },
+    {
+      "label": "Data Structure",
+      "type": "heading",
+      "id": "Data Structure"
+    },
+    {
+      "label": "Indicates",
+      "type": "candidate",
+      "id": "Indicates"
+    },
+    {
+      "label": "Each",
+      "type": "candidate",
+      "id": "Each"
+    },
+    {
+      "label": "piece",
+      "type": "candidate",
+      "id": "piece"
+    },
+    {
+      "label": "Structure",
+      "type": "candidate",
+      "id": "Structure"
+    },
+    {
+      "label": "Data Structure The",
+      "type": "candidate",
+      "id": "Data Structure The"
+    },
+    {
+      "label": "type",
+      "type": "candidate",
+      "id": "type"
+    },
+    {
+      "label": "identifier",
+      "type": "candidate",
+      "id": "identifier"
+    },
+    {
+      "label": "Identifies",
+      "type": "candidate",
+      "id": "Identifies"
+    },
+    {
+      "label": "context",
+      "type": "candidate",
+      "id": "context"
+    },
+    {
+      "label": "location",
+      "type": "candidate",
+      "id": "location"
+    },
+    {
+      "label": "Further",
+      "type": "candidate",
+      "id": "Further"
+    },
+    {
+      "label": "variant",
+      "type": "candidate",
+      "id": "variant"
+    },
+    {
+      "label": "Data Summary",
+      "type": "heading",
+      "id": "Data Summary"
+    },
+    {
+      "label": "Info Code Variant",
+      "type": "candidate",
+      "id": "Info Code Variant"
+    },
+    {
+      "label": "System",
+      "type": "candidate",
+      "id": "System"
+    },
+    {
+      "label": "Info",
+      "type": "candidate",
+      "id": "Info"
+    },
+    {
+      "label": "Issue",
+      "type": "candidate",
+      "id": "Issue"
+    },
+    {
+      "label": "Sub System Code",
+      "type": "candidate",
+      "id": "Sub System Code"
+    },
+    {
+      "label": "Number",
+      "type": "candidate",
+      "id": "Number"
+    },
+    {
+      "label": "Location",
+      "type": "candidate",
+      "id": "Location"
+    },
+    {
+      "label": "Applic",
+      "type": "candidate",
+      "id": "Applic"
+    },
+    {
+      "label": "System Code",
+      "type": "candidate",
+      "id": "System Code"
+    },
+    {
+      "label": "Code",
+      "type": "candidate",
+      "id": "Code"
+    },
+    {
+      "label": "Item Location Code",
+      "type": "candidate",
+      "id": "Item Location Code"
+    },
+    {
+      "label": "Issue Number",
+      "type": "candidate",
+      "id": "Issue Number"
+    },
+    {
+      "label": "Variant",
+      "type": "candidate",
+      "id": "Variant"
+    },
+    {
+      "label": "Data Summary The",
+      "type": "candidate",
+      "id": "Data Summary The"
+    },
+    {
+      "label": "length",
+      "type": "candidate",
+      "id": "length"
+    },
+    {
+      "label": "Applic Ref Id",
+      "type": "candidate",
+      "id": "Applic Ref Id"
+    },
+    {
+      "label": "Note",
+      "type": "candidate",
+      "id": "Note"
+    },
+    {
+      "label": "Info Code",
+      "type": "candidate",
+      "id": "Info Code"
+    },
+    {
+      "label": "Summary",
+      "type": "candidate",
+      "id": "Summary"
+    },
+    {
+      "label": "Item",
+      "type": "candidate",
+      "id": "Item"
+    },
+    {
+      "label": "Observations & Potential Analysis",
+      "type": "heading",
+      "id": "Observations & Potential Analysis"
+    },
+    {
+      "label": "Tracking",
+      "type": "candidate",
+      "id": "Tracking"
+    },
+    {
+      "label": "Info Code Variants",
+      "type": "candidate",
+      "id": "Info Code Variants"
+    },
+    {
+      "label": "use",
+      "type": "candidate",
+      "id": "use"
+    },
+    {
+      "label": "Analysis",
+      "type": "candidate",
+      "id": "Analysis"
+    },
+    {
+      "label": "Coverage",
+      "type": "candidate",
+      "id": "Coverage"
+    },
+    {
+      "label": "Potential Analysis",
+      "type": "candidate",
+      "id": "Potential Analysis"
+    },
+    {
+      "label": "Different",
+      "type": "candidate",
+      "id": "Different"
+    },
+    {
+      "label": "Issue Status",
+      "type": "candidate",
+      "id": "Issue Status"
+    },
+    {
+      "label": "Observations",
+      "type": "candidate",
+      "id": "Observations"
+    },
+    {
+      "label": "Analyzing",
+      "type": "candidate",
+      "id": "Analyzing"
+    },
+    {
+      "label": "Generating",
+      "type": "candidate",
+      "id": "Generating"
+    },
+    {
+      "label": "Potential",
+      "type": "candidate",
+      "id": "Potential"
+    },
+    {
+      "label": "Identifying",
+      "type": "candidate",
+      "id": "Identifying"
+    },
+    {
+      "label": "areas",
+      "type": "candidate",
+      "id": "areas"
+    },
+    {
+      "label": "Variants",
+      "type": "candidate",
+      "id": "Variants"
+    },
+    {
+      "label": "System Coverage",
+      "type": "candidate",
+      "id": "System Coverage"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "used",
+      "type": "candidate",
+      "id": "used"
+    },
+    {
+      "label": "Conclusion",
+      "type": "heading",
+      "id": "Conclusion"
+    },
+    {
+      "label": "Conclusion This",
+      "type": "candidate",
+      "id": "Conclusion This"
+    },
+    {
+      "label": "view",
+      "type": "candidate",
+      "id": "view"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "Product"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "overview"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "PM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "Data Extract This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "Product Management"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "Management"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "Extract"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Data Extract",
+      "target": "XML"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "PM",
+      "target": "Conclusion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "This",
+      "target": "Data Summary"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "This",
+      "target": "Observations & Potential Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "This",
+      "target": "Conclusion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data",
+      "target": "Data Structure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data",
+      "target": "Data Summary"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "XML",
+      "target": "Data Summary"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "Indicates"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "Each"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "piece"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "Structure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "Data Structure The"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "type"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "identifier"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "Identifies"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "context"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "location"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "Further"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Data Structure",
+      "target": "variant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Further",
+      "target": "Conclusion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Info Code Variant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "System"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Issue"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Sub System Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Location"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Applic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "System Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Item Location Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Issue Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Variant"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Data Summary The"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "length"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Applic Ref Id"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Note"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Info Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Summary"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Data Summary",
+      "target": "Item"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "System",
+      "target": "Observations & Potential Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Info",
+      "target": "Observations & Potential Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Issue",
+      "target": "Observations & Potential Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Applic",
+      "target": "Observations & Potential Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Code",
+      "target": "Observations & Potential Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Applic Ref Id",
+      "target": "Observations & Potential Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Tracking"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Info Code Variants"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "use"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Coverage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Potential Analysis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Different"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Issue Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Observations"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Analyzing"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Generating"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Potential"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Identifying"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "areas"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Variants"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "System Coverage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Observations & Potential Analysis",
+      "target": "used"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "areas",
+      "target": "Conclusion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Conclusion",
+      "target": "Conclusion This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Conclusion",
+      "target": "Conclusion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Conclusion",
+      "target": "view"
+    }
+  ]
+}

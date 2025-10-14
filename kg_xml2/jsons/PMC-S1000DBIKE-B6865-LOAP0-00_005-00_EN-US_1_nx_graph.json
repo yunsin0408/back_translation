@@ -9,6 +9,11 @@
       "id": "PM Ident"
     },
     {
+      "label": "US",
+      "type": "candidate",
+      "id": "US"
+    },
+    {
       "label": "Ident",
       "type": "candidate",
       "id": "Ident"
@@ -19,9 +24,9 @@
       "id": "PM"
     },
     {
-      "label": "Info",
+      "label": "Issue",
       "type": "candidate",
-      "id": "Info"
+      "id": "Issue"
     },
     {
       "label": "Language",
@@ -29,24 +34,34 @@
       "id": "Language"
     },
     {
-      "label": "Issue",
-      "type": "candidate",
-      "id": "Issue"
-    },
-    {
       "label": "Issue Info",
       "type": "candidate",
       "id": "Issue Info"
     },
     {
-      "label": "US",
+      "label": "Info",
       "type": "candidate",
-      "id": "US"
+      "id": "Info"
     },
     {
       "label": "PM Address Items",
       "type": "heading",
       "id": "PM Address Items"
+    },
+    {
+      "label": "LOAP",
+      "type": "candidate",
+      "id": "LOAP"
+    },
+    {
+      "label": "Address Items",
+      "type": "candidate",
+      "id": "Address Items"
+    },
+    {
+      "label": "Applicable",
+      "type": "candidate",
+      "id": "Applicable"
     },
     {
       "label": "Items",
@@ -59,19 +74,9 @@
       "id": "Applicable Publications"
     },
     {
-      "label": "Address Items",
+      "label": "Address",
       "type": "candidate",
-      "id": "Address Items"
-    },
-    {
-      "label": "LOAP",
-      "type": "candidate",
-      "id": "LOAP"
-    },
-    {
-      "label": "Applicable",
-      "type": "candidate",
-      "id": "Applicable"
+      "id": "Address"
     },
     {
       "label": "Publications",
@@ -82,11 +87,6 @@
       "label": "List",
       "type": "candidate",
       "id": "List"
-    },
-    {
-      "label": "Address",
-      "type": "candidate",
-      "id": "Address"
     },
     {
       "label": "PM Status",
@@ -109,14 +109,119 @@
       "id": "Data Restrictions"
     },
     {
+      "label": "Restrictions",
+      "type": "candidate",
+      "id": "Restrictions"
+    },
+    {
+      "label": "Control",
+      "type": "candidate",
+      "id": "Control"
+    },
+    {
+      "label": "TOR",
+      "type": "candidate",
+      "id": "TOR"
+    },
+    {
+      "label": "classification",
+      "type": "candidate",
+      "id": "classification"
+    },
+    {
+      "label": "instructions",
+      "type": "candidate",
+      "id": "instructions"
+    },
+    {
+      "label": "residence",
+      "type": "candidate",
+      "id": "residence"
+    },
+    {
+      "label": "Export Control",
+      "type": "candidate",
+      "id": "Export Control"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Committee",
+      "type": "candidate",
+      "id": "Committee"
+    },
+    {
+      "label": "For Copyright",
+      "type": "candidate",
+      "id": "For Copyright"
+    },
+    {
       "label": "Instructions",
       "type": "candidate",
       "id": "Instructions"
     },
     {
+      "label": "users",
+      "type": "candidate",
+      "id": "users"
+    },
+    {
+      "label": "Export",
+      "type": "candidate",
+      "id": "Export"
+    },
+    {
+      "label": "Restriction Instructions",
+      "type": "candidate",
+      "id": "Restriction Instructions"
+    },
+    {
+      "label": "AA",
+      "type": "candidate",
+      "id": "AA"
+    },
+    {
+      "label": "Copyright",
+      "type": "candidate",
+      "id": "Copyright"
+    },
+    {
+      "label": "discretion",
+      "type": "candidate",
+      "id": "discretion"
+    },
+    {
+      "label": "Users",
+      "type": "candidate",
+      "id": "Users"
+    },
+    {
+      "label": "Storage",
+      "type": "candidate",
+      "id": "Storage"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
       "label": "Restriction Info",
       "type": "candidate",
       "id": "Restriction Info"
+    },
+    {
+      "label": "restrictions",
+      "type": "candidate",
+      "id": "restrictions"
+    },
+    {
+      "label": "Steering",
+      "type": "candidate",
+      "id": "Steering"
     },
     {
       "label": "There",
@@ -129,119 +234,14 @@
       "id": "SC"
     },
     {
-      "label": "Restriction",
-      "type": "candidate",
-      "id": "Restriction"
-    },
-    {
-      "label": "TOR",
-      "type": "candidate",
-      "id": "TOR"
-    },
-    {
-      "label": "users",
-      "type": "candidate",
-      "id": "users"
-    },
-    {
-      "label": "Committee",
-      "type": "candidate",
-      "id": "Committee"
-    },
-    {
-      "label": "Storage",
-      "type": "candidate",
-      "id": "Storage"
-    },
-    {
-      "label": "Export Control",
-      "type": "candidate",
-      "id": "Export Control"
-    },
-    {
-      "label": "Export",
-      "type": "candidate",
-      "id": "Export"
-    },
-    {
-      "label": "instructions",
-      "type": "candidate",
-      "id": "instructions"
-    },
-    {
-      "label": "Steering",
-      "type": "candidate",
-      "id": "Steering"
-    },
-    {
-      "label": "residence",
-      "type": "candidate",
-      "id": "residence"
-    },
-    {
-      "label": "Control",
-      "type": "candidate",
-      "id": "Control"
-    },
-    {
-      "label": "classification",
-      "type": "candidate",
-      "id": "classification"
-    },
-    {
-      "label": "For Copyright",
-      "type": "candidate",
-      "id": "For Copyright"
-    },
-    {
-      "label": "Restrictions",
-      "type": "candidate",
-      "id": "Restrictions"
-    },
-    {
-      "label": "restrictions",
-      "type": "candidate",
-      "id": "restrictions"
-    },
-    {
-      "label": "AA",
-      "type": "candidate",
-      "id": "AA"
-    },
-    {
       "label": "Steering Committee",
       "type": "candidate",
       "id": "Steering Committee"
     },
     {
-      "label": "discretion",
+      "label": "Restriction",
       "type": "candidate",
-      "id": "discretion"
-    },
-    {
-      "label": "Restriction Instructions",
-      "type": "candidate",
-      "id": "Restriction Instructions"
-    },
-    {
-      "label": "Copyright",
-      "type": "candidate",
-      "id": "Copyright"
-    },
-    {
-      "label": "Data",
-      "type": "candidate",
-      "id": "Data"
-    },
-    {
-      "label": "AAA",
-      "type": "candidate",
-      "id": "AAA"
-    },
-    {
-      "label": "Users",
-      "type": "candidate",
-      "id": "Users"
+      "id": "Restriction"
     },
     {
       "label": "Responsible Partner Company",
@@ -249,9 +249,9 @@
       "id": "Responsible Partner Company"
     },
     {
-      "label": "DEFENCE",
+      "label": "Responsible",
       "type": "candidate",
-      "id": "DEFENCE"
+      "id": "Responsible"
     },
     {
       "label": "AND",
@@ -264,34 +264,14 @@
       "id": "INDUSTRIES"
     },
     {
-      "label": "Responsible",
+      "label": "AEROSPACE",
       "type": "candidate",
-      "id": "Responsible"
+      "id": "AEROSPACE"
     },
     {
       "label": "OF",
       "type": "candidate",
       "id": "OF"
-    },
-    {
-      "label": "ASSOCIATION",
-      "type": "candidate",
-      "id": "ASSOCIATION"
-    },
-    {
-      "label": "EUROPE",
-      "type": "candidate",
-      "id": "EUROPE"
-    },
-    {
-      "label": "Company",
-      "type": "candidate",
-      "id": "Company"
-    },
-    {
-      "label": "AEROSPACE",
-      "type": "candidate",
-      "id": "AEROSPACE"
     },
     {
       "label": "Partner",
@@ -304,6 +284,26 @@
       "id": "SECURITY"
     },
     {
+      "label": "ASSOCIATION",
+      "type": "candidate",
+      "id": "ASSOCIATION"
+    },
+    {
+      "label": "DEFENCE",
+      "type": "candidate",
+      "id": "DEFENCE"
+    },
+    {
+      "label": "EUROPE",
+      "type": "candidate",
+      "id": "EUROPE"
+    },
+    {
+      "label": "Company",
+      "type": "candidate",
+      "id": "Company"
+    },
+    {
       "label": "Originator",
       "type": "heading",
       "id": "Originator"
@@ -314,26 +314,6 @@
       "id": "Applic Cross-Reference Table Ref"
     },
     {
-      "label": "Applic",
-      "type": "candidate",
-      "id": "Applic"
-    },
-    {
-      "label": "Reference Table Ref",
-      "type": "candidate",
-      "id": "Reference Table Ref"
-    },
-    {
-      "label": "Cross",
-      "type": "candidate",
-      "id": "Cross"
-    },
-    {
-      "label": "Table",
-      "type": "candidate",
-      "id": "Table"
-    },
-    {
       "label": "Applic Cross",
       "type": "candidate",
       "id": "Applic Cross"
@@ -342,6 +322,26 @@
       "label": "Reference",
       "type": "candidate",
       "id": "Reference"
+    },
+    {
+      "label": "Reference Table Ref",
+      "type": "candidate",
+      "id": "Reference Table Ref"
+    },
+    {
+      "label": "Applic",
+      "type": "candidate",
+      "id": "Applic"
+    },
+    {
+      "label": "Table",
+      "type": "candidate",
+      "id": "Table"
+    },
+    {
+      "label": "Cross",
+      "type": "candidate",
+      "id": "Cross"
     },
     {
       "label": "Mountain",
@@ -369,14 +369,14 @@
       "id": "Quality Assurance"
     },
     {
-      "label": "Quality",
-      "type": "candidate",
-      "id": "Quality"
-    },
-    {
       "label": "Assurance",
       "type": "candidate",
       "id": "Assurance"
+    },
+    {
+      "label": "Quality",
+      "type": "candidate",
+      "id": "Quality"
     },
     {
       "label": "PM Entry",
@@ -416,6 +416,14 @@
         1
       ],
       "source": "PM Ident",
+      "target": "US"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "PM Ident",
       "target": "Ident"
     },
     {
@@ -432,7 +440,7 @@
         1
       ],
       "source": "PM Ident",
-      "target": "Info"
+      "target": "Issue"
     },
     {
       "weight": 1,
@@ -448,14 +456,6 @@
         1
       ],
       "source": "PM Ident",
-      "target": "Issue"
-    },
-    {
-      "weight": 1,
-      "units": [
-        1
-      ],
-      "source": "PM Ident",
       "target": "Issue Info"
     },
     {
@@ -464,7 +464,31 @@
         1
       ],
       "source": "PM Ident",
-      "target": "US"
+      "target": "Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "US",
+      "target": "PM Ref (1)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "US",
+      "target": "PM Ref (2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        15
+      ],
+      "source": "US",
+      "target": "PM Ref (3)"
     },
     {
       "weight": 1,
@@ -525,26 +549,26 @@
     {
       "weight": 1,
       "units": [
-        13
+        2
       ],
-      "source": "US",
-      "target": "PM Ref (1)"
+      "source": "PM Address Items",
+      "target": "LOAP"
     },
     {
       "weight": 1,
       "units": [
-        14
+        2
       ],
-      "source": "US",
-      "target": "PM Ref (2)"
+      "source": "PM Address Items",
+      "target": "Address Items"
     },
     {
       "weight": 1,
       "units": [
-        15
+        2
       ],
-      "source": "US",
-      "target": "PM Ref (3)"
+      "source": "PM Address Items",
+      "target": "Applicable"
     },
     {
       "weight": 1,
@@ -568,23 +592,7 @@
         2
       ],
       "source": "PM Address Items",
-      "target": "Address Items"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "PM Address Items",
-      "target": "LOAP"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "PM Address Items",
-      "target": "Applicable"
+      "target": "Address"
     },
     {
       "weight": 1,
@@ -601,14 +609,6 @@
       ],
       "source": "PM Address Items",
       "target": "List"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "PM Address Items",
-      "target": "Address"
     },
     {
       "weight": 1,
@@ -632,6 +632,86 @@
         5
       ],
       "source": "Data Restrictions",
+      "target": "Restrictions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Control"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "TOR"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "classification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "residence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Export Control"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Committee"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "For Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
       "target": "Instructions"
     },
     {
@@ -640,7 +720,103 @@
         5
       ],
       "source": "Data Restrictions",
+      "target": "users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Export"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Restriction Instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "AA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Data Restrictions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "discretion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Storage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
       "target": "Restriction Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "restrictions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Restrictions",
+      "target": "Steering"
     },
     {
       "weight": 1,
@@ -664,142 +840,6 @@
         5
       ],
       "source": "Data Restrictions",
-      "target": "Restriction"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "TOR"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Data Restrictions"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "users"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Committee"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Storage"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Export Control"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Export"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "instructions"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Steering"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "residence"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Control"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "classification"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "For Copyright"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Restrictions"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "restrictions"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "AA"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
       "target": "Steering Committee"
     },
     {
@@ -808,47 +848,7 @@
         5
       ],
       "source": "Data Restrictions",
-      "target": "discretion"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Restriction Instructions"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Copyright"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Data"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "AAA"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Restrictions",
-      "target": "Users"
+      "target": "Restriction"
     },
     {
       "weight": 1,
@@ -888,7 +888,7 @@
         6
       ],
       "source": "Responsible Partner Company",
-      "target": "DEFENCE"
+      "target": "Responsible"
     },
     {
       "weight": 1,
@@ -912,7 +912,7 @@
         6
       ],
       "source": "Responsible Partner Company",
-      "target": "Responsible"
+      "target": "AEROSPACE"
     },
     {
       "weight": 1,
@@ -928,31 +928,7 @@
         6
       ],
       "source": "Responsible Partner Company",
-      "target": "ASSOCIATION"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Responsible Partner Company",
-      "target": "EUROPE"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Responsible Partner Company",
-      "target": "Company"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Responsible Partner Company",
-      "target": "AEROSPACE"
+      "target": "Responsible Partner Company"
     },
     {
       "weight": 1,
@@ -976,15 +952,31 @@
         6
       ],
       "source": "Responsible Partner Company",
-      "target": "Responsible Partner Company"
+      "target": "ASSOCIATION"
     },
     {
       "weight": 1,
       "units": [
-        7
+        6
       ],
-      "source": "DEFENCE",
-      "target": "Originator"
+      "source": "Responsible Partner Company",
+      "target": "DEFENCE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Responsible Partner Company",
+      "target": "EUROPE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Company"
     },
     {
       "weight": 1,
@@ -1007,31 +999,15 @@
       "units": [
         7
       ],
-      "source": "OF",
-      "target": "Originator"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "ASSOCIATION",
-      "target": "Originator"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "EUROPE",
-      "target": "Originator"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
       "source": "AEROSPACE",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "OF",
       "target": "Originator"
     },
     {
@@ -1047,40 +1023,32 @@
       "units": [
         7
       ],
-      "source": "Originator",
+      "source": "ASSOCIATION",
       "target": "Originator"
     },
     {
       "weight": 1,
       "units": [
-        8
+        7
       ],
-      "source": "Applic Cross-Reference Table Ref",
-      "target": "Applic"
+      "source": "DEFENCE",
+      "target": "Originator"
     },
     {
       "weight": 1,
       "units": [
-        8
+        7
       ],
-      "source": "Applic Cross-Reference Table Ref",
-      "target": "Reference Table Ref"
+      "source": "EUROPE",
+      "target": "Originator"
     },
     {
       "weight": 1,
       "units": [
-        8
+        7
       ],
-      "source": "Applic Cross-Reference Table Ref",
-      "target": "Cross"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Applic Cross-Reference Table Ref",
-      "target": "Table"
+      "source": "Originator",
+      "target": "Originator"
     },
     {
       "weight": 1,
@@ -1101,6 +1069,38 @@
     {
       "weight": 1,
       "units": [
+        8
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Reference Table Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Applic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Table"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Cross"
+    },
+    {
+      "weight": 1,
+      "units": [
         9
       ],
       "source": "Applic",
@@ -1112,7 +1112,7 @@
         9
       ],
       "source": "Applic",
-      "target": "Applic"
+      "target": "Brook"
     },
     {
       "weight": 1,
@@ -1120,7 +1120,7 @@
         9
       ],
       "source": "Applic",
-      "target": "Brook"
+      "target": "Applic"
     },
     {
       "weight": 1,
@@ -1144,6 +1144,14 @@
         11
       ],
       "source": "Quality Assurance",
+      "target": "Assurance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Quality Assurance",
       "target": "Quality"
     },
     {
@@ -1153,14 +1161,6 @@
       ],
       "source": "Quality Assurance",
       "target": "Quality Assurance"
-    },
-    {
-      "weight": 1,
-      "units": [
-        11
-      ],
-      "source": "Quality Assurance",
-      "target": "Assurance"
     },
     {
       "weight": 1,

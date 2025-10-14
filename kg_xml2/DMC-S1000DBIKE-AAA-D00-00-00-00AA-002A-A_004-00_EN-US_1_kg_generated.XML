@@ -1,65 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dmc_document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
-  <dmc_info>
-    <title>DModule Content Summary</title>
-  </dmc_info>
-  <content>
-    <section>
+<data xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dm>
+    <head>
       <title>DModule Content Summary</title>
-      <paragraph>This document summarizes the content of the provided `dmodule` XML, focusing on the `frontMatter` section. The `frontMatter` consists of a list of entries, each describing a change or item related to a specific system, subsystem, and information code.</paragraph>
-    </section>
-    <section>
-      <title>Front Matter Overview</title>
-      <paragraph>The `frontMatter` contains a list of `frontMatterSubList` entries, each representing a single item. Key attributes for each entry include:</paragraph>
-      <list>
-        <item><b>`modelCode`</b>:  `S1000DBIKE` (Consistent across all entries)</item>
-        <item><b>`systemCode`</b>:  Indicates the main system (e.g., `DA4`, `DA5`)</item>
-        <item><b>`subSystemCode`</b>: Specifies a subsystem within the main system (e.g., `0`, `1`, `2`, `3`)</item>
-        <item><b>`infoCode`</b>:  A specific information code identifying the change or item (e.g., `041`, `241`, `251`, `411`)</item>
-        <item><b>`infoVariant`</b>: A variant related to the `infoCode` (e.g., `A`, `B`, `C`)</item>
-        <item><b>`issueNumber`</b>: A numerical identifier for the issue or change.</item>
-        <item><b>`applicationId`</b>: Identifier for the software application related to the change (e.g., `app-001`, `app-006`).</item>
-      </list>
-    </section>
-    <section>
-      <title>Detailed List of Front Matter Entries</title>
-      <paragraph>Here's a breakdown of all the entries, organized by `systemCode` for clarity:</paragraph>
-      <subsection>
-        <title>System DA4</title>
-        <list>
-          <item><code>systemCode</code>: DA4, <code>subSystemCode</code>: 0, <code>infoCode</code>: 041, <code>infoVariant</code>: A, <code>issueNumber</code>: 010, <code>applicationId</code>: app-001</item>
-          <item><code>systemCode</code>: DA4, <code>subSystemCode</code>: 1, <code>infoCode</code>: 241, <code>infoVariant</code>: A, <code>issueNumber</code>: 011, <code>applicationId</code>: app-006</item>
-          <item><code>systemCode</code>: DA4, <code>subSystemCode</code>: 1, <code>infoCode</code>: 251, <code>infoVariant</code>: B, <code>issueNumber</code>: 010, <code>applicationId</code>: app-001</item>
-          <item><code>systemCode</code>: DA4, <code>subSystemCode</code>: 1, <code>infoCode</code>: 414, <code>infoVariant</code>: A, <code>issueNumber</code>: 008, <code>applicationId</code>: app-001</item>
-        </list>
-      </subsection>
-      <subsection>
-        <title>System DA5</title>
-        <list>
-          <item><code>systemCode</code>: DA5, <code>subSystemCode</code>: 0, <code>infoCode</code>: 041, <code>infoVariant</code>: A, <code>issueNumber</code>: 010, <code>applicationId</code>: app-001</item>
-          <item><code>systemCode</code>: DA5, <code>subSystemCode</code>: 1, <code>infoCode</code>: 041, <code>infoVariant</code>: A, <code>issueNumber</code>: 010, <code>applicationId</code>: app-001</item>
-          <item><code>systemCode</code>: DA5, <code>subSystemCode</code>: 2, <code>infoCode</code>: 251, <code>infoVariant</code>: C, <code>issueNumber</code>: 011, <code>applicationId</code>: app-001</item>
-          <item><code>systemCode</code>: DA5, <code>subSystemCode</code>: 3, <code>infoCode</code>: 041, <code>infoVariant</code>: A, <code>issueNumber</code>: 010, <code>applicationId</code>: app-001</item>
-        </list>
-      </subsection>
-      <subsection>
-        <title>System DA3</title>
-        <list>
-          <item><code>systemCode</code>: DA3, <code>subSystemCode</code>: 0, <code>infoCode</code>: 041, <code>infoVariant</code>: A, <code>issueNumber</code>: 010, <code>applicationId</code>: app-001</item>
-          <item><code>systemCode</code>: DA3, <code>subSystemCode</code>: 1, <code>infoCode</code>: 411, <code>infoVariant</code>: A, <code>issueNumber</code>: 010, <code>applicationId</code>: app-001</item>
-          <item><code>systemCode</code>: DA3, <code>subSystemCode</code>: 1, <code>infoCode</code>: 921, <code>infoVariant</code>: A, <code>issueNumber</code>: 010, <code>applicationId</code>: app-001</item>
-        </list>
-      </subsection>
-      <subsection>
-        <title>System DA4</title>
-        <list>
-          <item><code>systemCode</code>: DA4, <code>subSystemCode</code>: 0, <code>infoCode</code>: 041, <code>infoVariant</code>: A, <code>issueNumber</code>: 010, <code>applicationId</code>: app-001</item>
-        </list>
-      </subsection>
-    </section>
-    <section>
-      <title>Summary</title>
-      <paragraph>The document details a series of changes or items related to the `S1000DBIKE` model, categorized by system and subsystem. The `issueNumber` and `applicationId` provide further context for each entry. This structure could be used for tracking changes, managing updates, or identifying specific issues within the system.</paragraph>
-    </section>
-  </content>
-</dmc_document>
+    </head>
+    <content>
+      <p>This document summarizes the content of the provided `dmodule` XML, focusing on the `frontMatter` section. The `frontMatter` consists of a list of entries, each describing a change or item related to a specific system, subsystem, and information code.</p>
+      <h2>Front Matter Overview</h2>
+      <p>The `frontMatter` contains a list of `frontMatterSubList` entries, each representing a single item. Key attributes for each entry include:</p>
+      <ul>
+        <li><b>`modelCode`</b>:  `S1000DBIKE` (Consistent across all entries)</li>
+        <li><b>`systemCode`</b>:  Indicates the main system (e.g., `DA4`, `DA5`)</li>
+        <li><b>`subSystemCode`</b>: Specifies a subsystem within the main system (e.g., `0`, `1`, `2`, `3`)</li>
+        <li><b>`infoCode`</b>:  A specific information code identifying the change or item (e.g., `041`, `241`, `251`, `411`)</li>
+        <li><b>`infoVariant`</b>: A variant related to the `infoCode` (e.g., `A`, `B`, `C`)</li>
+        <li><b>`issueNumber`</b>: A numerical identifier for the issue or change.</li>
+        <li><b>`applicationId`</b>: Identifier for the software application related to the change (e.g., `app-001`, `app-006`).</li>
+      </ul>
+      <h2>Detailed List of Front Matter Entries</h2>
+      <p>Here's a breakdown of all the entries, organized by `systemCode` for clarity:</p>
+      <h3>System DA4</h3>
+      <ul>
+        <li>`systemCode`: DA4, `subSystemCode`: 0, `infoCode`: 041, `infoVariant`: A, `issueNumber`: 010, `applicationId`: app-001</li>
+        <li>`systemCode`: DA4, `subSystemCode`: 1, `infoCode`: 241, `infoVariant`: A, `issueNumber`: 011, `applicationId`: app-006</li>
+        <li>`systemCode`: DA4, `subSystemCode`: 1, `infoCode`: 251, `infoVariant`: B, `issueNumber`: 010, `applicationId`: app-001</li>
+        <li>`systemCode`: DA4, `subSystemCode`: 1, `infoCode`: 414, `infoVariant`: A, `issueNumber`: 008, `applicationId`: app-001</li>
+      </ul>
+      <h3>System DA5</h3>
+      <ul>
+        <li>`systemCode`: DA5, `subSystemCode`: 0, `infoCode`: 041, `infoVariant`: A, `issueNumber`: 010, `applicationId`: app-001</li>
+        <li>`systemCode`: DA5, `subSystemCode`: 1, `infoCode`: 041, `infoVariant`: A, `issueNumber`: 010, `applicationId`: app-001</li>
+        <li>`systemCode`: DA5, `subSystemCode`: 2, `infoCode`: 251, `infoVariant`: C, `issueNumber`: 011, `applicationId`: app-001</li>
+        <li>`systemCode`: DA5, `subSystemCode`: 3, `infoCode`: 041, `infoVariant`: A, `issueNumber`: 010, `applicationId`: app-001</li>
+      </ul>
+      <h3>System DA3</h3>
+      <ul>
+        <li>`systemCode`: DA3, `subSystemCode`: 0, `infoCode`: 041, `infoVariant`: A, `issueNumber`: 010, `applicationId`: app-001</li>
+        <li>`systemCode`: DA3, `subSystemCode`: 1, `infoCode`: 411, `infoVariant`: A, `issueNumber`: 010, `applicationId`: app-001</li>
+        <li>`systemCode`: DA3, `subSystemCode`: 1, `infoCode`: 921, `infoVariant`: A, `issueNumber`: 010, `applicationId`: app-001</li>
+      </ul>
+      <h3>System DA4</h3>
+      <ul>
+        <li>`systemCode`: DA4, `subSystemCode`: 0, `infoCode`: 041, `infoVariant`: A, `issueNumber`: 010, `applicationId`: app-001</li>
+      </ul>
+      <h2>Summary</h2>
+      <p>The document details a series of changes or items related to the `S1000DBIKE` model, categorized by system and subsystem. The `issueNumber` and `applicationId` provide further context for each entry. This structure could be used for tracking changes, managing updates, or identifying specific issues within the system.</p>
+    </content>
+  </dm>
+</data>

@@ -9,22 +9,6 @@
       ]
     },
     {
-      "id": "Wiring Data Document This",
-      "label": "Wiring Data Document This",
-      "type": "candidate",
-      "source_units": [
-        1
-      ]
-    },
-    {
-      "id": "DMC",
-      "label": "DMC",
-      "type": "candidate",
-      "source_units": [
-        1
-      ]
-    },
-    {
       "id": "Data",
       "label": "Data",
       "type": "candidate",
@@ -42,11 +26,28 @@
       ]
     },
     {
+      "id": "Wiring Data Document This",
+      "label": "Wiring Data Document This",
+      "type": "candidate",
+      "source_units": [
+        1
+      ]
+    },
+    {
       "id": "Document",
       "label": "Document",
       "type": "candidate",
       "source_units": [
         1
+      ]
+    },
+    {
+      "id": "Wiring",
+      "label": "Wiring",
+      "type": "candidate",
+      "source_units": [
+        1,
+        2
       ]
     },
     {
@@ -62,12 +63,11 @@
       ]
     },
     {
-      "id": "Wiring",
-      "label": "Wiring",
+      "id": "DMC",
+      "label": "DMC",
       "type": "candidate",
       "source_units": [
-        1,
-        2
+        1
       ]
     },
     {
@@ -134,20 +134,21 @@
       ]
     },
     {
+      "id": "Details",
+      "label": "Details",
+      "type": "candidate",
+      "source_units": [
+        4,
+        6
+      ]
+    },
+    {
       "id": "XML",
       "label": "XML",
       "type": "candidate",
       "source_units": [
         4,
         8
-      ]
-    },
-    {
-      "id": "Other",
-      "label": "Other",
-      "type": "candidate",
-      "source_units": [
-        4
       ]
     },
     {
@@ -159,18 +160,49 @@
       ]
     },
     {
-      "id": "Details",
-      "label": "Details",
+      "id": "Other",
+      "label": "Other",
       "type": "candidate",
       "source_units": [
-        4,
-        6
+        4
       ]
     },
     {
       "id": "Wire Alternates (SPEC-0001)",
       "label": "Wire Alternates (SPEC-0001)",
       "type": "heading",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Circuit",
+      "label": "Circuit",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Section Ident",
+      "label": "Section Ident",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Section",
+      "label": "Section",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "AA",
+      "label": "AA",
+      "type": "candidate",
       "source_units": [
         5
       ]
@@ -186,24 +218,8 @@
       ]
     },
     {
-      "id": "AA",
-      "label": "AA",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Circuit Ident",
-      "label": "Circuit Ident",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Circuit",
-      "label": "Circuit",
+      "id": "Wire Number",
+      "label": "Wire Number",
       "type": "candidate",
       "source_units": [
         5
@@ -212,39 +228,6 @@
     {
       "id": "SPEC",
       "label": "SPEC",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Number",
-      "label": "Number",
-      "type": "candidate",
-      "source_units": [
-        5,
-        7
-      ]
-    },
-    {
-      "id": "Section",
-      "label": "Section",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Section Ident",
-      "label": "Section Ident",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Wire Number",
-      "label": "Wire Number",
       "type": "candidate",
       "source_units": [
         5
@@ -275,6 +258,23 @@
       ]
     },
     {
+      "id": "Number",
+      "label": "Number",
+      "type": "candidate",
+      "source_units": [
+        5,
+        7
+      ]
+    },
+    {
+      "id": "Circuit Ident",
+      "label": "Circuit Ident",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
       "id": "From Equipment: 6QXA",
       "label": "From Equipment: 6QXA",
       "type": "heading",
@@ -283,32 +283,8 @@
       ]
     },
     {
-      "id": "Potential Connections Order",
-      "label": "Potential Connections Order",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Contact",
-      "label": "Contact",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Screen",
-      "label": "Screen",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Termination",
-      "label": "Termination",
+      "id": "From Equipment",
+      "label": "From Equipment",
       "type": "candidate",
       "source_units": [
         6
@@ -323,56 +299,8 @@
       ]
     },
     {
-      "id": "Instruction",
-      "label": "Instruction",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Block",
-      "label": "Block",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Finishing",
-      "label": "Finishing",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Wire Installation Code",
-      "label": "Wire Installation Code",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Screen Order",
-      "label": "Screen Order",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Twist Value",
-      "label": "Twist Value",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Preparation Info",
-      "label": "Preparation Info",
+      "id": "Preparation",
+      "label": "Preparation",
       "type": "candidate",
       "source_units": [
         6
@@ -387,16 +315,56 @@
       ]
     },
     {
-      "id": "Block Grouping Value",
-      "label": "Block Grouping Value",
+      "id": "Screen Level",
+      "label": "Screen Level",
       "type": "candidate",
       "source_units": [
         6
       ]
     },
     {
-      "id": "Electrical",
-      "label": "Electrical",
+      "id": "Preparation Info",
+      "label": "Preparation Info",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Style",
+      "label": "Style",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Level",
+      "label": "Level",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Contact",
+      "label": "Contact",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Screen Type",
+      "label": "Screen Type",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Block",
+      "label": "Block",
       "type": "candidate",
       "source_units": [
         6
@@ -411,40 +379,16 @@
       ]
     },
     {
-      "id": "Shunt",
-      "label": "Shunt",
+      "id": "Installation",
+      "label": "Installation",
       "type": "candidate",
       "source_units": [
         6
       ]
     },
     {
-      "id": "Shunt Grouping Value",
-      "label": "Shunt Grouping Value",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Value",
-      "label": "Value",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Grouping",
-      "label": "Grouping",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Termination Module Grouping Value",
-      "label": "Termination Module Grouping Value",
+      "id": "Twist",
+      "label": "Twist",
       "type": "candidate",
       "source_units": [
         6
@@ -460,121 +404,16 @@
       ]
     },
     {
-      "id": "Contact Order Value",
-      "label": "Contact Order Value",
+      "id": "Potential",
+      "label": "Potential",
       "type": "candidate",
       "source_units": [
         6
       ]
     },
     {
-      "id": "Code",
-      "label": "Code",
-      "type": "candidate",
-      "source_units": [
-        6,
-        7
-      ]
-    },
-    {
-      "id": "Instruction Ident",
-      "label": "Instruction Ident",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Connection Details",
-      "label": "Connection Details",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Style",
-      "label": "Style",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Screen Type",
-      "label": "Screen Type",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Equipment",
-      "label": "Equipment",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Preparation",
-      "label": "Preparation",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Order",
-      "label": "Order",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Finishing Info",
-      "label": "Finishing Info",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Screen Group",
-      "label": "Screen Group",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Connections",
-      "label": "Connections",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Special",
-      "label": "Special",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Twist",
-      "label": "Twist",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "From",
-      "label": "From",
+      "id": "Screen Order",
+      "label": "Screen Order",
       "type": "candidate",
       "source_units": [
         6
@@ -589,8 +428,96 @@
       ]
     },
     {
-      "id": "Installation",
-      "label": "Installation",
+      "id": "Wire Installation Code",
+      "label": "Wire Installation Code",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Connections",
+      "label": "Connections",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Termination Module Grouping Value",
+      "label": "Termination Module Grouping Value",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Shunt Grouping Value",
+      "label": "Shunt Grouping Value",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Finishing Info",
+      "label": "Finishing Info",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Value",
+      "label": "Value",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Finishing",
+      "label": "Finishing",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Block Grouping Value",
+      "label": "Block Grouping Value",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Instruction Ident",
+      "label": "Instruction Ident",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "From",
+      "label": "From",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Termination",
+      "label": "Termination",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Contact Order Value",
+      "label": "Contact Order Value",
       "type": "candidate",
       "source_units": [
         6
@@ -605,6 +532,22 @@
       ]
     },
     {
+      "id": "Shunt",
+      "label": "Shunt",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Screen",
+      "label": "Screen",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
       "id": "Connection",
       "label": "Connection",
       "type": "candidate",
@@ -613,8 +556,40 @@
       ]
     },
     {
-      "id": "Potential",
-      "label": "Potential",
+      "id": "Connection Details",
+      "label": "Connection Details",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Twist Value",
+      "label": "Twist Value",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Equipment",
+      "label": "Equipment",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Twist Type",
+      "label": "Twist Type",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Grouping",
+      "label": "Grouping",
       "type": "candidate",
       "source_units": [
         6
@@ -630,32 +605,57 @@
       ]
     },
     {
-      "id": "From Equipment",
-      "label": "From Equipment",
+      "id": "Special",
+      "label": "Special",
       "type": "candidate",
       "source_units": [
         6
       ]
     },
     {
-      "id": "Twist Type",
-      "label": "Twist Type",
+      "id": "Instruction",
+      "label": "Instruction",
       "type": "candidate",
       "source_units": [
         6
       ]
     },
     {
-      "id": "Screen Level",
-      "label": "Screen Level",
+      "id": "Order",
+      "label": "Order",
       "type": "candidate",
       "source_units": [
         6
       ]
     },
     {
-      "id": "Level",
-      "label": "Level",
+      "id": "Screen Group",
+      "label": "Screen Group",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Electrical",
+      "label": "Electrical",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Code",
+      "label": "Code",
+      "type": "candidate",
+      "source_units": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "Potential Connections Order",
+      "label": "Potential Connections Order",
       "type": "candidate",
       "source_units": [
         6
@@ -670,54 +670,6 @@
       ]
     },
     {
-      "id": "Feed Thru",
-      "label": "Feed Thru",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Flag",
-      "label": "Flag",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Responsible",
-      "label": "Responsible",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Wire Type",
-      "label": "Wire Type",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Harness Ident",
-      "label": "Harness Ident",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Functional Item Number",
-      "label": "Functional Item Number",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
       "id": "Routing",
       "label": "Routing",
       "type": "candidate",
@@ -726,328 +678,8 @@
       ]
     },
     {
-      "id": "Route",
-      "label": "Route",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Restriction",
-      "label": "Restriction",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Clipping",
-      "label": "Clipping",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Company",
-      "label": "Company",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Higher",
-      "label": "Higher",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Change",
-      "label": "Change",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "AC",
-      "label": "AC",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Part Number",
-      "label": "Part Number",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Hole Ident",
-      "label": "Hole Ident",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Wire Color",
-      "label": "Wire Color",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Wire Sequence Number",
-      "label": "Wire Sequence Number",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Sequence",
-      "label": "Sequence",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Name",
-      "label": "Name",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Coaxial Cable Flag",
-      "label": "Coaxial Cable Flag",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Color",
-      "label": "Color",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "AWG",
-      "label": "AWG",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Feed",
-      "label": "Feed",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Functional",
-      "label": "Functional",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Wire Code",
-      "label": "Wire Code",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Next Higher Assembly",
-      "label": "Next Higher Assembly",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Signal Info",
-      "label": "Signal Info",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Triaxial",
-      "label": "Triaxial",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Wire Route",
-      "label": "Wire Route",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Hole",
-      "label": "Hole",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Coaxial",
-      "label": "Coaxial",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Gauge",
-      "label": "Gauge",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Signal",
-      "label": "Signal",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Triaxial Cable Flag",
-      "label": "Triaxial Cable Flag",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Assembly",
-      "label": "Assembly",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Wire Info",
-      "label": "Wire Info",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Partner",
-      "label": "Partner",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Next",
-      "label": "Next",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Responsible Partner Company",
-      "label": "Responsible Partner Company",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Item",
-      "label": "Item",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Length",
-      "label": "Length",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Authority",
-      "label": "Authority",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Harness",
-      "label": "Harness",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Point",
-      "label": "Point",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Change Authority Condition Number",
-      "label": "Change Authority Condition Number",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "QC",
-      "label": "QC",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "None",
-      "label": "None",
+      "id": "AD",
+      "label": "AD",
       "type": "candidate",
       "source_units": [
         7
@@ -1070,48 +702,56 @@
       ]
     },
     {
-      "id": "Thru",
-      "label": "Thru",
+      "id": "Hole Ident",
+      "label": "Hole Ident",
       "type": "candidate",
       "source_units": [
         7
       ]
     },
     {
-      "id": "EMC",
-      "label": "EMC",
+      "id": "Item",
+      "label": "Item",
       "type": "candidate",
       "source_units": [
         7
       ]
     },
     {
-      "id": "Change Authority Data",
-      "label": "Change Authority Data",
+      "id": "Feed Thru",
+      "label": "Feed Thru",
       "type": "candidate",
       "source_units": [
         7
       ]
     },
     {
-      "id": "AD",
-      "label": "AD",
+      "id": "Functional",
+      "label": "Functional",
       "type": "candidate",
       "source_units": [
         7
       ]
     },
     {
-      "id": "Part",
-      "label": "Part",
+      "id": "Wire Info",
+      "label": "Wire Info",
       "type": "candidate",
       "source_units": [
         7
       ]
     },
     {
-      "id": "Change Authority Type Name",
-      "label": "Change Authority Type Name",
+      "id": "Triaxial Cable Flag",
+      "label": "Triaxial Cable Flag",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "QC",
+      "label": "QC",
       "type": "candidate",
       "source_units": [
         7
@@ -1126,8 +766,368 @@
       ]
     },
     {
+      "id": "Wire Type",
+      "label": "Wire Type",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Point",
+      "label": "Point",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Assembly",
+      "label": "Assembly",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Change Authority Type Name",
+      "label": "Change Authority Type Name",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Next",
+      "label": "Next",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Authority",
+      "label": "Authority",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "AWG",
+      "label": "AWG",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Harness",
+      "label": "Harness",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "EMC",
+      "label": "EMC",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Thru",
+      "label": "Thru",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Restriction",
+      "label": "Restriction",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Clipping",
+      "label": "Clipping",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Higher",
+      "label": "Higher",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Signal Info",
+      "label": "Signal Info",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Part",
+      "label": "Part",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Route",
+      "label": "Route",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Feed",
+      "label": "Feed",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Change Authority Data",
+      "label": "Change Authority Data",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "AC",
+      "label": "AC",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
       "id": "Cable",
       "label": "Cable",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Harness Ident",
+      "label": "Harness Ident",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Sequence",
+      "label": "Sequence",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Next Higher Assembly",
+      "label": "Next Higher Assembly",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Part Number",
+      "label": "Part Number",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Change Authority Condition Number",
+      "label": "Change Authority Condition Number",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Wire Color",
+      "label": "Wire Color",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Responsible Partner Company",
+      "label": "Responsible Partner Company",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Partner",
+      "label": "Partner",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Wire Code",
+      "label": "Wire Code",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Change",
+      "label": "Change",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Functional Item Number",
+      "label": "Functional Item Number",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Color",
+      "label": "Color",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Length",
+      "label": "Length",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Wire Sequence Number",
+      "label": "Wire Sequence Number",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Coaxial",
+      "label": "Coaxial",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Flag",
+      "label": "Flag",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Signal",
+      "label": "Signal",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Responsible",
+      "label": "Responsible",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Coaxial Cable Flag",
+      "label": "Coaxial Cable Flag",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Hole",
+      "label": "Hole",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "None",
+      "label": "None",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Name",
+      "label": "Name",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Gauge",
+      "label": "Gauge",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Triaxial",
+      "label": "Triaxial",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Wire Route",
+      "label": "Wire Route",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Company",
+      "label": "Company",
       "type": "candidate",
       "source_units": [
         7
@@ -1151,16 +1151,16 @@
       ]
     },
     {
-      "id": "view",
-      "label": "view",
+      "id": "allows",
+      "label": "allows",
       "type": "candidate",
       "source_units": [
         8
       ]
     },
     {
-      "id": "allows",
-      "label": "allows",
+      "id": "view",
+      "label": "view",
       "type": "candidate",
       "source_units": [
         8
@@ -1168,22 +1168,6 @@
     }
   ],
   "edges": [
-    {
-      "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
-      "target": "Wiring Data Document This",
-      "weight": 1,
-      "units": [
-        1
-      ]
-    },
-    {
-      "source": "DMC",
-      "target": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
-      "weight": 1,
-      "units": [
-        1
-      ]
-    },
     {
       "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
       "target": "Data",
@@ -1202,7 +1186,7 @@
     },
     {
       "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
-      "target": "Document",
+      "target": "Wiring Data Document This",
       "weight": 1,
       "units": [
         1
@@ -1210,7 +1194,7 @@
     },
     {
       "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
-      "target": "This",
+      "target": "Document",
       "weight": 1,
       "units": [
         1
@@ -1225,7 +1209,23 @@
       ]
     },
     {
-      "source": "Group",
+      "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
+      "target": "This",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "DMC",
+      "target": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "This",
       "target": "Wiring Group",
       "weight": 1,
       "units": [
@@ -1233,7 +1233,7 @@
       ]
     },
     {
-      "source": "This",
+      "source": "Group",
       "target": "Wiring Group",
       "weight": 1,
       "units": [
@@ -1265,7 +1265,7 @@
       ]
     },
     {
-      "source": "This",
+      "source": "Group",
       "target": "Wire Group 1",
       "weight": 1,
       "units": [
@@ -1273,7 +1273,7 @@
       ]
     },
     {
-      "source": "Group",
+      "source": "This",
       "target": "Wire Group 1",
       "weight": 1,
       "units": [
@@ -1290,23 +1290,7 @@
     },
     {
       "source": "Wires",
-      "target": "XML",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Other",
       "target": "Wires",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Wires",
-      "target": "omitted",
       "weight": 1,
       "units": [
         4
@@ -1322,6 +1306,22 @@
     },
     {
       "source": "Wires",
+      "target": "XML",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Wires",
+      "target": "omitted",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Other",
       "target": "Wires",
       "weight": 1,
       "units": [
@@ -1337,63 +1337,7 @@
       ]
     },
     {
-      "source": "Ident",
-      "target": "Wire Alternates (SPEC-0001)",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "AA",
-      "target": "Wire Alternates (SPEC-0001)",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "Circuit Ident",
-      "target": "Wire Alternates (SPEC-0001)",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
       "source": "Circuit",
-      "target": "Wire Alternates (SPEC-0001)",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "SPEC",
-      "target": "Wire Alternates (SPEC-0001)",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "Number",
-      "target": "Wire Alternates (SPEC-0001)",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "This",
-      "target": "Wire Alternates (SPEC-0001)",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "Section",
       "target": "Wire Alternates (SPEC-0001)",
       "weight": 1,
       "units": [
@@ -1409,8 +1353,40 @@
       ]
     },
     {
+      "source": "Section",
+      "target": "Wire Alternates (SPEC-0001)",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "AA",
+      "target": "Wire Alternates (SPEC-0001)",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Ident",
+      "target": "Wire Alternates (SPEC-0001)",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
       "source": "Wire Alternates (SPEC-0001)",
       "target": "Wire Number",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "SPEC",
+      "target": "Wire Alternates (SPEC-0001)",
       "weight": 1,
       "units": [
         5
@@ -1449,32 +1425,32 @@
       ]
     },
     {
-      "source": "From Equipment: 6QXA",
-      "target": "Potential Connections Order",
+      "source": "This",
+      "target": "Wire Alternates (SPEC-0001)",
       "weight": 1,
       "units": [
-        6
+        5
       ]
     },
     {
-      "source": "Contact",
+      "source": "Number",
+      "target": "Wire Alternates (SPEC-0001)",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Circuit Ident",
+      "target": "Wire Alternates (SPEC-0001)",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "From Equipment",
       "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Screen",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Termination",
       "weight": 1,
       "units": [
         6
@@ -1489,8 +1465,8 @@
       ]
     },
     {
-      "source": "Details",
-      "target": "From Equipment: 6QXA",
+      "source": "From Equipment: 6QXA",
+      "target": "Preparation",
       "weight": 1,
       "units": [
         6
@@ -1498,23 +1474,7 @@
     },
     {
       "source": "From Equipment: 6QXA",
-      "target": "Instruction",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Block",
-      "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Finishing",
-      "target": "From Equipment: 6QXA",
+      "target": "Special Connection",
       "weight": 1,
       "units": [
         6
@@ -1522,23 +1482,7 @@
     },
     {
       "source": "From Equipment: 6QXA",
-      "target": "Wire Installation Code",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Screen Order",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Twist Value",
+      "target": "Screen Level",
       "weight": 1,
       "units": [
         6
@@ -1554,14 +1498,22 @@
     },
     {
       "source": "From Equipment: 6QXA",
-      "target": "Special Connection",
+      "target": "Style",
       "weight": 1,
       "units": [
         6
       ]
     },
     {
-      "source": "Block Grouping Value",
+      "source": "From Equipment: 6QXA",
+      "target": "Level",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Contact",
       "target": "From Equipment: 6QXA",
       "weight": 1,
       "units": [
@@ -1569,7 +1521,15 @@
       ]
     },
     {
-      "source": "Electrical",
+      "source": "From Equipment: 6QXA",
+      "target": "Screen Type",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Block",
       "target": "From Equipment: 6QXA",
       "weight": 1,
       "units": [
@@ -1586,167 +1546,7 @@
     },
     {
       "source": "From Equipment: 6QXA",
-      "target": "Ident",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Shunt",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Shunt Grouping Value",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Value",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Grouping",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Termination Module Grouping Value",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Type",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Contact Order Value",
-      "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Code",
-      "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Instruction Ident",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Connection Details",
-      "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Style",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Screen Type",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Equipment",
-      "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Preparation",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Order",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Finishing Info",
-      "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Screen Group",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Connections",
-      "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Special",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Wire",
+      "target": "Installation",
       "weight": 1,
       "units": [
         6
@@ -1761,40 +1561,8 @@
       ]
     },
     {
-      "source": "From",
-      "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
       "source": "From Equipment: 6QXA",
-      "target": "Twist Group",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "From Equipment: 6QXA",
-      "target": "Installation",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Electrical Potential",
-      "target": "From Equipment: 6QXA",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Connection",
-      "target": "From Equipment: 6QXA",
+      "target": "Type",
       "weight": 1,
       "units": [
         6
@@ -1810,7 +1578,55 @@
     },
     {
       "source": "From Equipment: 6QXA",
-      "target": "Info",
+      "target": "Screen Order",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Twist Group",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Wire Installation Code",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Connections",
+      "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Termination Module Grouping Value",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Shunt Grouping Value",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Finishing Info",
+      "target": "From Equipment: 6QXA",
       "weight": 1,
       "units": [
         6
@@ -1825,8 +1641,136 @@
       ]
     },
     {
-      "source": "From Equipment",
+      "source": "From Equipment: 6QXA",
+      "target": "Value",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Finishing",
       "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Block Grouping Value",
+      "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Instruction Ident",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From",
+      "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Termination",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Contact Order Value",
+      "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Ident",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Electrical Potential",
+      "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Shunt",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Details",
+      "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Screen",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Connection",
+      "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Connection Details",
+      "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Twist Value",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Equipment",
+      "target": "From Equipment: 6QXA",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Wire",
       "weight": 1,
       "units": [
         6
@@ -1842,7 +1786,7 @@
     },
     {
       "source": "From Equipment: 6QXA",
-      "target": "Screen Level",
+      "target": "Grouping",
       "weight": 1,
       "units": [
         6
@@ -1850,58 +1794,66 @@
     },
     {
       "source": "From Equipment: 6QXA",
-      "target": "Level",
+      "target": "Info",
       "weight": 1,
       "units": [
         6
       ]
     },
     {
-      "source": "Feed Thru",
-      "target": "Wire Info:",
+      "source": "From Equipment: 6QXA",
+      "target": "Special",
       "weight": 1,
       "units": [
-        7
+        6
       ]
     },
     {
-      "source": "Flag",
-      "target": "Wire Info:",
+      "source": "From Equipment: 6QXA",
+      "target": "Instruction",
       "weight": 1,
       "units": [
-        7
+        6
       ]
     },
     {
-      "source": "Responsible",
-      "target": "Wire Info:",
+      "source": "From Equipment: 6QXA",
+      "target": "Order",
       "weight": 1,
       "units": [
-        7
+        6
       ]
     },
     {
-      "source": "Wire Info:",
-      "target": "Wire Type",
+      "source": "From Equipment: 6QXA",
+      "target": "Screen Group",
       "weight": 1,
       "units": [
-        7
+        6
       ]
     },
     {
-      "source": "Harness Ident",
-      "target": "Wire Info:",
+      "source": "Electrical",
+      "target": "From Equipment: 6QXA",
       "weight": 1,
       "units": [
-        7
+        6
       ]
     },
     {
-      "source": "Functional Item Number",
-      "target": "Wire Info:",
+      "source": "Code",
+      "target": "From Equipment: 6QXA",
       "weight": 1,
       "units": [
-        7
+        6
+      ]
+    },
+    {
+      "source": "From Equipment: 6QXA",
+      "target": "Potential Connections Order",
+      "weight": 1,
+      "units": [
+        6
       ]
     },
     {
@@ -1913,367 +1865,7 @@
       ]
     },
     {
-      "source": "Route",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Restriction",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Clipping",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Company",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Higher",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Change",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "AC",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Part Number",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Hole Ident",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Ident",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Wire Color",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Wire Info:",
-      "target": "Wire Sequence Number",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Sequence",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Name",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Coaxial Cable Flag",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Number",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Color",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "AWG",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Type",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Feed",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Code",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Functional",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Wire Code",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Next Higher Assembly",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Signal Info",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Triaxial",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Wire Info:",
-      "target": "Wire Route",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Hole",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Coaxial",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Gauge",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Signal",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Triaxial Cable Flag",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Assembly",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Wire Info",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Partner",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Next",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Responsible Partner Company",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Wire",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Item",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Length",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Authority",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Harness",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Point",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Change Authority Condition Number",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "QC",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "None",
+      "source": "AD",
       "target": "Wire Info:",
       "weight": 1,
       "units": [
@@ -2297,7 +1889,7 @@
       ]
     },
     {
-      "source": "Thru",
+      "source": "Hole Ident",
       "target": "Wire Info:",
       "weight": 1,
       "units": [
@@ -2305,7 +1897,39 @@
       ]
     },
     {
-      "source": "EMC",
+      "source": "Item",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Feed Thru",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Functional",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Wire Info",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Triaxial Cable Flag",
       "target": "Wire Info:",
       "weight": 1,
       "units": [
@@ -2321,39 +1945,7 @@
       ]
     },
     {
-      "source": "Change Authority Data",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Info",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "AD",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Part",
-      "target": "Wire Info:",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "Change Authority Type Name",
+      "source": "QC",
       "target": "Wire Info:",
       "weight": 1,
       "units": [
@@ -2369,6 +1961,166 @@
       ]
     },
     {
+      "source": "Wire Info:",
+      "target": "Wire Type",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Point",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Assembly",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Change Authority Type Name",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Next",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Authority",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "AWG",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Harness",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "EMC",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Thru",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Restriction",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Clipping",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Higher",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Signal Info",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Type",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Part",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Route",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Feed",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Change Authority Data",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "AC",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
       "source": "Cable",
       "target": "Wire Info:",
       "weight": 1,
@@ -2377,8 +2129,256 @@
       ]
     },
     {
+      "source": "Harness Ident",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Sequence",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Next Higher Assembly",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Part Number",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Ident",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Change Authority Condition Number",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Wire Color",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Responsible Partner Company",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Partner",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Wire",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Wire Code",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Change",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Functional Item Number",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Color",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Length",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Info",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Wire Info:",
+      "target": "Wire Sequence Number",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Coaxial",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Flag",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Signal",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Responsible",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Coaxial Cable Flag",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Hole",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "None",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Name",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Gauge",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Triaxial",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Number",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Code",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Wire Info:",
+      "target": "Wire Route",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "Company",
+      "target": "Wire Info:",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
       "source": "Summary",
-      "target": "XML",
+      "target": "Summary",
       "weight": 1,
       "units": [
         8
@@ -2394,23 +2394,7 @@
     },
     {
       "source": "Summary",
-      "target": "view",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Summary",
-      "target": "Summary",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "Summary",
-      "target": "This",
+      "target": "XML",
       "weight": 1,
       "units": [
         8
@@ -2419,6 +2403,22 @@
     {
       "source": "Summary",
       "target": "allows",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Summary",
+      "target": "view",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "Summary",
+      "target": "This",
       "weight": 1,
       "units": [
         8
@@ -2436,16 +2436,6 @@
         "id": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document"
       },
       {
-        "label": "Wiring Data Document This",
-        "type": "candidate",
-        "id": "Wiring Data Document This"
-      },
-      {
-        "label": "DMC",
-        "type": "candidate",
-        "id": "DMC"
-      },
-      {
         "label": "Data",
         "type": "candidate",
         "id": "Data"
@@ -2456,9 +2446,19 @@
         "id": "AAA"
       },
       {
+        "label": "Wiring Data Document This",
+        "type": "candidate",
+        "id": "Wiring Data Document This"
+      },
+      {
         "label": "Document",
         "type": "candidate",
         "id": "Document"
+      },
+      {
+        "label": "Wiring",
+        "type": "candidate",
+        "id": "Wiring"
       },
       {
         "label": "This",
@@ -2466,9 +2466,9 @@
         "id": "This"
       },
       {
-        "label": "Wiring",
+        "label": "DMC",
         "type": "candidate",
-        "id": "Wiring"
+        "id": "DMC"
       },
       {
         "label": "Wiring Group",
@@ -2506,14 +2506,14 @@
         "id": "Wires"
       },
       {
+        "label": "Details",
+        "type": "candidate",
+        "id": "Details"
+      },
+      {
         "label": "XML",
         "type": "candidate",
         "id": "XML"
-      },
-      {
-        "label": "Other",
-        "type": "candidate",
-        "id": "Other"
       },
       {
         "label": "omitted",
@@ -2521,9 +2521,9 @@
         "id": "omitted"
       },
       {
-        "label": "Details",
+        "label": "Other",
         "type": "candidate",
-        "id": "Details"
+        "id": "Other"
       },
       {
         "label": "Wire Alternates (SPEC-0001)",
@@ -2531,39 +2531,9 @@
         "id": "Wire Alternates (SPEC-0001)"
       },
       {
-        "label": "Ident",
-        "type": "candidate",
-        "id": "Ident"
-      },
-      {
-        "label": "AA",
-        "type": "candidate",
-        "id": "AA"
-      },
-      {
-        "label": "Circuit Ident",
-        "type": "candidate",
-        "id": "Circuit Ident"
-      },
-      {
         "label": "Circuit",
         "type": "candidate",
         "id": "Circuit"
-      },
-      {
-        "label": "SPEC",
-        "type": "candidate",
-        "id": "SPEC"
-      },
-      {
-        "label": "Number",
-        "type": "candidate",
-        "id": "Number"
-      },
-      {
-        "label": "Section",
-        "type": "candidate",
-        "id": "Section"
       },
       {
         "label": "Section Ident",
@@ -2571,9 +2541,29 @@
         "id": "Section Ident"
       },
       {
+        "label": "Section",
+        "type": "candidate",
+        "id": "Section"
+      },
+      {
+        "label": "AA",
+        "type": "candidate",
+        "id": "AA"
+      },
+      {
+        "label": "Ident",
+        "type": "candidate",
+        "id": "Ident"
+      },
+      {
         "label": "Wire Number",
         "type": "candidate",
         "id": "Wire Number"
+      },
+      {
+        "label": "SPEC",
+        "type": "candidate",
+        "id": "SPEC"
       },
       {
         "label": "YD",
@@ -2591,224 +2581,19 @@
         "id": "Wire Alternates"
       },
       {
+        "label": "Number",
+        "type": "candidate",
+        "id": "Number"
+      },
+      {
+        "label": "Circuit Ident",
+        "type": "candidate",
+        "id": "Circuit Ident"
+      },
+      {
         "label": "From Equipment: 6QXA",
         "type": "heading",
         "id": "From Equipment: 6QXA"
-      },
-      {
-        "label": "Potential Connections Order",
-        "type": "candidate",
-        "id": "Potential Connections Order"
-      },
-      {
-        "label": "Contact",
-        "type": "candidate",
-        "id": "Contact"
-      },
-      {
-        "label": "Screen",
-        "type": "candidate",
-        "id": "Screen"
-      },
-      {
-        "label": "Termination",
-        "type": "candidate",
-        "id": "Termination"
-      },
-      {
-        "label": "Screen Style",
-        "type": "candidate",
-        "id": "Screen Style"
-      },
-      {
-        "label": "Instruction",
-        "type": "candidate",
-        "id": "Instruction"
-      },
-      {
-        "label": "Block",
-        "type": "candidate",
-        "id": "Block"
-      },
-      {
-        "label": "Finishing",
-        "type": "candidate",
-        "id": "Finishing"
-      },
-      {
-        "label": "Wire Installation Code",
-        "type": "candidate",
-        "id": "Wire Installation Code"
-      },
-      {
-        "label": "Screen Order",
-        "type": "candidate",
-        "id": "Screen Order"
-      },
-      {
-        "label": "Twist Value",
-        "type": "candidate",
-        "id": "Twist Value"
-      },
-      {
-        "label": "Preparation Info",
-        "type": "candidate",
-        "id": "Preparation Info"
-      },
-      {
-        "label": "Special Connection",
-        "type": "candidate",
-        "id": "Special Connection"
-      },
-      {
-        "label": "Block Grouping Value",
-        "type": "candidate",
-        "id": "Block Grouping Value"
-      },
-      {
-        "label": "Electrical",
-        "type": "candidate",
-        "id": "Electrical"
-      },
-      {
-        "label": "Module",
-        "type": "candidate",
-        "id": "Module"
-      },
-      {
-        "label": "Shunt",
-        "type": "candidate",
-        "id": "Shunt"
-      },
-      {
-        "label": "Shunt Grouping Value",
-        "type": "candidate",
-        "id": "Shunt Grouping Value"
-      },
-      {
-        "label": "Value",
-        "type": "candidate",
-        "id": "Value"
-      },
-      {
-        "label": "Grouping",
-        "type": "candidate",
-        "id": "Grouping"
-      },
-      {
-        "label": "Termination Module Grouping Value",
-        "type": "candidate",
-        "id": "Termination Module Grouping Value"
-      },
-      {
-        "label": "Type",
-        "type": "candidate",
-        "id": "Type"
-      },
-      {
-        "label": "Contact Order Value",
-        "type": "candidate",
-        "id": "Contact Order Value"
-      },
-      {
-        "label": "Code",
-        "type": "candidate",
-        "id": "Code"
-      },
-      {
-        "label": "Instruction Ident",
-        "type": "candidate",
-        "id": "Instruction Ident"
-      },
-      {
-        "label": "Connection Details",
-        "type": "candidate",
-        "id": "Connection Details"
-      },
-      {
-        "label": "Style",
-        "type": "candidate",
-        "id": "Style"
-      },
-      {
-        "label": "Screen Type",
-        "type": "candidate",
-        "id": "Screen Type"
-      },
-      {
-        "label": "Equipment",
-        "type": "candidate",
-        "id": "Equipment"
-      },
-      {
-        "label": "Preparation",
-        "type": "candidate",
-        "id": "Preparation"
-      },
-      {
-        "label": "Order",
-        "type": "candidate",
-        "id": "Order"
-      },
-      {
-        "label": "Finishing Info",
-        "type": "candidate",
-        "id": "Finishing Info"
-      },
-      {
-        "label": "Screen Group",
-        "type": "candidate",
-        "id": "Screen Group"
-      },
-      {
-        "label": "Connections",
-        "type": "candidate",
-        "id": "Connections"
-      },
-      {
-        "label": "Special",
-        "type": "candidate",
-        "id": "Special"
-      },
-      {
-        "label": "Twist",
-        "type": "candidate",
-        "id": "Twist"
-      },
-      {
-        "label": "From",
-        "type": "candidate",
-        "id": "From"
-      },
-      {
-        "label": "Twist Group",
-        "type": "candidate",
-        "id": "Twist Group"
-      },
-      {
-        "label": "Installation",
-        "type": "candidate",
-        "id": "Installation"
-      },
-      {
-        "label": "Electrical Potential",
-        "type": "candidate",
-        "id": "Electrical Potential"
-      },
-      {
-        "label": "Connection",
-        "type": "candidate",
-        "id": "Connection"
-      },
-      {
-        "label": "Potential",
-        "type": "candidate",
-        "id": "Potential"
-      },
-      {
-        "label": "Info",
-        "type": "candidate",
-        "id": "Info"
       },
       {
         "label": "From Equipment",
@@ -2816,9 +2601,19 @@
         "id": "From Equipment"
       },
       {
-        "label": "Twist Type",
+        "label": "Screen Style",
         "type": "candidate",
-        "id": "Twist Type"
+        "id": "Screen Style"
+      },
+      {
+        "label": "Preparation",
+        "type": "candidate",
+        "id": "Preparation"
+      },
+      {
+        "label": "Special Connection",
+        "type": "candidate",
+        "id": "Special Connection"
       },
       {
         "label": "Screen Level",
@@ -2826,9 +2621,214 @@
         "id": "Screen Level"
       },
       {
+        "label": "Preparation Info",
+        "type": "candidate",
+        "id": "Preparation Info"
+      },
+      {
+        "label": "Style",
+        "type": "candidate",
+        "id": "Style"
+      },
+      {
         "label": "Level",
         "type": "candidate",
         "id": "Level"
+      },
+      {
+        "label": "Contact",
+        "type": "candidate",
+        "id": "Contact"
+      },
+      {
+        "label": "Screen Type",
+        "type": "candidate",
+        "id": "Screen Type"
+      },
+      {
+        "label": "Block",
+        "type": "candidate",
+        "id": "Block"
+      },
+      {
+        "label": "Module",
+        "type": "candidate",
+        "id": "Module"
+      },
+      {
+        "label": "Installation",
+        "type": "candidate",
+        "id": "Installation"
+      },
+      {
+        "label": "Twist",
+        "type": "candidate",
+        "id": "Twist"
+      },
+      {
+        "label": "Type",
+        "type": "candidate",
+        "id": "Type"
+      },
+      {
+        "label": "Potential",
+        "type": "candidate",
+        "id": "Potential"
+      },
+      {
+        "label": "Screen Order",
+        "type": "candidate",
+        "id": "Screen Order"
+      },
+      {
+        "label": "Twist Group",
+        "type": "candidate",
+        "id": "Twist Group"
+      },
+      {
+        "label": "Wire Installation Code",
+        "type": "candidate",
+        "id": "Wire Installation Code"
+      },
+      {
+        "label": "Connections",
+        "type": "candidate",
+        "id": "Connections"
+      },
+      {
+        "label": "Termination Module Grouping Value",
+        "type": "candidate",
+        "id": "Termination Module Grouping Value"
+      },
+      {
+        "label": "Shunt Grouping Value",
+        "type": "candidate",
+        "id": "Shunt Grouping Value"
+      },
+      {
+        "label": "Finishing Info",
+        "type": "candidate",
+        "id": "Finishing Info"
+      },
+      {
+        "label": "Value",
+        "type": "candidate",
+        "id": "Value"
+      },
+      {
+        "label": "Finishing",
+        "type": "candidate",
+        "id": "Finishing"
+      },
+      {
+        "label": "Block Grouping Value",
+        "type": "candidate",
+        "id": "Block Grouping Value"
+      },
+      {
+        "label": "Instruction Ident",
+        "type": "candidate",
+        "id": "Instruction Ident"
+      },
+      {
+        "label": "From",
+        "type": "candidate",
+        "id": "From"
+      },
+      {
+        "label": "Termination",
+        "type": "candidate",
+        "id": "Termination"
+      },
+      {
+        "label": "Contact Order Value",
+        "type": "candidate",
+        "id": "Contact Order Value"
+      },
+      {
+        "label": "Electrical Potential",
+        "type": "candidate",
+        "id": "Electrical Potential"
+      },
+      {
+        "label": "Shunt",
+        "type": "candidate",
+        "id": "Shunt"
+      },
+      {
+        "label": "Screen",
+        "type": "candidate",
+        "id": "Screen"
+      },
+      {
+        "label": "Connection",
+        "type": "candidate",
+        "id": "Connection"
+      },
+      {
+        "label": "Connection Details",
+        "type": "candidate",
+        "id": "Connection Details"
+      },
+      {
+        "label": "Twist Value",
+        "type": "candidate",
+        "id": "Twist Value"
+      },
+      {
+        "label": "Equipment",
+        "type": "candidate",
+        "id": "Equipment"
+      },
+      {
+        "label": "Twist Type",
+        "type": "candidate",
+        "id": "Twist Type"
+      },
+      {
+        "label": "Grouping",
+        "type": "candidate",
+        "id": "Grouping"
+      },
+      {
+        "label": "Info",
+        "type": "candidate",
+        "id": "Info"
+      },
+      {
+        "label": "Special",
+        "type": "candidate",
+        "id": "Special"
+      },
+      {
+        "label": "Instruction",
+        "type": "candidate",
+        "id": "Instruction"
+      },
+      {
+        "label": "Order",
+        "type": "candidate",
+        "id": "Order"
+      },
+      {
+        "label": "Screen Group",
+        "type": "candidate",
+        "id": "Screen Group"
+      },
+      {
+        "label": "Electrical",
+        "type": "candidate",
+        "id": "Electrical"
+      },
+      {
+        "label": "Code",
+        "type": "candidate",
+        "id": "Code"
+      },
+      {
+        "label": "Potential Connections Order",
+        "type": "candidate",
+        "id": "Potential Connections Order"
       },
       {
         "label": "Wire Info:",
@@ -2836,244 +2836,14 @@
         "id": "Wire Info:"
       },
       {
-        "label": "Feed Thru",
-        "type": "candidate",
-        "id": "Feed Thru"
-      },
-      {
-        "label": "Flag",
-        "type": "candidate",
-        "id": "Flag"
-      },
-      {
-        "label": "Responsible",
-        "type": "candidate",
-        "id": "Responsible"
-      },
-      {
-        "label": "Wire Type",
-        "type": "candidate",
-        "id": "Wire Type"
-      },
-      {
-        "label": "Harness Ident",
-        "type": "candidate",
-        "id": "Harness Ident"
-      },
-      {
-        "label": "Functional Item Number",
-        "type": "candidate",
-        "id": "Functional Item Number"
-      },
-      {
         "label": "Routing",
         "type": "candidate",
         "id": "Routing"
       },
       {
-        "label": "Route",
+        "label": "AD",
         "type": "candidate",
-        "id": "Route"
-      },
-      {
-        "label": "Restriction",
-        "type": "candidate",
-        "id": "Restriction"
-      },
-      {
-        "label": "Clipping",
-        "type": "candidate",
-        "id": "Clipping"
-      },
-      {
-        "label": "Company",
-        "type": "candidate",
-        "id": "Company"
-      },
-      {
-        "label": "Higher",
-        "type": "candidate",
-        "id": "Higher"
-      },
-      {
-        "label": "Change",
-        "type": "candidate",
-        "id": "Change"
-      },
-      {
-        "label": "AC",
-        "type": "candidate",
-        "id": "AC"
-      },
-      {
-        "label": "Part Number",
-        "type": "candidate",
-        "id": "Part Number"
-      },
-      {
-        "label": "Hole Ident",
-        "type": "candidate",
-        "id": "Hole Ident"
-      },
-      {
-        "label": "Wire Color",
-        "type": "candidate",
-        "id": "Wire Color"
-      },
-      {
-        "label": "Wire Sequence Number",
-        "type": "candidate",
-        "id": "Wire Sequence Number"
-      },
-      {
-        "label": "Sequence",
-        "type": "candidate",
-        "id": "Sequence"
-      },
-      {
-        "label": "Name",
-        "type": "candidate",
-        "id": "Name"
-      },
-      {
-        "label": "Coaxial Cable Flag",
-        "type": "candidate",
-        "id": "Coaxial Cable Flag"
-      },
-      {
-        "label": "Color",
-        "type": "candidate",
-        "id": "Color"
-      },
-      {
-        "label": "AWG",
-        "type": "candidate",
-        "id": "AWG"
-      },
-      {
-        "label": "Feed",
-        "type": "candidate",
-        "id": "Feed"
-      },
-      {
-        "label": "Functional",
-        "type": "candidate",
-        "id": "Functional"
-      },
-      {
-        "label": "Wire Code",
-        "type": "candidate",
-        "id": "Wire Code"
-      },
-      {
-        "label": "Next Higher Assembly",
-        "type": "candidate",
-        "id": "Next Higher Assembly"
-      },
-      {
-        "label": "Signal Info",
-        "type": "candidate",
-        "id": "Signal Info"
-      },
-      {
-        "label": "Triaxial",
-        "type": "candidate",
-        "id": "Triaxial"
-      },
-      {
-        "label": "Wire Route",
-        "type": "candidate",
-        "id": "Wire Route"
-      },
-      {
-        "label": "Hole",
-        "type": "candidate",
-        "id": "Hole"
-      },
-      {
-        "label": "Coaxial",
-        "type": "candidate",
-        "id": "Coaxial"
-      },
-      {
-        "label": "Gauge",
-        "type": "candidate",
-        "id": "Gauge"
-      },
-      {
-        "label": "Signal",
-        "type": "candidate",
-        "id": "Signal"
-      },
-      {
-        "label": "Triaxial Cable Flag",
-        "type": "candidate",
-        "id": "Triaxial Cable Flag"
-      },
-      {
-        "label": "Assembly",
-        "type": "candidate",
-        "id": "Assembly"
-      },
-      {
-        "label": "Wire Info",
-        "type": "candidate",
-        "id": "Wire Info"
-      },
-      {
-        "label": "Partner",
-        "type": "candidate",
-        "id": "Partner"
-      },
-      {
-        "label": "Next",
-        "type": "candidate",
-        "id": "Next"
-      },
-      {
-        "label": "Responsible Partner Company",
-        "type": "candidate",
-        "id": "Responsible Partner Company"
-      },
-      {
-        "label": "Item",
-        "type": "candidate",
-        "id": "Item"
-      },
-      {
-        "label": "Length",
-        "type": "candidate",
-        "id": "Length"
-      },
-      {
-        "label": "Authority",
-        "type": "candidate",
-        "id": "Authority"
-      },
-      {
-        "label": "Harness",
-        "type": "candidate",
-        "id": "Harness"
-      },
-      {
-        "label": "Point",
-        "type": "candidate",
-        "id": "Point"
-      },
-      {
-        "label": "Change Authority Condition Number",
-        "type": "candidate",
-        "id": "Change Authority Condition Number"
-      },
-      {
-        "label": "QC",
-        "type": "candidate",
-        "id": "QC"
-      },
-      {
-        "label": "None",
-        "type": "candidate",
-        "id": "None"
+        "id": "AD"
       },
       {
         "label": "Wire Gauge",
@@ -3086,34 +2856,39 @@
         "id": "Clipping Point"
       },
       {
-        "label": "Thru",
+        "label": "Hole Ident",
         "type": "candidate",
-        "id": "Thru"
+        "id": "Hole Ident"
       },
       {
-        "label": "EMC",
+        "label": "Item",
         "type": "candidate",
-        "id": "EMC"
+        "id": "Item"
       },
       {
-        "label": "Change Authority Data",
+        "label": "Feed Thru",
         "type": "candidate",
-        "id": "Change Authority Data"
+        "id": "Feed Thru"
       },
       {
-        "label": "AD",
+        "label": "Functional",
         "type": "candidate",
-        "id": "AD"
+        "id": "Functional"
       },
       {
-        "label": "Part",
+        "label": "Wire Info",
         "type": "candidate",
-        "id": "Part"
+        "id": "Wire Info"
       },
       {
-        "label": "Change Authority Type Name",
+        "label": "Triaxial Cable Flag",
         "type": "candidate",
-        "id": "Change Authority Type Name"
+        "id": "Triaxial Cable Flag"
+      },
+      {
+        "label": "QC",
+        "type": "candidate",
+        "id": "QC"
       },
       {
         "label": "Condition",
@@ -3121,9 +2896,234 @@
         "id": "Condition"
       },
       {
+        "label": "Wire Type",
+        "type": "candidate",
+        "id": "Wire Type"
+      },
+      {
+        "label": "Point",
+        "type": "candidate",
+        "id": "Point"
+      },
+      {
+        "label": "Assembly",
+        "type": "candidate",
+        "id": "Assembly"
+      },
+      {
+        "label": "Change Authority Type Name",
+        "type": "candidate",
+        "id": "Change Authority Type Name"
+      },
+      {
+        "label": "Next",
+        "type": "candidate",
+        "id": "Next"
+      },
+      {
+        "label": "Authority",
+        "type": "candidate",
+        "id": "Authority"
+      },
+      {
+        "label": "AWG",
+        "type": "candidate",
+        "id": "AWG"
+      },
+      {
+        "label": "Harness",
+        "type": "candidate",
+        "id": "Harness"
+      },
+      {
+        "label": "EMC",
+        "type": "candidate",
+        "id": "EMC"
+      },
+      {
+        "label": "Thru",
+        "type": "candidate",
+        "id": "Thru"
+      },
+      {
+        "label": "Restriction",
+        "type": "candidate",
+        "id": "Restriction"
+      },
+      {
+        "label": "Clipping",
+        "type": "candidate",
+        "id": "Clipping"
+      },
+      {
+        "label": "Higher",
+        "type": "candidate",
+        "id": "Higher"
+      },
+      {
+        "label": "Signal Info",
+        "type": "candidate",
+        "id": "Signal Info"
+      },
+      {
+        "label": "Part",
+        "type": "candidate",
+        "id": "Part"
+      },
+      {
+        "label": "Route",
+        "type": "candidate",
+        "id": "Route"
+      },
+      {
+        "label": "Feed",
+        "type": "candidate",
+        "id": "Feed"
+      },
+      {
+        "label": "Change Authority Data",
+        "type": "candidate",
+        "id": "Change Authority Data"
+      },
+      {
+        "label": "AC",
+        "type": "candidate",
+        "id": "AC"
+      },
+      {
         "label": "Cable",
         "type": "candidate",
         "id": "Cable"
+      },
+      {
+        "label": "Harness Ident",
+        "type": "candidate",
+        "id": "Harness Ident"
+      },
+      {
+        "label": "Sequence",
+        "type": "candidate",
+        "id": "Sequence"
+      },
+      {
+        "label": "Next Higher Assembly",
+        "type": "candidate",
+        "id": "Next Higher Assembly"
+      },
+      {
+        "label": "Part Number",
+        "type": "candidate",
+        "id": "Part Number"
+      },
+      {
+        "label": "Change Authority Condition Number",
+        "type": "candidate",
+        "id": "Change Authority Condition Number"
+      },
+      {
+        "label": "Wire Color",
+        "type": "candidate",
+        "id": "Wire Color"
+      },
+      {
+        "label": "Responsible Partner Company",
+        "type": "candidate",
+        "id": "Responsible Partner Company"
+      },
+      {
+        "label": "Partner",
+        "type": "candidate",
+        "id": "Partner"
+      },
+      {
+        "label": "Wire Code",
+        "type": "candidate",
+        "id": "Wire Code"
+      },
+      {
+        "label": "Change",
+        "type": "candidate",
+        "id": "Change"
+      },
+      {
+        "label": "Functional Item Number",
+        "type": "candidate",
+        "id": "Functional Item Number"
+      },
+      {
+        "label": "Color",
+        "type": "candidate",
+        "id": "Color"
+      },
+      {
+        "label": "Length",
+        "type": "candidate",
+        "id": "Length"
+      },
+      {
+        "label": "Wire Sequence Number",
+        "type": "candidate",
+        "id": "Wire Sequence Number"
+      },
+      {
+        "label": "Coaxial",
+        "type": "candidate",
+        "id": "Coaxial"
+      },
+      {
+        "label": "Flag",
+        "type": "candidate",
+        "id": "Flag"
+      },
+      {
+        "label": "Signal",
+        "type": "candidate",
+        "id": "Signal"
+      },
+      {
+        "label": "Responsible",
+        "type": "candidate",
+        "id": "Responsible"
+      },
+      {
+        "label": "Coaxial Cable Flag",
+        "type": "candidate",
+        "id": "Coaxial Cable Flag"
+      },
+      {
+        "label": "Hole",
+        "type": "candidate",
+        "id": "Hole"
+      },
+      {
+        "label": "None",
+        "type": "candidate",
+        "id": "None"
+      },
+      {
+        "label": "Name",
+        "type": "candidate",
+        "id": "Name"
+      },
+      {
+        "label": "Gauge",
+        "type": "candidate",
+        "id": "Gauge"
+      },
+      {
+        "label": "Triaxial",
+        "type": "candidate",
+        "id": "Triaxial"
+      },
+      {
+        "label": "Wire Route",
+        "type": "candidate",
+        "id": "Wire Route"
+      },
+      {
+        "label": "Company",
+        "type": "candidate",
+        "id": "Company"
       },
       {
         "label": "Summary",
@@ -3136,33 +3136,17 @@
         "id": "Summary This"
       },
       {
-        "label": "view",
-        "type": "candidate",
-        "id": "view"
-      },
-      {
         "label": "allows",
         "type": "candidate",
         "id": "allows"
+      },
+      {
+        "label": "view",
+        "type": "candidate",
+        "id": "view"
       }
     ],
     "links": [
-      {
-        "weight": 1,
-        "units": [
-          1
-        ],
-        "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
-        "target": "Wiring Data Document This"
-      },
-      {
-        "weight": 1,
-        "units": [
-          1
-        ],
-        "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
-        "target": "DMC"
-      },
       {
         "weight": 1,
         "units": [
@@ -3185,7 +3169,23 @@
           1
         ],
         "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
+        "target": "Wiring Data Document This"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
         "target": "Document"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
+        "target": "Wiring"
       },
       {
         "weight": 1,
@@ -3201,7 +3201,7 @@
           1
         ],
         "source": "DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document",
-        "target": "Wiring"
+        "target": "DMC"
       },
       {
         "weight": 1,
@@ -3210,6 +3210,14 @@
         ],
         "source": "Data",
         "target": "Wire Info:"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "Wiring",
+        "target": "Wiring Group"
       },
       {
         "weight": 1,
@@ -3242,14 +3250,6 @@
         ],
         "source": "This",
         "target": "Summary"
-      },
-      {
-        "weight": 1,
-        "units": [
-          2
-        ],
-        "source": "Wiring",
-        "target": "Wiring Group"
       },
       {
         "weight": 1,
@@ -3337,23 +3337,7 @@
           4
         ],
         "source": "Wires",
-        "target": "XML"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Wires",
-        "target": "Other"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Wires",
-        "target": "omitted"
+        "target": "Wires"
       },
       {
         "weight": 1,
@@ -3369,15 +3353,23 @@
           4
         ],
         "source": "Wires",
-        "target": "Wires"
+        "target": "XML"
       },
       {
         "weight": 1,
         "units": [
-          8
+          4
         ],
-        "source": "XML",
-        "target": "Summary"
+        "source": "Wires",
+        "target": "omitted"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Wires",
+        "target": "Other"
       },
       {
         "weight": 1,
@@ -3390,26 +3382,10 @@
       {
         "weight": 1,
         "units": [
-          5
+          8
         ],
-        "source": "Wire Alternates (SPEC-0001)",
-        "target": "Ident"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "Wire Alternates (SPEC-0001)",
-        "target": "AA"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "Wire Alternates (SPEC-0001)",
-        "target": "Circuit Ident"
+        "source": "XML",
+        "target": "Summary"
       },
       {
         "weight": 1,
@@ -3425,15 +3401,7 @@
           5
         ],
         "source": "Wire Alternates (SPEC-0001)",
-        "target": "SPEC"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "Wire Alternates (SPEC-0001)",
-        "target": "Number"
+        "target": "Section Ident"
       },
       {
         "weight": 1,
@@ -3449,7 +3417,15 @@
           5
         ],
         "source": "Wire Alternates (SPEC-0001)",
-        "target": "Section Ident"
+        "target": "AA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Wire Alternates (SPEC-0001)",
+        "target": "Ident"
       },
       {
         "weight": 1,
@@ -3458,6 +3434,14 @@
         ],
         "source": "Wire Alternates (SPEC-0001)",
         "target": "Wire Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Wire Alternates (SPEC-0001)",
+        "target": "SPEC"
       },
       {
         "weight": 1,
@@ -3482,6 +3466,22 @@
         ],
         "source": "Wire Alternates (SPEC-0001)",
         "target": "Wire Alternates"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Wire Alternates (SPEC-0001)",
+        "target": "Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Wire Alternates (SPEC-0001)",
+        "target": "Circuit Ident"
       },
       {
         "weight": 1,
@@ -3513,31 +3513,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Potential Connections Order"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Contact"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Screen"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Termination"
+        "target": "From Equipment"
       },
       {
         "weight": 1,
@@ -3553,55 +3529,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Instruction"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Block"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Finishing"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Wire Installation Code"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Screen Order"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Twist Value"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Preparation Info"
+        "target": "Preparation"
       },
       {
         "weight": 1,
@@ -3617,7 +3545,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Block Grouping Value"
+        "target": "Screen Level"
       },
       {
         "weight": 1,
@@ -3625,95 +3553,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Electrical"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Module"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Shunt"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Shunt Grouping Value"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Value"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Grouping"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Termination Module Grouping Value"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Type"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Contact Order Value"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Code"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Instruction Ident"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Connection Details"
+        "target": "Preparation Info"
       },
       {
         "weight": 1,
@@ -3729,6 +3569,22 @@
           6
         ],
         "source": "From Equipment: 6QXA",
+        "target": "Level"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Contact"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
         "target": "Screen Type"
       },
       {
@@ -3737,7 +3593,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Equipment"
+        "target": "Block"
       },
       {
         "weight": 1,
@@ -3745,71 +3601,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Preparation"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Order"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Finishing Info"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Screen Group"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Connections"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Special"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Twist"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "From"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "From Equipment: 6QXA",
-        "target": "Twist Group"
+        "target": "Module"
       },
       {
         "weight": 1,
@@ -3825,7 +3617,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Electrical Potential"
+        "target": "Twist"
       },
       {
         "weight": 1,
@@ -3833,7 +3625,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Connection"
+        "target": "Type"
       },
       {
         "weight": 1,
@@ -3849,7 +3641,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Info"
+        "target": "Screen Order"
       },
       {
         "weight": 1,
@@ -3857,7 +3649,159 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "From Equipment"
+        "target": "Twist Group"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Wire Installation Code"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Connections"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Termination Module Grouping Value"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Shunt Grouping Value"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Finishing Info"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Value"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Finishing"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Block Grouping Value"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Instruction Ident"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "From"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Termination"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Contact Order Value"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Electrical Potential"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Shunt"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Screen"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Connection"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Connection Details"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Twist Value"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Equipment"
       },
       {
         "weight": 1,
@@ -3873,7 +3817,7 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Screen Level"
+        "target": "Grouping"
       },
       {
         "weight": 1,
@@ -3881,7 +3825,63 @@
           6
         ],
         "source": "From Equipment: 6QXA",
-        "target": "Level"
+        "target": "Info"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Special"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Instruction"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Order"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Screen Group"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Electrical"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Code"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "From Equipment: 6QXA",
+        "target": "Potential Connections Order"
       },
       {
         "weight": 1,
@@ -3889,14 +3889,6 @@
           7
         ],
         "source": "Type",
-        "target": "Wire Info:"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Code",
         "target": "Wire Info:"
       },
       {
@@ -3912,48 +3904,8 @@
         "units": [
           7
         ],
-        "source": "Wire Info:",
-        "target": "Feed Thru"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Flag"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Responsible"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Wire Type"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Harness Ident"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Functional Item Number"
+        "source": "Code",
+        "target": "Wire Info:"
       },
       {
         "weight": 1,
@@ -3969,327 +3921,7 @@
           7
         ],
         "source": "Wire Info:",
-        "target": "Route"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Restriction"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Clipping"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Company"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Higher"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Change"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "AC"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Part Number"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Hole Ident"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Wire Color"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Wire Sequence Number"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Sequence"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Name"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Coaxial Cable Flag"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Color"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "AWG"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Feed"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Functional"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Wire Code"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Next Higher Assembly"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Signal Info"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Triaxial"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Wire Route"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Hole"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Coaxial"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Gauge"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Signal"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Triaxial Cable Flag"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Assembly"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Wire Info"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Partner"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Next"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Responsible Partner Company"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Item"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Length"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Authority"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Harness"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Point"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "Change Authority Condition Number"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "QC"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Wire Info:",
-        "target": "None"
+        "target": "AD"
       },
       {
         "weight": 1,
@@ -4313,7 +3945,7 @@
           7
         ],
         "source": "Wire Info:",
-        "target": "Thru"
+        "target": "Hole Ident"
       },
       {
         "weight": 1,
@@ -4321,7 +3953,7 @@
           7
         ],
         "source": "Wire Info:",
-        "target": "EMC"
+        "target": "Item"
       },
       {
         "weight": 1,
@@ -4329,7 +3961,7 @@
           7
         ],
         "source": "Wire Info:",
-        "target": "Change Authority Data"
+        "target": "Feed Thru"
       },
       {
         "weight": 1,
@@ -4337,7 +3969,7 @@
           7
         ],
         "source": "Wire Info:",
-        "target": "AD"
+        "target": "Functional"
       },
       {
         "weight": 1,
@@ -4345,7 +3977,7 @@
           7
         ],
         "source": "Wire Info:",
-        "target": "Part"
+        "target": "Wire Info"
       },
       {
         "weight": 1,
@@ -4353,7 +3985,15 @@
           7
         ],
         "source": "Wire Info:",
-        "target": "Change Authority Type Name"
+        "target": "Triaxial Cable Flag"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "QC"
       },
       {
         "weight": 1,
@@ -4369,23 +4009,367 @@
           7
         ],
         "source": "Wire Info:",
+        "target": "Wire Type"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Point"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Assembly"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Change Authority Type Name"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Next"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Authority"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "AWG"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Harness"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "EMC"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Thru"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Restriction"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Clipping"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Higher"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Signal Info"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Part"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Route"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Feed"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Change Authority Data"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "AC"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
         "target": "Cable"
       },
       {
         "weight": 1,
         "units": [
-          8
+          7
         ],
-        "source": "Summary",
-        "target": "Summary This"
+        "source": "Wire Info:",
+        "target": "Harness Ident"
       },
       {
         "weight": 1,
         "units": [
-          8
+          7
         ],
-        "source": "Summary",
-        "target": "view"
+        "source": "Wire Info:",
+        "target": "Sequence"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Next Higher Assembly"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Part Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Change Authority Condition Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Wire Color"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Responsible Partner Company"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Partner"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Wire Code"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Change"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Functional Item Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Color"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Length"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Wire Sequence Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Coaxial"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Flag"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Signal"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Responsible"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Coaxial Cable Flag"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Hole"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "None"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Name"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Gauge"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Triaxial"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Wire Route"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Wire Info:",
+        "target": "Company"
       },
       {
         "weight": 1,
@@ -4401,7 +4385,23 @@
           8
         ],
         "source": "Summary",
+        "target": "Summary This"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Summary",
         "target": "allows"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Summary",
+        "target": "view"
       }
     ]
   }

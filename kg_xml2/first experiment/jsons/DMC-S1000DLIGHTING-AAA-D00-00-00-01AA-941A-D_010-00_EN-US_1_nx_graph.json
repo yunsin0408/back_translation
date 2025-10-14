@@ -1,0 +1,495 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Illustrated Parts Catalog Data",
+      "type": "heading",
+      "id": "Illustrated Parts Catalog Data"
+    },
+    {
+      "label": "Illustrated Parts Catalog Data This",
+      "type": "candidate",
+      "id": "Illustrated Parts Catalog Data This"
+    },
+    {
+      "label": "Each",
+      "type": "candidate",
+      "id": "Each"
+    },
+    {
+      "label": "Illustrated",
+      "type": "candidate",
+      "id": "Illustrated"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Parts",
+      "type": "candidate",
+      "id": "Parts"
+    },
+    {
+      "label": "Data",
+      "type": "candidate",
+      "id": "Data"
+    },
+    {
+      "label": "Catalog",
+      "type": "candidate",
+      "id": "Catalog"
+    },
+    {
+      "label": "Part List",
+      "type": "heading",
+      "id": "Part List"
+    },
+    {
+      "label": "System",
+      "type": "candidate",
+      "id": "System"
+    },
+    {
+      "label": "Sub System Code",
+      "type": "candidate",
+      "id": "Sub System Code"
+    },
+    {
+      "label": "Indenture",
+      "type": "candidate",
+      "id": "Indenture"
+    },
+    {
+      "label": "Number",
+      "type": "candidate",
+      "id": "Number"
+    },
+    {
+      "label": "Location",
+      "type": "candidate",
+      "id": "Location"
+    },
+    {
+      "label": "System Code",
+      "type": "candidate",
+      "id": "System Code"
+    },
+    {
+      "label": "Code",
+      "type": "candidate",
+      "id": "Code"
+    },
+    {
+      "label": "Figure Number",
+      "type": "candidate",
+      "id": "Figure Number"
+    },
+    {
+      "label": "Assembly",
+      "type": "candidate",
+      "id": "Assembly"
+    },
+    {
+      "label": "list",
+      "type": "candidate",
+      "id": "list"
+    },
+    {
+      "label": "LIRUS",
+      "type": "candidate",
+      "id": "LIRUS"
+    },
+    {
+      "label": "Part",
+      "type": "candidate",
+      "id": "Part"
+    },
+    {
+      "label": "Indenture Level",
+      "type": "candidate",
+      "id": "Indenture Level"
+    },
+    {
+      "label": "Item Number",
+      "type": "candidate",
+      "id": "Item Number"
+    },
+    {
+      "label": "Quantity",
+      "type": "candidate",
+      "id": "Quantity"
+    },
+    {
+      "label": "Part Number",
+      "type": "candidate",
+      "id": "Part Number"
+    },
+    {
+      "label": "Level",
+      "type": "candidate",
+      "id": "Level"
+    },
+    {
+      "label": "Details",
+      "type": "candidate",
+      "id": "Details"
+    },
+    {
+      "label": "Assumptions",
+      "type": "candidate",
+      "id": "Assumptions"
+    },
+    {
+      "label": "Assembly Code",
+      "type": "candidate",
+      "id": "Assembly Code"
+    },
+    {
+      "label": "Location Details",
+      "type": "candidate",
+      "id": "Location Details"
+    },
+    {
+      "label": "Note",
+      "type": "candidate",
+      "id": "Note"
+    },
+    {
+      "label": "format",
+      "type": "candidate",
+      "id": "format"
+    },
+    {
+      "label": "Indentation",
+      "type": "candidate",
+      "id": "Indentation"
+    },
+    {
+      "label": "Figure",
+      "type": "candidate",
+      "id": "Figure"
+    },
+    {
+      "label": "Sub Sub System Code",
+      "type": "candidate",
+      "id": "Sub Sub System Code"
+    },
+    {
+      "label": "Item",
+      "type": "candidate",
+      "id": "Item"
+    },
+    {
+      "label": "List",
+      "type": "candidate",
+      "id": "List"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Illustrated Parts Catalog Data",
+      "target": "Illustrated Parts Catalog Data This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Illustrated Parts Catalog Data",
+      "target": "Each"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Illustrated Parts Catalog Data",
+      "target": "Illustrated"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Illustrated Parts Catalog Data",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Illustrated Parts Catalog Data",
+      "target": "Parts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Illustrated Parts Catalog Data",
+      "target": "Data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Illustrated Parts Catalog Data",
+      "target": "Catalog"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "System"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Sub System Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Indenture"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Location"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "System Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Figure Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Assembly"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "list"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "LIRUS"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Part"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Indenture Level"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Item Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Quantity"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Part Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Level"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Details"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Assumptions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Part List"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Assembly Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Location Details"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Note"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "format"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Indentation"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Figure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Sub Sub System Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "Item"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Part List",
+      "target": "List"
+    }
+  ]
+}

@@ -20,20 +20,20 @@
       ]
     },
     {
+      "id": "Delivery List This",
+      "label": "Delivery List This",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
       "id": "Delivery",
       "label": "Delivery",
       "type": "candidate",
       "source_units": [
         2,
         3
-      ]
-    },
-    {
-      "id": "Delivery List This",
-      "label": "Delivery List This",
-      "type": "candidate",
-      "source_units": [
-        2
       ]
     },
     {
@@ -62,8 +62,8 @@
       ]
     },
     {
-      "id": "CGM",
-      "label": "CGM",
+      "id": "PNG",
+      "label": "PNG",
       "type": "candidate",
       "source_units": [
         3
@@ -78,8 +78,8 @@
       ]
     },
     {
-      "id": "PNG",
-      "label": "PNG",
+      "id": "CGM",
+      "label": "CGM",
       "type": "candidate",
       "source_units": [
         3
@@ -96,20 +96,20 @@
       ]
     },
     {
+      "source": "Delivery List",
+      "target": "Delivery List This",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
       "source": "Delivery",
       "target": "Delivery List",
       "weight": 2,
       "units": [
         2,
         3
-      ]
-    },
-    {
-      "source": "Delivery List",
-      "target": "Delivery List This",
-      "weight": 1,
-      "units": [
-        2
       ]
     },
     {
@@ -139,15 +139,7 @@
     },
     {
       "source": "Delivery List",
-      "target": "Delivery List",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "CGM",
-      "target": "Delivery List",
+      "target": "PNG",
       "weight": 1,
       "units": [
         3
@@ -163,7 +155,15 @@
     },
     {
       "source": "Delivery List",
-      "target": "PNG",
+      "target": "Delivery List",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "CGM",
+      "target": "Delivery List",
       "weight": 1,
       "units": [
         3
@@ -186,14 +186,14 @@
         "id": "Delivery List"
       },
       {
-        "label": "Delivery",
-        "type": "candidate",
-        "id": "Delivery"
-      },
-      {
         "label": "Delivery List This",
         "type": "candidate",
         "id": "Delivery List This"
+      },
+      {
+        "label": "Delivery",
+        "type": "candidate",
+        "id": "Delivery"
       },
       {
         "label": "This",
@@ -211,9 +211,9 @@
         "id": "List"
       },
       {
-        "label": "CGM",
+        "label": "PNG",
         "type": "candidate",
-        "id": "CGM"
+        "id": "PNG"
       },
       {
         "label": "SVG",
@@ -221,9 +221,9 @@
         "id": "SVG"
       },
       {
-        "label": "PNG",
+        "label": "CGM",
         "type": "candidate",
-        "id": "PNG"
+        "id": "CGM"
       }
     ],
     "links": [
@@ -236,6 +236,14 @@
         "target": "Document"
       },
       {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "Delivery List",
+        "target": "Delivery List This"
+      },
+      {
         "weight": 2,
         "units": [
           2,
@@ -243,14 +251,6 @@
         ],
         "source": "Delivery List",
         "target": "Delivery"
-      },
-      {
-        "weight": 1,
-        "units": [
-          2
-        ],
-        "source": "Delivery List",
-        "target": "Delivery List This"
       },
       {
         "weight": 1,
@@ -283,15 +283,7 @@
           3
         ],
         "source": "Delivery List",
-        "target": "Delivery List"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "Delivery List",
-        "target": "CGM"
+        "target": "PNG"
       },
       {
         "weight": 1,
@@ -307,7 +299,15 @@
           3
         ],
         "source": "Delivery List",
-        "target": "PNG"
+        "target": "Delivery List"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Delivery List",
+        "target": "CGM"
       }
     ]
   }

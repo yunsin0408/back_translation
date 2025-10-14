@@ -14,24 +14,14 @@
       "id": "DModule Content Summary"
     },
     {
-      "label": "Content",
-      "type": "candidate",
-      "id": "Content"
-    },
-    {
-      "label": "XML",
-      "type": "candidate",
-      "id": "XML"
-    },
-    {
       "label": "Summary",
       "type": "candidate",
       "id": "Summary"
     },
     {
-      "label": "This",
+      "label": "Content",
       "type": "candidate",
-      "id": "This"
+      "id": "Content"
     },
     {
       "label": "list",
@@ -39,9 +29,19 @@
       "id": "list"
     },
     {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
+    },
+    {
       "label": "Module Content Summary This",
       "type": "candidate",
       "id": "Module Content Summary This"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
     },
     {
       "label": "content",
@@ -59,36 +59,6 @@
       "id": "Front Matter Overview"
     },
     {
-      "label": "Specifies",
-      "type": "candidate",
-      "id": "Specifies"
-    },
-    {
-      "label": "identifier",
-      "type": "candidate",
-      "id": "identifier"
-    },
-    {
-      "label": "Matter",
-      "type": "candidate",
-      "id": "Matter"
-    },
-    {
-      "label": "Front Matter Overview The",
-      "type": "candidate",
-      "id": "Front Matter Overview The"
-    },
-    {
-      "label": "attributes",
-      "type": "candidate",
-      "id": "attributes"
-    },
-    {
-      "label": "Indicates",
-      "type": "candidate",
-      "id": "Indicates"
-    },
-    {
       "label": "Front",
       "type": "candidate",
       "id": "Front"
@@ -99,9 +69,19 @@
       "id": "Consistent"
     },
     {
+      "label": "Matter",
+      "type": "candidate",
+      "id": "Matter"
+    },
+    {
       "label": "Identifier",
       "type": "candidate",
       "id": "Identifier"
+    },
+    {
+      "label": "Indicates",
+      "type": "candidate",
+      "id": "Indicates"
     },
     {
       "label": "Overview",
@@ -109,24 +89,29 @@
       "id": "Overview"
     },
     {
+      "label": "Specifies",
+      "type": "candidate",
+      "id": "Specifies"
+    },
+    {
+      "label": "attributes",
+      "type": "candidate",
+      "id": "attributes"
+    },
+    {
+      "label": "identifier",
+      "type": "candidate",
+      "id": "identifier"
+    },
+    {
+      "label": "Front Matter Overview The",
+      "type": "candidate",
+      "id": "Front Matter Overview The"
+    },
+    {
       "label": "Detailed List of Front Matter Entries",
       "type": "heading",
       "id": "Detailed List of Front Matter Entries"
-    },
-    {
-      "label": "Here",
-      "type": "candidate",
-      "id": "Here"
-    },
-    {
-      "label": "System",
-      "type": "candidate",
-      "id": "System"
-    },
-    {
-      "label": "Detailed List",
-      "type": "candidate",
-      "id": "Detailed List"
     },
     {
       "label": "Detailed",
@@ -139,9 +124,24 @@
       "id": "breakdown"
     },
     {
+      "label": "Detailed List",
+      "type": "candidate",
+      "id": "Detailed List"
+    },
+    {
       "label": "Front Matter Entries Here",
       "type": "candidate",
       "id": "Front Matter Entries Here"
+    },
+    {
+      "label": "System",
+      "type": "candidate",
+      "id": "System"
+    },
+    {
+      "label": "Here",
+      "type": "candidate",
+      "id": "Here"
     },
     {
       "label": "Entries",
@@ -154,14 +154,14 @@
       "id": "List"
     },
     {
-      "label": "used",
-      "type": "candidate",
-      "id": "used"
-    },
-    {
       "label": "context",
       "type": "candidate",
       "id": "context"
+    },
+    {
+      "label": "series",
+      "type": "candidate",
+      "id": "series"
     },
     {
       "label": "Summary The",
@@ -169,9 +169,9 @@
       "id": "Summary The"
     },
     {
-      "label": "series",
+      "label": "used",
       "type": "candidate",
-      "id": "series"
+      "id": "used"
     }
   ],
   "links": [
@@ -189,22 +189,6 @@
         2
       ],
       "source": "DModule Content Summary",
-      "target": "Content"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "DModule Content Summary",
-      "target": "XML"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "DModule Content Summary",
       "target": "Summary"
     },
     {
@@ -213,7 +197,7 @@
         2
       ],
       "source": "DModule Content Summary",
-      "target": "This"
+      "target": "Content"
     },
     {
       "weight": 1,
@@ -229,7 +213,23 @@
         2
       ],
       "source": "DModule Content Summary",
+      "target": "XML"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content Summary",
       "target": "Module Content Summary This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "DModule Content Summary",
+      "target": "This"
     },
     {
       "weight": 1,
@@ -253,14 +253,6 @@
         5
       ],
       "source": "Summary",
-      "target": "used"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Summary",
       "target": "Summary"
     },
     {
@@ -270,6 +262,14 @@
       ],
       "source": "Summary",
       "target": "context"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Summary",
+      "target": "series"
     },
     {
       "weight": 1,
@@ -293,7 +293,7 @@
         5
       ],
       "source": "Summary",
-      "target": "series"
+      "target": "used"
     },
     {
       "weight": 1,
@@ -302,54 +302,6 @@
       ],
       "source": "list",
       "target": "Front Matter Overview"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "Front Matter Overview",
-      "target": "Specifies"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "Front Matter Overview",
-      "target": "identifier"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "Front Matter Overview",
-      "target": "Matter"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "Front Matter Overview",
-      "target": "Front Matter Overview The"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "Front Matter Overview",
-      "target": "attributes"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "Front Matter Overview",
-      "target": "Indicates"
     },
     {
       "weight": 1,
@@ -373,7 +325,23 @@
         3
       ],
       "source": "Front Matter Overview",
+      "target": "Matter"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Front Matter Overview",
       "target": "Identifier"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Front Matter Overview",
+      "target": "Indicates"
     },
     {
       "weight": 1,
@@ -386,10 +354,34 @@
     {
       "weight": 1,
       "units": [
-        4
+        3
       ],
-      "source": "Matter",
-      "target": "Detailed List of Front Matter Entries"
+      "source": "Front Matter Overview",
+      "target": "Specifies"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Front Matter Overview",
+      "target": "attributes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Front Matter Overview",
+      "target": "identifier"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Front Matter Overview",
+      "target": "Front Matter Overview The"
     },
     {
       "weight": 1,
@@ -404,24 +396,8 @@
       "units": [
         4
       ],
-      "source": "Detailed List of Front Matter Entries",
-      "target": "Here"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Detailed List of Front Matter Entries",
-      "target": "System"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Detailed List of Front Matter Entries",
-      "target": "Detailed List"
+      "source": "Matter",
+      "target": "Detailed List of Front Matter Entries"
     },
     {
       "weight": 1,
@@ -445,7 +421,31 @@
         4
       ],
       "source": "Detailed List of Front Matter Entries",
+      "target": "Detailed List"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed List of Front Matter Entries",
       "target": "Front Matter Entries Here"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed List of Front Matter Entries",
+      "target": "System"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Detailed List of Front Matter Entries",
+      "target": "Here"
     },
     {
       "weight": 1,

@@ -14,29 +14,9 @@
       "id": "Technical Documentation - Bike Maintenance & Troubleshooting"
     },
     {
-      "label": "Bike Maintenance",
+      "label": "information",
       "type": "candidate",
-      "id": "Bike Maintenance"
-    },
-    {
-      "label": "Each",
-      "type": "candidate",
-      "id": "Each"
-    },
-    {
-      "label": "Maintenance",
-      "type": "candidate",
-      "id": "Maintenance"
-    },
-    {
-      "label": "Technical",
-      "type": "candidate",
-      "id": "Technical"
-    },
-    {
-      "label": "Technical Documentation",
-      "type": "candidate",
-      "id": "Technical Documentation"
+      "id": "information"
     },
     {
       "label": "Bike",
@@ -44,24 +24,44 @@
       "id": "Bike"
     },
     {
-      "label": "This",
+      "label": "Technical Documentation",
       "type": "candidate",
-      "id": "This"
+      "id": "Technical Documentation"
     },
     {
-      "label": "information",
+      "label": "Bike Maintenance",
       "type": "candidate",
-      "id": "information"
+      "id": "Bike Maintenance"
     },
     {
-      "label": "Documentation",
+      "label": "Technical",
       "type": "candidate",
-      "id": "Documentation"
+      "id": "Technical"
+    },
+    {
+      "label": "Each",
+      "type": "candidate",
+      "id": "Each"
     },
     {
       "label": "Troubleshooting",
       "type": "candidate",
       "id": "Troubleshooting"
+    },
+    {
+      "label": "Maintenance",
+      "type": "candidate",
+      "id": "Maintenance"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Documentation",
+      "type": "candidate",
+      "id": "Documentation"
     },
     {
       "label": "Troubleshooting This",
@@ -74,29 +74,14 @@
       "id": "1. Headset & Steering (System DA1)"
     },
     {
-      "label": "Steering",
-      "type": "candidate",
-      "id": "Steering"
-    },
-    {
-      "label": "Open",
-      "type": "candidate",
-      "id": "Open"
-    },
-    {
-      "label": "Component",
-      "type": "candidate",
-      "id": "Component"
-    },
-    {
       "label": "Procedure",
       "type": "candidate",
       "id": "Procedure"
     },
     {
-      "label": "Status",
+      "label": "Steering",
       "type": "candidate",
-      "id": "Status"
+      "id": "Steering"
     },
     {
       "label": "Installation",
@@ -104,19 +89,24 @@
       "id": "Installation"
     },
     {
-      "label": "Number",
-      "type": "candidate",
-      "id": "Number"
-    },
-    {
       "label": "Issue Number",
       "type": "candidate",
       "id": "Issue Number"
     },
     {
-      "label": "Issue",
+      "label": "Status",
       "type": "candidate",
-      "id": "Issue"
+      "id": "Status"
+    },
+    {
+      "label": "Headset",
+      "type": "candidate",
+      "id": "Headset"
+    },
+    {
+      "label": "Component",
+      "type": "candidate",
+      "id": "Component"
     },
     {
       "label": "System",
@@ -124,9 +114,19 @@
       "id": "System"
     },
     {
-      "label": "Headset",
+      "label": "Issue",
       "type": "candidate",
-      "id": "Headset"
+      "id": "Issue"
+    },
+    {
+      "label": "Open",
+      "type": "candidate",
+      "id": "Open"
+    },
+    {
+      "label": "Number",
+      "type": "candidate",
+      "id": "Number"
     },
     {
       "label": "2. Braking System (System DA2)",
@@ -139,9 +139,9 @@
       "id": "Braking System"
     },
     {
-      "label": "Replace",
+      "label": "Brake Pads",
       "type": "candidate",
-      "id": "Replace"
+      "id": "Brake Pads"
     },
     {
       "label": "Braking",
@@ -149,19 +149,19 @@
       "id": "Braking"
     },
     {
+      "label": "Pads",
+      "type": "candidate",
+      "id": "Pads"
+    },
+    {
       "label": "Brake",
       "type": "candidate",
       "id": "Brake"
     },
     {
-      "label": "Brake Pads",
+      "label": "Replace",
       "type": "candidate",
-      "id": "Brake Pads"
-    },
-    {
-      "label": "Pads",
-      "type": "candidate",
-      "id": "Pads"
+      "id": "Replace"
     },
     {
       "label": "3. Drivetrain - Chain (System DA4)",
@@ -169,29 +169,9 @@
       "id": "3. Drivetrain - Chain (System DA4)"
     },
     {
-      "label": "Date",
-      "type": "candidate",
-      "id": "Date"
-    },
-    {
-      "label": "Clean",
-      "type": "candidate",
-      "id": "Clean"
-    },
-    {
-      "label": "Chain",
-      "type": "candidate",
-      "id": "Chain"
-    },
-    {
       "label": "Variant",
       "type": "candidate",
       "id": "Variant"
-    },
-    {
-      "label": "Correlated",
-      "type": "candidate",
-      "id": "Correlated"
     },
     {
       "label": "Drivetrain",
@@ -199,19 +179,29 @@
       "id": "Drivetrain"
     },
     {
+      "label": "Clean",
+      "type": "candidate",
+      "id": "Clean"
+    },
+    {
+      "label": "Correlated",
+      "type": "candidate",
+      "id": "Correlated"
+    },
+    {
+      "label": "Date",
+      "type": "candidate",
+      "id": "Date"
+    },
+    {
+      "label": "Chain",
+      "type": "candidate",
+      "id": "Chain"
+    },
+    {
       "label": "4. Drivetrain - Gears (System DA5)",
       "type": "heading",
       "id": "4. Drivetrain - Gears (System DA5)"
-    },
-    {
-      "label": "Shifters",
-      "type": "candidate",
-      "id": "Shifters"
-    },
-    {
-      "label": "Gears",
-      "type": "candidate",
-      "id": "Gears"
     },
     {
       "label": "Description",
@@ -219,9 +209,9 @@
       "id": "Description"
     },
     {
-      "label": "Mechs",
+      "label": "Shifters",
       "type": "candidate",
-      "id": "Mechs"
+      "id": "Shifters"
     },
     {
       "label": "Hubs",
@@ -229,9 +219,24 @@
       "id": "Hubs"
     },
     {
+      "label": "Gears",
+      "type": "candidate",
+      "id": "Gears"
+    },
+    {
+      "label": "Mechs",
+      "type": "candidate",
+      "id": "Mechs"
+    },
+    {
       "label": "5. Wheels & Tires (System DA5 - continued)",
       "type": "heading",
       "id": "5. Wheels & Tires (System DA5 - continued)"
+    },
+    {
+      "label": "Wheels",
+      "type": "candidate",
+      "id": "Wheels"
     },
     {
       "label": "Tires",
@@ -244,11 +249,6 @@
       "id": "Also"
     },
     {
-      "label": "Wheels",
-      "type": "candidate",
-      "id": "Wheels"
-    },
-    {
       "label": "6. General / Undefined Systems (Systems DA1, DA2)",
       "type": "heading",
       "id": "6. General / Undefined Systems (Systems DA1, DA2)"
@@ -259,139 +259,14 @@
       "id": "guide"
     },
     {
-      "label": "Where",
+      "label": "Brakes",
       "type": "candidate",
-      "id": "Where"
-    },
-    {
-      "label": "Notes",
-      "type": "candidate",
-      "id": "Notes"
-    },
-    {
-      "label": "Markdown Formatting",
-      "type": "candidate",
-      "id": "Markdown Formatting"
-    },
-    {
-      "label": "Structure",
-      "type": "candidate",
-      "id": "Structure"
-    },
-    {
-      "label": "No Redundancy",
-      "type": "candidate",
-      "id": "No Redundancy"
-    },
-    {
-      "label": "Groups",
-      "type": "candidate",
-      "id": "Groups"
-    },
-    {
-      "label": "designed",
-      "type": "candidate",
-      "id": "designed"
-    },
-    {
-      "label": "Formatting",
-      "type": "candidate",
-      "id": "Formatting"
-    },
-    {
-      "label": "Clearer Structure",
-      "type": "candidate",
-      "id": "Clearer Structure"
-    },
-    {
-      "label": "numbers",
-      "type": "candidate",
-      "id": "numbers"
-    },
-    {
-      "label": "Clearer",
-      "type": "candidate",
-      "id": "Clearer"
-    },
-    {
-      "label": "Removes",
-      "type": "candidate",
-      "id": "Removes"
-    },
-    {
-      "label": "Concise Language",
-      "type": "candidate",
-      "id": "Concise Language"
-    },
-    {
-      "label": "Key Information",
-      "type": "candidate",
-      "id": "Key Information"
-    },
-    {
-      "label": "syntax",
-      "type": "candidate",
-      "id": "syntax"
-    },
-    {
-      "label": "meaning",
-      "type": "candidate",
-      "id": "meaning"
+      "id": "Brakes"
     },
     {
       "label": "retained",
       "type": "candidate",
       "id": "retained"
-    },
-    {
-      "label": "Markdown",
-      "type": "candidate",
-      "id": "Markdown"
-    },
-    {
-      "label": "Section",
-      "type": "candidate",
-      "id": "Section"
-    },
-    {
-      "label": "Grouping",
-      "type": "candidate",
-      "id": "Grouping"
-    },
-    {
-      "label": "Explicitly",
-      "type": "candidate",
-      "id": "Explicitly"
-    },
-    {
-      "label": "priority",
-      "type": "candidate",
-      "id": "priority"
-    },
-    {
-      "label": "Identification",
-      "type": "candidate",
-      "id": "Identification"
-    },
-    {
-      "label": "suitable",
-      "type": "candidate",
-      "id": "suitable"
-    },
-    {
-      "label": "Information",
-      "type": "candidate",
-      "id": "Information"
-    },
-    {
-      "label": "Notes Section",
-      "type": "candidate",
-      "id": "Notes Section"
-    },
-    {
-      "label": "Date Inclusion",
-      "type": "candidate",
-      "id": "Date Inclusion"
     },
     {
       "label": "Eliminates",
@@ -404,9 +279,9 @@
       "id": "Bolded"
     },
     {
-      "label": "System Grouping",
+      "label": "designed",
       "type": "candidate",
-      "id": "System Grouping"
+      "id": "designed"
     },
     {
       "label": "Undefined Systems",
@@ -414,19 +289,9 @@
       "id": "Undefined Systems"
     },
     {
-      "label": "Readability",
+      "label": "Includes",
       "type": "candidate",
-      "id": "Readability"
-    },
-    {
-      "label": "Some",
-      "type": "candidate",
-      "id": "Some"
-    },
-    {
-      "label": "Adds",
-      "type": "candidate",
-      "id": "Adds"
+      "id": "Includes"
     },
     {
       "label": "Inclusion",
@@ -434,34 +299,99 @@
       "id": "Inclusion"
     },
     {
+      "label": "priority",
+      "type": "candidate",
+      "id": "priority"
+    },
+    {
+      "label": "Markdown",
+      "type": "candidate",
+      "id": "Markdown"
+    },
+    {
+      "label": "Markdown Formatting",
+      "type": "candidate",
+      "id": "Markdown Formatting"
+    },
+    {
+      "label": "Clearer Structure",
+      "type": "candidate",
+      "id": "Clearer Structure"
+    },
+    {
+      "label": "System Grouping",
+      "type": "candidate",
+      "id": "System Grouping"
+    },
+    {
+      "label": "Removes",
+      "type": "candidate",
+      "id": "Removes"
+    },
+    {
+      "label": "Adds",
+      "type": "candidate",
+      "id": "Adds"
+    },
+    {
+      "label": "suitable",
+      "type": "candidate",
+      "id": "suitable"
+    },
+    {
+      "label": "Formatting",
+      "type": "candidate",
+      "id": "Formatting"
+    },
+    {
+      "label": "meaning",
+      "type": "candidate",
+      "id": "meaning"
+    },
+    {
+      "label": "Section",
+      "type": "candidate",
+      "id": "Section"
+    },
+    {
       "label": "General",
       "type": "candidate",
       "id": "General"
     },
     {
-      "label": "Uses",
+      "label": "Explicitly",
       "type": "candidate",
-      "id": "Uses"
+      "id": "Explicitly"
     },
     {
-      "label": "Concise",
+      "label": "Information",
       "type": "candidate",
-      "id": "Concise"
+      "id": "Information"
     },
     {
-      "label": "names",
+      "label": "Date Inclusion",
       "type": "candidate",
-      "id": "names"
+      "id": "Date Inclusion"
     },
     {
-      "label": "Undefined",
+      "label": "Dates",
       "type": "candidate",
-      "id": "Undefined"
+      "id": "Dates"
     },
     {
-      "label": "Brakes",
+      "label": "Readability",
       "type": "candidate",
-      "id": "Brakes"
+      "id": "Readability"
+    },
+    {
+      "label": "syntax",
+      "type": "candidate",
+      "id": "syntax"
+    },
+    {
+      "label": "Notes",
+      "type": "candidate",
+      "id": "Notes"
     },
     {
       "label": "Redundancy",
@@ -469,24 +399,14 @@
       "id": "Redundancy"
     },
     {
-      "label": "Systems",
+      "label": "names",
       "type": "candidate",
-      "id": "Systems"
+      "id": "names"
     },
     {
-      "label": "Emphasis",
+      "label": "Some",
       "type": "candidate",
-      "id": "Emphasis"
-    },
-    {
-      "label": "Component Identification",
-      "type": "candidate",
-      "id": "Component Identification"
-    },
-    {
-      "label": "Includes",
-      "type": "candidate",
-      "id": "Includes"
+      "id": "Some"
     },
     {
       "label": "Language",
@@ -494,9 +414,89 @@
       "id": "Language"
     },
     {
-      "label": "Dates",
+      "label": "Where",
       "type": "candidate",
-      "id": "Dates"
+      "id": "Where"
+    },
+    {
+      "label": "numbers",
+      "type": "candidate",
+      "id": "numbers"
+    },
+    {
+      "label": "Concise Language",
+      "type": "candidate",
+      "id": "Concise Language"
+    },
+    {
+      "label": "Notes Section",
+      "type": "candidate",
+      "id": "Notes Section"
+    },
+    {
+      "label": "Grouping",
+      "type": "candidate",
+      "id": "Grouping"
+    },
+    {
+      "label": "Groups",
+      "type": "candidate",
+      "id": "Groups"
+    },
+    {
+      "label": "Component Identification",
+      "type": "candidate",
+      "id": "Component Identification"
+    },
+    {
+      "label": "Undefined",
+      "type": "candidate",
+      "id": "Undefined"
+    },
+    {
+      "label": "No Redundancy",
+      "type": "candidate",
+      "id": "No Redundancy"
+    },
+    {
+      "label": "Uses",
+      "type": "candidate",
+      "id": "Uses"
+    },
+    {
+      "label": "Identification",
+      "type": "candidate",
+      "id": "Identification"
+    },
+    {
+      "label": "Emphasis",
+      "type": "candidate",
+      "id": "Emphasis"
+    },
+    {
+      "label": "Systems",
+      "type": "candidate",
+      "id": "Systems"
+    },
+    {
+      "label": "Structure",
+      "type": "candidate",
+      "id": "Structure"
+    },
+    {
+      "label": "Key Information",
+      "type": "candidate",
+      "id": "Key Information"
+    },
+    {
+      "label": "Concise",
+      "type": "candidate",
+      "id": "Concise"
+    },
+    {
+      "label": "Clearer",
+      "type": "candidate",
+      "id": "Clearer"
     }
   ],
   "links": [
@@ -514,39 +514,7 @@
         2
       ],
       "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
-      "target": "Bike Maintenance"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
-      "target": "Each"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
-      "target": "Maintenance"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
-      "target": "Technical"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
-      "target": "Technical Documentation"
+      "target": "information"
     },
     {
       "weight": 1,
@@ -562,7 +530,7 @@
         2
       ],
       "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
-      "target": "This"
+      "target": "Technical Documentation"
     },
     {
       "weight": 1,
@@ -570,7 +538,7 @@
         2
       ],
       "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
-      "target": "information"
+      "target": "Bike Maintenance"
     },
     {
       "weight": 1,
@@ -578,7 +546,15 @@
         2
       ],
       "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
-      "target": "Documentation"
+      "target": "Technical"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
+      "target": "Each"
     },
     {
       "weight": 1,
@@ -587,6 +563,30 @@
       ],
       "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
       "target": "Troubleshooting"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
+      "target": "Maintenance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Technical Documentation - Bike Maintenance & Troubleshooting",
+      "target": "Documentation"
     },
     {
       "weight": 1,
@@ -610,30 +610,6 @@
         3
       ],
       "source": "1. Headset & Steering (System DA1)",
-      "target": "Steering"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "1. Headset & Steering (System DA1)",
-      "target": "Open"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "1. Headset & Steering (System DA1)",
-      "target": "Component"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "1. Headset & Steering (System DA1)",
       "target": "Procedure"
     },
     {
@@ -642,7 +618,7 @@
         3
       ],
       "source": "1. Headset & Steering (System DA1)",
-      "target": "Status"
+      "target": "Steering"
     },
     {
       "weight": 1,
@@ -658,14 +634,6 @@
         3
       ],
       "source": "1. Headset & Steering (System DA1)",
-      "target": "Number"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "1. Headset & Steering (System DA1)",
       "target": "Issue Number"
     },
     {
@@ -674,7 +642,23 @@
         3
       ],
       "source": "1. Headset & Steering (System DA1)",
-      "target": "Issue"
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Headset & Steering (System DA1)",
+      "target": "Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Headset & Steering (System DA1)",
+      "target": "Component"
     },
     {
       "weight": 1,
@@ -690,7 +674,63 @@
         3
       ],
       "source": "1. Headset & Steering (System DA1)",
-      "target": "Headset"
+      "target": "Issue"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Headset & Steering (System DA1)",
+      "target": "Open"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Headset & Steering (System DA1)",
+      "target": "Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Procedure",
+      "target": "2. Braking System (System DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Procedure",
+      "target": "3. Drivetrain - Chain (System DA4)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Procedure",
+      "target": "4. Drivetrain - Gears (System DA5)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Procedure",
+      "target": "5. Wheels & Tires (System DA5 - continued)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Procedure",
+      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
     },
     {
       "weight": 1,
@@ -698,110 +738,6 @@
         8
       ],
       "source": "Steering",
-      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Open",
-      "target": "2. Braking System (System DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Component",
-      "target": "2. Braking System (System DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Component",
-      "target": "3. Drivetrain - Chain (System DA4)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Component",
-      "target": "4. Drivetrain - Gears (System DA5)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Component",
-      "target": "5. Wheels & Tires (System DA5 - continued)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Component",
-      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Procedure",
-      "target": "2. Braking System (System DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Procedure",
-      "target": "3. Drivetrain - Chain (System DA4)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Procedure",
-      "target": "4. Drivetrain - Gears (System DA5)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Procedure",
-      "target": "5. Wheels & Tires (System DA5 - continued)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Procedure",
-      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "Status",
-      "target": "2. Braking System (System DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Status",
       "target": "6. General / Undefined Systems (Systems DA1, DA2)"
     },
     {
@@ -817,46 +753,6 @@
       "units": [
         4
       ],
-      "source": "Number",
-      "target": "2. Braking System (System DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Number",
-      "target": "3. Drivetrain - Chain (System DA4)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Number",
-      "target": "4. Drivetrain - Gears (System DA5)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Number",
-      "target": "5. Wheels & Tires (System DA5 - continued)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Number",
-      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
       "source": "Issue Number",
       "target": "2. Braking System (System DA2)"
     },
@@ -897,79 +793,15 @@
       "units": [
         4
       ],
-      "source": "Issue",
+      "source": "Status",
       "target": "2. Braking System (System DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Issue",
-      "target": "3. Drivetrain - Chain (System DA4)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Issue",
-      "target": "4. Drivetrain - Gears (System DA5)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Issue",
-      "target": "5. Wheels & Tires (System DA5 - continued)"
     },
     {
       "weight": 1,
       "units": [
         8
       ],
-      "source": "Issue",
-      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "System",
-      "target": "2. Braking System (System DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "System",
-      "target": "3. Drivetrain - Chain (System DA4)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "System",
-      "target": "4. Drivetrain - Gears (System DA5)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "System",
-      "target": "5. Wheels & Tires (System DA5 - continued)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "System",
+      "source": "Status",
       "target": "6. General / Undefined Systems (Systems DA1, DA2)"
     },
     {
@@ -978,6 +810,174 @@
         8
       ],
       "source": "Headset",
+      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Component",
+      "target": "2. Braking System (System DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Component",
+      "target": "3. Drivetrain - Chain (System DA4)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Component",
+      "target": "4. Drivetrain - Gears (System DA5)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Component",
+      "target": "5. Wheels & Tires (System DA5 - continued)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Component",
+      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "System",
+      "target": "2. Braking System (System DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "System",
+      "target": "3. Drivetrain - Chain (System DA4)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "System",
+      "target": "4. Drivetrain - Gears (System DA5)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "System",
+      "target": "5. Wheels & Tires (System DA5 - continued)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "System",
+      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Issue",
+      "target": "2. Braking System (System DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Issue",
+      "target": "3. Drivetrain - Chain (System DA4)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Issue",
+      "target": "4. Drivetrain - Gears (System DA5)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Issue",
+      "target": "5. Wheels & Tires (System DA5 - continued)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Issue",
+      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Open",
+      "target": "2. Braking System (System DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Number",
+      "target": "2. Braking System (System DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Number",
+      "target": "3. Drivetrain - Chain (System DA4)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Number",
+      "target": "4. Drivetrain - Gears (System DA5)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Number",
+      "target": "5. Wheels & Tires (System DA5 - continued)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Number",
       "target": "6. General / Undefined Systems (Systems DA1, DA2)"
     },
     {
@@ -994,7 +994,7 @@
         4
       ],
       "source": "2. Braking System (System DA2)",
-      "target": "Replace"
+      "target": "Brake Pads"
     },
     {
       "weight": 1,
@@ -1010,6 +1010,14 @@
         4
       ],
       "source": "2. Braking System (System DA2)",
+      "target": "Pads"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Braking System (System DA2)",
       "target": "Brake"
     },
     {
@@ -1018,22 +1026,14 @@
         4
       ],
       "source": "2. Braking System (System DA2)",
-      "target": "Brake Pads"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2. Braking System (System DA2)",
-      "target": "Pads"
+      "target": "Replace"
     },
     {
       "weight": 1,
       "units": [
         8
       ],
-      "source": "Replace",
+      "source": "Brake Pads",
       "target": "6. General / Undefined Systems (Systems DA1, DA2)"
     },
     {
@@ -1049,6 +1049,14 @@
       "units": [
         8
       ],
+      "source": "Pads",
+      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
       "source": "Brake",
       "target": "6. General / Undefined Systems (Systems DA1, DA2)"
     },
@@ -1057,40 +1065,8 @@
       "units": [
         8
       ],
-      "source": "Brake Pads",
+      "source": "Replace",
       "target": "6. General / Undefined Systems (Systems DA1, DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Pads",
-      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "3. Drivetrain - Chain (System DA4)",
-      "target": "Date"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "3. Drivetrain - Chain (System DA4)",
-      "target": "Clean"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "3. Drivetrain - Chain (System DA4)",
-      "target": "Chain"
     },
     {
       "weight": 1,
@@ -1106,6 +1082,22 @@
         5
       ],
       "source": "3. Drivetrain - Chain (System DA4)",
+      "target": "Drivetrain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Drivetrain - Chain (System DA4)",
+      "target": "Clean"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Drivetrain - Chain (System DA4)",
       "target": "Correlated"
     },
     {
@@ -1114,47 +1106,15 @@
         5
       ],
       "source": "3. Drivetrain - Chain (System DA4)",
-      "target": "Drivetrain"
+      "target": "Date"
     },
     {
       "weight": 1,
       "units": [
-        6
+        5
       ],
-      "source": "Date",
-      "target": "4. Drivetrain - Gears (System DA5)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Date",
-      "target": "5. Wheels & Tires (System DA5 - continued)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Date",
-      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Clean",
-      "target": "4. Drivetrain - Gears (System DA5)"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Clean",
-      "target": "5. Wheels & Tires (System DA5 - continued)"
+      "source": "3. Drivetrain - Chain (System DA4)",
+      "target": "Chain"
     },
     {
       "weight": 1,
@@ -1201,16 +1161,40 @@
       "units": [
         6
       ],
-      "source": "4. Drivetrain - Gears (System DA5)",
-      "target": "Shifters"
+      "source": "Clean",
+      "target": "4. Drivetrain - Gears (System DA5)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Clean",
+      "target": "5. Wheels & Tires (System DA5 - continued)"
     },
     {
       "weight": 1,
       "units": [
         6
       ],
-      "source": "4. Drivetrain - Gears (System DA5)",
-      "target": "Gears"
+      "source": "Date",
+      "target": "4. Drivetrain - Gears (System DA5)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Date",
+      "target": "5. Wheels & Tires (System DA5 - continued)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Date",
+      "target": "6. General / Undefined Systems (Systems DA1, DA2)"
     },
     {
       "weight": 1,
@@ -1226,7 +1210,7 @@
         6
       ],
       "source": "4. Drivetrain - Gears (System DA5)",
-      "target": "Mechs"
+      "target": "Shifters"
     },
     {
       "weight": 1,
@@ -1239,10 +1223,34 @@
     {
       "weight": 1,
       "units": [
+        6
+      ],
+      "source": "4. Drivetrain - Gears (System DA5)",
+      "target": "Gears"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "4. Drivetrain - Gears (System DA5)",
+      "target": "Mechs"
+    },
+    {
+      "weight": 1,
+      "units": [
         7
       ],
       "source": "Hubs",
       "target": "5. Wheels & Tires (System DA5 - continued)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "5. Wheels & Tires (System DA5 - continued)",
+      "target": "Wheels"
     },
     {
       "weight": 1,
@@ -1263,14 +1271,6 @@
     {
       "weight": 1,
       "units": [
-        7
-      ],
-      "source": "5. Wheels & Tires (System DA5 - continued)",
-      "target": "Wheels"
-    },
-    {
-      "weight": 1,
-      "units": [
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
@@ -1282,127 +1282,7 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Where"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Notes"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Markdown Formatting"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Structure"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "No Redundancy"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Groups"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "designed"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Formatting"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Clearer Structure"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "numbers"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Clearer"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Removes"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Concise Language"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Key Information"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "syntax"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "meaning"
+      "target": "Brakes"
     },
     {
       "weight": 1,
@@ -1411,86 +1291,6 @@
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
       "target": "retained"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Markdown"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Section"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Grouping"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Explicitly"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "priority"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Identification"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "suitable"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Information"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Notes Section"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Date Inclusion"
     },
     {
       "weight": 1,
@@ -1514,7 +1314,7 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "System Grouping"
+      "target": "designed"
     },
     {
       "weight": 1,
@@ -1530,23 +1330,7 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Readability"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Some"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Adds"
+      "target": "Includes"
     },
     {
       "weight": 1,
@@ -1562,6 +1346,94 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "priority"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Markdown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Markdown Formatting"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Clearer Structure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "System Grouping"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Removes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Adds"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "suitable"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Formatting"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "meaning"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Section"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
       "target": "General"
     },
     {
@@ -1570,7 +1442,7 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Uses"
+      "target": "Explicitly"
     },
     {
       "weight": 1,
@@ -1578,7 +1450,7 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Concise"
+      "target": "Information"
     },
     {
       "weight": 1,
@@ -1586,7 +1458,7 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "names"
+      "target": "Date Inclusion"
     },
     {
       "weight": 1,
@@ -1594,7 +1466,7 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Undefined"
+      "target": "Dates"
     },
     {
       "weight": 1,
@@ -1602,7 +1474,23 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Brakes"
+      "target": "Readability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "syntax"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Notes"
     },
     {
       "weight": 1,
@@ -1618,7 +1506,7 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Systems"
+      "target": "names"
     },
     {
       "weight": 1,
@@ -1626,23 +1514,7 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Emphasis"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Component Identification"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Includes"
+      "target": "Some"
     },
     {
       "weight": 1,
@@ -1658,7 +1530,135 @@
         8
       ],
       "source": "6. General / Undefined Systems (Systems DA1, DA2)",
-      "target": "Dates"
+      "target": "Where"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "numbers"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Concise Language"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Notes Section"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Grouping"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Groups"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Component Identification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Undefined"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "No Redundancy"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Uses"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Identification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Emphasis"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Systems"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Structure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Key Information"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Concise"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. General / Undefined Systems (Systems DA1, DA2)",
+      "target": "Clearer"
     }
   ]
 }

@@ -1,0 +1,1800 @@
+{
+  "nodes": [
+    {
+      "id": "DM Ident",
+      "label": "DM Ident",
+      "type": "heading",
+      "source_units": [
+        1
+      ]
+    },
+    {
+      "id": "Ident",
+      "label": "Ident",
+      "type": "candidate",
+      "source_units": [
+        1
+      ]
+    },
+    {
+      "id": "DM",
+      "label": "DM",
+      "type": "candidate",
+      "source_units": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "AA",
+      "label": "AA",
+      "type": "candidate",
+      "source_units": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "AAA",
+      "label": "AAA",
+      "type": "candidate",
+      "source_units": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "DM Status",
+      "label": "DM Status",
+      "type": "heading",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Skill Level",
+      "label": "Skill Level",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "System",
+      "label": "System",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Update",
+      "label": "Update",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Skill",
+      "label": "Skill",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Breakdown",
+      "label": "Breakdown",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Assurance",
+      "label": "Assurance",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Reason",
+      "label": "Reason",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Quality",
+      "label": "Quality",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Level",
+      "label": "Level",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Quality Assurance",
+      "label": "Quality Assurance",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Status",
+      "label": "Status",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Code",
+      "label": "Code",
+      "type": "candidate",
+      "source_units": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "System Breakdown Code",
+      "label": "System Breakdown Code",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "References",
+      "label": "References",
+      "type": "heading",
+      "source_units": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "Preliminary Requirements",
+      "label": "Preliminary Requirements",
+      "type": "heading",
+      "source_units": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "Preliminary",
+      "label": "Preliminary",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Requirements",
+      "label": "Requirements",
+      "type": "candidate",
+      "source_units": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "TLST",
+      "label": "TLST",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Manufacturer Code",
+      "label": "Manufacturer Code",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Manufacturer",
+      "label": "Manufacturer",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Number",
+      "label": "Number",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "General",
+      "label": "General",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Supplies",
+      "label": "Supplies",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Part",
+      "label": "Part",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Support",
+      "label": "Support",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Stiff",
+      "label": "Stiff",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Equipment",
+      "label": "Equipment",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Chain",
+      "label": "Chain",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Quantity",
+      "label": "Quantity",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Part Number",
+      "label": "Part Number",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Floor",
+      "label": "Floor",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "PPP",
+      "label": "PPP",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "LL",
+      "label": "LL",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "BSK",
+      "label": "BSK",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Support Equipment",
+      "label": "Support Equipment",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "EA",
+      "label": "EA",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Main Procedure",
+      "label": "Main Procedure",
+      "type": "heading",
+      "source_units": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "Procedure",
+      "label": "Procedure",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Inspect",
+      "label": "Inspect",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "inspection",
+      "label": "inspection",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Lubricate",
+      "label": "Lubricate",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Unlock",
+      "label": "Unlock",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Make",
+      "label": "Make",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Open",
+      "label": "Open",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Press",
+      "label": "Press",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "guides",
+      "label": "guides",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Clean",
+      "label": "Clean",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Main",
+      "label": "Main",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Move",
+      "label": "Move",
+      "type": "candidate",
+      "source_units": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "Hold",
+      "label": "Hold",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Prepare",
+      "label": "Prepare",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Close Requirements",
+      "label": "Close Requirements",
+      "type": "heading",
+      "source_units": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "Close",
+      "label": "Close",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "DM Ident",
+      "target": "Ident",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "DM",
+      "target": "DM Ident",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "AA",
+      "target": "DM Ident",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "AAA",
+      "target": "DM Ident",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Skill Level",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "System",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Update",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Skill",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Breakdown",
+      "target": "DM Status",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Assurance",
+      "target": "DM Status",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Reason",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Quality",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Level",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Quality Assurance",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM",
+      "target": "DM Status",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Status",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Code",
+      "target": "DM Status",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "System Breakdown Code",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "References",
+      "target": "References",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "AA",
+      "target": "References",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "AAA",
+      "target": "References",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Preliminary",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Preliminary Requirements",
+      "target": "Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Preliminary Requirements",
+      "target": "TLST",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Manufacturer Code",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Manufacturer",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Number",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "General",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Preliminary Requirements",
+      "target": "Supplies",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Code",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Part",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Preliminary Requirements",
+      "target": "Support",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Preliminary Requirements",
+      "target": "Stiff",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Equipment",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Chain",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Preliminary Requirements",
+      "target": "Quantity",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Part Number",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Floor",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "PPP",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "LL",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "BSK",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Preliminary Requirements",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Preliminary Requirements",
+      "target": "Support Equipment",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "EA",
+      "target": "Preliminary Requirements",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "Procedure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Inspect",
+      "target": "Main Procedure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "inspection",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Lubricate",
+      "target": "Main Procedure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "Unlock",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "Make",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "Open",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "Press",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "guides",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Clean",
+      "target": "Main Procedure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main",
+      "target": "Main Procedure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "Main Procedure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "Move",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Hold",
+      "target": "Main Procedure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Main Procedure",
+      "target": "Prepare",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Close",
+      "target": "Close Requirements",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Close Requirements",
+      "target": "Requirements",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Close Requirements",
+      "target": "Close Requirements",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Close Requirements",
+      "target": "Move",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    }
+  ],
+  "nx_graph": {
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "label": "DM Ident",
+        "type": "heading",
+        "id": "DM Ident"
+      },
+      {
+        "label": "Ident",
+        "type": "candidate",
+        "id": "Ident"
+      },
+      {
+        "label": "DM",
+        "type": "candidate",
+        "id": "DM"
+      },
+      {
+        "label": "AA",
+        "type": "candidate",
+        "id": "AA"
+      },
+      {
+        "label": "AAA",
+        "type": "candidate",
+        "id": "AAA"
+      },
+      {
+        "label": "DM Status",
+        "type": "heading",
+        "id": "DM Status"
+      },
+      {
+        "label": "Skill Level",
+        "type": "candidate",
+        "id": "Skill Level"
+      },
+      {
+        "label": "System",
+        "type": "candidate",
+        "id": "System"
+      },
+      {
+        "label": "Update",
+        "type": "candidate",
+        "id": "Update"
+      },
+      {
+        "label": "Skill",
+        "type": "candidate",
+        "id": "Skill"
+      },
+      {
+        "label": "Breakdown",
+        "type": "candidate",
+        "id": "Breakdown"
+      },
+      {
+        "label": "Assurance",
+        "type": "candidate",
+        "id": "Assurance"
+      },
+      {
+        "label": "Reason",
+        "type": "candidate",
+        "id": "Reason"
+      },
+      {
+        "label": "Quality",
+        "type": "candidate",
+        "id": "Quality"
+      },
+      {
+        "label": "Level",
+        "type": "candidate",
+        "id": "Level"
+      },
+      {
+        "label": "Quality Assurance",
+        "type": "candidate",
+        "id": "Quality Assurance"
+      },
+      {
+        "label": "Status",
+        "type": "candidate",
+        "id": "Status"
+      },
+      {
+        "label": "Code",
+        "type": "candidate",
+        "id": "Code"
+      },
+      {
+        "label": "System Breakdown Code",
+        "type": "candidate",
+        "id": "System Breakdown Code"
+      },
+      {
+        "label": "References",
+        "type": "heading",
+        "id": "References"
+      },
+      {
+        "label": "Preliminary Requirements",
+        "type": "heading",
+        "id": "Preliminary Requirements"
+      },
+      {
+        "label": "Preliminary",
+        "type": "candidate",
+        "id": "Preliminary"
+      },
+      {
+        "label": "Requirements",
+        "type": "candidate",
+        "id": "Requirements"
+      },
+      {
+        "label": "TLST",
+        "type": "candidate",
+        "id": "TLST"
+      },
+      {
+        "label": "Manufacturer Code",
+        "type": "candidate",
+        "id": "Manufacturer Code"
+      },
+      {
+        "label": "Manufacturer",
+        "type": "candidate",
+        "id": "Manufacturer"
+      },
+      {
+        "label": "Number",
+        "type": "candidate",
+        "id": "Number"
+      },
+      {
+        "label": "General",
+        "type": "candidate",
+        "id": "General"
+      },
+      {
+        "label": "Supplies",
+        "type": "candidate",
+        "id": "Supplies"
+      },
+      {
+        "label": "Part",
+        "type": "candidate",
+        "id": "Part"
+      },
+      {
+        "label": "Support",
+        "type": "candidate",
+        "id": "Support"
+      },
+      {
+        "label": "Stiff",
+        "type": "candidate",
+        "id": "Stiff"
+      },
+      {
+        "label": "Equipment",
+        "type": "candidate",
+        "id": "Equipment"
+      },
+      {
+        "label": "Chain",
+        "type": "candidate",
+        "id": "Chain"
+      },
+      {
+        "label": "Quantity",
+        "type": "candidate",
+        "id": "Quantity"
+      },
+      {
+        "label": "Part Number",
+        "type": "candidate",
+        "id": "Part Number"
+      },
+      {
+        "label": "Floor",
+        "type": "candidate",
+        "id": "Floor"
+      },
+      {
+        "label": "PPP",
+        "type": "candidate",
+        "id": "PPP"
+      },
+      {
+        "label": "LL",
+        "type": "candidate",
+        "id": "LL"
+      },
+      {
+        "label": "BSK",
+        "type": "candidate",
+        "id": "BSK"
+      },
+      {
+        "label": "Support Equipment",
+        "type": "candidate",
+        "id": "Support Equipment"
+      },
+      {
+        "label": "EA",
+        "type": "candidate",
+        "id": "EA"
+      },
+      {
+        "label": "Main Procedure",
+        "type": "heading",
+        "id": "Main Procedure"
+      },
+      {
+        "label": "Procedure",
+        "type": "candidate",
+        "id": "Procedure"
+      },
+      {
+        "label": "Inspect",
+        "type": "candidate",
+        "id": "Inspect"
+      },
+      {
+        "label": "inspection",
+        "type": "candidate",
+        "id": "inspection"
+      },
+      {
+        "label": "Lubricate",
+        "type": "candidate",
+        "id": "Lubricate"
+      },
+      {
+        "label": "Unlock",
+        "type": "candidate",
+        "id": "Unlock"
+      },
+      {
+        "label": "Make",
+        "type": "candidate",
+        "id": "Make"
+      },
+      {
+        "label": "Open",
+        "type": "candidate",
+        "id": "Open"
+      },
+      {
+        "label": "Press",
+        "type": "candidate",
+        "id": "Press"
+      },
+      {
+        "label": "guides",
+        "type": "candidate",
+        "id": "guides"
+      },
+      {
+        "label": "Clean",
+        "type": "candidate",
+        "id": "Clean"
+      },
+      {
+        "label": "Main",
+        "type": "candidate",
+        "id": "Main"
+      },
+      {
+        "label": "Move",
+        "type": "candidate",
+        "id": "Move"
+      },
+      {
+        "label": "Hold",
+        "type": "candidate",
+        "id": "Hold"
+      },
+      {
+        "label": "Prepare",
+        "type": "candidate",
+        "id": "Prepare"
+      },
+      {
+        "label": "Close Requirements",
+        "type": "heading",
+        "id": "Close Requirements"
+      },
+      {
+        "label": "Close",
+        "type": "candidate",
+        "id": "Close"
+      }
+    ],
+    "links": [
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "Ident"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "DM"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "AA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "AAA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM",
+        "target": "DM Status"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "AA",
+        "target": "References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "AAA",
+        "target": "References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Skill Level"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "System"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Update"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Skill"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Breakdown"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Assurance"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Reason"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Quality"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Level"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Quality Assurance"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Status"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "Code"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Status",
+        "target": "System Breakdown Code"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Code",
+        "target": "Preliminary Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "References",
+        "target": "References"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Preliminary"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "TLST"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Manufacturer Code"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Manufacturer"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "General"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Supplies"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Part"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Support"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Stiff"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Equipment"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Chain"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Quantity"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Part Number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Floor"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "PPP"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "LL"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "BSK"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Preliminary Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "Support Equipment"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Preliminary Requirements",
+        "target": "EA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "Requirements",
+        "target": "Close Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Inspect"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "inspection"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Lubricate"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Unlock"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Make"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Open"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Press"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "guides"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Clean"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Main"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Main Procedure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Move"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Hold"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Main Procedure",
+        "target": "Prepare"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "Move",
+        "target": "Close Requirements"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "Close Requirements",
+        "target": "Close"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "Close Requirements",
+        "target": "Close Requirements"
+      }
+    ]
+  }
+}

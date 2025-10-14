@@ -1,81 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
-  <dmIdent>
-    <modelIdentCode>S1000DBIKE</modelIdentCode>
-    <systemDiffCode>AAA</systemDiffCode>
-    <systemCode>D00</systemCode>
-    <subSystemCode>0</subSystemCode>
-    <subSubSystemCode>0</subSubSystemCode>
-    <assyCode>00</assyCode>
-    <disassyCode>00</disassyCode>
-    <disassyCodeVariant>AA</disassyCodeVariant>
-    <infoCode>00K</infoCode>
-    <infoCodeVariant>A</infoCodeVariant>
-    <itemLocationCode>D</itemLocationCode>
-  </dmIdent>
-  <language>
-    <countryIsoCode>US</countryIsoCode>
-    <languageIsoCode>en</languageIsoCode>
-  </language>
-  <issueInfo>
-    <issueNumber>001</issueNumber>
-    <inWork>00</inWork>
-  </issueInfo>
-  <dmAddressItems>
-    <issueDate>
-      <year>2024</year>
-      <month>06</month>
-      <day>19</day>
-    </issueDate>
-    <dmTitle>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </dmTitle>
-  </dmAddressItems>
-  <dmStatus>
-    <issueType>new</issueType>
-  </dmStatus>
-  <security>
-    <caveat>cv51</caveat>
-    <commercialClassification>cc51</commercialClassification>
-    <securityClassification>01</securityClassification>
-  </security>
-  <dataRestrictions>
-    <restrictionInstructions>
-      <dataDistribution>To be made available to all S1000D users.</dataDistribution>
-      <exportControl>
-        <simplePara>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simplePara>
-      </exportControl>
-      <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
-      <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
-      <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
-    </restrictionInstructions>
-    <restrictionInfo>
-      <copyright>
-        <emphasis>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</emphasis>
-        <emphasis>Publishers:</emphasis>
-        <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
-        <publisher>Aerospace Industries Association of America</publisher>
-        <publisher>ATA e-Business Program</publisher>
-        <emphasis>Limitations of liability:</emphasis>
-        <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
-        <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
-        <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
-      </copyright>
-      <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
-      <dataConditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConditions>
-    </restrictionInfo>
-  </dataRestrictions>
-  <responsiblePartnerCompany>
-    <enterpriseCode>B6865</enterpriseCode>
-    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
-  </responsiblePartnerCompany>
-  <originator>
-    <enterpriseCode>B6865</enterpriseCode>
-    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
-  </originator>
-  <applicCrossReferenceTableRef>
-    <modelIdentCode>S1000DBIKE</modelIdentCode>
+<dataModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmRef>
+    <dmId>S1000DBIKE</dmId>
     <systemDiffCode>AAA</systemDiffCode>
     <systemCode>D00</systemCode>
     <subSystemCode>0</subSystemCode>
@@ -86,7 +12,7 @@
     <infoCode>00W</infoCode>
     <infoCodeVariant>A</infoCodeVariant>
     <itemLocationCode>D</itemLocationCode>
-  </applicCrossReferenceTableRef>
+  </dmRef>
   <applic>
     <displayText>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</displayText>
     <evaluate>and</evaluate>
@@ -113,7 +39,6 @@
       <applicPropertyValues>1~3</applicPropertyValues>
     </assert>
     <evaluate>and</evaluate>
-    <evaluate>and</evaluate>
     <assert>
       <applicPropertyIdent>model</applicPropertyIdent>
       <applicPropertyType>prodattr</applicPropertyType>
@@ -134,8 +59,8 @@
     <authorityInfo>20010131</authorityInfo>
     <techPubBase>Bike book</techPubBase>
   </techStandard>
-  <brexDmRef>
-    <modelIdentCode>S1000DBIKE</modelIdentCode>
+  <brexDMRef>
+    <dmId>S1000DBIKE</dmId>
     <systemDiffCode>AAA</systemDiffCode>
     <systemCode>D00</systemCode>
     <subSystemCode>0</subSystemCode>
@@ -146,89 +71,51 @@
     <infoCode>022</infoCode>
     <infoCodeVariant>A</infoCodeVariant>
     <itemLocationCode>D</itemLocationCode>
-  </brexDmRef>
+  </brexDMRef>
   <qualityAssurance>
     <verificationType>tabtop</verificationType>
   </qualityAssurance>
   <remarks>
-    <remark>CPF_2020-040-001</remark>
-    <remark>2020-040-001</remark>
+    <para>CPF_2020-040EPWG Bike Enhancement with elements and attributes missing in the samples</para>
+    <para>EPWG add enterpriseRepository, enterpriseSpec, enterpriseIdent, enterpriseIdentAlt</para>
   </remarks>
-  <commonContent>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </commonContent>
-  
-  
-  
-  <dmEnterprise>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </dmEnterprise>
-  
-  <commonContent>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </commonContent>
-  <enterpriseContent>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </enterpriseContent>
-  
-  
-  <dmEnterprise>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </dmEnterprise>
-  <enterpriseContent>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </enterpriseContent>
-  
-  <commonContent>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </commonContent>
-  
-  <dmEnterprise>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </dmEnterprise>
-  
-  
-  <dmEnterprise>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </dmEnterprise>
-  
-  
-  <enterpriseContent>
-    <enterprise>
-      <techName>Mountain bicycle</techName>
-      <infoName>Organizations common information repository</infoName>
-    </enterprise>
-  </enterpriseContent>
-  
-  
-  
-  
-  
-</dm>
+  <content>
+    <commonRepository>
+      <enterpriseRepository id="SPEC-0001">
+        <enterpriseSpec id="C001">
+          <enterpriseIdent id="SPEC-0003" manufacturerCodeValue="KZ444"/>
+          <enterpriseName>UTOPIA plc</enterpriseName>
+          <businessUnit>
+            <businessUnitName>Customers Services Business Line</businessUnitName>
+            <businessUnitAddress>
+              <street>Heaven street</street>
+              <postalZipCode>99999</postalZipCode>
+              <city>Saint Vitus</city>
+              <country>UTOPIA</country>
+              <phoneNumber>111 222 333 444</phoneNumber>
+              <faxNumber>111 222 333 445</faxNumber>
+              <email>customers_services@utopia.com</email>
+              <email>info@utopia.com</email>
+              <internet>www.utopia.customers.services.online.com</internet>
+              <internet>www.utopia.online.com</internet>
+            </businessUnitAddress>
+          </businessUnit>
+        </enterpriseSpec>
+        <enterpriseSpec id="SPEC-0002">
+          <enterpriseIdent id="SPEC-0004" manufacturerCodeValue="00000"/>
+          <enterpriseIdentAlt altCode="1235" altCodeType="DUNS"/>
+          <enterpriseName>Greasy Bikes Co. Plc</enterpriseName>
+          <businessUnit>
+            <businessUnitName>Heavy bikes</businessUnitName>
+            <businessUnitAddress>
+              <street>Off Road 66</street>
+              <postalZipCode>12587</postalZipCode>
+              <city>Noway</city>
+              <country>Atlantis</country>
+            </businessUnitAddress>
+          </businessUnit>
+        </enterpriseSpec>
+      </enterpriseRepository>
+    </commonRepository>
+  </content>
+</dataModule>

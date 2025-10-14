@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <title>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_010-00_EN-US</title>
+  </identification>
+  <content>
+    <section>
+      <title>Ident and Status Section</title>
+      <section>
+        <title>DM Address</title>
+        <section>
+          <title>DM Ident</title>
+          <item>
+            <key>modelIdentCode</key>
+            <value>S1000DBIKE</value>
+          </item>
+          <item>
+            <key>systemDiffCode</key>
+            <value>AAA</value>
+          </item>
+          <item>
+            <key>systemCode</key>
+            <value>DA0</value>
+          </item>
+          <item>
+            <key>subSystemCode</key>
+            <value>1</value>
+          </item>
+          <item>
+            <key>subSubSystemCode</key>
+            <value>0</value>
+          </item>
+          <item>
+            <key>assyCode</key>
+            <value>20</value>
+          </item>
+          <item>
+            <key>disassyCode</key>
+            <value>00</value>
+          </item>
+          <item>
+            <key>disassyCodeVariant</key>
+            <value>AA</value>
+          </item>
+          <item>
+            <key>language</key>
+            <value>EN</value>
+          </item>
+          <item>
+            <key>country</key>
+            <value>US</value>
+          </item>
+        </section>
+        <section>
+          <title>DM Status</title>
+          <item>
+            <key>First Verification</key>
+            <value>tabtop</value>
+          </item>
+          <item>
+            <key>Quality Assurance</key>
+            <value>tabtop</value>
+          </item>
+          <item>
+            <key>System Breakdown Code</key>
+            <value>BY112</value>
+          </item>
+          <item>
+            <key>Skill Level</key>
+            <value>sk01</value>
+          </item>
+          <item>
+            <key>Reason For Update</key>
+            <value>S1000D upissued</value>
+          </item>
+        </section>
+      </section>
+      <section>
+        <title>Content</title>
+        <section>
+          <title>References</title>
+          <reference>
+            <title>DM Ref 1</title>
+            <item>
+              <key>modelIdentCode</key>
+              <value>S1000DBIKE</value>
+            </item>
+            <item>
+              <key>systemDiffCode</key>
+              <value>AAA</value>
+            </item>
+            <item>
+              <key>systemCode</key>
+              <value>DA0</value>
+            </item>
+            <item>
+              <key>subSystemCode</key>
+              <value>1</value>
+            </item>
+            <item>
+              <key>subSubSystemCode</key>
+              <value>0</value>
+            </item>
+            <item>
+              <key>assyCode</key>
+              <value>10</value>
+            </item>
+            <item>
+              <key>disassyCode</key>
+              <value>00</value>
+            </item>
+            <item>
+              <key>disassyCodeVariant</key>
+              <value>AA</value>
+            </item>
+            <item>
+              <key>infoCode</key>
+              <value>921</value>
+            </item>
+            <item>
+              <key>infoCodeVariant</key>
+              <value>A</value>
+            </item>
+            <item>
+              <key>itemLocationCode</key>
+              <value>A</value>
+            </item>
+          </reference>
+          <reference>
+            <title>DM Ref 2</title>
+            <item>
+              <key>modelIdentCode</key>
+              <value>S1000DBIKE</value>
+            </item>
+            <item>
+              <key>systemDiffCode</key>
+              <value>AAA</value>
+            </item>
+            <item>
+              <key>systemCode</key>
+              <value>DA0</value>
+            </item>
+            <item>
+              <key>subSystemCode</key>
+              <value>1</value>
+            </item>
+            <item>
+              <key>subSubSystemCode</key>
+              <value>0</value>
+            </item>
+            <item>
+              <key>assyCode</key>
+              <value>20</value>
+            </item>
+            <item>
+              <key>disassyCode</key>
+              <value>00</value>
+            </item>
+            <item>
+              <key>disassyCodeVariant</key>
+              <value>AA</value>
+            </item>
+            <item>
+              <key>infoCode</key>
+              <value>215</value>
+            </item>
+            <item>
+              <key>infoCodeVariant</key>
+              <value>A</value>
+            </item>
+            <item>
+              <key>itemLocationCode</key>
+              <value>A</value>
+            </item>
+          </reference>
+          <reference>
+            <title>DM Ref 3</title>
+            <item>
+              <key>modelIdentCode</key>
+              <value>S1000DBIKE</value>
+            </item>
+            <item>
+              <key>systemDiffCode</key>
+              <value>AAA</value>
+            </item>
+            <item>
+              <key>systemCode</key>
+              <value>DA0</value>
+            </item>
+            <item>
+              <key>subSystemCode</key>
+              <value>1</value>
+            </item>
+            <item>
+              <key>subSubSystemCode</key>
+              <value>0</value>
+            </item>
+            <item>
+              <key>assyCode</key>
+              <value>20</value>
+            </item>
+            <item>
+              <key>disassyCode</key>
+              <value>00</value>
+            </item>
+            <item>
+              <key>disassyCodeVariant</key>
+              <value>AA</value>
+            </item>
+            <item>
+              <key>infoCode</key>
+              <value>921</value>
+            </item>
+            <item>
+              <key>infoCodeVariant</key>
+              <value>A</value>
+            </item>
+            <item>
+              <key>itemLocationCode</key>
+              <value>A</value>
+            </item>
+          </reference>
+        </section>
+        <section>
+          <title>Fault Isolation</title>
+          <section>
+            <title>Fault Isolation Procedure</title>
+            <item>
+              <key>Fault Code</key>
+              <value>NYCJD04</value>
+            </item>
+            <item>
+              <key>Fault Description</key>
+              <value>Tire does not function correctly</value>
+            </item>
+            <section>
+              <title>Preliminary Requirements</title>
+              <item>
+                <key>Support Equipment</key>
+                <item>
+                  <key>Name</key>
+                  <value>Tire pressure gauge</value>
+                </item>
+                <item>
+                  <key>Manufacturer</key>
+                  <value></value>
+                </item>
+                <item>
+                  <key>Manufacturer Part Number</key>
+                  <value></value>
+                </item>
+                <item>
+                  <key>Quantity</key>
+                  <value>1</value>
+                </item>
+              </item>
+              <item>
+                <key>Support Equipment</key>
+                <item>
+                  <key>Name</key>
+                  <value>Tire pressure gauge</value>
+                </item>
+                <item>
+                  <key>Manufacturer</key>
+                  <value></value>
+                </item>
+                <item>
+                  <key>Manufacturer Part Number</key>
+                  <value></value>
+                </item>
+                <item>
+                  <key>Quantity</key>
+                  <value>1</value>
+                </item>
+              </item>
+            </section>
+            <step>
+              <title>Step 1</title>
+              <instruction>Check tire pressure</instruction>
+            </step>
+            <step>
+              <title>Step 2</title>
+              <instruction>Check tire tread</instruction>
+            </step>
+          </section>
+        </section>
+      </section>
+    </section>
+  </content>
+</procedure>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_s1000d_document xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_document_title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1 - Wiring Data Document</dmc_document_title>
+  <dmc_document_description>This document details wiring data, including wire groups, connections, and associated information.</dmc_document_description>
+  <dmc_section>
+    <dmc_section_title>Wiring Group</dmc_section_title>
+    <dmc_section_description>This section outlines the defined wire groups and their contents.</dmc_section_description>
+    <dmc_subsection>
+      <dmc_subsection_title>Wire Group 1</dmc_subsection_title>
+      <dmc_subsection_description>This group contains multiple wires and alternate specifications.</dmc_subsection_description>
+      <dmc_subsubsection>
+        <dmc_subsubsection_title>Wires</dmc_subsubsection_title>
+        <dmc_item>
+          <dmc_item_text>Wire 1: (Details omitted for brevity - see original XML)</dmc_item_text>
+        </dmc_item>
+        <dmc_item>
+          <dmc_item_text>Wire 2: (Details omitted for brevity - see original XML)</dmc_item_text>
+        </dmc_item>
+        <dmc_item>
+          <dmc_item_text>... (Other wires in the group)</dmc_item_text>
+        </dmc_item>
+      </dmc_subsubsection>
+      <dmc_subsubsection>
+        <dmc_subsubsection_title>Wire Alternates (SPEC-0001)</dmc_subsubsection_title>
+        <dmc_subsubsection_description>This section details alternate wire specifications.</dmc_subsubsection_description>
+        <dmc_item>
+          <dmc_item_name>Circuit Ident</dmc_item_name>
+          <dmc_item_value>YD</dmc_item_value>
+        </dmc_item>
+        <dmc_item>
+          <dmc_item_name>Wire Number</dmc_item_name>
+          <dmc_item_value>0486</dmc_item_value>
+        </dmc_item>
+        <dmc_item>
+          <dmc_item_name>Section Ident</dmc_item_name>
+          <dmc_item_value>AA</dmc_item_value>
+        </dmc_item>
+        <dmc_subsubsection>
+          <dmc_subsubsection_title>From Equipment: 6QXA</dmc_subsubsection_title>
+          <dmc_subsubsection>
+            <dmc_subsubsection_title>Connection Details</dmc_subsubsection_title>
+            <dmc_item>
+              <dmc_item_name>Screen Order</dmc_item_name>
+              <dmc_item_value>3</dmc_item_value>
+            </dmc_item>
+            <dmc_item>
+              <dmc_item_name>Special Connection</dmc_item_name>
+              <dmc_item_value>100</dmc_item_value>
+            </dmc_item>
+            <dmc_item>
+              <dmc_item_name>Electrical Potential</dmc_item_name>
+              <dmc_item_value>Termination Module Grouping Value: 1, Block Grouping Value: 1, Shunt Grouping Value: 1, Contact Order Value: 1, Potential Connections Order: 2</dmc_item_value>
+            </dmc_item>
+          </dmc_subsubsection>
+          <dmc_subsubsection>
+            <dmc_subsubsection_title>Screen Group</dmc_subsubsection_title>
+            <dmc_item_value>Screen Level: 01, Screen Type: 03, Screen Style: 01</dmc_item_value>
+          </dmc_subsubsection>
+          <dmc_subsubsection>
+            <dmc_subsubsection_title>Twist Group</dmc_subsubsection_title>
+            <dmc_item_value>Twist Type: 2, Twist Value: T%CM0005AA</dmc_item_value>
+          </dmc_subsubsection>
+          <dmc_subsubsection>
+            <dmc_subsubsection_title>Wire Installation Code</dmc_subsubsection_title>
+            <dmc_subsubsection>
+              <dmc_subsubsection_title>Preparation Info</dmc_subsubsection_title>
+              <dmc_item_value>Instruction Ident: PRE609</dmc_item_value>
+            </dmc_subsubsection>
+            <dmc_subsubsection>
+              <dmc_subsubsection_title>Finishing Info</dmc_subsubsection_title>
+              <dmc_item_value>Instruction Ident: PRE609</dmc_item_value>
+            </dmc_subsubsection>
+          </dmc_subsubsection>
+        </dmc_subsubsection>
+        <dmc_subsubsection>
+          <dmc_subsubsection_title>Wire Info:</dmc_subsubsection_title>
+          <dmc_item>
+            <dmc_item_name>Wire Code</dmc_item_name>
+            <dmc_item_value>Wire Type: QC, Wire Gauge (AWG): 006</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>Part Number</dmc_item_name>
+            <dmc_item_value>JN1018QC020</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>Harness Ident</dmc_item_name>
+            <dmc_item_value>1109VB</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>Wire Sequence Number</dmc_item_name>
+            <dmc_item_value>0161</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>Coaxial Cable Flag</dmc_item_name>
+            <dmc_item_value>Y</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>Triaxial Cable Flag</dmc_item_name>
+            <dmc_item_value>N</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>EMC Code</dmc_item_name>
+            <dmc_item_value>E</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>Length</dmc_item_name>
+            <dmc_item_value>2150 mm (estimated)</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>Wire Color</dmc_item_name>
+            <dmc_item_value>R</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>Signal Info</dmc_item_name>
+            <dmc_item_value>115V AC, 400Hz</dmc_item_value>
+          </dmc_item>
+          <dmc_item>
+            <dmc_item_name>Responsible Partner Company</dmc_item_name>
+            <dmc_item_value>K0999</dmc_item_value>
+          </dmc_item>
+          <dmc_subsubsection>
+            <dmc_subsubsection_title>Routing</dmc_subsubsection_title>
+            <dmc_item>
+              <dmc_item_name>Clip</dmc_item_name>
+              <dmc_item_value>10</dmc_item_value>
+            </dmc_item>
+          </dmc_subsubsection>
+          <dmc_subsubsection>
+            <dmc_subsubsection_title>Routing</dmc_subsubsection_title>
+            <dmc_item>
+              <dmc_item_name>Clip</dmc_item_name>
+              <dmc_item_value>10</dmc_item_value>
+            </dmc_item>
+          </dmc_subsubsection>
+        </dmc_subsubsection>
+      </dmc_subsubsection>
+    </dmc_subsection>
+  </dmc_section>
+  <dmc_section>
+    <dmc_section_title>Summary</dmc_section_title>
+    <dmc_section_description>This document details wiring data, including wire groups, connections, and associated information.</dmc_section_description>
+  </dmc_section>
+</dmc_s1000d_document>

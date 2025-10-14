@@ -1,0 +1,1040 @@
+{
+  "nodes": [
+    {
+      "id": "Document",
+      "label": "Document",
+      "type": "heading",
+      "source_units": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "DModule Content Summary",
+      "label": "DModule Content Summary",
+      "type": "heading",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "consists",
+      "label": "consists",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Content",
+      "label": "Content",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Summary",
+      "label": "Summary",
+      "type": "candidate",
+      "source_units": [
+        2,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "This",
+      "label": "This",
+      "type": "candidate",
+      "source_units": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "Module Content Summary This",
+      "label": "Module Content Summary This",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "content",
+      "label": "content",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "list",
+      "label": "list",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "XML",
+      "label": "XML",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Front Matter Overview",
+      "label": "Front Matter Overview",
+      "type": "heading",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Indicates",
+      "label": "Indicates",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Front Matter Overview The",
+      "label": "Front Matter Overview The",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "attributes",
+      "label": "attributes",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "identifier",
+      "label": "identifier",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Identifier",
+      "label": "Identifier",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Consistent",
+      "label": "Consistent",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Front",
+      "label": "Front",
+      "type": "candidate",
+      "source_units": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "Overview",
+      "label": "Overview",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Specifies",
+      "label": "Specifies",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Matter",
+      "label": "Matter",
+      "type": "candidate",
+      "source_units": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "Detailed List of Front Matter Entries",
+      "label": "Detailed List of Front Matter Entries",
+      "type": "heading",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Here",
+      "label": "Here",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Entries",
+      "label": "Entries",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "System",
+      "label": "System",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Front Matter Entries Here",
+      "label": "Front Matter Entries Here",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Detailed",
+      "label": "Detailed",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Detailed List",
+      "label": "Detailed List",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "List",
+      "label": "List",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "breakdown",
+      "label": "breakdown",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "series",
+      "label": "series",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "context",
+      "label": "context",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Summary The",
+      "label": "Summary The",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "used",
+      "label": "used",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Document",
+      "target": "Document",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "DModule Content Summary",
+      "target": "consists",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Content",
+      "target": "DModule Content Summary",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DModule Content Summary",
+      "target": "Summary",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DModule Content Summary",
+      "target": "This",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DModule Content Summary",
+      "target": "Module Content Summary This",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DModule Content Summary",
+      "target": "content",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DModule Content Summary",
+      "target": "list",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "DModule Content Summary",
+      "target": "XML",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Front Matter Overview",
+      "target": "Indicates",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Front Matter Overview",
+      "target": "Front Matter Overview The",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Front Matter Overview",
+      "target": "attributes",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Front Matter Overview",
+      "target": "identifier",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Front Matter Overview",
+      "target": "Identifier",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Consistent",
+      "target": "Front Matter Overview",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Front",
+      "target": "Front Matter Overview",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Front Matter Overview",
+      "target": "Overview",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Front Matter Overview",
+      "target": "list",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Front Matter Overview",
+      "target": "Specifies",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Front Matter Overview",
+      "target": "Matter",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Detailed List of Front Matter Entries",
+      "target": "Here",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Detailed List of Front Matter Entries",
+      "target": "Entries",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Detailed List of Front Matter Entries",
+      "target": "System",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Detailed List of Front Matter Entries",
+      "target": "Front Matter Entries Here",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Detailed",
+      "target": "Detailed List of Front Matter Entries",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Detailed List",
+      "target": "Detailed List of Front Matter Entries",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Detailed List of Front Matter Entries",
+      "target": "List",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Detailed List of Front Matter Entries",
+      "target": "Front",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Detailed List of Front Matter Entries",
+      "target": "breakdown",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Detailed List of Front Matter Entries",
+      "target": "Matter",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Summary",
+      "target": "series",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Summary",
+      "target": "Summary",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Summary",
+      "target": "This",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Summary",
+      "target": "context",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Summary",
+      "target": "Summary The",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "Summary",
+      "target": "used",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    }
+  ],
+  "nx_graph": {
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "label": "Document",
+        "type": "heading",
+        "id": "Document"
+      },
+      {
+        "label": "DModule Content Summary",
+        "type": "heading",
+        "id": "DModule Content Summary"
+      },
+      {
+        "label": "consists",
+        "type": "candidate",
+        "id": "consists"
+      },
+      {
+        "label": "Content",
+        "type": "candidate",
+        "id": "Content"
+      },
+      {
+        "label": "Summary",
+        "type": "candidate",
+        "id": "Summary"
+      },
+      {
+        "label": "This",
+        "type": "candidate",
+        "id": "This"
+      },
+      {
+        "label": "Module Content Summary This",
+        "type": "candidate",
+        "id": "Module Content Summary This"
+      },
+      {
+        "label": "content",
+        "type": "candidate",
+        "id": "content"
+      },
+      {
+        "label": "list",
+        "type": "candidate",
+        "id": "list"
+      },
+      {
+        "label": "XML",
+        "type": "candidate",
+        "id": "XML"
+      },
+      {
+        "label": "Front Matter Overview",
+        "type": "heading",
+        "id": "Front Matter Overview"
+      },
+      {
+        "label": "Indicates",
+        "type": "candidate",
+        "id": "Indicates"
+      },
+      {
+        "label": "Front Matter Overview The",
+        "type": "candidate",
+        "id": "Front Matter Overview The"
+      },
+      {
+        "label": "attributes",
+        "type": "candidate",
+        "id": "attributes"
+      },
+      {
+        "label": "identifier",
+        "type": "candidate",
+        "id": "identifier"
+      },
+      {
+        "label": "Identifier",
+        "type": "candidate",
+        "id": "Identifier"
+      },
+      {
+        "label": "Consistent",
+        "type": "candidate",
+        "id": "Consistent"
+      },
+      {
+        "label": "Front",
+        "type": "candidate",
+        "id": "Front"
+      },
+      {
+        "label": "Overview",
+        "type": "candidate",
+        "id": "Overview"
+      },
+      {
+        "label": "Specifies",
+        "type": "candidate",
+        "id": "Specifies"
+      },
+      {
+        "label": "Matter",
+        "type": "candidate",
+        "id": "Matter"
+      },
+      {
+        "label": "Detailed List of Front Matter Entries",
+        "type": "heading",
+        "id": "Detailed List of Front Matter Entries"
+      },
+      {
+        "label": "Here",
+        "type": "candidate",
+        "id": "Here"
+      },
+      {
+        "label": "Entries",
+        "type": "candidate",
+        "id": "Entries"
+      },
+      {
+        "label": "System",
+        "type": "candidate",
+        "id": "System"
+      },
+      {
+        "label": "Front Matter Entries Here",
+        "type": "candidate",
+        "id": "Front Matter Entries Here"
+      },
+      {
+        "label": "Detailed",
+        "type": "candidate",
+        "id": "Detailed"
+      },
+      {
+        "label": "Detailed List",
+        "type": "candidate",
+        "id": "Detailed List"
+      },
+      {
+        "label": "List",
+        "type": "candidate",
+        "id": "List"
+      },
+      {
+        "label": "breakdown",
+        "type": "candidate",
+        "id": "breakdown"
+      },
+      {
+        "label": "series",
+        "type": "candidate",
+        "id": "series"
+      },
+      {
+        "label": "context",
+        "type": "candidate",
+        "id": "context"
+      },
+      {
+        "label": "Summary The",
+        "type": "candidate",
+        "id": "Summary The"
+      },
+      {
+        "label": "used",
+        "type": "candidate",
+        "id": "used"
+      }
+    ],
+    "links": [
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "Document",
+        "target": "Document"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DModule Content Summary",
+        "target": "consists"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DModule Content Summary",
+        "target": "Content"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DModule Content Summary",
+        "target": "Summary"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DModule Content Summary",
+        "target": "This"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DModule Content Summary",
+        "target": "Module Content Summary This"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DModule Content Summary",
+        "target": "content"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DModule Content Summary",
+        "target": "list"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DModule Content Summary",
+        "target": "XML"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Summary",
+        "target": "series"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Summary",
+        "target": "Summary"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Summary",
+        "target": "This"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Summary",
+        "target": "context"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Summary",
+        "target": "Summary The"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "Summary",
+        "target": "used"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "list",
+        "target": "Front Matter Overview"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "Indicates"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "Front Matter Overview The"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "attributes"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "identifier"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "Identifier"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "Consistent"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "Front"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "Overview"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "Specifies"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "Front Matter Overview",
+        "target": "Matter"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Front",
+        "target": "Detailed List of Front Matter Entries"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Matter",
+        "target": "Detailed List of Front Matter Entries"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Detailed List of Front Matter Entries",
+        "target": "Here"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Detailed List of Front Matter Entries",
+        "target": "Entries"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Detailed List of Front Matter Entries",
+        "target": "System"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Detailed List of Front Matter Entries",
+        "target": "Front Matter Entries Here"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Detailed List of Front Matter Entries",
+        "target": "Detailed"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Detailed List of Front Matter Entries",
+        "target": "Detailed List"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Detailed List of Front Matter Entries",
+        "target": "List"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Detailed List of Front Matter Entries",
+        "target": "breakdown"
+      }
+    ]
+  }
+}

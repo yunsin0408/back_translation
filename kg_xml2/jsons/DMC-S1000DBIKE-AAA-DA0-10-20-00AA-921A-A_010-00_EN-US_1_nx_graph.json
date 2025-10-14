@@ -19,14 +19,14 @@
       "id": "This"
     },
     {
-      "label": "procedure",
-      "type": "candidate",
-      "id": "procedure"
-    },
-    {
       "label": "Introduction This",
       "type": "candidate",
       "id": "Introduction This"
+    },
+    {
+      "label": "procedure",
+      "type": "candidate",
+      "id": "procedure"
     },
     {
       "label": "Introduction",
@@ -39,9 +39,9 @@
       "id": "2.1 Personnel"
     },
     {
-      "label": "Role",
+      "label": "Estimated",
       "type": "candidate",
-      "id": "Role"
+      "id": "Estimated"
     },
     {
       "label": "Personnel",
@@ -49,9 +49,9 @@
       "id": "Personnel"
     },
     {
-      "label": "Category",
+      "label": "Role",
       "type": "candidate",
-      "id": "Category"
+      "id": "Role"
     },
     {
       "label": "Time",
@@ -59,19 +59,9 @@
       "id": "Time"
     },
     {
-      "label": "Basic",
+      "label": "Category",
       "type": "candidate",
-      "id": "Basic"
-    },
-    {
-      "label": "Estimated",
-      "type": "candidate",
-      "id": "Estimated"
-    },
-    {
-      "label": "Operator",
-      "type": "candidate",
-      "id": "Operator"
+      "id": "Category"
     },
     {
       "label": "Estimated Time",
@@ -79,64 +69,19 @@
       "id": "Estimated Time"
     },
     {
+      "label": "Operator",
+      "type": "candidate",
+      "id": "Operator"
+    },
+    {
+      "label": "Basic",
+      "type": "candidate",
+      "id": "Basic"
+    },
+    {
       "label": "2.2 Support Equipment",
       "type": "heading",
       "id": "2.2 Support Equipment"
-    },
-    {
-      "label": "Support Equipment",
-      "type": "candidate",
-      "id": "Support Equipment"
-    },
-    {
-      "label": "Quantity",
-      "type": "candidate",
-      "id": "Quantity"
-    },
-    {
-      "label": "Tire",
-      "type": "candidate",
-      "id": "Tire"
-    },
-    {
-      "label": "Manufacturer",
-      "type": "candidate",
-      "id": "Manufacturer"
-    },
-    {
-      "label": "Name",
-      "type": "candidate",
-      "id": "Name"
-    },
-    {
-      "label": "BSK",
-      "type": "candidate",
-      "id": "BSK"
-    },
-    {
-      "label": "Number",
-      "type": "candidate",
-      "id": "Number"
-    },
-    {
-      "label": "Specialist",
-      "type": "candidate",
-      "id": "Specialist"
-    },
-    {
-      "label": "ID",
-      "type": "candidate",
-      "id": "ID"
-    },
-    {
-      "label": "Part Number",
-      "type": "candidate",
-      "id": "Part Number"
-    },
-    {
-      "label": "Part",
-      "type": "candidate",
-      "id": "Part"
     },
     {
       "label": "TLST",
@@ -144,14 +89,69 @@
       "id": "TLST"
     },
     {
-      "label": "Equipment",
+      "label": "Part Number",
       "type": "candidate",
-      "id": "Equipment"
+      "id": "Part Number"
+    },
+    {
+      "label": "Name",
+      "type": "candidate",
+      "id": "Name"
+    },
+    {
+      "label": "Part",
+      "type": "candidate",
+      "id": "Part"
+    },
+    {
+      "label": "Quantity",
+      "type": "candidate",
+      "id": "Quantity"
+    },
+    {
+      "label": "Support Equipment",
+      "type": "candidate",
+      "id": "Support Equipment"
+    },
+    {
+      "label": "BSK",
+      "type": "candidate",
+      "id": "BSK"
     },
     {
       "label": "Support",
       "type": "candidate",
       "id": "Support"
+    },
+    {
+      "label": "Specialist",
+      "type": "candidate",
+      "id": "Specialist"
+    },
+    {
+      "label": "Equipment",
+      "type": "candidate",
+      "id": "Equipment"
+    },
+    {
+      "label": "Number",
+      "type": "candidate",
+      "id": "Number"
+    },
+    {
+      "label": "ID",
+      "type": "candidate",
+      "id": "ID"
+    },
+    {
+      "label": "Manufacturer",
+      "type": "candidate",
+      "id": "Manufacturer"
+    },
+    {
+      "label": "Tire",
+      "type": "candidate",
+      "id": "Tire"
     },
     {
       "label": "2.3 Spares",
@@ -174,6 +174,16 @@
       "id": "3.1 Preparation"
     },
     {
+      "label": "Preparation",
+      "type": "candidate",
+      "id": "Preparation"
+    },
+    {
+      "label": "Lift",
+      "type": "candidate",
+      "id": "Lift"
+    },
+    {
       "label": "Deflate",
       "type": "candidate",
       "id": "Deflate"
@@ -182,16 +192,6 @@
       "label": "Remove",
       "type": "candidate",
       "id": "Remove"
-    },
-    {
-      "label": "Lift",
-      "type": "candidate",
-      "id": "Lift"
-    },
-    {
-      "label": "Preparation",
-      "type": "candidate",
-      "id": "Preparation"
     },
     {
       "label": "3.2 Tire Replacement",
@@ -204,9 +204,9 @@
       "id": "Refer"
     },
     {
-      "label": "DM",
+      "label": "Replacement",
       "type": "candidate",
-      "id": "DM"
+      "id": "Replacement"
     },
     {
       "label": "AAA",
@@ -214,9 +214,9 @@
       "id": "AAA"
     },
     {
-      "label": "Tire Replacement",
+      "label": "DM",
       "type": "candidate",
-      "id": "Tire Replacement"
+      "id": "DM"
     },
     {
       "label": "Code",
@@ -224,9 +224,9 @@
       "id": "Code"
     },
     {
-      "label": "Replacement",
+      "label": "Tire Replacement",
       "type": "candidate",
-      "id": "Replacement"
+      "id": "Tire Replacement"
     },
     {
       "label": "3.3 Finalization",
@@ -234,14 +234,14 @@
       "id": "3.3 Finalization"
     },
     {
-      "label": "Tighten",
-      "type": "candidate",
-      "id": "Tighten"
-    },
-    {
       "label": "Install",
       "type": "candidate",
       "id": "Install"
+    },
+    {
+      "label": "Tighten",
+      "type": "candidate",
+      "id": "Tighten"
     },
     {
       "label": "Finalization",
@@ -259,9 +259,14 @@
       "id": "4. Close-Out Requirements"
     },
     {
-      "label": "Close",
+      "label": "Perform",
       "type": "candidate",
-      "id": "Close"
+      "id": "Perform"
+    },
+    {
+      "label": "Condition",
+      "type": "candidate",
+      "id": "Condition"
     },
     {
       "label": "Requirements",
@@ -274,14 +279,9 @@
       "id": "Out Requirements"
     },
     {
-      "label": "Perform",
+      "label": "Close",
       "type": "candidate",
-      "id": "Perform"
-    },
-    {
-      "label": "Condition",
-      "type": "candidate",
-      "id": "Condition"
+      "id": "Close"
     }
   ],
   "links": [
@@ -307,7 +307,7 @@
         2
       ],
       "source": "1. Introduction",
-      "target": "procedure"
+      "target": "Introduction This"
     },
     {
       "weight": 1,
@@ -315,7 +315,7 @@
         2
       ],
       "source": "1. Introduction",
-      "target": "Introduction This"
+      "target": "procedure"
     },
     {
       "weight": 1,
@@ -331,7 +331,7 @@
         3
       ],
       "source": "2.1 Personnel",
-      "target": "Role"
+      "target": "Estimated"
     },
     {
       "weight": 1,
@@ -347,7 +347,7 @@
         3
       ],
       "source": "2.1 Personnel",
-      "target": "Category"
+      "target": "Role"
     },
     {
       "weight": 1,
@@ -363,7 +363,7 @@
         3
       ],
       "source": "2.1 Personnel",
-      "target": "Basic"
+      "target": "Category"
     },
     {
       "weight": 1,
@@ -371,7 +371,7 @@
         3
       ],
       "source": "2.1 Personnel",
-      "target": "Estimated"
+      "target": "Estimated Time"
     },
     {
       "weight": 1,
@@ -387,95 +387,7 @@
         3
       ],
       "source": "2.1 Personnel",
-      "target": "Estimated Time"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "Support Equipment"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "Quantity"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "Tire"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "Manufacturer"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "Name"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "BSK"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "Number"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "Specialist"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "ID"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "Part Number"
-    },
-    {
-      "weight": 1,
-      "units": [
-        4
-      ],
-      "source": "2.2 Support Equipment",
-      "target": "Part"
+      "target": "Basic"
     },
     {
       "weight": 1,
@@ -491,7 +403,47 @@
         4
       ],
       "source": "2.2 Support Equipment",
-      "target": "Equipment"
+      "target": "Part Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "Name"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "Part"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "Quantity"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "Support Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "BSK"
     },
     {
       "weight": 1,
@@ -504,9 +456,113 @@
     {
       "weight": 1,
       "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "Specialist"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "Equipment"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "ID"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "Manufacturer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2.2 Support Equipment",
+      "target": "Tire"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Part Number",
+      "target": "2.3 Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Name",
+      "target": "2.3 Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Part",
+      "target": "2.3 Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
         5
       ],
       "source": "Quantity",
+      "target": "2.3 Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Specialist",
+      "target": "3.1 Preparation"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Number",
+      "target": "2.3 Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "ID",
+      "target": "2.3 Spares"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Manufacturer",
       "target": "2.3 Spares"
     },
     {
@@ -530,62 +586,6 @@
       "units": [
         5
       ],
-      "source": "Manufacturer",
-      "target": "2.3 Spares"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Name",
-      "target": "2.3 Spares"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Number",
-      "target": "2.3 Spares"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Specialist",
-      "target": "3.1 Preparation"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "ID",
-      "target": "2.3 Spares"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Part Number",
-      "target": "2.3 Spares"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Part",
-      "target": "2.3 Spares"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
       "source": "2.3 Spares",
       "target": "Spares"
     },
@@ -603,15 +603,7 @@
         6
       ],
       "source": "3.1 Preparation",
-      "target": "Deflate"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "3.1 Preparation",
-      "target": "Remove"
+      "target": "Preparation"
     },
     {
       "weight": 1,
@@ -627,7 +619,15 @@
         6
       ],
       "source": "3.1 Preparation",
-      "target": "Preparation"
+      "target": "Deflate"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "3.1 Preparation",
+      "target": "Remove"
     },
     {
       "weight": 1,
@@ -651,7 +651,7 @@
         7
       ],
       "source": "3.2 Tire Replacement",
-      "target": "DM"
+      "target": "Replacement"
     },
     {
       "weight": 1,
@@ -667,7 +667,7 @@
         7
       ],
       "source": "3.2 Tire Replacement",
-      "target": "Tire Replacement"
+      "target": "DM"
     },
     {
       "weight": 1,
@@ -683,23 +683,7 @@
         7
       ],
       "source": "3.2 Tire Replacement",
-      "target": "Replacement"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "DM",
-      "target": "3.3 Finalization"
-    },
-    {
-      "weight": 1,
-      "units": [
-        9
-      ],
-      "source": "DM",
-      "target": "4. Close-Out Requirements"
+      "target": "Tire Replacement"
     },
     {
       "weight": 1,
@@ -722,6 +706,22 @@
       "units": [
         8
       ],
+      "source": "DM",
+      "target": "3.3 Finalization"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "DM",
+      "target": "4. Close-Out Requirements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
       "source": "Code",
       "target": "3.3 Finalization"
     },
@@ -732,14 +732,6 @@
       ],
       "source": "Code",
       "target": "4. Close-Out Requirements"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "3.3 Finalization",
-      "target": "Tighten"
     },
     {
       "weight": 1,
@@ -748,6 +740,14 @@
       ],
       "source": "3.3 Finalization",
       "target": "Install"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "3.3 Finalization",
+      "target": "Tighten"
     },
     {
       "weight": 1,
@@ -771,7 +771,15 @@
         9
       ],
       "source": "4. Close-Out Requirements",
-      "target": "Close"
+      "target": "Perform"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "4. Close-Out Requirements",
+      "target": "Condition"
     },
     {
       "weight": 1,
@@ -795,15 +803,7 @@
         9
       ],
       "source": "4. Close-Out Requirements",
-      "target": "Perform"
-    },
-    {
-      "weight": 1,
-      "units": [
-        9
-      ],
-      "source": "4. Close-Out Requirements",
-      "target": "Condition"
+      "target": "Close"
     }
   ]
 }

@@ -14,11 +14,6 @@
       "id": "Lighting Component Data"
     },
     {
-      "label": "XML",
-      "type": "candidate",
-      "id": "XML"
-    },
-    {
       "label": "Lighting Component Data This",
       "type": "candidate",
       "id": "Lighting Component Data This"
@@ -29,14 +24,14 @@
       "id": "Component"
     },
     {
-      "label": "Lighting",
-      "type": "candidate",
-      "id": "Lighting"
-    },
-    {
       "label": "Data",
       "type": "candidate",
       "id": "Data"
+    },
+    {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
     },
     {
       "label": "This",
@@ -44,24 +39,14 @@
       "id": "This"
     },
     {
+      "label": "Lighting",
+      "type": "candidate",
+      "id": "Lighting"
+    },
+    {
       "label": "1. Application-Specific Models",
       "type": "heading",
       "id": "1. Application-Specific Models"
-    },
-    {
-      "label": "General",
-      "type": "candidate",
-      "id": "General"
-    },
-    {
-      "label": "Mountain",
-      "type": "candidate",
-      "id": "Mountain"
-    },
-    {
-      "label": "Specific Models The",
-      "type": "candidate",
-      "id": "Specific Models The"
     },
     {
       "label": "Vehicle Lighting System",
@@ -69,24 +54,14 @@
       "id": "Vehicle Lighting System"
     },
     {
-      "label": "Implied",
-      "type": "candidate",
-      "id": "Implied"
-    },
-    {
       "label": "Bike",
       "type": "candidate",
       "id": "Bike"
     },
     {
-      "label": "context",
+      "label": "Specific Models The",
       "type": "candidate",
-      "id": "context"
-    },
-    {
-      "label": "Mountain Bike",
-      "type": "candidate",
-      "id": "Mountain Bike"
+      "id": "Specific Models The"
     },
     {
       "label": "Models",
@@ -104,9 +79,34 @@
       "id": "System"
     },
     {
+      "label": "General",
+      "type": "candidate",
+      "id": "General"
+    },
+    {
       "label": "Application",
       "type": "candidate",
       "id": "Application"
+    },
+    {
+      "label": "Mountain",
+      "type": "candidate",
+      "id": "Mountain"
+    },
+    {
+      "label": "Mountain Bike",
+      "type": "candidate",
+      "id": "Mountain Bike"
+    },
+    {
+      "label": "Implied",
+      "type": "candidate",
+      "id": "Implied"
+    },
+    {
+      "label": "context",
+      "type": "candidate",
+      "id": "context"
     },
     {
       "label": "Vehicle",
@@ -119,14 +119,19 @@
       "id": "2. Component List"
     },
     {
-      "label": "grouped",
+      "label": "Component List The",
       "type": "candidate",
-      "id": "grouped"
+      "id": "Component List The"
     },
     {
       "label": "list",
       "type": "candidate",
       "id": "list"
+    },
+    {
+      "label": "grouped",
+      "type": "candidate",
+      "id": "grouped"
     },
     {
       "label": "Components",
@@ -139,64 +144,9 @@
       "id": "List"
     },
     {
-      "label": "Component List The",
-      "type": "candidate",
-      "id": "Component List The"
-    },
-    {
       "label": "2.1.  Light Assemblies & Sub-Assemblies",
       "type": "heading",
       "id": "2.1.  Light Assemblies & Sub-Assemblies"
-    },
-    {
-      "label": "Light",
-      "type": "candidate",
-      "id": "Light"
-    },
-    {
-      "label": "Bracket",
-      "type": "candidate",
-      "id": "Bracket"
-    },
-    {
-      "label": "Light Assemblies",
-      "type": "candidate",
-      "id": "Light Assemblies"
-    },
-    {
-      "label": "Assemblies",
-      "type": "candidate",
-      "id": "Assemblies"
-    },
-    {
-      "label": "Screw",
-      "type": "candidate",
-      "id": "Screw"
-    },
-    {
-      "label": "Washer",
-      "type": "candidate",
-      "id": "Washer"
-    },
-    {
-      "label": "Lens",
-      "type": "candidate",
-      "id": "Lens"
-    },
-    {
-      "label": "Seal",
-      "type": "candidate",
-      "id": "Seal"
-    },
-    {
-      "label": "Number",
-      "type": "candidate",
-      "id": "Number"
-    },
-    {
-      "label": "Description",
-      "type": "candidate",
-      "id": "Description"
     },
     {
       "label": "Loom",
@@ -204,14 +154,14 @@
       "id": "Loom"
     },
     {
+      "label": "Part Number",
+      "type": "candidate",
+      "id": "Part Number"
+    },
+    {
       "label": "LRU",
       "type": "candidate",
       "id": "LRU"
-    },
-    {
-      "label": "Grip",
-      "type": "candidate",
-      "id": "Grip"
     },
     {
       "label": "Part",
@@ -219,29 +169,64 @@
       "id": "Part"
     },
     {
-      "label": "Part Number",
+      "label": "Assemblies",
       "type": "candidate",
-      "id": "Part Number"
+      "id": "Assemblies"
+    },
+    {
+      "label": "Bracket",
+      "type": "candidate",
+      "id": "Bracket"
+    },
+    {
+      "label": "Seal",
+      "type": "candidate",
+      "id": "Seal"
+    },
+    {
+      "label": "Description",
+      "type": "candidate",
+      "id": "Description"
+    },
+    {
+      "label": "Light",
+      "type": "candidate",
+      "id": "Light"
+    },
+    {
+      "label": "Grip",
+      "type": "candidate",
+      "id": "Grip"
+    },
+    {
+      "label": "Number",
+      "type": "candidate",
+      "id": "Number"
+    },
+    {
+      "label": "Light Assemblies",
+      "type": "candidate",
+      "id": "Light Assemblies"
+    },
+    {
+      "label": "Screw",
+      "type": "candidate",
+      "id": "Screw"
+    },
+    {
+      "label": "Lens",
+      "type": "candidate",
+      "id": "Lens"
+    },
+    {
+      "label": "Washer",
+      "type": "candidate",
+      "id": "Washer"
     },
     {
       "label": "2.2. Bulbs & Lighting Elements",
       "type": "heading",
       "id": "2.2. Bulbs & Lighting Elements"
-    },
-    {
-      "label": "Bulb",
-      "type": "candidate",
-      "id": "Bulb"
-    },
-    {
-      "label": "Lighting Elements",
-      "type": "candidate",
-      "id": "Lighting Elements"
-    },
-    {
-      "label": "Rear Bulb",
-      "type": "candidate",
-      "id": "Rear Bulb"
     },
     {
       "label": "Rear",
@@ -254,9 +239,9 @@
       "id": "Front"
     },
     {
-      "label": "LIRUS",
+      "label": "Elements",
       "type": "candidate",
-      "id": "LIRUS"
+      "id": "Elements"
     },
     {
       "label": "Glass",
@@ -264,14 +249,19 @@
       "id": "Glass"
     },
     {
-      "label": "Elements",
+      "label": "LIRUS",
       "type": "candidate",
-      "id": "Elements"
+      "id": "LIRUS"
     },
     {
-      "label": "Front Bulb",
+      "label": "Lighting Elements",
       "type": "candidate",
-      "id": "Front Bulb"
+      "id": "Lighting Elements"
+    },
+    {
+      "label": "Rear Bulb",
+      "type": "candidate",
+      "id": "Rear Bulb"
     },
     {
       "label": "Bulbs",
@@ -279,14 +269,19 @@
       "id": "Bulbs"
     },
     {
+      "label": "Front Bulb",
+      "type": "candidate",
+      "id": "Front Bulb"
+    },
+    {
+      "label": "Bulb",
+      "type": "candidate",
+      "id": "Bulb"
+    },
+    {
       "label": "2.3.  Structural & Fastening Components",
       "type": "heading",
       "id": "2.3.  Structural & Fastening Components"
-    },
-    {
-      "label": "Structural",
-      "type": "candidate",
-      "id": "Structural"
     },
     {
       "label": "Fastening Components",
@@ -294,14 +289,19 @@
       "id": "Fastening Components"
     },
     {
+      "label": "Fastening",
+      "type": "candidate",
+      "id": "Fastening"
+    },
+    {
       "label": "Clip",
       "type": "candidate",
       "id": "Clip"
     },
     {
-      "label": "Fastening",
+      "label": "Structural",
       "type": "candidate",
-      "id": "Fastening"
+      "id": "Structural"
     },
     {
       "label": "2.4.  Core Lighting Components",
@@ -324,19 +324,24 @@
       "id": "2.5. Other Components"
     },
     {
-      "label": "Other",
-      "type": "candidate",
-      "id": "Other"
-    },
-    {
       "label": "Other Components",
       "type": "candidate",
       "id": "Other Components"
     },
     {
+      "label": "Other",
+      "type": "candidate",
+      "id": "Other"
+    },
+    {
       "label": "3. Supplier Information",
       "type": "heading",
       "id": "3. Supplier Information"
+    },
+    {
+      "label": "Supplier Information",
+      "type": "candidate",
+      "id": "Supplier Information"
     },
     {
       "label": "Consistent",
@@ -354,14 +359,14 @@
       "id": "Information"
     },
     {
-      "label": "Supplier Information",
-      "type": "candidate",
-      "id": "Supplier Information"
-    },
-    {
       "label": "4. Notes",
       "type": "heading",
       "id": "4. Notes"
+    },
+    {
+      "label": "types",
+      "type": "candidate",
+      "id": "types"
     },
     {
       "label": "Multiple",
@@ -374,24 +379,19 @@
       "id": "Notes"
     },
     {
-      "label": "LIGHTING",
-      "type": "candidate",
-      "id": "LIGHTING"
-    },
-    {
       "label": "CPF",
       "type": "candidate",
       "id": "CPF"
     },
     {
-      "label": "types",
-      "type": "candidate",
-      "id": "types"
-    },
-    {
       "label": "proposal",
       "type": "candidate",
       "id": "proposal"
+    },
+    {
+      "label": "LIGHTING",
+      "type": "candidate",
+      "id": "LIGHTING"
     }
   ],
   "links": [
@@ -402,14 +402,6 @@
       ],
       "source": "Document",
       "target": "Document"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "Lighting Component Data",
-      "target": "XML"
     },
     {
       "weight": 1,
@@ -433,14 +425,6 @@
         2
       ],
       "source": "Lighting Component Data",
-      "target": "Lighting"
-    },
-    {
-      "weight": 1,
-      "units": [
-        2
-      ],
-      "source": "Lighting Component Data",
       "target": "Data"
     },
     {
@@ -449,7 +433,23 @@
         2
       ],
       "source": "Lighting Component Data",
+      "target": "XML"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Lighting Component Data",
       "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Lighting Component Data",
+      "target": "Lighting"
     },
     {
       "weight": 1,
@@ -489,39 +489,7 @@
         3
       ],
       "source": "1. Application-Specific Models",
-      "target": "General"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "1. Application-Specific Models",
-      "target": "Mountain"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "1. Application-Specific Models",
-      "target": "Specific Models The"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "1. Application-Specific Models",
       "target": "Vehicle Lighting System"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "1. Application-Specific Models",
-      "target": "Implied"
     },
     {
       "weight": 1,
@@ -537,15 +505,7 @@
         3
       ],
       "source": "1. Application-Specific Models",
-      "target": "context"
-    },
-    {
-      "weight": 1,
-      "units": [
-        3
-      ],
-      "source": "1. Application-Specific Models",
-      "target": "Mountain Bike"
+      "target": "Specific Models The"
     },
     {
       "weight": 1,
@@ -577,7 +537,47 @@
         3
       ],
       "source": "1. Application-Specific Models",
+      "target": "General"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Application-Specific Models",
       "target": "Application"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Application-Specific Models",
+      "target": "Mountain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Application-Specific Models",
+      "target": "Mountain Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Application-Specific Models",
+      "target": "Implied"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Application-Specific Models",
+      "target": "context"
     },
     {
       "weight": 1,
@@ -593,7 +593,7 @@
         4
       ],
       "source": "2. Component List",
-      "target": "grouped"
+      "target": "Component List The"
     },
     {
       "weight": 1,
@@ -602,6 +602,14 @@
       ],
       "source": "2. Component List",
       "target": "list"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Component List",
+      "target": "grouped"
     },
     {
       "weight": 1,
@@ -622,14 +630,6 @@
     {
       "weight": 1,
       "units": [
-        4
-      ],
-      "source": "2. Component List",
-      "target": "Component List The"
-    },
-    {
-      "weight": 1,
-      "units": [
         7
       ],
       "source": "Components",
@@ -650,86 +650,6 @@
       ],
       "source": "Components",
       "target": "2.5. Other Components"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Light"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Bracket"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Light Assemblies"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Assemblies"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Screw"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Washer"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Lens"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Seal"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Number"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Description"
     },
     {
       "weight": 1,
@@ -745,7 +665,7 @@
         5
       ],
       "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "LRU"
+      "target": "Part Number"
     },
     {
       "weight": 1,
@@ -753,7 +673,7 @@
         5
       ],
       "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Grip"
+      "target": "LRU"
     },
     {
       "weight": 1,
@@ -769,62 +689,94 @@
         5
       ],
       "source": "2.1.  Light Assemblies & Sub-Assemblies",
-      "target": "Part Number"
+      "target": "Assemblies"
     },
     {
       "weight": 1,
       "units": [
-        8
+        5
       ],
-      "source": "Light",
-      "target": "2.4.  Core Lighting Components"
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Bracket"
     },
     {
       "weight": 1,
       "units": [
-        7
+        5
       ],
-      "source": "Screw",
-      "target": "2.3.  Structural & Fastening Components"
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Seal"
     },
     {
       "weight": 1,
       "units": [
-        7
+        5
       ],
-      "source": "Washer",
-      "target": "2.3.  Structural & Fastening Components"
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Description"
     },
     {
       "weight": 1,
       "units": [
-        8
+        5
       ],
-      "source": "Lens",
-      "target": "2.4.  Core Lighting Components"
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Light"
     },
     {
       "weight": 1,
       "units": [
-        8
+        5
       ],
-      "source": "Seal",
-      "target": "2.4.  Core Lighting Components"
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Grip"
     },
     {
       "weight": 1,
       "units": [
-        9
+        5
       ],
-      "source": "Seal",
-      "target": "2.5. Other Components"
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Light Assemblies"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Screw"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Lens"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "2.1.  Light Assemblies & Sub-Assemblies",
+      "target": "Washer"
     },
     {
       "weight": 1,
       "units": [
         6
       ],
-      "source": "Number",
+      "source": "Part Number",
       "target": "2.2. Bulbs & Lighting Elements"
     },
     {
@@ -832,7 +784,7 @@
       "units": [
         7
       ],
-      "source": "Number",
+      "source": "Part Number",
       "target": "2.3.  Structural & Fastening Components"
     },
     {
@@ -840,7 +792,7 @@
       "units": [
         8
       ],
-      "source": "Number",
+      "source": "Part Number",
       "target": "2.4.  Core Lighting Components"
     },
     {
@@ -848,39 +800,7 @@
       "units": [
         9
       ],
-      "source": "Number",
-      "target": "2.5. Other Components"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Description",
-      "target": "2.2. Bulbs & Lighting Elements"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Description",
-      "target": "2.3.  Structural & Fastening Components"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Description",
-      "target": "2.4.  Core Lighting Components"
-    },
-    {
-      "weight": 1,
-      "units": [
-        9
-      ],
-      "source": "Description",
+      "source": "Part Number",
       "target": "2.5. Other Components"
     },
     {
@@ -926,25 +846,9 @@
     {
       "weight": 1,
       "units": [
-        6
-      ],
-      "source": "Part Number",
-      "target": "2.2. Bulbs & Lighting Elements"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Part Number",
-      "target": "2.3.  Structural & Fastening Components"
-    },
-    {
-      "weight": 1,
-      "units": [
         8
       ],
-      "source": "Part Number",
+      "source": "Seal",
       "target": "2.4.  Core Lighting Components"
     },
     {
@@ -952,7 +856,7 @@
       "units": [
         9
       ],
-      "source": "Part Number",
+      "source": "Seal",
       "target": "2.5. Other Components"
     },
     {
@@ -960,24 +864,96 @@
       "units": [
         6
       ],
-      "source": "2.2. Bulbs & Lighting Elements",
-      "target": "Bulb"
+      "source": "Description",
+      "target": "2.2. Bulbs & Lighting Elements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Description",
+      "target": "2.3.  Structural & Fastening Components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Description",
+      "target": "2.4.  Core Lighting Components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Description",
+      "target": "2.5. Other Components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Light",
+      "target": "2.4.  Core Lighting Components"
     },
     {
       "weight": 1,
       "units": [
         6
       ],
-      "source": "2.2. Bulbs & Lighting Elements",
-      "target": "Lighting Elements"
+      "source": "Number",
+      "target": "2.2. Bulbs & Lighting Elements"
     },
     {
       "weight": 1,
       "units": [
-        6
+        7
       ],
-      "source": "2.2. Bulbs & Lighting Elements",
-      "target": "Rear Bulb"
+      "source": "Number",
+      "target": "2.3.  Structural & Fastening Components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Number",
+      "target": "2.4.  Core Lighting Components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Number",
+      "target": "2.5. Other Components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Screw",
+      "target": "2.3.  Structural & Fastening Components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Lens",
+      "target": "2.4.  Core Lighting Components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Washer",
+      "target": "2.3.  Structural & Fastening Components"
     },
     {
       "weight": 1,
@@ -1001,7 +977,7 @@
         6
       ],
       "source": "2.2. Bulbs & Lighting Elements",
-      "target": "LIRUS"
+      "target": "Elements"
     },
     {
       "weight": 1,
@@ -1017,7 +993,31 @@
         6
       ],
       "source": "2.2. Bulbs & Lighting Elements",
-      "target": "Elements"
+      "target": "LIRUS"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2.2. Bulbs & Lighting Elements",
+      "target": "Lighting Elements"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2.2. Bulbs & Lighting Elements",
+      "target": "Rear Bulb"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "2.2. Bulbs & Lighting Elements",
+      "target": "Bulbs"
     },
     {
       "weight": 1,
@@ -1033,15 +1033,7 @@
         6
       ],
       "source": "2.2. Bulbs & Lighting Elements",
-      "target": "Bulbs"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Bulb",
-      "target": "2.4.  Core Lighting Components"
+      "target": "Bulb"
     },
     {
       "weight": 1,
@@ -1054,10 +1046,10 @@
     {
       "weight": 1,
       "units": [
-        7
+        8
       ],
-      "source": "2.3.  Structural & Fastening Components",
-      "target": "Structural"
+      "source": "Bulb",
+      "target": "2.4.  Core Lighting Components"
     },
     {
       "weight": 1,
@@ -1073,6 +1065,14 @@
         7
       ],
       "source": "2.3.  Structural & Fastening Components",
+      "target": "Fastening"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "2.3.  Structural & Fastening Components",
       "target": "Clip"
     },
     {
@@ -1081,7 +1081,7 @@
         7
       ],
       "source": "2.3.  Structural & Fastening Components",
-      "target": "Fastening"
+      "target": "Structural"
     },
     {
       "weight": 1,
@@ -1105,7 +1105,7 @@
         9
       ],
       "source": "2.5. Other Components",
-      "target": "Other"
+      "target": "Other Components"
     },
     {
       "weight": 1,
@@ -1113,7 +1113,15 @@
         9
       ],
       "source": "2.5. Other Components",
-      "target": "Other Components"
+      "target": "Other"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "3. Supplier Information",
+      "target": "Supplier Information"
     },
     {
       "weight": 1,
@@ -1142,10 +1150,10 @@
     {
       "weight": 1,
       "units": [
-        10
+        11
       ],
-      "source": "3. Supplier Information",
-      "target": "Supplier Information"
+      "source": "4. Notes",
+      "target": "types"
     },
     {
       "weight": 1,
@@ -1169,14 +1177,6 @@
         11
       ],
       "source": "4. Notes",
-      "target": "LIGHTING"
-    },
-    {
-      "weight": 1,
-      "units": [
-        11
-      ],
-      "source": "4. Notes",
       "target": "CPF"
     },
     {
@@ -1185,7 +1185,7 @@
         11
       ],
       "source": "4. Notes",
-      "target": "types"
+      "target": "proposal"
     },
     {
       "weight": 1,
@@ -1193,7 +1193,7 @@
         11
       ],
       "source": "4. Notes",
-      "target": "proposal"
+      "target": "LIGHTING"
     }
   ]
 }

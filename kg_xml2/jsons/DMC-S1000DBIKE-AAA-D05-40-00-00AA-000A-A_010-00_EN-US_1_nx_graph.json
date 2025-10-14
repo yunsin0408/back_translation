@@ -9,19 +9,9 @@
       "id": "DM Ident"
     },
     {
-      "label": "Ident",
+      "label": "US",
       "type": "candidate",
-      "id": "Ident"
-    },
-    {
-      "label": "DM",
-      "type": "candidate",
-      "id": "DM"
-    },
-    {
-      "label": "AAA",
-      "type": "candidate",
-      "id": "AAA"
+      "id": "US"
     },
     {
       "label": "AA",
@@ -29,9 +19,19 @@
       "id": "AA"
     },
     {
-      "label": "US",
+      "label": "Ident",
       "type": "candidate",
-      "id": "US"
+      "id": "Ident"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
     },
     {
       "label": "DM Address Items",
@@ -39,9 +39,9 @@
       "id": "DM Address Items"
     },
     {
-      "label": "Scheduled",
+      "label": "Address Items",
       "type": "candidate",
-      "id": "Scheduled"
+      "id": "Address Items"
     },
     {
       "label": "Items",
@@ -49,9 +49,9 @@
       "id": "Items"
     },
     {
-      "label": "Address Items",
+      "label": "Address",
       "type": "candidate",
-      "id": "Address Items"
+      "id": "Address"
     },
     {
       "label": "Bicycle",
@@ -59,9 +59,9 @@
       "id": "Bicycle"
     },
     {
-      "label": "Address",
+      "label": "Scheduled",
       "type": "candidate",
-      "id": "Address"
+      "id": "Scheduled"
     },
     {
       "label": "DM Status",
@@ -84,14 +84,14 @@
       "id": "Data Rights"
     },
     {
-      "label": "XML",
-      "type": "candidate",
-      "id": "XML"
-    },
-    {
       "label": "Rights",
       "type": "candidate",
       "id": "Rights"
+    },
+    {
+      "label": "XML",
+      "type": "candidate",
+      "id": "XML"
     },
     {
       "label": "Data",
@@ -119,14 +119,14 @@
       "id": "System Breakdown Code"
     },
     {
+      "label": "System",
+      "type": "candidate",
+      "id": "System"
+    },
+    {
       "label": "BY",
       "type": "candidate",
       "id": "BY"
-    },
-    {
-      "label": "Breakdown",
-      "type": "candidate",
-      "id": "Breakdown"
     },
     {
       "label": "Code",
@@ -134,9 +134,9 @@
       "id": "Code"
     },
     {
-      "label": "System",
+      "label": "Breakdown",
       "type": "candidate",
-      "id": "System"
+      "id": "Breakdown"
     },
     {
       "label": "Quality Assurance",
@@ -144,14 +144,14 @@
       "id": "Quality Assurance"
     },
     {
-      "label": "Quality",
-      "type": "candidate",
-      "id": "Quality"
-    },
-    {
       "label": "Assurance",
       "type": "candidate",
       "id": "Assurance"
+    },
+    {
+      "label": "Quality",
+      "type": "candidate",
+      "id": "Quality"
     },
     {
       "label": "BREX DM Ref",
@@ -174,34 +174,9 @@
       "id": "Task Group"
     },
     {
-      "label": "Task",
+      "label": "Inspect Brakes",
       "type": "candidate",
-      "id": "Task"
-    },
-    {
-      "label": "Tire",
-      "type": "candidate",
-      "id": "Tire"
-    },
-    {
-      "label": "Pressure",
-      "type": "candidate",
-      "id": "Pressure"
-    },
-    {
-      "label": "check",
-      "type": "candidate",
-      "id": "check"
-    },
-    {
-      "label": "Check",
-      "type": "candidate",
-      "id": "Check"
-    },
-    {
-      "label": "Check Tire Pressure",
-      "type": "candidate",
-      "id": "Check Tire Pressure"
+      "id": "Inspect Brakes"
     },
     {
       "label": "Brakes",
@@ -209,9 +184,9 @@
       "id": "Brakes"
     },
     {
-      "label": "Carry",
+      "label": "Check",
       "type": "candidate",
-      "id": "Carry"
+      "id": "Check"
     },
     {
       "label": "inspection",
@@ -219,9 +194,24 @@
       "id": "inspection"
     },
     {
-      "label": "Inspect Brakes",
+      "label": "Inspect",
       "type": "candidate",
-      "id": "Inspect Brakes"
+      "id": "Inspect"
+    },
+    {
+      "label": "Check Tire Pressure",
+      "type": "candidate",
+      "id": "Check Tire Pressure"
+    },
+    {
+      "label": "Carry",
+      "type": "candidate",
+      "id": "Carry"
+    },
+    {
+      "label": "Task",
+      "type": "candidate",
+      "id": "Task"
     },
     {
       "label": "Group",
@@ -229,9 +219,19 @@
       "id": "Group"
     },
     {
-      "label": "Inspect",
+      "label": "Pressure",
       "type": "candidate",
-      "id": "Inspect"
+      "id": "Pressure"
+    },
+    {
+      "label": "Tire",
+      "type": "candidate",
+      "id": "Tire"
+    },
+    {
+      "label": "check",
+      "type": "candidate",
+      "id": "check"
     }
   ],
   "links": [
@@ -241,23 +241,7 @@
         1
       ],
       "source": "DM Ident",
-      "target": "Ident"
-    },
-    {
-      "weight": 1,
-      "units": [
-        1
-      ],
-      "source": "DM Ident",
-      "target": "DM"
-    },
-    {
-      "weight": 1,
-      "units": [
-        1
-      ],
-      "source": "DM Ident",
-      "target": "AAA"
+      "target": "US"
     },
     {
       "weight": 1,
@@ -273,7 +257,39 @@
         1
       ],
       "source": "DM Ident",
-      "target": "US"
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "AA",
+      "target": "Task Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "AAA",
+      "target": "Task Group"
     },
     {
       "weight": 1,
@@ -302,26 +318,10 @@
     {
       "weight": 1,
       "units": [
-        12
-      ],
-      "source": "AAA",
-      "target": "Task Group"
-    },
-    {
-      "weight": 1,
-      "units": [
-        12
-      ],
-      "source": "AA",
-      "target": "Task Group"
-    },
-    {
-      "weight": 1,
-      "units": [
         2
       ],
       "source": "DM Address Items",
-      "target": "Scheduled"
+      "target": "Address Items"
     },
     {
       "weight": 1,
@@ -337,7 +337,7 @@
         2
       ],
       "source": "DM Address Items",
-      "target": "Address Items"
+      "target": "Address"
     },
     {
       "weight": 1,
@@ -353,7 +353,7 @@
         2
       ],
       "source": "DM Address Items",
-      "target": "Address"
+      "target": "Scheduled"
     },
     {
       "weight": 1,
@@ -377,14 +377,6 @@
         5
       ],
       "source": "Data Rights",
-      "target": "XML"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Data Rights",
       "target": "Data Rights"
     },
     {
@@ -394,6 +386,14 @@
       ],
       "source": "Data Rights",
       "target": "Rights"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Data Rights",
+      "target": "XML"
     },
     {
       "weight": 1,
@@ -444,7 +444,7 @@
         7
       ],
       "source": "System Breakdown Code",
-      "target": "BY"
+      "target": "System"
     },
     {
       "weight": 1,
@@ -460,7 +460,7 @@
         7
       ],
       "source": "System Breakdown Code",
-      "target": "Breakdown"
+      "target": "BY"
     },
     {
       "weight": 1,
@@ -476,7 +476,15 @@
         7
       ],
       "source": "System Breakdown Code",
-      "target": "System"
+      "target": "Breakdown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Quality Assurance",
+      "target": "Assurance"
     },
     {
       "weight": 1,
@@ -493,14 +501,6 @@
       ],
       "source": "Quality Assurance",
       "target": "Quality Assurance"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "Quality Assurance",
-      "target": "Assurance"
     },
     {
       "weight": 1,
@@ -524,47 +524,7 @@
         12
       ],
       "source": "Task Group",
-      "target": "Task"
-    },
-    {
-      "weight": 1,
-      "units": [
-        12
-      ],
-      "source": "Task Group",
-      "target": "Tire"
-    },
-    {
-      "weight": 1,
-      "units": [
-        12
-      ],
-      "source": "Task Group",
-      "target": "Pressure"
-    },
-    {
-      "weight": 1,
-      "units": [
-        12
-      ],
-      "source": "Task Group",
-      "target": "check"
-    },
-    {
-      "weight": 1,
-      "units": [
-        12
-      ],
-      "source": "Task Group",
-      "target": "Check"
-    },
-    {
-      "weight": 1,
-      "units": [
-        12
-      ],
-      "source": "Task Group",
-      "target": "Check Tire Pressure"
+      "target": "Inspect Brakes"
     },
     {
       "weight": 1,
@@ -580,7 +540,15 @@
         12
       ],
       "source": "Task Group",
-      "target": "Carry"
+      "target": "Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Task Group"
     },
     {
       "weight": 1,
@@ -596,7 +564,31 @@
         12
       ],
       "source": "Task Group",
-      "target": "Inspect Brakes"
+      "target": "Inspect"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Check Tire Pressure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Carry"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "Task"
     },
     {
       "weight": 1,
@@ -612,7 +604,7 @@
         12
       ],
       "source": "Task Group",
-      "target": "Inspect"
+      "target": "Pressure"
     },
     {
       "weight": 1,
@@ -620,7 +612,15 @@
         12
       ],
       "source": "Task Group",
-      "target": "Task Group"
+      "target": "Tire"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Task Group",
+      "target": "check"
     }
   ]
 }

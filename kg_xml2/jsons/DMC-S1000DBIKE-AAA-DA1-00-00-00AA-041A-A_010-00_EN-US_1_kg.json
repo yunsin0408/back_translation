@@ -9,11 +9,37 @@
       ]
     },
     {
+      "id": "US",
+      "label": "US",
+      "type": "candidate",
+      "source_units": [
+        1
+      ]
+    },
+    {
+      "id": "AA",
+      "label": "AA",
+      "type": "candidate",
+      "source_units": [
+        1,
+        3
+      ]
+    },
+    {
       "id": "Ident",
       "label": "Ident",
       "type": "candidate",
       "source_units": [
         1
+      ]
+    },
+    {
+      "id": "AAA",
+      "label": "AAA",
+      "type": "candidate",
+      "source_units": [
+        1,
+        3
       ]
     },
     {
@@ -27,35 +53,25 @@
       ]
     },
     {
-      "id": "AAA",
-      "label": "AAA",
-      "type": "candidate",
-      "source_units": [
-        1,
-        3
-      ]
-    },
-    {
-      "id": "AA",
-      "label": "AA",
-      "type": "candidate",
-      "source_units": [
-        1,
-        3
-      ]
-    },
-    {
-      "id": "US",
-      "label": "US",
-      "type": "candidate",
-      "source_units": [
-        1
-      ]
-    },
-    {
       "id": "DM Address Items",
       "label": "DM Address Items",
       "type": "heading",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Address Items",
+      "label": "Address Items",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Description",
+      "label": "Description",
+      "type": "candidate",
       "source_units": [
         2
       ]
@@ -69,8 +85,8 @@
       ]
     },
     {
-      "id": "Address Items",
-      "label": "Address Items",
+      "id": "Address",
+      "label": "Address",
       "type": "candidate",
       "source_units": [
         2
@@ -86,22 +102,6 @@
       ]
     },
     {
-      "id": "Description",
-      "label": "Description",
-      "type": "candidate",
-      "source_units": [
-        2
-      ]
-    },
-    {
-      "id": "Address",
-      "label": "Address",
-      "type": "candidate",
-      "source_units": [
-        2
-      ]
-    },
-    {
       "id": "DM Status",
       "label": "DM Status",
       "type": "heading",
@@ -110,57 +110,8 @@
       ]
     },
     {
-      "id": "Defence Industries Association",
-      "label": "Defence Industries Association",
-      "type": "candidate",
-      "source_units": [
-        3
-      ]
-    },
-    {
-      "id": "There",
-      "label": "There",
-      "type": "candidate",
-      "source_units": [
-        3,
-        4
-      ]
-    },
-    {
-      "id": "Status",
-      "label": "Status",
-      "type": "candidate",
-      "source_units": [
-        3
-      ]
-    },
-    {
-      "id": "users",
-      "label": "users",
-      "type": "candidate",
-      "source_units": [
-        3
-      ]
-    },
-    {
-      "id": "Storage",
-      "label": "Storage",
-      "type": "candidate",
-      "source_units": [
-        3
-      ]
-    },
-    {
-      "id": "Export",
-      "label": "Export",
-      "type": "candidate",
-      "source_units": [
-        3
-      ]
-    },
-    {
-      "id": "Enhancement",
-      "label": "Enhancement",
+      "id": "Bike Enhancement",
+      "label": "Bike Enhancement",
       "type": "candidate",
       "source_units": [
         3
@@ -169,22 +120,6 @@
     {
       "id": "instructions",
       "label": "instructions",
-      "type": "candidate",
-      "source_units": [
-        3
-      ]
-    },
-    {
-      "id": "residence",
-      "label": "residence",
-      "type": "candidate",
-      "source_units": [
-        3
-      ]
-    },
-    {
-      "id": "ASD",
-      "label": "ASD",
       "type": "candidate",
       "source_units": [
         3
@@ -207,8 +142,64 @@
       ]
     },
     {
-      "id": "Aerospace",
-      "label": "Aerospace",
+      "id": "residence",
+      "label": "residence",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Defence Industries Association",
+      "label": "Defence Industries Association",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Association",
+      "label": "Association",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "users",
+      "label": "users",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Export",
+      "label": "Export",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Europe",
+      "label": "Europe",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Status",
+      "label": "Status",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "Copyright",
+      "label": "Copyright",
       "type": "candidate",
       "source_units": [
         3
@@ -231,32 +222,32 @@
       ]
     },
     {
-      "id": "Security",
-      "label": "Security",
+      "id": "Storage",
+      "label": "Storage",
       "type": "candidate",
       "source_units": [
         3
       ]
     },
     {
-      "id": "RFU",
-      "label": "RFU",
+      "id": "ASD",
+      "label": "ASD",
       "type": "candidate",
       "source_units": [
         3
       ]
     },
     {
-      "id": "Copyright",
-      "label": "Copyright",
+      "id": "Enhancement",
+      "label": "Enhancement",
       "type": "candidate",
       "source_units": [
         3
       ]
     },
     {
-      "id": "Bike Enhancement",
-      "label": "Bike Enhancement",
+      "id": "Aerospace",
+      "label": "Aerospace",
       "type": "candidate",
       "source_units": [
         3
@@ -271,16 +262,25 @@
       ]
     },
     {
-      "id": "Association",
-      "label": "Association",
+      "id": "There",
+      "label": "There",
+      "type": "candidate",
+      "source_units": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "RFU",
+      "label": "RFU",
       "type": "candidate",
       "source_units": [
         3
       ]
     },
     {
-      "id": "Europe",
-      "label": "Europe",
+      "id": "Security",
+      "label": "Security",
       "type": "candidate",
       "source_units": [
         3
@@ -292,6 +292,118 @@
       "type": "heading",
       "source_units": [
         4,
+        4
+      ]
+    },
+    {
+      "id": "speed",
+      "label": "speed",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Para",
+      "label": "Para",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Exploded",
+      "label": "Exploded",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "ICN",
+      "label": "ICN",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "components",
+      "label": "components",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Cantilever",
+      "label": "Cantilever",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "rim",
+      "label": "rim",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Only",
+      "label": "Only",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "Typical",
+      "label": "Typical",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "diagram",
+      "label": "diagram",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "part",
+      "label": "part",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "out",
+      "label": "out",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "maintenance",
+      "label": "maintenance",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
+      "id": "types",
+      "label": "types",
+      "type": "candidate",
+      "source_units": [
         4
       ]
     },
@@ -312,120 +424,8 @@
       ]
     },
     {
-      "id": "part",
-      "label": "part",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "Only",
-      "label": "Only",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
       "id": "tension",
       "label": "tension",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "diagram",
-      "label": "diagram",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "speed",
-      "label": "speed",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "ICN",
-      "label": "ICN",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "out",
-      "label": "out",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "types",
-      "label": "types",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "Cantilever",
-      "label": "Cantilever",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "maintenance",
-      "label": "maintenance",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "components",
-      "label": "components",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "Para",
-      "label": "Para",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "Typical",
-      "label": "Typical",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "Exploded",
-      "label": "Exploded",
-      "type": "candidate",
-      "source_units": [
-        4
-      ]
-    },
-    {
-      "id": "rim",
-      "label": "rim",
       "type": "candidate",
       "source_units": [
         4
@@ -435,23 +435,7 @@
   "edges": [
     {
       "source": "DM Ident",
-      "target": "Ident",
-      "weight": 1,
-      "units": [
-        1
-      ]
-    },
-    {
-      "source": "DM",
-      "target": "DM Ident",
-      "weight": 1,
-      "units": [
-        1
-      ]
-    },
-    {
-      "source": "AAA",
-      "target": "DM Ident",
+      "target": "US",
       "weight": 1,
       "units": [
         1
@@ -467,38 +451,30 @@
     },
     {
       "source": "DM Ident",
-      "target": "US",
+      "target": "Ident",
       "weight": 1,
       "units": [
         1
       ]
     },
     {
-      "source": "DM Address Items",
-      "target": "Items",
+      "source": "AAA",
+      "target": "DM Ident",
       "weight": 1,
       "units": [
-        2
+        1
       ]
     },
     {
       "source": "DM",
-      "target": "DM Address Items",
+      "target": "DM Ident",
       "weight": 1,
       "units": [
-        2
+        1
       ]
     },
     {
       "source": "Address Items",
-      "target": "DM Address Items",
-      "weight": 1,
-      "units": [
-        2
-      ]
-    },
-    {
-      "source": "Brake",
       "target": "DM Address Items",
       "weight": 1,
       "units": [
@@ -514,6 +490,14 @@
       ]
     },
     {
+      "source": "DM Address Items",
+      "target": "Items",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
       "source": "Address",
       "target": "DM Address Items",
       "weight": 1,
@@ -522,56 +506,24 @@
       ]
     },
     {
-      "source": "DM Status",
-      "target": "Defence Industries Association",
+      "source": "DM",
+      "target": "DM Address Items",
       "weight": 1,
       "units": [
-        3
+        2
       ]
     },
     {
-      "source": "DM Status",
-      "target": "There",
+      "source": "Brake",
+      "target": "DM Address Items",
       "weight": 1,
       "units": [
-        3
+        2
       ]
     },
     {
-      "source": "DM Status",
-      "target": "Status",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "DM Status",
-      "target": "users",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "DM Status",
-      "target": "Storage",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "DM Status",
-      "target": "Export",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "DM Status",
-      "target": "Enhancement",
+      "source": "Bike Enhancement",
+      "target": "DM Status",
       "weight": 1,
       "units": [
         3
@@ -580,22 +532,6 @@
     {
       "source": "DM Status",
       "target": "instructions",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "DM Status",
-      "target": "residence",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "ASD",
-      "target": "DM Status",
       "weight": 1,
       "units": [
         3
@@ -618,7 +554,23 @@
       ]
     },
     {
-      "source": "Aerospace",
+      "source": "DM Status",
+      "target": "residence",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Defence Industries Association",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Association",
       "target": "DM Status",
       "weight": 1,
       "units": [
@@ -626,7 +578,47 @@
       ]
     },
     {
+      "source": "DM Status",
+      "target": "users",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Export",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Europe",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "Status",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
       "source": "AA",
+      "target": "DM Status",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Copyright",
       "target": "DM Status",
       "weight": 1,
       "units": [
@@ -651,38 +643,14 @@
     },
     {
       "source": "DM Status",
-      "target": "Security",
+      "target": "Storage",
       "weight": 1,
       "units": [
         3
       ]
     },
     {
-      "source": "DM",
-      "target": "DM Status",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "DM Status",
-      "target": "RFU",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "Copyright",
-      "target": "DM Status",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "Bike Enhancement",
+      "source": "ASD",
       "target": "DM Status",
       "weight": 1,
       "units": [
@@ -698,6 +666,22 @@
       ]
     },
     {
+      "source": "DM Status",
+      "target": "Enhancement",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "Aerospace",
+      "target": "DM Status",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
       "source": "Bike",
       "target": "DM Status",
       "weight": 1,
@@ -706,7 +690,23 @@
       ]
     },
     {
-      "source": "Association",
+      "source": "DM Status",
+      "target": "There",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "DM Status",
+      "target": "RFU",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "DM",
       "target": "DM Status",
       "weight": 1,
       "units": [
@@ -715,66 +715,10 @@
     },
     {
       "source": "DM Status",
-      "target": "Europe",
+      "target": "Security",
       "weight": 1,
       "units": [
         3
-      ]
-    },
-    {
-      "source": "Levelled",
-      "target": "Levelled Para",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Levelled Para",
-      "target": "There",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Levelled Para",
-      "target": "This",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Levelled Para",
-      "target": "part",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Levelled Para",
-      "target": "Only",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Levelled Para",
-      "target": "tension",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Levelled Para",
-      "target": "diagram",
-      "weight": 1,
-      "units": [
-        4
       ]
     },
     {
@@ -786,7 +730,15 @@
       ]
     },
     {
-      "source": "Brake",
+      "source": "Levelled Para",
+      "target": "Para",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Exploded",
       "target": "Levelled Para",
       "weight": 1,
       "units": [
@@ -803,15 +755,7 @@
     },
     {
       "source": "Levelled Para",
-      "target": "out",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Levelled Para",
-      "target": "types",
+      "target": "components",
       "weight": 1,
       "units": [
         4
@@ -827,7 +771,7 @@
     },
     {
       "source": "Levelled Para",
-      "target": "maintenance",
+      "target": "rim",
       "weight": 1,
       "units": [
         4
@@ -835,23 +779,7 @@
     },
     {
       "source": "Levelled Para",
-      "target": "components",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Levelled Para",
-      "target": "Levelled Para",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "Levelled Para",
-      "target": "Para",
+      "target": "Only",
       "weight": 1,
       "units": [
         4
@@ -866,7 +794,55 @@
       ]
     },
     {
-      "source": "Exploded",
+      "source": "Levelled Para",
+      "target": "diagram",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Levelled Para",
+      "target": "part",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Levelled Para",
+      "target": "out",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Levelled Para",
+      "target": "maintenance",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Levelled Para",
+      "target": "types",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Levelled Para",
+      "target": "There",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Levelled",
       "target": "Levelled Para",
       "weight": 1,
       "units": [
@@ -875,7 +851,31 @@
     },
     {
       "source": "Levelled Para",
-      "target": "rim",
+      "target": "Levelled Para",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Levelled Para",
+      "target": "This",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Levelled Para",
+      "target": "tension",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "Brake",
+      "target": "Levelled Para",
       "weight": 1,
       "units": [
         4
@@ -893,19 +893,9 @@
         "id": "DM Ident"
       },
       {
-        "label": "Ident",
+        "label": "US",
         "type": "candidate",
-        "id": "Ident"
-      },
-      {
-        "label": "DM",
-        "type": "candidate",
-        "id": "DM"
-      },
-      {
-        "label": "AAA",
-        "type": "candidate",
-        "id": "AAA"
+        "id": "US"
       },
       {
         "label": "AA",
@@ -913,9 +903,19 @@
         "id": "AA"
       },
       {
-        "label": "US",
+        "label": "Ident",
         "type": "candidate",
-        "id": "US"
+        "id": "Ident"
+      },
+      {
+        "label": "AAA",
+        "type": "candidate",
+        "id": "AAA"
+      },
+      {
+        "label": "DM",
+        "type": "candidate",
+        "id": "DM"
       },
       {
         "label": "DM Address Items",
@@ -923,19 +923,9 @@
         "id": "DM Address Items"
       },
       {
-        "label": "Items",
-        "type": "candidate",
-        "id": "Items"
-      },
-      {
         "label": "Address Items",
         "type": "candidate",
         "id": "Address Items"
-      },
-      {
-        "label": "Brake",
-        "type": "candidate",
-        "id": "Brake"
       },
       {
         "label": "Description",
@@ -943,9 +933,19 @@
         "id": "Description"
       },
       {
+        "label": "Items",
+        "type": "candidate",
+        "id": "Items"
+      },
+      {
         "label": "Address",
         "type": "candidate",
         "id": "Address"
+      },
+      {
+        "label": "Brake",
+        "type": "candidate",
+        "id": "Brake"
       },
       {
         "label": "DM Status",
@@ -953,54 +953,14 @@
         "id": "DM Status"
       },
       {
-        "label": "Defence Industries Association",
+        "label": "Bike Enhancement",
         "type": "candidate",
-        "id": "Defence Industries Association"
-      },
-      {
-        "label": "There",
-        "type": "candidate",
-        "id": "There"
-      },
-      {
-        "label": "Status",
-        "type": "candidate",
-        "id": "Status"
-      },
-      {
-        "label": "users",
-        "type": "candidate",
-        "id": "users"
-      },
-      {
-        "label": "Storage",
-        "type": "candidate",
-        "id": "Storage"
-      },
-      {
-        "label": "Export",
-        "type": "candidate",
-        "id": "Export"
-      },
-      {
-        "label": "Enhancement",
-        "type": "candidate",
-        "id": "Enhancement"
+        "id": "Bike Enhancement"
       },
       {
         "label": "instructions",
         "type": "candidate",
         "id": "instructions"
-      },
-      {
-        "label": "residence",
-        "type": "candidate",
-        "id": "residence"
-      },
-      {
-        "label": "ASD",
-        "type": "candidate",
-        "id": "ASD"
       },
       {
         "label": "Defence",
@@ -1013,9 +973,44 @@
         "id": "Industries"
       },
       {
-        "label": "Aerospace",
+        "label": "residence",
         "type": "candidate",
-        "id": "Aerospace"
+        "id": "residence"
+      },
+      {
+        "label": "Defence Industries Association",
+        "type": "candidate",
+        "id": "Defence Industries Association"
+      },
+      {
+        "label": "Association",
+        "type": "candidate",
+        "id": "Association"
+      },
+      {
+        "label": "users",
+        "type": "candidate",
+        "id": "users"
+      },
+      {
+        "label": "Export",
+        "type": "candidate",
+        "id": "Export"
+      },
+      {
+        "label": "Europe",
+        "type": "candidate",
+        "id": "Europe"
+      },
+      {
+        "label": "Status",
+        "type": "candidate",
+        "id": "Status"
+      },
+      {
+        "label": "Copyright",
+        "type": "candidate",
+        "id": "Copyright"
       },
       {
         "label": "discretion",
@@ -1028,24 +1023,24 @@
         "id": "Users"
       },
       {
-        "label": "Security",
+        "label": "Storage",
         "type": "candidate",
-        "id": "Security"
+        "id": "Storage"
       },
       {
-        "label": "RFU",
+        "label": "ASD",
         "type": "candidate",
-        "id": "RFU"
+        "id": "ASD"
       },
       {
-        "label": "Copyright",
+        "label": "Enhancement",
         "type": "candidate",
-        "id": "Copyright"
+        "id": "Enhancement"
       },
       {
-        "label": "Bike Enhancement",
+        "label": "Aerospace",
         "type": "candidate",
-        "id": "Bike Enhancement"
+        "id": "Aerospace"
       },
       {
         "label": "Bike",
@@ -1053,19 +1048,94 @@
         "id": "Bike"
       },
       {
-        "label": "Association",
+        "label": "There",
         "type": "candidate",
-        "id": "Association"
+        "id": "There"
       },
       {
-        "label": "Europe",
+        "label": "RFU",
         "type": "candidate",
-        "id": "Europe"
+        "id": "RFU"
+      },
+      {
+        "label": "Security",
+        "type": "candidate",
+        "id": "Security"
       },
       {
         "label": "Levelled Para",
         "type": "heading",
         "id": "Levelled Para"
+      },
+      {
+        "label": "speed",
+        "type": "candidate",
+        "id": "speed"
+      },
+      {
+        "label": "Para",
+        "type": "candidate",
+        "id": "Para"
+      },
+      {
+        "label": "Exploded",
+        "type": "candidate",
+        "id": "Exploded"
+      },
+      {
+        "label": "ICN",
+        "type": "candidate",
+        "id": "ICN"
+      },
+      {
+        "label": "components",
+        "type": "candidate",
+        "id": "components"
+      },
+      {
+        "label": "Cantilever",
+        "type": "candidate",
+        "id": "Cantilever"
+      },
+      {
+        "label": "rim",
+        "type": "candidate",
+        "id": "rim"
+      },
+      {
+        "label": "Only",
+        "type": "candidate",
+        "id": "Only"
+      },
+      {
+        "label": "Typical",
+        "type": "candidate",
+        "id": "Typical"
+      },
+      {
+        "label": "diagram",
+        "type": "candidate",
+        "id": "diagram"
+      },
+      {
+        "label": "part",
+        "type": "candidate",
+        "id": "part"
+      },
+      {
+        "label": "out",
+        "type": "candidate",
+        "id": "out"
+      },
+      {
+        "label": "maintenance",
+        "type": "candidate",
+        "id": "maintenance"
+      },
+      {
+        "label": "types",
+        "type": "candidate",
+        "id": "types"
       },
       {
         "label": "Levelled",
@@ -1078,79 +1148,9 @@
         "id": "This"
       },
       {
-        "label": "part",
-        "type": "candidate",
-        "id": "part"
-      },
-      {
-        "label": "Only",
-        "type": "candidate",
-        "id": "Only"
-      },
-      {
         "label": "tension",
         "type": "candidate",
         "id": "tension"
-      },
-      {
-        "label": "diagram",
-        "type": "candidate",
-        "id": "diagram"
-      },
-      {
-        "label": "speed",
-        "type": "candidate",
-        "id": "speed"
-      },
-      {
-        "label": "ICN",
-        "type": "candidate",
-        "id": "ICN"
-      },
-      {
-        "label": "out",
-        "type": "candidate",
-        "id": "out"
-      },
-      {
-        "label": "types",
-        "type": "candidate",
-        "id": "types"
-      },
-      {
-        "label": "Cantilever",
-        "type": "candidate",
-        "id": "Cantilever"
-      },
-      {
-        "label": "maintenance",
-        "type": "candidate",
-        "id": "maintenance"
-      },
-      {
-        "label": "components",
-        "type": "candidate",
-        "id": "components"
-      },
-      {
-        "label": "Para",
-        "type": "candidate",
-        "id": "Para"
-      },
-      {
-        "label": "Typical",
-        "type": "candidate",
-        "id": "Typical"
-      },
-      {
-        "label": "Exploded",
-        "type": "candidate",
-        "id": "Exploded"
-      },
-      {
-        "label": "rim",
-        "type": "candidate",
-        "id": "rim"
       }
     ],
     "links": [
@@ -1160,23 +1160,7 @@
           1
         ],
         "source": "DM Ident",
-        "target": "Ident"
-      },
-      {
-        "weight": 1,
-        "units": [
-          1
-        ],
-        "source": "DM Ident",
-        "target": "DM"
-      },
-      {
-        "weight": 1,
-        "units": [
-          1
-        ],
-        "source": "DM Ident",
-        "target": "AAA"
+        "target": "US"
       },
       {
         "weight": 1,
@@ -1192,7 +1176,39 @@
           1
         ],
         "source": "DM Ident",
-        "target": "US"
+        "target": "Ident"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "AAA"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "DM"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "AA",
+        "target": "DM Status"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "AAA",
+        "target": "DM Status"
       },
       {
         "weight": 1,
@@ -1213,42 +1229,10 @@
       {
         "weight": 1,
         "units": [
-          3
-        ],
-        "source": "AAA",
-        "target": "DM Status"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "AA",
-        "target": "DM Status"
-      },
-      {
-        "weight": 1,
-        "units": [
-          2
-        ],
-        "source": "DM Address Items",
-        "target": "Items"
-      },
-      {
-        "weight": 1,
-        "units": [
           2
         ],
         "source": "DM Address Items",
         "target": "Address Items"
-      },
-      {
-        "weight": 1,
-        "units": [
-          2
-        ],
-        "source": "DM Address Items",
-        "target": "Brake"
       },
       {
         "weight": 1,
@@ -1264,7 +1248,23 @@
           2
         ],
         "source": "DM Address Items",
+        "target": "Items"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Address Items",
         "target": "Address"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "DM Address Items",
+        "target": "Brake"
       },
       {
         "weight": 1,
@@ -1280,55 +1280,7 @@
           3
         ],
         "source": "DM Status",
-        "target": "Defence Industries Association"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "DM Status",
-        "target": "There"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "DM Status",
-        "target": "Status"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "DM Status",
-        "target": "users"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "DM Status",
-        "target": "Storage"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "DM Status",
-        "target": "Export"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "DM Status",
-        "target": "Enhancement"
+        "target": "Bike Enhancement"
       },
       {
         "weight": 1,
@@ -1337,22 +1289,6 @@
         ],
         "source": "DM Status",
         "target": "instructions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "DM Status",
-        "target": "residence"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "DM Status",
-        "target": "ASD"
       },
       {
         "weight": 1,
@@ -1376,7 +1312,63 @@
           3
         ],
         "source": "DM Status",
-        "target": "Aerospace"
+        "target": "residence"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "DM Status",
+        "target": "Defence Industries Association"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "DM Status",
+        "target": "Association"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "DM Status",
+        "target": "users"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "DM Status",
+        "target": "Export"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "DM Status",
+        "target": "Europe"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "DM Status",
+        "target": "Status"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "DM Status",
+        "target": "Copyright"
       },
       {
         "weight": 1,
@@ -1400,7 +1392,7 @@
           3
         ],
         "source": "DM Status",
-        "target": "Security"
+        "target": "Storage"
       },
       {
         "weight": 1,
@@ -1408,7 +1400,7 @@
           3
         ],
         "source": "DM Status",
-        "target": "RFU"
+        "target": "ASD"
       },
       {
         "weight": 1,
@@ -1416,7 +1408,7 @@
           3
         ],
         "source": "DM Status",
-        "target": "Copyright"
+        "target": "Enhancement"
       },
       {
         "weight": 1,
@@ -1424,7 +1416,7 @@
           3
         ],
         "source": "DM Status",
-        "target": "Bike Enhancement"
+        "target": "Aerospace"
       },
       {
         "weight": 1,
@@ -1440,7 +1432,7 @@
           3
         ],
         "source": "DM Status",
-        "target": "Association"
+        "target": "There"
       },
       {
         "weight": 1,
@@ -1448,7 +1440,15 @@
           3
         ],
         "source": "DM Status",
-        "target": "Europe"
+        "target": "RFU"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "DM Status",
+        "target": "Security"
       },
       {
         "weight": 1,
@@ -1464,111 +1464,7 @@
           4
         ],
         "source": "Levelled Para",
-        "target": "Levelled"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "This"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "part"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "Only"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "tension"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "diagram"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
         "target": "speed"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "ICN"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "out"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "types"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "Cantilever"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "maintenance"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "components"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
-        "target": "Levelled Para"
       },
       {
         "weight": 1,
@@ -1584,14 +1480,6 @@
           4
         ],
         "source": "Levelled Para",
-        "target": "Typical"
-      },
-      {
-        "weight": 1,
-        "units": [
-          4
-        ],
-        "source": "Levelled Para",
         "target": "Exploded"
       },
       {
@@ -1600,7 +1488,119 @@
           4
         ],
         "source": "Levelled Para",
+        "target": "ICN"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "components"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "Cantilever"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
         "target": "rim"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "Only"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "Typical"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "diagram"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "part"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "out"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "maintenance"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "types"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "Levelled"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "Levelled Para"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "This"
+      },
+      {
+        "weight": 1,
+        "units": [
+          4
+        ],
+        "source": "Levelled Para",
+        "target": "tension"
       }
     ]
   }

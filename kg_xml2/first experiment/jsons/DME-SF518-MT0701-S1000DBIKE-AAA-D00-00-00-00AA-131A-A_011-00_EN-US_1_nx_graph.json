@@ -1,0 +1,979 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "type": "heading",
+      "id": "Pre-Ride Inspection Checklist - Mountain Bike"
+    },
+    {
+      "label": "intended",
+      "type": "candidate",
+      "id": "intended"
+    },
+    {
+      "label": "Bike",
+      "type": "candidate",
+      "id": "Bike"
+    },
+    {
+      "label": "checklist",
+      "type": "candidate",
+      "id": "checklist"
+    },
+    {
+      "label": "Ride Inspection Checklist",
+      "type": "candidate",
+      "id": "Ride Inspection Checklist"
+    },
+    {
+      "label": "Mountain Bike This",
+      "type": "candidate",
+      "id": "Mountain Bike This"
+    },
+    {
+      "label": "Checklist",
+      "type": "candidate",
+      "id": "Checklist"
+    },
+    {
+      "label": "Inspection",
+      "type": "candidate",
+      "id": "Inspection"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Mountain",
+      "type": "candidate",
+      "id": "Mountain"
+    },
+    {
+      "label": "Ride",
+      "type": "candidate",
+      "id": "Ride"
+    },
+    {
+      "label": "I. Introduction",
+      "type": "heading",
+      "id": "I. Introduction"
+    },
+    {
+      "label": "Introduction This",
+      "type": "candidate",
+      "id": "Introduction This"
+    },
+    {
+      "label": "components",
+      "type": "candidate",
+      "id": "components"
+    },
+    {
+      "label": "Regular",
+      "type": "candidate",
+      "id": "Regular"
+    },
+    {
+      "label": "Introduction",
+      "type": "candidate",
+      "id": "Introduction"
+    },
+    {
+      "label": "crucial",
+      "type": "candidate",
+      "id": "crucial"
+    },
+    {
+      "label": "A. Brakes",
+      "type": "heading",
+      "id": "A. Brakes"
+    },
+    {
+      "label": "Inspect",
+      "type": "candidate",
+      "id": "Inspect"
+    },
+    {
+      "label": "Lines",
+      "type": "candidate",
+      "id": "Lines"
+    },
+    {
+      "label": "Cables",
+      "type": "candidate",
+      "id": "Cables"
+    },
+    {
+      "label": "Ensure",
+      "type": "candidate",
+      "id": "Ensure"
+    },
+    {
+      "label": "Replace",
+      "type": "candidate",
+      "id": "Replace"
+    },
+    {
+      "label": "Hydraulic",
+      "type": "candidate",
+      "id": "Hydraulic"
+    },
+    {
+      "label": "Levers",
+      "type": "candidate",
+      "id": "Levers"
+    },
+    {
+      "label": "Check",
+      "type": "candidate",
+      "id": "Check"
+    },
+    {
+      "label": "Hydraulic Lines",
+      "type": "candidate",
+      "id": "Hydraulic Lines"
+    },
+    {
+      "label": "Brakes",
+      "type": "candidate",
+      "id": "Brakes"
+    },
+    {
+      "label": "Pads",
+      "type": "candidate",
+      "id": "Pads"
+    },
+    {
+      "label": "B. Tires",
+      "type": "heading",
+      "id": "B. Tires"
+    },
+    {
+      "label": "Tires",
+      "type": "candidate",
+      "id": "Tires"
+    },
+    {
+      "label": "Condition",
+      "type": "candidate",
+      "id": "Condition"
+    },
+    {
+      "label": "Pressure",
+      "type": "candidate",
+      "id": "Pressure"
+    },
+    {
+      "label": "Inflate",
+      "type": "candidate",
+      "id": "Inflate"
+    },
+    {
+      "label": "Road",
+      "type": "candidate",
+      "id": "Road"
+    },
+    {
+      "label": "C. Wheels",
+      "type": "heading",
+      "id": "C. Wheels"
+    },
+    {
+      "label": "Confirm",
+      "type": "candidate",
+      "id": "Confirm"
+    },
+    {
+      "label": "Trueness",
+      "type": "candidate",
+      "id": "Trueness"
+    },
+    {
+      "label": "Spokes",
+      "type": "candidate",
+      "id": "Spokes"
+    },
+    {
+      "label": "Wheels",
+      "type": "candidate",
+      "id": "Wheels"
+    },
+    {
+      "label": "Verify",
+      "type": "candidate",
+      "id": "Verify"
+    },
+    {
+      "label": "Bearings",
+      "type": "candidate",
+      "id": "Bearings"
+    },
+    {
+      "label": "Nuts",
+      "type": "candidate",
+      "id": "Nuts"
+    },
+    {
+      "label": "Axel Nuts",
+      "type": "candidate",
+      "id": "Axel Nuts"
+    },
+    {
+      "label": "Axel",
+      "type": "candidate",
+      "id": "Axel"
+    },
+    {
+      "label": "D. Headset",
+      "type": "heading",
+      "id": "D. Headset"
+    },
+    {
+      "label": "Headset",
+      "type": "candidate",
+      "id": "Headset"
+    },
+    {
+      "label": "E. Chain",
+      "type": "heading",
+      "id": "E. Chain"
+    },
+    {
+      "label": "Links",
+      "type": "candidate",
+      "id": "Links"
+    },
+    {
+      "label": "Chain",
+      "type": "candidate",
+      "id": "Chain"
+    },
+    {
+      "label": "F. Handlebar & Stem",
+      "type": "heading",
+      "id": "F. Handlebar & Stem"
+    },
+    {
+      "label": "Handlebar",
+      "type": "candidate",
+      "id": "Handlebar"
+    },
+    {
+      "label": "Stem",
+      "type": "candidate",
+      "id": "Stem"
+    },
+    {
+      "label": "Tightness",
+      "type": "candidate",
+      "id": "Tightness"
+    },
+    {
+      "label": "G. Computer (if equipped)",
+      "type": "heading",
+      "id": "G. Computer (if equipped)"
+    },
+    {
+      "label": "Distance",
+      "type": "candidate",
+      "id": "Distance"
+    },
+    {
+      "label": "Display",
+      "type": "candidate",
+      "id": "Display"
+    },
+    {
+      "label": "Altitude",
+      "type": "candidate",
+      "id": "Altitude"
+    },
+    {
+      "label": "Computer",
+      "type": "candidate",
+      "id": "Computer"
+    },
+    {
+      "label": "Speed",
+      "type": "candidate",
+      "id": "Speed"
+    },
+    {
+      "label": "III.  Warnings & Cautions",
+      "type": "heading",
+      "id": "III.  Warnings & Cautions"
+    },
+    {
+      "label": "Cautions",
+      "type": "candidate",
+      "id": "Cautions"
+    },
+    {
+      "label": "III",
+      "type": "candidate",
+      "id": "III"
+    },
+    {
+      "label": "Always",
+      "type": "candidate",
+      "id": "Always"
+    },
+    {
+      "label": "Warnings",
+      "type": "candidate",
+      "id": "Warnings"
+    },
+    {
+      "label": "IV.  Additional Notes",
+      "type": "heading",
+      "id": "IV.  Additional Notes"
+    },
+    {
+      "label": "IV",
+      "type": "candidate",
+      "id": "IV"
+    },
+    {
+      "label": "Consult",
+      "type": "candidate",
+      "id": "Consult"
+    },
+    {
+      "label": "Adjust",
+      "type": "candidate",
+      "id": "Adjust"
+    },
+    {
+      "label": "Additional",
+      "type": "candidate",
+      "id": "Additional"
+    },
+    {
+      "label": "manual",
+      "type": "candidate",
+      "id": "manual"
+    },
+    {
+      "label": "Notes",
+      "type": "candidate",
+      "id": "Notes"
+    },
+    {
+      "label": "Additional Notes",
+      "type": "candidate",
+      "id": "Additional Notes"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "intended"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "Bike"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "checklist"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "Ride Inspection Checklist"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "Mountain Bike This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "Checklist"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "Inspection"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "Mountain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Pre-Ride Inspection Checklist - Mountain Bike",
+      "target": "Ride"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "This",
+      "target": "I. Introduction"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "This",
+      "target": "IV.  Additional Notes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "I. Introduction",
+      "target": "Introduction This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "I. Introduction",
+      "target": "components"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "I. Introduction",
+      "target": "Regular"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "I. Introduction",
+      "target": "Introduction"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "I. Introduction",
+      "target": "crucial"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Regular",
+      "target": "IV.  Additional Notes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Inspect"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Lines"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Cables"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Ensure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Replace"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Hydraulic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Levers"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Hydraulic Lines"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Brakes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "A. Brakes",
+      "target": "Pads"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Inspect",
+      "target": "B. Tires"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Inspect",
+      "target": "F. Handlebar & Stem"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Ensure",
+      "target": "C. Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Ensure",
+      "target": "E. Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Check",
+      "target": "C. Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Check",
+      "target": "D. Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "B. Tires",
+      "target": "Tires"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "B. Tires",
+      "target": "Condition"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "B. Tires",
+      "target": "Pressure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "B. Tires",
+      "target": "Inflate"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "B. Tires",
+      "target": "Road"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "C. Wheels",
+      "target": "Confirm"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "C. Wheels",
+      "target": "Trueness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "C. Wheels",
+      "target": "Spokes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "C. Wheels",
+      "target": "Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "C. Wheels",
+      "target": "Verify"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "C. Wheels",
+      "target": "Bearings"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "C. Wheels",
+      "target": "Nuts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "C. Wheels",
+      "target": "Axel Nuts"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "C. Wheels",
+      "target": "Axel"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Confirm",
+      "target": "F. Handlebar & Stem"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Verify",
+      "target": "G. Computer (if equipped)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Bearings",
+      "target": "D. Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "D. Headset",
+      "target": "Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "E. Chain",
+      "target": "Links"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "E. Chain",
+      "target": "Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "F. Handlebar & Stem",
+      "target": "Handlebar"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "F. Handlebar & Stem",
+      "target": "Stem"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "F. Handlebar & Stem",
+      "target": "Tightness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "G. Computer (if equipped)",
+      "target": "Distance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "G. Computer (if equipped)",
+      "target": "Display"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "G. Computer (if equipped)",
+      "target": "Altitude"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "G. Computer (if equipped)",
+      "target": "Computer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "G. Computer (if equipped)",
+      "target": "Speed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "III.  Warnings & Cautions",
+      "target": "Cautions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "III.  Warnings & Cautions",
+      "target": "III"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "III.  Warnings & Cautions",
+      "target": "Always"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "III.  Warnings & Cautions",
+      "target": "Warnings"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "IV.  Additional Notes",
+      "target": "IV"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "IV.  Additional Notes",
+      "target": "Consult"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "IV.  Additional Notes",
+      "target": "Adjust"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "IV.  Additional Notes",
+      "target": "Additional"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "IV.  Additional Notes",
+      "target": "manual"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "IV.  Additional Notes",
+      "target": "Notes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "IV.  Additional Notes",
+      "target": "Additional Notes"
+    }
+  ]
+}

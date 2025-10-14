@@ -24,12 +24,11 @@
       ]
     },
     {
-      "id": "Information",
-      "label": "Information",
+      "id": "Creation",
+      "label": "Creation",
       "type": "candidate",
       "source_units": [
-        2,
-        10
+        2
       ]
     },
     {
@@ -41,24 +40,17 @@
       ]
     },
     {
+      "id": "Information",
+      "label": "Information",
+      "type": "candidate",
+      "source_units": [
+        2,
+        10
+      ]
+    },
+    {
       "id": "Date",
       "label": "Date",
-      "type": "candidate",
-      "source_units": [
-        2
-      ]
-    },
-    {
-      "id": "Creation",
-      "label": "Creation",
-      "type": "candidate",
-      "source_units": [
-        2
-      ]
-    },
-    {
-      "id": "Last Update",
-      "label": "Last Update",
       "type": "candidate",
       "source_units": [
         2
@@ -74,6 +66,22 @@
         7,
         8,
         9
+      ]
+    },
+    {
+      "id": "Last Update",
+      "label": "Last Update",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "Document Version",
+      "label": "Document Version",
+      "type": "candidate",
+      "source_units": [
+        2
       ]
     },
     {
@@ -93,25 +101,9 @@
       ]
     },
     {
-      "id": "Document Version",
-      "label": "Document Version",
-      "type": "candidate",
-      "source_units": [
-        2
-      ]
-    },
-    {
       "id": "1. Identification",
       "label": "1. Identification",
       "type": "heading",
-      "source_units": [
-        3
-      ]
-    },
-    {
-      "id": "Common Repository Document",
-      "label": "Common Repository Document",
-      "type": "candidate",
       "source_units": [
         3
       ]
@@ -132,15 +124,6 @@
       "source_units": [
         3,
         5,
-        10
-      ]
-    },
-    {
-      "id": "ID",
-      "label": "ID",
-      "type": "candidate",
-      "source_units": [
-        3,
         10
       ]
     },
@@ -174,6 +157,23 @@
       ]
     },
     {
+      "id": "Common Repository Document",
+      "label": "Common Repository Document",
+      "type": "candidate",
+      "source_units": [
+        3
+      ]
+    },
+    {
+      "id": "ID",
+      "label": "ID",
+      "type": "candidate",
+      "source_units": [
+        3,
+        10
+      ]
+    },
+    {
       "id": "2. Document Overview",
       "label": "2. Document Overview",
       "type": "heading",
@@ -182,8 +182,8 @@
       ]
     },
     {
-      "id": "specifications",
-      "label": "specifications",
+      "id": "Document Overview This",
+      "label": "Document Overview This",
       "type": "candidate",
       "source_units": [
         4
@@ -198,20 +198,20 @@
       ]
     },
     {
+      "id": "specifications",
+      "label": "specifications",
+      "type": "candidate",
+      "source_units": [
+        4
+      ]
+    },
+    {
       "id": "This",
       "label": "This",
       "type": "candidate",
       "source_units": [
         4,
         10
-      ]
-    },
-    {
-      "id": "Document Overview This",
-      "label": "Document Overview This",
-      "type": "candidate",
-      "source_units": [
-        4
       ]
     },
     {
@@ -232,89 +232,8 @@
       ]
     },
     {
-      "id": "summary",
-      "label": "summary",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "definitions",
-      "label": "definitions",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Common Repository",
-      "label": "Common Repository",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
       "id": "Applicability Specifications",
       "label": "Applicability Specifications",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Contains",
-      "label": "Contains",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Document Structure",
-      "label": "Document Structure",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Detailed",
-      "label": "Detailed",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Structure",
-      "label": "Structure",
-      "type": "candidate",
-      "source_units": [
-        5,
-        10
-      ]
-    },
-    {
-      "id": "Basic",
-      "label": "Basic",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Specifications",
-      "label": "Specifications",
-      "type": "candidate",
-      "source_units": [
-        5
-      ]
-    },
-    {
-      "id": "Document Overview",
-      "label": "Document Overview",
       "type": "candidate",
       "source_units": [
         5
@@ -330,6 +249,87 @@
       ]
     },
     {
+      "id": "Detailed",
+      "label": "Detailed",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Common Repository",
+      "label": "Common Repository",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Specifications",
+      "label": "Specifications",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Document Structure",
+      "label": "Document Structure",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "summary",
+      "label": "summary",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Structure",
+      "label": "Structure",
+      "type": "candidate",
+      "source_units": [
+        5,
+        10
+      ]
+    },
+    {
+      "id": "definitions",
+      "label": "definitions",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Document Overview",
+      "label": "Document Overview",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Basic",
+      "label": "Basic",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
+      "id": "Contains",
+      "label": "Contains",
+      "type": "candidate",
+      "source_units": [
+        5
+      ]
+    },
+    {
       "id": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
       "label": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
       "type": "heading",
@@ -338,8 +338,16 @@
       ]
     },
     {
-      "id": "Mountain",
-      "label": "Mountain",
+      "id": "Rank",
+      "label": "Rank",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Model",
+      "label": "Model",
       "type": "candidate",
       "source_units": [
         6,
@@ -361,65 +369,8 @@
       ]
     },
     {
-      "id": "Rank",
-      "label": "Rank",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Description",
-      "label": "Description",
-      "type": "candidate",
-      "source_units": [
-        6,
-        7,
-        8,
-        9
-      ]
-    },
-    {
-      "id": "Option",
-      "label": "Option",
-      "type": "candidate",
-      "source_units": [
-        6,
-        7
-      ]
-    },
-    {
-      "id": "Version Rank",
-      "label": "Version Rank",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
       "id": "Defines",
       "label": "Defines",
-      "type": "candidate",
-      "source_units": [
-        6,
-        7,
-        8,
-        9
-      ]
-    },
-    {
-      "id": "Brook",
-      "label": "Brook",
-      "type": "candidate",
-      "source_units": [
-        6,
-        7,
-        9
-      ]
-    },
-    {
-      "id": "Model",
-      "label": "Model",
       "type": "candidate",
       "source_units": [
         6,
@@ -441,6 +392,38 @@
       ]
     },
     {
+      "id": "Brook",
+      "label": "Brook",
+      "type": "candidate",
+      "source_units": [
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "id": "Mountain",
+      "label": "Mountain",
+      "type": "candidate",
+      "source_units": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "Description",
+      "label": "Description",
+      "type": "candidate",
+      "source_units": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
       "id": "applicability",
       "label": "applicability",
       "type": "candidate",
@@ -449,6 +432,23 @@
         7,
         8,
         9
+      ]
+    },
+    {
+      "id": "Version Rank",
+      "label": "Version Rank",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Option",
+      "label": "Option",
+      "type": "candidate",
+      "source_units": [
+        6,
+        7
       ]
     },
     {
@@ -484,224 +484,8 @@
       ]
     },
     {
-      "id": "Corrected",
-      "label": "Corrected",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Complete",
-      "label": "Complete",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Added Document Information",
-      "label": "Added Document Information",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Notes",
-      "label": "Notes",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Markdown Formatting",
-      "label": "Markdown Formatting",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Referenced",
-      "label": "Referenced",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Application Specification Value",
-      "label": "Application Specification Value",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Applicability Repository",
-      "label": "Applicability Repository",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Added",
-      "label": "Added",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Referenced Application",
-      "label": "Referenced Application",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Clear Structure",
-      "label": "Clear Structure",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "designed",
-      "label": "designed",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Included",
-      "label": "Included",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
       "id": "Readable",
       "label": "Readable",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Formatting",
-      "label": "Formatting",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "understanding",
-      "label": "understanding",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Removed Redundancy",
-      "label": "Removed Redundancy",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Specification",
-      "label": "Specification",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "subheadings",
-      "label": "subheadings",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "aspects",
-      "label": "aspects",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Corrected Terminology",
-      "label": "Corrected Terminology",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Corrected Table Alignment",
-      "label": "Corrected Table Alignment",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "syntax",
-      "label": "syntax",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Value",
-      "label": "Value",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Markdown",
-      "label": "Markdown",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Added Notes",
-      "label": "Added Notes",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "table",
-      "label": "table",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Clear",
-      "label": "Clear",
       "type": "candidate",
       "source_units": [
         10
@@ -716,32 +500,48 @@
       ]
     },
     {
-      "id": "Terminology",
-      "label": "Terminology",
+      "id": "designed",
+      "label": "designed",
       "type": "candidate",
       "source_units": [
         10
       ]
     },
     {
-      "id": "Concise Descriptions",
-      "label": "Concise Descriptions",
+      "id": "Referenced",
+      "label": "Referenced",
       "type": "candidate",
       "source_units": [
         10
       ]
     },
     {
-      "id": "Descriptions",
-      "label": "Descriptions",
+      "id": "Referenced Application",
+      "label": "Referenced Application",
       "type": "candidate",
       "source_units": [
         10
       ]
     },
     {
-      "id": "Removed",
-      "label": "Removed",
+      "id": "Markdown",
+      "label": "Markdown",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Markdown Formatting",
+      "label": "Markdown Formatting",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "aspects",
+      "label": "aspects",
       "type": "candidate",
       "source_units": [
         10
@@ -756,32 +556,16 @@
       ]
     },
     {
-      "id": "Clean",
-      "label": "Clean",
+      "id": "table",
+      "label": "table",
       "type": "candidate",
       "source_units": [
         10
       ]
     },
     {
-      "id": "Headings",
-      "label": "Headings",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "conditions",
-      "label": "conditions",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
-      "id": "Descriptive Headings",
-      "label": "Descriptive Headings",
+      "id": "Formatting",
+      "label": "Formatting",
       "type": "candidate",
       "source_units": [
         10
@@ -796,14 +580,6 @@
       ]
     },
     {
-      "id": "content",
-      "label": "content",
-      "type": "candidate",
-      "source_units": [
-        10
-      ]
-    },
-    {
       "id": "Coverage",
       "label": "Coverage",
       "type": "candidate",
@@ -812,24 +588,32 @@
       ]
     },
     {
-      "id": "XML",
-      "label": "XML",
+      "id": "Removed Redundancy",
+      "label": "Removed Redundancy",
       "type": "candidate",
       "source_units": [
         10
       ]
     },
     {
-      "id": "Uses",
-      "label": "Uses",
+      "id": "Descriptions",
+      "label": "Descriptions",
       "type": "candidate",
       "source_units": [
         10
       ]
     },
     {
-      "id": "Descriptive",
-      "label": "Descriptive",
+      "id": "Added Notes",
+      "label": "Added Notes",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Included",
+      "label": "Included",
       "type": "candidate",
       "source_units": [
         10
@@ -844,16 +628,24 @@
       ]
     },
     {
-      "id": "Complete Coverage",
-      "label": "Complete Coverage",
+      "id": "Corrected Table Alignment",
+      "label": "Corrected Table Alignment",
       "type": "candidate",
       "source_units": [
         10
       ]
     },
     {
-      "id": "Alignment",
-      "label": "Alignment",
+      "id": "conditions",
+      "label": "conditions",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Value",
+      "label": "Value",
       "type": "candidate",
       "source_units": [
         10
@@ -868,8 +660,8 @@
       ]
     },
     {
-      "id": "Redundancy",
-      "label": "Redundancy",
+      "id": "Application Specification Value",
+      "label": "Application Specification Value",
       "type": "candidate",
       "source_units": [
         10
@@ -884,8 +676,216 @@
       ]
     },
     {
+      "id": "Headings",
+      "label": "Headings",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "understanding",
+      "label": "understanding",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "subheadings",
+      "label": "subheadings",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Redundancy",
+      "label": "Redundancy",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Notes",
+      "label": "Notes",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Removed",
+      "label": "Removed",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Corrected",
+      "label": "Corrected",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Descriptive",
+      "label": "Descriptive",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "XML",
+      "label": "XML",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Clear",
+      "label": "Clear",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Descriptive Headings",
+      "label": "Descriptive Headings",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Complete",
+      "label": "Complete",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "content",
+      "label": "content",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Terminology",
+      "label": "Terminology",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Added",
+      "label": "Added",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Added Document Information",
+      "label": "Added Document Information",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Uses",
+      "label": "Uses",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
       "id": "Emphasis",
       "label": "Emphasis",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Specification",
+      "label": "Specification",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Concise Descriptions",
+      "label": "Concise Descriptions",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Clean",
+      "label": "Clean",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Applicability Repository",
+      "label": "Applicability Repository",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Alignment",
+      "label": "Alignment",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "syntax",
+      "label": "syntax",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Corrected Terminology",
+      "label": "Corrected Terminology",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Clear Structure",
+      "label": "Clear Structure",
+      "type": "candidate",
+      "source_units": [
+        10
+      ]
+    },
+    {
+      "id": "Complete Coverage",
+      "label": "Complete Coverage",
       "type": "candidate",
       "source_units": [
         10
@@ -902,8 +902,8 @@
       ]
     },
     {
-      "source": "Document Information",
-      "target": "Information",
+      "source": "Creation",
+      "target": "Document Information",
       "weight": 1,
       "units": [
         2
@@ -918,32 +918,8 @@
       ]
     },
     {
-      "source": "Date",
-      "target": "Document Information",
-      "weight": 1,
-      "units": [
-        2
-      ]
-    },
-    {
       "source": "Document Information",
-      "target": "Document Information",
-      "weight": 1,
-      "units": [
-        2
-      ]
-    },
-    {
-      "source": "Creation",
-      "target": "Document Information",
-      "weight": 1,
-      "units": [
-        2
-      ]
-    },
-    {
-      "source": "Document Information",
-      "target": "Last Update",
+      "target": "Information",
       "weight": 1,
       "units": [
         2
@@ -959,7 +935,39 @@
     },
     {
       "source": "Document Information",
+      "target": "Document Information",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Date",
+      "target": "Document Information",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Document Information",
       "target": "Version",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Document Information",
+      "target": "Last Update",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Document Information",
+      "target": "Document Version",
       "weight": 1,
       "units": [
         2
@@ -982,22 +990,6 @@
       ]
     },
     {
-      "source": "Document Information",
-      "target": "Document Version",
-      "weight": 1,
-      "units": [
-        2
-      ]
-    },
-    {
-      "source": "1. Identification",
-      "target": "Common Repository Document",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
       "source": "1. Identification",
       "target": "Common",
       "weight": 1,
@@ -1015,23 +1007,15 @@
     },
     {
       "source": "1. Identification",
-      "target": "Document",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "1. Identification",
-      "target": "ID",
-      "weight": 1,
-      "units": [
-        3
-      ]
-    },
-    {
-      "source": "1. Identification",
       "target": "Type",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
+      "source": "1. Identification",
+      "target": "Document",
       "weight": 1,
       "units": [
         3
@@ -1054,16 +1038,24 @@
       ]
     },
     {
-      "source": "2. Document Overview",
-      "target": "specifications",
+      "source": "1. Identification",
+      "target": "Common Repository Document",
       "weight": 1,
       "units": [
-        4
+        3
+      ]
+    },
+    {
+      "source": "1. Identification",
+      "target": "ID",
+      "weight": 1,
+      "units": [
+        3
       ]
     },
     {
       "source": "2. Document Overview",
-      "target": "Document",
+      "target": "Document Overview This",
       "weight": 1,
       "units": [
         4
@@ -1079,7 +1071,7 @@
     },
     {
       "source": "2. Document Overview",
-      "target": "This",
+      "target": "Document",
       "weight": 1,
       "units": [
         4
@@ -1087,7 +1079,15 @@
     },
     {
       "source": "2. Document Overview",
-      "target": "Document Overview This",
+      "target": "specifications",
+      "weight": 1,
+      "units": [
+        4
+      ]
+    },
+    {
+      "source": "2. Document Overview",
+      "target": "This",
       "weight": 1,
       "units": [
         4
@@ -1103,7 +1103,7 @@
     },
     {
       "source": "3. Document Structure",
-      "target": "summary",
+      "target": "Applicability Specifications",
       "weight": 1,
       "units": [
         5
@@ -1111,7 +1111,15 @@
     },
     {
       "source": "3. Document Structure",
-      "target": "definitions",
+      "target": "Applicability",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3. Document Structure",
+      "target": "Detailed",
       "weight": 1,
       "units": [
         5
@@ -1143,63 +1151,7 @@
     },
     {
       "source": "3. Document Structure",
-      "target": "Applicability Specifications",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "3. Document Structure",
-      "target": "Overview",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "3. Document Structure",
-      "target": "Contains",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "3. Document Structure",
-      "target": "Document Structure",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "3. Document Structure",
       "target": "Document",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "3. Document Structure",
-      "target": "Detailed",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "3. Document Structure",
-      "target": "Structure",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "3. Document Structure",
-      "target": "Basic",
       "weight": 1,
       "units": [
         5
@@ -1215,7 +1167,7 @@
     },
     {
       "source": "3. Document Structure",
-      "target": "Document Overview",
+      "target": "Document Structure",
       "weight": 1,
       "units": [
         5
@@ -1223,7 +1175,15 @@
     },
     {
       "source": "3. Document Structure",
-      "target": "Applicability",
+      "target": "Overview",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3. Document Structure",
+      "target": "summary",
       "weight": 1,
       "units": [
         5
@@ -1238,8 +1198,64 @@
       ]
     },
     {
+      "source": "3. Document Structure",
+      "target": "Structure",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3. Document Structure",
+      "target": "definitions",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3. Document Structure",
+      "target": "Document Overview",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3. Document Structure",
+      "target": "Basic",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "3. Document Structure",
+      "target": "Contains",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
       "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "Mountain",
+      "target": "Rank",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
+      "target": "Model",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
+      "target": "Type",
       "weight": 1,
       "units": [
         6
@@ -1255,7 +1271,7 @@
     },
     {
       "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "Rank",
+      "target": "Defines",
       "weight": 1,
       "units": [
         6
@@ -1263,7 +1279,23 @@
     },
     {
       "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "Version",
+      "target": "Application",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
+      "target": "Brook",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
+      "target": "Mountain",
       "weight": 1,
       "units": [
         6
@@ -1279,7 +1311,15 @@
     },
     {
       "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "Option",
+      "target": "applicability",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
+      "target": "Version",
       "weight": 1,
       "units": [
         6
@@ -1295,47 +1335,7 @@
     },
     {
       "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "Defines",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "Brook",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "Type",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "Model",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "Application",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-      "target": "applicability",
+      "target": "Option",
       "weight": 1,
       "units": [
         6
@@ -1343,7 +1343,7 @@
     },
     {
       "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
-      "target": "Mountain",
+      "target": "Type",
       "weight": 1,
       "units": [
         7
@@ -1359,7 +1359,31 @@
     },
     {
       "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
-      "target": "Version",
+      "target": "Defines",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
+      "target": "Application",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
+      "target": "Mountain",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
+      "target": "Brook",
       "weight": 1,
       "units": [
         7
@@ -1368,6 +1392,30 @@
     {
       "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
       "target": "Description",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
+      "target": "applicability",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
+      "target": "Version",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
+      "target": "Model",
       "weight": 1,
       "units": [
         7
@@ -1382,56 +1430,8 @@
       ]
     },
     {
-      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
-      "target": "Defines",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
-      "target": "Type",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
-      "target": "Brook",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
-      "target": "Model",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
-      "target": "Application",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
-      "target": "applicability",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
       "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
-      "target": "Mountain",
+      "target": "Type",
       "weight": 1,
       "units": [
         8
@@ -1447,39 +1447,7 @@
     },
     {
       "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
-      "target": "Version",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
-      "target": "Description",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
       "target": "Defines",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
-      "target": "Type",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
-      "target": "Model",
       "weight": 1,
       "units": [
         8
@@ -1495,6 +1463,22 @@
     },
     {
       "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
+      "target": "Mountain",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
+      "target": "Description",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
       "target": "applicability",
       "weight": 1,
       "units": [
@@ -1502,8 +1486,24 @@
       ]
     },
     {
+      "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
+      "target": "Version",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`",
+      "target": "Model",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
       "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
-      "target": "Mountain",
+      "target": "Type",
       "weight": 1,
       "units": [
         9
@@ -1519,47 +1519,7 @@
     },
     {
       "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
-      "target": "Version",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
-      "target": "Description",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
       "target": "Defines",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
-      "target": "Type",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
-      "target": "Brook",
-      "weight": 1,
-      "units": [
-        9
-      ]
-    },
-    {
-      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
-      "target": "Model",
       "weight": 1,
       "units": [
         9
@@ -1575,6 +1535,30 @@
     },
     {
       "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
+      "target": "Mountain",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
+      "target": "Brook",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
+      "target": "Description",
+      "weight": 1,
+      "units": [
+        9
+      ]
+    },
+    {
+      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
       "target": "applicability",
       "weight": 1,
       "units": [
@@ -1582,248 +1566,24 @@
       ]
     },
     {
-      "source": "5.1 Applicability Repository",
-      "target": "Corrected",
+      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
+      "target": "Version",
       "weight": 1,
       "units": [
-        10
+        9
       ]
     },
     {
-      "source": "5.1 Applicability Repository",
-      "target": "Complete",
+      "source": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`",
+      "target": "Model",
       "weight": 1,
       "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Added Document Information",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Notes",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Markdown Formatting",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Referenced",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Application Specification Value",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Structure",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Applicability Repository",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "This",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Added",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Referenced Application",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Clear Structure",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "designed",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Included",
-      "weight": 1,
-      "units": [
-        10
+        9
       ]
     },
     {
       "source": "5.1 Applicability Repository",
       "target": "Readable",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Formatting",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Applicability",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "understanding",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Removed Redundancy",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Specification",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "subheadings",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "aspects",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Corrected Terminology",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Corrected Table Alignment",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "syntax",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Value",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Markdown",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Added Notes",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "table",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Clear",
       "weight": 1,
       "units": [
         10
@@ -1839,134 +1599,6 @@
     },
     {
       "source": "5.1 Applicability Repository",
-      "target": "Terminology",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Concise Descriptions",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Descriptions",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Information",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Removed",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Application Specification",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Clean",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Document",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Headings",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "conditions",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Descriptive Headings",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Using",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "content",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Coverage",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "XML",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Uses",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
       "target": "Repository",
       "weight": 1,
       "units": [
@@ -1975,7 +1607,7 @@
     },
     {
       "source": "5.1 Applicability Repository",
-      "target": "Descriptive",
+      "target": "designed",
       "weight": 1,
       "units": [
         10
@@ -1983,7 +1615,7 @@
     },
     {
       "source": "5.1 Applicability Repository",
-      "target": "Concise",
+      "target": "Referenced",
       "weight": 1,
       "units": [
         10
@@ -1991,15 +1623,7 @@
     },
     {
       "source": "5.1 Applicability Repository",
-      "target": "Complete Coverage",
-      "weight": 1,
-      "units": [
-        10
-      ]
-    },
-    {
-      "source": "5.1 Applicability Repository",
-      "target": "Alignment",
+      "target": "Referenced Application",
       "weight": 1,
       "units": [
         10
@@ -2015,7 +1639,7 @@
     },
     {
       "source": "5.1 Applicability Repository",
-      "target": "The Applicability Repository",
+      "target": "Markdown",
       "weight": 1,
       "units": [
         10
@@ -2023,7 +1647,7 @@
     },
     {
       "source": "5.1 Applicability Repository",
-      "target": "Redundancy",
+      "target": "Markdown Formatting",
       "weight": 1,
       "units": [
         10
@@ -2031,7 +1655,71 @@
     },
     {
       "source": "5.1 Applicability Repository",
-      "target": "Table",
+      "target": "Document",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "aspects",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Application Specification",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "table",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Formatting",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Using",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Coverage",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Applicability",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Removed Redundancy",
       "weight": 1,
       "units": [
         10
@@ -2047,6 +1735,238 @@
     },
     {
       "source": "5.1 Applicability Repository",
+      "target": "Application",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Descriptions",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Added Notes",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Included",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Concise",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Corrected Table Alignment",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Information",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "conditions",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Value",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "The Applicability Repository",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Application Specification Value",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Table",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Headings",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "understanding",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "subheadings",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Redundancy",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Notes",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Removed",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Corrected",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Descriptive",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "XML",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Clear",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Descriptive Headings",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Complete",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "content",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Terminology",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Added",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Added Document Information",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Uses",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
       "target": "Emphasis",
       "weight": 1,
       "units": [
@@ -2055,7 +1975,87 @@
     },
     {
       "source": "5.1 Applicability Repository",
-      "target": "Application",
+      "target": "Specification",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Concise Descriptions",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Clean",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Applicability Repository",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Alignment",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "This",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "syntax",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Structure",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Corrected Terminology",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Clear Structure",
+      "weight": 1,
+      "units": [
+        10
+      ]
+    },
+    {
+      "source": "5.1 Applicability Repository",
+      "target": "Complete Coverage",
       "weight": 1,
       "units": [
         10
@@ -2078,9 +2078,9 @@
         "id": "Document Information"
       },
       {
-        "label": "Information",
+        "label": "Creation",
         "type": "candidate",
-        "id": "Information"
+        "id": "Creation"
       },
       {
         "label": "Last",
@@ -2088,14 +2088,19 @@
         "id": "Last"
       },
       {
+        "label": "Information",
+        "type": "candidate",
+        "id": "Information"
+      },
+      {
         "label": "Date",
         "type": "candidate",
         "id": "Date"
       },
       {
-        "label": "Creation",
+        "label": "Version",
         "type": "candidate",
-        "id": "Creation"
+        "id": "Version"
       },
       {
         "label": "Last Update",
@@ -2103,9 +2108,9 @@
         "id": "Last Update"
       },
       {
-        "label": "Version",
+        "label": "Document Version",
         "type": "candidate",
-        "id": "Version"
+        "id": "Document Version"
       },
       {
         "label": "Update",
@@ -2118,19 +2123,9 @@
         "id": "Document Creation"
       },
       {
-        "label": "Document Version",
-        "type": "candidate",
-        "id": "Document Version"
-      },
-      {
         "label": "1. Identification",
         "type": "heading",
         "id": "1. Identification"
-      },
-      {
-        "label": "Common Repository Document",
-        "type": "candidate",
-        "id": "Common Repository Document"
       },
       {
         "label": "Common",
@@ -2141,11 +2136,6 @@
         "label": "Repository",
         "type": "candidate",
         "id": "Repository"
-      },
-      {
-        "label": "ID",
-        "type": "candidate",
-        "id": "ID"
       },
       {
         "label": "Type",
@@ -2163,14 +2153,24 @@
         "id": "Identification"
       },
       {
+        "label": "Common Repository Document",
+        "type": "candidate",
+        "id": "Common Repository Document"
+      },
+      {
+        "label": "ID",
+        "type": "candidate",
+        "id": "ID"
+      },
+      {
         "label": "2. Document Overview",
         "type": "heading",
         "id": "2. Document Overview"
       },
       {
-        "label": "specifications",
+        "label": "Document Overview This",
         "type": "candidate",
-        "id": "specifications"
+        "id": "Document Overview This"
       },
       {
         "label": "repository",
@@ -2178,14 +2178,14 @@
         "id": "repository"
       },
       {
+        "label": "specifications",
+        "type": "candidate",
+        "id": "specifications"
+      },
+      {
         "label": "This",
         "type": "candidate",
         "id": "This"
-      },
-      {
-        "label": "Document Overview This",
-        "type": "candidate",
-        "id": "Document Overview This"
       },
       {
         "label": "Overview",
@@ -2198,59 +2198,9 @@
         "id": "3. Document Structure"
       },
       {
-        "label": "summary",
-        "type": "candidate",
-        "id": "summary"
-      },
-      {
-        "label": "definitions",
-        "type": "candidate",
-        "id": "definitions"
-      },
-      {
-        "label": "Common Repository",
-        "type": "candidate",
-        "id": "Common Repository"
-      },
-      {
         "label": "Applicability Specifications",
         "type": "candidate",
         "id": "Applicability Specifications"
-      },
-      {
-        "label": "Contains",
-        "type": "candidate",
-        "id": "Contains"
-      },
-      {
-        "label": "Document Structure",
-        "type": "candidate",
-        "id": "Document Structure"
-      },
-      {
-        "label": "Detailed",
-        "type": "candidate",
-        "id": "Detailed"
-      },
-      {
-        "label": "Structure",
-        "type": "candidate",
-        "id": "Structure"
-      },
-      {
-        "label": "Basic",
-        "type": "candidate",
-        "id": "Basic"
-      },
-      {
-        "label": "Specifications",
-        "type": "candidate",
-        "id": "Specifications"
-      },
-      {
-        "label": "Document Overview",
-        "type": "candidate",
-        "id": "Document Overview"
       },
       {
         "label": "Applicability",
@@ -2258,19 +2208,59 @@
         "id": "Applicability"
       },
       {
+        "label": "Detailed",
+        "type": "candidate",
+        "id": "Detailed"
+      },
+      {
+        "label": "Common Repository",
+        "type": "candidate",
+        "id": "Common Repository"
+      },
+      {
+        "label": "Specifications",
+        "type": "candidate",
+        "id": "Specifications"
+      },
+      {
+        "label": "Document Structure",
+        "type": "candidate",
+        "id": "Document Structure"
+      },
+      {
+        "label": "summary",
+        "type": "candidate",
+        "id": "summary"
+      },
+      {
+        "label": "Structure",
+        "type": "candidate",
+        "id": "Structure"
+      },
+      {
+        "label": "definitions",
+        "type": "candidate",
+        "id": "definitions"
+      },
+      {
+        "label": "Document Overview",
+        "type": "candidate",
+        "id": "Document Overview"
+      },
+      {
+        "label": "Basic",
+        "type": "candidate",
+        "id": "Basic"
+      },
+      {
+        "label": "Contains",
+        "type": "candidate",
+        "id": "Contains"
+      },
+      {
         "label": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
         "type": "heading",
         "id": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`"
-      },
-      {
-        "label": "Mountain",
-        "type": "candidate",
-        "id": "Mountain"
-      },
-      {
-        "label": "Conditions",
-        "type": "candidate",
-        "id": "Conditions"
       },
       {
         "label": "Rank",
@@ -2278,19 +2268,14 @@
         "id": "Rank"
       },
       {
-        "label": "Description",
+        "label": "Model",
         "type": "candidate",
-        "id": "Description"
+        "id": "Model"
       },
       {
-        "label": "Option",
+        "label": "Conditions",
         "type": "candidate",
-        "id": "Option"
-      },
-      {
-        "label": "Version Rank",
-        "type": "candidate",
-        "id": "Version Rank"
+        "id": "Conditions"
       },
       {
         "label": "Defines",
@@ -2298,24 +2283,39 @@
         "id": "Defines"
       },
       {
-        "label": "Brook",
-        "type": "candidate",
-        "id": "Brook"
-      },
-      {
-        "label": "Model",
-        "type": "candidate",
-        "id": "Model"
-      },
-      {
         "label": "Application",
         "type": "candidate",
         "id": "Application"
       },
       {
+        "label": "Brook",
+        "type": "candidate",
+        "id": "Brook"
+      },
+      {
+        "label": "Mountain",
+        "type": "candidate",
+        "id": "Mountain"
+      },
+      {
+        "label": "Description",
+        "type": "candidate",
+        "id": "Description"
+      },
+      {
         "label": "applicability",
         "type": "candidate",
         "id": "applicability"
+      },
+      {
+        "label": "Version Rank",
+        "type": "candidate",
+        "id": "Version Rank"
+      },
+      {
+        "label": "Option",
+        "type": "candidate",
+        "id": "Option"
       },
       {
         "label": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`",
@@ -2338,144 +2338,9 @@
         "id": "5.1 Applicability Repository"
       },
       {
-        "label": "Corrected",
-        "type": "candidate",
-        "id": "Corrected"
-      },
-      {
-        "label": "Complete",
-        "type": "candidate",
-        "id": "Complete"
-      },
-      {
-        "label": "Added Document Information",
-        "type": "candidate",
-        "id": "Added Document Information"
-      },
-      {
-        "label": "Notes",
-        "type": "candidate",
-        "id": "Notes"
-      },
-      {
-        "label": "Markdown Formatting",
-        "type": "candidate",
-        "id": "Markdown Formatting"
-      },
-      {
-        "label": "Referenced",
-        "type": "candidate",
-        "id": "Referenced"
-      },
-      {
-        "label": "Application Specification Value",
-        "type": "candidate",
-        "id": "Application Specification Value"
-      },
-      {
-        "label": "Applicability Repository",
-        "type": "candidate",
-        "id": "Applicability Repository"
-      },
-      {
-        "label": "Added",
-        "type": "candidate",
-        "id": "Added"
-      },
-      {
-        "label": "Referenced Application",
-        "type": "candidate",
-        "id": "Referenced Application"
-      },
-      {
-        "label": "Clear Structure",
-        "type": "candidate",
-        "id": "Clear Structure"
-      },
-      {
-        "label": "designed",
-        "type": "candidate",
-        "id": "designed"
-      },
-      {
-        "label": "Included",
-        "type": "candidate",
-        "id": "Included"
-      },
-      {
         "label": "Readable",
         "type": "candidate",
         "id": "Readable"
-      },
-      {
-        "label": "Formatting",
-        "type": "candidate",
-        "id": "Formatting"
-      },
-      {
-        "label": "understanding",
-        "type": "candidate",
-        "id": "understanding"
-      },
-      {
-        "label": "Removed Redundancy",
-        "type": "candidate",
-        "id": "Removed Redundancy"
-      },
-      {
-        "label": "Specification",
-        "type": "candidate",
-        "id": "Specification"
-      },
-      {
-        "label": "subheadings",
-        "type": "candidate",
-        "id": "subheadings"
-      },
-      {
-        "label": "aspects",
-        "type": "candidate",
-        "id": "aspects"
-      },
-      {
-        "label": "Corrected Terminology",
-        "type": "candidate",
-        "id": "Corrected Terminology"
-      },
-      {
-        "label": "Corrected Table Alignment",
-        "type": "candidate",
-        "id": "Corrected Table Alignment"
-      },
-      {
-        "label": "syntax",
-        "type": "candidate",
-        "id": "syntax"
-      },
-      {
-        "label": "Value",
-        "type": "candidate",
-        "id": "Value"
-      },
-      {
-        "label": "Markdown",
-        "type": "candidate",
-        "id": "Markdown"
-      },
-      {
-        "label": "Added Notes",
-        "type": "candidate",
-        "id": "Added Notes"
-      },
-      {
-        "label": "table",
-        "type": "candidate",
-        "id": "table"
-      },
-      {
-        "label": "Clear",
-        "type": "candidate",
-        "id": "Clear"
       },
       {
         "label": "section",
@@ -2483,24 +2348,34 @@
         "id": "section"
       },
       {
-        "label": "Terminology",
+        "label": "designed",
         "type": "candidate",
-        "id": "Terminology"
+        "id": "designed"
       },
       {
-        "label": "Concise Descriptions",
+        "label": "Referenced",
         "type": "candidate",
-        "id": "Concise Descriptions"
+        "id": "Referenced"
       },
       {
-        "label": "Descriptions",
+        "label": "Referenced Application",
         "type": "candidate",
-        "id": "Descriptions"
+        "id": "Referenced Application"
       },
       {
-        "label": "Removed",
+        "label": "Markdown",
         "type": "candidate",
-        "id": "Removed"
+        "id": "Markdown"
+      },
+      {
+        "label": "Markdown Formatting",
+        "type": "candidate",
+        "id": "Markdown Formatting"
+      },
+      {
+        "label": "aspects",
+        "type": "candidate",
+        "id": "aspects"
       },
       {
         "label": "Application Specification",
@@ -2508,24 +2383,14 @@
         "id": "Application Specification"
       },
       {
-        "label": "Clean",
+        "label": "table",
         "type": "candidate",
-        "id": "Clean"
+        "id": "table"
       },
       {
-        "label": "Headings",
+        "label": "Formatting",
         "type": "candidate",
-        "id": "Headings"
-      },
-      {
-        "label": "conditions",
-        "type": "candidate",
-        "id": "conditions"
-      },
-      {
-        "label": "Descriptive Headings",
-        "type": "candidate",
-        "id": "Descriptive Headings"
+        "id": "Formatting"
       },
       {
         "label": "Using",
@@ -2533,29 +2398,29 @@
         "id": "Using"
       },
       {
-        "label": "content",
-        "type": "candidate",
-        "id": "content"
-      },
-      {
         "label": "Coverage",
         "type": "candidate",
         "id": "Coverage"
       },
       {
-        "label": "XML",
+        "label": "Removed Redundancy",
         "type": "candidate",
-        "id": "XML"
+        "id": "Removed Redundancy"
       },
       {
-        "label": "Uses",
+        "label": "Descriptions",
         "type": "candidate",
-        "id": "Uses"
+        "id": "Descriptions"
       },
       {
-        "label": "Descriptive",
+        "label": "Added Notes",
         "type": "candidate",
-        "id": "Descriptive"
+        "id": "Added Notes"
+      },
+      {
+        "label": "Included",
+        "type": "candidate",
+        "id": "Included"
       },
       {
         "label": "Concise",
@@ -2563,14 +2428,19 @@
         "id": "Concise"
       },
       {
-        "label": "Complete Coverage",
+        "label": "Corrected Table Alignment",
         "type": "candidate",
-        "id": "Complete Coverage"
+        "id": "Corrected Table Alignment"
       },
       {
-        "label": "Alignment",
+        "label": "conditions",
         "type": "candidate",
-        "id": "Alignment"
+        "id": "conditions"
+      },
+      {
+        "label": "Value",
+        "type": "candidate",
+        "id": "Value"
       },
       {
         "label": "The Applicability Repository",
@@ -2578,9 +2448,9 @@
         "id": "The Applicability Repository"
       },
       {
-        "label": "Redundancy",
+        "label": "Application Specification Value",
         "type": "candidate",
-        "id": "Redundancy"
+        "id": "Application Specification Value"
       },
       {
         "label": "Table",
@@ -2588,9 +2458,139 @@
         "id": "Table"
       },
       {
+        "label": "Headings",
+        "type": "candidate",
+        "id": "Headings"
+      },
+      {
+        "label": "understanding",
+        "type": "candidate",
+        "id": "understanding"
+      },
+      {
+        "label": "subheadings",
+        "type": "candidate",
+        "id": "subheadings"
+      },
+      {
+        "label": "Redundancy",
+        "type": "candidate",
+        "id": "Redundancy"
+      },
+      {
+        "label": "Notes",
+        "type": "candidate",
+        "id": "Notes"
+      },
+      {
+        "label": "Removed",
+        "type": "candidate",
+        "id": "Removed"
+      },
+      {
+        "label": "Corrected",
+        "type": "candidate",
+        "id": "Corrected"
+      },
+      {
+        "label": "Descriptive",
+        "type": "candidate",
+        "id": "Descriptive"
+      },
+      {
+        "label": "XML",
+        "type": "candidate",
+        "id": "XML"
+      },
+      {
+        "label": "Clear",
+        "type": "candidate",
+        "id": "Clear"
+      },
+      {
+        "label": "Descriptive Headings",
+        "type": "candidate",
+        "id": "Descriptive Headings"
+      },
+      {
+        "label": "Complete",
+        "type": "candidate",
+        "id": "Complete"
+      },
+      {
+        "label": "content",
+        "type": "candidate",
+        "id": "content"
+      },
+      {
+        "label": "Terminology",
+        "type": "candidate",
+        "id": "Terminology"
+      },
+      {
+        "label": "Added",
+        "type": "candidate",
+        "id": "Added"
+      },
+      {
+        "label": "Added Document Information",
+        "type": "candidate",
+        "id": "Added Document Information"
+      },
+      {
+        "label": "Uses",
+        "type": "candidate",
+        "id": "Uses"
+      },
+      {
         "label": "Emphasis",
         "type": "candidate",
         "id": "Emphasis"
+      },
+      {
+        "label": "Specification",
+        "type": "candidate",
+        "id": "Specification"
+      },
+      {
+        "label": "Concise Descriptions",
+        "type": "candidate",
+        "id": "Concise Descriptions"
+      },
+      {
+        "label": "Clean",
+        "type": "candidate",
+        "id": "Clean"
+      },
+      {
+        "label": "Applicability Repository",
+        "type": "candidate",
+        "id": "Applicability Repository"
+      },
+      {
+        "label": "Alignment",
+        "type": "candidate",
+        "id": "Alignment"
+      },
+      {
+        "label": "syntax",
+        "type": "candidate",
+        "id": "syntax"
+      },
+      {
+        "label": "Corrected Terminology",
+        "type": "candidate",
+        "id": "Corrected Terminology"
+      },
+      {
+        "label": "Clear Structure",
+        "type": "candidate",
+        "id": "Clear Structure"
+      },
+      {
+        "label": "Complete Coverage",
+        "type": "candidate",
+        "id": "Complete Coverage"
       }
     ],
     "links": [
@@ -2648,7 +2648,7 @@
           2
         ],
         "source": "Document Information",
-        "target": "Information"
+        "target": "Creation"
       },
       {
         "weight": 1,
@@ -2664,7 +2664,7 @@
           2
         ],
         "source": "Document Information",
-        "target": "Date"
+        "target": "Information"
       },
       {
         "weight": 1,
@@ -2680,7 +2680,15 @@
           2
         ],
         "source": "Document Information",
-        "target": "Creation"
+        "target": "Date"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "Document Information",
+        "target": "Version"
       },
       {
         "weight": 1,
@@ -2696,7 +2704,7 @@
           2
         ],
         "source": "Document Information",
-        "target": "Version"
+        "target": "Document Version"
       },
       {
         "weight": 1,
@@ -2713,14 +2721,6 @@
         ],
         "source": "Document Information",
         "target": "Document Creation"
-      },
-      {
-        "weight": 1,
-        "units": [
-          2
-        ],
-        "source": "Document Information",
-        "target": "Document Version"
       },
       {
         "weight": 1,
@@ -2768,14 +2768,6 @@
           3
         ],
         "source": "1. Identification",
-        "target": "Common Repository Document"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "1. Identification",
         "target": "Common"
       },
       {
@@ -2785,14 +2777,6 @@
         ],
         "source": "1. Identification",
         "target": "Repository"
-      },
-      {
-        "weight": 1,
-        "units": [
-          3
-        ],
-        "source": "1. Identification",
-        "target": "ID"
       },
       {
         "weight": 1,
@@ -2821,6 +2805,22 @@
       {
         "weight": 1,
         "units": [
+          3
+        ],
+        "source": "1. Identification",
+        "target": "Common Repository Document"
+      },
+      {
+        "weight": 1,
+        "units": [
+          3
+        ],
+        "source": "1. Identification",
+        "target": "ID"
+      },
+      {
+        "weight": 1,
+        "units": [
           5
         ],
         "source": "Common",
@@ -2840,14 +2840,6 @@
           10
         ],
         "source": "Repository",
-        "target": "5.1 Applicability Repository"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "ID",
         "target": "5.1 Applicability Repository"
       },
       {
@@ -2893,10 +2885,18 @@
       {
         "weight": 1,
         "units": [
+          10
+        ],
+        "source": "ID",
+        "target": "5.1 Applicability Repository"
+      },
+      {
+        "weight": 1,
+        "units": [
           4
         ],
         "source": "2. Document Overview",
-        "target": "specifications"
+        "target": "Document Overview This"
       },
       {
         "weight": 1,
@@ -2912,7 +2912,7 @@
           4
         ],
         "source": "2. Document Overview",
-        "target": "This"
+        "target": "specifications"
       },
       {
         "weight": 1,
@@ -2920,7 +2920,7 @@
           4
         ],
         "source": "2. Document Overview",
-        "target": "Document Overview This"
+        "target": "This"
       },
       {
         "weight": 1,
@@ -2952,30 +2952,6 @@
           5
         ],
         "source": "3. Document Structure",
-        "target": "summary"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "3. Document Structure",
-        "target": "definitions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "3. Document Structure",
-        "target": "Common Repository"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "3. Document Structure",
         "target": "Applicability Specifications"
       },
       {
@@ -2984,15 +2960,7 @@
           5
         ],
         "source": "3. Document Structure",
-        "target": "Contains"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "3. Document Structure",
-        "target": "Document Structure"
+        "target": "Applicability"
       },
       {
         "weight": 1,
@@ -3008,15 +2976,7 @@
           5
         ],
         "source": "3. Document Structure",
-        "target": "Structure"
-      },
-      {
-        "weight": 1,
-        "units": [
-          5
-        ],
-        "source": "3. Document Structure",
-        "target": "Basic"
+        "target": "Common Repository"
       },
       {
         "weight": 1,
@@ -3032,6 +2992,38 @@
           5
         ],
         "source": "3. Document Structure",
+        "target": "Document Structure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3. Document Structure",
+        "target": "summary"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3. Document Structure",
+        "target": "Structure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3. Document Structure",
+        "target": "definitions"
+      },
+      {
+        "weight": 1,
+        "units": [
+          5
+        ],
+        "source": "3. Document Structure",
         "target": "Document Overview"
       },
       {
@@ -3040,15 +3032,15 @@
           5
         ],
         "source": "3. Document Structure",
-        "target": "Applicability"
+        "target": "Basic"
       },
       {
         "weight": 1,
         "units": [
-          10
+          5
         ],
-        "source": "Structure",
-        "target": "5.1 Applicability Repository"
+        "source": "3. Document Structure",
+        "target": "Contains"
       },
       {
         "weight": 1,
@@ -3061,18 +3053,10 @@
       {
         "weight": 1,
         "units": [
-          6
+          10
         ],
-        "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-        "target": "Mountain"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-        "target": "Conditions"
+        "source": "Structure",
+        "target": "5.1 Applicability Repository"
       },
       {
         "weight": 1,
@@ -3088,7 +3072,7 @@
           6
         ],
         "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-        "target": "Description"
+        "target": "Model"
       },
       {
         "weight": 1,
@@ -3096,15 +3080,7 @@
           6
         ],
         "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-        "target": "Option"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-        "target": "Version Rank"
+        "target": "Conditions"
       },
       {
         "weight": 1,
@@ -3120,6 +3096,14 @@
           6
         ],
         "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
+        "target": "Application"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
         "target": "Brook"
       },
       {
@@ -3128,7 +3112,7 @@
           6
         ],
         "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-        "target": "Model"
+        "target": "Mountain"
       },
       {
         "weight": 1,
@@ -3136,7 +3120,7 @@
           6
         ],
         "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
-        "target": "Application"
+        "target": "Description"
       },
       {
         "weight": 1,
@@ -3149,9 +3133,25 @@
       {
         "weight": 1,
         "units": [
+          6
+        ],
+        "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
+        "target": "Version Rank"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`",
+        "target": "Option"
+      },
+      {
+        "weight": 1,
+        "units": [
           7
         ],
-        "source": "Mountain",
+        "source": "Model",
         "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
       },
       {
@@ -3159,7 +3159,7 @@
         "units": [
           8
         ],
-        "source": "Mountain",
+        "source": "Model",
         "target": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`"
       },
       {
@@ -3167,7 +3167,7 @@
         "units": [
           9
         ],
-        "source": "Mountain",
+        "source": "Model",
         "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
       },
       {
@@ -3207,6 +3207,102 @@
         "units": [
           7
         ],
+        "source": "Defines",
+        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Defines",
+        "target": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Defines",
+        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Application",
+        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Application",
+        "target": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Application",
+        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "Application",
+        "target": "5.1 Applicability Repository"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Brook",
+        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Brook",
+        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Mountain",
+        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Mountain",
+        "target": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "Mountain",
+        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
         "source": "Description",
         "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
       },
@@ -3224,6 +3320,30 @@
           9
         ],
         "source": "Description",
+        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "applicability",
+        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "applicability",
+        "target": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`"
+      },
+      {
+        "weight": 1,
+        "units": [
+          9
+        ],
+        "source": "applicability",
         "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
       },
       {
@@ -3233,230 +3353,6 @@
         ],
         "source": "Option",
         "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Defines",
-        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Defines",
-        "target": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Defines",
-        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Brook",
-        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Brook",
-        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Model",
-        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Model",
-        "target": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Model",
-        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "Application",
-        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Application",
-        "target": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "Application",
-        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "Application",
-        "target": "5.1 Applicability Repository"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "applicability",
-        "target": "4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "applicability",
-        "target": "4.1.3  Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          9
-        ],
-        "source": "applicability",
-        "target": "4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Corrected"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Complete"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Added Document Information"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Notes"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Markdown Formatting"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Referenced"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Application Specification Value"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Applicability Repository"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Added"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Referenced Application"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Clear Structure"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "designed"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Included"
       },
       {
         "weight": 1,
@@ -3472,7 +3368,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Formatting"
+        "target": "section"
       },
       {
         "weight": 1,
@@ -3480,7 +3376,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "understanding"
+        "target": "designed"
       },
       {
         "weight": 1,
@@ -3488,7 +3384,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Removed Redundancy"
+        "target": "Referenced"
       },
       {
         "weight": 1,
@@ -3496,55 +3392,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Specification"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "subheadings"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "aspects"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Corrected Terminology"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Corrected Table Alignment"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "syntax"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Value"
+        "target": "Referenced Application"
       },
       {
         "weight": 1,
@@ -3560,7 +3408,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Added Notes"
+        "target": "Markdown Formatting"
       },
       {
         "weight": 1,
@@ -3568,55 +3416,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "table"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Clear"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "section"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Terminology"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Concise Descriptions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Descriptions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Removed"
+        "target": "aspects"
       },
       {
         "weight": 1,
@@ -3632,7 +3432,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Clean"
+        "target": "table"
       },
       {
         "weight": 1,
@@ -3640,23 +3440,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Headings"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "conditions"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
-        "target": "Descriptive Headings"
+        "target": "Formatting"
       },
       {
         "weight": 1,
@@ -3672,14 +3456,6 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "content"
-      },
-      {
-        "weight": 1,
-        "units": [
-          10
-        ],
-        "source": "5.1 Applicability Repository",
         "target": "Coverage"
       },
       {
@@ -3688,7 +3464,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "XML"
+        "target": "Removed Redundancy"
       },
       {
         "weight": 1,
@@ -3696,7 +3472,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Uses"
+        "target": "Descriptions"
       },
       {
         "weight": 1,
@@ -3704,7 +3480,15 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Descriptive"
+        "target": "Added Notes"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Included"
       },
       {
         "weight": 1,
@@ -3720,7 +3504,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Complete Coverage"
+        "target": "Corrected Table Alignment"
       },
       {
         "weight": 1,
@@ -3728,7 +3512,15 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Alignment"
+        "target": "conditions"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Value"
       },
       {
         "weight": 1,
@@ -3744,7 +3536,7 @@
           10
         ],
         "source": "5.1 Applicability Repository",
-        "target": "Redundancy"
+        "target": "Application Specification Value"
       },
       {
         "weight": 1,
@@ -3760,7 +3552,215 @@
           10
         ],
         "source": "5.1 Applicability Repository",
+        "target": "Headings"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "understanding"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "subheadings"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Redundancy"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Notes"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Removed"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Corrected"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Descriptive"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "XML"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Clear"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Descriptive Headings"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Complete"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "content"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Terminology"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Added"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Added Document Information"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Uses"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
         "target": "Emphasis"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Specification"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Concise Descriptions"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Clean"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Applicability Repository"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Alignment"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "syntax"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Corrected Terminology"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Clear Structure"
+      },
+      {
+        "weight": 1,
+        "units": [
+          10
+        ],
+        "source": "5.1 Applicability Repository",
+        "target": "Complete Coverage"
       }
     ]
   }
