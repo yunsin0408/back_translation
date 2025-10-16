@@ -20,8 +20,25 @@
       ]
     },
     {
+      "id": "List",
+      "label": "List",
+      "type": "candidate",
+      "source_units": [
+        2,
+        3
+      ]
+    },
+    {
       "id": "Delivery List This",
       "label": "Delivery List This",
+      "type": "candidate",
+      "source_units": [
+        2
+      ]
+    },
+    {
+      "id": "This",
+      "label": "This",
       "type": "candidate",
       "source_units": [
         2
@@ -37,28 +54,11 @@
       ]
     },
     {
-      "id": "This",
-      "label": "This",
-      "type": "candidate",
-      "source_units": [
-        2
-      ]
-    },
-    {
       "id": "content",
       "label": "content",
       "type": "candidate",
       "source_units": [
         2
-      ]
-    },
-    {
-      "id": "List",
-      "label": "List",
-      "type": "candidate",
-      "source_units": [
-        2,
-        3
       ]
     },
     {
@@ -97,7 +97,24 @@
     },
     {
       "source": "Delivery List",
+      "target": "List",
+      "weight": 2,
+      "units": [
+        2,
+        3
+      ]
+    },
+    {
+      "source": "Delivery List",
       "target": "Delivery List This",
+      "weight": 1,
+      "units": [
+        2
+      ]
+    },
+    {
+      "source": "Delivery List",
+      "target": "This",
       "weight": 1,
       "units": [
         2
@@ -114,27 +131,10 @@
     },
     {
       "source": "Delivery List",
-      "target": "This",
-      "weight": 1,
-      "units": [
-        2
-      ]
-    },
-    {
-      "source": "Delivery List",
       "target": "content",
       "weight": 1,
       "units": [
         2
-      ]
-    },
-    {
-      "source": "Delivery List",
-      "target": "List",
-      "weight": 2,
-      "units": [
-        2,
-        3
       ]
     },
     {
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "source": "Delivery List",
+      "source": "CGM",
       "target": "Delivery List",
       "weight": 1,
       "units": [
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "source": "CGM",
+      "source": "Delivery List",
       "target": "Delivery List",
       "weight": 1,
       "units": [
@@ -186,14 +186,14 @@
         "id": "Delivery List"
       },
       {
+        "label": "List",
+        "type": "candidate",
+        "id": "List"
+      },
+      {
         "label": "Delivery List This",
         "type": "candidate",
         "id": "Delivery List This"
-      },
-      {
-        "label": "Delivery",
-        "type": "candidate",
-        "id": "Delivery"
       },
       {
         "label": "This",
@@ -201,14 +201,14 @@
         "id": "This"
       },
       {
+        "label": "Delivery",
+        "type": "candidate",
+        "id": "Delivery"
+      },
+      {
         "label": "content",
         "type": "candidate",
         "id": "content"
-      },
-      {
-        "label": "List",
-        "type": "candidate",
-        "id": "List"
       },
       {
         "label": "PNG",
@@ -236,12 +236,29 @@
         "target": "Document"
       },
       {
+        "weight": 2,
+        "units": [
+          2,
+          3
+        ],
+        "source": "Delivery List",
+        "target": "List"
+      },
+      {
         "weight": 1,
         "units": [
           2
         ],
         "source": "Delivery List",
         "target": "Delivery List This"
+      },
+      {
+        "weight": 1,
+        "units": [
+          2
+        ],
+        "source": "Delivery List",
+        "target": "This"
       },
       {
         "weight": 2,
@@ -258,24 +275,7 @@
           2
         ],
         "source": "Delivery List",
-        "target": "This"
-      },
-      {
-        "weight": 1,
-        "units": [
-          2
-        ],
-        "source": "Delivery List",
         "target": "content"
-      },
-      {
-        "weight": 2,
-        "units": [
-          2,
-          3
-        ],
-        "source": "Delivery List",
-        "target": "List"
       },
       {
         "weight": 1,
@@ -299,7 +299,7 @@
           3
         ],
         "source": "Delivery List",
-        "target": "Delivery List"
+        "target": "CGM"
       },
       {
         "weight": 1,
@@ -307,7 +307,7 @@
           3
         ],
         "source": "Delivery List",
-        "target": "CGM"
+        "target": "Delivery List"
       }
     ]
   }

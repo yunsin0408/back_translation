@@ -23,7 +23,7 @@ Guidelines for conversion:
 2. Use appropriate markdown headers (# ## ###) to represent the XML hierarchy
 3. Convert XML elements to markdown sections with proper nesting
 4. Preserve all attributes as key-value pairs in a readable format
-5. Maintain all text content from the XML
+5. Maintain all text content(including metadata, codes, and identifiers) from the XML
 6. Use code blocks, lists, or tables where appropriate for better readability
 7. Make the markdown human-readable and well-organized
 8. Please ensure that the XML references the same schema as the original XML file
@@ -89,7 +89,7 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
             raise Exception(f"LLM API call failed: {str(e)}")
     
     def process_xml_to_markdown(self, xml_content: str, filename: str) -> str:
-        system_context = "You are an expert at converting XML documents to well-structured, readable markdown format. Always create clean, organized markdown."
+        system_context = "You are an expert at converting XML documents to well-structured, readable markdown format. Your goal is a lossless Markdown version of the XML, where every piece of text from the original file remains present."
         user_prompt = self.xml_to_markdown_prompt(xml_content, filename)
         
         full_prompt = f"{system_context}\n\n{user_prompt}"

@@ -1,8 +1,5 @@
-file,is_valid,message
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00LA-D_001-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA3-10-00-00AA-411A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/UPF-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_003-00_en-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-413A-A_010-00_EN-US_1_kg_generated.XML,False,"Errors found:
+file,is_valid,message,,,,12/118 files have errors,83 errors total
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-413A-A_010-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 60, Column 24: Specification mandates value for attribute list
 Error 2: Line 60, Column 24: attributes construct error
 Error 3: Line 60, Column 24: Couldn't find end of Start Tag random line 60
@@ -10,46 +7,21 @@ Error 4: Line 166, Column 21: Opening and ending tag mismatch: safetyRqmts line 
 Error 5: Line 167, Column 33: Opening and ending tag mismatch: reqSafety line 164 and preliminaryRequirements
 Error 6: Line 198, Column 22: Opening and ending tag mismatch: preliminaryRequirements line 151 and faultReporting
 Error 7: Line 199, Column 13: Opening and ending tag mismatch: faultReporting line 150 and content
-Error 8: Line 200, Column 6: Opening and ending tag mismatch: content line 73 and dm"
-/Users/rb521/back_translation/kg_xml2/DME-SF518-CE0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A1A-D_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-10-00-00AA-041A-T-T62E_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A_011-00_EN-US_1_kg_generated.XML,False,"Errors found:
+Error 8: Line 200, Column 6: Opening and ending tag mismatch: content line 73 and dm",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-10-00-00AA-520A-A_011-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 123, Column 89: Opening and ending tag mismatch: dmRef line 123 and proceduralStep
 Error 2: Line 133, Column 25: Opening and ending tag mismatch: proceduralStep line 123 and mainProcedure
 Error 3: Line 137, Column 24: Opening and ending tag mismatch: mainProcedure line 122 and procedureSteps
 Error 4: Line 138, Column 15: Opening and ending tag mismatch: procedureSteps line 88 and content
-Error 5: Line 140, Column 13: Opening and ending tag mismatch: content line 10 and procedure"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-001A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-93AA-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-20-00-00AA-520A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00FA-D_001-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA5-30-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-01AA-941A-D_010-00_EN-US_1_kg_generated.XML,False,"Errors found:
-Error 1: Line 1, Column 1: Start tag expected, '<' not found"
-/Users/rb521/back_translation/kg_xml2/DDN-S1000DBIKE-B6865-B6865-2024-00001_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D05-40-00-00AA-000A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-T-T61E_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/PMC-S1000DBIKE-B6865-EPWG1-00_005-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-362B-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A7A-D_001-00_EN-US_1_kg_generated.XML,False,"Errors found:
+Error 5: Line 140, Column 13: Opening and ending tag mismatch: content line 10 and procedure",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-01AA-941A-D_010-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
+Error 1: Line 1, Column 1: Start tag expected, '<' not found",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A7A-D_001-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 405, Column 21: Opening and ending tag mismatch: terminologyRepository line 131 and terminology
 Error 2: Line 406, Column 15: Opening and ending tag mismatch: commonRepository line 130 and content
 Error 3: Line 407, Column 10: Opening and ending tag mismatch: content line 129 and data
-Error 4: Line 408, Column 7: Opening and ending tag mismatch: dataModule line 2 and dmx"
-/Users/rb521/back_translation/kg_xml2/DMC-BRAKE-AAA-DA1-00-00-00AA-341A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-40-00-00AA-720A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA4-10-00-00AA-251B-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-20-00-00AA-720A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA5-10-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/PMC-S1000DLIGHTING-B6865-EPWG1-00_005-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AB-720A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-01AA-0A4A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D05-10-00-00AA-000A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00MA-D_001-00_EN-US_1_kg_generated.XML,False,"Errors found:
+Error 4: Line 408, Column 7: Opening and ending tag mismatch: dataModule line 2 and dmx",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00MA-D_001-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 125, Column 32: Opening and ending tag mismatch: supplySetGroup line 107 and supplyRqmtAlts
 Error 2: Line 155, Column 28: Opening and ending tag mismatch: supplySetGroup line 141 and supplyRqmt
 Error 3: Line 156, Column 30: Opening and ending tag mismatch: supplyRqmt line 135 and supplyRqmtAlts
@@ -60,73 +32,26 @@ Error 7: Line 187, Column 28: Opening and ending tag mismatch: supplyRqmtAlts li
 Error 8: Line 188, Column 32: Opening and ending tag mismatch: supplyRqmtSpec line 158 and supplyRqmtRepository
 Error 9: Line 189, Column 26: Opening and ending tag mismatch: supplyRqmtSpec line 129 and commonRepository
 Error 10: Line 190, Column 15: Opening and ending tag mismatch: supplyRqmtRepository line 90 and content
-Error 11: Line 191, Column 8: Opening and ending tag mismatch: commonRepository line 89 and dm"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-720A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-330A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-520A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-031A-A_001-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00JA-D_001-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-01AA-941A-D_010-00_EN-US_1_kg_generated.XML,False,"Errors found:
+Error 11: Line 191, Column 8: Opening and ending tag mismatch: commonRepository line 89 and dm",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-01AA-941A-D_010-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 4, Column 89: Opening and ending tag mismatch: dmc_doc_id line 4 and dmc_doc_id
 Error 2: Line 5, Column 33: Opening and ending tag mismatch: dmc_issue line 5 and dmc_issue
 Error 3: Line 6, Column 40: Opening and ending tag mismatch: dmc_date line 6 and date
 Error 4: Line 7, Column 35: Opening and ending tag mismatch: dmc_lang line 7 and lang
 Error 5: Line 9, Column 63: Opening and ending tag mismatch: dmc_title line 9 and title
 Error 6: Line 12, Column 54: Opening and ending tag mismatch: dmc_title line 12 and title
-Error 7: Line 16, Column 51: Opening and ending tag mismatch: dmc_title line 16 and title"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-930A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/PMC-S1000DBIKE-B6865-LOAP0-00_005-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-029A-D_001-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA4-10-00-00AA-414A-A_008-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA5-00-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D05-20-00-00AA-000A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-258B-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-040A-A_010-00_EN-US_1_kg_generated.XML,False,"Errors found:
+Error 7: Line 16, Column 51: Opening and ending tag mismatch: dmc_title line 16 and title",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-040A-A_010-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 243, Column 41: Opening and ending tag mismatch: content line 236 and paragraph
-Error 2: Line 246, Column 35: Opening and ending tag mismatch: content line 232 and paragraph"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-30-00-00AA-720A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DME-SF518-MT0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-02AA-0A5A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-058A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-520A-T-T4JC_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00KA-D_001-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-00-00-00AA-341A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA4-00-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA3-00-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-056A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000D-H-04-10-0301-00A-022A-D_001-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00PA-D_008-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-10-00AA-921A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-341A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-043A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D05-80-00-00AA-916A-A_003-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-20-00-00AA-412A-A_010-00_EN-US_1_kg_generated.XML,False,"Errors found:
-Error 1: Line 132, Column 64: Opening and ending tag mismatch: applicPropertyIdent line 132 and applicPropertyType"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1_regenerated_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-20-00-00AA-520A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-021A-D_001-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DML-S1000DBIKE-B6865-S-2024-00001_001-00_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-520A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-200A-T-T36D_004-00_EN-US_1_kg_generated.XML,False,"Errors found:
+Error 2: Line 246, Column 35: Opening and ending tag mismatch: content line 232 and paragraph",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-20-00-00AA-412A-A_010-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
+Error 1: Line 132, Column 64: Opening and ending tag mismatch: applicPropertyIdent line 132 and applicPropertyType",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-200A-T-T36D_004-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 102, Column 17: Opening and ending tag mismatch: dmStatus line 35 and dmAddress
-Error 2: Line 124, Column 8: Opening and ending tag mismatch: dmIdent line 4 and dm"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-00-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/PMC-BRAKE-B6865-EPWG1-00_005-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-BRAKE-AAA-DA1-10-00-00AA-251A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-151A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00WA-D_009-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-952A-T-H31A_005-00_EN-US_1_kg_generated.XML,False,"Errors found:
-Error 1: Line 67, Column 16: EntityRef: expecting ';'"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-933A-A_004-00_EN-US_1_kg_generated.XML,False,"Errors found:
+Error 2: Line 124, Column 8: Opening and ending tag mismatch: dmIdent line 4 and dm",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-952A-T-H31A_005-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
+Error 1: Line 67, Column 16: EntityRef: expecting ';'",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-933A-A_004-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 30, Column 111: Namespace prefix dmref on S1000BIKE-DA0-3-0-00-00-AA-520 is not defined
 Error 2: Line 30, Column 162: Opening and ending tag mismatch: S1000BIKE-DA0-3-0-00-00-AA-520 line 30 and item
 Error 3: Line 31, Column 112: Namespace prefix dmref on S1000BIKE-DA1-2-0-00-00-AA-520 is not defined
@@ -160,46 +85,121 @@ Error 30: Line 63, Column 16: Opening and ending tag mismatch: item line 62 and 
 Error 31: Line 64, Column 20: Opening and ending tag mismatch: item line 61 and subsection
 Error 32: Line 65, Column 15: Opening and ending tag mismatch: list line 60 and section
 Error 33: Line 70, Column 13: Opening and ending tag mismatch: subsection line 58 and content
-Error 34: Line 71, Column 13: Opening and ending tag mismatch: list line 53 and procedure"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A2A-D_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-320A-A_002-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-002A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_kg_generated.XML,False,"Errors found:
-Error 1: Line 1, Column 1: Start tag expected, '<' not found"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-009A-A_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/IMF-C0419-S1000D0360-001-01_002-00_1_1_regenerated_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-BRAKE-AAA-D00-00-00-00AA-00WA-D_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00HA-D_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00XA-A_005-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-042A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00QA-D_008-00_EN-US_1_kg_generated.XML,False,"Errors found:
+Error 34: Line 71, Column 13: Opening and ending tag mismatch: list line 53 and procedure",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
+Error 1: Line 1, Column 1: Start tag expected, '<' not found",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00QA-D_008-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 122, Column 57: Opening and ending tag mismatch: DisassyCode line 122 and DisassyVariantCode
-Error 2: Line 153, Column 57: Opening and ending tag mismatch: DisassyCode line 153 and DisassyVariantCode"
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-130A-A_006-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-663A-A_012-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-341A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/IMF-C0419-S1000D0360-001-01_002-00_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-041A-A_012-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-10-00-00AA-251A-A_010-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00NA-D_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-0A3A-D_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-024A-D_003-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_011-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00EA-D_004-00_EN-US_1_kg_generated.XML,True,Valid XML
-/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_kg_generated.XML,False,"Errors found:
-Error 1: Line 1, Column 1: Start tag expected, '<' not found"
-/Users/rb521/back_translation/kg_xml2/DMC-BRAKE-AAA-DA1-00-00-00AA-041A-A_004-00_EN-US_1_kg_generated.XML,False,"Errors found:
+Error 2: Line 153, Column 57: Opening and ending tag mismatch: DisassyCode line 153 and DisassyVariantCode",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
+Error 1: Line 1, Column 1: Start tag expected, '<' not found",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-BRAKE-AAA-DA1-00-00-00AA-041A-A_004-00_EN-US_1_kg_generated.XML,FALSE,"Errors found:
 Error 1: Line 85, Column 153: attributes construct error
 Error 2: Line 85, Column 153: Couldn't find end of Start Tag para line 85
 Error 3: Line 85, Column 312: Opening and ending tag mismatch: levelledPara line 82 and para
 Error 4: Line 86, Column 22: Opening and ending tag mismatch: description line 81 and levelledPara
 Error 5: Line 120, Column 19: Opening and ending tag mismatch: content line 80 and description
-Error 6: Line 121, Column 13: Opening and ending tag mismatch: dmc line 2 and content"
+Error 6: Line 121, Column 13: Opening and ending tag mismatch: dmc line 2 and content",,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00LA-D_001-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA3-10-00-00AA-411A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/UPF-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_003-00_en-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DME-SF518-CE0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A1A-D_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-10-00-00AA-041A-T-T62E_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-001A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-93AA-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-20-00-00AA-520A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00FA-D_001-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA5-30-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DDN-S1000DBIKE-B6865-B6865-2024-00001_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D05-40-00-00AA-000A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-T-T61E_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/PMC-S1000DBIKE-B6865-EPWG1-00_005-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-362B-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-BRAKE-AAA-DA1-00-00-00AA-341A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA5-20-00-00AA-251C-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-40-00-00AA-720A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA4-10-00-00AA-251B-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-20-00-00AA-720A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA5-10-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/PMC-S1000DLIGHTING-B6865-EPWG1-00_005-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AB-720A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-01AA-0A4A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA3-10-00-00AA-921A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D05-10-00-00AA-000A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-720A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-330A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-520A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-031A-A_001-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00JA-D_001-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-930A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/PMC-S1000DBIKE-B6865-LOAP0-00_005-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-029A-D_001-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA4-10-00-00AA-414A-A_008-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA5-00-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D05-20-00-00AA-000A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-121A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-258B-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-30-00-00AA-720A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-20-00-00AA-520A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DME-SF518-MT0701-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-02AA-0A5A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-058A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-520A-T-T4JC_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00KA-D_001-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-00-00-00AA-341A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA4-00-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-400A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA3-00-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-022A-D_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-056A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000D-H-04-10-0301-00A-022A-D_001-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00PA-D_008-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-10-00AA-921A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-20-00-00AA-720A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-341A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-043A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D05-80-00-00AA-916A-A_003-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1_regenerated_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-20-00-00AA-520A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-021A-D_001-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DML-S1000DBIKE-B6865-S-2024-00001_001-00_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-01-00AA-520A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-029A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-00-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/PMC-BRAKE-B6865-EPWG1-00_005-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-BRAKE-AAA-DA1-10-00-00AA-251A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-151A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00WA-D_009-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-720A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A2A-D_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-320A-A_002-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-002A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-009A-A_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/IMF-C0419-S1000D0360-001-01_002-00_1_1_regenerated_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-BRAKE-AAA-D00-00-00-00AA-00WA-D_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-00-00-00AA-041A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00HA-D_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-00XA-A_005-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-042A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-10-00-00AA-720A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-130A-A_006-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-663A-A_012-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-341A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/IMF-C0419-S1000D0360-001-01_002-00_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA2-30-00-00AA-041A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-041A-A_012-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA1-10-00-00AA-251A-A_010-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00NA-D_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-0A3A-D_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-258A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-D00-00-00-00AA-024A-D_003-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DBIKE-AAA-DA0-00-00-00AA-041A-A_011-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,
+/Users/rb521/back_translation/kg_xml2/DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-00EA-D_004-00_EN-US_1_kg_generated.XML,TRUE,Valid XML,,,,,

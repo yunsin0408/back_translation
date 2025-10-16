@@ -9,6 +9,16 @@
       "id": "DM Ident"
     },
     {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
       "label": "US",
       "type": "candidate",
       "id": "US"
@@ -17,16 +27,6 @@
       "label": "AA",
       "type": "candidate",
       "id": "AA"
-    },
-    {
-      "label": "Ident",
-      "type": "candidate",
-      "id": "Ident"
-    },
-    {
-      "label": "AAA",
-      "type": "candidate",
-      "id": "AAA"
     },
     {
       "label": "DM",
@@ -39,9 +39,9 @@
       "id": "DM Address Items"
     },
     {
-      "label": "Applicability",
+      "label": "Mountain",
       "type": "candidate",
-      "id": "Applicability"
+      "id": "Mountain"
     },
     {
       "label": "Address Items",
@@ -49,9 +49,9 @@
       "id": "Address Items"
     },
     {
-      "label": "Mountain",
+      "label": "Address",
       "type": "candidate",
-      "id": "Mountain"
+      "id": "Address"
     },
     {
       "label": "Items",
@@ -59,9 +59,9 @@
       "id": "Items"
     },
     {
-      "label": "Address",
+      "label": "Applicability",
       "type": "candidate",
-      "id": "Address"
+      "id": "Applicability"
     },
     {
       "label": "DM Status",
@@ -84,14 +84,24 @@
       "id": "Restriction Instructions"
     },
     {
-      "label": "discretion",
+      "label": "Storage",
       "type": "candidate",
-      "id": "discretion"
+      "id": "Storage"
+    },
+    {
+      "label": "Instructions",
+      "type": "candidate",
+      "id": "Instructions"
     },
     {
       "label": "Users",
       "type": "candidate",
       "id": "Users"
+    },
+    {
+      "label": "residence",
+      "type": "candidate",
+      "id": "residence"
     },
     {
       "label": "Export",
@@ -104,29 +114,19 @@
       "id": "There"
     },
     {
+      "label": "users",
+      "type": "candidate",
+      "id": "users"
+    },
+    {
       "label": "instructions",
       "type": "candidate",
       "id": "instructions"
     },
     {
-      "label": "Storage",
+      "label": "discretion",
       "type": "candidate",
-      "id": "Storage"
-    },
-    {
-      "label": "residence",
-      "type": "candidate",
-      "id": "residence"
-    },
-    {
-      "label": "Instructions",
-      "type": "candidate",
-      "id": "Instructions"
-    },
-    {
-      "label": "users",
-      "type": "candidate",
-      "id": "users"
+      "id": "discretion"
     },
     {
       "label": "Restriction",
@@ -139,34 +139,9 @@
       "id": "Restriction Info"
     },
     {
-      "label": "TOR",
+      "label": "Program",
       "type": "candidate",
-      "id": "TOR"
-    },
-    {
-      "label": "Publishers",
-      "type": "candidate",
-      "id": "Publishers"
-    },
-    {
-      "label": "classification",
-      "type": "candidate",
-      "id": "classification"
-    },
-    {
-      "label": "Defence",
-      "type": "candidate",
-      "id": "Defence"
-    },
-    {
-      "label": "Industries",
-      "type": "candidate",
-      "id": "Industries"
-    },
-    {
-      "label": "Business",
-      "type": "candidate",
-      "id": "Business"
+      "id": "Program"
     },
     {
       "label": "ATA",
@@ -174,54 +149,14 @@
       "id": "ATA"
     },
     {
-      "label": "Committee",
-      "type": "candidate",
-      "id": "Committee"
-    },
-    {
-      "label": "Defence Industries Association",
-      "type": "candidate",
-      "id": "Defence Industries Association"
-    },
-    {
-      "label": "responsible",
-      "type": "candidate",
-      "id": "responsible"
-    },
-    {
-      "label": "Business Program",
-      "type": "candidate",
-      "id": "Business Program"
-    },
-    {
-      "label": "Association",
-      "type": "candidate",
-      "id": "Association"
-    },
-    {
-      "label": "Europe",
-      "type": "candidate",
-      "id": "Europe"
-    },
-    {
-      "label": "Program",
-      "type": "candidate",
-      "id": "Program"
-    },
-    {
-      "label": "Copyright",
-      "type": "candidate",
-      "id": "Copyright"
-    },
-    {
       "label": "Revisions",
       "type": "candidate",
       "id": "Revisions"
     },
     {
-      "label": "ASD",
+      "label": "Committee",
       "type": "candidate",
-      "id": "ASD"
+      "id": "Committee"
     },
     {
       "label": "liable",
@@ -229,14 +164,24 @@
       "id": "liable"
     },
     {
-      "label": "fitness",
+      "label": "Publishers",
       "type": "candidate",
-      "id": "fitness"
+      "id": "Publishers"
     },
     {
-      "label": "restrictions",
+      "label": "America",
       "type": "candidate",
-      "id": "restrictions"
+      "id": "America"
+    },
+    {
+      "label": "Association",
+      "type": "candidate",
+      "id": "Association"
+    },
+    {
+      "label": "details",
+      "type": "candidate",
+      "id": "details"
     },
     {
       "label": "Info",
@@ -244,9 +189,9 @@
       "id": "Info"
     },
     {
-      "label": "Aerospace",
+      "label": "Business",
       "type": "candidate",
-      "id": "Aerospace"
+      "id": "Business"
     },
     {
       "label": "Limitations",
@@ -254,14 +199,44 @@
       "id": "Limitations"
     },
     {
-      "label": "maintenance",
+      "label": "ASD",
       "type": "candidate",
-      "id": "maintenance"
+      "id": "ASD"
     },
     {
-      "label": "Neither",
+      "label": "Europe",
       "type": "candidate",
-      "id": "Neither"
+      "id": "Europe"
+    },
+    {
+      "label": "Defence",
+      "type": "candidate",
+      "id": "Defence"
+    },
+    {
+      "label": "Steering Committee",
+      "type": "candidate",
+      "id": "Steering Committee"
+    },
+    {
+      "label": "warranties",
+      "type": "candidate",
+      "id": "warranties"
+    },
+    {
+      "label": "TOR",
+      "type": "candidate",
+      "id": "TOR"
+    },
+    {
+      "label": "fitness",
+      "type": "candidate",
+      "id": "fitness"
+    },
+    {
+      "label": "Business Program",
+      "type": "candidate",
+      "id": "Business Program"
     },
     {
       "label": "Steering",
@@ -269,9 +244,34 @@
       "id": "Steering"
     },
     {
-      "label": "Aerospace Industries Association",
+      "label": "This",
       "type": "candidate",
-      "id": "Aerospace Industries Association"
+      "id": "This"
+    },
+    {
+      "label": "responsible",
+      "type": "candidate",
+      "id": "responsible"
+    },
+    {
+      "label": "Copyright",
+      "type": "candidate",
+      "id": "Copyright"
+    },
+    {
+      "label": "Defence Industries Association",
+      "type": "candidate",
+      "id": "Defence Industries Association"
+    },
+    {
+      "label": "Specification",
+      "type": "candidate",
+      "id": "Specification"
+    },
+    {
+      "label": "maintenance",
+      "type": "candidate",
+      "id": "maintenance"
     },
     {
       "label": "use",
@@ -284,34 +284,34 @@
       "id": "SC"
     },
     {
-      "label": "America",
+      "label": "classification",
       "type": "candidate",
-      "id": "America"
+      "id": "classification"
     },
     {
-      "label": "Specification",
+      "label": "Aerospace",
       "type": "candidate",
-      "id": "Specification"
+      "id": "Aerospace"
     },
     {
-      "label": "warranties",
+      "label": "Industries",
       "type": "candidate",
-      "id": "warranties"
+      "id": "Industries"
     },
     {
-      "label": "Steering Committee",
+      "label": "restrictions",
       "type": "candidate",
-      "id": "Steering Committee"
+      "id": "restrictions"
     },
     {
-      "label": "This",
+      "label": "Neither",
       "type": "candidate",
-      "id": "This"
+      "id": "Neither"
     },
     {
-      "label": "details",
+      "label": "Aerospace Industries Association",
       "type": "candidate",
-      "id": "details"
+      "id": "Aerospace Industries Association"
     },
     {
       "label": "Responsible Partner Company",
@@ -319,24 +319,9 @@
       "id": "Responsible Partner Company"
     },
     {
-      "label": "Responsible",
+      "label": "Partner",
       "type": "candidate",
-      "id": "Responsible"
-    },
-    {
-      "label": "AND",
-      "type": "candidate",
-      "id": "AND"
-    },
-    {
-      "label": "INDUSTRIES",
-      "type": "candidate",
-      "id": "INDUSTRIES"
-    },
-    {
-      "label": "AEROSPACE",
-      "type": "candidate",
-      "id": "AEROSPACE"
+      "id": "Partner"
     },
     {
       "label": "OF",
@@ -344,9 +329,14 @@
       "id": "OF"
     },
     {
-      "label": "Partner",
+      "label": "INDUSTRIES",
       "type": "candidate",
-      "id": "Partner"
+      "id": "INDUSTRIES"
+    },
+    {
+      "label": "AND",
+      "type": "candidate",
+      "id": "AND"
     },
     {
       "label": "SECURITY",
@@ -354,24 +344,34 @@
       "id": "SECURITY"
     },
     {
-      "label": "ASSOCIATION",
-      "type": "candidate",
-      "id": "ASSOCIATION"
-    },
-    {
       "label": "DEFENCE",
       "type": "candidate",
       "id": "DEFENCE"
     },
     {
-      "label": "EUROPE",
+      "label": "Responsible",
       "type": "candidate",
-      "id": "EUROPE"
+      "id": "Responsible"
     },
     {
       "label": "Company",
       "type": "candidate",
       "id": "Company"
+    },
+    {
+      "label": "AEROSPACE",
+      "type": "candidate",
+      "id": "AEROSPACE"
+    },
+    {
+      "label": "ASSOCIATION",
+      "type": "candidate",
+      "id": "ASSOCIATION"
+    },
+    {
+      "label": "EUROPE",
+      "type": "candidate",
+      "id": "EUROPE"
     },
     {
       "label": "Originator",
@@ -424,19 +424,14 @@
       "id": "Applicability Cross-Reference Table Catalog"
     },
     {
-      "label": "Catalog",
-      "type": "candidate",
-      "id": "Catalog"
-    },
-    {
       "label": "Reference",
       "type": "candidate",
       "id": "Reference"
     },
     {
-      "label": "Reference Table Catalog",
+      "label": "Catalog",
       "type": "candidate",
-      "id": "Reference Table Catalog"
+      "id": "Catalog"
     },
     {
       "label": "Applicability Cross",
@@ -444,14 +439,19 @@
       "id": "Applicability Cross"
     },
     {
+      "label": "Cross",
+      "type": "candidate",
+      "id": "Cross"
+    },
+    {
       "label": "Table",
       "type": "candidate",
       "id": "Table"
     },
     {
-      "label": "Cross",
+      "label": "Reference Table Catalog",
       "type": "candidate",
-      "id": "Cross"
+      "id": "Reference Table Catalog"
     },
     {
       "label": "Product Definition Relationship",
@@ -459,9 +459,9 @@
       "id": "Product Definition Relationship"
     },
     {
-      "label": "Relationship",
+      "label": "Product",
       "type": "candidate",
-      "id": "Relationship"
+      "id": "Product"
     },
     {
       "label": "Definition",
@@ -469,12 +469,28 @@
       "id": "Definition"
     },
     {
-      "label": "Product",
+      "label": "Relationship",
       "type": "candidate",
-      "id": "Product"
+      "id": "Relationship"
     }
   ],
   "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "Ident"
+    },
     {
       "weight": 1,
       "units": [
@@ -497,22 +513,6 @@
         1
       ],
       "source": "DM Ident",
-      "target": "Ident"
-    },
-    {
-      "weight": 1,
-      "units": [
-        1
-      ],
-      "source": "DM Ident",
-      "target": "AAA"
-    },
-    {
-      "weight": 1,
-      "units": [
-        1
-      ],
-      "source": "DM Ident",
       "target": "DM"
     },
     {
@@ -520,7 +520,7 @@
       "units": [
         10
       ],
-      "source": "AA",
+      "source": "AAA",
       "target": "Brex Dm Ref"
     },
     {
@@ -528,7 +528,7 @@
       "units": [
         12
       ],
-      "source": "AA",
+      "source": "AAA",
       "target": "References"
     },
     {
@@ -536,7 +536,7 @@
       "units": [
         13
       ],
-      "source": "AA",
+      "source": "AAA",
       "target": "Applicability Cross-Reference Table Catalog"
     },
     {
@@ -544,7 +544,7 @@
       "units": [
         14
       ],
-      "source": "AA",
+      "source": "AAA",
       "target": "Product Definition Relationship"
     },
     {
@@ -552,7 +552,7 @@
       "units": [
         10
       ],
-      "source": "AAA",
+      "source": "AA",
       "target": "Brex Dm Ref"
     },
     {
@@ -560,7 +560,7 @@
       "units": [
         12
       ],
-      "source": "AAA",
+      "source": "AA",
       "target": "References"
     },
     {
@@ -568,7 +568,7 @@
       "units": [
         13
       ],
-      "source": "AAA",
+      "source": "AA",
       "target": "Applicability Cross-Reference Table Catalog"
     },
     {
@@ -576,7 +576,7 @@
       "units": [
         14
       ],
-      "source": "AAA",
+      "source": "AA",
       "target": "Product Definition Relationship"
     },
     {
@@ -601,7 +601,7 @@
         2
       ],
       "source": "DM Address Items",
-      "target": "Applicability"
+      "target": "Mountain"
     },
     {
       "weight": 1,
@@ -617,7 +617,7 @@
         2
       ],
       "source": "DM Address Items",
-      "target": "Mountain"
+      "target": "Address"
     },
     {
       "weight": 1,
@@ -633,7 +633,7 @@
         2
       ],
       "source": "DM Address Items",
-      "target": "Address"
+      "target": "Applicability"
     },
     {
       "weight": 1,
@@ -673,47 +673,7 @@
         5
       ],
       "source": "Restriction Instructions",
-      "target": "discretion"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Restriction Instructions",
-      "target": "Users"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Restriction Instructions",
-      "target": "Export"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Restriction Instructions",
       "target": "Restriction Instructions"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Restriction Instructions",
-      "target": "There"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Restriction Instructions",
-      "target": "instructions"
     },
     {
       "weight": 1,
@@ -729,14 +689,6 @@
         5
       ],
       "source": "Restriction Instructions",
-      "target": "residence"
-    },
-    {
-      "weight": 1,
-      "units": [
-        5
-      ],
-      "source": "Restriction Instructions",
       "target": "Instructions"
     },
     {
@@ -745,7 +697,55 @@
         5
       ],
       "source": "Restriction Instructions",
+      "target": "Users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Restriction Instructions",
+      "target": "residence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Restriction Instructions",
+      "target": "Export"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Restriction Instructions",
+      "target": "There"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Restriction Instructions",
       "target": "users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Restriction Instructions",
+      "target": "instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Restriction Instructions",
+      "target": "discretion"
     },
     {
       "weight": 1,
@@ -777,47 +777,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "TOR"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Publishers"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "classification"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Defence"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Industries"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Business"
+      "target": "Program"
     },
     {
       "weight": 1,
@@ -833,70 +793,6 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "Committee"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Defence Industries Association"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "responsible"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Business Program"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Association"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Europe"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Program"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
-      "target": "Copyright"
-    },
-    {
-      "weight": 1,
-      "units": [
-        6
-      ],
-      "source": "Restriction Info",
       "target": "Revisions"
     },
     {
@@ -905,7 +801,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "ASD"
+      "target": "Committee"
     },
     {
       "weight": 1,
@@ -921,7 +817,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "fitness"
+      "target": "Publishers"
     },
     {
       "weight": 1,
@@ -929,7 +825,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "Restriction Info"
+      "target": "America"
     },
     {
       "weight": 1,
@@ -937,7 +833,15 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "restrictions"
+      "target": "Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "details"
     },
     {
       "weight": 1,
@@ -953,7 +857,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "Aerospace"
+      "target": "Business"
     },
     {
       "weight": 1,
@@ -969,7 +873,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "maintenance"
+      "target": "ASD"
     },
     {
       "weight": 1,
@@ -977,7 +881,55 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "Neither"
+      "target": "Europe"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "Defence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "Steering Committee"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "warranties"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "TOR"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "fitness"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "Business Program"
     },
     {
       "weight": 1,
@@ -993,7 +945,55 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "Aerospace Industries Association"
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "responsible"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "Defence Industries Association"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "Restriction Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "Specification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Restriction Info",
+      "target": "maintenance"
     },
     {
       "weight": 1,
@@ -1017,7 +1017,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "America"
+      "target": "classification"
     },
     {
       "weight": 1,
@@ -1025,7 +1025,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "Specification"
+      "target": "Aerospace"
     },
     {
       "weight": 1,
@@ -1033,7 +1033,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "warranties"
+      "target": "Industries"
     },
     {
       "weight": 1,
@@ -1041,7 +1041,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "Steering Committee"
+      "target": "restrictions"
     },
     {
       "weight": 1,
@@ -1049,7 +1049,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "This"
+      "target": "Neither"
     },
     {
       "weight": 1,
@@ -1057,55 +1057,7 @@
         6
       ],
       "source": "Restriction Info",
-      "target": "details"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Responsible Partner Company",
-      "target": "Responsible"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Responsible Partner Company",
-      "target": "AND"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Responsible Partner Company",
-      "target": "INDUSTRIES"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Responsible Partner Company",
-      "target": "AEROSPACE"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Responsible Partner Company",
-      "target": "OF"
-    },
-    {
-      "weight": 1,
-      "units": [
-        7
-      ],
-      "source": "Responsible Partner Company",
-      "target": "Responsible Partner Company"
+      "target": "Aerospace Industries Association"
     },
     {
       "weight": 1,
@@ -1121,7 +1073,7 @@
         7
       ],
       "source": "Responsible Partner Company",
-      "target": "SECURITY"
+      "target": "OF"
     },
     {
       "weight": 1,
@@ -1129,7 +1081,23 @@
         7
       ],
       "source": "Responsible Partner Company",
-      "target": "ASSOCIATION"
+      "target": "INDUSTRIES"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "AND"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "SECURITY"
     },
     {
       "weight": 1,
@@ -1145,7 +1113,7 @@
         7
       ],
       "source": "Responsible Partner Company",
-      "target": "EUROPE"
+      "target": "Responsible"
     },
     {
       "weight": 1,
@@ -1158,9 +1126,41 @@
     {
       "weight": 1,
       "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Responsible Partner Company"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "AEROSPACE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "ASSOCIATION"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Responsible Partner Company",
+      "target": "EUROPE"
+    },
+    {
+      "weight": 1,
+      "units": [
         8
       ],
-      "source": "AND",
+      "source": "OF",
       "target": "Originator"
     },
     {
@@ -1176,15 +1176,7 @@
       "units": [
         8
       ],
-      "source": "AEROSPACE",
-      "target": "Originator"
-    },
-    {
-      "weight": 1,
-      "units": [
-        8
-      ],
-      "source": "OF",
+      "source": "AND",
       "target": "Originator"
     },
     {
@@ -1200,7 +1192,7 @@
       "units": [
         8
       ],
-      "source": "ASSOCIATION",
+      "source": "DEFENCE",
       "target": "Originator"
     },
     {
@@ -1208,7 +1200,15 @@
       "units": [
         8
       ],
-      "source": "DEFENCE",
+      "source": "AEROSPACE",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "ASSOCIATION",
       "target": "Originator"
     },
     {
@@ -1241,7 +1241,7 @@
         10
       ],
       "source": "Brex Dm Ref",
-      "target": "Brex Dm Ref"
+      "target": "Brex"
     },
     {
       "weight": 1,
@@ -1249,7 +1249,15 @@
         10
       ],
       "source": "Brex Dm Ref",
-      "target": "Brex"
+      "target": "Brex Dm Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Quality Assurance",
+      "target": "Quality Assurance"
     },
     {
       "weight": 1,
@@ -1266,14 +1274,6 @@
       ],
       "source": "Quality Assurance",
       "target": "Quality"
-    },
-    {
-      "weight": 1,
-      "units": [
-        11
-      ],
-      "source": "Quality Assurance",
-      "target": "Quality Assurance"
     },
     {
       "weight": 1,
@@ -1313,14 +1313,6 @@
         13
       ],
       "source": "Applicability Cross-Reference Table Catalog",
-      "target": "Catalog"
-    },
-    {
-      "weight": 1,
-      "units": [
-        13
-      ],
-      "source": "Applicability Cross-Reference Table Catalog",
       "target": "Reference"
     },
     {
@@ -1329,7 +1321,7 @@
         13
       ],
       "source": "Applicability Cross-Reference Table Catalog",
-      "target": "Reference Table Catalog"
+      "target": "Catalog"
     },
     {
       "weight": 1,
@@ -1345,6 +1337,14 @@
         13
       ],
       "source": "Applicability Cross-Reference Table Catalog",
+      "target": "Cross"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Applicability Cross-Reference Table Catalog",
       "target": "Table"
     },
     {
@@ -1353,23 +1353,7 @@
         13
       ],
       "source": "Applicability Cross-Reference Table Catalog",
-      "target": "Cross"
-    },
-    {
-      "weight": 1,
-      "units": [
-        14
-      ],
-      "source": "Product Definition Relationship",
-      "target": "Relationship"
-    },
-    {
-      "weight": 1,
-      "units": [
-        14
-      ],
-      "source": "Product Definition Relationship",
-      "target": "Definition"
+      "target": "Reference Table Catalog"
     },
     {
       "weight": 1,
@@ -1385,7 +1369,23 @@
         14
       ],
       "source": "Product Definition Relationship",
+      "target": "Definition"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Product Definition Relationship",
       "target": "Product Definition Relationship"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Product Definition Relationship",
+      "target": "Relationship"
     }
   ]
 }

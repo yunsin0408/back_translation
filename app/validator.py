@@ -133,7 +133,7 @@ def main():
     parser = argparse.ArgumentParser(description="Validate well-formedness of XML files in a folder.")
     parser.add_argument("--folder", type=str, help="Path to folder containing XML files (*.xml or *.XML)")
     parser.add_argument("--workers", type=int, default=4, help="Number of parallel workers (default: 4)")
-    parser.add_argument("--csv", type=str, default="results/xml_validation_results1012.csv", help="Path to write CSV results (default: xml_validation_results.csv)")
+    parser.add_argument("--csv", type=str, default="results/xml_validation_results_regen_5.csv", help="Path to write CSV results (default: xml_validation_results.csv)")
     args = parser.parse_args()
 
     folder = DEFAULT_XML_FOLDER

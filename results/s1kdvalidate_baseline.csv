@@ -1,0 +1,56 @@
+SUMMARY BY FOLDER:,
+--------------------------------------------------,
+,
+1. regenerated_xml_1:,==================================================
+   Files submitted: 116,SUMMARY BY FOLDER:
+   Parsing errors:  19,Folder                     Files  Parse Schema Pass  Fail  Unparse  P.Err  S.Err 
+   Schema attempted: 97,----------------------------------------------------------------------
+   Passed:          0,regenerated_xml_1    116     97     97     0     97    19       56     129   
+   Failed schema:   97,regenerated_xml_2    116    100    100   0     100   16       37     177   
+   Total errors(P:S):    185 (56:129),regenerated_xml_3    116    94     94      0     94    22       64     134   
+   Avg errors/file: 1.59,regenerated_xml_4    116    90     90      0     90    26       92     144   
+,regenerated_xml_5    116    90     90      0     90    26       127    192   
+2. regenerated_xml_2:,----------------------------------------------------------------------
+   Files submitted: 116,TOTALS                   580    471    471     0     471   109      376    776   
+   Parsing errors:  16,
+   Schema attempted: 100,Column Legend:
+   Passed:          0,Files   = Total XML files found
+   Failed schema:   100,Parse   = Files that passed XML parsing
+   Total errors(P:S):    214 (37:177),Schema  = Files that reached schema validation
+   Avg errors/file: 1.84,Pass    = Files that passed schema validation
+,Fail    = Files that failed schema validation
+3. regenerated_xml_3:,Unparse = Files with XML parsing errors
+   Files submitted: 116,P.Err   = Number of parsing error messages
+   Parsing errors:  22,S.Err   = Number of schema error messages
+   Schema attempted: 94,
+   Passed:          0,
+   Failed schema:   94,
+   Total errors(P:S):    198(64:134),
+   Avg errors/file: 1.71,
+,
+4. regenerated_xml_4:,
+   Files submitted: 116,
+   Parsing errors:  26,
+   Schema attempted: 90,
+   Passed:          0,
+   Failed schema:   90,
+   Total errors(P:S):    236 (92:144),
+   Avg errors/file: 2.03,
+,
+5. regenerated_xml_5:,
+   Files submitted: 116,
+   Parsing errors:  26,
+   Schema attempted: 90,
+   Passed:          0,
+   Failed schema:   90,
+   Total errors (P:S) :    319 (127:192),
+   Avg errors/file: 2.75,
+,
+OVERALL TOTALS:,
+Total files submitted for validation: 580,
+  _ Files with parsing errors:        109,
+  _ Files that reached schema validation: 471,
+    - Passed schema validation:        0,
+    - Failed schema validation:        471,
+Total validation errors logged:      1152,
+Average errors per file:             1.99,

@@ -9,16 +9,8 @@
       ]
     },
     {
-      "id": "US",
-      "label": "US",
-      "type": "candidate",
-      "source_units": [
-        1
-      ]
-    },
-    {
-      "id": "AA",
-      "label": "AA",
+      "id": "AAA",
+      "label": "AAA",
       "type": "candidate",
       "source_units": [
         1
@@ -33,8 +25,16 @@
       ]
     },
     {
-      "id": "AAA",
-      "label": "AAA",
+      "id": "US",
+      "label": "US",
+      "type": "candidate",
+      "source_units": [
+        1
+      ]
+    },
+    {
+      "id": "AA",
+      "label": "AA",
       "type": "candidate",
       "source_units": [
         1
@@ -77,16 +77,16 @@
       ]
     },
     {
-      "id": "Released",
-      "label": "Released",
+      "id": "Status",
+      "label": "Status",
       "type": "candidate",
       "source_units": [
         3
       ]
     },
     {
-      "id": "Status",
-      "label": "Status",
+      "id": "Released",
+      "label": "Released",
       "type": "candidate",
       "source_units": [
         3
@@ -101,8 +101,8 @@
       ]
     },
     {
-      "id": "Configuration Management",
-      "label": "Configuration Management",
+      "id": "Management",
+      "label": "Management",
       "type": "candidate",
       "source_units": [
         4
@@ -117,8 +117,8 @@
       ]
     },
     {
-      "id": "Management",
-      "label": "Management",
+      "id": "Configuration Management",
+      "label": "Configuration Management",
       "type": "candidate",
       "source_units": [
         4
@@ -141,16 +141,16 @@
       ]
     },
     {
-      "id": "Related Documents",
-      "label": "Related Documents",
+      "id": "Related",
+      "label": "Related",
       "type": "candidate",
       "source_units": [
         5
       ]
     },
     {
-      "id": "Related",
-      "label": "Related",
+      "id": "Related Documents",
+      "label": "Related Documents",
       "type": "candidate",
       "source_units": [
         5
@@ -165,8 +165,48 @@
       ]
     },
     {
-      "id": "responsible",
-      "label": "responsible",
+      "id": "Length",
+      "label": "Length",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Wires",
+      "label": "Wires",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "color",
+      "label": "color",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Contains",
+      "label": "Contains",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Wire",
+      "label": "Wire",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Repeated",
+      "label": "Repeated",
       "type": "candidate",
       "source_units": [
         6,
@@ -193,49 +233,6 @@
       ]
     },
     {
-      "id": "Contact",
-      "label": "Contact",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Electric",
-      "label": "Electric",
-      "type": "candidate",
-      "source_units": [
-        6,
-        8
-      ]
-    },
-    {
-      "id": "Next",
-      "label": "Next",
-      "type": "candidate",
-      "source_units": [
-        6,
-        8
-      ]
-    },
-    {
-      "id": "Harness",
-      "label": "Harness",
-      "type": "candidate",
-      "source_units": [
-        6,
-        7
-      ]
-    },
-    {
-      "id": "Wires",
-      "label": "Wires",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
       "id": "Screens",
       "label": "Screens",
       "type": "candidate",
@@ -244,36 +241,11 @@
       ]
     },
     {
-      "id": "Feed",
-      "label": "Feed",
+      "id": "Twisting",
+      "label": "Twisting",
       "type": "candidate",
       "source_units": [
         6
-      ]
-    },
-    {
-      "id": "Contains",
-      "label": "Contains",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Group",
-      "label": "Group",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "available",
-      "label": "available",
-      "type": "candidate",
-      "source_units": [
-        6,
-        8
       ]
     },
     {
@@ -287,24 +259,17 @@
       ]
     },
     {
-      "id": "length",
-      "label": "length",
+      "id": "Harness",
+      "label": "Harness",
       "type": "candidate",
       "source_units": [
-        6
+        6,
+        7
       ]
     },
     {
-      "id": "Wire",
-      "label": "Wire",
-      "type": "candidate",
-      "source_units": [
-        6
-      ]
-    },
-    {
-      "id": "Color",
-      "label": "Color",
+      "id": "Contact",
+      "label": "Contact",
       "type": "candidate",
       "source_units": [
         6
@@ -321,16 +286,63 @@
       ]
     },
     {
-      "id": "Length",
-      "label": "Length",
+      "id": "Twistig",
+      "label": "Twistig",
       "type": "candidate",
       "source_units": [
         6
       ]
     },
     {
-      "id": "Twistig",
-      "label": "Twistig",
+      "id": "responsible",
+      "label": "responsible",
+      "type": "candidate",
+      "source_units": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "Next",
+      "label": "Next",
+      "type": "candidate",
+      "source_units": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "Electric",
+      "label": "Electric",
+      "type": "candidate",
+      "source_units": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "Field",
+      "label": "Field",
+      "type": "candidate",
+      "source_units": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "available",
+      "label": "available",
+      "type": "candidate",
+      "source_units": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "length",
+      "label": "length",
       "type": "candidate",
       "source_units": [
         6
@@ -345,11 +357,13 @@
       ]
     },
     {
-      "id": "Twisting",
-      "label": "Twisting",
+      "id": "Description",
+      "label": "Description",
       "type": "candidate",
       "source_units": [
-        6
+        6,
+        7,
+        8
       ]
     },
     {
@@ -363,8 +377,24 @@
       ]
     },
     {
-      "id": "color",
-      "label": "color",
+      "id": "Group",
+      "label": "Group",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Feed",
+      "label": "Feed",
+      "type": "candidate",
+      "source_units": [
+        6
+      ]
+    },
+    {
+      "id": "Color",
+      "label": "Color",
       "type": "candidate",
       "source_units": [
         6
@@ -381,39 +411,51 @@
       ]
     },
     {
-      "id": "Description",
-      "label": "Description",
-      "type": "candidate",
-      "source_units": [
-        6,
-        7,
-        8
-      ]
-    },
-    {
-      "id": "Field",
-      "label": "Field",
-      "type": "candidate",
-      "source_units": [
-        6,
-        7,
-        8
-      ]
-    },
-    {
-      "id": "Repeated",
-      "label": "Repeated",
-      "type": "candidate",
-      "source_units": [
-        6,
-        7,
-        8
-      ]
-    },
-    {
       "id": "DescrHarness",
       "label": "DescrHarness",
       "type": "heading",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "material",
+      "label": "material",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Maximum",
+      "label": "Maximum",
+      "type": "candidate",
+      "source_units": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "Part",
+      "label": "Part",
+      "type": "candidate",
+      "source_units": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "Harness Part",
+      "label": "Harness Part",
+      "type": "candidate",
+      "source_units": [
+        7
+      ]
+    },
+    {
+      "id": "Sleeve",
+      "label": "Sleeve",
+      "type": "candidate",
       "source_units": [
         7
       ]
@@ -436,48 +478,6 @@
       ]
     },
     {
-      "id": "material",
-      "label": "material",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Sleeve",
-      "label": "Sleeve",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
-      "id": "Part",
-      "label": "Part",
-      "type": "candidate",
-      "source_units": [
-        7,
-        8
-      ]
-    },
-    {
-      "id": "Maximum",
-      "label": "Maximum",
-      "type": "candidate",
-      "source_units": [
-        7,
-        8
-      ]
-    },
-    {
-      "id": "variant",
-      "label": "variant",
-      "type": "candidate",
-      "source_units": [
-        7
-      ]
-    },
-    {
       "id": "code",
       "label": "code",
       "type": "candidate",
@@ -486,8 +486,8 @@
       ]
     },
     {
-      "id": "Harness Part",
-      "label": "Harness Part",
+      "id": "variant",
+      "label": "variant",
       "type": "candidate",
       "source_units": [
         7
@@ -502,30 +502,6 @@
       ]
     },
     {
-      "id": "Position",
-      "label": "Position",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Sibling",
-      "label": "Sibling",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Transverse",
-      "label": "Transverse",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
       "id": "quantity",
       "label": "quantity",
       "type": "candidate",
@@ -534,24 +510,8 @@
       ]
     },
     {
-      "id": "connections",
-      "label": "connections",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Quantity",
-      "label": "Quantity",
-      "type": "candidate",
-      "source_units": [
-        8
-      ]
-    },
-    {
-      "id": "Location",
-      "label": "Location",
+      "id": "position",
+      "label": "position",
       "type": "candidate",
       "source_units": [
         8
@@ -566,8 +526,48 @@
       ]
     },
     {
-      "id": "position",
-      "label": "position",
+      "id": "Location",
+      "label": "Location",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Transverse",
+      "label": "Transverse",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Sibling",
+      "label": "Sibling",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "connections",
+      "label": "connections",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Position",
+      "label": "Position",
+      "type": "candidate",
+      "source_units": [
+        8
+      ]
+    },
+    {
+      "id": "Quantity",
+      "label": "Quantity",
       "type": "candidate",
       "source_units": [
         8
@@ -576,15 +576,7 @@
   ],
   "edges": [
     {
-      "source": "DM Ident",
-      "target": "US",
-      "weight": 1,
-      "units": [
-        1
-      ]
-    },
-    {
-      "source": "AA",
+      "source": "AAA",
       "target": "DM Ident",
       "weight": 1,
       "units": [
@@ -600,7 +592,15 @@
       ]
     },
     {
-      "source": "AAA",
+      "source": "DM Ident",
+      "target": "US",
+      "weight": 1,
+      "units": [
+        1
+      ]
+    },
+    {
+      "source": "AA",
       "target": "DM Ident",
       "weight": 1,
       "units": [
@@ -632,6 +632,14 @@
       ]
     },
     {
+      "source": "DM Status",
+      "target": "Status",
+      "weight": 1,
+      "units": [
+        3
+      ]
+    },
+    {
       "source": "DM",
       "target": "DM Status",
       "weight": 1,
@@ -648,15 +656,15 @@
       ]
     },
     {
-      "source": "DM Status",
-      "target": "Status",
+      "source": "DM Configuration Management",
+      "target": "Management",
       "weight": 1,
       "units": [
-        3
+        4
       ]
     },
     {
-      "source": "DM",
+      "source": "Configuration",
       "target": "DM Configuration Management",
       "weight": 1,
       "units": [
@@ -672,7 +680,7 @@
       ]
     },
     {
-      "source": "Configuration",
+      "source": "DM",
       "target": "DM Configuration Management",
       "weight": 1,
       "units": [
@@ -680,32 +688,8 @@
       ]
     },
     {
-      "source": "DM Configuration Management",
-      "target": "Management",
-      "weight": 1,
-      "units": [
-        4
-      ]
-    },
-    {
-      "source": "DM",
-      "target": "DM Related Documents",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
       "source": "DM Related Documents",
       "target": "Documents",
-      "weight": 1,
-      "units": [
-        5
-      ]
-    },
-    {
-      "source": "DM Related Documents",
-      "target": "Related Documents",
       "weight": 1,
       "units": [
         5
@@ -720,8 +704,64 @@
       ]
     },
     {
+      "source": "DM",
+      "target": "DM Related Documents",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
+      "source": "DM Related Documents",
+      "target": "Related Documents",
+      "weight": 1,
+      "units": [
+        5
+      ]
+    },
+    {
       "source": "DescrWire",
-      "target": "responsible",
+      "target": "Length",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "Wires",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "color",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Contains",
+      "target": "DescrWire",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "Wire",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "Repeated",
       "weight": 1,
       "units": [
         6
@@ -744,46 +784,6 @@
       ]
     },
     {
-      "source": "Contact",
-      "target": "DescrWire",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
-      "target": "Electric",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
-      "target": "Next",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
-      "target": "Harness",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
-      "target": "Wires",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
       "source": "DescrWire",
       "target": "Screens",
       "weight": 1,
@@ -793,31 +793,7 @@
     },
     {
       "source": "DescrWire",
-      "target": "Feed",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Contains",
-      "target": "DescrWire",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
-      "target": "Group",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
-      "target": "available",
+      "target": "Twisting",
       "weight": 1,
       "units": [
         6
@@ -833,22 +809,14 @@
     },
     {
       "source": "DescrWire",
-      "target": "length",
+      "target": "Harness",
       "weight": 1,
       "units": [
         6
       ]
     },
     {
-      "source": "DescrWire",
-      "target": "Wire",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "Color",
+      "source": "Contact",
       "target": "DescrWire",
       "weight": 1,
       "units": [
@@ -865,14 +833,6 @@
     },
     {
       "source": "DescrWire",
-      "target": "Length",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
       "target": "Twistig",
       "weight": 1,
       "units": [
@@ -881,7 +841,7 @@
     },
     {
       "source": "DescrWire",
-      "target": "identifier",
+      "target": "responsible",
       "weight": 1,
       "units": [
         6
@@ -889,7 +849,7 @@
     },
     {
       "source": "DescrWire",
-      "target": "Twisting",
+      "target": "Next",
       "weight": 1,
       "units": [
         6
@@ -897,31 +857,7 @@
     },
     {
       "source": "DescrWire",
-      "target": "Responsible",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
-      "target": "color",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
-      "target": "Name",
-      "weight": 1,
-      "units": [
-        6
-      ]
-    },
-    {
-      "source": "DescrWire",
-      "target": "Description",
+      "target": "Electric",
       "weight": 1,
       "units": [
         6
@@ -937,10 +873,170 @@
     },
     {
       "source": "DescrWire",
-      "target": "Repeated",
+      "target": "available",
       "weight": 1,
       "units": [
         6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "length",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "identifier",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "Description",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "Responsible",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "Group",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "Feed",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "Color",
+      "target": "DescrWire",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrWire",
+      "target": "Name",
+      "weight": 1,
+      "units": [
+        6
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "material",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "Repeated",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "integration",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "Maximum",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "Part",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "Field Name",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "Harness",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "Harness Part",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "number",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "Sleeve",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "responsible",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "Field",
+      "weight": 1,
+      "units": [
+        7
       ]
     },
     {
@@ -961,87 +1057,7 @@
     },
     {
       "source": "DescrHarness",
-      "target": "responsible",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "material",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "integration",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "Harness",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "Sleeve",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "Part",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "Maximum",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "variant",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "Field Name",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "code",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "number",
+      "target": "Description",
       "weight": 1,
       "units": [
         7
@@ -1057,6 +1073,22 @@
     },
     {
       "source": "DescrHarness",
+      "target": "code",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
+      "target": "variant",
+      "weight": 1,
+      "units": [
+        7
+      ]
+    },
+    {
+      "source": "DescrHarness",
       "target": "Name",
       "weight": 1,
       "units": [
@@ -1064,40 +1096,8 @@
       ]
     },
     {
-      "source": "DescrHarness",
-      "target": "Description",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "Field",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "Repeated",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
-      "source": "DescrHarness",
-      "target": "Harness Part",
-      "weight": 1,
-      "units": [
-        7
-      ]
-    },
-    {
       "source": "DescrElectricalEquip",
-      "target": "Position",
+      "target": "Repeated",
       "weight": 1,
       "units": [
         8
@@ -1105,7 +1105,63 @@
     },
     {
       "source": "DescrElectricalEquip",
-      "target": "Gives",
+      "target": "integration",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
+      "target": "Maximum",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
+      "target": "Part",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
+      "target": "Field Name",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
+      "target": "quantity",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
+      "target": "number",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
+      "target": "position",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
+      "target": "ident",
       "weight": 1,
       "units": [
         8
@@ -1121,15 +1177,7 @@
     },
     {
       "source": "DescrElectricalEquip",
-      "target": "Sibling",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "integration",
+      "target": "Location",
       "weight": 1,
       "units": [
         8
@@ -1161,23 +1209,7 @@
     },
     {
       "source": "DescrElectricalEquip",
-      "target": "Part",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "quantity",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "Maximum",
+      "target": "Field",
       "weight": 1,
       "units": [
         8
@@ -1193,63 +1225,23 @@
     },
     {
       "source": "DescrElectricalEquip",
+      "target": "Sibling",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
+      "target": "Gives",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
       "target": "connections",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "Quantity",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "Field Name",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "Location",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "ident",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "number",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "Responsible",
-      "weight": 1,
-      "units": [
-        8
-      ]
-    },
-    {
-      "source": "DescrElectricalEquip",
-      "target": "Name",
       "weight": 1,
       "units": [
         8
@@ -1265,7 +1257,7 @@
     },
     {
       "source": "DescrElectricalEquip",
-      "target": "Field",
+      "target": "Responsible",
       "weight": 1,
       "units": [
         8
@@ -1273,7 +1265,7 @@
     },
     {
       "source": "DescrElectricalEquip",
-      "target": "Repeated",
+      "target": "Position",
       "weight": 1,
       "units": [
         8
@@ -1281,7 +1273,15 @@
     },
     {
       "source": "DescrElectricalEquip",
-      "target": "position",
+      "target": "Quantity",
+      "weight": 1,
+      "units": [
+        8
+      ]
+    },
+    {
+      "source": "DescrElectricalEquip",
+      "target": "Name",
       "weight": 1,
       "units": [
         8
@@ -1299,6 +1299,16 @@
         "id": "DM Ident"
       },
       {
+        "label": "AAA",
+        "type": "candidate",
+        "id": "AAA"
+      },
+      {
+        "label": "Ident",
+        "type": "candidate",
+        "id": "Ident"
+      },
+      {
         "label": "US",
         "type": "candidate",
         "id": "US"
@@ -1307,16 +1317,6 @@
         "label": "AA",
         "type": "candidate",
         "id": "AA"
-      },
-      {
-        "label": "Ident",
-        "type": "candidate",
-        "id": "Ident"
-      },
-      {
-        "label": "AAA",
-        "type": "candidate",
-        "id": "AAA"
       },
       {
         "label": "DM",
@@ -1339,14 +1339,14 @@
         "id": "DM Status"
       },
       {
-        "label": "Released",
-        "type": "candidate",
-        "id": "Released"
-      },
-      {
         "label": "Status",
         "type": "candidate",
         "id": "Status"
+      },
+      {
+        "label": "Released",
+        "type": "candidate",
+        "id": "Released"
       },
       {
         "label": "DM Configuration Management",
@@ -1354,9 +1354,9 @@
         "id": "DM Configuration Management"
       },
       {
-        "label": "Configuration Management",
+        "label": "Management",
         "type": "candidate",
-        "id": "Configuration Management"
+        "id": "Management"
       },
       {
         "label": "Configuration",
@@ -1364,9 +1364,9 @@
         "id": "Configuration"
       },
       {
-        "label": "Management",
+        "label": "Configuration Management",
         "type": "candidate",
-        "id": "Management"
+        "id": "Configuration Management"
       },
       {
         "label": "DM Related Documents",
@@ -1379,14 +1379,14 @@
         "id": "Documents"
       },
       {
-        "label": "Related Documents",
-        "type": "candidate",
-        "id": "Related Documents"
-      },
-      {
         "label": "Related",
         "type": "candidate",
         "id": "Related"
+      },
+      {
+        "label": "Related Documents",
+        "type": "candidate",
+        "id": "Related Documents"
       },
       {
         "label": "DescrWire",
@@ -1394,9 +1394,34 @@
         "id": "DescrWire"
       },
       {
-        "label": "responsible",
+        "label": "Length",
         "type": "candidate",
-        "id": "responsible"
+        "id": "Length"
+      },
+      {
+        "label": "Wires",
+        "type": "candidate",
+        "id": "Wires"
+      },
+      {
+        "label": "color",
+        "type": "candidate",
+        "id": "color"
+      },
+      {
+        "label": "Contains",
+        "type": "candidate",
+        "id": "Contains"
+      },
+      {
+        "label": "Wire",
+        "type": "candidate",
+        "id": "Wire"
+      },
+      {
+        "label": "Repeated",
+        "type": "candidate",
+        "id": "Repeated"
       },
       {
         "label": "Identifies",
@@ -1409,94 +1434,9 @@
         "id": "integration"
       },
       {
-        "label": "Contact",
-        "type": "candidate",
-        "id": "Contact"
-      },
-      {
-        "label": "Electric",
-        "type": "candidate",
-        "id": "Electric"
-      },
-      {
-        "label": "Next",
-        "type": "candidate",
-        "id": "Next"
-      },
-      {
-        "label": "Harness",
-        "type": "candidate",
-        "id": "Harness"
-      },
-      {
-        "label": "Wires",
-        "type": "candidate",
-        "id": "Wires"
-      },
-      {
         "label": "Screens",
         "type": "candidate",
         "id": "Screens"
-      },
-      {
-        "label": "Feed",
-        "type": "candidate",
-        "id": "Feed"
-      },
-      {
-        "label": "Contains",
-        "type": "candidate",
-        "id": "Contains"
-      },
-      {
-        "label": "Group",
-        "type": "candidate",
-        "id": "Group"
-      },
-      {
-        "label": "available",
-        "type": "candidate",
-        "id": "available"
-      },
-      {
-        "label": "Field Name",
-        "type": "candidate",
-        "id": "Field Name"
-      },
-      {
-        "label": "length",
-        "type": "candidate",
-        "id": "length"
-      },
-      {
-        "label": "Wire",
-        "type": "candidate",
-        "id": "Wire"
-      },
-      {
-        "label": "Color",
-        "type": "candidate",
-        "id": "Color"
-      },
-      {
-        "label": "number",
-        "type": "candidate",
-        "id": "number"
-      },
-      {
-        "label": "Length",
-        "type": "candidate",
-        "id": "Length"
-      },
-      {
-        "label": "Twistig",
-        "type": "candidate",
-        "id": "Twistig"
-      },
-      {
-        "label": "identifier",
-        "type": "candidate",
-        "id": "identifier"
       },
       {
         "label": "Twisting",
@@ -1504,24 +1444,44 @@
         "id": "Twisting"
       },
       {
-        "label": "Responsible",
+        "label": "Field Name",
         "type": "candidate",
-        "id": "Responsible"
+        "id": "Field Name"
       },
       {
-        "label": "color",
+        "label": "Harness",
         "type": "candidate",
-        "id": "color"
+        "id": "Harness"
       },
       {
-        "label": "Name",
+        "label": "Contact",
         "type": "candidate",
-        "id": "Name"
+        "id": "Contact"
       },
       {
-        "label": "Description",
+        "label": "number",
         "type": "candidate",
-        "id": "Description"
+        "id": "number"
+      },
+      {
+        "label": "Twistig",
+        "type": "candidate",
+        "id": "Twistig"
+      },
+      {
+        "label": "responsible",
+        "type": "candidate",
+        "id": "responsible"
+      },
+      {
+        "label": "Next",
+        "type": "candidate",
+        "id": "Next"
+      },
+      {
+        "label": "Electric",
+        "type": "candidate",
+        "id": "Electric"
       },
       {
         "label": "Field",
@@ -1529,14 +1489,79 @@
         "id": "Field"
       },
       {
-        "label": "Repeated",
+        "label": "available",
         "type": "candidate",
-        "id": "Repeated"
+        "id": "available"
+      },
+      {
+        "label": "length",
+        "type": "candidate",
+        "id": "length"
+      },
+      {
+        "label": "identifier",
+        "type": "candidate",
+        "id": "identifier"
+      },
+      {
+        "label": "Description",
+        "type": "candidate",
+        "id": "Description"
+      },
+      {
+        "label": "Responsible",
+        "type": "candidate",
+        "id": "Responsible"
+      },
+      {
+        "label": "Group",
+        "type": "candidate",
+        "id": "Group"
+      },
+      {
+        "label": "Feed",
+        "type": "candidate",
+        "id": "Feed"
+      },
+      {
+        "label": "Color",
+        "type": "candidate",
+        "id": "Color"
+      },
+      {
+        "label": "Name",
+        "type": "candidate",
+        "id": "Name"
       },
       {
         "label": "DescrHarness",
         "type": "heading",
         "id": "DescrHarness"
+      },
+      {
+        "label": "material",
+        "type": "candidate",
+        "id": "material"
+      },
+      {
+        "label": "Maximum",
+        "type": "candidate",
+        "id": "Maximum"
+      },
+      {
+        "label": "Part",
+        "type": "candidate",
+        "id": "Part"
+      },
+      {
+        "label": "Harness Part",
+        "type": "candidate",
+        "id": "Harness Part"
+      },
+      {
+        "label": "Sleeve",
+        "type": "candidate",
+        "id": "Sleeve"
       },
       {
         "label": "Minimum",
@@ -1549,24 +1574,9 @@
         "id": "Gives"
       },
       {
-        "label": "material",
+        "label": "code",
         "type": "candidate",
-        "id": "material"
-      },
-      {
-        "label": "Sleeve",
-        "type": "candidate",
-        "id": "Sleeve"
-      },
-      {
-        "label": "Part",
-        "type": "candidate",
-        "id": "Part"
-      },
-      {
-        "label": "Maximum",
-        "type": "candidate",
-        "id": "Maximum"
+        "id": "code"
       },
       {
         "label": "variant",
@@ -1574,34 +1584,9 @@
         "id": "variant"
       },
       {
-        "label": "code",
-        "type": "candidate",
-        "id": "code"
-      },
-      {
-        "label": "Harness Part",
-        "type": "candidate",
-        "id": "Harness Part"
-      },
-      {
         "label": "DescrElectricalEquip",
         "type": "heading",
         "id": "DescrElectricalEquip"
-      },
-      {
-        "label": "Position",
-        "type": "candidate",
-        "id": "Position"
-      },
-      {
-        "label": "Sibling",
-        "type": "candidate",
-        "id": "Sibling"
-      },
-      {
-        "label": "Transverse",
-        "type": "candidate",
-        "id": "Transverse"
       },
       {
         "label": "quantity",
@@ -1609,19 +1594,9 @@
         "id": "quantity"
       },
       {
-        "label": "connections",
+        "label": "position",
         "type": "candidate",
-        "id": "connections"
-      },
-      {
-        "label": "Quantity",
-        "type": "candidate",
-        "id": "Quantity"
-      },
-      {
-        "label": "Location",
-        "type": "candidate",
-        "id": "Location"
+        "id": "position"
       },
       {
         "label": "ident",
@@ -1629,9 +1604,34 @@
         "id": "ident"
       },
       {
-        "label": "position",
+        "label": "Location",
         "type": "candidate",
-        "id": "position"
+        "id": "Location"
+      },
+      {
+        "label": "Transverse",
+        "type": "candidate",
+        "id": "Transverse"
+      },
+      {
+        "label": "Sibling",
+        "type": "candidate",
+        "id": "Sibling"
+      },
+      {
+        "label": "connections",
+        "type": "candidate",
+        "id": "connections"
+      },
+      {
+        "label": "Position",
+        "type": "candidate",
+        "id": "Position"
+      },
+      {
+        "label": "Quantity",
+        "type": "candidate",
+        "id": "Quantity"
       }
     ],
     "links": [
@@ -1641,15 +1641,7 @@
           1
         ],
         "source": "DM Ident",
-        "target": "US"
-      },
-      {
-        "weight": 1,
-        "units": [
-          1
-        ],
-        "source": "DM Ident",
-        "target": "AA"
+        "target": "AAA"
       },
       {
         "weight": 1,
@@ -1665,7 +1657,15 @@
           1
         ],
         "source": "DM Ident",
-        "target": "AAA"
+        "target": "US"
+      },
+      {
+        "weight": 1,
+        "units": [
+          1
+        ],
+        "source": "DM Ident",
+        "target": "AA"
       },
       {
         "weight": 1,
@@ -1721,7 +1721,7 @@
           3
         ],
         "source": "DM Status",
-        "target": "Released"
+        "target": "Status"
       },
       {
         "weight": 1,
@@ -1729,7 +1729,7 @@
           3
         ],
         "source": "DM Status",
-        "target": "Status"
+        "target": "Released"
       },
       {
         "weight": 1,
@@ -1737,7 +1737,7 @@
           4
         ],
         "source": "DM Configuration Management",
-        "target": "Configuration Management"
+        "target": "Management"
       },
       {
         "weight": 1,
@@ -1753,7 +1753,7 @@
           4
         ],
         "source": "DM Configuration Management",
-        "target": "Management"
+        "target": "Configuration Management"
       },
       {
         "weight": 1,
@@ -1769,7 +1769,7 @@
           5
         ],
         "source": "DM Related Documents",
-        "target": "Related Documents"
+        "target": "Related"
       },
       {
         "weight": 1,
@@ -1777,7 +1777,7 @@
           5
         ],
         "source": "DM Related Documents",
-        "target": "Related"
+        "target": "Related Documents"
       },
       {
         "weight": 1,
@@ -1785,7 +1785,47 @@
           6
         ],
         "source": "DescrWire",
-        "target": "responsible"
+        "target": "Length"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Wires"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "color"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Contains"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Wire"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Repeated"
       },
       {
         "weight": 1,
@@ -1809,143 +1849,7 @@
           6
         ],
         "source": "DescrWire",
-        "target": "Contact"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Electric"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Next"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Harness"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Wires"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
         "target": "Screens"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Feed"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Contains"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Group"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "available"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Field Name"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "length"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Wire"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Color"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "number"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Length"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "Twistig"
-      },
-      {
-        "weight": 1,
-        "units": [
-          6
-        ],
-        "source": "DescrWire",
-        "target": "identifier"
       },
       {
         "weight": 1,
@@ -1961,7 +1865,7 @@
           6
         ],
         "source": "DescrWire",
-        "target": "Responsible"
+        "target": "Field Name"
       },
       {
         "weight": 1,
@@ -1969,7 +1873,7 @@
           6
         ],
         "source": "DescrWire",
-        "target": "color"
+        "target": "Harness"
       },
       {
         "weight": 1,
@@ -1977,7 +1881,7 @@
           6
         ],
         "source": "DescrWire",
-        "target": "Name"
+        "target": "Contact"
       },
       {
         "weight": 1,
@@ -1985,7 +1889,39 @@
           6
         ],
         "source": "DescrWire",
-        "target": "Description"
+        "target": "number"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Twistig"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "responsible"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Next"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Electric"
       },
       {
         "weight": 1,
@@ -2001,14 +1937,78 @@
           6
         ],
         "source": "DescrWire",
-        "target": "Repeated"
+        "target": "available"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "length"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "identifier"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Description"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Responsible"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Group"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Feed"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Color"
+      },
+      {
+        "weight": 1,
+        "units": [
+          6
+        ],
+        "source": "DescrWire",
+        "target": "Name"
       },
       {
         "weight": 1,
         "units": [
           7
         ],
-        "source": "responsible",
+        "source": "Repeated",
         "target": "DescrHarness"
       },
       {
@@ -2016,7 +2016,7 @@
         "units": [
           8
         ],
-        "source": "responsible",
+        "source": "Repeated",
         "target": "DescrElectricalEquip"
       },
       {
@@ -2038,9 +2038,57 @@
       {
         "weight": 1,
         "units": [
+          7
+        ],
+        "source": "Field Name",
+        "target": "DescrHarness"
+      },
+      {
+        "weight": 1,
+        "units": [
           8
         ],
-        "source": "Electric",
+        "source": "Field Name",
+        "target": "DescrElectricalEquip"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "Harness",
+        "target": "DescrHarness"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "number",
+        "target": "DescrHarness"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "number",
+        "target": "DescrElectricalEquip"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "responsible",
+        "target": "DescrHarness"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "responsible",
         "target": "DescrElectricalEquip"
       },
       {
@@ -2054,10 +2102,26 @@
       {
         "weight": 1,
         "units": [
+          8
+        ],
+        "source": "Electric",
+        "target": "DescrElectricalEquip"
+      },
+      {
+        "weight": 1,
+        "units": [
           7
         ],
-        "source": "Harness",
+        "source": "Field",
         "target": "DescrHarness"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "Field",
+        "target": "DescrElectricalEquip"
       },
       {
         "weight": 1,
@@ -2072,7 +2136,7 @@
         "units": [
           7
         ],
-        "source": "Field Name",
+        "source": "Description",
         "target": "DescrHarness"
       },
       {
@@ -2080,23 +2144,7 @@
         "units": [
           8
         ],
-        "source": "Field Name",
-        "target": "DescrElectricalEquip"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "number",
-        "target": "DescrHarness"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "number",
+        "source": "Description",
         "target": "DescrElectricalEquip"
       },
       {
@@ -2136,48 +2184,40 @@
         "units": [
           7
         ],
-        "source": "Description",
-        "target": "DescrHarness"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Description",
-        "target": "DescrElectricalEquip"
+        "source": "DescrHarness",
+        "target": "material"
       },
       {
         "weight": 1,
         "units": [
           7
         ],
-        "source": "Field",
-        "target": "DescrHarness"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "Field",
-        "target": "DescrElectricalEquip"
+        "source": "DescrHarness",
+        "target": "Maximum"
       },
       {
         "weight": 1,
         "units": [
           7
         ],
-        "source": "Repeated",
-        "target": "DescrHarness"
+        "source": "DescrHarness",
+        "target": "Part"
       },
       {
         "weight": 1,
         "units": [
-          8
+          7
         ],
-        "source": "Repeated",
-        "target": "DescrElectricalEquip"
+        "source": "DescrHarness",
+        "target": "Harness Part"
+      },
+      {
+        "weight": 1,
+        "units": [
+          7
+        ],
+        "source": "DescrHarness",
+        "target": "Sleeve"
       },
       {
         "weight": 1,
@@ -2201,31 +2241,7 @@
           7
         ],
         "source": "DescrHarness",
-        "target": "material"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "DescrHarness",
-        "target": "Sleeve"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "DescrHarness",
-        "target": "Part"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "DescrHarness",
-        "target": "Maximum"
+        "target": "code"
       },
       {
         "weight": 1,
@@ -2238,25 +2254,9 @@
       {
         "weight": 1,
         "units": [
-          7
-        ],
-        "source": "DescrHarness",
-        "target": "code"
-      },
-      {
-        "weight": 1,
-        "units": [
-          7
-        ],
-        "source": "DescrHarness",
-        "target": "Harness Part"
-      },
-      {
-        "weight": 1,
-        "units": [
           8
         ],
-        "source": "Gives",
+        "source": "Maximum",
         "target": "DescrElectricalEquip"
       },
       {
@@ -2272,32 +2272,8 @@
         "units": [
           8
         ],
-        "source": "Maximum",
+        "source": "Gives",
         "target": "DescrElectricalEquip"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "DescrElectricalEquip",
-        "target": "Position"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "DescrElectricalEquip",
-        "target": "Sibling"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "DescrElectricalEquip",
-        "target": "Transverse"
       },
       {
         "weight": 1,
@@ -2313,23 +2289,7 @@
           8
         ],
         "source": "DescrElectricalEquip",
-        "target": "connections"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "DescrElectricalEquip",
-        "target": "Quantity"
-      },
-      {
-        "weight": 1,
-        "units": [
-          8
-        ],
-        "source": "DescrElectricalEquip",
-        "target": "Location"
+        "target": "position"
       },
       {
         "weight": 1,
@@ -2345,7 +2305,47 @@
           8
         ],
         "source": "DescrElectricalEquip",
-        "target": "position"
+        "target": "Location"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "DescrElectricalEquip",
+        "target": "Transverse"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "DescrElectricalEquip",
+        "target": "Sibling"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "DescrElectricalEquip",
+        "target": "connections"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "DescrElectricalEquip",
+        "target": "Position"
+      },
+      {
+        "weight": 1,
+        "units": [
+          8
+        ],
+        "source": "DescrElectricalEquip",
+        "target": "Quantity"
       }
     ]
   }
