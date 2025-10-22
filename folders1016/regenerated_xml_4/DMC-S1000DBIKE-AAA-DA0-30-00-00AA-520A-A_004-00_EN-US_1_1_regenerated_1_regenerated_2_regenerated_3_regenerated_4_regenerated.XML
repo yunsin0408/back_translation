@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <docnumber>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00</docnumber>
+    <title>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00-Content</title>
+  </identification>
+  <content>
+    <ident_status_section>
+      <general_information>
+        <name>Name</name>
+        <value>Document Title</value>
+        <name>Name</name>
+        <value>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00</value>
+        <name>Name</name>
+        <value>Document Type</value>
+        <name>Name</name>
+        <value>Content</value>
+      </general_information>
+      <status>
+        <name>Name</name>
+        <value>Quality Assurance</value>
+        <name>Name</name>
+        <value>First Verification (Tab Top)</value>
+        <name>Name</name>
+        <value>System Breakdown Code</value>
+        <name>Name</name>
+        <value>BY</value>
+        <name>Name</name>
+        <value>Skill Level</value>
+        <name>Name</name>
+        <value>sk01</value>
+        <name>Name</name>
+        <value>Reason for Update (rfu_general)</value>
+        <name>Name</name>
+        <value>S1000D upissued</value>
+        <name>Name</name>
+        <value>Reason for Update (rfu_fig01)</value>
+        <name>Name</name>
+        <value>Figure added</value>
+      </status>
+    </ident_status_section>
+    <applic_group>
+      <application>
+        <id>app-0002</id>
+        <display_text>Mountain bicycle and Mountain storm Mk1</display_text>
+        <evaluation>Type = Mountain bicycle AND Model = Mountain storm</evaluation>
+      </application>
+      <application>
+        <id>app-0003</id>
+        <display_text>Mountain bicycle and Brook trekker Mk9</display_text>
+        <evaluation>Type = Mountain bicycle AND Model = Brook trekker</evaluation>
+      </application>
+    </applic_group>
+    <warnings_cautions>
+      <caution>
+        <id>C0001</id>
+        <warning_caution_paragraph>Be sure to operate on a white surface in order to prevent lost of part that could fall on the floor.</warning_caution_paragraph>
+      </caution>
+    </warnings_cautions>
+    <procedure_steps>
+      <preliminary_requirements>
+        <no_condition>
+          <name>No Condition</name>
+          <value>No conditions specified.</value>
+        </no_condition>
+        <personnel>
+          <name>Personnel</name>
+          <value>No personnel specified.</value>
+        </personnel>
+        <support_equipment>
+          <name>Support Equipment</name>
+          <manufacturer_code>KZ666</manufacturer_code>
+          <part_number>BSK-TLST-001</part_number>
+          <required_quantity>1 EA</required_quantity>
+        </support_equipment>
+        <supplies>
+          <supply>
+            <reference_id>SPEC-0012</reference_id>
+            <supply_number>BKO200</supply_number>
+            <supply_number_type>sp01</supply_number_type>
+            <name>BIKEOIL 200</name>
+            <required_quantity>As required</required_quantity>
+          </supply>
+          <supply>
+            <reference_id>SPEC-0013</reference_id>
+            <supply_number>BKO201</supply_number>
+            <supply_number_type>sp02</supply_number_type>
+            <name>BIKEOIL 201</name>
+            <required_quantity>As required</required_quantity>
+          </supply>
+        </supplies>
+      </preliminary_requirements>
+      <step>
+        <name>Step</name>
+        <value>1. Disconnect the battery.</value>
+      </step>
+      <step>
+        <name>Step</name>
+        <value>2. Remove the seat.</value>
+      </step>
+      <step>
+        <name>Step</name>
+        <value>3. Remove the fuel tank.</value>
+      </step>
+    </procedure_steps>
+  </content>
+</procedure>

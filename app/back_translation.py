@@ -33,7 +33,7 @@ XML file: {filename}
 XML content:
 {xml_content}
 
-Please provide a clean, well-structured markdown document:"""
+Please provide a clean, well-structured markdown document and ONLY the markdown content without any additional explanations or formatting."""
         
         return prompt
     
@@ -96,6 +96,11 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
         
         try:
             markdown_content = self.call_llm(full_prompt)
+            markdown_content = re.sub(r'^```markdown\s*', '', markdown_content, flags=re.MULTILINE)
+            markdown_content = re.sub(r'^```\s*', '', markdown_content, flags=re.MULTILINE)
+            markdown_content = re.sub(r'^`\s*', '', markdown_content, flags=re.MULTILINE)
+            markdown_content = re.sub(r'`\s*$', '', markdown_content, flags=re.MULTILINE)
+
             return markdown_content.strip()
             
         except Exception as e:
@@ -225,13 +230,12 @@ IMPORTANT: Provide ONLY the raw XML content. Do NOT wrap it in markdown code blo
         return results
 
 def main():
-    
     processor = XMLToMarkdownToXMLProcessor()
     original_input_xml_folder = os.getenv("INPUT_XML_FOLDER")
     input_xml_folder = original_input_xml_folder
-    for i in range(2, 6):
-        output_md_folder = f"folders/regenerated_md_{i}"
-        output_xml_folder = f"folders/regenerated_xml_{i}"
+    for i in range(1, 6):
+        output_md_folder = f"folders1016/regenerated_md_{i}"
+        output_xml_folder = f"folders1016/regenerated_xml_{i}"
         print(f"\n=== Pipeline iteration {i} ===")
         try:
             results = processor.full_pipeline(

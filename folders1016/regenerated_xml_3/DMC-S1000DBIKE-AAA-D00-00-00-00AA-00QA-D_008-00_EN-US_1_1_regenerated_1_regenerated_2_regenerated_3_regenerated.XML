@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmAddress xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdent>DMC-S1000DBIKE-AAA-D00-00-00-00AA-00QA-D_008-00_EN-US_1_1_regenerated_1_regenerated</dmIdent>
+  <dmAddressItems>
+    <dmIdent>DMC-S1000DBIKE-AAA-D00-00-00-00AA-00QA-D_008-00_EN-US_1_1_regenerated_1_regenerated</dmIdent>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>00Q</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmIdent>
+      <language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>008</issueNumber>
+        <inWork>00</inWork>
+      </issueInfo>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+      <dmTitle>
+        <techName>Mountain bicycle</techName>
+        <infoName>Conditions cross-reference table</infoName>
+      </dmTitle>
+    </dmAddress>
+  </dmAddressItems>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+            <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+            <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+            <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+          </exportControl>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+          <publishers>
+            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+            <publisher>Aerospace Industries Association of America</publisher>
+            <publisher>ATA e-Business Program</publisher>
+          </publishers>
+          <limitationsOfLiability>
+            <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+            <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability.</limitation>
+          </limitationsOfLiability>
+        </restrictionInfo>
+      </dataRestrictions>
+    </security>
+    <responsibleDepartment>Engineering</responsibleDepartment>
+  </dmStatus>
+  <dependencies>
+    <forCondValues>POST-001</forCondValues>
+    <dependencyTest>A-1</dependencyTest>
+  </dependencies>
+  <content>
+    <referencedApplicGroup>
+      <applicA_1>
+        <assert>
+          <applicPropertyType>condition</applicPropertyType>
+          <applicPropertyIdent>SB-S001</applicPropertyIdent>
+          <applicPropertyValues>POST-001~POST-999</applicPropertyValues>
+        </assert>
+      </applicA_1>
+      <applicA_2>
+        <evaluate>
+          <andOr>and</andOr>
+        </evaluate>
+        <assert1>
+          <applicPropertyType>condition</applicPropertyType>
+          <applicPropertyIdent>SB-S001</applicPropertyIdent>
+          <applicPropertyValues>POST-001~POST-999</applicPropertyValues>
+        </assert1>
+        <assert2>
+          <applicPropertyType>condition</applicPropertyType>
+          <applicPropertyIdent>SB-S009</applicPropertyIdent>
+          <applicPropertyValues>PRE</applicPropertyValues>
+        </assert2>
+      </applicA_2>
+    </referencedApplicGroup>
+    <condCrossReferenceTable>
+      <condTypeList>
+        <condTypeSB>
+          <id>SB</id>
+          <valueDataType>string</valueDataType>
+          <name>Service bulletin</name>
+          <descr>Generic service bulletin type</descr>
+          <enumeration>PRE</enumeration>
+        </condTypeSB>
+        <condTypeBoolean>
+          <id>Boolean</id>
+          <name>generic Boolean condition</name>
+          <descr>Boolean condition</descr>
+          <enumeration>True|False</enumeration>
+        </condTypeBoolean>
+      </condTypeList>
+      <condList>
+        <condSB_S001>
+          <condTypeRefId>SB</condTypeRefId>
+          <id>SB-S001</id>
+          <name>Service bulletin 1</name>
+          <descr>Service bulletin description 1</descr>
+          <refs>
+            <dmRef>
+              <dmIdent>
+                <modelIdentCode>S1000DBIKE</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>DA0</systemCode>
+                <subSystemCode>2</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>520</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+              </dmIdent>
+            </dmRef>
+          </refs>
+        </condSB_S001>
+        <condSB_S009>
+          <condTypeRefId>SB</condTypeRefId>
+          <id>SB-S009</id>
+          <name>Service bulletin 9</name>
+          <descr>Service bulletin description 9</descr>
+          <refs>
+            <dmRef>
+              <dmIdent>
+                <modelIdentCode>S1000DBIKE</modelIdentCode>
+                <systemDiffCode>AAA</systemDiffCode>
+                <systemCode>DA0</systemCode>
+                <subSystemCode>2</subSystemCode>
+                <subSubSystemCode>0</subSubSystemCode>
+                <assyCode>00</assyCode>
+                <disassyCode>00</disassyCode>
+                <disassyCodeVariant>AA</disassyCodeVariant>
+                <infoCode>520</infoCode>
+                <infoCodeVariant>A</infoCodeVariant>
+                <itemLocationCode>A</itemLocationCode>
+              </dmIdent>
+            </dmRef>
+          </refs>
+        </condSB_S009>
+      </condList>
+      <condIncorporationList>
+        <condIncorporationSB_S001_00>
+          <condRefId>SB-S001</condRefId>
+          <incorporationStatus>
+            <incorporationStatus>noeffect</incorporationStatus>
+          </incorporationStatus>
+        </condIncorporationSB_S001_00>
+      </condIncorporationList>
+    </condCrossReferenceTable>
+  </content>
+</dmAddress>

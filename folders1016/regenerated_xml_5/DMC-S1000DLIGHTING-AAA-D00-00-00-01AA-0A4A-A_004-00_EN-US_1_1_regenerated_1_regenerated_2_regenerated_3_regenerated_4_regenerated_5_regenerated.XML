@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmIdent
+    xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+    <dmIdent>
+        <Model Ident Code="S1000DLIGHTING"/>
+        <System Diff Code="AAA"/>
+        <System Code="D00"/>
+        <Sub System Code="0"/>
+        <Sub Sub System Code="0"/>
+        <Assy Code="00"/>
+        <Disassy Code="01"/>
+        <Disassy Code Variant="AA"/>
+        <Info Code="0A4"/>
+        <Info Code Variant="A"/>
+        <Item Location Code="A"/>
+    </dmIdent>
+    <Language>
+        <Country Iso Code="US"/>
+        <Language Iso Code="en"/>
+    </Language>
+    <Issue Info>
+        <Issue Number="004"/>
+        <In Work="00"/>
+    </Issue Info>
+    <dmAddressItems>
+        <Issue Date>
+            <Year>2024</Year>
+            <Month>06</Month>
+            <Day>19</Day>
+        </Issue Date>
+        <dmTitle>
+            <Tech Name="Lights"/>
+            <Info Name="Warnings - List of warnings in the common information repository"/>
+        </dmTitle>
+    </dmAddressItems>
+    <dmStatus>
+        <Issue Type="status"/>
+        <Security>
+            <Security Classification="01"/>
+            <Commercial Classification="cc51"/>
+            <Caveat="cv51"/>
+        </Security>
+        <Data Restrictions>
+            <Restriction Instructions>
+                <Data Distribution>To be made available to all S1000D users.</Data Distribution>
+                <Export Control>
+                    <Export Registration Stmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</Export Registration Stmt>
+                </Export Control>
+                <Data Handling>There are no specific handling instructions for this data module.</Data Handling>
+                <Data Destruction>Users may destroy this data module in accordance with their own local procedures.</Data Destruction>
+                <Data Disclosure>There are no dissemination limitations that apply to this data module.</Data Disclosure>
+            </Restriction Instructions>
+            <Restriction Info>
+                <Copyright>
+                    <Copyright Para>*Copyright (C) 2024* by AeroSpace, Security and Defence Industries Association of Europe - ASD</Copyright Para>
+                    <Copyright Para>*Publishers:*</Copyright Para>
+                    <Random List>
+                        <Item>`Aerospace, Security and Defence Industries Association of Europe</Item>
+                        <Item>`Aerospace Industries Association of America</Item>
+                        <Item>`ATA e-Business Program</Item>
+                    </Random List>
+                    <Copyright Para>*Limitations of liability:*</Copyright Para>
+                    <Random List>
+                        <Item>`This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</Item>
+                        <Item>`Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</Item>
+                        <Item>`Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</Item>
+                    </Random List>
+                    <Copyright Para>The details for copyright can be found in the S1000D Specification.</Copyright Para>
+                </Copyright>
+                <Policy Statement>S1000D-SC-2016-017-002-00 Steering Committee TOR</Policy Statement>
+                <Data Conds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</Data Conds>
+            </Restriction Info>
+        </Data Restrictions>
+    </dmStatus>
+    <Responsible Partner Company>
+        <Enterprise Code="B6865"/>
+        <Enterprise Name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</Enterprise Name>
+    </Responsible Partner Company>
+    <Originator>
+        <Enterprise Code="B6865"/>
+        <Enterprise Name>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</Enterprise Name>
+    </Originator>
+    <Applic>
+        <Display Text="All"/>
+    </Applic>
+    <Tech Standard>
+        <Authority Info And Tp>
+            <Authority Info="20010131"/>
+            <Tech Pub Base="Bike book"/>
+        </Authority Info And Tp>
+    </Tech Standard>
+    <BrexDmRef>
+        <DmRef>
+            <DmRefIdent>
+                <DmCode>
+                    <Model Ident Code="S1000DBIKE"/>
+                    <System Diff Code="AAA"/>
+                    <System Code="D00"/>
+                    <Sub System Code="0"/>
+                    <Sub Sub System Code="0"/>
+                    <Assy Code="00"/>
+                    <Disassy Code="00"/>
+                    <Disassy Code Variant="AA"/>
+                    <Info Code="022"/>
+                    <Info Code Variant="A"/>
+                    <Item Location Code="D"/>
+                </DmCode>
+            </DmRefIdent>
+        </DmRef>
+    </BrexDmRef>
+    <Quality Assurance>
+        <First Verification>
+            <Verification Type="tabtop"/>
+        </First Verification>
+    </Quality Assurance>
+    <System Breakdown Code>LT</System Breakdown Code>
+    <Skill Level>
+        <Skill Level Code="sk01"/>
+    </Skill Level>
+    <Reason For Update>
+        <Id>rfu_general</Id>
+        <Update Reason Type="urt03"/>
+        <Simple Para>S1000D upissued</Simple Para>
+    </Reason For Update>
+    <Remarks>
+        <Simple Para>Related CPF No. 2006-054AA</Simple Para>
+    </Remarks>
+    <Content>
+        <Common Repository>
+            <Warning Repository>
+                <Warning Spec>
+                    <Warning Ident>
+                        <Warning Ident Number="warning-001"/>
+                        <Id>w001</Id>
+                        <Warning And Caution Para>Make sure that the bulb is cool before you replace it.</Warning And Caution Para>
+                    </Warning Ident>
+                </Warning Spec>
+                <Warning Spec>
+                    <Warning Ident>
+                        <Warning Ident Number="warning-002"/>
+                        <Id>w002</Id>
+                        <Warning And Caution Para>Make sure the light glass is not broken before handling it.</Warning And Caution Para>
+                    </Warning Ident>
+                </Warning Spec>
+            </Warning Repository>
+        </Common Repository>
+    </Content>
+</dmIdent>

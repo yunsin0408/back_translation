@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Stem Installation Procedure</title>
+  <introduction>
+    <p>This document details the procedure for installing a bicycle stem. It outlines preliminary requirements, the main procedure, and closing requirements.</p>
+  </introduction>
+  <preliminary_requirements>
+    <tools_and_equipment>
+      <item>
+        <name>Clean Dry Cloth</name>
+        <part_number>KZ666</part_number>
+        <quantity>1</quantity>
+      </item>
+      <item>
+        <name>Work Stand</name>
+        <part_number>KZ555</part_number>
+        <quantity>1</quantity>
+      </item>
+    </tools_and_equipment>
+    <supplies>
+      <item>
+        <name>Rubbing Alcohol</name>
+        <part_number>KZ222</part_number>
+        <quantity>1 Liter</quantity>
+      </item>
+      <item>
+        <name>General Lubricant</name>
+        <part_number>KZ222</part_number>
+        <quantity>1 Liter</quantity>
+      </item>
+    </supplies>
+    <spares>
+      <item>
+        <name>Stem</name>
+        <part_number>KZ555</part_number>
+        <quantity>1</quantity>
+      </item>
+      <item>
+        <name>Stem Bolt</name>
+        <part_number>KZ555</part_number>
+        <quantity>1</quantity>
+      </item>
+    </spares>
+    <safety_precautions>
+      <caution>Do not overtighten the stem bolt. Overtightening can damage the headset bearings.</caution>
+      <caution>The stem bolt does not secure the stem.</caution>
+      <note>Ensure the stem is aligned forward in line with the wheel.</note>
+    </safety_precautions>
+    <prerequisites>
+      <p>Ensure the bicycle is securely mounted on a work stand with the front wheel free of the ground.</p>
+    </prerequisites>
+    <personnel>
+      <operator>
+        <skill_level>sk02</skill_level>
+        <estimated_time>1 hour</estimated_time>
+        <category>Bike Rider</category>
+      </operator>
+    </personnel>
+  </preliminary_requirements>
+  <main_procedure>
+    <step>
+      <title>Cleaning</title>
+      <p>Remove all rust and corrosion using a clean dry cloth and rubbing alcohol.</p>
+    </step>
+    <step>
+      <title>Stem Installation</title>
+      <list>
+        <item>
+          <title>Lubrication</title>
+          <p>Apply general lubricant to the following:</p>
+          <list>
+            <item>The threads of the stem and stem bolt.</item>
+            <item>The sides of the stem.</item>
+            <item>The top of the wedge.</item>
+          </list>
+          <image source="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAj/U0AAAAASUVORK5CYII=" alt="Image Placeholder"/>
+          <p>(Image placeholder – See original document for actual image)</p>
+        </item>
+        <item>
+          <title>Installation</title>
+          <p>Install the stem into the steerer tube.</p>
+          <image source="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAj/U0AAAAASUVORK5CYII=" alt="Image Placeholder"/>
+          <p>(Image placeholder – See original document for actual image)</p>
+        </item>
+        <item>
+          <title>Alignment &amp; Tightening</title>
+          <p>Adjust the stem to align with the wheel. Firmly tighten the stem bolt.</p>
+        </item>
+      </list>
+    </step>
+    <step>
+      <title>Handlebar Installation</title>
+      <p>Install the handlebars (refer to document: <xref href="data:text/plain;base64,S1000DBIKEAAA DA220000AA720A" />).</p>
+    </step>
+  </main_procedure>
+  <closing_requirements>
+    <p>No specific closing requirements are listed.</p>
+  </closing_requirements>
+</procedure>

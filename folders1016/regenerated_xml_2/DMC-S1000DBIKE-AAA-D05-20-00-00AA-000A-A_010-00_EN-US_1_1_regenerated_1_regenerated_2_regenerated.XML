@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Maintenance Planning Document</title>
+  <content>
+    <section>
+      <title>Content</title>
+      <section>
+        <title>Section: Overview</title>
+        <p>This document outlines the maintenance planning for a bicycle, detailing various tasks and their associated requirements.</p>
+        <p>The document defines a series of maintenance tasks, each with specific prerequisites, resource needs, and inspection criteria.  Tasks vary in complexity and required skill level.</p>
+      </section>
+      <section>
+        <title>Section: Maintenance Tasks</title>
+        <task id="001">
+          <worthinessLimit>Recommended</worthinessLimit>
+          <applicabilityReference>app-MK1-9</applicabilityReference>
+          <description>A routine inspection performed after each ride to identify immediate issues.</description>
+          <prerequisites>None</prerequisites>
+          <resources>
+            <personnel>
+              <quantity>1</quantity>
+              <role>Operator</role>
+              <estimatedTime unit="hours">0.1</estimatedTime>
+            </personnel>
+          </resources>
+          <inspectionCriteria>Visual check for damage or wear.</inspectionCriteria>
+          <trigger>After each ride.</trigger>
+        </task>
+        <task id="002">
+          <worthinessLimit>Recommended</worthinessLimit>
+          <applicabilityReference>app-MK1-9</applicabilityReference>
+          <description>Checking and adjusting tire pressure.</description>
+          <prerequisites>None</prerequisites>
+          <resources>
+            <personnel>
+              <quantity>1</quantity>
+              <role>Operator</role>
+              <estimatedTime unit="hours">0.1</estimatedTime>
+            </personnel>
+            <equipment>
+              <item>Tire pressure gauge</item>
+              <item>pump</item>
+            </equipment>
+          </resources>
+          <inspectionCriteria>Tire pressure within recommended range.</inspectionCriteria>
+          <trigger>Weekly or before each longer ride.</trigger>
+        </task>
+        <task id="003">
+          <worthinessLimit>Recommended</worthinessLimit>
+          <applicabilityReference>app-MK1-9</applicabilityReference>
+          <description>Inspecting brake pads, cables, and levers for wear or damage.</description>
+          <prerequisites>None</prerequisites>
+          <resources>
+            <personnel>
+              <quantity>1</quantity>
+              <role>Operator</role>
+              <estimatedTime unit="hours">0.2</estimatedTime>
+            </personnel>
+          </resources>
+          <inspectionCriteria>Proper brake function and pad thickness.</inspectionCriteria>
+          <trigger>Weekly or before each ride.</trigger>
+        </task>
+        <task id="004">
+          <worthinessLimit>Recommended</worthinessLimit>
+          <applicabilityReference>app-MK1-9</applicabilityReference>
+          <description>Applying lubricant to the chain for smooth operation.</description>
+          <prerequisites>None</prerequisites>
+          <resources>
+            <personnel>
+              <quantity>1</quantity>
+              <role>Operator</role>
+              <estimatedTime unit="hours">0.1</estimatedTime>
+            </personnel>
+            <equipment>
+              <item>Lubricant</item>
+              <item>rag</item>
+            </equipment>
+          </resources>
+          <inspectionCriteria>Chain visibly lubricated.</inspectionCriteria>
+          <trigger>As needed, based on riding conditions.</trigger>
+        </task>
+        <task id="005">
+          <worthinessLimit>Recommended</worthinessLimit>
+          <applicabilityReference>app-MK1-9</applicabilityReference>
+          <description>Cleaning the hub bearings.</description>
+          <prerequisites>Rear wheel removed (referenced DM Code: S1000DBIKE, system DA0, sub-system 2)</prerequisites>
+          <resources>
+            <personnel>
+              <quantity>1</quantity>
+              <role>Supervisor</role>
+              <skillLevel>sk03</skillLevel>
+              <estimatedTime unit="hours">0.8</estimatedTime>
+            </personnel>
+            <personnel>
+              <quantity>1</quantity>
+              <role>Operator</role>
+              <estimatedTime unit="hours">0.3</estimatedTime>
+            </personnel>
+            <equipment>
+              <item>Specialist toolset</item>
+            </equipment>
+            <supplies>
+              <item>Degreasing agent</item>
+              <item>general grease</item>
+            </supplies>
+          </resources>
+          <inspectionCriteria>Smooth bearing rotation.</inspectionCriteria>
+          <trigger>Every 6 months or after excessive exposure to water/dirt.</trigger>
+          <externalRequirement>Referenced external publication: D6-1234, "My Publication", January 2007, Rev 1.</externalRequirement>
+        </task>
+      </section>
+      <section>
+        <title>Section: Key Considerations</title>
+        <p>Tasks require varying levels of skill, from basic operator tasks to those requiring a qualified supervisor/mechanic.</p>
+        <p>Some tasks reference external documents or DM codes for more detailed information.</p>
+        <p>Each task has a defined trigger for when it should be performed.</p>
+        <p>The <code>applicabilityReference</code> (app-MK1-9) likely refers to a higher-level document defining the scope and context of this maintenance plan.</p>
+        <p>Tasks like Hub Bearing Cleaning have defined thresholds (e.g., 6 months) and limits for inspection.</p>
+      </section>
+    </content>
+  </proced>
+</proced>

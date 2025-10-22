@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc id="DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-921A-A_010-00_EN-US_1_1_regenerated_1_regenerated" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Light Replacement Procedure</title>
+  <introduction>This document details the procedure for replacing the front and rear lights on a bicycle, specifically involving the replacement of yellow bulbs with white bulbs and modification of the glass cover.</introduction>
+  <safety>Refer to warning and caution references: <ref>c001</ref>, <ref>c002</ref>, <ref>w001</ref> for detailed safety information.</safety>
+  <preliminary>
+    <locations>
+      <location id="wla-0001">
+        <description>Front handlebar location.</description>
+      </location>
+      <location id="wla-0002">
+        <description>Rear saddle location.</description>
+      </location>
+    </locations>
+    <tools>
+      <tool id="seq-0001">
+        <name>Toolset</name>
+        <description>Special toolset containing a screwdriver (reference: <ref>seq-0001</ref>).</description>
+      </tool>
+      <tool id="seq-0002">
+        <name>Screwdriver</name>
+        <description>Special screwdriver (reference: <ref>seq-0002</ref>) from the toolset.</description>
+      </tool>
+    </tools>
+    <materials>
+      <material id="spa-0003">
+        <name>Front Bulb (New)</name>
+        <description>White bulb (reference: <ref>spa-0003</ref>).</description>
+      </material>
+      <material id="spa-0004">
+        <name>Rear Bulb (New)</name>
+        <description>White bulb (reference: <ref>spa-0004</ref>).</description>
+      </material>
+      <material id="spa-0005">
+        <name>Glass Cover</name>
+        <description>Glass (reference: <ref>spa-0005</ref>).</description>
+      </material>
+      <material id="spa-0007">
+        <name>Modified Glass Cover</name>
+        <description>Glass with vent hole (reference: <ref>spa-0007</ref>).</description>
+      </material>
+      <material id="spa-0008">
+        <name>Original Glass</name>
+        <description>Original glass (reference: <ref>spa-0008</ref>) can be modified.</description>
+      </material>
+      <material id="spa-0002">
+        <name>Bulb Kit</name>
+        <description>Kit containing new bulbs (reference: <ref>spa-0002</ref>).</description>
+      </material>
+      <material id="spa-0001">
+        <name>Discarded Bulb</name>
+        <description>Yellow bulb (reference: <ref>spa-0001</ref>).</description>
+      </material>
+    </materials>
+  </preliminary>
+  <procedure>
+    <step id="1">
+      <title>Front Light Replacement</title>
+      <instruction>From location <ref>wla-0001</ref>, remove the glass cover (<ref>spa-0005</ref>).</instruction>
+      <instruction>Remove the used yellow front bulb (<ref>spa-0001</ref>).</instruction>
+      <instruction>Discard the used bulb (<ref>spa-0001</ref>).</instruction>
+      <instruction>Remove the new white bulb (<ref>spa-0003</ref>) from the kit (<ref>spa-0002</ref>).</instruction>
+      <instruction>Install the new white bulb (<ref>spa-0003</ref>).</instruction>
+      <instruction>Install the glass cover (<ref>spa-0005</ref>) on the light.</instruction>
+      <instruction>Attach the light fitting to the handlebar.</instruction>
+      <instruction>Apply the protective strip around the handlebar.</instruction>
+      <instruction>Install the washer on the screw.</instruction>
+      <instruction>Use the special screwdriver (<ref>seq-0002</ref>) from the toolset (<ref>seq-0001</ref>) and tighten the screw into the hole at the bottom of the clamp to secure it to the handlebar.</instruction>
+    </step>
+    <step id="2">
+      <title>Rear Light Replacement</title>
+      <instruction>From location <ref>wla-0002</ref>, remove the glass cover (<ref>spa-0005</ref>).</instruction>
+      <instruction>Remove the used yellow rear bulb (<ref>spa-0001</ref>).</instruction>
+      <instruction>Discard the used bulb (<ref>spa-0001</ref>).</instruction>
+      <instruction>Remove the new white bulb (<ref>spa-0004</ref>) from the kit (<ref>spa-0002</ref>).</instruction>
+      <instruction>Install the new white bulb (<ref>spa-0004</ref>).</instruction>
+      <instruction>Glass Modification (if applicable): Drill a 4mm hole in the middle of the glass cover (<ref>spa-0008</ref>) to allow venting and heat evacuation. The modified glass cover is available as reference <ref>spa-0007</ref>.</instruction>
+      <instruction>Install the modified (or unmodified) glass cover (<ref>spa-0007</ref> or <ref>spa-0008</ref>) on the light.</instruction>
+    </step>
+  </procedure>
+  <closing>Verify functionality by switching the lights on if necessary.</closing>
+</proc>

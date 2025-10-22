@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmico xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmicoHead>
+    <dmicoTitle>DMC-S1000DBIKE-AAA-DA0-20-00-00AA-412A-A_010-00_EN-US</dmicoTitle>
+  </dmicoHead>
+  <dmicoBody>
+    <identAndStatusSection>
+      <dmAddress>
+        <dmIdent>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>DA0</systemCode>
+          <subSystemCode>2</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>412</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>A</itemLocationCode>
+        </dmIdent>
+        <language>
+          <countryIsoCode>US</countryIsoCode>
+          <languageIsoCode>en</languageIsoCode>
+        </language>
+        <issueInfo>
+          <issueNumber>010</issueNumber>
+          <inWork>00</inWork>
+        </issueInfo>
+        <dmAddressItems>
+          <issueDate>
+            <year>2024</year>
+            <month>06</month>
+            <day>19</day>
+          </issueDate>
+          <dmTitle>
+            <techName>Rear wheel</techName>
+            <infoName>Detected fault</infoName>
+          </dmTitle>
+        </dmAddressItems>
+      </dmAddress>
+      <dmStatus>
+        <issueType>changed</issueType>
+        <security>
+          <securityClassification>01</securityClassification>
+          <commercialClassification>cc51</commercialClassification>
+          <caveat>cv51</caveat>
+        </security>
+        <dataRestrictions>
+          <restrictionInstructions>
+            <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+            <exportControl>
+              <exportRegistrationStatement>
+                <simpleParagraph>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simpleParagraph>
+              </exportRegistrationStatement>
+            </exportControl>
+            <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+            <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+            <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+          </restrictionInstructions>
+          <restrictionInfo>
+            <copyright>
+              <paragraph>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</paragraph>
+              <paragraph>Publishers:</paragraph>
+              <randomList>
+                <listItem>Aerospace, Security and Defence Industries Association of Europe</listItem>
+                <listItem>Aerospace Industries Association of America</listItem>
+                <listItem>ATA e-Business Program</listItem>
+              </randomList>
+              <paragraph>Limitations of liability:</paragraph>
+              <randomList>
+                <listItem>
+                  <paragraph>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</paragraph>
+                </listItem>
+                <listItem>
+                  <paragraph>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</paragraph>
+                </listItem>
+                <listItem>
+                  <paragraph>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</paragraph>
+                </listItem>
+              </randomList>
+              <paragraph>The details for copyright can be found in the S1000D Specification.</paragraph>
+            </copyright>
+            <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+            <dataConditions>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConditions>
+          </restrictionInfo>
+        </dataRestrictions>
+      </dmStatus>
+    </identAndStatusSection>
+    <responsiblePartnerCompany>
+      <enterpriseCode>B6865</enterpriseCode>
+      <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </responsiblePartnerCompany>
+    <originator>
+      <enterpriseCode>B6865</enterpriseCode>
+      <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </originator>
+    <applicCrossRefTableRef>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>00W</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>D</itemLocationCode>
+          </dmCode>
+        </dmRefIdent>
+      </dmRef>
+    </applicCrossRefTableRef>
+    <applic>
+      <displayText>
+        <simpleParagraph>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simpleParagraph>
+      </displayText>
+      <evaluate>
+        <assert>
+          <applicPropertyIdent>type</applicPropertyIdent>
+          <applicPropertyType>prodattr</applicPropertyType>
+          <applicPropertyValues>Mountain bicycle</applicPropertyValues>
+        </assert>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>model</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mountain storm</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>version</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mk1</applicPropertyValues>
+          </assert>
+        </evaluate>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>model</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Brook trekker</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>version</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mk9</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </evaluate>
+    </applic>
+    <techOrder>
+      <task>
+        <taskIdent>001</taskIdent>
+        <taskTitle>Perform inspection</taskTitle>
+      </task>
+    </techOrder>
+    <content>
+      <faultDiagnosis>
+        <lruItem>
+          <lru>
+            <name>Tire</name>
+            <identNumber>
+              <manufacturerCode>KT666</manufacturerCode>
+              <partAndSerialNumber>
+                <partNumber>TIRES-010101</partNumber>
+              </partAndSerialNumber>
+            </identNumber>
+          </lru>
+        </lruItem>
+        <lruItem>
+          <lru>
+            <name>Rear wheel</name>
+            <identNumber>
+              <manufacturerCode>KZ333</manufacturerCode>
+              <partAndSerialNumber>
+                <partNumber>WH-001</partNumber>
+              </partAndSerialNumber>
+            </identNumber>
+          </lru>
+        </lruItem>
+      </faultDiagnosis>
+    </content>
+  </dmicoBody>
+</dmico>

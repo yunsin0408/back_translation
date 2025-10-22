@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DML-S1000DBIKE-B6865-S-2024-00001_001-00_1_1_regenerated.XML</title>
+  <content>
+    <section>
+      <title>Technical Documentation - Bike Maintenance &amp; Troubleshooting</title>
+      <paragraph>This document details maintenance procedures and troubleshooting information for a bicycle, based on a structured data set. Each section corresponds to a system or component.</paragraph>
+    </section>
+    <section>
+      <title>1. Headset &amp; Steering (System DA1)</title>
+      <subsection>
+        <title>1.1 Procedure</title>
+        <item>
+          <attribute name="component">Headset</attribute>
+          <attribute name="procedureIssue">Installation</attribute>
+          <attribute name="issueNumber">008</attribute>
+          <attribute name="status">Open</attribute>
+        </item>
+      </subsection>
+    </section>
+    <section>
+      <title>2. Braking System (System DA2)</title>
+      <subsection>
+        <title>2.1 Procedure</title>
+        <item>
+          <attribute name="component">Brake Pads</attribute>
+          <attribute name="procedureIssue">Replace</attribute>
+          <attribute name="issueNumber">011</attribute>
+          <attribute name="status">Open</attribute>
+        </item>
+      </subsection>
+    </section>
+    <section>
+      <title>3. Drivetrain - Chain (System DA4)</title>
+      <subsection>
+        <title>3.1 Procedure 1</title>
+        <item>
+          <attribute name="component">Chain</attribute>
+          <attribute name="procedureIssue">Oil</attribute>
+          <attribute name="issueNumber">011</attribute>
+          <attribute name="date">2024-06-19</attribute>
+        </item>
+      </subsection>
+      <subsection>
+        <title>3.2 Procedure 2</title>
+        <item>
+          <attribute name="procedureIssue">Clean with chemical agent</attribute>
+          <attribute name="issueNumber">010</attribute>
+          <attribute name="variant">Use chain cleaning fluid</attribute>
+          <attribute name="date">2024-06-19</attribute>
+        </item>
+      </subsection>
+      <subsection>
+        <title>3.3 Procedure 3</title>
+        <item>
+          <attribute name="procedureIssue">Correlated fault</attribute>
+          <attribute name="issueNumber">008</attribute>
+          <attribute name="date">2024-06-19</attribute>
+        </item>
+      </subsection>
+    </section>
+    <section>
+      <title>4. Drivetrain - Gears (System DA5)</title>
+      <subsection>
+        <title>4.1 Procedure 1</title>
+        <item>
+          <attribute name="component">Gears</attribute>
+          <attribute name="procedureIssue">Description of how it is made</attribute>
+          <attribute name="issueNumber">010</attribute>
+          <attribute name="date">2024-06-19</attribute>
+        </item>
+      </subsection>
+      <subsection>
+        <title>4.2 Procedure 2</title>
+        <item>
+          <attribute name="component">Mechs</attribute>
+          <attribute name="procedureIssue">Description of how it is made</attribute>
+          <attribute name="issueNumber">010</attribute>
+          <attribute name="date">2024-06-19</attribute>
+        </item>
+      </subsection>
+      <subsection>
+        <title>4.3 Procedure 3</title>
+        <item>
+          <attribute name="component">Hubs</attribute>
+          <attribute name="procedureIssue">Clean with chemical agent</attribute>
+          <attribute name="variant">Use degreasing agent</attribute>
+          <attribute name="issueNumber">011</attribute>
+          <attribute name="date">2024-06-19</attribute>
+        </item>
+      </subsection>
+      <subsection>
+        <title>4.4 Procedure 4</title>
+        <item>
+          <attribute name="component">Shifters</attribute>
+          <attribute name="procedureIssue">Description of how it is made</attribute>
+          <attribute name="issueNumber">010</attribute>
+          <attribute name="date">2024-06-19</attribute>
+        </item>
+      </subsection>
+    </section>
+    <section>
+      <title>5. Wheels &amp; Tires (System DA5 - continued)</title>
+      <subsection>
+        <title>5.1 Procedure</title>
+        <item>
+          <attribute name="component">Hubs (Also listed under Drivetrain)</attribute>
+          <attribute name="procedureIssue">Clean with chemical agent</attribute>
+          <attribute name="variant">Use degreasing agent</attribute>
+          <attribute name="issueNumber">011</attribute>
+          <attribute name="date">2024-06-19</attribute>
+        </item>
+      </subsection>
+    </section>
+    <section>
+      <title>6. General / Undefined Systems (Systems DA1, DA2)</title>
+      <subsection>
+        <title>6.1 Procedure 1</title>
+        <item>
+          <attribute name="system">DA1 - Headset &amp; Steering</attribute>
+          <attribute name="component">Headset</attribute>
+          <attribute name="procedureIssue">Installation</attribute>
+          <attribute name="issueNumber">008</attribute>
+        </item>
+      </subsection>
+      <subsection>
+        <title>6.2 Procedure 2</title>
+        <item>
+          <attribute name="system">DA2 - Braking</attribute>
+          <attribute name="component">Brake Pads</attribute>
+          <attribute name="procedureIssue">Replace</attribute>
+          <attribute name="issueNumber">011</attribute>
+        </item>
+      </subsection>
+    </section>
+    <section>
+      <title>Notes</title>
+      <paragraph>This documentation is structured by system/component.</paragraph>
+      <paragraph>Issue numbers can indicate the severity or priority of the task.</paragraph>
+      <paragraph>Dates indicate when the procedure/troubleshooting information was last updated.</paragraph>
+      <paragraph>Some components are listed in multiple systems as they may belong to both.</paragraph>
+    </section>
+  </content>
+</proced>

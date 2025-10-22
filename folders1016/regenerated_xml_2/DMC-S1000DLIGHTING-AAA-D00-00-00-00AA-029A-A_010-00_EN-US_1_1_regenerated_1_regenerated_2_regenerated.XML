@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applicability xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmApplicability>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>029</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmIdent>
+      <language>
+        <countryIsoCode>US</countryIsoCode>
+        <languageIsoCode>en</languageIsoCode>
+      </language>
+      <issueInfo>
+        <issueNumber>010</issueNumber>
+        <inWork>0</inWork>
+      </issueInfo>
+    </dmAddress>
+    <dmIssue>
+      <issueDate>2019-01-28</issueDate>
+    </dmIssue>
+    <dmStatus>
+      <status>Released</status>
+    </dmStatus>
+    <dmConfigurationManagement>
+      <description>Not applicable</description>
+    </dmConfigurationManagement>
+    <dmRelatedDocuments>
+      <description>Not applicable</description>
+    </dmRelatedDocuments>
+  </dmApplicability>
+  <dmContent>
+    <wiringFields>
+      <descrWire>
+        <fieldName>Field Name</fieldName>
+        <description>Description of the field. (Repeated for each field)</description>
+        <fieldName>Wire</fieldName>
+        <description>Contains the sequential number of the wire, e.g. in the harness.</description>
+        <fieldName>Harness ident</fieldName>
+        <description>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</description>
+        <fieldName>Wire sequential number</fieldName>
+        <description>Contains the sequential number of the wire, e.g. in the harness.</description>
+        <fieldName>Wire information circuit code</fieldName>
+        <description>Contains the identifier of the circuit to which the wire belongs.</description>
+        <fieldName>Wire information wire section identification</fieldName>
+        <description>Contains the identifier of the section to which the wire belongs.</description>
+        <fieldName>Length</fieldName>
+        <description>Length identifies the length of the wire. The given value is approximately 10% higher than necessary to install the wire on the bicycle.</description>
+        <fieldName>Color</fieldName>
+        <description>Color identifies the color of the wire sheating.</description>
+        <fieldName>Twisting</fieldName>
+        <description>Twistig identifies wires, which are twisted together with a unique identifier.</description>
+        <fieldName>Electric ident</fieldName>
+        <description>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</description>
+        <fieldName>Contact</fieldName>
+        <description>Contact identifies the electrical contact to which the wire is connected.</description>
+        <fieldName>Group code</fieldName>
+        <description>Identifies wires, which are connected to the same terminal lug.</description>
+        <fieldName>Screens</fieldName>
+        <description>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</description>
+        <fieldName>Responsible partner company</fieldName>
+        <description>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</description>
+        <fieldName>Feed-through</fieldName>
+        <description>Identifies bunges through which the wire is routed.</description>
+        <fieldName>Next higher assembly</fieldName>
+        <description>Identifies the next higher assenbly, in which the wire is installed.</description>
+      </descrWire>
+      <descrHarness>
+        <fieldName>Field Name</fieldName>
+        <description>Description of the field. (Repeated for each field)</description>
+        <fieldName>Harness ident</fieldName>
+        <description>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</description>
+        <fieldName>Harness Part number</fieldName>
+        <description>Harness part number gives the part number of the harness identified by the harness ident.</description>
+        <fieldName>Harness variant</fieldName>
+        <description>Harness variant identifies the variant of the harness in addition to the harness part number.</description>
+        <fieldName>Harness issue</fieldName>
+        <description>Harness issue identifies the production variant of the harness in addition to the harness part number.</description>
+        <fieldName>Harness nomenclature</fieldName>
+        <description>Harness nomenclature identifies the harness by using a specific name.</description>
+        <fieldName>Harness separation code</fieldName>
+        <description>Harness separation code gives the separation code of the harness.</description>
+        <fieldName>Minimum temperature</fieldName>
+        <description>Minimum temperature gives the minimum environment temperature in which the harness can be used.</description>
+        <fieldName>Maximum temperature</fieldName>
+        <description>Maximum temperature gives the maximum environment temperature in which the harness can be used.</description>
+        <fieldName>Harness environment</fieldName>
+        <description>Harness environment indicates that a harness is used in high vibriation or/and hydraulic areas.</description>
+        <fieldName>Sleeve</fieldName>
+        <description>Gives the part number and/or the material of the sleeves used on the harness.</description>
+        <fieldName>Responsible partner company</fieldName>
+        <description>The responsible partner company indicates the company responsible for the integration of the harness to the bicycle.</description>
+      </descrHarness>
+      <descrElectricalEquip>
+        <fieldName>Field Name</fieldName>
+        <description>Description of the field. (Repeated for each field)</description>
+        <fieldName>Electric ident</fieldName>
+        <description>Electric ident shows the electrical identification, which is available for all electrical equipment, eg L1.</description>
+        <fieldName>Part identification</fieldName>
+        <description>Part identification shows the part number of the equipment. In most cases the part number is identical to the part desciption.</description>
+        <fieldName>Location</fieldName>
+        <description>Location shows the installation position of the equipment on the bicycle.</description>
+        <fieldName>Next higher assenmbly</fieldName>
+        <description>Next higher assenmbly identifies the box or panel, in which the equipment is installed.</description>
+        <fieldName>Position on next higher assenmbly</fieldName>
+        <description>Gives the position on the next higher assembly, in which the equipment is installed.</description>
+        <fieldName>Maximum number of mounting positions</fieldName>
+        <description>Gives the maximum number of mounting positions on the next higher assembly.</description>
+        <fieldName>Sibling plug identification</fieldName>
+        <description>Sibling plug identification contains the electric ident of the mating connector.</description>
+        <fieldName>Transverse link</fieldName>
+        <description>Transverse link shows external or internal electrical connections of the equipment.</description>
+        <fieldName>Responsible partner company</fieldName>
+        <description>The responsible partner company indicates the company responsible for the integration of the equipment to the bicycle.</description>
+        <fieldName>Quantity</fieldName>
+        <description>Gives the quantity of multiple occurence equipment.</description>
+      </descrElectricalEquip>
+    </wiringFields>
+  </dmContent>
+</applicability>

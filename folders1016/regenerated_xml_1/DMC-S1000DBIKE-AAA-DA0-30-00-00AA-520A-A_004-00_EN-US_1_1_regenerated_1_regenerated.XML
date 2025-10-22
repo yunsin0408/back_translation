@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <content>
+    <heading>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00-Content</heading>
+    <section>
+      <heading>1. Ident and Status Section</heading>
+      <subsection>
+        <heading>1.1 General Information</heading>
+        <info>
+          <name>Name</name>
+          <value>Document Title</value>
+        </info>
+        <info>
+          <name>Value</name>
+          <value>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Document Type</value>
+        </info>
+        <info>
+          <name>Value</name>
+          <value>Content</value>
+        </info>
+      </subsection>
+      <subsection>
+        <heading>1.2 Status</heading>
+        <info>
+          <name>Name</name>
+          <value>Quality Assurance</value>
+        </info>
+        <info>
+          <name>Value</name>
+          <value>First Verification (Tab Top)</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>System Breakdown Code</value>
+        </info>
+        <info>
+          <name>Value</name>
+          <value>BY</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Skill Level</value>
+        </info>
+        <info>
+          <name>Value</name>
+          <value>sk01</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Reason for Update (rfu_general)</value>
+        </info>
+        <info>
+          <name>Value</name>
+          <value>S1000D upissued</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Reason for Update (rfu_fig01)</value>
+        </info>
+        <info>
+          <name>Value</name>
+          <value>Figure added</value>
+        </info>
+      </subsection>
+    </section>
+    <section>
+      <heading>2. Content</heading>
+      <subsection>
+        <heading>2.1 Referenced Applic Group</heading>
+        <subsubsection>
+          <heading>2.1.1 Application 1</heading>
+          <info>
+            <name>Name</name>
+            <value>ID</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>app-0002</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Display Text</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>Mountain bicycle and Mountain storm Mk1</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Evaluation</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>Type = Mountain bicycle AND Model = Mountain storm</value>
+          </info>
+        </subsubsection>
+        <subsubsection>
+          <heading>2.1.2 Application 2</heading>
+          <info>
+            <name>Name</name>
+            <value>ID</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>app-0003</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Display Text</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>Mountain bicycle and Brook trekker Mk9</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Evaluation</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>Type = Mountain bicycle AND Model = Brook trekker</value>
+          </info>
+        </subsubsection>
+      </subsection>
+      <subsection>
+        <heading>2.2 Warnings and Cautions</heading>
+        <subsubsection>
+          <heading>2.2.1 Caution 1</heading>
+          <info>
+            <name>Name</name>
+            <value>ID</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>C0001</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Warning/Caution Paragraph</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>Be sure to operate on a white surface in order to prevent lost of part that could fall on the floor.</value>
+          </info>
+        </subsubsection>
+      </subsection>
+      <subsection>
+        <heading>2.3 Procedure</heading>
+        <subsubsection>
+          <heading>2.3.1 Preliminary Requirements</heading>
+          <info>
+            <name>Name</name>
+            <value>No Condition</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>No conditions specified.</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Personnel</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>No personnel specified.</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Support Equipment</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Name</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>Specialist toolset</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Identification</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Manufacturer Code</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>KZ666</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Part Number</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>BSK-TLST-001</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Required Quantity</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>1 EA</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supplies</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supply 1</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Reference ID</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>SPEC-0012</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supply Number</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>BKO200</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supply Number Type</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>sp01</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Name</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>BIKEOIL 200</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Required Quantity</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>As required</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supply 2</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Reference ID</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>SPEC-0013</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supply Number</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>BKO201</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supply Number Type</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>sp02</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Name</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>BIKEOIL 201</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Required Quantity</value>
+          </info>
+          <info>
+            <name>Value</name>
+            <value>As required</value>
+          </info>
+        </subsubsection>
+        <subsubsection>
+          <heading>2.3.2 Procedure Steps</heading>
+          <info>
+            <name>Step</name>
+            <value>1. Disconnect the battery.</value>
+          </info>
+          <info>
+            <name>Step</name>
+            <value>2. Remove the seat.</value>
+          </info>
+          <info>
+            <name>Step</name>
+            <value>3. Remove the fuel tank.</value>
+          </info>
+        </subsubsection>
+      </subsection>
+    </section>
+  </content>
+</procedure>

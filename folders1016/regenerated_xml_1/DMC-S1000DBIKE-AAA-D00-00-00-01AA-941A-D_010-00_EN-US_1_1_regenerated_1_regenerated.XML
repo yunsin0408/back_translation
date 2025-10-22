@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc title="Bicycle Illustrated Parts Catalog" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <docinfo>
+    <title>Bicycle Illustrated Parts Catalog</title>
+  </docinfo>
+  <section title="Document Information">
+    <p>This document details the parts catalog for a bicycle. It includes illustration references, part numbers, descriptions, and logistical data.</p>
+  </section>
+  <section title="Catalog Structure">
+    <section title="Top-Level Assembly: Bicycle">
+      <section title="Item Breakdown">
+        <table frame="header">
+          <header>
+            <cell>   </cell>
+            <cell>Item</cell>
+            <cell> </cell>
+            <cell> </cell>
+            <cell>Qty</cell>
+            <cell>Description</cell>
+          </header>
+          <row>
+            <cell>1</cell>
+            <cell>Bicycle</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell>Complete bicycle assembly</cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>Frame</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell>Bicycle frame</cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell>Front Wheel Assembly</cell>
+            <cell>WH-002</cell>
+            <cell>KZ888</cell>
+            <cell>1</cell>
+            <cell>Front wheel with tire, spokes, and hub.</cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell>Rear Wheel Assembly</cell>
+            <cell>WH-001</cell>
+            <cell>KZ888</cell>
+            <cell>1</cell>
+            <cell>Rear wheel with tire, spokes, and hub.</cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>Front Brake Subsystem</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell> </cell>
+          </row>
+          <row>
+            <cell>6</cell>
+            <cell>Rear Brake Subsystem</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell> </cell>
+          </row>
+          <row>
+            <cell>7</cell>
+            <cell>Computer</cell>
+            <cell>CP-001</cell>
+            <cell>KZ888</cell>
+            <cell>1</cell>
+            <cell>Bicycle computer.</cell>
+          </row>
+          <row>
+            <cell>8</cell>
+            <cell>Drive Train System</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell> </cell>
+          </row>
+          <row>
+            <cell>9</cell>
+            <cell>Steering System</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell> </cell>
+          </row>
+          <row>
+            <cell>10</cell>
+            <cell>Light System</cell>
+            <cell>LRU1001</cell>
+            <cell>KZ777</cell>
+            <cell>1</cell>
+            <cell>Equipped with Pilferage Code J, Special Storage 1</cell>
+          </row>
+          <row>
+            <cell>11</cell>
+            <cell>Brake System</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell>Complete brake assembly</cell>
+          </row>
+          <row>
+            <cell>12</cell>
+            <cell>Seat</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell> </cell>
+          </row>
+        </table>
+      </section>
+    </section>
+    <section title="Sub-Assemblies and Components">
+      <section title="Wheel Assemblies">
+        <table frame="header">
+          <header>
+            <cell>   </cell>
+            <cell>Item</cell>
+            <cell> </cell>
+            <cell> </cell>
+            <cell>Qty</cell>
+            <cell>Description</cell>
+          </header>
+          <row>
+            <cell>3</cell>
+            <cell>Front Wheel Assembly</cell>
+            <cell>WH-002</cell>
+            <cell>KZ888</cell>
+            <cell>1</cell>
+            <cell>Front wheel with tire, spokes, and hub.</cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell>Rear Wheel Assembly</cell>
+            <cell>WH-001</cell>
+            <cell>KZ888</cell>
+            <cell>1</cell>
+            <cell>Rear wheel with tire, spokes, and hub.</cell>
+          </row>
+        </table>
+      </section>
+      <section title="Electrical System">
+        <table frame="header">
+          <header>
+            <cell>   </cell>
+            <cell>Item</cell>
+            <cell> </cell>
+            <cell> </cell>
+            <cell>Qty</cell>
+            <cell>Description</cell>
+          </header>
+          <row>
+            <cell>6</cell>
+            <cell>Light System</cell>
+            <cell>LRU1001</cell>
+            <cell>KZ777</cell>
+            <cell>1</cell>
+            <cell>Equipped with Pilferage Code J, Special Storage 1</cell>
+          </row>
+          <row>
+            <cell>7</cell>
+            <cell>Computer</cell>
+            <cell>CP-001</cell>
+            <cell>KZ888</cell>
+            <cell>1</cell>
+            <cell>Bicycle computer.</cell>
+          </row>
+        </table>
+      </section>
+      <section title="Drivetrain and Steering">
+        <table frame="header">
+          <header>
+            <cell>   </cell>
+            <cell>Item</cell>
+            <cell> </cell>
+            <cell> </cell>
+            <cell>Qty</cell>
+            <cell>Description</cell>
+          </header>
+          <row>
+            <cell>8</cell>
+            <cell>Drive Train System</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell> </cell>
+          </row>
+          <row>
+            <cell>9</cell>
+            <cell>Steering System</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell> </cell>
+          </row>
+        </table>
+      </section>
+      <section title="Braking System">
+        <table frame="header">
+          <header>
+            <cell>   </cell>
+            <cell>Item</cell>
+            <cell> </cell>
+            <cell> </cell>
+            <cell>Qty</cell>
+            <cell>Description</cell>
+          </header>
+          <row>
+            <cell>5</cell>
+            <cell>Front Brake Subsystem</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell> </cell>
+          </row>
+          <row>
+            <cell>6</cell>
+            <cell>Rear Brake Subsystem</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell> </cell>
+          </row>
+          <row>
+            <cell>11</cell>
+            <cell>Brake System</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+            <cell>1</cell>
+            <cell>Complete brake assembly</cell>
+          </row>
+        </table>
+      </section>
+    </section>
+  </section>
+  <section title="Logistical Data">
+    <p><b>Physical Security Pilferage Code:</b> J (applied to Light System - LRU1001)</p>
+    <p><b>Special Storage:</b> 1 (applied to Light System - LRU1001)</p>
+  </section>
+  <section title="Notes">
+    <p>"N/A" indicates either information is not available or not applicable.</p>
+    <p>This catalog is subject to change without notice.</p>
+  </section>
+</proc>

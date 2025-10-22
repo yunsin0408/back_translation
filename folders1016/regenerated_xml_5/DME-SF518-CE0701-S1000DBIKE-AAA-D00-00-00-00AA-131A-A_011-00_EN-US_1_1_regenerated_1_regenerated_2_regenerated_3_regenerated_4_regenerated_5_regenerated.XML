@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Pre-Ride Check - Crew Procedure</title>
+  <introduction>
+    <p>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</p>
+  </introduction>
+  <step>
+    <step_title>Crew Procedure Steps</step_title>
+    <step_item>
+      <step_item_title>1. Brakes</step_item_title>
+      <step_item_list>
+        <step_item_list_item>Inspect brake pads for wear.</step_item_list_item>
+        <step_item_list_item>Ensure brake levers operate smoothly.</step_item_list_item>
+        <step_item_list_item>Verify cable integrity (no cuts or fraying).</step_item_list_item>
+        <step_item_list_item>Confirm proper brake function - both front and rear.</step_item_list_item>
+      </step_item_list>
+    </step_item>
+    <step_item>
+      <step_item_title>2. Tires</step_item_title>
+      <step_item_list>
+        <step_item_list_item>Tire pressure (see table below for recommended ranges).</step_item_list_item>
+        <step_item_list_item>Inspect tires for cracks, splits, or embedded objects.</step_item_list_item>
+      </step_item_list>
+      <table_data>
+        <header_row>
+          <header>Header</header>
+          <header>Terrain</header>
+          <header>Minimum Pressure</header>
+          <header>Maximum Pressure</header>
+        </header_row>
+        <data_row>
+          <data>Row</data>
+          <data>Off Road</data>
+          <data>35 lbs</data>
+          <data>40 lbs</data>
+        </data_row>
+        <data_row>
+          <data>Row</data>
+          <data>On Road</data>
+          <data>55 lbs</data>
+          <data>60 lbs</data>
+        </data_row>
+      </table_data>
+    </step_item>
+    <step_item>
+      <step_item_title>3. Wheels</step_item_title>
+      <step_item_list>
+        <step_item_list_item>Spin wheels to verify smooth rotation.</step_item_list_item>
+        <step_item_list_item>Listen for unusual noises indicating bearing issues.</step_item_list_item>
+        <step_item_list_item>Inspect spokes for breakage.</step_item_list_item>
+        <step_item_list_item>Ensure spokes are tight.</step_item_list_item>
+        <step_item_list_item>Confirm axle nuts are securely tightened.</step_item_list_item>
+        <step_item_list_item>Confirm wheel is 'true' (not wobbling).</step_item_list_item>
+      </step_item_list>
+    </step_item>
+    <step_item>
+      <step_item_title>4. Headset</step_item_title>
+      <step_item_list>
+        <step_item_list_item>Ensure headset bearings are tight and smooth.</step_item_list_item>
+      </step_item_list>
+    </step_item>
+    <step_item>
+      <step_item_title>5. Chain</step_item_title>
+      <step_item_list>
+        <step_item_list_item>Verify easy movement of chain links.</step_item_list_item>
+      </step_item_list>
+    </step_item>
+    <step_item>
+      <step_item_title>6. Handlebar &amp; Stem</step_item_title>
+      <p>Do <em>not</em> ride with a cracked stem.</p>
+      <step_item_list>
+        <step_item_list_item><strong>Stem Cracked:</strong> Replace stem immediately.</step_item_list_item>
+        <step_item_list_item><strong>Stem Loose:</strong> Tighten stem.</step_item_list_item>
+        <step_item_list_item><strong>Handlebars Twist:</strong> Tighten clamp bolt.</step_item_list_item>
+      </step_item_list>
+    </step_item>
+    <step_item>
+      <step_item_title>7. Computer Display</step_item_title>
+      <p>Ensure the computer is displaying accurate information (example):</p>
+      <table_data>
+        <header_row>
+          <header>Header</header>
+          <header>Component</header>
+          <header>Displayed Value</header>
+        </header_row>
+        <data_row>
+          <data>Row</data>
+          <data>Speed</data>
+          <data>0 mph</data>
+        </data_row>
+        <data_row>
+          <data>Row</data>
+          <data>Distance</data>
+          <data>0 miles</data>
+        </data_row>
+      </table_data>
+    </step_item>
+  </step>
+  <notes>
+    <p>This procedure is a guideline; adapt it based on specific bicycle types and rider needs.</p>
+    <p>Regular maintenance and inspection are crucial for safety and performance.</p>
+    <p>Always prioritize safety; if unsure about any component, seek professional assistance.</p>
+  </notes>
+</procedure>

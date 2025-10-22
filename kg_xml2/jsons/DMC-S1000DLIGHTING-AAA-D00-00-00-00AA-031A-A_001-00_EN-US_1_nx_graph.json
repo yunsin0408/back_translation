@@ -1,0 +1,999 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "DM Ident",
+      "type": "heading",
+      "id": "DM Ident"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "AA",
+      "type": "candidate",
+      "id": "AA"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
+      "label": "Language",
+      "type": "heading",
+      "id": "Language"
+    },
+    {
+      "label": "Applicability",
+      "type": "heading",
+      "id": "Applicability"
+    },
+    {
+      "label": "Revision",
+      "type": "heading",
+      "id": "Revision"
+    },
+    {
+      "label": "Date",
+      "type": "heading",
+      "id": "Date"
+    },
+    {
+      "label": "DM Status",
+      "type": "heading",
+      "id": "DM Status"
+    },
+    {
+      "label": "Configuration",
+      "type": "candidate",
+      "id": "Configuration"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "Approval",
+      "type": "candidate",
+      "id": "Approval"
+    },
+    {
+      "label": "Classification",
+      "type": "candidate",
+      "id": "Classification"
+    },
+    {
+      "label": "Unclassified",
+      "type": "candidate",
+      "id": "Unclassified"
+    },
+    {
+      "label": "Management",
+      "type": "candidate",
+      "id": "Management"
+    },
+    {
+      "label": "Originator",
+      "type": "candidate",
+      "id": "Originator"
+    },
+    {
+      "label": "Unknown",
+      "type": "candidate",
+      "id": "Unknown"
+    },
+    {
+      "label": "Configuration Management",
+      "type": "candidate",
+      "id": "Configuration Management"
+    },
+    {
+      "label": "Approved",
+      "type": "candidate",
+      "id": "Approved"
+    },
+    {
+      "label": "Security Classification",
+      "type": "candidate",
+      "id": "Security Classification"
+    },
+    {
+      "label": "Released",
+      "type": "candidate",
+      "id": "Released"
+    },
+    {
+      "label": "Valid",
+      "type": "candidate",
+      "id": "Valid"
+    },
+    {
+      "label": "Security",
+      "type": "candidate",
+      "id": "Security"
+    },
+    {
+      "label": "Remarks",
+      "type": "heading",
+      "id": "Remarks"
+    },
+    {
+      "label": "data",
+      "type": "candidate",
+      "id": "data"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Referenced Applic Group Ref",
+      "type": "heading",
+      "id": "Referenced Applic Group Ref"
+    },
+    {
+      "label": "Applic",
+      "type": "candidate",
+      "id": "Applic"
+    },
+    {
+      "label": "Referenced",
+      "type": "candidate",
+      "id": "Referenced"
+    },
+    {
+      "label": "Group",
+      "type": "candidate",
+      "id": "Group"
+    },
+    {
+      "label": "Connector Group",
+      "type": "heading",
+      "id": "Connector Group"
+    },
+    {
+      "label": "Descr",
+      "type": "candidate",
+      "id": "Descr"
+    },
+    {
+      "label": "Connector",
+      "type": "candidate",
+      "id": "Connector"
+    },
+    {
+      "label": "Connector Accessories",
+      "type": "candidate",
+      "id": "Connector Accessories"
+    },
+    {
+      "label": "Contact Descr Group",
+      "type": "candidate",
+      "id": "Contact Descr Group"
+    },
+    {
+      "label": "Contact",
+      "type": "candidate",
+      "id": "Contact"
+    },
+    {
+      "label": "Accessories",
+      "type": "candidate",
+      "id": "Accessories"
+    },
+    {
+      "label": "Distribution Part Group",
+      "type": "heading",
+      "id": "Distribution Part Group"
+    },
+    {
+      "label": "Distribution",
+      "type": "candidate",
+      "id": "Distribution"
+    },
+    {
+      "label": "Part",
+      "type": "candidate",
+      "id": "Part"
+    },
+    {
+      "label": "Copper",
+      "type": "candidate",
+      "id": "Copper"
+    },
+    {
+      "label": "Gold",
+      "type": "candidate",
+      "id": "Gold"
+    },
+    {
+      "label": "Orange",
+      "type": "candidate",
+      "id": "Orange"
+    },
+    {
+      "label": "Blue",
+      "type": "candidate",
+      "id": "Blue"
+    },
+    {
+      "label": "Green",
+      "type": "candidate",
+      "id": "Green"
+    },
+    {
+      "label": "Distribution Part",
+      "type": "candidate",
+      "id": "Distribution Part"
+    },
+    {
+      "label": "Accessory Group",
+      "type": "heading",
+      "id": "Accessory Group"
+    },
+    {
+      "label": "Accessory",
+      "type": "candidate",
+      "id": "Accessory"
+    },
+    {
+      "label": "Solder Sleeve Group",
+      "type": "heading",
+      "id": "Solder Sleeve Group"
+    },
+    {
+      "label": "Sleeve",
+      "type": "candidate",
+      "id": "Sleeve"
+    },
+    {
+      "label": "Solder Sleeve",
+      "type": "candidate",
+      "id": "Solder Sleeve"
+    },
+    {
+      "label": "Nickel",
+      "type": "candidate",
+      "id": "Nickel"
+    },
+    {
+      "label": "Solder",
+      "type": "candidate",
+      "id": "Solder"
+    },
+    {
+      "label": "Shrink Sleeve Group",
+      "type": "heading",
+      "id": "Shrink Sleeve Group"
+    },
+    {
+      "label": "Shrink Sleeve",
+      "type": "candidate",
+      "id": "Shrink Sleeve"
+    },
+    {
+      "label": "Shrink",
+      "type": "candidate",
+      "id": "Shrink"
+    },
+    {
+      "label": "Transparent",
+      "type": "candidate",
+      "id": "Transparent"
+    },
+    {
+      "label": "Ident Sleeve Group",
+      "type": "heading",
+      "id": "Ident Sleeve Group"
+    },
+    {
+      "label": "PVC",
+      "type": "candidate",
+      "id": "PVC"
+    },
+    {
+      "label": "Ident Sleeve",
+      "type": "candidate",
+      "id": "Ident Sleeve"
+    },
+    {
+      "label": "Nitrile",
+      "type": "candidate",
+      "id": "Nitrile"
+    },
+    {
+      "label": "Conduit Group",
+      "type": "heading",
+      "id": "Conduit Group"
+    },
+    {
+      "label": "Black",
+      "type": "candidate",
+      "id": "Black"
+    },
+    {
+      "label": "Conduit",
+      "type": "candidate",
+      "id": "Conduit"
+    },
+    {
+      "label": "Wire Material Group",
+      "type": "heading",
+      "id": "Wire Material Group"
+    },
+    {
+      "label": "Wire Material",
+      "type": "candidate",
+      "id": "Wire Material"
+    },
+    {
+      "label": "QC",
+      "type": "candidate",
+      "id": "QC"
+    },
+    {
+      "label": "Material",
+      "type": "candidate",
+      "id": "Material"
+    },
+    {
+      "label": "Wire",
+      "type": "candidate",
+      "id": "Wire"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "AA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "DM Ident",
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM",
+      "target": "DM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Ident",
+      "target": "Ident Sleeve Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Language",
+      "target": "Language"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Applicability",
+      "target": "Applicability"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Revision",
+      "target": "Revision"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Date",
+      "target": "Date"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Configuration"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Approval"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Classification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Unclassified"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Management"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Unknown"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Configuration Management"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Approved"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Security Classification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Released"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Valid"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "DM Status",
+      "target": "Security"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Remarks",
+      "target": "data"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Remarks",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Remarks",
+      "target": "Remarks"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Referenced Applic Group Ref",
+      "target": "Applic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Referenced Applic Group Ref",
+      "target": "Referenced"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Referenced Applic Group Ref",
+      "target": "Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Referenced Applic Group Ref",
+      "target": "Referenced Applic Group Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Group",
+      "target": "Connector Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Group",
+      "target": "Distribution Part Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Group",
+      "target": "Accessory Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Group",
+      "target": "Solder Sleeve Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Group",
+      "target": "Shrink Sleeve Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Group",
+      "target": "Ident Sleeve Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        15
+      ],
+      "source": "Group",
+      "target": "Conduit Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Group",
+      "target": "Wire Material Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Connector Group",
+      "target": "Descr"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Connector Group",
+      "target": "Connector"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Connector Group",
+      "target": "Connector Accessories"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Connector Group",
+      "target": "Connector Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Connector Group",
+      "target": "Contact Descr Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Connector Group",
+      "target": "Contact"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Connector Group",
+      "target": "Accessories"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Distribution Part Group",
+      "target": "Distribution"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Distribution Part Group",
+      "target": "Part"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Distribution Part Group",
+      "target": "Copper"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Distribution Part Group",
+      "target": "Gold"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Distribution Part Group",
+      "target": "Orange"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Distribution Part Group",
+      "target": "Blue"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Distribution Part Group",
+      "target": "Distribution Part Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Distribution Part Group",
+      "target": "Green"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Distribution Part Group",
+      "target": "Distribution Part"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Accessory Group",
+      "target": "Accessory"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Accessory Group",
+      "target": "Accessory Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Solder Sleeve Group",
+      "target": "Sleeve"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Solder Sleeve Group",
+      "target": "Solder Sleeve"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Solder Sleeve Group",
+      "target": "Nickel"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Solder Sleeve Group",
+      "target": "Solder Sleeve Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Solder Sleeve Group",
+      "target": "Solder"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Sleeve",
+      "target": "Shrink Sleeve Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Sleeve",
+      "target": "Ident Sleeve Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Shrink Sleeve Group",
+      "target": "Shrink Sleeve Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Shrink Sleeve Group",
+      "target": "Shrink Sleeve"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Shrink Sleeve Group",
+      "target": "Shrink"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Shrink Sleeve Group",
+      "target": "Transparent"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Ident Sleeve Group",
+      "target": "PVC"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Ident Sleeve Group",
+      "target": "Ident Sleeve Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Ident Sleeve Group",
+      "target": "Ident Sleeve"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Ident Sleeve Group",
+      "target": "Nitrile"
+    },
+    {
+      "weight": 1,
+      "units": [
+        15
+      ],
+      "source": "Conduit Group",
+      "target": "Black"
+    },
+    {
+      "weight": 1,
+      "units": [
+        15
+      ],
+      "source": "Conduit Group",
+      "target": "Conduit Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        15
+      ],
+      "source": "Conduit Group",
+      "target": "Conduit"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Wire Material Group",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Wire Material Group",
+      "target": "Wire Material Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Wire Material Group",
+      "target": "QC"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Wire Material Group",
+      "target": "Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Wire Material Group",
+      "target": "Wire"
+    }
+  ]
+}

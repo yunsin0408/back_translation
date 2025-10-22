@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdent>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>10</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>921</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+        <language countryIsoCode="US"/>
+        <language languageIsoCode="en"/>
+        <issueNumber>010</issueNumber>
+        <inWork>00</inWork>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2024" month="06" day="19"/>
+        <techName>Inner tube</techName>
+        <infoName>Remove and install a new item</infoName>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>
+              <simpleParagraph>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simpleParagraph>
+            </exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <copyrightParagraph1>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightParagraph1>
+            <copyrightParagraph2>Publishers:</copyrightParagraph2>
+            <randomList>
+              <listItem>Aerospace, Security and Defence Industries Association of Europe</listItem>
+              <listItem>Aerospace Industries Association of America</listItem>
+              <listItem>ATA e-Business Program</listItem>
+            </randomList>
+            <copyrightParagraph3>Limitations of liability:</copyrightParagraph3>
+            <randomList>
+              <listItem>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</listItem>
+              <listItem>Neither ASD nor any person who has contributed to the creation, revision or maintenance of the material is liable for any damages.</listItem>
+              <listItem>The user is responsible for the correct use of the material.</listItem>
+            </randomList>
+            <copyrightParagraph4>The user is responsible for the correctness and completeness of the information.</copyrightParagraph4>
+          </copyright>
+          <policyStatement>The user is responsible for the correctness and completeness of the information.</policyStatement>
+          <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+          </qualityAssurance>
+          <systemBreakdownCode>BY111</systemBreakdownCode>
+          <reasonForUpdate id="rfu_general">
+            <updateReasonType>urt03</updateReasonType>
+            <simpleParagraph>S1000D upissued</simpleParagraph>
+          </reasonForUpdate>
+        </restrictionInfo>
+      </dataRestrictions>
+    </dmStatus>
+  </dmIdent>
+  <content>
+    <references>
+      <dmRef1>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>215</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef1>
+      <dmRef2>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>DA0</systemCode>
+        <subSystemCode>1</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>20</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>215</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmRef2>
+    </references>
+    <procedure>
+      <preliminaryRequirements>
+        <requiredConditionGroup>
+          <requiredConditionDM>
+            <requiredCondition>The tire is removed.</requiredCondition>
+            <dmRef>
+              <modelIdentCode>S1000DBIKE</modelIdentCode>
+              <systemDiffCode>AAA</systemDiffCode>
+              <systemCode>DA0</systemCode>
+              <subSystemCode>1</subSystemCode>
+              <subSubSystemCode>0</subSubSystemCode>
+              <assyCode>20</assyCode>
+              <disassyCode>00</disassyCode>
+              <disassyCodeVariant>AA</disassyCodeVariant>
+              <infoCode>215</infoCode>
+              <infoCodeVariant>A</infoCodeVariant>
+              <itemLocationCode>A</itemLocationCode>
+            </dmRef>
+          </requiredConditionDM>
+        </requiredConditionGroup>
+        <requiredPersons>
+          <person>
+            <man>A</man>
+            <personCategory personCategoryCode="Basic user"/>
+            <trade>Operator</trade>
+            <estimatedTime unitOfMeasure="h">0,3</estimatedTime>
+          </person>
+        </requiredPersons>
+        <requiredSupportEquipment>
+          <noSupportEquips>None</noSupportEquips>
+        </requiredSupportEquipment>
+        <requiredSupplies>
+          <noSupplies>None</noSupplies>
+        </requiredSupplies>
+        <requiredSpares>
+          <spareDescrGroup>
+            <spareDescr id="spa-0001">
+              <name>Inner tube</name>
+              <identNumber>
+                <manufacturerCode>KT222</manufacturerCode>
+                <partAndSerialNumber>
+                  <partNumber>IT-001</partNumber>
+                </partAndSerialNumber>
+              </identNumber>
+              <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+            </spareDescr>
+          </spareDescrGroup>
+        </requiredSpares>
+        <requiredSafetyPrecautions>
+          <requiredSafetyPrecaution/>
+        </requiredSafetyPrecautions>
+      </preliminaryRequirements>
+      <stepList>
+        <step>
+          <stepNumber>1</stepNumber>
+          <stepText>Remove the wheel from the vehicle.</stepText>
+        </step>
+        <step>
+          <stepNumber>2</stepNumber>
+          <stepText>Deflate the tire.</stepText>
+        </step>
+        <step>
+          <stepNumber>3</stepNumber>
+          <stepText>Remove the tire from the wheel.</stepText>
+        </step>
+        <step>
+          <stepNumber>4</stepNumber>
+          <stepText>Remove the old inner tube.</stepText>
+        </step>
+        <step>
+          <stepNumber>5</stepNumber>
+          <stepText>Inspect the tire for damage.</stepText>
+        </step>
+        <step>
+          <stepNumber>6</stepNumber>
+          <stepText>Install the new inner tube.</stepText>
+        </step>
+        <step>
+          <stepNumber>7</stepNumber>
+          <stepText>Install the tire onto the wheel.</stepText>
+        </step>
+        <step>
+          <stepNumber>8</stepNumber>
+          <stepText>Inflate the tire.</stepText>
+        </step>
+        <step>
+          <stepNumber>9</stepNumber>
+          <stepText>Install the wheel onto the vehicle.</stepText>
+        </step>
+      </stepList>
+    </procedure>
+    <closingRequirements>
+      <requiredConditionGroup>
+        <requiredCondition>Ensure the tire is properly inflated.</requiredCondition>
+        <requiredCondition>Verify the wheel is securely attached.</requiredCondition>
+      </requiredConditionGroup>
+    </closingRequirements>
+  </content>
+</dataModule>

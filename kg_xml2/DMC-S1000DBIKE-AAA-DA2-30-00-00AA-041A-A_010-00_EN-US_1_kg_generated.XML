@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmHdr>
+    <dmId>S1000DBIKEAAA0001</dmId>
+    <dmIssuingOrg>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</dmIssuingOrg>
+    <dmIssuingDate>2024-01-01</dmIssuingDate>
+    <dmVer>1.0</dmVer>
+    <dmStatus>A</dmStatus>
+    <dmClass>6.2</dmClass>
+    <dmTopic>700</dmTopic>
+    <dmTitle>Headset</dmTitle>
+    <dmLang>en</dmLang>
+    <dmOrigId>S1000DBIKEAAA0001</dmOrigId>
+    <dmUpdate>
+      <id>rfu_general</id>
+      <updateReasonType>urt03</updateReasonType>
+      <simplePara>S1000D upissued</simplePara>
+    </dmUpdate>
+    <applicCrossRefTableRef>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>00W</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>D</itemLocationCode>
+          </dmCode>
+        </dmRefIdent>
+      </dmRef>
+    </applicCrossRefTableRef>
+    <applic>
+      <displayText>
+        <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+      </displayText>
+      <evaluate>and</evaluate>
+      <assert>
+        <applicPropertyIdent>type</applicPropertyIdent>
+        <applicPropertyType>prodattr</applicPropertyType>
+        <applicPropertyValues>Mountain bicycle</applicPropertyValues>
+      </assert>
+      <evaluate>or</evaluate>
+      <evaluate>and</evaluate>
+      <assert/>
+      <evaluate>and</evaluate>
+    </applic>
+    <brexDmRef>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode>
+            <modelIdentCode>S1000DBIKE</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>00</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>022</infoCode>
+            <infoCodeVariant>A</infoCodeVariant>
+            <itemLocationCode>D</itemLocationCode>
+          </dmCode>
+        </dmRefIdent>
+      </dmRef>
+    </brexDmRef>
+    <qualityAssurance>
+      <firstVerification>verificationType="tabtop"</firstVerification>
+    </qualityAssurance>
+    <systemBreakdownCode>BY143</systemBreakdownCode>
+    <skillLevel>skillLevelCode="sk02"</skillLevel>
+  </dmHdr>
+  <dmContent>
+    <description>
+      <levelledPara>
+        <title>Headset</title>
+        <para>The headset (refer to <internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/>) is a pair of bearings on the two ends of the head tube of the frame. These bearings permit the fork to turn rearward and forward (for example, to let the rider turn the handlebars for the steering).</para>
+        <para>The headset (refer to <internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/>) includes the parts that follow:</para>
+        <randomList>
+          <listItem>The bearing races that push into the head tube</listItem>
+          <listItem>a bearing race that pushes on the fork steerer tube</listItem>
+          <listItem>an adjustable upper race</listItem>
+          <listItem>two sets of ball bearings</listItem>
+        </randomList>
+        <para>A headset has cups that are pushed into the head tube and a ring on the fork. All three must be fully parallel. It is usually necessary to remove rough paint to get all three fully parallel.</para>
+        <para>The upper race installs onto the steerer tube with a thread. A locknut is used to safety the upper race.</para>
+        <para>A clamp bolt holds the stem to the steerer tube.</para>
+        <para>The fourth remaining bearing race is part of a nut that installs on the threaded top end of the fork. This is done after you install it in the head tube. It is sometimes necessary for some headsets to have more thread at the top of the head tube. If the fork is too long, the spacer rings can be installed. If it is too short, there is a limit to the number of headsets you can use.</para>
+        <para>For an illustration of the parts of the headset (refer to <internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/>).</para>
+        <figure>
+          <id>fig-0001</id>
+          <title>Headset</title>
+          <graphic>infoEntityIdent="ICN-C0419-S1000D0391-001-01"</graphic>
+        </figure>
+      </levelledPara>
+    </description>
+  </dmContent>
+</dm>

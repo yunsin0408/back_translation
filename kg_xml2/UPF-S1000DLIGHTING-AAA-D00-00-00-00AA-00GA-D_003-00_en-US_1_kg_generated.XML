@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:doc xmlns:p="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <p:docHead>
+    <p:title>UPISSUED</p:title>
+  </p:docHead>
+  <p:content>
+    <p:section id="update">
+      <p:title>Update</p:title>
+      <p:subsection id="insert_object_group">
+        <p:title>Insert Object Group</p:title>
+        <p:insertObject>
+          <p:insertionOrder>before</p:insertionOrder>
+          <p:targetPath>//partSpec[@id=part-0008]</p:targetPath>
+          <p:partSpec>
+            <p:id>part-0007</p:id>
+            <p:partIdent>
+              <p:partNumberValue>LRU1027</p:partNumberValue>
+              <p:manufacturerCodeValue>KZ777</p:manufacturerCodeValue>
+              <p:id>ID00026</p:id>
+            </p:partIdent>
+            <p:itemIdentData>
+              <p:descrForPart>Light, sub-assembly front</p:descrForPart>
+            </p:itemIdentData>
+            <p:procurementData>
+              <p:enterpriseRef>
+                <p:enterpriseRefType>manufacturer</p:enterpriseRefType>
+                <p:manufacturerCodeValue>F0001</p:manufacturerCodeValue>
+              </p:enterpriseRef>
+            </p:procurementData>
+            <p:techData>
+              <p:partUsage>pu23</p:partUsage>
+              <p:specialStorage>1</p:specialStorage>
+            </p:techData>
+          </p:partSpec>
+        </p:insertObject>
+      </p:subsection>
+      <p:subsection id="delete_object_group">
+        <p:title>Delete Object Group</p:title>
+        <p:deleteObject>
+          <p:partIdent>
+            <p:partNumberValue>LRU1010</p:partNumberValue>
+            <p:manufacturerCodeValue>KZ777</p:manufacturerCodeValue>
+            <p:id>ID00007</p:id>
+          </p:partIdent>
+        </p:deleteObject>
+      </p:subsection>
+      <p:subsection id="replace_object_group">
+        <p:title>Replace Object Group</p:title>
+        <p:replaceObject partId="part-0010">
+          <p:partSpec>
+            <p:id>part-0010</p:id>
+            <p:partIdent>
+              <p:partNumberValue>LRU1020</p:partNumberValue>
+              <p:manufacturerCodeValue>KZ777</p:manufacturerCodeValue>
+              <p:id>ID00014</p:id>
+            </p:partIdent>
+            <p:itemIdentData>
+              <p:descrForPart>This is a reflector part</p:descrForPart>
+            </p:itemIdentData>
+            <p:procurementData>
+              <p:enterpriseRef>
+                <p:enterpriseRefType>manufacturer</p:enterpriseRefType>
+                <p:manufacturerCodeValue>F0001</p:manufacturerCodeValue>
+              </p:enterpriseRef>
+            </p:procurementData>
+            <p:techData>
+              <p:partUsage>pu23</p:partUsage>
+              <p:specialStorage>0</p:specialStorage>
+            </p:techData>
+          </p:partSpec>
+        </p:replaceObject>
+        <p:replaceObject partId="part-0011">
+          <p:partSpec>
+            <p:id>part-0011</p:id>
+            <p:partIdent>
+              <p:partNumberValue>LIRUS-L1-11</p:partNumberValue>
+              <p:manufacturerCodeValue>KZ777</p:manufacturerCodeValue>
+              <p:id>ID00015</p:id>
+            </p:partIdent>
+            <p:itemIdentData>
+              <p:descrForPart>This is a bulb part</p:descrForPart>
+            </p:itemIdentData>
+            <p:procurementData>
+              <p:enterpriseRef>
+                <p:enterpriseRefType>manufacturer</p:enterpriseRefType>
+                <p:manufacturerCodeValue>F0001</p:manufacturerCodeValue>
+              </p:enterpriseRef>
+            </p:procurementData>
+            <p:techData>
+              <p:partUsage>pu23</p:partUsage>
+              <p:specialStorage>1</p:specialStorage>
+            </p:techData>
+          </p:partSpec>
+        </p:replaceObject>
+      </p:subsection>
+    </p:section>
+  </p:content>
+</p:doc>

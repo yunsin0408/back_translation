@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <heading>Bicycle Stem Installation Procedure</heading>
+  <step>
+    <heading>Introduction</heading>
+    <content>This document details the procedure for installing a bicycle stem. It outlines preliminary requirements, the main procedure, and closing requirements.</content>
+  </step>
+  <step>
+    <heading>Preliminary Requirements</heading>
+    <subsection>
+      <heading>Tools and Equipment</heading>
+      <item>
+        <itemname>Clean Dry Cloth</itemname>
+        <partnumber>KZ666</partnumber>
+        <quantity>1</quantity>
+      </item>
+      <item>
+        <itemname>Work Stand</itemname>
+        <partnumber>KZ555</partnumber>
+        <quantity>1</quantity>
+      </item>
+    </subsection>
+    <subsection>
+      <heading>Supplies</heading>
+      <item>
+        <itemname>Rubbing Alcohol</itemname>
+        <partnumber>KZ222</partnumber>
+        <quantity>1 Liter</quantity>
+      </item>
+      <item>
+        <itemname>General Lubricant</itemname>
+        <partnumber>KZ222</partnumber>
+        <quantity>1 Liter</quantity>
+      </item>
+    </subsection>
+    <subsection>
+      <heading>Spares</heading>
+      <item>
+        <itemname>Stem</itemname>
+        <partnumber>KZ555</partnumber>
+        <quantity>1</quantity>
+      </item>
+      <item>
+        <itemname>Stem Bolt</itemname>
+        <partnumber>KZ555</partnumber>
+        <quantity>1</quantity>
+      </item>
+    </subsection>
+    <subsection>
+      <heading>Safety Precautions</heading>
+      <caution>Do not overtighten the stem bolt. Overtightening can damage the headset bearings.</caution>
+      <caution>The stem bolt does not secure the stem.</caution>
+      <note>Ensure the stem is aligned forward in line with the wheel.</note>
+    </subsection>
+    <subsection>
+      <heading>Prerequisites</heading>
+      <content>Ensure the bicycle is securely mounted on a work stand with the front wheel free of the ground.</content>
+    </subsection>
+    <subsection>
+      <heading>Personnel</heading>
+      <operator>
+        <skilllevel>sk02</skilllevel>
+        <estimatedtime>1 hour</estimatedtime>
+        <category>Bike Rider</category>
+      </operator>
+    </subsection>
+  </step>
+  <step>
+    <heading>Main Procedure</heading>
+    <subsection>
+      <heading>Step: Cleaning</heading>
+      <content>Remove all rust and corrosion using a clean dry cloth and rubbing alcohol.</content>
+    </subsection>
+    <subsection>
+      <heading>Step: Stem Installation</heading>
+      <item>
+        <itemname>Lubrication</itemname>
+        <content>Apply general lubricant to the following:</content>
+        <list>
+          <li>The threads of the stem and stem bolt.</li>
+          <li>The sides of the stem.</li>
+          <li>The top of the wedge.</li>
+        </list>
+        <image>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAj/U0AAAAASUVORK5CYII=</image>
+        <content>(Image placeholder – See original document for actual image)</content>
+      </item>
+      <item>
+        <itemname>Installation</itemname>
+        <content>Install the stem into the steerer tube.</content>
+        <image>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAj/U0AAAAASUVORK5CYII=</image>
+        <content>(Image placeholder – See original document for actual image)</content>
+      </item>
+      <item>
+        <itemname>Alignment &amp; Tightening</itemname>
+        <content>Adjust the stem to align with the wheel. Firmly tighten the stem bolt.</content>
+      </item>
+    </subsection>
+    <subsection>
+      <heading>Step: Handlebar Installation</heading>
+      <content>Install the handlebars (refer to document: &lt;xref href="data:text/plain;base64,S1000DBIKEAAA DA220000AA720A" /&gt;).</content>
+    </subsection>
+  </step>
+  <step>
+    <heading>Closing Requirements</heading>
+    <content>No specific closing requirements are listed.</content>
+  </step>
+</procedure>

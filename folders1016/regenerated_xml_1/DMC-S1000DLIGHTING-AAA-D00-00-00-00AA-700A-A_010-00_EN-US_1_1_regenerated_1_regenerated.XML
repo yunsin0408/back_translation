@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_010-00_EN-US_1_1</title>
+  <subject>Lighting System Installation Procedure</subject>
+  <introduction>
+    <para>This document details the procedure for installing the lighting system on a bicycle.</para>
+  </introduction>
+  <preliminaryrequirements>
+    <workarea>
+      <para>Impacted zones: Zone 200, Zone 300, and Zone 130.</para>
+    </workarea>
+    <toolsandequipment>
+      <tool>
+        <name>Toolset</name>
+        <partnumber>BSK-TLST-001</partnumber>
+        <manufacturer>KZ666</manufacturer>
+        <quantity>1</quantity>
+      </tool>
+    </toolsandequipment>
+    <prerequisites>
+      <para>Bike must be stationary.</para>
+    </prerequisites>
+  </preliminaryrequirements>
+  <procedure>
+    <step>
+      <title>Step 1: Unpacking &amp; Inspection</title>
+      <para>Remove the lighting system from its packaging.</para>
+      <para>Verify that all components match the parts list in document [S1000DLIGHTING - Disassembly 01 - D].</para>
+    </step>
+    <step>
+      <title>Step 2: Front Light Installation</title>
+      <instruction>1. Apply protective strip around the handlebar.</instruction>
+      <instruction>2. Open the clamp and position it around the protective strip, ensuring the light connector is at the top.</instruction>
+      <instruction>3. Install the washer on the screw.</instruction>
+      <instruction>4. Tighten the screw into the hole at the bottom of the clamp using the correct screwdriver from the toolset.</instruction>
+    </step>
+    <step>
+      <title>Step 3: Rear Light Installation</title>
+      <instruction>1. Apply protective strip around one of the rear triangle up-tubes.</instruction>
+      <instruction>2. Open the clamp and position it around the protective strip, ensuring the light connector points rearward.</instruction>
+      <instruction>3. Install the washer on the screw.</instruction>
+      <instruction>4. Tighten the screw into the hole at the bottom of the clamp using the correct screwdriver from the toolset.</instruction>
+    </step>
+    <step>
+      <title>Step 4: Connecting Lights</title>
+      <instruction>1. Attach the light with the white glass to the front connector.</instruction>
+      <instruction>2. Attach the light with the red glass to the rear connector.</instruction>
+    </step>
+    <step>
+      <title>Step 5: Circuit Breaker Installation (Conditional)</title>
+      <conditional>
+        <condition>Mountain Bike (Storm type)</condition>
+        <para>Install circuit breaker CBLGT-1001-R on the right handlebar using the clamping ring.</para>
+        <para>Connect the circuit breaker electrical wire to the rear connector of the front light.</para>
+        <para>Secure the wire to the frame using a protective strip.</para>
+      </conditional>
+      <conditional>
+        <condition>Mountain Bike (Trekker type)</condition>
+        <para>Install circuit breaker CBLGT-1001-L on the left handlebar using the clamping ring.</para>
+        <para>Connect the circuit breaker electrical wire to the rear connector of the front light.</para>
+        <para>Secure the wire to the frame using a protective strip.</para>
+      </conditional>
+      <figurelink>
+        <title>Figure: [Circuit Breaker (See Figures Below)]</title>
+        <xref>figs-0001</xref>
+      </figurelink>
+    </step>
+  </procedure>
+  <figures>
+    <figure>
+      <title>Figure 1: Circuit Breaker (Storm Type - Right Side)</title>
+      <image>ICN-FAPE3-S1000D0101-001-01</image>
+    </figure>
+    <figure>
+      <title>Figure 2: Circuit Breaker (Trekker Type - Left Side)</title>
+      <image>ICN-FAPE3-S1000D0102-001-01</image>
+    </figure>
+  </figures>
+  <closingrequirements>
+    <para>No specific conditions apply.</para>
+  </closingrequirements>
+</procedure>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>PMC-S1000DLIGHTING-B6865-EPWG1-00_005-00_EN-US_1_1_regenerated_1_regenerated.XML</title>
+  <content>
+    <heading level="1">PMC-S1000DLIGHTING-B6865-EPWG1-00_005-00_EN-US_1_1_regenerated_1_regenerated.XML</heading>
+    <heading level="2">Product Manual (PM)</heading>
+    <heading level="3">heading</heading>
+    <paragraph>Content</paragraph>
+    <heading level="3">heading</heading>
+    <paragraph>This document outlines the content of a product manual. It details various references to components and their configurations.</paragraph>
+    <heading level="3">Referenced Applicables (Applications)</heading>
+    <list>
+      <item>
+        <key>app-001</key>
+        <value>(Multiple references throughout - appears to be a common default)</value>
+      </item>
+      <item>
+        <key>app-002</key>
+        <value>(Frequently referenced, likely a core component set)</value>
+      </item>
+      <item>
+        <key>app-003</key>
+        <value>(Several references, potentially a supplemental or optional component)</value>
+      </item>
+      <item>
+        <key>app-004</key>
+        <value>(Limited references, possibly a specialized component)</value>
+      </item>
+    </list>
+    <heading level="3">Detailed Content Breakdown</heading>
+    <paragraph>The content is structured around a single &lt;code&gt;pmEntry&lt;/code&gt;. This entry contains a series of &lt;code&gt;dmRef&lt;/code&gt; (Data Management References) which link to specific configurations of a product identified by &lt;code&gt;S1000DLIGHTING&lt;/code&gt;.</paragraph>
+    <heading level="3">&lt;code&gt;pmEntry&lt;/code&gt;&gt; Details</heading>
+    <list>
+      <item>The &lt;code&gt;pmEntry&lt;/code&gt;&gt; covers a broad range of configurations, indicated by the variety of &lt;code&gt;infoCode&lt;/code&gt;&gt; values.</item>
+      <item>&lt;code&gt;disassyCode&lt;/code&gt;&gt; values (00, 01, 02) suggest different assemblies or sub-assemblies.</item>
+      <item>&lt;code&gt;itemLocationCode&lt;/code&gt;&gt; values (A, D) likely denote physical locations/installations within the product.</item>
+      <item>&lt;code&gt;issueNumber&lt;/code&gt;&gt; indicates revisions or versions of the documentation/configurations.</item>
+      <item>&lt;code&gt;language&lt;/code&gt;&gt; is consistently &lt;code&gt;en&lt;/code&gt;&gt; (English) with &lt;code&gt;countryCode&lt;/code&gt;&gt; of &lt;code&gt;US&lt;/code&gt;&gt;.</item>
+    </list>
+    <heading level="3">&lt;code&gt;dmRef&lt;/code&gt;&gt; Examples (Illustrative - not exhaustive)</heading>
+    <paragraph>The following are examples of the &lt;code&gt;dmRef&lt;/code&gt;&gt; structures. Each represents a specific configuration.</paragraph>
+    <heading level="3">Key Observations</heading>
+    <list>
+      <item>The documentation appears to be relatively comprehensive, covering a wide range of configurations.</item>
+      <item>The use of &lt;code&gt;infoCode&lt;/code&gt;&gt;, &lt;code&gt;disassyCode&lt;/code&gt;&gt;, and &lt;code&gt;itemLocationCode&lt;/code&gt;&gt; provides a granular level of control and configuration management.</item>
+      <item>The consistent use of language and country code suggests a standardized documentation process.</item>
+      <item>The high number of &lt;code&gt;dmRef&lt;/code&gt;&gt; entries indicates a complex product with many possible variations.</item>
+    </list>
+    <paragraph>This structure enables detailed tracking and management of product configurations throughout the lifecycle.</paragraph>
+  </content>
+</proced>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-DA4-10-00-00AA-241A-A_011-00_EN-US_1_1_regenerated_1_regenerated</title>
+  <section>
+    <heading>Bike Chain Lubrication Procedure</heading>
+    <section>
+      <heading>Introduction</heading>
+      <paragraph>This document details the procedure for lubricating a bike chain, ensuring smooth operation and extending the lifespan of components.</paragraph>
+    </section>
+    <section>
+      <heading>Preliminary Requirements</heading>
+      <section>
+        <heading>Safety Precautions</heading>
+        <warning>ACME sticky lube 52B (internalRef: sup-0001) is a dangerous substance. Do not get it on your skin. Use in a well-ventilated area. If swallowed, seek immediate medical attention. If it gets in your eyes, wash with clean water and seek medical advice.</warning>
+        <warning>AECMA Heavy duty Oil 1988 (internalRef: sup-0002) is a dangerous substance.  Do not get it on your skin. Use in a well-ventilated area. If swallowed, seek immediate medical attention. If it gets in your eyes, wash with clean water and seek medical advice.</warning>
+        <paragraph>Avoid getting lubricant into the brake system. Oil contamination can reduce braking efficiency.</paragraph>
+      </section>
+      <section>
+        <heading>Required Materials And Tools</heading>
+        <section>
+          <heading>Lubricants</heading>
+          <item>
+            <name>ACME sticky lube 52B</name>
+            <description>For wet conditions.</description>
+            <shortName>Wet lube</shortName>
+            <internalRef>sup-0001</internalRef>
+          </item>
+          <item>
+            <name>AECMA Heavy duty Oil 1988</name>
+            <description>For dry conditions (Applicable to app-0001).</description>
+            <shortName>Dry lube</shortName>
+            <internalRef>sup-0002</internalRef>
+          </item>
+        </section>
+        <section>
+          <heading>Supplies</heading>
+          <item>
+            <name>Clean cloth</name>
+            <internalRef>seq-0001</internalRef>
+          </item>
+          <item>
+            <name>Floor covering</name>
+            <internalRef>seq-0002</internalRef>
+          </item>
+        </section>
+        <section>
+          <heading>Figures</heading>
+          <item>
+            <name>Derailleur pivots</name>
+            <internalRef>fig-0001</internalRef>
+          </item>
+          <item>
+            <name>Derailleur tension</name>
+            <internalRef>fig-0002</internalRef>
+          </item>
+          <item>
+            <name>Brake lever pivots</name>
+            <internalRef>fig-0003</internalRef>
+          </item>
+          <item>
+            <name>Chain lubrication</name>
+            <internalRef>fig-0004</internalRef>
+          </item>
+        </section>
+      </section>
+    </section>
+    <section>
+      <heading>Procedure Steps</heading>
+      <section>
+        <heading>Step 1: Apply Penetrating Lubricant</heading>
+        <stepNumber>1</stepNumber>
+        <stepTitle>Apply Penetrating Lubricant</stepTitle>
+        <paragraph>Apply lubricant to the following components (refer to figures for location):</paragraph>
+        <item>Derailleur pivots (fig-0001)</item>
+        <item>Derailleur tension (fig-0002)</item>
+        <item>Brake lever pivots (fig-0003) - Including derailleur pivots, derailleur tension, guide wheels, and control cables.</item>
+      </section>
+      <section>
+        <heading>Step 2: Lubricate the Chain</heading>
+        <stepNumber>2</stepNumber>
+        <stepTitle>Lubricate the Chain</stepTitle>
+        <paragraph>Ensure the chain is clean and dry.</paragraph>
+        <paragraph>Position the floor covering (seq-0002) beneath the chain to catch drips.</paragraph>
+        <conditional>
+          <conditionType>App-0001</conditionType>
+          <conditionValue>Wet Conditions</conditionValue>
+          <paragraph>Apply wet lube (sup-0002) to each chain roller (fig-0004) sparingly.</paragraph>
+        </conditional>
+        <conditional>
+          <conditionType>App-0002</conditionType>
+          <conditionValue>Dry Conditions</conditionValue>
+          <paragraph>Apply dry lube (sup-0001) to each chain roller (fig-0004) sparingly.</paragraph>
+        </conditional>
+        <paragraph>Slowly turn the cranks rearward while applying lubricant.</paragraph>
+        <caution>Avoid getting lubricant onto the brake system.</caution>
+        <paragraph>Allow the lubricant to soak into the chain.</paragraph>
+      </section>
+      <section>
+        <heading>Step 3: Check Lubricated Parts</heading>
+        <stepNumber>3</stepNumber>
+        <stepTitle>Check Lubricated Parts</stepTitle>
+        <paragraph>Inspect the rear wheel rim and clean any excess lubricant.</paragraph>
+        <paragraph>Verify that all chain links move freely. Relubricate stubborn links as needed (refer back to Step 2).</paragraph>
+        <paragraph>Inspect all lubricated parts and wipe away excess lubricant with a clean cloth (seq-0001).</paragraph>
+      </section>
+    </section>
+    <section>
+      <heading>Closing Requirements</heading>
+      <paragraph>No specific closing requirements.</paragraph>
+    </section>
+    <section>
+      <heading>Internal References</heading>
+      <item>fig-0001: Derailleur pivots</item>
+      <item>fig-0002: Derailleur tension</item>
+      <item>fig-0003: Brake lever pivots</item>
+      <item>fig-0004: Chain lubrication</item>
+      <item>seq-0001: Clean cloth</item>
+      <item>seq-0002: Floor covering</item>
+      <item>sup-0001: ACME sticky lube 52B</item>
+      <item>sup-0002: AECMA Heavy duty Oil 1988</item>
+      <item>stp-0002: Step 2 (Lubricate the Chain)</item>
+      <item>app-0001: Wet Conditions</item>
+      <item>app-0002: Dry Conditions</item>
+    </section>
+  </procedure>

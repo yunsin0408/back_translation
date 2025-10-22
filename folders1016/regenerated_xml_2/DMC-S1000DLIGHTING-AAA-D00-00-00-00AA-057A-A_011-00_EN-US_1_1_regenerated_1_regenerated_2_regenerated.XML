@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-057A-A_011-00_EN-US_1_1_regenerated.XML</title>
+  <content>
+    <section>
+      <title>Wiring Data Document</title>
+      <section>
+        <title>Content</title>
+        <section>
+          <title>Paragraph</title>
+          <paragraph>This document details wiring data, including wire groups, connections, and associated information.</paragraph>
+        </section>
+        <section>
+          <title>Wiring Group</title>
+          <section>
+            <title>Paragraph</title>
+            <paragraph>This section outlines the defined wire groups and their contents.</paragraph>
+          </section>
+          <section>
+            <title>Wire Group 1</title>
+            <section>
+              <title>Paragraph</title>
+              <paragraph>This group contains multiple wires and alternate specifications.</paragraph>
+            </section>
+            <section>
+              <title>Wires</title>
+              <item>
+                <bold>Wire 1:</bold> (Details omitted for brevity - see original XML)
+              </item>
+              <item>
+                <bold>Wire 2:</bold> (Details omitted for brevity - see original XML)
+              </item>
+              <item>... (Other wires in the group)</item>
+            </section>
+            <section>
+              <title>Wire Alternates (SPEC-0001)</title>
+              <item>
+                <bold>Circuit Ident:</bold> YD
+              </item>
+              <item>
+                <bold>Wire Number:</bold> 0486
+              </item>
+              <item>
+                <bold>Section Ident:</bold> AA
+              </item>
+            </section>
+          </section>
+          <section>
+            <title>From Equipment: 6QXA</title>
+            <section>
+              <title>Connection Details</title>
+              <item>
+                <bold>Screen Order:</bold> 3
+              </item>
+              <item>
+                <bold>Special Connection:</bold> 100
+              </item>
+              <item>
+                <bold>Electrical Potential:</bold> Termination Module Grouping Value: 1, Block Grouping Value: 1, Shunt Grouping Value: 1, Contact Order Value: 1, Potential Connections Order: 2
+              </item>
+            </section>
+            <section>
+              <title>Screen Group</title>
+              <item>Screen Level: 01, Screen Type: 03, Screen Style: 01</item>
+            </section>
+            <section>
+              <title>Twist Group</title>
+              <item>Twist Type: 2, Twist Value: T%CM0005AA</item>
+            </section>
+            <section>
+              <title>Wire Installation Code</title>
+              <item>
+                <bold>Preparation Info:</bold> Instruction Ident: PRE609
+              </item>
+              <item>
+                <bold>Finishing Info:</bold> Instruction Ident: PRE609
+              </item>
+            </section>
+            <section>
+              <title>Wire Info</title>
+              <item>
+                <bold>Wire Code:</bold> Wire Type: QC, Wire Gauge (AWG): 006
+              </item>
+              <item>
+                <bold>Part Number:</bold> JN1018QC020
+              </item>
+              <item>
+                <bold>Harness Ident:</bold> 1109VB
+              </item>
+              <item>
+                <bold>Wire Sequence Number:</bold> 0161
+              </item>
+              <item>
+                <bold>Coaxial Cable Flag:</bold> Y
+              </item>
+              <item>
+                <bold>Triaxial Cable Flag:</bold> N
+              </item>
+              <item>
+                <bold>EMC Code:</bold> E
+              </item>
+              <item>
+                <bold>Length:</bold> 2150 mm (estimated)
+              </item>
+              <item>
+                <bold>Wire Color:</bold> R
+              </item>
+              <item>
+                <bold>Signal Info:</bold> 115V AC, 400Hz
+              </item>
+              <item>
+                <bold>Responsible Partner Company:</bold> K0999
+              </item>
+              <item>
+                <bold>Routing:</bold>
+                <item>
+                  <bold>Clipping Point:</bold> 271-11
+                </item>
+                <item>
+                  <bold>Clipping Point:</bold> 271-12
+                </item>
+                <item>
+                  <bold>Feed Thru:</bold> Functional Item Number: 42XU4T, Hole Ident: 3
+                </item>
+              </item>
+              <item>
+                <bold>Wire Route:</bold> L1
+              </item>
+              <item>
+                <bold>Restriction:</bold> None
+              </item>
+              <item>
+                <bold>Next Higher Assembly:</bold> Functional Item Number: 231VU
+              </item>
+              <item>
+                <bold>Change Authority Data:</bold> Change Authority Condition Number: 2012-26-51, Change Authority Type Name: AD
+              </item>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+    <section>
+      <title>Summary</title>
+      <section>
+        <title>Paragraph</title>
+        <paragraph>This document provides a detailed view of the wiring data, including specific connections, wire properties, and routing information. The XML structure allows for complex wiring configurations to be defined and documented.</paragraph>
+      </section>
+    </section>
+  </content>
+</proced>

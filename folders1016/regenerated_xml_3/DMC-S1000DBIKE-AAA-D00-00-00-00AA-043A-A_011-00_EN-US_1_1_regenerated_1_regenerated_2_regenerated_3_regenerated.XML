@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedIdentification xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmAddress>
+    <dmIdent>
+      <modelIdentCode>S1000DBIKE</modelIdentCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>D00</systemCode>
+      <subSystemCode>0</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assyCode>00</assyCode>
+      <disassyCode>00</disassyCode>
+      <disassyCodeVariant>AA</disassyCodeVariant>
+      <infoCode>043</infoCode>
+      <itemLocationCode>A</itemLocationCode>
+    </dmIdent>
+    <dmStatus>
+      <ReasonForUpdate>S1000D upissued</ReasonForUpdate>
+      <QualityAssurance>tabtop</QualityAssurance>
+      <SystemBreakdownCode>BY</SystemBreakdownCode>
+      <SkillLevel>sk01</SkillLevel>
+    </dmStatus>
+  </dmAddress>
+  <content>
+    <refs>
+      <modelIdentCode>S1000DBIKE</modelIdentCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>DA5</systemCode>
+      <subSystemCode>3</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assyCode>00</assyCode>
+      <disassyCode>00</disassyCode>
+      <disassyCodeVariant>AA</disassyCodeVariant>
+      <infoCode>041</infoCode>
+      <itemLocationCode>A</itemLocationCode>
+    </refs>
+    <crew>
+      <descrCrew>
+        <introduction>Data about the bicycle and its control system is given in this document. This data will help you operate the bicycle.</introduction>
+        <controls>Data about the controls that follow is given in this document:</controls>
+        <steering>The handlebars are used to steer the bike. They are at the front of the bicycle. You hold one of the handlebar grips with each hand and move the handle bar to change the direction of the bike.</steering>
+        <shifters>The gears control the ratio of pedal rotation to wheel rotation. You can change this with the shifters. The shifters are on the handlebar.</shifters>
+        <shifterDescription>A description of the two shifters follows:</shifterDescription>
+        <shifterTable>
+          <columnTitle>Shifter Location</columnTitle>
+          <columnTitle>Affected Gears</columnTitle>
+          <columnTitle>Left</columnTitle>
+          <columnTitle>The buttons on the left shifter changes the gears on the front derailleur.</columnTitle>
+          <columnTitle>Right</columnTitle>
+          <columnTitle>The buttons on the right shifter changes the gears on the rear derailleur.</columnTitle>
+        </shifterTable>
+        <brakes>
+          <warning>If you operate the front brake without the rear brake you can cause a crash.</warning>
+          <brakeDescription>You can decrease the speed of the bike with the brakes. You operate the brakes with the brake levers on the handlebar.</brakeDescription>
+          <brakeLeverTable>
+            <columnTitle>Brake Lever Location</columnTitle>
+            <columnTitle>Affected Brake</columnTitle>
+            <columnTitle>Left</columnTitle>
+            <columnTitle>This lever operates the front brake.</columnTitle>
+            <columnTitle>Right</columnTitle>
+            <columnTitle>This lever operates the rear brake.</columnTitle>
+          </brakeLeverTable>
+        </brakes>
+        <pedals>The pedals are at the bottom of the seat tube. You operate the pedals to move the bicycle forward.</pedals>
+      </descrCrew>
+    </crew>
+  </content>
+</procedIdentification>

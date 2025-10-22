@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductManual xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <Content>
+    <Heading level="1">Product Manual (PM)</Heading>
+    <Heading level="2">Content</Heading>
+    <Paragraph>This document outlines the content of a product manual. It details various references to components and their configurations.</Paragraph>
+    <Heading level="3">Referenced Applicables (Applications)</Heading>
+    <Paragraph>The following applicables are referenced within the content:</Paragraph>
+    <List type="bullet">
+      <ListItem><b>app-001</b>: (Multiple references throughout - appears to be a common default)</ListItem>
+      <ListItem><b>app-002</b>: (Frequently referenced, likely a core component set)</ListItem>
+      <ListItem><b>app-003</b>: (Several references, potentially a supplemental or optional component)</ListItem>
+      <ListItem><b>app-004</b>: (Limited references, possibly a specialized component)</ListItem>
+    </List>
+    <Heading level="3">Detailed Content Breakdown</Heading>
+    <Paragraph>The content is structured around a single <code>pmEntry</code>. This entry contains a series of <code>dmRef</code> (Data Management References) which link to specific configurations of a product identified by <code>S1000DLIGHTING</code>.</Paragraph>
+    <Heading level="4"><code>pmEntry</code> Details</Heading>
+    <List type="bullet">
+      <ListItem>The <code>pmEntry</code> covers a broad range of configurations, indicated by the variety of <code>infoCode</code> values.</ListItem>
+      <ListItem><code>disassyCode</code> values (00, 01, 02) suggest different assemblies or sub-assemblies.</ListItem>
+      <ListItem><code>itemLocationCode</code> values (A, D) likely denote physical locations/installations within the product.</ListItem>
+      <ListItem><code>issueNumber</code> indicates revisions or versions of the documentation/configurations.</ListItem>
+      <ListItem><code>language</code> is consistently <code>en</code> (English) with <code>countryCode</code> of <code>US</code>.</ListItem>
+    </List>
+    <Heading level="4"><code>dmRef</code> Examples (Illustrative - not exhaustive)</Heading>
+    <Paragraph>The following are examples of the <code>dmRef</code> structures. Each represents a specific configuration.</Paragraph>
+    <List type="bullet">
+      <ListItem><b><code>dmRef</code> with <code>app-001</code></b>:
+        <List type="bullet">
+          <ListItem><code>infoCode</code>: 341</ListItem>
+          <ListItem><code>issueNumber</code>: 010</ListItem>
+          <ListItem><code>itemLocationCode</code>: A</ListItem>
+        </List>
+      </ListItem>
+      <ListItem><b><code>dmRef</code> with <code>app-002</code></b>:
+        <List type="bullet">
+          <ListItem><code>infoCode</code>: 413</ListItem>
+          <ListItem><code>issueNumber</code>: 010</ListItem>
+          <ListItem><code>itemLocationCode</code>: A</ListItem>
+        </List>
+      </ListItem>
+      <ListItem><b><code>dmRef</code> with <code>app-003</code></b>:
+        <List type="bullet">
+          <ListItem><code>infoCode</code>: 0A1</ListItem>
+          <ListItem><code>issueNumber</code>: 004</ListItem>
+          <ListItem><code>itemLocationCode</code>: D</ListItem>
+        </List>
+      </ListItem>
+      <ListItem><b><code>dmRef</code> with <code>app-004</code></b>:
+        <List type="bullet">
+          <ListItem><code>infoCode</code>: 0A2</ListItem>
+          <ListItem><code>issueNumber</code>: 004</ListItem>
+          <ListItem><code>itemLocationCode</code>: D</ListItem>
+        </List>
+      </ListItem>
+    </List>
+    <Heading level="4">Key Observations</Heading>
+    <List type="bullet">
+      <ListItem>The documentation appears to be relatively comprehensive, covering a wide range of configurations.</ListItem>
+      <ListItem>The use of <code>infoCode</code>, <code>disassyCode</code>, and <code>itemLocationCode</code> provides a granular level of control and configuration management.</ListItem>
+      <ListItem>The consistent use of language and country code suggests a standardized documentation process.</ListItem>
+      <ListItem>The high number of <code>dmRef</code> entries indicates a complex product with many possible variations.</ListItem>
+    </List>
+    <Paragraph>This structure enables detailed tracking and management of product configurations throughout the lifecycle.</Paragraph>
+  </Content>
+</ProductManual>

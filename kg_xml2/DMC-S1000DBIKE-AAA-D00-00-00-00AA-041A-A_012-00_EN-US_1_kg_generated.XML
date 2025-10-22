@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Component Overview</title>
+  <content>
+    <section>
+      <heading>Introduction</heading>
+      <paragraph>This document provides an overview of the key components of a bicycle. It includes descriptions and references to visual aids within a larger technical manual.</paragraph>
+    </section>
+    <section>
+      <heading>Visual Aid References</heading>
+      <list>
+        <item>Figure 1: Overall Bicycle Diagram</item>
+        <item>Figure 1.1: Frame Detail</item>
+        <item>Figure 1.2: Wheel Assembly</item>
+        <item>Figure 1.3: Seat and Seat Post</item>
+        <item>Figure 1.4: Handlebar and Stem</item>
+        <item>Figure 1.5: Crank Assembly</item>
+        <item>Figure 1.6: Pedal Assembly</item>
+        <item>Figure 1.7: Chain and Gear System</item>
+        <item>Figure 1.8: Brake System</item>
+      </list>
+    </section>
+    <section>
+      <heading>Key Components</heading>
+      <subsection>
+        <heading>Frame (Refer to Figure 1.1)</heading>
+        <paragraph>The bicycle frame is the main structural component, typically constructed from metal tubes welded together. It provides the foundation for all other parts.</paragraph>
+      </subsection>
+      <subsection>
+        <heading>Wheels (Refer to Figure 1.2)</heading>
+        <paragraph>The wheels enable movement and consist of the following parts:</paragraph>
+        <list>
+          <item>Hub: The central part of the wheel.</item>
+          <item>Spokes: Connect the hub to the rim.</item>
+          <item>Metal Rim: The outer circular part of the wheel.</item>
+          <item>Rubber Tire: Provides traction and cushioning.</item>
+        </list>
+      </subsection>
+      <subsection>
+        <heading>Seat and Seat Post (Refer to Figure 1.3)</heading>
+        <paragraph>The seat and seat post provide a comfortable riding position. The seat post inserts into the seat tube, allowing for height adjustment.</paragraph>
+      </subsection>
+      <subsection>
+        <heading>Handlebar and Stem (Refer to Figure 1.4)</heading>
+        <paragraph>The handlebar and stem control steering and provide a mounting point for brake levers and shifters.</paragraph>
+      </subsection>
+      <subsection>
+        <heading>Cranks (Refer to Figure 1.5)</heading>
+        <paragraph>The cranks are levers that extend from the bottom bracket to the pedals, transferring pedaling force to the drivetrain.</paragraph>
+      </subsection>
+      <subsection>
+        <heading>Pedals (Refer to Figure 1.6)</heading>
+        <paragraph>The pedals are platforms for the feet, attaching to the cranks and receiving pedaling force.</paragraph>
+      </subsection>
+      <subsection>
+        <heading>Chain and Gears (Refer to Figure 1.7)</heading>
+        <paragraph>The chain and gear system (drivetrain) transmit power from the pedals to the rear wheel. Key components include:</paragraph>
+        <list>
+          <item>Front Chain Ring: The large gear attached to the crank.</item>
+          <item>Rear Freewheel (or Cassette): The set of gears on the rear wheel.</item>
+          <item>Front and Rear Derailleurs: Mechanisms that move the chain between gears.</item>
+          <item>Shift Lever: Controls the derailleurs.</item>
+          <item>Cables: Connect the shift lever to the derailleurs.</item>
+        </list>
+      </subsection>
+      <subsection>
+        <heading>Brakes (Refer to Figure 1.8)</heading>
+        <paragraph>The brake system provides stopping power and includes:</paragraph>
+        <list>
+          <item>Actuators (on Handlebars): Levers operated by the rider.</item>
+          <item>Brake Cable: Transmits force from the actuator to the brakes.</item>
+          <item>Brake Calipers: Clamp onto the wheel rim or rotor.</item>
+          <item>Brake Pads: Provide friction to slow or stop the wheel.</item>
+        </list>
+      </subsection>
+    </section>
+    <section>
+      <heading>Additional Notes</heading>
+      <paragraph>All parts are typically available from certified part distributors. The table below provides a summary of each component.</paragraph>
+      <table>
+        <header>
+          <cell>Component</cell>
+          <cell>Reference</cell>
+          <cell>Description</cell>
+        </header>
+        <row>
+          <cell>Frame</cell>
+          <cell>Figure 1.1</cell>
+          <cell>Main structural component.</cell>
+        </row>
+        <row>
+          <cell>Wheels</cell>
+          <cell>Figure 1.2</cell>
+          <cell>Enable movement; includes hub, spokes, rim, tire.</cell>
+        </row>
+        <row>
+          <cell>Seat &amp; Post</cell>
+          <cell>Figure 1.3</cell>
+          <cell>Provides rider comfort and adjustable height.</cell>
+        </row>
+        <row>
+          <cell>Handlebar/Stem</cell>
+          <cell>Figure 1.4</cell>
+          <cell>Controls steering and mounts controls.</cell>
+        </row>
+        <row>
+          <cell>Cranks</cell>
+          <cell>Figure 1.5</cell>
+          <cell>Transfers pedaling force to the drivetrain.</cell>
+        </row>
+        <row>
+          <cell>Pedals</cell>
+          <cell>Figure 1.6</cell>
+          <cell>Platforms for the feet.</cell>
+        </row>
+        <row>
+          <cell>Chain &amp; Gears</cell>
+          <cell>Figure 1.7</cell>
+          <cell>Transmit power to the rear wheel.</cell>
+        </row>
+        <row>
+          <cell>Brakes</cell>
+          <cell>Figure 1.8</cell>
+          <cell>Provide stopping power.</cell>
+        </row>
+      </table>
+    </section>
+  </content>
+</proced>

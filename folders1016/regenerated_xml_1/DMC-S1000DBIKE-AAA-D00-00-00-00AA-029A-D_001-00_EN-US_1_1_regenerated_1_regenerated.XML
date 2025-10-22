@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-029A-D_001-00_EN-US_1_1_regenerated</title>
+  <sect level="1">
+    <title>Wiring Fields Definition</title>
+    <p>This document outlines the definitions of various fields used within the wiring data structure. It details the attributes and their meanings for standard parts used in wiring harnesses.</p>
+  </sect>
+  <sect level="1">
+    <title>Wiring Fields</title>
+    <sect level="2">
+      <title>Standard Part Group</title>
+      <sect level="3">
+        <title>Conduit</title>
+        <list>
+          <item>
+            <title>Part Number</title>
+            <p>Definition: The unique identifier for the conduit.</p>
+          </item>
+          <item>
+            <title>Alternative Part Number</title>
+            <p>Definition: An alternative identifier for the same conduit.</p>
+          </item>
+          <item>
+            <title>Manufacturer Code</title>
+            <p>Definition: The code identifying the manufacturer of the conduit.</p>
+          </item>
+          <item>
+            <title>Size</title>
+            <p>Definition: The physical size of the conduit.</p>
+          </item>
+          <item>
+            <title>Mass</title>
+            <p>Definition: The weight of the conduit.</p>
+          </item>
+          <item>
+            <title>Color</title>
+            <p>Definition: The color of the conduit.</p>
+          </item>
+          <item>
+            <title>Wall Thickness</title>
+            <p>Definition: The thickness of the conduit's wall.</p>
+          </item>
+          <item>
+            <title>Minimum Temperature</title>
+            <p>Definition: The lowest operating temperature the conduit can withstand.</p>
+          </item>
+          <item>
+            <title>Maximum Temperature</title>
+            <p>Definition: The highest operating temperature the conduit can withstand.</p>
+          </item>
+          <item>
+            <title>Functional Description Reference</title>
+            <p>Definition: Reference to a document containing a more detailed functional description.</p>
+          </item>
+          <item>
+            <title>Illustration Reference</title>
+            <p>Definition: Reference to a document containing an illustration of the conduit.</p>
+          </item>
+        </list>
+      </sect>
+      <sect level="3">
+        <title>Ident Sleeve (Identification Sleeve)</title>
+        <list>
+          <item>
+            <title>Part Number</title>
+            <p>Definition: The unique identifier for the identification sleeve.</p>
+          </item>
+          <item>
+            <title>Alternative Part Number</title>
+            <p>Definition: An alternative identifier for the same identification sleeve.</p>
+          </item>
+          <item>
+            <title>Manufacturer Code</title>
+            <p>Definition: The code identifying the manufacturer of the identification sleeve.</p>
+          </item>
+          <item>
+            <title>Length</title>
+            <p>Definition: The length of the identification sleeve.</p>
+          </item>
+          <item>
+            <title>Material</title>
+            <p>Definition: The material the identification sleeve is made from.</p>
+          </item>
+          <item>
+            <title>Mass</title>
+            <p>Definition: The weight of the identification sleeve.</p>
+          </item>
+          <item>
+            <title>Functional Description Reference</title>
+            <p>Definition: Reference to a document containing a more detailed functional description.</p>
+          </item>
+          <item>
+            <title>Illustration Reference</title>
+            <p>Definition: Reference to a document containing an illustration of the identification sleeve.</p>
+          </item>
+        </list>
+      </sect>
+      <sect level="3">
+        <title>Wire Material</title>
+        <list>
+          <item>
+            <title>Part Number</title>
+            <p>Definition: The unique identifier for the wire material.</p>
+          </item>
+          <item>
+            <title>Alternative Part Number</title>
+            <p>Definition: An alternative identifier for the same wire material.</p>
+          </item>
+          <item>
+            <title>Manufacturer Code</title>
+            <p>Definition: The code identifying the manufacturer of the wire material.</p>
+          </item>
+          <item>
+            <title>Wire Type</title>
+            <p>Definition: The type of wire (e.g., stranded, solid).</p>
+          </item>
+          <item>
+            <title>Wire Gauge</title>
+            <p>Definition: The gauge of the wire.</p>
+          </item>
+          <item>
+            <title>Number of Cores</title>
+            <p>Definition: The number of conductors within the wire.</p>
+          </item>
+          <item>
+            <title>Size</title>
+            <p>Definition: The physical size of the wire.</p>
+          </item>
+          <item>
+            <title>Mass</title>
+            <p>Definition: The weight of the wire per unit length.</p>
+          </item>
+          <item>
+            <title>Color</title>
+            <p>Definition: The color of the wire insulation.</p>
+          </item>
+          <item>
+            <title>Outer Jacket Color</title>
+            <p>Definition: The color of the outer jacket (if applicable).</p>
+          </item>
+          <item>
+            <title>Outer Diameter</title>
+            <p>Definition: The overall diameter of the wire.</p>
+          </item>
+          <item>
+            <title>Resistance</title>
+            <p>Definition: The direct current resistance of the wire.</p>
+          </item>
+          <item>
+            <title>Voltage</title>
+            <p>Definition: The maximum operating voltage.</p>
+          </item>
+          <item>
+            <title>Amperage</title>
+            <p>Definition: The maximum current carrying capacity.</p>
+          </item>
+          <item>
+            <title>Minimum Temperature</title>
+            <p>Definition: The lowest operating temperature.</p>
+          </item>
+          <item>
+            <title>Maximum Temperature</title>
+            <p>Definition: The highest operating temperature.</p>
+          </item>
+          <item>
+            <title>Screen Count</title>
+            <p>Definition: The number of shields or screens.</p>
+          </item>
+          <item>
+            <title>Coaxial Cable Flag</title>
+            <p>Definition: Indicates if the wire is a coaxial cable.</p>
+          </item>
+          <item>
+            <title>Tri-axial Cable Flag</title>
+            <p>Definition: Indicates if the wire is a tri-axial cable.</p>
+          </item>
+          <item>
+            <title>Impedance</title>
+            <p>Definition: The AC impedance of the wire (typically for cables).</p>
+          </item>
+          <item>
+            <title>Frequency</title>
+            <p>Definition: The frequency at which impedance or attenuation are measured.</p>
+          </item>
+          <item>
+            <title>Attenuation</title>
+            <p>Definition: The signal loss per unit length at a given frequency.</p>
+          </item>
+          <item>
+            <title>Functional Description Reference</title>
+            <p>Definition: Reference to a document containing a more detailed functional description.</p>
+          </item>
+          <item>
+            <title>Illustration Reference</title>
+            <p>Definition: Reference to a document containing an illustration of the wire material.</p>
+          </item>
+        </list>
+      </sect>
+      <sect level="3">
+        <title>Conduit</title>
+        <list>
+          <item>
+            <title>Part Number</title>
+            <p>Definition: The unique identifier for the conduit.</p>
+          </item>
+          <item>
+            <title>Alternative Part Number</title>
+            <p>Definition: An alternative identifier for the same conduit.</p>
+          </item>
+          <item>
+            <title>Manufacturer Code</title>
+            <p>Definition: The code identifying the manufacturer of the conduit.</p>
+          </item>
+          <item>
+            <title>Size</title>
+            <p>Definition: The physical size of the conduit.</p>
+          </item>
+          <item>
+            <title>Mass</title>
+            <p>Definition: The weight of the conduit.</p>
+          </item>
+          <item>
+            <title>Color</title>
+            <p>Definition: The color of the conduit.</p>
+          </item>
+          <item>
+            <title>Wall Thickness</title>
+            <p>Definition: The thickness of the conduit's wall.</p>
+          </item>
+          <item>
+            <title>Minimum Temperature</title>
+            <p>Definition: The lowest operating temperature the conduit can withstand.</p>
+          </item>
+          <item>
+            <title>Maximum Temperature</title>
+            <p>Definition: The highest operating temperature the conduit can withstand.</p>
+          </item>
+          <item>
+            <title>Functional Description Reference</title>
+            <p>Definition: Reference to a document containing a more detailed functional description.</p>
+          </item>
+          <item>
+            <title>Illustration Reference</title>
+            <p>Definition: Reference to a document containing an illustration of the conduit.</p>
+          </item>
+        </list>
+      </sect>
+    </sect>
+  </sect>
+</proc>

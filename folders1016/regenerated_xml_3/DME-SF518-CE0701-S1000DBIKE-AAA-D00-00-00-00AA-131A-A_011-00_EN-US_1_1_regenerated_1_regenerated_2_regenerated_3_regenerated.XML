@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Pre-Ride Check - Crew Procedure</title>
+  <introduction>
+    <para>This document outlines the crew procedure for a pre-ride bicycle check, ensuring rider safety and optimal performance. It details the steps for inspecting critical components and performing necessary adjustments.</para>
+  </introduction>
+  <step>
+    <title>Crew Procedure Steps</title>
+    <step_detail>
+      <title>1. Brakes</title>
+      <list_item>Inspect brake pads for wear.</list_item>
+      <list_item>Ensure brake levers operate smoothly.</list_item>
+      <list_item>Verify cable integrity (no cuts or fraying).</list_item>
+      <list_item>Confirm proper brake function - both front and rear.</list_item>
+    </step_detail>
+    <step_detail>
+      <title>2. Tires</title>
+      <list_item>Tire pressure (see table below for recommended ranges).</list_item>
+      <list_item>Inspect tires for cracks, splits, or embedded objects.</list_item>
+      <table_data>
+        <header_row>
+          <header>Header</header>
+          <header>Terrain</header>
+          <header>Minimum Pressure</header>
+          <header>Maximum Pressure</header>
+        </header_row>
+        <data_row>
+          <data>Row</data>
+          <data>Off Road</data>
+          <data>35 lbs</data>
+          <data>40 lbs</data>
+        </data_row>
+        <data_row>
+          <data>Row</data>
+          <data>On Road</data>
+          <data>55 lbs</data>
+          <data>60 lbs</data>
+        </data_row>
+      </table_data>
+    </step_detail>
+    <step_detail>
+      <title>3. Wheels</title>
+      <list_item>Spin wheels to verify smooth rotation.</list_item>
+      <list_item>Listen for unusual noises indicating bearing issues.</list_item>
+      <list_item>Inspect spokes for breakage.</list_item>
+      <list_item>Ensure spokes are tight.</list_item>
+      <list_item>Confirm axle nuts are securely tightened.</list_item>
+      <list_item>Confirm wheel is 'true' (not wobbling).</list_item>
+    </step_detail>
+    <step_detail>
+      <title>4. Headset</title>
+      <list_item>Ensure headset bearings are tight and smooth.</list_item>
+    </step_detail>
+    <step_detail>
+      <title>5. Chain</title>
+      <list_item>Verify easy movement of chain links.</list_item>
+    </step_detail>
+    <step_detail>
+      <title>6. Handlebar &amp; Stem</title>
+      <para>Do *not* ride with a cracked stem.</para>
+      <condition_action>
+        <condition>Stem Cracked</condition>
+        <action>Replace stem immediately.</action>
+      </condition_action>
+      <condition_action>
+        <condition>Stem Loose</condition>
+        <action>Tighten stem.</action>
+      </condition_action>
+      <condition_action>
+        <condition>Handlebars Twist</condition>
+        <action>Tighten clamp bolt.</action>
+      </condition_action>
+    </step_detail>
+    <step_detail>
+      <title>7. Computer Display</title>
+      <para>Ensure the computer is displaying accurate information (example):</para>
+      <table_data>
+        <header_row>
+          <header>Header</header>
+          <header>Component</header>
+          <header>Displayed Value</header>
+        </header_row>
+        <data_row>
+          <data>Row</data>
+          <data>Speed</data>
+          <data>0 mph</data>
+        </data_row>
+        <data_row>
+          <data>Row</data>
+          <data>Distance</data>
+          <data>0 miles</data>
+        </data_row>
+      </table_data>
+    </step_detail>
+  </step>
+  <notes>
+    <para>This procedure is a guideline; adapt it based on specific bicycle types and rider needs.</para>
+    <para>Regular maintenance and inspection are crucial for safety and performance.</para>
+    <para>Always prioritize safety; if unsure about any component, seek professional assistance.</para>
+  </notes>
+</procedure>

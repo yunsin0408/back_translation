@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>DMC-S1000D-H-04-10-0301-00A-022A-D_001-00_EN-US_1_1</procTitle>
+  <content>
+    <section>
+      <dataModuleRules>
+        <p>This document outlines the rules governing data modules, extracted from the provided `dmodule` XML.</p>
+        <p>Context Rules - Structure Object Rule Groups</p>
+        <p>The following rules are context-dependent and organized into rule groups.</p>
+        <structureObjectRuleGroup>
+          <p>This group defines permissible values for various attributes within the data module structure.</p>
+          <attributeDefinitionsAndPermissibleValues>
+            <attribute>
+              <name>updateReasonType</name>
+              <description>Defines the reason for updating the data module.</description>
+              <value>
+                <code_value>urt01</code_value>
+                <description>Editorial change (minor changes, technically insignificant).</description>
+              </value>
+              <value>
+                <code_value>urt02</code_value>
+                <description>Technical change (significant changes requiring review).</description>
+              </value>
+              <value>
+                <code_value>urt03</code_value>
+                <description>Markup change (changes related solely to XML markup).</description>
+              </value>
+              <value>
+                <code_value>urt04</code_value>
+                <description>Applicability change (only the applicability has changed).</description>
+              </value>
+              <value>
+                <code_value>urt05</code_value>
+                <description>Unique identifier of the referencing structure has changed.</description>
+              </value>
+              <value>
+                <code_value>urt51-urt99</code_value>
+                <description>Reserved for project/organization-specific values.</description>
+              </value>
+            </attribute>
+            <attribute>
+              <name>verbatimStyle</name>
+              <description>Defines the style of verbatim text.</description>
+              <value>
+                <code_value>vs01</code_value>
+                <description>Generic verbatim.</description>
+              </value>
+              <value>
+                <code_value>vs02</code_value>
+                <description>Filename.</description>
+              </value>
+              <value>
+                <code_value>vs11</code_value>
+                <description>XML/SGML markup.</description>
+              </value>
+              <value>
+                <code_value>vs12</code_value>
+                <description>XML/SGML element name.</description>
+              </value>
+              <value>
+                <code_value>vs13</code_value>
+                <description>XML/SGML attribute name.</description>
+              </value>
+              <value>
+                <code_value>vs14</code_value>
+                <description>XML/SGML attribute value.</description>
+              </value>
+              <value>
+                <code_value>vs15</code_value>
+                <description>XML/SGML entity name.</description>
+              </value>
+              <value>
+                <code_value>vs16</code_value>
+                <description>XML/SGML processing instruction.</description>
+              </value>
+              <value>
+                <code_value>vs21</code_value>
+                <description>Program prompt.</description>
+              </value>
+              <value>
+                <code_value>vs22</code_value>
+                <description>User input.</description>
+              </value>
+              <value>
+                <code_value>vs23</code_value>
+                <description>Computer output.</description>
+              </value>
+              <value>
+                <code_value>vs24</code_value>
+                <description>Program listing.</description>
+              </value>
+              <value>
+                <code_value>vs25</code_value>
+                <description>Program variable name.</description>
+              </value>
+              <value>
+                <code_value>vs26</code_value>
+                <description>Program variable value.</description>
+              </value>
+              <value>
+                <code_value>vs27</code_value>
+                <description>Constant.</description>
+              </value>
+              <value>
+                <code_value>vs28</code_value>
+                <description>Class name.</description>
+              </value>
+              <value>
+                <code_value>vs29</code_value>
+                <description>Parameter name.</description>
+              </value>
+              <value>
+                <code_value>vs51-vs99</code_value>
+                <description>Reserved for project/organization-specific values.</description>
+              </value>
+            </attribute>
+            <attribute>
+              <name>quantityUnitOfMeasure</name>
+              <description>Defines the unit of measure for quantity data. Values within the range `um51-um99` can be allocated and defined by projects or organizations. (Refer to Table 2 in document section 3.9.6.2)</description>
+            </attribute>
+          </attributeDefinitionsAndPermissibleValues>
+        </structureObjectRuleGroup>
+      </dataModuleRules>
+      <nonContextRules>
+        <deletionOfDataModules>
+          <p>Deletion of data modules is treated as a special case of update. The data module itself is not physically deleted but is marked as deleted. (Refer to document section 3.9.5.1, Para 2.2)</p>
+        </deletionOfDataModules>
+      </nonContextRules>
+    </section>
+  </content>
+</proced>

@@ -1,0 +1,85 @@
+# UPF-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_003-00_en-US_1_1_regenerated
+
+xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Procedure title="UPF-S1000DLIGHTING-AAA-D00-00-00-00AA-00GA-D_003-00_en-US_1_1_regenerated" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <UpdateInformation>
+    <Section>
+      <SectionTitle>Section 1</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 2</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 3</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 4</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 5</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 6</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 7</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 8</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 9</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 10</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+    <Section>
+      <SectionTitle>Section 11</SectionTitle>
+      <UpdateDetails>
+        <Reason>Reason for change</Reason>
+        <Assessment>Impact Assessment</Assessment>
+      </UpdateDetails>
+    </Section>
+  </UpdateInformation>
+</Procedure>

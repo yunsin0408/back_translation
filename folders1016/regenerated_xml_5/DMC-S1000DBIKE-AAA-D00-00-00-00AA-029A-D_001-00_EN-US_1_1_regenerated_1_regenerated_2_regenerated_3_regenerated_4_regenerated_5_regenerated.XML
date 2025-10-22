@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-029A-D_001-00_EN-US_1_1_regenerated</title>
+  <docnr>DMC-S1000DBIKE-AAA-D00-00-00-00AA-029A-D_001-00_EN-US_1_1_regenerated</docnr>
+  <content>
+    <para>
+      <title>Wiring Fields Definition</title>
+      <text>This document outlines the definitions of various fields used within the wiring data structure. It details the attributes and their meanings for standard parts used in wiring harnesses.</text>
+    </para>
+    <para>
+      <title>Wiring Fields</title>
+      <para>
+        <title>Standard Part Group</title>
+        <para>
+          <title>Conduit</title>
+          <item>
+            <name>Part Number</name>
+            <defn>The unique identifier for the conduit.</defn>
+          </item>
+          <item>
+            <name>Alternative Part Number</name>
+            <defn>An alternative identifier for the same conduit.</defn>
+          </item>
+          <item>
+            <name>Manufacturer Code</name>
+            <defn>The code identifying the manufacturer of the conduit.</defn>
+          </item>
+          <item>
+            <name>Size</name>
+            <defn>The physical size of the conduit.</defn>
+          </item>
+          <item>
+            <name>Mass</name>
+            <defn>The weight of the conduit.</defn>
+          </item>
+          <item>
+            <name>Color</name>
+            <defn>The color of the conduit.</defn>
+          </item>
+          <item>
+            <name>Wall Thickness</name>
+            <defn>The thickness of the conduit's wall.</defn>
+          </item>
+          <item>
+            <name>Minimum Temperature</name>
+            <defn>The lowest operating temperature the conduit can withstand.</defn>
+          </item>
+          <item>
+            <name>Maximum Temperature</name>
+            <defn>The highest operating temperature the conduit can withstand.</defn>
+          </item>
+          <item>
+            <name>Functional Description Reference</name>
+            <defn>Reference to a document containing a more detailed functional description.</defn>
+          </item>
+          <item>
+            <name>Illustration Reference</name>
+            <defn>Reference to a document containing an illustration of the conduit.</defn>
+          </item>
+        </para>
+        <para>
+          <title>Ident Sleeve (Identification Sleeve)</title>
+          <item>
+            <name>Part Number</name>
+            <defn>The unique identifier for the identification sleeve.</defn>
+          </item>
+          <item>
+            <name>Alternative Part Number</name>
+            <defn>An alternative identifier for the same identification sleeve.</defn>
+          </item>
+          <item>
+            <name>Manufacturer Code</name>
+            <defn>The code identifying the manufacturer of the identification sleeve.</defn>
+          </item>
+          <item>
+            <name>Length</name>
+            <defn>The length of the identification sleeve.</defn>
+          </item>
+          <item>
+            <name>Material</name>
+            <defn>The material the identification sleeve is made from.</defn>
+          </item>
+          <item>
+            <name>Mass</name>
+            <defn>The weight of the identification sleeve.</defn>
+          </item>
+          <item>
+            <name>Functional Description Reference</name>
+            <defn>Reference to a document containing a more detailed functional description.</defn>
+          </item>
+          <item>
+            <name>Illustration Reference</name>
+            <defn>Reference to a document containing an illustration of the identification sleeve.</defn>
+          </item>
+        </para>
+        <para>
+          <title>Wire Material</title>
+          <item>
+            <name>Part Number</name>
+            <defn>The unique identifier for the wire material.</defn>
+          </item>
+          <item>
+            <name>Alternative Part Number</name>
+            <defn>An alternative identifier for the same wire material.</defn>
+          </item>
+          <item>
+            <name>Manufacturer Code</name>
+            <defn>The code identifying the manufacturer of the wire material.</defn>
+          </item>
+          <item>
+            <name>Wire Type</name>
+            <defn>The type of wire (e.g., stranded, solid).</defn>
+          </item>
+          <item>
+            <name>Wire Gauge</name>
+            <defn>The gauge of the wire.</defn>
+          </item>
+          <item>
+            <name>Number of Cores</name>
+            <defn>The number of conductors within the wire.</defn>
+          </item>
+          <item>
+            <name>Size</name>
+            <defn>The physical size of the wire.</defn>
+          </item>
+          <item>
+            <name>Mass</name>
+            <defn>The weight of the wire per unit length.</defn>
+          </item>
+          <item>
+            <name>Color</name>
+            <defn>The color of the wire insulation.</defn>
+          </item>
+          <item>
+            <name>Outer Jacket Color</name>
+            <defn>The color of the outer jacket (if applicable).</defn>
+          </item>
+          <item>
+            <name>Outer Diameter</name>
+            <defn>The overall diameter of the wire.</defn>
+          </item>
+          <item>
+            <name>Resistance</name>
+            <defn>The direct current resistance of the wire.</defn>
+          </item>
+          <item>
+            <name>Voltage</name>
+            <defn>The maximum operating voltage.</defn>
+          </item>
+          <item>
+            <name>Amperage</name>
+            <defn>The maximum current carrying capacity.</defn>
+          </item>
+          <item>
+            <name>Minimum Temperature</name>
+            <defn>The lowest operating temperature.</defn>
+          </item>
+          <item>
+            <name>Maximum Temperature</name>
+            <defn>The highest operating temperature.</defn>
+          </item>
+          <item>
+            <name>Screen Count</name>
+            <defn>The number of shields or screens.</defn>
+          </item>
+          <item>
+            <name>Coaxial Cable Flag</name>
+            <defn>Indicates if the wire is a coaxial cable.</defn>
+          </item>
+          <item>
+            <name>Tri-axial Cable Flag</name>
+            <defn>Indicates if the wire is a tri-axial cable.</defn>
+          </item>
+          <item>
+            <name>Impedance</name>
+            <defn>The AC impedance of the wire (typically for cables).</defn>
+          </item>
+          <item>
+            <name>Frequency</name>
+            <defn>The frequency at which impedance or attenuation are measured.</defn>
+          </item>
+          <item>
+            <name>Attenuation</name>
+            <defn>The signal loss per unit length at a given frequency.</defn>
+          </item>
+          <item>
+            <name>Functional Description Reference</name>
+            <defn>Reference to a document containing a more detailed functional description.</defn>
+          </item>
+          <item>
+            <name>Illustration Reference</name>
+            <defn>Reference to a document containing an illustration of the wire material.</defn>
+          </item>
+        </para>
+      </para>
+      <para>
+        <title>Conduit</title>
+        <item>
+          <name>Part Number</name>
+          <defn>The unique identifier for the conduit.</defn>
+        </item>
+        <item>
+          <name>Alternative Part Number</name>
+          <defn>An alternative identifier for the same conduit.</defn>
+        </item>
+        <item>
+          <name>Manufacturer Code</name>
+          <defn>The code identifying the manufacturer of the conduit.</defn>
+        </item>
+        <item>
+          <name>Size</name>
+          <defn>The physical size of the conduit.</defn>
+        </item>
+        <item>
+          <name>Mass</name>
+          <defn>The weight of the conduit.</defn>
+        </item>
+        <item>
+          <name>Color</name>
+          <defn>The color of the conduit.</defn>
+        </item>
+        <item>
+          <name>Wall Thickness</name>
+          <defn>The thickness of the conduit's wall.</defn>
+        </item>
+        <item>
+          <name>Minimum Temperature</name>
+          <defn>The lowest operating temperature the conduit can withstand.</defn>
+        </item>
+        <item>
+          <name>Maximum Temperature</name>
+          <defn>The highest operating temperature the conduit can withstand.</defn>
+        </item>
+        <item>
+          <name>Functional Description Reference</name>
+          <defn>Reference to a document containing a more detailed functional description.</defn>
+        </item>
+        <item>
+          <name>Illustration Reference</name>
+          <defn>Reference to a document containing an illustration of the conduit.</defn>
+        </item>
+      </para>
+    </para>
+  </content>
+</proc>

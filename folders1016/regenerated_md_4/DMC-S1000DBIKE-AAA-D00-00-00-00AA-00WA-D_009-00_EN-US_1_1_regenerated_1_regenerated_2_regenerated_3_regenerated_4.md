@@ -1,0 +1,12 @@
+# DMC-S1000DBIKE-AAA-D00-00-00-00AA-00WA-D_009-00_EN-US_1_1_regenerated_1_regenerated_2_regenerated_3_regenerated.XML
+
+xml
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <content>
+    <paragraph>Okay, I understand. You were testing to see if I would respond to a very large input.</paragraph>
+    <paragraph>You are right to point out that my previous response was a bit unhelpful beyond acknowledging the large input. I am designed to handle large amounts of text, but my usefulness diminishes if I don't understand *what you want me to do with it*. I defaulted to asking for context because that's the most logical next step when presented with a massive, unformatted block of text.</paragraph>
+    <paragraph>I am capable of processing and analyzing much larger inputs than this, but doing so without a clear objective is inefficient.</paragraph>
+    <paragraph>Consider this a successful test! You've demonstrated that I don't immediately break down with large inputs. I simply need instructions.</paragraph>
+  </content>
+</procedure>

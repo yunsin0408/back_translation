@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A2A-D_004-00_EN-US_1_1_regenerated</title>
+  <content>
+    <section id="common_repository_document">
+      <title>Common Repository Document</title>
+    </section>
+    <section id="document_information">
+      <title>Document Information</title>
+      <item>
+        <name>Date</name>
+        <value>[Date of Document Creation/Last Update]</value>
+      </item>
+      <item>
+        <name>Version</name>
+        <value>[Document Version]</value>
+      </item>
+    </section>
+    <section id="identification_section">
+      <title>1. Identification</title>
+      <item>
+        <name>Item</name>
+        <details>
+          <name>Document ID</name>
+          <value>[Document ID, if applicable]</value>
+        </details>
+      </item>
+      <item>
+        <name>Item</name>
+        <details>
+          <name>Document Type</name>
+          <value>Common Repository Document</value>
+        </details>
+      </item>
+    </section>
+    <section id="document_overview_section">
+      <title>2. Document Overview</title>
+      <content>This document defines a common repository of applicability specifications for various products or systems. It outlines the applicable items and their associated specifications.</content>
+    </section>
+    <section id="document_structure_section">
+      <title>3. Document Structure</title>
+      <item>
+        <name>Item</name>
+        <details>
+          <name>Identification</name>
+          <value>Basic document identification information.</value>
+        </details>
+      </item>
+      <item>
+        <name>Item</name>
+        <details>
+          <name>Document Overview</name>
+          <value>A summary of the document's purpose.</value>
+        </details>
+      </item>
+      <item>
+        <name>Item</name>
+        <details>
+          <name>Applicability Specifications</name>
+          <value>Detailed definitions of applicable items and related specifications.</value>
+        </details>
+      </item>
+      <item>
+        <name>Item</name>
+        <details>
+          <name>Common Repository</name>
+          <value>Contains the applicability repository.</value>
+        </details>
+      </item>
+    </section>
+    <section id="applicability_specifications_section">
+      <title>4. Applicability Specifications</title>
+      <subsection id="referenced_applicability_groups">
+        <title>4.1 Referenced Applicability Groups</title>
+        <subsection id="application_app_0001">
+          <title>4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001`</title>
+          <description>Defines applicability for Mountain bicycles combined with either the Mountain storm Mk1 or Brook trekker Mk9 models.</description>
+          <conditions>
+            <type>Mountain bicycle</type>
+            <model_version option="1">
+              <model>Mountain storm</model>
+              <version>Mk1</version>
+              <version_rank>1-3</version_rank>
+            </model_version>
+            <model_version option="2">
+              <model>Brook trekker</model>
+              <version>Mk9</version>
+              <version_rank>1-2</version_rank>
+            </model_version>
+          </conditions>
+        </subsection>
+        <subsection id="application_app_0002">
+          <title>4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002`</title>
+          <description>Defines applicability for Mountain bicycles combined with either the Mountain storm Mk1 or Brook trekker Mk9 models.</description>
+          <conditions>
+            <type>Mountain bicycle</type>
+            <model_version option="1">
+              <model>Mountain storm</model>
+              <version>Mk1</version>
+            </model_version>
+            <model_version option="2">
+              <model>Brook trekker</model>
+              <version>Mk9</version>
+            </model_version>
+          </conditions>
+        </subsection>
+        <subsection id="application_app_0003">
+          <title>4.1.3 Application: Mountain bicycle and Mountain storm Mk1 - `app-0003`</title>
+          <description>Defines applicability for Mountain bicycles and the Mountain storm Mk1 model.</description>
+          <conditions>
+            <type>Mountain bicycle</type>
+            <model>Mountain storm</model>
+            <version>Mk1</version>
+          </conditions>
+        </subsection>
+        <subsection id="application_app_0004">
+          <title>4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004`</title>
+          <description>Defines applicability for Mountain bicycles and the Brook trekker Mk9 model.</description>
+          <conditions>
+            <type>Mountain bicycle</type>
+            <model>Brook trekker</model>
+            <version>Mk9</version>
+          </conditions>
+        </subsection>
+      </subsection>
+    </section>
+    <section id="common_repository_section">
+      <title>5. Common Repository</title>
+      <subsection id="applicability_repository">
+        <title>5.1 Applicability Repository</title>
+        <table>
+          <header>
+            <cell>Application Specification ID</cell>
+            <cell>Application Specification Value</cell>
+            <cell>Referenced Application</cell>
+          </header>
+          <row>
+            <cell>`appsp-00001`</cell>
+            <cell>`app-00000000AA056A-0000`</cell>
+            <cell>`app-0002`</cell>
+          </row>
+          <row>
+            <cell>`appsp-00002`</cell>
+            <cell>`app-00000000AA056A-0001`</cell>
+            <cell>`app-0002`</cell>
+          </row>
+          <row>
+            <cell>`appsp-00003`</cell>
+            <cell>`app-00000000AA056A-0002`</cell>
+            <cell>`app-0002`</cell>
+          </row>
+          <row>
+            <cell>`appsp-00004`</cell>
+            <cell>`app-00000000AA056A-0003`</cell>
+            <cell>`app-0002`</cell>
+          </row>
+          <row>
+            <cell>`appsp-00005`</cell>
+            <cell>`app-00000000AA056A-0004`</cell>
+            <cell>`app-0002`</cell>
+          </row>
+          <row>
+            <cell>`appsp-00006`</cell>
+            <cell>`app-00000000AA056A-0005`</cell>
+            <cell>`app-0002`</cell>
+          </row>
+        </table>
+      </subsection>
+    </section>
+  </content>
+</proced>

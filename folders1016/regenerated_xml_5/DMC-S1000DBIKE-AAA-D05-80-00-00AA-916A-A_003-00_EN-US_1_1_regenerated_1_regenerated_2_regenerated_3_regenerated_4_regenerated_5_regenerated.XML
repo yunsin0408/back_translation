@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc id="DMC-S1000DBIKE-AAA-D05-80-00-00AA-916A-A_003-00_EN-US_1_1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D05-80-00-00AA-916A-A_003-00_EN-US_1_1 - Maintenance Planning Document</title>
+  <overview>
+    <para>This document details the maintenance planning for a system, including maintenance allocations, tools lists, and remarks.</para>
+  </overview>
+  <maintenanceallocation>
+    <allocationgroup id="1005">
+      <grouptitle>Allocation Group 1: Brakes</grouptitle>
+      <groupnumber>1</groupnumber>
+      <componentassembly>Brakes - Pads</componentassembly>
+      <skilllevel>sk01</skilllevel>
+      <maintenanceallocationtable>
+        <tableheader>
+          <maintenancefunction>Maintenance Function</maintenancefunction>
+          <maintenancelevel>Maintenance Level</maintenancelevel>
+        </tableheader>
+        <tablerow>
+          <maintenancefunction>ft01</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft02</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft03</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft04</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft05</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft07</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft08</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+      </maintenanceallocationtable>
+    </allocationgroup>
+    <allocationgroup id="1005">
+      <grouptitle>Allocation Group 2: Brakes - Cables</grouptitle>
+      <groupnumber>2</groupnumber>
+      <componentassembly>Brakes - Cables</componentassembly>
+      <skilllevel>sk02</skilllevel>
+      <maintenanceallocationtable>
+        <tableheader>
+          <maintenancefunction>Maintenance Function</maintenancefunction>
+          <maintenancelevel>Maintenance Level</maintenancelevel>
+        </tableheader>
+        <tablerow>
+          <maintenancefunction>ft01</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft02</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft03</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft04</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft05</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft07</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft08</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+      </maintenanceallocationtable>
+    </allocationgroup>
+    <allocationgroup id="1005">
+      <grouptitle>Allocation Group 3: Brakes - Disks</grouptitle>
+      <groupnumber>3</groupnumber>
+      <componentassembly>Brakes - Disks</componentassembly>
+      <skilllevel>sk02</skilllevel>
+      <maintenanceallocationtable>
+        <tableheader>
+          <maintenancefunction>Maintenance Function</maintenancefunction>
+          <maintenancelevel>Maintenance Level</maintenancelevel>
+        </tableheader>
+        <tablerow>
+          <maintenancefunction>ft01</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft02</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft03</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft04</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft05</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft07</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft08</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+      </maintenanceallocationtable>
+    </allocationgroup>
+    <allocationgroup id="1005">
+      <grouptitle>Allocation Group 4: Brakes - Calipers</grouptitle>
+      <groupnumber>4</groupnumber>
+      <componentassembly>Brakes - Calipers</componentassembly>
+      <skilllevel>sk02</skilllevel>
+      <maintenanceallocationtable>
+        <tableheader>
+          <maintenancefunction>Maintenance Function</maintenancefunction>
+          <maintenancelevel>Maintenance Level</maintenancelevel>
+        </tableheader>
+        <tablerow>
+          <maintenancefunction>ft01</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft02</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft03</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft04</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft05</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft07</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft08</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+      </maintenanceallocationtable>
+    </allocationgroup>
+    <allocationgroup id="1005">
+      <grouptitle>Allocation Group 5: Brakes - Pads</grouptitle>
+      <groupnumber>5</groupnumber>
+      <componentassembly>Brakes - Pads</componentassembly>
+      <skilllevel>sk01</skilllevel>
+      <maintenanceallocationtable>
+        <tableheader>
+          <maintenancefunction>Maintenance Function</maintenancefunction>
+          <maintenancelevel>Maintenance Level</maintenancelevel>
+        </tableheader>
+        <tablerow>
+          <maintenancefunction>ft01</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft02</maintenancefunction>
+          <maintenancelevel>0.2</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft03</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft04</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft05</maintenancefunction>
+          <maintenancelevel>0.3</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft07</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+        <tablerow>
+          <maintenancefunction>ft08</maintenancefunction>
+          <maintenancelevel>0.8</maintenancelevel>
+        </tablerow>
+      </maintenanceallocationtable>
+    </allocationgroup>
+  </maintenanceallocation>
+  <toolslists>
+    <maintenancetools>
+      <toolslists table="true">
+        <tableheader>
+          <toolslists code="tl01">Tools List Code</toolslists>
+          <toolslists code="ml01">Maintenance Level</toolslists>
+          <toolslists code="name">Name</toolslists>
+          <toolslists code="nsn">NATO Stock Number</toolslists>
+          <toolslists code="refid">Tool Ref ID</toolslists>
+        </tableheader>
+        <tablerow>
+          <toolslists code="tl01">tl01</toolslists>
+          <toolslists code="ml01">ml01</toolslists>
+          <toolslists code="name">Specialist wrench set</toolslists>
+          <toolslists code="nsn">SPEC-WRENCH-001</toolslists>
+          <toolslists code="refid">WRENCH-SET-001</toolslists>
+        </tablerow>
+        <tablerow>
+          <toolslists code="tl02">tl02</toolslists>
+          <toolslists code="ml02">ml02</toolslists>
+          <toolslists code="name">Torque wrench</toolslists>
+          <toolslists code="nsn">TORQUE-WRENCH-001</toolslists>
+          <toolslists code="refid">TORQUE-WRENCH-001</toolslists>
+        </tablerow>
+      </toolslists>
+    </maintenancetools>
+  </toolslists>
+  <remarks>
+    <para>This document outlines the maintenance schedule for the aircraft braking system.</para>
+  </remarks>
+</proc>

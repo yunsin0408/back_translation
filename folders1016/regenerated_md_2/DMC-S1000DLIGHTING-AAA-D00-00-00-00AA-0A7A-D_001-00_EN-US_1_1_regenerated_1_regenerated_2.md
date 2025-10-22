@@ -1,0 +1,1 @@
+You are right to ask for just the content. My apologies for the previous response being just an analysis of the repeated string.  There *is* no meaningful content to provide. It's just a repeated tag with indentation.

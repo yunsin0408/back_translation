@@ -1,0 +1,1255 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "PM Ident",
+      "type": "heading",
+      "id": "PM Ident"
+    },
+    {
+      "label": "US",
+      "type": "candidate",
+      "id": "US"
+    },
+    {
+      "label": "PM",
+      "type": "candidate",
+      "id": "PM"
+    },
+    {
+      "label": "BRAKE",
+      "type": "candidate",
+      "id": "BRAKE"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
+      "label": "Issue Info",
+      "type": "heading",
+      "id": "Issue Info"
+    },
+    {
+      "label": "Issue",
+      "type": "candidate",
+      "id": "Issue"
+    },
+    {
+      "label": "Info",
+      "type": "candidate",
+      "id": "Info"
+    },
+    {
+      "label": "PM Address Items",
+      "type": "heading",
+      "id": "PM Address Items"
+    },
+    {
+      "label": "Address Items",
+      "type": "candidate",
+      "id": "Address Items"
+    },
+    {
+      "label": "Publication",
+      "type": "candidate",
+      "id": "Publication"
+    },
+    {
+      "label": "Items",
+      "type": "candidate",
+      "id": "Items"
+    },
+    {
+      "label": "Address",
+      "type": "candidate",
+      "id": "Address"
+    },
+    {
+      "label": "PM Status",
+      "type": "heading",
+      "id": "PM Status"
+    },
+    {
+      "label": "Status",
+      "type": "candidate",
+      "id": "Status"
+    },
+    {
+      "label": "Security",
+      "type": "heading",
+      "id": "Security"
+    },
+    {
+      "label": "Restriction Instructions",
+      "type": "heading",
+      "id": "Restriction Instructions"
+    },
+    {
+      "label": "discretion",
+      "type": "candidate",
+      "id": "discretion"
+    },
+    {
+      "label": "Users",
+      "type": "candidate",
+      "id": "Users"
+    },
+    {
+      "label": "Export",
+      "type": "candidate",
+      "id": "Export"
+    },
+    {
+      "label": "There",
+      "type": "candidate",
+      "id": "There"
+    },
+    {
+      "label": "instructions",
+      "type": "candidate",
+      "id": "instructions"
+    },
+    {
+      "label": "Storage",
+      "type": "candidate",
+      "id": "Storage"
+    },
+    {
+      "label": "residence",
+      "type": "candidate",
+      "id": "residence"
+    },
+    {
+      "label": "Instructions",
+      "type": "candidate",
+      "id": "Instructions"
+    },
+    {
+      "label": "users",
+      "type": "candidate",
+      "id": "users"
+    },
+    {
+      "label": "Restriction",
+      "type": "candidate",
+      "id": "Restriction"
+    },
+    {
+      "label": "Restriction Info",
+      "type": "heading",
+      "id": "Restriction Info"
+    },
+    {
+      "label": "TOR",
+      "type": "candidate",
+      "id": "TOR"
+    },
+    {
+      "label": "AA",
+      "type": "candidate",
+      "id": "AA"
+    },
+    {
+      "label": "Steering",
+      "type": "candidate",
+      "id": "Steering"
+    },
+    {
+      "label": "classification",
+      "type": "candidate",
+      "id": "classification"
+    },
+    {
+      "label": "SC",
+      "type": "candidate",
+      "id": "SC"
+    },
+    {
+      "label": "Copyright",
+      "type": "candidate",
+      "id": "Copyright"
+    },
+    {
+      "label": "Steering Committee",
+      "type": "candidate",
+      "id": "Steering Committee"
+    },
+    {
+      "label": "For Copyright",
+      "type": "candidate",
+      "id": "For Copyright"
+    },
+    {
+      "label": "AAA",
+      "type": "candidate",
+      "id": "AAA"
+    },
+    {
+      "label": "Committee",
+      "type": "candidate",
+      "id": "Committee"
+    },
+    {
+      "label": "restrictions",
+      "type": "candidate",
+      "id": "restrictions"
+    },
+    {
+      "label": "Responsible Partner Company",
+      "type": "heading",
+      "id": "Responsible Partner Company"
+    },
+    {
+      "label": "Responsible",
+      "type": "candidate",
+      "id": "Responsible"
+    },
+    {
+      "label": "AND",
+      "type": "candidate",
+      "id": "AND"
+    },
+    {
+      "label": "INDUSTRIES",
+      "type": "candidate",
+      "id": "INDUSTRIES"
+    },
+    {
+      "label": "AEROSPACE",
+      "type": "candidate",
+      "id": "AEROSPACE"
+    },
+    {
+      "label": "OF",
+      "type": "candidate",
+      "id": "OF"
+    },
+    {
+      "label": "Partner",
+      "type": "candidate",
+      "id": "Partner"
+    },
+    {
+      "label": "SECURITY",
+      "type": "candidate",
+      "id": "SECURITY"
+    },
+    {
+      "label": "ASSOCIATION",
+      "type": "candidate",
+      "id": "ASSOCIATION"
+    },
+    {
+      "label": "DEFENCE",
+      "type": "candidate",
+      "id": "DEFENCE"
+    },
+    {
+      "label": "EUROPE",
+      "type": "candidate",
+      "id": "EUROPE"
+    },
+    {
+      "label": "Company",
+      "type": "candidate",
+      "id": "Company"
+    },
+    {
+      "label": "Originator",
+      "type": "heading",
+      "id": "Originator"
+    },
+    {
+      "label": "Applic Cross-Reference Table Ref",
+      "type": "heading",
+      "id": "Applic Cross-Reference Table Ref"
+    },
+    {
+      "label": "Applic Cross",
+      "type": "candidate",
+      "id": "Applic Cross"
+    },
+    {
+      "label": "Reference",
+      "type": "candidate",
+      "id": "Reference"
+    },
+    {
+      "label": "Reference Table Ref",
+      "type": "candidate",
+      "id": "Reference Table Ref"
+    },
+    {
+      "label": "Applic",
+      "type": "candidate",
+      "id": "Applic"
+    },
+    {
+      "label": "Table",
+      "type": "candidate",
+      "id": "Table"
+    },
+    {
+      "label": "Cross",
+      "type": "candidate",
+      "id": "Cross"
+    },
+    {
+      "label": "SS",
+      "type": "candidate",
+      "id": "SS"
+    },
+    {
+      "label": "Brakes",
+      "type": "candidate",
+      "id": "Brakes"
+    },
+    {
+      "label": "Brex DM Ref",
+      "type": "heading",
+      "id": "Brex DM Ref"
+    },
+    {
+      "label": "DM",
+      "type": "candidate",
+      "id": "DM"
+    },
+    {
+      "label": "Brex",
+      "type": "candidate",
+      "id": "Brex"
+    },
+    {
+      "label": "Quality Assurance",
+      "type": "heading",
+      "id": "Quality Assurance"
+    },
+    {
+      "label": "Assurance",
+      "type": "candidate",
+      "id": "Assurance"
+    },
+    {
+      "label": "Quality",
+      "type": "candidate",
+      "id": "Quality"
+    },
+    {
+      "label": "Applic (app-001)",
+      "type": "heading",
+      "id": "Applic (app-001)"
+    },
+    {
+      "label": "Applic (app-002)",
+      "type": "heading",
+      "id": "Applic (app-002)"
+    },
+    {
+      "label": "Applic (app-003)",
+      "type": "heading",
+      "id": "Applic (app-003)"
+    },
+    {
+      "label": "Applic (app-004)",
+      "type": "heading",
+      "id": "Applic (app-004)"
+    },
+    {
+      "label": "PM Entry",
+      "type": "heading",
+      "id": "PM Entry"
+    },
+    {
+      "label": "Entry",
+      "type": "candidate",
+      "id": "Entry"
+    },
+    {
+      "label": "DM Ref (app-001)",
+      "type": "heading",
+      "id": "DM Ref (app-001)"
+    },
+    {
+      "label": "DM Ref (app-002)",
+      "type": "heading",
+      "id": "DM Ref (app-002)"
+    },
+    {
+      "label": "DM Ref (app-003)",
+      "type": "heading",
+      "id": "DM Ref (app-003)"
+    },
+    {
+      "label": "DM Ref (app-004)",
+      "type": "heading",
+      "id": "DM Ref (app-004)"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Ident",
+      "target": "US"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Ident",
+      "target": "PM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Ident",
+      "target": "BRAKE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "PM Ident",
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "PM",
+      "target": "PM Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "PM",
+      "target": "PM Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        19
+      ],
+      "source": "PM",
+      "target": "PM Entry"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "BRAKE",
+      "target": "PM Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "BRAKE",
+      "target": "Applic Cross-Reference Table Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        19
+      ],
+      "source": "BRAKE",
+      "target": "PM Entry"
+    },
+    {
+      "weight": 1,
+      "units": [
+        20
+      ],
+      "source": "BRAKE",
+      "target": "DM Ref (app-001)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        21
+      ],
+      "source": "BRAKE",
+      "target": "DM Ref (app-002)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        22
+      ],
+      "source": "BRAKE",
+      "target": "DM Ref (app-003)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        23
+      ],
+      "source": "BRAKE",
+      "target": "DM Ref (app-004)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Issue Info",
+      "target": "Issue"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Issue Info",
+      "target": "Issue Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Issue Info",
+      "target": "Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Info",
+      "target": "Restriction Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "PM Address Items",
+      "target": "Address Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "PM Address Items",
+      "target": "Publication"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "PM Address Items",
+      "target": "Items"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "PM Address Items",
+      "target": "Address"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "PM Status",
+      "target": "Status"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Security",
+      "target": "Security"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "discretion"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "Users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "Export"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "Restriction Instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "There"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "Storage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "residence"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "Instructions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "users"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Restriction Instructions",
+      "target": "Restriction"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "There",
+      "target": "Restriction Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction",
+      "target": "Restriction Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "TOR"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "AA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "Steering"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "classification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "SC"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "Steering Committee"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "For Copyright"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "AAA"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "Committee"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "Restriction Info"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "Restriction Info",
+      "target": "restrictions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "AA",
+      "target": "Applic Cross-Reference Table Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "AA",
+      "target": "Brex DM Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        20
+      ],
+      "source": "AA",
+      "target": "DM Ref (app-001)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        21
+      ],
+      "source": "AA",
+      "target": "DM Ref (app-002)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        22
+      ],
+      "source": "AA",
+      "target": "DM Ref (app-003)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        23
+      ],
+      "source": "AA",
+      "target": "DM Ref (app-004)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "AAA",
+      "target": "Applic Cross-Reference Table Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "AAA",
+      "target": "Brex DM Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        20
+      ],
+      "source": "AAA",
+      "target": "DM Ref (app-001)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        21
+      ],
+      "source": "AAA",
+      "target": "DM Ref (app-002)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        22
+      ],
+      "source": "AAA",
+      "target": "DM Ref (app-003)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        23
+      ],
+      "source": "AAA",
+      "target": "DM Ref (app-004)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Responsible"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "AND"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "INDUSTRIES"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "AEROSPACE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "OF"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Responsible Partner Company"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Partner"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "SECURITY"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "ASSOCIATION"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "DEFENCE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "EUROPE"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Responsible Partner Company",
+      "target": "Company"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "AND",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "INDUSTRIES",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "AEROSPACE",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "OF",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "SECURITY",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "ASSOCIATION",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "DEFENCE",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "EUROPE",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Originator",
+      "target": "Originator"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Applic Cross"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Reference"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Reference Table Ref"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Applic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Table"
+    },
+    {
+      "weight": 1,
+      "units": [
+        11
+      ],
+      "source": "Applic Cross-Reference Table Ref",
+      "target": "Cross"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Applic",
+      "target": "Applic"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Applic",
+      "target": "SS"
+    },
+    {
+      "weight": 1,
+      "units": [
+        12
+      ],
+      "source": "Applic",
+      "target": "Brakes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        15
+      ],
+      "source": "Applic",
+      "target": "Applic (app-001)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        16
+      ],
+      "source": "Applic",
+      "target": "Applic (app-002)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        17
+      ],
+      "source": "Applic",
+      "target": "Applic (app-003)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        18
+      ],
+      "source": "Applic",
+      "target": "Applic (app-004)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        17
+      ],
+      "source": "SS",
+      "target": "Applic (app-003)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Brex DM Ref",
+      "target": "DM"
+    },
+    {
+      "weight": 1,
+      "units": [
+        13
+      ],
+      "source": "Brex DM Ref",
+      "target": "Brex"
+    },
+    {
+      "weight": 1,
+      "units": [
+        20
+      ],
+      "source": "DM",
+      "target": "DM Ref (app-001)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        21
+      ],
+      "source": "DM",
+      "target": "DM Ref (app-002)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        22
+      ],
+      "source": "DM",
+      "target": "DM Ref (app-003)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        23
+      ],
+      "source": "DM",
+      "target": "DM Ref (app-004)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Quality Assurance",
+      "target": "Assurance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Quality Assurance",
+      "target": "Quality"
+    },
+    {
+      "weight": 1,
+      "units": [
+        14
+      ],
+      "source": "Quality Assurance",
+      "target": "Quality Assurance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        19
+      ],
+      "source": "PM Entry",
+      "target": "Entry"
+    }
+  ]
+}

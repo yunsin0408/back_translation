@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>DMC-S1000DBIKE-AAA-D00-00-00-01AA-941A-D_010-00_EN-US_1_1_regenerated_1_regenerated_2_regenerated</procTitle>
+  <section>
+    <sectionTitle>Document Information</sectionTitle>
+    <title>Bicycle Illustrated Parts Catalog</title>
+    <section>
+      <sectionTitle>Document Information</sectionTitle>
+      <text>This document details the parts catalog for a bicycle. It includes illustration references, part numbers, descriptions, and logistical data.</text>
+    </section>
+  </section>
+  <section>
+    <sectionTitle>Catalog Structure</sectionTitle>
+    <section>
+      <sectionTitle>Top-Level Assembly: Bicycle</sectionTitle>
+      <section>
+        <sectionTitle>Item Breakdown</sectionTitle>
+        <tableData>
+          <tableHeader>
+            <item>Item</item>
+            <qty>Qty</qty>
+            <description>Description</description>
+          </tableHeader>
+          <tableRow>
+            <item>1</item>
+            <qty>1</qty>
+            <description>Complete bicycle assembly</description>
+          </tableRow>
+          <tableRow>
+            <item>2</item>
+            <qty>1</qty>
+            <description>Bicycle frame</description>
+          </tableRow>
+          <tableRow>
+            <item>3</item>
+            <qty>WH-002</qty>
+            <description>KZ888</description>
+            <qty>1</qty>
+            <description>Front wheel with tire, spokes, and hub.</description>
+          </tableRow>
+          <tableRow>
+            <item>4</item>
+            <qty>WH-001</qty>
+            <description>KZ888</description>
+            <qty>1</qty>
+            <description>Rear wheel with tire, spokes, and hub.</description>
+          </tableRow>
+          <tableRow>
+            <item>5</item>
+            <qty>1</qty>
+            <description> </description>
+          </tableRow>
+          <tableRow>
+            <item>6</item>
+            <qty>1</qty>
+            <description> </description>
+          </tableRow>
+          <tableRow>
+            <item>7</item>
+            <qty>CP-001</qty>
+            <description>KZ888</description>
+            <qty>1</qty>
+            <description>Bicycle computer.</description>
+          </tableRow>
+          <tableRow>
+            <item>8</item>
+            <qty>1</qty>
+            <description> </description>
+          </tableRow>
+          <tableRow>
+            <item>9</item>
+            <qty>1</qty>
+            <description> </description>
+          </tableRow>
+          <tableRow>
+            <item>10</item>
+            <qty>LRU1001</qty>
+            <description>KZ777</description>
+            <qty>1</qty>
+            <description>Equipped with Pilferage Code J, Special Storage 1</description>
+          </tableRow>
+          <tableRow>
+            <item>11</item>
+            <qty>1</qty>
+            <description>Complete brake assembly</description>
+          </tableRow>
+          <tableRow>
+            <item>12</item>
+            <qty>1</qty>
+            <description> </description>
+          </tableRow>
+        </tableData>
+      </section>
+      <section>
+        <sectionTitle>Sub-Assemblies and Components</sectionTitle>
+        <section>
+          <sectionTitle>Wheel Assemblies</sectionTitle>
+          <tableData>
+            <tableHeader>
+              <item>Item</item>
+              <qty>Qty</qty>
+              <description>Description</description>
+            </tableHeader>
+            <tableRow>
+              <item>3</item>
+              <qty>WH-002</qty>
+              <description>KZ888</description>
+              <qty>1</qty>
+              <description>Front wheel with tire, spokes, and hub.</description>
+            </tableRow>
+            <tableRow>
+              <item>4</item>
+              <qty>WH-001</qty>
+              <description>KZ888</description>
+              <qty>1</qty>
+              <description>Rear wheel with tire, spokes, and hub.</description>
+            </tableRow>
+          </tableData>
+        </section>
+        <section>
+          <sectionTitle>Electrical System</sectionTitle>
+          <tableData>
+            <tableHeader>
+              <item>Item</item>
+              <qty>Qty</qty>
+              <description>Description</description>
+            </tableHeader>
+            <tableRow>
+              <item>6</item>
+              <qty>LRU1001</qty>
+              <description>KZ777</description>
+              <qty>1</qty>
+              <description>Equipped with Pilferage Code J, Special Storage 1</description>
+            </tableRow>
+            <tableRow>
+              <item>7</item>
+              <qty>CP-001</qty>
+              <description>KZ888</description>
+              <qty>1</qty>
+              <description>Bicycle computer.</description>
+            </tableRow>
+          </tableData>
+        </section>
+        <section>
+          <sectionTitle>Drivetrain and Steering</sectionTitle>
+          <tableData>
+            <tableHeader>
+              <item>Item</item>
+              <qty>Qty</qty>
+              <description>Description</description>
+            </tableHeader>
+            <tableRow>
+              <item>8</item>
+              <qty>1</qty>
+              <description> </description>
+            </tableRow>
+            <tableRow>
+              <item>9</item>
+              <qty>1</qty>
+              <description> </description>
+            </tableRow>
+          </tableData>
+        </section>
+        <section>
+          <sectionTitle>Braking System</sectionTitle>
+          <tableData>
+            <tableHeader>
+              <item>Item</item>
+              <qty>Qty</qty>
+              <description>Description</description>
+            </tableHeader>
+            <tableRow>
+              <item>5</item>
+              <qty>1</qty>
+              <description> </description>
+            </tableRow>
+            <tableRow>
+              <item>6</item>
+              <qty>1</qty>
+              <description> </description>
+            </tableRow>
+            <tableRow>
+              <item>11</item>
+              <qty>1</qty>
+              <description>Complete brake assembly</description>
+            </tableRow>
+          </tableData>
+        </section>
+      </section>
+    </section>
+  </section>
+  <section>
+    <sectionTitle>Logistical Data</sectionTitle>
+    <section>
+      <sectionTitle>Physical Security Pilferage Code</sectionTitle>
+      <text>J (applied to Light System - LRU1001)</text>
+    </section>
+    <section>
+      <sectionTitle>Special Storage</sectionTitle>
+      <text>1 (applied to Light System - LRU1001)</text>
+    </section>
+  </section>
+  <section>
+    <sectionTitle>Notes</sectionTitle>
+    <section>
+      <sectionTitle>N/A</sectionTitle>
+      <text>"N/A" indicates either information is not available or not applicable.</text>
+    </section>
+    <section>
+      <sectionTitle>Change Notice</sectionTitle>
+      <text>This catalog is subject to change without notice.</text>
+    </section>
+  </section>
+</proced>

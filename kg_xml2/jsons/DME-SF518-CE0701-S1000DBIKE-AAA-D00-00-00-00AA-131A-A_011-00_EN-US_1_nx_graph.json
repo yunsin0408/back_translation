@@ -1,0 +1,1027 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Crew Procedure",
+      "type": "candidate",
+      "id": "Crew Procedure"
+    },
+    {
+      "label": "Procedure",
+      "type": "candidate",
+      "id": "Procedure"
+    },
+    {
+      "label": "Check",
+      "type": "candidate",
+      "id": "Check"
+    },
+    {
+      "label": "Ride",
+      "type": "candidate",
+      "id": "Ride"
+    },
+    {
+      "label": "Ride Check",
+      "type": "candidate",
+      "id": "Ride Check"
+    },
+    {
+      "label": "Crew",
+      "type": "candidate",
+      "id": "Crew"
+    },
+    {
+      "label": "Bicycle",
+      "type": "candidate",
+      "id": "Bicycle"
+    },
+    {
+      "label": "Bicycle Pre",
+      "type": "candidate",
+      "id": "Bicycle Pre"
+    },
+    {
+      "label": "Introduction",
+      "type": "heading",
+      "id": "Introduction"
+    },
+    {
+      "label": "steps",
+      "type": "candidate",
+      "id": "steps"
+    },
+    {
+      "label": "Introduction This",
+      "type": "candidate",
+      "id": "Introduction This"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "procedure",
+      "type": "candidate",
+      "id": "procedure"
+    },
+    {
+      "label": "1. Brakes",
+      "type": "heading",
+      "id": "1. Brakes"
+    },
+    {
+      "label": "Verify",
+      "type": "candidate",
+      "id": "Verify"
+    },
+    {
+      "label": "Brakes",
+      "type": "candidate",
+      "id": "Brakes"
+    },
+    {
+      "label": "Inspect",
+      "type": "candidate",
+      "id": "Inspect"
+    },
+    {
+      "label": "Ensure",
+      "type": "candidate",
+      "id": "Ensure"
+    },
+    {
+      "label": "pads",
+      "type": "candidate",
+      "id": "pads"
+    },
+    {
+      "label": "Confirm",
+      "type": "candidate",
+      "id": "Confirm"
+    },
+    {
+      "label": "2. Tires",
+      "type": "heading",
+      "id": "2. Tires"
+    },
+    {
+      "label": "Guide",
+      "type": "candidate",
+      "id": "Guide"
+    },
+    {
+      "label": "On Road",
+      "type": "candidate",
+      "id": "On Road"
+    },
+    {
+      "label": "tires",
+      "type": "candidate",
+      "id": "tires"
+    },
+    {
+      "label": "Pressure",
+      "type": "candidate",
+      "id": "Pressure"
+    },
+    {
+      "label": "Off Road",
+      "type": "candidate",
+      "id": "Off Road"
+    },
+    {
+      "label": "Terrain",
+      "type": "candidate",
+      "id": "Terrain"
+    },
+    {
+      "label": "Minimum",
+      "type": "candidate",
+      "id": "Minimum"
+    },
+    {
+      "label": "Minimum Pressure",
+      "type": "candidate",
+      "id": "Minimum Pressure"
+    },
+    {
+      "label": "Tires",
+      "type": "candidate",
+      "id": "Tires"
+    },
+    {
+      "label": "Road",
+      "type": "candidate",
+      "id": "Road"
+    },
+    {
+      "label": "Maximum Pressure",
+      "type": "candidate",
+      "id": "Maximum Pressure"
+    },
+    {
+      "label": "below",
+      "type": "candidate",
+      "id": "below"
+    },
+    {
+      "label": "Tire Pressure Guide",
+      "type": "candidate",
+      "id": "Tire Pressure Guide"
+    },
+    {
+      "label": "Tire",
+      "type": "candidate",
+      "id": "Tire"
+    },
+    {
+      "label": "Maximum",
+      "type": "candidate",
+      "id": "Maximum"
+    },
+    {
+      "label": "3. Wheels",
+      "type": "heading",
+      "id": "3. Wheels"
+    },
+    {
+      "label": "spokes",
+      "type": "candidate",
+      "id": "spokes"
+    },
+    {
+      "label": "Wheels",
+      "type": "candidate",
+      "id": "Wheels"
+    },
+    {
+      "label": "Spin",
+      "type": "candidate",
+      "id": "Spin"
+    },
+    {
+      "label": "Listen",
+      "type": "candidate",
+      "id": "Listen"
+    },
+    {
+      "label": "4. Headset",
+      "type": "heading",
+      "id": "4. Headset"
+    },
+    {
+      "label": "Headset",
+      "type": "candidate",
+      "id": "Headset"
+    },
+    {
+      "label": "5. Chain",
+      "type": "heading",
+      "id": "5. Chain"
+    },
+    {
+      "label": "movement",
+      "type": "candidate",
+      "id": "movement"
+    },
+    {
+      "label": "Chain",
+      "type": "candidate",
+      "id": "Chain"
+    },
+    {
+      "label": "6. Handlebar & Stem",
+      "type": "heading",
+      "id": "6. Handlebar & Stem"
+    },
+    {
+      "label": "WARNING",
+      "type": "candidate",
+      "id": "WARNING"
+    },
+    {
+      "label": "Tighten",
+      "type": "candidate",
+      "id": "Tighten"
+    },
+    {
+      "label": "If Handlebars Twist",
+      "type": "candidate",
+      "id": "If Handlebars Twist"
+    },
+    {
+      "label": "Twist",
+      "type": "candidate",
+      "id": "Twist"
+    },
+    {
+      "label": "If Stem Loose",
+      "type": "candidate",
+      "id": "If Stem Loose"
+    },
+    {
+      "label": "If Stem Cracked",
+      "type": "candidate",
+      "id": "If Stem Cracked"
+    },
+    {
+      "label": "Cracked",
+      "type": "candidate",
+      "id": "Cracked"
+    },
+    {
+      "label": "Loose",
+      "type": "candidate",
+      "id": "Loose"
+    },
+    {
+      "label": "Handlebars",
+      "type": "candidate",
+      "id": "Handlebars"
+    },
+    {
+      "label": "Handlebar",
+      "type": "candidate",
+      "id": "Handlebar"
+    },
+    {
+      "label": "Replace",
+      "type": "candidate",
+      "id": "Replace"
+    },
+    {
+      "label": "Stem",
+      "type": "candidate",
+      "id": "Stem"
+    },
+    {
+      "label": "7. Computer Display",
+      "type": "heading",
+      "id": "7. Computer Display"
+    },
+    {
+      "label": "Computer",
+      "type": "candidate",
+      "id": "Computer"
+    },
+    {
+      "label": "Displayed",
+      "type": "candidate",
+      "id": "Displayed"
+    },
+    {
+      "label": "Component",
+      "type": "candidate",
+      "id": "Component"
+    },
+    {
+      "label": "Distance",
+      "type": "candidate",
+      "id": "Distance"
+    },
+    {
+      "label": "Computer Display",
+      "type": "candidate",
+      "id": "Computer Display"
+    },
+    {
+      "label": "Speed",
+      "type": "candidate",
+      "id": "Speed"
+    },
+    {
+      "label": "Display",
+      "type": "candidate",
+      "id": "Display"
+    },
+    {
+      "label": "Value",
+      "type": "candidate",
+      "id": "Value"
+    },
+    {
+      "label": "Displayed Value",
+      "type": "candidate",
+      "id": "Displayed Value"
+    },
+    {
+      "label": "Notes",
+      "type": "heading",
+      "id": "Notes"
+    },
+    {
+      "label": "Regular",
+      "type": "candidate",
+      "id": "Regular"
+    },
+    {
+      "label": "crucial",
+      "type": "candidate",
+      "id": "crucial"
+    },
+    {
+      "label": "Always",
+      "type": "candidate",
+      "id": "Always"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Crew Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Ride"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Ride Check"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Crew"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Bicycle"
+    },
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Bicycle Pre"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Check",
+      "target": "1. Brakes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Check",
+      "target": "2. Tires"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Check",
+      "target": "3. Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Check",
+      "target": "4. Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Check",
+      "target": "5. Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Check",
+      "target": "7. Computer Display"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "steps"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "Introduction"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "Introduction This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Introduction",
+      "target": "procedure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "This",
+      "target": "Notes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Verify"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Brakes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Inspect"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Ensure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "pads"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "1. Brakes",
+      "target": "Confirm"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "Verify",
+      "target": "5. Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "Inspect",
+      "target": "2. Tires"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Inspect",
+      "target": "3. Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ensure",
+      "target": "3. Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Ensure",
+      "target": "4. Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "Ensure",
+      "target": "7. Computer Display"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Confirm",
+      "target": "3. Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Guide"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "On Road"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "tires"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Pressure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Off Road"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Terrain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Minimum"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Minimum Pressure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Tires"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Road"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Maximum Pressure"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "below"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Tire Pressure Guide"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Tire"
+    },
+    {
+      "weight": 1,
+      "units": [
+        4
+      ],
+      "source": "2. Tires",
+      "target": "Maximum"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "spokes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Wheels"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Spin"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "3. Wheels",
+      "target": "Listen"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "4. Headset",
+      "target": "Headset"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "5. Chain",
+      "target": "movement"
+    },
+    {
+      "weight": 1,
+      "units": [
+        7
+      ],
+      "source": "5. Chain",
+      "target": "Chain"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "WARNING"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "Tighten"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "If Handlebars Twist"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "Twist"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "If Stem Loose"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "If Stem Cracked"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "Cracked"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "Loose"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "Handlebars"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "Handlebar"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "Replace"
+    },
+    {
+      "weight": 1,
+      "units": [
+        8
+      ],
+      "source": "6. Handlebar & Stem",
+      "target": "Stem"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer Display",
+      "target": "Computer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer Display",
+      "target": "Displayed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer Display",
+      "target": "Component"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer Display",
+      "target": "Distance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer Display",
+      "target": "Computer Display"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer Display",
+      "target": "Speed"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer Display",
+      "target": "Display"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer Display",
+      "target": "Value"
+    },
+    {
+      "weight": 1,
+      "units": [
+        9
+      ],
+      "source": "7. Computer Display",
+      "target": "Displayed Value"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Notes",
+      "target": "Regular"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Notes",
+      "target": "Notes"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Notes",
+      "target": "crucial"
+    },
+    {
+      "weight": 1,
+      "units": [
+        10
+      ],
+      "source": "Notes",
+      "target": "Always"
+    }
+  ]
+}

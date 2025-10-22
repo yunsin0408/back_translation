@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-130A-A_006-00_EN-US_1_1</title>
+  <content>
+    <heading>Bicycle Operation Manual</heading>
+    <heading>Introduction</heading>
+    <paragraph>This document provides a guide to operating a bicycle, tailored to the user's experience level. It includes both theoretical knowledge and practical instructions.</paragraph>
+    <heading>User Input &amp; Validation</heading>
+    <paragraph>The manual begins by gathering information about the user, including age and prior cycling experience. Age is validated to ensure it falls within the range of 4 to 100 years.  Based on experience, the manual adapts to provide a more detailed introduction for novice riders.</paragraph>
+    <heading>Data Collected:</heading>
+    <list>
+      <item>
+        <bold>Age:</bold> Integer value between 4 and 100.
+      </item>
+      <item>
+        <bold>Cycling Experience:</bold> Yes/No. Determines the level of introductory material.
+      </item>
+    </list>
+    <heading>Content Based on Experience Level</heading>
+    <heading>Experienced Riders</heading>
+    <paragraph>If the user indicates prior cycling experience, the manual proceeds directly to the practical section, assuming a baseline level of knowledge.</paragraph>
+    <heading>Novice Riders</heading>
+    <paragraph>For users with no prior experience, the manual provides a detailed introduction, followed by a knowledge check before proceeding to practical instructions.</paragraph>
+    <heading>Introductory Material:</heading>
+    <list>
+      <item>
+        <bold>Basic Bicycle Components:</bold> Explanation of key parts (brakes, pedals, handlebars, etc.).
+      </item>
+      <item>
+        <bold>Safety Precautions:</bold> Emphasis on wearing appropriate safety gear.
+      </item>
+      <item>
+        <bold>Brake Operation:</bold> Detailed explanation of how to use the brakes effectively.
+      </item>
+    </list>
+    <heading>Knowledge Check</heading>
+    <paragraph>A simple question is posed to assess whether the user has understood the introductory material.</paragraph>
+    <list>
+      <item>
+        <bold>Question:</bold> "The rear brake is operated by..."
+        <list>
+          <item>Left brake lever (Incorrect)</item>
+          <item>Right brake lever (Correct)</item>
+        </list>
+        <paragraph>Incorrect answers result in repetition of the introductory material.</paragraph>
+      </item>
+    </list>
+    <heading>Practical Instructions</heading>
+    <paragraph>Regardless of experience level, the practical section guides the user through the steps of preparing and operating the bicycle.</paragraph>
+    <list>
+      <item>
+        <bold>Preparation:</bold>
+        <list>
+          <item>Retrieve the bicycle from storage.</item>
+          <item>Clean the bicycle.</item>
+          <item>Mount the bicycle.</item>
+        </list>
+      </item>
+      <item>
+        <bold>Operation:</bold>
+        <list>
+          <item>Begin riding.</item>
+        </list>
+      </item>
+    </list>
+    <heading>Conclusion</heading>
+    <paragraph>This manual provides a comprehensive guide to bicycle operation, adapting to the user's experience level to ensure a safe and enjoyable ride.</paragraph>
+  </content>
+</proced>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000D-H-04-10-0301-00A-022A-D_001-00_EN-US_1_1</title>
+  <content>
+    <section>
+      <title>Content</title>
+      <section>
+        <title>Data Module Rules</title>
+        <para>This document outlines the rules governing data modules, extracted from the provided `dmodule` XML.</para>
+        <para>Context Rules - Structure Object Rule Groups</para>
+        <para>The following rules are context-dependent and organized into rule groups.</para>
+        <section>
+          <title>Structure Object Rule Group</title>
+          <para>This group defines permissible values for various attributes within the data module structure.</para>
+          <section>
+            <title>Attribute Definitions &amp; Permissible Values</title>
+            <list>
+              <item>
+                <title>Attribute: `updateReasonType`</title>
+                <para>Defines the reason for updating the data module.</para>
+                <sublist>
+                  <item>
+                    <title>Value: `urt01`</title>
+                    <para>Editorial change (minor changes, technically insignificant).</para>
+                  </item>
+                  <item>
+                    <title>Value: `urt02`</title>
+                    <para>Technical change (significant changes requiring review).</para>
+                  </item>
+                  <item>
+                    <title>Value: `urt03`</title>
+                    <para>Markup change (changes related solely to XML markup).</para>
+                  </item>
+                  <item>
+                    <title>Value: `urt04`</title>
+                    <para>Applicability change (only the applicability has changed).</para>
+                  </item>
+                  <item>
+                    <title>Value: `urt05`</title>
+                    <para>Unique identifier of the referencing structure has changed.</para>
+                  </item>
+                  <item>
+                    <title>Value: `urt51-urt99`</title>
+                    <para>Reserved for project/organization-specific values.</para>
+                  </item>
+                </sublist>
+              </item>
+              <item>
+                <title>Attribute: `verbatimStyle`</title>
+                <para>Defines the style of verbatim text.</para>
+                <sublist>
+                  <item>
+                    <title>Value: `vs01`</title>
+                    <para>Generic verbatim.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs02`</title>
+                    <para>Filename.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs11`</title>
+                    <para>XML/SGML markup.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs12`</title>
+                    <para>XML/SGML element name.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs13`</title>
+                    <para>XML/SGML attribute name.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs14`</title>
+                    <para>XML/SGML attribute value.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs15`</title>
+                    <para>XML/SGML entity name.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs16`</title>
+                    <para>XML/SGML processing instruction.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs21`</title>
+                    <para>Program prompt.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs22`</title>
+                    <para>User input.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs23`</title>
+                    <para>Computer output.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs24`</title>
+                    <para>Program listing.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs25`</title>
+                    <para>Program variable name.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs26`</title>
+                    <para>Program variable value.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs27`</title>
+                    <para>Constant.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs28`</title>
+                    <para>Class name.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs29`</title>
+                    <para>Parameter name.</para>
+                  </item>
+                  <item>
+                    <title>Value: `vs51-vs99`</title>
+                    <para>Reserved for project/organization-specific values.</para>
+                  </item>
+                </sublist>
+              </item>
+              <item>
+                <title>Attribute: `quantityUnitOfMeasure`</title>
+                <para>Defines the unit of measure for quantity data. Values within the range `um51-um99` can be allocated and defined by projects or organizations. (Refer to Table 2 in document section 3.9.6.2)</para>
+              </item>
+            </list>
+          </section>
+        </section>
+        <section>
+          <title>Non-Context Rules</title>
+          <para>These rules are not dependent on specific context within the data module.</para>
+          <section>
+            <title>Deletion of Data Modules</title>
+            <para>Deletion of data modules is treated as a special case of update. The data module itself is not physically deleted but is marked as deleted. (Refer to document section 3.9.5.1, Para 2.2)</para>
+          </section>
+        </section>
+      </section>
+    </content>
+  </proced>

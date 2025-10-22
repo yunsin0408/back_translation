@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>Bicycle Tire Replacement Procedure</title>
+  <docid>DMC-S1000DBIKE-AAA-DA0-10-20-00AA-921A-A_010-00_EN-US_1_1</docid>
+  <introduction>
+    <p>This document details the procedure for replacing a bicycle tire.</p>
+  </introduction>
+  <preliminaryrequirements>
+    <tabledata id="Table Data 1">
+      <tableheader>
+        <th type="role">Role</th>
+        <th type="category">Category</th>
+        <th type="estimatedtime">Estimated Time</th>
+      </tableheader>
+      <tablerow>
+        <tablecell type="role">Operator</tablecell>
+        <tablecell type="category">Basic user</tablecell>
+        <tablecell type="estimatedtime">0.3 hours</tablecell>
+      </tablerow>
+    </tabledata>
+    <tabledata id="Table Data 2">
+      <tableheader>
+        <th type="id">ID</th>
+        <th type="name">Name</th>
+        <th type="manufacturer">Manufacturer</th>
+        <th type="partnumber">Part Number</th>
+        <th type="quantity">Quantity</th>
+      </tableheader>
+      <tablerow>
+        <tablecell type="id">seq_0001</tablecell>
+        <tablecell type="name">Specialist toolset</tablecell>
+        <tablecell type="manufacturer">KZ666</tablecell>
+        <tablecell type="partnumber">BSK-TLST-001</tablecell>
+        <tablecell type="quantity">1</tablecell>
+      </tablerow>
+      <tablerow>
+        <tablecell type="id">seq_0002</tablecell>
+        <tablecell type="name">Tire lever</tablecell>
+        <tablecell type="manufacturer">KZ666</tablecell>
+        <tablecell type="partnumber">BSK-TLST-001-04</tablecell>
+        <tablecell type="quantity">1</tablecell>
+      </tablerow>
+      <tablerow>
+        <tablecell type="id">seq_0003</tablecell>
+        <tablecell type="name">Tire pressure gauge</tablecell>
+        <tablecell type="manufacturer">KZ666</tablecell>
+        <tablecell type="partnumber">BSK-TLST-001-01</tablecell>
+        <tablecell type="quantity">1</tablecell>
+      </tablerow>
+    </tabledata>
+    <tabledata id="Table Data 3">
+      <tableheader>
+        <th type="id">ID</th>
+        <th type="name">Name</th>
+        <th type="manufacturer">Manufacturer</th>
+        <th type="partnumber">Part Number</th>
+        <th type="quantity">Quantity</th>
+      </tableheader>
+      <tablerow>
+        <tablecell type="id">spa_0001</tablecell>
+        <tablecell type="name">Tire</tablecell>
+        <tablecell type="manufacturer">KT666</tablecell>
+        <tablecell type="partnumber">TIRES-010101</tablecell>
+        <tablecell type="quantity">1</tablecell>
+      </tablerow>
+    </tabledata>
+  </preliminaryrequirements>
+  <proceduresteps>
+    <steplist id="Step List 1">
+      <step>Lift and turn the bicycle, ensuring it is held safely.</step>
+      <step>Use a standard wrench (from Specialist toolset - seq-0001) to loosen the brake caliper.</step>
+      <step>Remove the axle bolt.</step>
+      <step>Remove the wheel.</step>
+      <step>Deflate the tire.</step>
+    </steplist>
+    <steplist id="Step List 2">
+      <step>Use the Tire lever (seq-0002) to remove the old tire from the wheel.</step>
+      <step>Use the Tire lever (seq-0002) to attach the new tire (spa-0001) to the wheel. Refer to &lt;dmcode&gt;S1000DBIKE-AAA-DA0-00-00-00-041-A-A&lt;/dmcode&gt;.</step>
+    </steplist>
+    <steplist id="Step List 3">
+      <step>Inflate the tire (refer to &lt;dmcode&gt;S1000DBIKE-AAA-DA0-1-0-20-215-A-A&lt;/dmcode&gt;).</step>
+      <step>Install the wheel.</step>
+      <step>Tighten the axle bolt.</step>
+      <step>Tighten the brake caliper.</step>
+    </steplist>
+  </proceduresteps>
+  <closeoutrequirements>
+    <conditionlist>
+      <condition>Condition 1: Lift and turn the bicycle to the correct position.</condition>
+      <condition>Condition 2: Perform a brake test as outlined in &lt;dmcode&gt;S1000DBIKE-AAA-DA1-0-0-00-341-A-A&lt;/dmcode&gt;.</condition>
+    </conditionlist>
+  </closeoutrequirements>
+</proced>

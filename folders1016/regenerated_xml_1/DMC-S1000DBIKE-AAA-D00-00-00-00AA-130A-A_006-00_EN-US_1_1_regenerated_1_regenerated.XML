@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dm_title>
+    <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-130A-A_006-00_EN-US_1_1</title>
+  </dm_title>
+  <dm_header>
+    <dm_title>
+      <title>Bicycle Operation Manual</title>
+    </dm_title>
+  </dm_header>
+  <dm_content>
+    <dm_section>
+      <dm_heading>
+        <heading>Introduction</heading>
+      </dm_heading>
+      <dm_paragraph>
+        <paragraph>This document provides a guide to operating a bicycle, tailored to the user's experience level. It includes both theoretical knowledge and practical instructions.</paragraph>
+      </dm_paragraph>
+    </dm_section>
+    <dm_section>
+      <dm_heading>
+        <heading>User Input &amp; Validation</heading>
+      </dm_heading>
+      <dm_paragraph>
+        <paragraph>The manual begins by gathering information about the user, including age and prior cycling experience. Age is validated to ensure it falls within the range of 4 to 100 years.  Based on experience, the manual adapts to provide a more detailed introduction for novice riders.</paragraph>
+      </dm_paragraph>
+    </dm_section>
+    <dm_section>
+      <dm_heading>
+        <heading>Data Collected:</heading>
+      </dm_heading>
+      <dm_list>
+        <dm_list_item>
+          <dm_data>
+            <data>Age:</data>
+          </dm_data>
+          <dm_text>
+            <text>Integer value between 4 and 100.</text>
+          </dm_text>
+        </dm_list_item>
+        <dm_list_item>
+          <dm_data>
+            <data>Cycling Experience:</data>
+          </dm_data>
+          <dm_text>
+            <text>Yes/No. Determines the level of introductory material.</text>
+          </dm_text>
+        </dm_list_item>
+      </dm_list>
+    </dm_section>
+    <dm_section>
+      <dm_heading>
+        <heading>Content Based on Experience Level</heading>
+      </dm_heading>
+    </dm_section>
+    <dm_section>
+      <dm_heading>
+        <heading>Experienced Riders</heading>
+      </dm_heading>
+      <dm_paragraph>
+        <paragraph>If the user indicates prior cycling experience, the manual proceeds directly to the practical section, assuming a baseline level of knowledge.</paragraph>
+      </dm_paragraph>
+    </dm_section>
+    <dm_section>
+      <dm_heading>
+        <heading>Novice Riders</heading>
+      </dm_heading>
+      <dm_paragraph>
+        <paragraph>For users with no prior experience, the manual provides a detailed introduction, followed by a knowledge check before proceeding to practical instructions.</paragraph>
+      </dm_paragraph>
+    </dm_section>
+    <dm_section>
+      <dm_heading>
+        <heading>Introductory Material:</heading>
+      </dm_heading>
+      <dm_list>
+        <dm_list_item>
+          <dm_data>
+            <data>Basic Bicycle Components:</data>
+          </dm_data>
+          <dm_text>
+            <text>Explanation of key parts (brakes, pedals, handlebars, etc.).</text>
+          </dm_text>
+        </dm_list_item>
+        <dm_list_item>
+          <dm_data>
+            <data>Safety Precautions:</data>
+          </dm_data>
+          <dm_text>
+            <text>Emphasis on wearing appropriate safety gear.</text>
+          </dm_text>
+        </dm_list_item>
+        <dm_list_item>
+          <dm_data>
+            <data>Brake Operation:</data>
+          </dm_data>
+          <dm_text>
+            <text>Detailed explanation of how to use the brakes effectively.</text>
+          </dm_text>
+        </dm_list_item>
+      </dm_list>
+    </dm_section>
+    <dm_section>
+      <dm_heading>
+        <heading>Knowledge Check</heading>
+      </dm_heading>
+      <dm_paragraph>
+        <paragraph>A simple question is posed to assess whether the user has understood the introductory material.</paragraph>
+      </dm_paragraph>
+      <dm_list>
+        <dm_list_item>
+          <dm_data>
+            <data>Question:</data>
+          </dm_data>
+          <dm_text>
+            <text>"The rear brake is operated by..."</text>
+          </dm_text>
+          <dm_list>
+            <dm_list_item>
+              <text>Left brake lever (Incorrect)</text>
+            </dm_list_item>
+            <dm_list_item>
+              <text>Right brake lever (Correct)</text>
+            </dm_list_item>
+          </dm_list>
+          <dm_paragraph>
+            <text>Incorrect answers result in repetition of the introductory material.</text>
+          </dm_paragraph>
+        </dm_list_item>
+      </dm_list>
+    </dm_section>
+    <dm_section>
+      <dm_heading>
+        <heading>Practical Instructions</heading>
+      </dm_heading>
+      <dm_paragraph>
+        <paragraph>Regardless of experience level, the practical section guides the user through the steps of preparing and operating the bicycle.</paragraph>
+      </dm_paragraph>
+      <dm_list>
+        <dm_list_item>
+          <dm_data>
+            <data>Preparation:</data>
+          </dm_data>
+          <dm_list>
+            <dm_list_item>
+              <text>Retrieve the bicycle from storage.</text>
+            </dm_list_item>
+            <dm_list_item>
+              <text>Clean the bicycle.</text>
+            </dm_list_item>
+            <dm_list_item>
+              <text>Mount the bicycle.</text>
+            </dm_list_item>
+          </dm_list>
+        </dm_list_item>
+        <dm_list_item>
+          <dm_data>
+            <data>Operation:</data>
+          </dm_data>
+          <dm_list>
+            <dm_list_item>
+              <text>Begin riding.</text>
+            </dm_list_item>
+          </dm_list>
+        </dm_list_item>
+      </dm_list>
+    </dm_section>
+    <dm_section>
+      <dm_heading>
+        <heading>Conclusion</heading>
+      </dm_heading>
+      <dm_paragraph>
+        <paragraph>This manual provides a comprehensive guide to bicycle operation, adapting to the user's experience level to ensure a safe and enjoyable ride.</paragraph>
+      </dm_paragraph>
+    </dm_section>
+  </dm_content>
+</proced>

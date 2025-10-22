@@ -1,0 +1,146 @@
+The XML failed validation. Use the provided KG and the parser error log to correct the XML. Return only the corrected XML (no extra text).
+ERROR_LOG:
+Errors found:
+Error 1: Line 19, Column 8: Opening and ending tag mismatch: dmAddress line 3 and dm
+
+PREVIOUS_XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<dm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmAddress>
+    <issueInfo>
+      <issueNumber>005</issueNumber>
+      <inWork>00</inWork>
+    </issueInfo>
+    <dmTitle>
+      <techName>Bicycle</techName>
+      <infoName>Controls and Indicators</infoName>
+    </dmTitle>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+    </dmAddressItems>
+  </dm>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+      <caveat>cv56</caveat>
+    </security>
+    <dataRestrictions>
+      <restrictionInstructions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </restrictionInstructions>
+      <restrictionInfo>
+        <copyright>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyright>
+        <publishers>
+          <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+          <publisher>Aerospace Industries Association of America</publisher>
+          <publisher>ATA e-Business Program</publisher>
+        </publishers>
+        <limitationsOfLiability>
+          <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+          <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+          <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+        </limitationsOfLiability>
+        <details>The details for copyright can be found in the S1000D Specification.</details>
+      </restrictionInfo>
+    </dataRestrictions>
+    <responsiblePartnerCompany>
+      <enterpriseCode>B6865</enterpriseCode>
+      <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </responsiblePartnerCompany>
+    <originator>
+      <enterpriseCode>B6865</enterpriseCode>
+      <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+    </originator>
+    <applic>
+      <displayText>All</displayText>
+    </applic>
+    <brexDmRef>
+      <dmRefIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>022</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmRefIdent>
+    </brexDmRef>
+    <qualityAssurance>
+      <verificationType>tabtop</verificationType>
+    </qualityAssurance>
+    <reasonForUpdate>
+      <updateReasonType>urt03</updateReasonType>
+      <reasonText>S1000D upissued</reasonText>
+    </reasonForUpdate>
+  </dmStatus>
+  <content>
+    <commonRepository>
+      <commonInfo>
+        <title>Introduction</title>
+        <para>The following table(s) and illustration(s) provide the description and use of the controls and indicators pertaining to the mountain bicycle(s). Some controls and indicators may differ depending on the model.</para>
+      </commonInfo>
+      <figure>
+        <id>fig-0001</id>
+        <title>Bicycle Controls and Indicators</title>
+        <graphic>ICN-07GB6-BIKECI0001-001-01</graphic>
+      </figure>
+      <controlIndicatorRepository>
+        <controlIndicatorGroup>
+          <internalRef>
+            <internalRefId>fig-0001</internalRefId>
+            <internalRefTargetType>irtt01</internalRefTargetType>
+          </internalRef>
+          <controlIndicatorSpec>
+            <controlIndicatorNumber>ci-0001</controlIndicatorNumber>
+            <controlIndicatorKey>1</controlIndicatorKey>
+            <controlIndicatorName>LED Taillight</controlIndicatorName>
+            <controlIndicatorDescr>
+              <controlIndicatorFunction>Lights illuminate automatically when brakes are engaged.</controlIndicatorFunction>
+            </controlIndicatorDescr>
+          </controlIndicatorSpec>
+          <controlIndicatorSpec>
+            <controlIndicatorNumber>ci-0002</controlIndicatorNumber>
+            <controlIndicatorKey>2</controlIndicatorKey>
+            <controlIndicatorName>Chrome Bell</controlIndicatorName>
+            <controlIndicatorDescr>
+              <controlIndicatorFunction>Press to sound bell. Normally used to signal a need for attention.</controlIndicatorFunction>
+            </controlIndicatorDescr>
+          </controlIndicatorSpec>
+          <controlIndicatorSpec>
+            <controlIndicatorNumber>ci-0003</controlIndicatorNumber>
+            <controlIndicatorKey>3</controlIndicatorKey>
+            <controlIndicatorName>LED Headlight</controlIndicatorName>
+            <controlIndicatorDescr>
+              <controlIndicatorFunction>Push button to turn light on or off.</controlIndicatorFunction>
+            </controlIndicatorDescr>
+          </controlIndicatorSpec>
+          <controlIndicatorSpec>
+            <controlIndicatorNumber>ci-0004</controlIndicatorNumber>
+            <controlIndicatorKey>4</controlIndicatorKey>
+            <controlIndicatorName>Platform Pedals</controlIndicatorName>
+            <controlIndicatorDescr>
+              <controlIndicatorFunction>Control the acceleration of the bicycle.</controlIndicatorFunction>
+            </controlIndicatorDescr>
+          </controlIndicatorSpec>
+        </controlIndicatorGroup>
+      </controlIndicatorRepository>
+    </commonRepository>
+  </content>
+</dm>
+
+Provide corrected XML now.

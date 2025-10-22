@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdent>
+    <dmRef>
+      <dmRefIdent>
+        <modelIdentCode>S1000DBIKE</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>00W</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>D</itemLocationCode>
+      </dmRefIdent>
+    </dmRef>
+  </dmIdent>
+  <dataModuleContent>
+    <description>
+      <levelledPara>
+        <title>Derailleur</title>
+        <para>There are two different types of derailleur, the front and the rear.</para>
+        <levelledPara>
+          <title>Front derailleur</title>
+          <para>The front derailleur (refer to &lt;internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/&gt;) contains two types of screws to keep the movement of the derailleur to a minimum. These screws are:</para>
+          <list>
+            <listItem>the stop screw low-gear</listItem>
+            <listItem>the stop screw high-gear</listItem>
+          </list>
+          <para>The function of these screws is to prevent the rider from over shifting . If this occurs, the chain will go out of the chain wheel.</para>
+          <figure>
+            <id>fig-0001</id>
+            <title>Front derailleur</title>
+            <graphic>infoEntityIdent: ICN-C0419-S1000D0396-001-01</graphic>
+          </figure>
+          <para>The derailleur is installed on the bicycle seat tube with a clamp and is parallel to the three front sprockets.</para>
+          <para>The shift cable is connected between the shifters on the handle bars and the cable clamp bolt on the front derailleur. This operates the derailleur. On the sprockets there is an inner and outer cage. The clamp attaches the cage.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Rear derailleur</title>
+          <para>The rear derailleur (refer to &lt;internalRef internalRefId="fig-0002" internalRefTargetType="irtt01"/&gt;) section contains the sprockets for the different gear changes. When the cable clamp bolt is tight, it holds the shift cable in its position. A screwed bolt holds the tension wheel.</para>
+          <figure>
+            <id>fig-0002</id>
+            <title>Rear derailleur</title>
+            <graphic>infoEntityIdent: ICN-C0419-S1000D0397-001-01</graphic>
+          </figure>
+          <para>The derailleur mounting bolt connects the derailleur to the frame. When the user attaches this bolt, this makes sure that the cage plates are parallel with the chain rings.</para>
+          <para>The guide wheel has the function to move the chain with the derailleur. It moves the chain from one sprocket to the other. The guide wheel must not move on its axis. If this occurs, there will be wear on the wheel. The position of the guide wheel is below the largest sprocket.</para>
+        </levelledPara>
+      </levelledPara>
+    </description>
+  </dataModuleContent>
+  <dmAudit>
+    <dmAuditRecords>
+      <dmAuditRecord>
+        <dmAuditId>simplePara: S1000D upissued</dmAuditId>
+      </dmAuditRecord>
+    </dmAuditRecords>
+  </dmAudit>
+  <issue>
+    <dmIssue>
+      <dmIssueId/>
+    </dmIssue>
+  </issue>
+</dataModule>

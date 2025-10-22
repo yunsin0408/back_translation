@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imfDataModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <imfIdentAndStatusSection>
+    <imfAddress>
+      <imfIdent>
+        <imfCode imfIdentIcn="C0419-S1000D0360-001-01"/>
+        <issueInfo issueNumber="002" inWork="00"/>
+      </imfIdent>
+      <imfAddressItems>
+        <icnTitle>Bicycle</icnTitle>
+        <issueDate year="2024" month="06" day="19"/>
+      </imfAddressItems>
+      <icnKeywordGroup>
+        <icnKeyword>mountain</icnKeyword>
+        <icnKeyword>mountain bike</icnKeyword>
+        <icnKeyword>Mk1</icnKeyword>
+        <icnKeyword>Mk9</icnKeyword>
+      </icnKeywordGroup>
+    </imfAddress>
+    <imfStatus>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        </restrictionInstructions>
+        <exportControl>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        <restrictionInfo>
+          <copyright>
+            <copyrightText>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightText>
+            <publishers>
+              <randomList>
+                <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+                <publisher>Aerospace Industries Association of America</publisher>
+                <publisher>ATA e-Business Program</publisher>
+              </randomList>
+            </publishers>
+            <limitationsOfLiability>
+              <randomList>
+                <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+                <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</limitation>
+                <limitation>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</limitation>
+              </randomList>
+            </limitationsOfLiability>
+            <copyrightDetails>The details for copyright can be found in the S1000D Specification.</copyrightDetails>
+          </copyright>
+          <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+          <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+        </restrictionInfo>
+      </dataRestrictions>
+      <responsiblePartnerCompany>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseCode>B6865</enterpriseCode>
+        <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+      </originator>
+    </imfStatus>
+  </imfIdentAndStatusSection>
+  <imfContent>
+    <icnVariation fileExtension="svg"/>
+    <icnContents>
+      <icnObjectGroup>
+        <icnObject icnObjectIdent="hot000">
+          <icnObjectName>0</icnObjectName>
+          <icnObjectType>CALLOUT</icnObjectType>
+          <icnObjectTitle>BICYCLE</icnObjectTitle>
+        </icnObject>
+        <icnObject icnObjectIdent="hot001">
+          <icnObjectName>1</icnObjectName>
+          <icnObjectType>CALLOUT</icnObjectType>
+          <icnObjectTitle>BRAKE SUB-SYSTEM</icnObjectTitle>
+        </icnObject>
+        <icnObject icnObjectIdent="hot002">
+          <icnObjectName>2</icnObjectName>
+          <icnObjectType>CALLOUT</icnObjectType>
+          <icnObjectTitle>GEAR SUB-SYSTEM</icnObjectTitle>
+        </icnObject>
+        <icnObject icnObjectIdent="hot003">
+          <icnObjectName>3</icnObjectName>
+          <icnObjectType>CALLOUT</icnObjectType>
+          <icnObjectTitle>WHEEL, ASSEMBLY FRONT</icnObjectTitle>
+        </icnObject>
+        <icnObject icnObjectIdent="hot004">
+          <icnObjectName>4</icnObjectName>
+          <icnObjectType>CALLOUT</icnObjectType>
+          <icnObjectTitle>PEDALS</icnObjectTitle>
+        </icnObject>
+        <icnObject icnObjectIdent="hot005">
+          <icnObjectName>5</icnObjectName>
+          <icnObjectType>CALLOUT</icnObjectType>
+          <icnObjectTitle>SEAT</icnObjectTitle>
+        </icnObject>
+        <icnObject icnObjectIdent="hot006">
+          <icnObjectName>6</icnObjectName>
+          <icnObjectType>CALLOUT</icnObjectType>
+          <icnObjectTitle>HANDLE BAR STEM</icnObjectTitle>
+        </icnObject>
+        <icnObject icnObjectIdent="hot007">
+          <icnObjectName>7</icnObjectName>
+          <icnObjectType>CALLOUT</icnObjectType>
+          <icnObjectTitle>HANDLE BAR</icnObjectTitle>
+        </icnObject>
+      </icnObjectGroup>
+    </icnContents>
+    <icnVariation fileExtension="png"/>
+  </imfContent>
+  <dataModule>
+    <dataItem>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode modelIdentCode="S1000DBIKE"/>
+          <dmCode systemDiffCode="AAA"/>
+          <dmCode systemCode="D00"/>
+          <dmCode subSystemCode="0"/>
+          <dmCode subSubSystemCode="0"/>
+          <dmCode assyCode="00"/>
+          <dmCode disassyCode="00"/>
+          <dmCode disassyCodeVariant="AA"/>
+          <dmCode infoCode="022"/>
+          <dmCode infoCodeVariant="A"/>
+          <dmCode itemLocationCode="D"/>
+        </dmRefIdent>
+        <issueInfo issueNumber="011" inWork="00"/>
+        <language>
+          <countryIsoCode>US</countryIsoCode>
+          <languageIsoCode>en</languageIsoCode>
+        </language>
+      </dmRef>
+    </dataItem>
+    <dataItem>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode modelIdentCode="C0419-S1000D0360-001-01"/>
+        </dmRefIdent>
+        <issueInfo issueNumber="002" inWork="00"/>
+      </dmRef>
+    </dataItem>
+  </dataModule>
+</imfDataModule>

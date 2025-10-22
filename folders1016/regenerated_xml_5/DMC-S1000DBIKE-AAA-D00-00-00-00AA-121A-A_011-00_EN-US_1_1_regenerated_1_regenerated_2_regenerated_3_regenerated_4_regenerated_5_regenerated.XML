@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <procTitle>Bicycle Pre-Flight Check Procedure</procTitle>
+  <introduction>This document details the procedure for performing a pre-flight check on a bicycle, ensuring its safe and reliable operation.</introduction>
+  <preliminaryRequirements>
+    <personnel>
+      <techRequirement>1 Technician</techRequirement>
+    </personnel>
+    <equipment>
+      <item>
+        <name>Tire Pressure Gauge</name>
+        <partNumber>BSK-TLST-001-01</partNumber>
+        <keyZeus>KZ666</keyZeus>
+        <quantity>1</quantity>
+      </item>
+      <item>
+        <name>Specialist Toolset</name>
+        <partNumber>BSK-TLST-001</partNumber>
+        <keyZeus>KZ666</keyZeus>
+        <quantity>1</quantity>
+      </item>
+    </equipment>
+    <supplies>
+      <item>
+        <name>General Lubricant</name>
+        <partNumber>LL-001</partNumber>
+        <keyZeus>KZ222</keyZeus>
+        <quantity>As required</quantity>
+      </item>
+    </supplies>
+  </preliminaryRequirements>
+  <mainProcedure>
+    <step>
+      <title>Brake Inspection</title>
+      <stepContent>
+        <stepLine>Open the brake quick release.</stepLine>
+        <stepLine>Examine the condition and thickness of the brake pads.</stepLine>
+        <subStep>Ensure sufficient rubber remains.</subStep>
+        <subStep>Verify the pads are not overly hardened.</subStep>
+        <stepLine>Clean any unwanted material from the brake surfaces.</stepLine>
+      </stepContent>
+    </step>
+    <step>
+      <title>Brake Installation Check</title>
+      <stepContent>
+        <stepLine>Check the hydraulic brake system function (refer to multimedia object: Hydraulic brake function - infoEntityIdent: ICN-C0419-S1000D0384-001-01).</stepLine>
+        <stepLine>Ensure sufficient clearance exists between the brake pads and the inner diameter of the brake surface.</stepLine>
+        <caution>If the pads are too low on the rim (as shown in Figure 1 - ICN-C0419-S1000D0382-001-01), they may cause spoke separation. Ensure pads are correctly installed in the center.</caution>
+      </stepContent>
+    </step>
+    <step>
+      <title>Tire Pressure Check</title>
+      <stepContent>
+        <stepLine>Check the tire pressure using the tire pressure gauge.</stepLine>
+        <stepLine>Compare the reading to the recommended pressure indicated on the tire sidewall.</stepLine>
+        <stepLine>Add air as needed.</stepLine>
+      </stepContent>
+    </step>
+    <step>
+      <title>Wheel Inspection</title>
+      <stepContent>
+        <stepLine>Examine the rims for bulges and dents.</stepLine>
+        <stepLine>Inspect for splits at the seam of extruded rims.</stepLine>
+      </stepContent>
+    </step>
+    <step>
+      <title>Headset Bearing Check</title>
+      <stepContent>
+        <stepLine>Straddle the bicycle.</stepLine>
+        <stepLine>Apply the front brakes.</stepLine>
+        <stepLine>Push the handlebars forward.</stepLine>
+        <stepLine>Verify the headset bearings are tight.</stepLine>
+      </stepContent>
+    </step>
+    <step>
+      <title>Chain Check</title>
+      <stepContent>
+        <stepLine>Visually examine the chain condition.</stepLine>
+        <subStep>If dirty, clean the chain (refer to document: DA4, 1, 0, 0, 0, B).</subStep>
+        <stepLine>Visually inspect for frozen or stiff chain links.</stepLine>
+        <stepLine>Apply lubricant as needed.</stepLine>
+        <stepLine>Check chain tension.</stepLine>
+        <subStep>Move the chain onto the largest chain ring.</subStep>
+        <subStep>Pull the chain away from the front of the chain ring.</subStep>
+        <subStep>Ensure the play is minimal (less than a full tooth).</subStep>
+        <stepLine>Tighten the chain using the specialist toolset.</stepLine>
+      </stepContent>
+    </step>
+  </mainProcedure>
+  <closingRequirements>No specific closing requirements.</closingRequirements>
+  <figure>
+    <title>Brake Pad Seating</title>
+    <infoEntityIdent>ICN-C0419-S1000D0382-001-01</infoEntityIdent>
+  </figure>
+</procedure>

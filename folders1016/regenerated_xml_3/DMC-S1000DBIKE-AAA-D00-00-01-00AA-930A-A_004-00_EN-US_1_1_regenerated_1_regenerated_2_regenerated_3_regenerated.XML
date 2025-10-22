@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_s1000dbike_aaa_d00_00_01_00aa_930a_a_004_00_en_us_1_1_regenerated_1_regenerated_2_regenerated xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmc_s1000dbike_aaa_d00_00_01_00aa_930a_a_004_00_en_us_1_1_regenerated_1_regenerated_2_regenerated>
+    <service_bulletin_material_information>
+      <service_bulletin_content>
+        <service_bulletin_content>
+          <text>This document details material information associated with a service bulletin.</text>
+        </service_bulletin_content>
+        <material_information>
+          <support_equipment>
+            <text>No support equipment is listed.</text>
+          </support_equipment>
+          <material_summary>
+            <text>Total Parts: 18</text>
+            <text>Total Removed Parts: 7</text>
+            <text>Total Consumables: 0</text>
+          </material_summary>
+          <material_details>
+            <supply_parts>
+              <table_data>
+                <row>
+                  <cell>Part Number</cell>
+                  <cell>Qty</cell>
+                  <cell>Unit of Measure</cell>
+                  <cell>Description</cell>
+                </row>
+                <row>
+                  <cell>FK-TEL1001</cell>
+                  <cell>1</cell>
+                  <cell>EA</cell>
+                  <cell>Fork</cell>
+                </row>
+                <row>
+                  <cell>FK-TEL1002</cell>
+                  <cell>1</cell>
+                  <cell>EA</cell>
+                  <cell>Fork</cell>
+                </row>
+                <row>
+                  <cell>ST-001-05</cell>
+                  <cell>2</cell>
+                  <cell>EA</cell>
+                  <cell>Conical expansion washer</cell>
+                </row>
+                <row>
+                  <cell>BSK-AXS-2000</cell>
+                  <cell>1</cell>
+                  <cell>EA</cell>
+                  <cell>Wheel axis</cell>
+                </row>
+                <row>
+                  <cell>BSK-AXS-2001</cell>
+                  <cell>1</cell>
+                  <cell>EA</cell>
+                  <cell>Wheel axis</cell>
+                </row>
+              </table_data>
+            </supply_parts>
+            <consumables>
+              <text>No consumables are listed.</text>
+            </consumables>
+            <removed_parts>
+              <table_data>
+                <row>
+                  <cell>Part Number</cell>
+                  <cell>Qty</cell>
+                  <cell>Unit of Measure</cell>
+                  <cell>Description</cell>
+                </row>
+                <row>
+                  <cell>FK-1000</cell>
+                  <cell>2</cell>
+                  <cell>EA</cell>
+                  <cell>Fork</cell>
+                </row>
+                <row>
+                  <cell>ST-001-05</cell>
+                  <cell>2</cell>
+                  <cell>EA</cell>
+                  <cell>Conical expansion washer</cell>
+                </row>
+                <row>
+                  <cell>BSK-AXS-2000</cell>
+                  <cell>1</cell>
+                  <cell>EA</cell>
+                  <cell>Wheel axis</cell>
+                </row>
+              </table_data>
+            </removed_parts>
+            <removed_spare_sets>
+              <removed_spare_set>
+                <text>Removed Spare Set 1</text>
+                <item>Fork (1 EA)</item>
+                <item>Conical expansion washer (1 EA)</item>
+              </removed_spare_set>
+              <removed_spare_set>
+                <text>Removed Spare Set 2</text>
+                <item>Fork (1 EA)</item>
+                <item>Conical expansion washer (1 EA)</item>
+              </removed_spare_set>
+              <individual_removed_spare>
+                <text>Individual Removed Spare</text>
+                <item>Wheel axis (1 EA)</item>
+                <text>Material Usage: Reidentified Material</text>
+                <text>Modified to: BSK-AXS-2001</text>
+              </individual_removed_spare>
+            </removed_spare_sets>
+            <external_parts_spares>
+              <external_spare_set>
+                <text>External Spare Set</text>
+                <item>Referenced parts</item>
+              </external_spare_set>
+              <external_removed_spare_set>
+                <text>External Removed Spare Set</text>
+                <item>Referenced parts</item>
+              </external_removed_spare_set>
+            </external_parts_spares>
+          </material_details>
+        </material_information>
+        <material_identification>
+          <support_equipment>
+            <text>No support equipment listed.</text>
+          </support_equipment>
+          <interchangeability>
+            <item>Removed Fork (FK-1000) replaced by Fork (FK-TEL1001) if tire width is less than 7 cm</item>
+            <item>Removed Fork (FK-1000) replaced by Fork (FK-TEL1002) if tire width is less than 7 cm</item>
+            <item>Wheel axis (BSK-AXS-2000) modified to Wheel axis (BSK-AXS-2001)</item>
+          </interchangeability>
+          <additional_information>
+            <text>This service bulletin is enhanced with examples of formerly unused elements defined by a terminology reference.</text>
+          </additional_information>
+        </material_identification>
+        <accomplishment_instructions>
+          <text>References a Data Module (DM) with specific identification codes.</text>
+        </accomplishment_instructions>
+        <additional_information>
+          <text>Contains additional information related to the service bulletin.</text>
+        </additional_information>
+      </service_bulletin_content>
+    </service_bulletin_material_information>
+  </dmc_s1000dbike_aaa_d00_00_01_00aa_930a_a_004_00_en_us_1_1_regenerated_1_regenerated_2_regenerated>
+</dmc_s1000dbike_aaa_d00_00_01_00aa_930a_a_004_00_en_us_1_1_regenerated_1_regenerated_2_regenerated>

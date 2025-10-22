@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-700A-A_010-00_EN-US_1_1</title>
+  <subject>Lighting System Installation Procedure</subject>
+  <introduction>This document details the procedure for installing the lighting system on a bicycle.</introduction>
+  <preliminary_requirements>
+    <workarea>Impacted zones: Zone 200, Zone 300, and Zone 130.</workarea>
+    <tools_and_equipment>
+      <tool>
+        <name>Toolset</name>
+        <partnumber>BSK-TLST-001</partnumber>
+        <manufacturer>KZ666</manufacturer>
+        <quantity>1</quantity>
+      </tool>
+    </tools_and_equipment>
+    <prerequisites>Bike must be stationary.</prerequisites>
+  </preliminary_requirements>
+  <procedure>
+    <step>
+      <step_no>1</step_no>
+      <step_title>Unpacking &amp; Inspection</step_title>
+      <step_text>Remove the lighting system from its packaging.</step_text>
+      <step_text>Verify that all components match the parts list in document [S1000DLIGHTING - Disassembly 01 - D].</step_text>
+    </step>
+    <step>
+      <step_no>2</step_no>
+      <step_title>Front Light Installation</step_title>
+      <step_text>1. Apply protective strip around the handlebar.</step_text>
+      <step_text>2. Open the clamp and position it around the protective strip, ensuring the light connector is at the top.</step_text>
+      <step_text>3. Install the washer on the screw.</step_text>
+      <step_text>4. Tighten the screw into the hole at the bottom of the clamp using the correct screwdriver from the toolset.</step_text>
+    </step>
+    <step>
+      <step_no>3</step_no>
+      <step_title>Rear Light Installation</step_title>
+      <step_text>1. Apply protective strip around one of the rear triangle up-tubes.</step_text>
+      <step_text>2. Open the clamp and position it around the protective strip, ensuring the light connector points rearward.</step_text>
+      <step_text>3. Install the washer on the screw.</step_text>
+      <step_text>4. Tighten the screw into the hole at the bottom of the clamp using the correct screwdriver from the toolset.</step_text>
+    </step>
+    <step>
+      <step_no>4</step_no>
+      <step_title>Connecting Lights</step_title>
+      <step_text>1. Attach the light with the white glass to the front connector.</step_text>
+      <step_text>2. Attach the light with the red glass to the rear connector.</step_text>
+    </step>
+    <step>
+      <step_no>5</step_no>
+      <step_title>Circuit Breaker Installation (Conditional)</step_title>
+      <conditional>
+        <condition>Mountain Bike (Storm type)</condition>
+        <step_text>Install circuit breaker CBLGT-1001-R on the right handlebar using the clamping ring.</step_text>
+        <step_text>Connect the circuit breaker electrical wire to the rear connector of the front light.</step_text>
+        <step_text>Secure the wire to the frame using a protective strip.</step_text>
+      </conditional>
+      <conditional>
+        <condition>Mountain Bike (Trekker type)</condition>
+        <step_text>Install circuit breaker CBLGT-1001-L on the left handlebar using the clamping ring.</step_text>
+        <step_text>Connect the circuit breaker electrical wire to the rear connector of the front light.</step_text>
+        <step_text>Secure the wire to the frame using a protective strip.</step_text>
+      </conditional>
+    </step>
+  </procedure>
+  <figurelink>
+    <title>Figure: [Circuit Breaker (See Figures Below)]</title>
+    <xref>figs-0001</xref>
+  </figurelink>
+  <figures>
+    <figure>
+      <title>Figure 1: Circuit Breaker (Storm Type - Right Side)</title>
+      <image>ICN-FAPE3-S1000D0101-001-01</image>
+    </figure>
+    <figure>
+      <title>Figure 2: Circuit Breaker (Trekker Type - Left Side)</title>
+      <image>ICN-FAPE3-S1000D0102-001-01</image>
+    </figure>
+  </figures>
+  <closing_requirements>No specific conditions apply.</closing_requirements>
+</proced>

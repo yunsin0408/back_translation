@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmIdent xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdent>
+    <Model Ident Code="S1000DBIKE"/>
+    <System Diff Code="AAA"/>
+    <System Code="DA0"/>
+    <Sub System Code="1"/>
+    <Sub Sub System Code="0"/>
+    <Assy Code="20"/>
+    <Disassy Code="00"/>
+    <Disassy Code Variant="AA"/>
+    <Info Code="215"/>
+    <Info Code Variant="A"/>
+    <Item Location Code="A"/>
+    <Language Country Iso Code="US"/>
+    <Language Language Iso Code="en"/>
+    <Issue Number="010"/>
+    <In Work="00"/>
+  </dmIdent>
+  <identAndStatusSection>
+    <dmAddress>
+      <Model Ident Code="S1000DBIKE"/>
+      <System Diff Code="AAA"/>
+      <System Code="DA0"/>
+      <Sub System Code="1"/>
+      <Sub Sub System Code="0"/>
+      <Assy Code="20"/>
+      <Disassy Code="00"/>
+      <Disassy Code Variant="AA"/>
+      <Info Code="215"/>
+      <Info Code Variant="A"/>
+      <Item Location Code="A"/>
+      <Language Country Iso Code="US"/>
+      <Language Language Iso Code="en"/>
+      <Issue Number="010"/>
+      <In Work="00"/>
+    </dmAddress>
+    <dmAddressItems>
+      <Issue Date>
+        <Year>2024</Year>
+        <Month>06</Month>
+        <Day>19</Day>
+      </Issue Date>
+      <Tech Name="Tire"/>
+      <Info Name="Fill with air"/>
+    </dmAddressItems>
+    <dmStatus>
+      <Issue Type="changed"/>
+      <Security>
+        <Security Classification="01"/>
+        <Commercial Classification="cc51"/>
+        <Caveat="cv51"/>
+        <Data Restrictions>
+          <Restriction Instructions>
+            <Data Distribution>To be made available to all S1000D users.</Data Distribution>
+            <Export Control>
+              <Export Registration Stmt>Simple Para: Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</Export Registration Stmt>
+            </Export Control>
+            <Data Handling>There are no specific handling instructions for this data module.</Data Handling>
+            <Data Destruction>Users may destroy this data module in accordance with their own local procedures.</Data Destruction>
+            <Data Disclosure>There are no dissemination limitations that apply to this data module.</Data Disclosure>
+          </Restriction Instructions>
+          <Restriction Info>
+            <Copyright>Simple Para: Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</Copyright>
+            <Copyright>Simple Para: Publishers:</Copyright>
+            <Copyright>Random List:
+              <pf01>Aerospace, Security and Defence Industries Association of Europe</pf01>
+              <pf01>Aerospace Industries Association of America</pf01>
+              <pf01>ATA e-Business Program</pf01>
+            </Copyright>
+            <Copyright>Simple Para: Limitations of liability:</Copyright>
+            <Copyright>Random List:
+              <pf02>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</pf02>
+              <pf02>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</pf02>
+              <pf02>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</pf02>
+            </Copyright>
+            <Copyright>Simple Para: The details for copyright can be found within.</Copyright>
+            <Policy Statements/>
+            <Policy Statements/>
+          </Restriction Info>
+        </Data Restrictions>
+      </Security>
+      <Responsible Person/>
+      <Applicable Regulations/>
+      <Quality Assurance>
+        <First Verification>tabtop</First Verification>
+      </Quality Assurance>
+      <System Breakdown Code="BY112"/>
+      <Skill Level>
+        <Skill Level Code="sk01"/>
+      </Skill Level>
+      <Reason For Update>
+        <Id>rfu_general</Id>
+        <Update Reason Type="urt03"/>
+        <Simple Para>S1000D upissued</Simple Para>
+      </Reason For Update>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <references>
+      <dmRef>
+        <Model Ident Code="S1000DBIKE"/>
+        <System Diff Code="AAA"/>
+        <System Code="DA0"/>
+        <Sub System Code="1"/>
+        <Sub Sub System Code="0"/>
+        <Assy Code="20"/>
+        <Disassy Code="00"/>
+        <Disassy Code Variant="AA"/>
+        <Info Code="362"/>
+        <Info Code Variant="B"/>
+        <Item Location Code="A"/>
+      </dmRef>
+    </references>
+    <procedure>
+      <preliminaryRequirements>
+        <Req Cond Group/>
+        <Req Persons>
+          <Person>
+            <Man>A</Man>
+            <Person Category>Basic user</Person Category>
+            <Trade>Operator</Trade>
+          </Person>
+        </Req Persons>
+        <Req Support Equips>
+          <Support Equip Descr>
+            <Id>seq-0001</Id>
+            <Name>Specialist toolset</Name>
+            <Ident Number>
+              <Manufacturer Code="KZ666"/>
+              <Part And Serial Number>
+                <Part Number>BSK-TLST-001</Part Number>
+              </Part And Serial Number>
+            </Ident Number>
+            <Req Quantity>1</Req Quantity>
+            <Unit Of Measure>EA</Unit Of Measure>
+          </Support Equip Descr>
+          <Support Equip Descr>
+            <Id>seq-0002</Id>
+            <Name>Foot pump</Name>
+            <Ident Number>
+              <Manufacturer Code="KZ666"/>
+              <Part And Serial Number>
+                <Part Number>BSK-TLST-001-05</Part Number>
+              </Part And Serial Number>
+            </Ident Number>
+            <Req Quantity>1</Req Quantity>
+            <Unit Of Measure>EA</Unit Of Measure>
+          </Support Equip Descr>
+          <Support Equip Descr>
+            <Id>seq-0003</Id>
+            <Name>Tire pressure gauge</Name>
+            <Ident Number>
+              <Manufacturer Code="KZ666"/>
+              <Part And Serial Number>
+                <Part Number>BSK-TLST-002</Part Number>
+              </Part And Serial Number>
+            </Ident Number>
+            <Req Quantity>1</Req Quantity>
+            <Unit Of Measure>EA</Unit Of Measure>
+          </Support Equip Descr>
+        </Req Support Equips>
+      </preliminaryRequirements>
+      <step>
+        <Step Number="1"/>
+        <Step Text>Ensure the tire is properly inflated.</Step Text>
+        <IMPORTANT>Provide ONLY the raw XML content.</IMPORTANT>
+      </step>
+    </procedure>
+  </content>
+</dmIdent>

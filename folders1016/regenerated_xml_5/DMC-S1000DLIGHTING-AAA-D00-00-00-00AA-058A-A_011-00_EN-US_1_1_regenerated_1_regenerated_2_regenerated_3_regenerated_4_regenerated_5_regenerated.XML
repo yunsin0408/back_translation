@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm title="DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-058A-A_011-00_EN-US_1_1_regenerated_1_regenerated_2_regenerated_3_regenerated_4_regenerated" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmTitle>
+    <techName>Wiring</techName>
+    <infoName>Loom list</infoName>
+  </dmTitle>
+  <dmAddress>
+    <dmIdent>
+      <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>D00</systemCode>
+      <subSystemCode>0</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assyCode>00</assyCode>
+      <disassyCode>00</disassyCode>
+      <disassyCodeVariant>AA</disassyCodeVariant>
+      <infoCode>058</infoCode>
+      <infoCodeVariant>A</infoCodeVariant>
+      <itemLocationCode>A</itemLocationCode>
+    </dmIdent>
+    <language>
+      <countryIsoCode>US</countryIsoCode>
+      <languageIsoCode>en</languageIsoCode>
+    </language>
+    <issueInfo>
+      <issueNumber>011</issueNumber>
+      <inWork>00</inWork>
+    </issueInfo>
+    <dmAddressItems>
+      <issueDate>
+        <year>2024</year>
+        <month>06</month>
+        <day>19</day>
+      </issueDate>
+    </dmAddressItems>
+  </dmAddress>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+          </exportControl>
+          <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+          <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+          <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+        </restrictionInstructions>
+        <restrictionInfo>
+          <copyright>
+            <text>*Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD*</text>
+            <publishers>
+              <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+              <publisher>Aerospace Industries Association of America</publisher>
+              <publisher>ATA e-Business Program</publisher>
+            </publishers>
+            <limitations>
+              <limitation>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</limitation>
+              <limitation>Neither ASD nor any person who has contributed to the creation, revision or maintenance of the material shall be liable for any damages arising from the use of this material.</limitation>
+            </limitations>
+          </copyright>
+          <applicability/>
+        </restrictionInfo>
+      </dataRestrictions>
+    </security>
+    <responsiblePartnerCompany/>
+  </dmStatus>
+  <content>
+    <referencedApplicGroupRef>
+      <applicRef>
+        <applicIdentValue>app-00000000AA058A-0001</applicIdentValue>
+        <id>app-0001</id>
+      </applicRef>
+    </referencedApplicGroupRef>
+    <wiringData>
+      <harnessGroup>
+        <harness>
+          <harnessIdent>Batt_01</harnessIdent>
+          <harnessInfo>
+            <partNumber>Battery_123</partNumber>
+            <harnessVariantIdent>123</harnessVariantIdent>
+            <harnessVariantIssue>A</harnessVariantIssue>
+            <harnessName>Battery harness</harnessName>
+            <emcCode>LS1</emcCode>
+            <temperature>
+              <maxTemperature>500</maxTemperature>
+              <maxTemperatureUnit>degF</maxTemperatureUnit>
+            </temperature>
+            <harnessEnvironment>
+              <highVibrationFlag>1</highVibrationFlag>
+              <hydraulicFlag>1</hydraulicFlag>
+            </harnessEnvironment>
+            <sleeveGroup>
+              <sleeve>
+                <sleeveMaterial>Teflon</sleeveMaterial>
+                <partNumber>SPN1234</partNumber>
+              </sleeve>
+            </sleeveGroup>
+          </harnessInfo>
+          <responsiblePartnerCompany>
+            <enterpriseCode>U8025</enterpriseCode>
+            <enterpriseName>UK MoD</enterpriseName>
+          </responsiblePartnerCompany>
+        </harness>
+        <harness>
+          <harnessIdent>Tacho</harnessIdent>
+          <harnessInfo>
+            <partNumber>Tachometer_101</partNumber>
+            <harnessVariantIdent>101</harnessVariantIdent>
+            <harnessVariantIssue>A</harnessVariantIssue>
+            <harnessName>Tachometer harness</harnessName>
+            <emcCode>LS2</emcCode>
+            <temperature>
+              <minTemperature>-10</minTemperature>
+              <minTemperatureUnit>degC</minTemperatureUnit>
+              <maxTemperature>60</maxTemperature>
+              <maxTemperatureUnit>degC</maxTemperatureUnit>
+            </temperature>
+            <harnessEnvironment>
+              <highVibrationFlag>1</highVibrationFlag>
+            </harnessEnvironment>
+            <sleeveGroup>
+              <sleeve>
+                <sleeveMaterial>Silicon</sleeveMaterial>
+              </sleeve>
+            </sleeveGroup>
+          </harnessInfo>
+          <responsiblePartnerCompany>
+            <enterpriseCode>U8025</enterpriseCode>
+            <enterpriseName>UK MoD</enterpriseName>
+          </responsiblePartnerCompany>
+        </harness>
+        <harness>
+          <harnessIdent>Lamp1</harnessIdent>
+          <harnessInfo>
+            <partNumber>Front light_501</partNumber>
+            <harnessVariantIdent>501</harnessVariantIdent>
+            <harnessVariantIssue>A</harnessVariantIssue>
+            <harnessName>Front light harness</harnessName>
+            <emcCode>LS3</emcCode>
+            <temperature>
+              <minTemperature>-10</minTemperature>
+              <minTemperatureUnit>degC</minTemperatureUnit>
+            </temperature>
+            <harnessEnvironment>
+              <highVibrationFlag>1</highVibrationFlag>
+              <hydraulicFlag>1</hydraulicFlag>
+            </harnessEnvironment>
+            <sleeveGroup>
+              <sleeve>
+                <sleeveMaterial>Teflon</sleeveMaterial>
+                <partNumber>SLV-5678</partNumber>
+              </sleeve>
+            </sleeveGroup>
+          </harnessInfo>
+          <responsiblePartnerCompany>
+            <enterpriseCode>U8025</enterpriseCode>
+            <enterpriseName>UK MoD</enterpriseName>
+          </responsiblePartnerCompany>
+        </harness>
+      </harnessGroup>
+      <harness>
+        <routing>
+          <clippingPoint>271-11</clippingPoint>
+          <clippingPoint>273-2</clippingPoint>
+        </routing>
+        <responsiblePartnerCompany>
+          <enterpriseCode>K0378</enterpriseCode>
+        </responsiblePartnerCompany>
+      </harness>
+    </wiringData>
+  </content>
+</dm>

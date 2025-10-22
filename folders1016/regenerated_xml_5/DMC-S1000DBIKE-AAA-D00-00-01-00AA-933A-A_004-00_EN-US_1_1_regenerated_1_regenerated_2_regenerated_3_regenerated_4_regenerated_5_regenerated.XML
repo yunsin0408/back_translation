@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-01-00AA-933A-A_004-00_EN-US_1_1 - Bike Fork Replacement Procedure</title>
+  <introduction>
+    <p>This document outlines the procedure for replacing a bike fork. It details the necessary steps, precautions, and references to relevant documentation.</p>
+  </introduction>
+  <prerequisites_materials>
+    <item>New Bike Fork</item>
+    <item>Standard Bike Tools (Wrenches, Allen Keys, etc.)</item>
+    <item>Grease/Lubricant</item>
+    <item>Reference Documentation (as indicated throughout the procedure)</item>
+  </prerequisites_materials>
+  <preliminary_requirements>
+    <item>Ensure the bike is securely positioned on a repair stand or stable surface.</item>
+    <item>Disconnect any electrical components if applicable.</item>
+  </preliminary_requirements>
+  <procedure_steps>
+    <step id="step1">
+      <title>Preparation</title>
+      <instruction>
+        <title>Preparation</title>
+        <p>Remove Front Wheel: Refer to documentation &lt;dmref:S1000BIKE-DA0-3-0-00-00-AA-520/&gt; for instructions on front wheel removal.</p>
+      </instruction>
+      <instruction>
+        <p>Remove Front Brakes: Refer to documentation &lt;dmref:S1000BIKE-DA1-2-0-00-00-AA-520/&gt; for instructions on front brake removal.</p>
+      </instruction>
+    </step>
+    <step id="step2">
+      <title>Fork Removal</title>
+      <instruction>
+        <title>Fork Removal</title>
+        <p>Remove Fork: Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AA-520/&gt; for instructions on fork removal.</p>
+      </instruction>
+      <instruction>
+        <p>Change Bike Axis: Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AA-93A/&gt; for instructions on changing the bike axis.</p>
+      </instruction>
+    </step>
+    <step id="step3">
+      <title>Fork Installation</title>
+      <instruction>
+        <title>Fork Installation</title>
+        <p>Install New Fork: Options depend on the specific fork model.</p>
+      </instruction>
+      <option id="option1">
+        <title>Option 1</title>
+        <instruction>
+          <p>Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AA-720/&gt;.</p>
+        </instruction>
+      </option>
+      <option id="option2">
+        <title>Option 2</title>
+        <instruction>
+          <p>Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AB-720/&gt;.</p>
+        </instruction>
+      </option>
+    </step>
+    <step id="step4">
+      <title>Reassembly</title>
+      <instruction>
+        <title>Reassembly</title>
+        <p>Install Front Brakes: Refer to documentation &lt;dmref:S1000BIKE-DA1-2-0-00-00-AA-720/&gt; for instructions on front brake installation.</p>
+      </instruction>
+      <instruction>
+        <p>Install Front Wheel: Refer to documentation &lt;dmref:S1000BIKE-DA0-3-0-00-00-AA-720/&gt; for instructions on front wheel installation.</p>
+      </instruction>
+    </step>
+    <step id="step5">
+      <title>Testing &amp; Verification</title>
+      <instruction>
+        <title>Testing &amp; Verification</title>
+        <p>Fork Installation Test: Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AA-341/&gt; to verify proper fork installation.</p>
+      </instruction>
+      <instruction>
+        <p>Front Brakes Test: Refer to documentation &lt;dmref:BRAKE-DA1-0-0-00-00-AA-341/&gt; to verify proper brake function.</p>
+      </instruction>
+    </step>
+  </procedure_steps>
+  <closing_remarks>
+    <p>This procedure provides a general guideline for bike fork replacement. Always consult the manufacturer's specifications and safety guidelines for your specific bike and components. Ensure all connections are secure before operating the bike.</p>
+  </closing_remarks>
+</procedure>

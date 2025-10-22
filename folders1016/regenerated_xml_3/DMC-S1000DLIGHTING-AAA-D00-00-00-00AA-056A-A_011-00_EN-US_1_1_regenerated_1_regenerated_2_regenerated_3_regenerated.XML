@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-056A-A_011-00_EN-US_1_1_regenerated_1_regenerated_2_regenerated - DModule Data - Bike Wiring Information</title>
+  <content>
+    <heading level="1">DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-056A-A_011-00_EN-US_1_1_regenerated_1_regenerated_2_regenerated - DModule Data - Bike Wiring Information</heading>
+    <heading level="2">General Information</heading>
+    <paragraph>This document represents the data contained within the provided `dmodule` XML file, detailing wiring information for a bicycle.</paragraph>
+    <heading level="3">Model Information</heading>
+    <list>
+      <item>
+        <bold>Model Identifier:</bold> S1000DBIKE</item>
+      <item>
+        <bold>PM Issuer:</bold> B6865</item>
+      <item>
+        <bold>PM Number:</bold> EPWG1</item>
+      <item>
+        <bold>PM Volume:</bold> 00</item>
+    </list>
+    <heading level="2">Electrical Equipment Group</heading>
+    <heading level="3">Electronic Box 01 (ELO-Box)</heading>
+    <list>
+      <item>
+        <bold>Functional Item Number:</bold> ELO-Box</item>
+      <item>
+        <bold>Part Number:</bold> Electronic Box 01</item>
+      <item>
+        <bold>Max Mounting Positions:</bold> 5</item>
+      <item>
+        <bold>Connection Class:</bold> 13</item>
+      <item>
+        <bold>Responsible Partner Company:</bold> U8025</item>
+      <item>
+        <bold>Installation Location:</bold> Frame</item>
+    </list>
+    <heading level="3">Battery Master Switch (AC1650) - Alternative Identifications</heading>
+    <list>
+      <item>
+        <bold>Functional Item Number:</bold> AC1650</item>
+      <item>
+        <bold>System Breakdown Code:</bold> 24-31-02-00</item>
+      <item>
+        <bold>Responsible Partner Company:</bold> K0378</item>
+      <item>
+        <bold>Equipment Name:</bold> BATTERY MASTER SWITCH</item>
+      <item>
+        <bold>Required Quantity:</bold> 3</item>
+    </list>
+    <heading level="4">Alternative Identifications</heading>
+    <table border="1">
+      <header>
+        <cell>Part Number</cell>
+        <cell>Manufacturer Code</cell>
+      </header>
+      <row>
+        <cell>711-5016-3(462)</cell>
+        <cell>K5678</cell>
+      </row>
+      <row>
+        <cell>713-5018-2(469)</cell>
+        <cell>K5678</cell>
+      </row>
+    </table>
+    <list>
+      <item>
+        <bold>Instruction Ident:</bold> ASSY806</item>
+      <item>
+        <bold>Installation Location:</bold> Not Specified</item>
+      <item>
+        <bold>Access Door/Panel:</bold> L107</item>
+      <item>
+        <bold>Next Higher Assembly:</bold> 1004VE</item>
+      <item>
+        <bold>Mounting Position:</bold> 5</item>
+      <item>
+        <bold>Sibling Plug Ident:</bold> 1071VR</item>
+    </list>
+    <heading level="4">Electrical Logic</heading>
+    <table border="1">
+      <header>
+        <cell>State</cell>
+        <cell>Contact</cell>
+        <cell>Description</cell>
+      </header>
+      <row>
+        <cell>Initial / DEENERGIZED</cell>
+        <cell>C/NC</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Energized</cell>
+        <cell>C/NO</cell>
+        <cell> </cell>
+      </row>
+    </table>
+    <list>
+      <item>
+        <bold>Equipment Description:</bold> PM Code: S1000DBIKE, Issuer: B6865, Number: EPWG1, Volume: 00</item>
+      <item>
+        <bold>Functional Description:</bold> PM Code: S1000DBIKE, Issuer: B6865, Number: EPWG1, Volume: 00</item>
+      <item>
+        <bold>Illustration:</bold> PM Code: S1000DBIKE, Issuer: B6865, Number: EPWG1, Volume: 00</item>
+    </list>
+    <heading level="3">Other Electrical Equipment</heading>
+    <table border="1">
+      <header>
+        <cell>Functional Item Number</cell>
+        <cell>Part Number</cell>
+        <cell>Connection Class</cell>
+        <cell>Installation Location</cell>
+        <cell>Notes</cell>
+      </header>
+      <row>
+        <cell>FT1</cell>
+        <cell>GT-002-WD</cell>
+        <cell>11</cell>
+        <cell>Frame</cell>
+        <cell>Next Higher Assembly: ELO-Box, Mount Position: P1</cell>
+      </row>
+      <row>
+        <cell>FT2</cell>
+        <cell>GT-004-WD</cell>
+        <cell>11</cell>
+        <cell>Frame</cell>
+        <cell>Next Higher Assembly: ELO-Box, Mount Position: P2</cell>
+      </row>
+      <row>
+        <cell>FT3</cell>
+        <cell>GT-004-WD</cell>
+        <cell>11</cell>
+        <cell>Frame</cell>
+        <cell>Next Higher Assembly: ELO-Box, Mount Position: P3</cell>
+      </row>
+      <row>
+        <cell>Sensor</cell>
+        <cell>Speed sensor</cell>
+        <cell>16</cell>
+        <cell>Steering tube</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>T01</cell>
+        <cell>Tachometer</cell>
+        <cell>16</cell>
+        <cell>Handle bars</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Diode</cell>
+        <cell> </cell>
+        <cell> </cell>
+        <cell> </cell>
+        <cell>Quantity: 2, Mount Positions: LH/RH, Next Higher Assembly: ELO-Box</cell>
+      </row>
+      <row>
+        <cell>AC1650</cell>
+        <cell>711-5016-3(462) or 713-5018-2(469)</cell>
+        <cell>15</cell>
+        <cell>Not Specified</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Speed sensor</cell>
+        <cell> </cell>
+        <cell>16</cell>
+        <cell>Steering tube</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell>Tachometer</cell>
+        <cell> </cell>
+        <cell>16</cell>
+        <cell>Handle bars</cell>
+        <cell> </cell>
+      </row>
+      <row>
+        <cell> </cell>
+        <cell> </cell>
+        <cell> </cell>
+        <cell> </cell>
+        <cell> </cell>
+      </row>
+    </table>
+    <paragraph>Note: The provided data contains a mix of individual components and an `electricalEquipAlts` section, which seems to represent configurable options or variations. This document attempts to structure this information for clarity.</paragraph>
+  </content>
+</proced>

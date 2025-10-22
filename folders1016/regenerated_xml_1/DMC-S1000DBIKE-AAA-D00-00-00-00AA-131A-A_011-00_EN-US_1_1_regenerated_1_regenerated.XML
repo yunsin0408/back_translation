@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-131A-A_011-00_EN-US_1_1</title>
+  <content>
+    <section>
+      <title>Bicycle Pre-Ride Check Procedure</title>
+      <paragraph>This document outlines the pre-ride check procedure for bicycles, covering key areas to ensure safety and optimal performance.</paragraph>
+    </section>
+    <section>
+      <title>1. Brakes</title>
+      <item>
+        <text>Check Pads: Ensure brake pads have sufficient material.</text>
+      </item>
+      <item>
+        <text>Lever Action: Verify smooth and firm lever action.</text>
+      </item>
+    </section>
+    <section>
+      <title>2. Tires</title>
+      <item>
+        <text>Inflation: Check tire pressure. Recommended ranges:</text>
+        <list>
+          <item>On Road: 55-60 psi</item>
+          <item>Off Road: 35-40 psi</item>
+        </list>
+      </item>
+      <item>
+        <text>Condition: Inspect tires for cracks, splits, or embedded objects.</text>
+      </item>
+    </section>
+    <section>
+      <title>3. Wheels</title>
+      <item>
+        <text>Bearings: Check for loose bearings.</text>
+      </item>
+      <item>
+        <text>Trueness: Ensure wheels are true (not wobbling).</text>
+      </item>
+      <item>
+        <text>Spokes: Verify spokes are not broken and are tight.</text>
+      </item>
+      <item>
+        <text>Axle Nuts: Ensure axle nuts are tight.</text>
+      </item>
+    </section>
+    <section>
+      <title>4. Headset</title>
+      <item>
+        <text>Tightness: Check for headset bearing tightness. Ensure smooth steering operation.</text>
+      </item>
+    </section>
+    <section>
+      <title>5. Chain</title>
+      <item>
+        <text>Movement: Verify easy movement of chain links.</text>
+      </item>
+    </section>
+    <section>
+      <title>6. Handlebar and Stem</title>
+      <item>
+        <text>Stem Condition: *Warning: Do not ride with a cracked stem.*</text>
+        <list>
+          <item>If stem is cracked: Replace stem.</item>
+          <item>If stem is loose: Tighten stem.</item>
+        </list>
+      </item>
+      <item>
+        <text>Clamp Bolt: If handlebars twist in stem: Tighten clamp bolt.</text>
+      </item>
+    </section>
+    <section>
+      <title>7. Computer (if equipped)</title>
+      <item>
+        <text>Display Readings: Verify the computer displays appropriate readings. Example readings (may vary by model):</text>
+        <table>
+          <header>
+            <cell/>
+            <cell/>
+          </header>
+          <row>
+            <cell>Altitude</cell>
+            <cell>0 miles</cell>
+          </row>
+          <row>
+            <cell>Speed</cell>
+            <cell>0 mph</cell>
+          </row>
+          <row>
+            <cell>Distance</cell>
+            <cell>0 miles</cell>
+          </row>
+        </table>
+        <note>Note: Color Coding on Computer Display:</note>
+        <table>
+          <header>
+            <cell>Item</cell>
+            <cell>Color</cell>
+          </header>
+          <row>
+            <cell>Altitude</cell>
+            <cell>co04</cell>
+          </row>
+          <row>
+            <cell>Speed</cell>
+            <cell>co02, co04</cell>
+          </row>
+          <row>
+            <cell>Distance</cell>
+            <cell>co51</cell>
+          </row>
+        </table>
+      </item>
+    </section>
+    <section>
+      <title>Appendix</title>
+      <section>
+        <title>Appendix: Color Codes</title>
+        <item>co02: (Specific color - consult documentation)</item>
+        <item>co04: (Specific color - consult documentation)</item>
+        <item>co51: (Specific color - consult documentation)</item>
+      </section>
+    </section>
+  </content>
+</procedure>

@@ -1,0 +1,6 @@
+# DMC-S1000DLIGHTING-AAA-D00-00-00-01AA-941A-D_010-00_EN-US_1_1_regenerated.xml
+
+xml
+<?xml version="1.0" encoding="UTF-8"?>
+<dmc_s1000dlighting_aaa_d00_00_00_01aa_941a_d_010_00_en_us_1_1_regenerated.xml xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+</dmc_s1000dlighting_aaa_d00_00_00_01aa_941a_d_010_00_en_us_1_1_regenerated.xml>

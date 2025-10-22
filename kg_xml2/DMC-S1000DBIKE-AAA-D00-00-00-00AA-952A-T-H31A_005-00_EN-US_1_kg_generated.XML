@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LearningPlan xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <ContentOverview>
+    <ProblemStatement>Bike couriers often experience delays due to mechanical issues. This impacts delivery times and customer satisfaction. A lack of basic maintenance skills contributes to these issues. This training aims to address this gap.</ProblemStatement>
+    <TargetAudience>
+      <BulletItem>All bike couriers within the organization.</BulletItem>
+      <BulletItem>Assumed skill level: Basic bike operation knowledge.</BulletItem>
+    </TargetAudience>
+    <Curriculum>
+      <Module>
+        <ModuleName>Introduction to Bike Maintenance</ModuleName>
+        <BulletItem>Overview of bike components</BulletItem>
+        <BulletItem>Importance of regular maintenance</BulletItem>
+        <BulletItem>Safety precautions</BulletItem>
+      </Module>
+      <Module>
+        <ModuleName>Steering System</ModuleName>
+        <BulletItem>Identifying steering system parts</BulletItem>
+        <BulletItem>Installation and removal procedures</BulletItem>
+      </Module>
+      <Module>
+        <ModuleName>Braking System</ModuleName>
+        <BulletItem>Identifying braking system parts</BulletItem>
+        <BulletItem>Inspection and adjustment procedures</BulletItem>
+      </Module>
+      <Module>
+        <ModuleName>Tire and Tube Maintenance</ModuleName>
+        <BulletItem>Identifying tire and tube types</BulletItem>
+        <BulletItem>Repairing punctures</BulletItem>
+        <BulletItem>Replacing tires and tubes</BulletItem>
+      </Module>
+      <Module>
+        <ModuleName>Chain and Gear Maintenance</ModuleName>
+        <BulletItem>Cleaning and lubricating the chain</BulletItem>
+        <BulletItem>Adjusting gears</BulletItem>
+        <BulletItem>Identifying worn parts</BulletItem>
+      </Module>
+    </Curriculum>
+    <InstructionalMethods>
+      <BulletItem>Computer-Based Training (CBT): Interactive modules with visuals, animations, and knowledge checks.</BulletItem>
+      <BulletItem>Hands-on Practice: Practical exercises where couriers apply what they've learned on actual bikes.</BulletItem>
+      <BulletItem>Demonstrations: Instructors will demonstrate key procedures.</BulletItem>
+      <BulletItem>Q&amp;A Sessions: Opportunities for couriers to ask questions and receive clarification.</BulletItem>
+    </InstructionalMethods>
+    <EvaluationMethods>
+      <FormativeEvaluation>
+        <BulletItem>Surveys: Collect feedback on the training content and delivery methods.</BulletItem>
+      </FormativeEvaluation>
+      <SummativeEvaluation>
+        <BulletItem>Surveys: Assess knowledge gained and confidence in performing maintenance tasks.</BulletItem>
+        <BulletItem>Assessment Results: Evaluate performance on hands-on exercises.</BulletItem>
+      </SummativeEvaluation>
+      <PerformanceMetrics>
+        <BulletItem>Track reduction in bike downtime.</BulletItem>
+        <BulletItem>Monitor improvement in on-time delivery rates.</BulletItem>
+      </PerformanceMetrics>
+    </EvaluationMethods>
+    <ImplementationPlan>
+      <Phase>
+        <PhaseName>Content Development (2 weeks)</PhaseName>
+        <BulletItem>Create CBT modules.</BulletItem>
+        <BulletItem>Develop hands-on exercise materials.</BulletItem>
+      </Phase>
+      <Phase>
+        <PhaseName>Pilot Testing (1 week)</PhaseName>
+        <BulletItem>Conduct a pilot training session with a small group of couriers.</BulletItem>
+        <BulletItem>Gather feedback and make necessary revisions.</BulletItem>
+      </Phase>
+      <Phase>
+        <PhaseName>Full-Scale Training (4 weeks)</PhaseName>
+        <BulletItem>Deliver training to all couriers.</BulletItem>
+      </Phase>
+      <Phase>
+        <PhaseName>Ongoing Evaluation (Ongoing)</PhaseName>
+        <BulletItem>Track performance metrics and gather feedback to continuously improve the training program.</BulletItem>
+      </Phase>
+    </ImplementationPlan>
+    <TechnicalRequirements>
+      <BulletItem>Resolution: 1024x768 recommended.</BulletItem>
+      <BulletItem>Players/Plug-ins: Adobe Flash Player, Adobe Acrobat Reader.</BulletItem>
+      <BulletItem>File Size: Optimized to minimize download times (under 100KB per file where possible).</BulletItem>
+      <BulletItem>Graphics: JPEGs and SWF files.</BulletItem>
+      <BulletItem>Security: Unclassified.</BulletItem>
+      <BulletItem>Accessibility: Consideration for accessibility standards.</BulletItem>
+    </TechnicalRequirements>
+  </ContentOverview>
+  <InterventionImplementation>The intervention will be implemented through the creation and delivery of the combined CBT and hands-on training program.</InterventionImplementation>
+  <PerformanceEvaluation>The effectiveness of the training will be evaluated using formative surveys, summative surveys, and analysis of performance metrics.</PerformanceEvaluation>
+</LearningPlan>

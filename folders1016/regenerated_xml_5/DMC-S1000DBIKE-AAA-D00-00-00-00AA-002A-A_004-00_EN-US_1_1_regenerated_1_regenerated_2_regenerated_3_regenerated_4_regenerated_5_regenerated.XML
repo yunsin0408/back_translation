@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-00-00AA-002A-A_004-00_EN-US_1_1</title>
+  <content>
+    <section>
+      <title>Content</title>
+      <section>
+        <title>Section</title>
+        <title>Title</title>
+        <paragraph>DModule Content Summary</paragraph>
+        <paragraph>This document summarizes the content of the provided `dmodule` XML, focusing on the `frontMatter` section. The `frontMatter` consists of a list of entries, each describing a change or item related to a specific system, subsystem, and information code.</paragraph>
+      </section>
+      <section>
+        <title>Section</title>
+        <title>Title</title>
+        <paragraph>Front Matter Overview</paragraph>
+        <paragraph>The `frontMatter` contains a list of `frontMatterSubList` entries, each representing a single item. Key attributes for each entry include:</paragraph>
+        <itemizedlist>
+          <item>
+            <bold>Attribute:</bold> `modelCode
+            <paragraph><bold>Description:</bold> (Consistent across all entries)</paragraph>
+            <paragraph><bold>Attribute Value:</bold> `S1000DBIKE`</paragraph>
+          </item>
+          <item>
+            <bold>Attribute:</bold> `systemCode
+            <paragraph><bold>Description:</bold> Indicates the main system (e.g., `DA4`, `DA5`)</paragraph>
+          </item>
+          <item>
+            <bold>Attribute:</bold> `subSystemCode
+            <paragraph><bold>Description:</bold> Specifies a subsystem within the main system (e.g., `0`, `1`, `2`, `3`)</paragraph>
+          </item>
+          <item>
+            <bold>Attribute:</bold> `infoCode
+            <paragraph><bold>Description:</bold> A specific information code identifying the change or item (e.g., `041`, `241`, `251`, `411`)</paragraph>
+          </item>
+          <item>
+            <bold>Attribute:</bold> `infoVariant
+            <paragraph><bold>Description:</bold> A variant related to the `infoCode` (e.g., `A`, `B`, `C`)</paragraph>
+          </item>
+          <item>
+            <bold>Attribute:</bold> `issueNumber
+            <paragraph><bold>Description:</bold> A numerical identifier for the issue or change.</paragraph>
+          </item>
+          <item>
+            <bold>Attribute:</bold> `applicationId
+            <paragraph><bold>Description:</bold> Identifier for the software application related to the change (e.g., `app-001`, `app-006`).</paragraph>
+          </item>
+        </itemizedlist>
+      </section>
+      <section>
+        <title>Section</title>
+        <title>Title</title>
+        <paragraph>Detailed List of Front Matter Entries</paragraph>
+        <section>
+          <title>Subsection</title>
+          <title>Title</title>
+          <paragraph>System DA4</paragraph>
+          <attribute>
+            <name>systemCode</name>
+            <value>DA4</value>
+          </attribute>
+          <attribute>
+            <name>subSystemCode</name>
+            <value>0</value>
+          </attribute>
+          <attribute>
+            <name>infoCode</name>
+            <value>041</value>
+          </attribute>
+          <attribute>
+            <name>infoVariant</name>
+            <value>A</value>
+          </attribute>
+          <attribute>
+            <name>issueNumber</name>
+            <value>010</value>
+          </attribute>
+          <attribute>
+            <name>applicationId</name>
+            <value>app-001</value>
+          </attribute>
+          <attribute>
+            <name>systemCode</name>
+            <value>DA4</value>
+          </attribute>
+          <attribute>
+            <name>subSystemCode</name>
+            <value>1</value>
+          </attribute>
+          <attribute>
+            <name>infoCode</name>
+            <value>241</value>
+          </attribute>
+          <attribute>
+            <name>infoVariant</name>
+            <value>A</value>
+          </attribute>
+          <attribute>
+            <name>issueNumber</name>
+            <value>011</value>
+          </attribute>
+          <attribute>
+            <name>applicationId</name>
+            <value>app-006</value>
+          </attribute>
+          <attribute>
+            <name>systemCode</name>
+            <value>DA4</value>
+          </attribute>
+          <attribute>
+            <name>subSystemCode</name>
+            <value>1</value>
+          </attribute>
+          <attribute>
+            <name>infoCode</name>
+            <value>251</value>
+          </attribute>
+          <attribute>
+            <name>infoVariant</name>
+            <value>C</value>
+          </attribute>
+          <attribute>
+            <name>issueNumber</name>
+            <value>010</value>
+          </attribute>
+          <attribute>
+            <name>systemCode</name>
+            <value>DA4</value>
+          </attribute>
+          <attribute>
+            <name>subSystemCode</name>
+            <value>1</value>
+          </attribute>
+          <attribute>
+            <name>infoCode</name>
+            <value>414</value>
+          </attribute>
+          <attribute>
+            <name>infoVariant</name>
+            <value>A</value>
+          </attribute>
+          <attribute>
+            <name>issueNumber</name>
+            <value>010</value>
+          </attribute>
+        </section>
+        <section>
+          <title>Subsection</title>
+          <title>Title</title>
+          <paragraph>System DA5</paragraph>
+          <attribute>
+            <name>systemCode</name>
+            <value>DA5</value>
+          </attribute>
+          <attribute>
+            <name>subSystemCode</name>
+            <value>0</value>
+          </attribute>
+          <attribute>
+            <name>infoCode</name>
+            <value>041</value>
+          </attribute>
+          <attribute>
+            <name>infoVariant</name>
+            <value>A</value>
+          </attribute>
+          <attribute>
+            <name>issueNumber</name>
+            <value>010</value>
+          </attribute>
+          <attribute>
+            <name>applicationId</name>
+            <value>app-001</value>
+          </attribute>
+          <attribute>
+            <name>systemCode</name>
+            <value>DA5</value>
+          </attribute>
+          <attribute>
+            <name>subSystemCode</name>
+            <value>1</value>
+          </attribute>
+          <attribute>
+            <name>infoCode</name>
+            <value>041</value>
+          </attribute>
+          <attribute>
+            <name>infoVariant</name>
+            <value>A</value>
+          </attribute>
+          <attribute>
+            <name>issueNumber</name>
+            <value>010</value>
+          </attribute>
+          <attribute>
+            <name>applicationId</name>
+            <value>app-001</value>
+          </attribute>
+          <attribute>
+            <name>systemCode</name>
+            <value>DA5</value>
+          </attribute>
+          <attribute>
+            <name>subSystemCode</name>
+            <value>2</value>
+          </attribute>
+          <attribute>
+            <name>infoCode</name>
+            <value>251</value>
+          </attribute>
+          <attribute>
+            <name>infoVariant</name>
+            <value>C</value>
+          </attribute>
+          <attribute>
+            <name>issueNumber</name>
+            <value>011</value>
+          </attribute>
+          <attribute>
+            <name>applicationId</name>
+            <value>app-001</value>
+          </attribute>
+          <attribute>
+            <name>systemCode</name>
+            <value>DA5</value>
+          </attribute>
+          <attribute>
+            <name>subSystemCode</name>
+            <value>3</value>
+          </attribute>
+          <attribute>
+            <name>infoCode</name>
+            <value>414</value>
+          </attribute>
+        </section>
+      </section>
+    </section>
+    <section>
+      <title>Section</title>
+      <paragraph>Summary</paragraph>
+    </section>
+  </content>
+</dmodule>

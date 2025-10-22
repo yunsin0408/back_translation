@@ -1,0 +1,128 @@
+# DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-0A2A-D_004-00_EN-US_1_1_regenerated
+
+## Common Repository Document
+
+## Document Information
+
+### Item
+
+**Name:** Date
+**Value:** [Date of Document Creation/Last Update]
+
+### Item
+
+**Name:** Version
+**Value:** [Document Version]
+
+## 1. Identification
+
+### Item
+
+**Name:** Item
+**Details:**
+  **Name:** Document ID
+  **Value:** [Document ID, if applicable]
+
+### Item
+
+**Name:** Item
+**Details:**
+  **Name:** Document Type
+  **Value:** Common Repository Document
+
+## 2. Document Overview
+
+This document defines a common repository of applicability specifications for various products or systems. It outlines the applicable items and their associated specifications.
+
+## 3. Document Structure
+
+### Item
+
+**Name:** Item
+**Details:**
+  **Name:** Identification
+  **Value:** Basic document identification information.
+
+### Item
+
+**Name:** Item
+**Details:**
+  **Name:** Document Overview
+  **Value:** A summary of the document's purpose.
+
+### Item
+
+**Name:** Item
+**Details:**
+  **Name:** Applicability Specifications
+  **Value:** Detailed definitions of applicable items and related specifications.
+
+### Item
+
+**Name:** Item
+**Details:**
+  **Name:** Common Repository
+  **Value:** Contains the applicability repository.
+
+## 4. Applicability Specifications
+
+### 4.1 Referenced Applicability Groups
+
+#### 4.1.1 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0001
+**Description:** Defines applicability for Mountain bicycles combined with either the Mountain storm Mk1 or Brook trekker Mk9 models.
+
+**Conditions:**
+
+*   **Type:** Mountain bicycle
+*   **Model_Version (option = 1):**
+    *   **Model:** Mountain storm
+    *   **Version:** Mk1
+    *   **Version_Rank:** 1-3
+*   **Model_Version (option = 2):**
+    *   **Model:** Brook trekker
+    *   **Version:** Mk9
+    *   **Version_Rank:** 1-2
+
+#### 4.1.2 Application: Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9) - `app-0002
+**Description:** Defines applicability for Mountain bicycles combined with either the Mountain storm Mk1 or Brook trekker Mk9 models.
+
+**Conditions:**
+
+*   **Type:** Mountain bicycle
+*   **Model_Version (option = 1):**
+    *   **Model:** Mountain storm
+    *   **Version:** Mk1
+*   **Model_Version (option = 2):**
+    *   **Model:** Brook trekker
+    *   **Version:** Mk9
+
+#### 4.1.3 Application: Mountain bicycle and Mountain storm Mk1 - `app-0003
+**Description:** Defines applicability for Mountain bicycles and the Mountain storm Mk1 model.
+
+**Conditions:**
+
+*   **Type:** Mountain bicycle
+*   **Model:** Mountain storm
+*   **Version:** Mk1
+
+#### 4.1.4 Application: Mountain bicycle and Brook trekker Mk9 - `app-0004
+**Description:** Defines applicability for Mountain bicycles and the Brook trekker Mk9 model.
+
+**Conditions:**
+
+*   **Type:** Mountain bicycle
+*   **Model:** Brook trekker
+*   **Version:** Mk9
+
+## 5. Common Repository
+
+### 5.1 Applicability Repository
+
+| Application Specification ID | Application Specification Value | Referenced Application |
+|---|---|---|
+| `appsp-00001` | `app-00000000AA056A-0000` | `app-0002` |
+| `appsp-00002` | `app-00000000AA056A-0001` | `app-0002` |
+| `appsp-00003` | `app-00000000AA056A-0002` | `app-0002` |
+| `appsp-00004` | `app-00000000AA056A-0003` | `app-0002` |
+| `appsp-00005` | `app-00000000AA056A-0004` | `app-0002` |
+| `appsp-00006` | `app-00000000AA056A-0005` | `app-0002` |

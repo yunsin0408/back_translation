@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dm ident="DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-341A-A_010-00_EN-US_1_1" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdent>
+    <dmCode>
+      <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+      <systemDiffCode>AAA</systemDiffCode>
+      <systemCode>D00</systemCode>
+      <subSystemCode>0</subSystemCode>
+      <subSubSystemCode>0</subSubSystemCode>
+      <assyCode>00</assyCode>
+      <disassyCode>00</disassyCode>
+      <disassyCodeVariant>AA</disassyCodeVariant>
+      <infoCode>341</infoCode>
+      <infoCodeVariant>A</infoCodeVariant>
+      <itemLocationCode>A</itemLocationCode>
+    </dmCode>
+    <language>
+      <countryIsoCode>US</countryIsoCode>
+      <languageIsoCode>en</languageIsoCode>
+    </language>
+    <issueInfo>
+      <issueNumber>010</issueNumber>
+      <inWork>00</inWork>
+    </issueInfo>
+  </dmIdent>
+  <dmAddressItems>
+    <issueDate>
+      <year>2024</year>
+      <month>06</month>
+      <day>19</day>
+    </issueDate>
+    <dmTitle>
+      <techName>Lights</techName>
+      <infoName>Manual test</infoName>
+    </dmTitle>
+  </dmAddressItems>
+  <dmStatus>
+    <issueType>changed</issueType>
+    <security>
+      <securityClassification>01</securityClassification>
+      <commercialClassification>cc51</commercialClassification>
+      <caveat>cv51</caveat>
+    </security>
+    <dataRestrictions>
+      <restrictionInstructions>
+        <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+        <exportControl>
+          <exportRegistrationStmt>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</exportRegistrationStmt>
+        </exportControl>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </restrictionInstructions>
+      <restrictionInfo>
+        <copyright>
+          <copyrightStmt>Copyright (C) 2024 by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightStmt>
+          <publishers>
+            <publisher>Aerospace, Security and Defence Industries Association of Europe</publisher>
+            <publisher>Aerospace Industries Association of America</publisher>
+            <publisher>ATA e-Business Program</publisher>
+          </publishers>
+          <limitationsOfLiability>
+            <liabilityStmt>This material is provided "As is" and neither ASD nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</liabilityStmt>
+            <liabilityStmt>Neither ASD nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</liabilityStmt>
+            <liabilityStmt>Revisions to this document may occur after its issuance. The user is responsible for determining if revisions to the material contained in this document have occurred and are applicable.</liabilityStmt>
+          </limitationsOfLiability>
+          <copyrightDetails>The details for copyright can be found in the S1000D Specification.</copyrightDetails>
+        </copyright>
+        <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+        <dataConds>There are no known conditions that would change the data restrictions for, or security classification of, this data module.</dataConds>
+      </restrictionInfo>
+    </dataRestrictions>
+  </dmStatus>
+  <responsiblePartnerCompany>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </responsiblePartnerCompany>
+  <originator>
+    <enterpriseCode>B6865</enterpriseCode>
+    <enterpriseName>AEROSPACE, SECURITY AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+  </originator>
+  <applicCrossReferenceTableRef>
+    <dmRef>
+      <dmRefIdent>
+        <dmCode>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>00W</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>D</itemLocationCode>
+        </dmCode>
+      </dmRefIdent>
+    </dmRef>
+  </applicCrossReferenceTableRef>
+  <applicRef>
+    <applicIdentValue>app-00000000AA341A-0000</applicIdentValue>
+  </applicRef>
+  <techStandard>
+    <authorityInfoAndTp>
+      <authorityInfo>20010131</authorityInfo>
+      <techPubBase>Bike book</techPubBase>
+    </authorityInfoAndTp>
+    <authorityExceptions/>
+    <authorityNotes/>
+  </techStandard>
+  <brexDMRef>
+    <dmRef>
+      <dmRefIdent>
+        <dmCode>
+          <modelIdentCode>S1000DBIKE</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>00</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>022</infoCode>
+          <infoCodeVariant>A</infoCodeVariant>
+          <itemLocationCode>D</itemLocationCode>
+        </dmCode>
+      </dmRefIdent>
+    </dmRef>
+  </brexDMRef>
+  <qualityAssurance>
+    <firstVerification>tabtop</firstVerification>
+  </qualityAssurance>
+  <systemBreakdownCode>LT</systemBreakdownCode>
+  <skillLevel>
+    <skillLevelCode>sk01</skillLevelCode>
+  </skillLevel>
+  <reasonForUpdate>
+    <id>rfu_general</id>
+    <updateReasonType>urt03</updateReasonType>
+    <updateReasonText>S1000D upissued</updateReasonText>
+  </reasonForUpdate>
+  <content>
+    <procedure>
+      <preliminaryRequirements>
+        <reqCondGroup>noConds</reqCondGroup>
+        <reqPersons>
+          <person>
+            <man>A</man>
+            <personCategoryCode>Basic user</personCategoryCode>
+            <trade>Operator</trade>
+            <estimatedTime>0,3 h</estimatedTime>
+          </person>
+        </reqPersons>
+        <reqSupportEquips>noSupportEquips</reqSupportEquips>
+        <reqSupplies>noSupplies</reqSupplies>
+        <reqSpares>noSpares</reqSpares>
+        <reqSafety>noSafety</reqSafety>
+      </preliminaryRequirements>
+      <step>
+        <stepNumber>1</stepNumber>
+        <stepText>Turn on the lights.</stepText>
+      </step>
+      <step>
+        <stepNumber>2</stepNumber>
+        <stepText>Verify that the lights are working.</stepText>
+      </step>
+    </procedure>
+  </content>
+</dm>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proced xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <title>DMC-S1000DBIKE-AAA-D00-00-01-00AA-933A-A_004-00_EN-US_1_1 - Bike Fork Replacement Procedure</title>
+  <sect level="1">
+    <title>Introduction</title>
+    <para>This document outlines the procedure for replacing a bike fork. It details the necessary steps, precautions, and references to relevant documentation.</para>
+  </sect>
+  <sect level="1">
+    <title>Prerequisites_materials</title>
+    <list>
+      <item>New Bike Fork</item>
+      <item>Standard Bike Tools (Wrenches, Allen Keys, etc.)</item>
+      <item>Grease/Lubricant</item>
+      <item>Reference Documentation (as indicated throughout the procedure)</item>
+    </list>
+  </sect>
+  <sect level="1">
+    <title>Preliminary_requirements</title>
+    <list>
+      <item>Ensure the bike is securely positioned on a repair stand or stable surface.</item>
+      <item>Disconnect any electrical components if applicable.</item>
+    </list>
+  </sect>
+  <sect level="1">
+    <title>Procedure_steps</title>
+    <sect level="2">
+      <title>Step 1: Preparation</title>
+      <sect level="3">
+        <title>Title</title>
+        <para>Preparation</para>
+      </sect>
+      <sect level="3">
+        <title>Instruction</title>
+        <para>Remove Front Wheel: Refer to documentation &lt;dmref:S1000BIKE-DA0-3-0-00-00-AA-520/&gt; for instructions on front wheel removal.</para>
+      </sect>
+      <sect level="3">
+        <title>Instruction</title>
+        <para>Remove Front Brakes: Refer to documentation &lt;dmref:S1000BIKE-DA1-2-0-00-00-AA-520/&gt; for instructions on front brake removal.</para>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>Step 2: Fork Removal</title>
+      <sect level="3">
+        <title>Title</title>
+        <para>Fork Removal</para>
+      </sect>
+      <sect level="3">
+        <title>Instruction</title>
+        <para>Remove Fork: Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AA-520/&gt; for instructions on fork removal.</para>
+      </sect>
+      <sect level="3">
+        <title>Instruction</title>
+        <para>Change Bike Axis: Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AA-93A/&gt; for instructions on changing the bike axis.</para>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>Step 3: Fork Installation</title>
+      <sect level="3">
+        <title>Title</title>
+        <para>Fork Installation</para>
+      </sect>
+      <sect level="3">
+        <title>Instruction</title>
+        <para>Install New Fork: Options depend on the specific fork model.</para>
+      </sect>
+      <sect level="4">
+        <title>Option 1</title>
+        <sect level="5">
+          <title>Title</title>
+          <para>Option 1</para>
+        </sect>
+        <sect level="5">
+          <title>Instruction</title>
+          <para>Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AA-720/&gt;.</para>
+        </sect>
+      </sect>
+      <sect level="4">
+        <title>Option 2</title>
+        <sect level="5">
+          <title>Title</title>
+          <para>Option 2</para>
+        </sect>
+        <sect level="5">
+          <title>Instruction</title>
+          <para>Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AB-720/&gt;.</para>
+        </sect>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>Step 4: Reassembly</title>
+      <sect level="3">
+        <title>Title</title>
+        <para>Reassembly</para>
+      </sect>
+      <sect level="3">
+        <title>Instruction</title>
+        <para>Install Front Brakes: Refer to documentation &lt;dmref:S1000BIKE-DA1-2-0-00-00-AA-720/&gt; for instructions on front brake installation.</para>
+      </sect>
+      <sect level="3">
+        <title>Instruction</title>
+        <para>Install Front Wheel: Refer to documentation &lt;dmref:S1000BIKE-DA0-3-0-00-00-AA-720/&gt; for instructions on front wheel installation.</para>
+      </sect>
+    </sect>
+    <sect level="2">
+      <title>Step 5: Testing &amp; Verification</title>
+      <sect level="3">
+        <title>Title</title>
+        <para>Testing &amp; Verification</para>
+      </sect>
+      <sect level="3">
+        <title>Instruction</title>
+        <para>Fork Installation Test: Refer to documentation &lt;dmref:S1000BIKE-D00-0-0-01-00-AA-341/&gt; to verify proper fork installation.</para>
+      </sect>
+      <sect level="3">
+        <title>Instruction</title>
+        <para>Front Brakes Test: Refer to documentation &lt;dmref:BRAKE-DA1-0-0-00-00-AA-341/&gt; to verify proper brake function.</para>
+      </sect>
+    </sect>
+  </sect>
+  <sect level="1">
+    <title>Closing_remarks</title>
+    <para>This procedure provides a general guideline for bike fork replacement. Always consult the manufacturer's specifications and safety guidelines for your specific bike and components. Ensure all connections are secure before operating the bike.</para>
+  </sect>
+</proced>

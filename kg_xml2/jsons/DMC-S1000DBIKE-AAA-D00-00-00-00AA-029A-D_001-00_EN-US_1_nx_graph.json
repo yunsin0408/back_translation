@@ -1,0 +1,1588 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Document",
+      "type": "heading",
+      "id": "Document"
+    },
+    {
+      "label": "Wiring Fields Definition",
+      "type": "heading",
+      "id": "Wiring Fields Definition"
+    },
+    {
+      "label": "Definition",
+      "type": "candidate",
+      "id": "Definition"
+    },
+    {
+      "label": "Fields",
+      "type": "candidate",
+      "id": "Fields"
+    },
+    {
+      "label": "This",
+      "type": "candidate",
+      "id": "This"
+    },
+    {
+      "label": "Wiring",
+      "type": "candidate",
+      "id": "Wiring"
+    },
+    {
+      "label": "definitions",
+      "type": "candidate",
+      "id": "definitions"
+    },
+    {
+      "label": "meanings",
+      "type": "candidate",
+      "id": "meanings"
+    },
+    {
+      "label": "Wiring Fields Definition This",
+      "type": "candidate",
+      "id": "Wiring Fields Definition This"
+    },
+    {
+      "label": "Standard Part Group",
+      "type": "heading",
+      "id": "Standard Part Group"
+    },
+    {
+      "label": "Part",
+      "type": "candidate",
+      "id": "Part"
+    },
+    {
+      "label": "Standard",
+      "type": "candidate",
+      "id": "Standard"
+    },
+    {
+      "label": "Standard Part Group This",
+      "type": "candidate",
+      "id": "Standard Part Group This"
+    },
+    {
+      "label": "Group",
+      "type": "candidate",
+      "id": "Group"
+    },
+    {
+      "label": "Conduit",
+      "type": "heading",
+      "id": "Conduit"
+    },
+    {
+      "label": "Functional",
+      "type": "candidate",
+      "id": "Functional"
+    },
+    {
+      "label": "Minimum",
+      "type": "candidate",
+      "id": "Minimum"
+    },
+    {
+      "label": "Size",
+      "type": "candidate",
+      "id": "Size"
+    },
+    {
+      "label": "Manufacturer Code",
+      "type": "candidate",
+      "id": "Manufacturer Code"
+    },
+    {
+      "label": "Manufacturer",
+      "type": "candidate",
+      "id": "Manufacturer"
+    },
+    {
+      "label": "Temperature",
+      "type": "candidate",
+      "id": "Temperature"
+    },
+    {
+      "label": "Wall Thickness",
+      "type": "candidate",
+      "id": "Wall Thickness"
+    },
+    {
+      "label": "weight",
+      "type": "candidate",
+      "id": "weight"
+    },
+    {
+      "label": "Reference",
+      "type": "candidate",
+      "id": "Reference"
+    },
+    {
+      "label": "thickness",
+      "type": "candidate",
+      "id": "thickness"
+    },
+    {
+      "label": "Minimum Temperature",
+      "type": "candidate",
+      "id": "Minimum Temperature"
+    },
+    {
+      "label": "illustration",
+      "type": "candidate",
+      "id": "illustration"
+    },
+    {
+      "label": "Illustration",
+      "type": "candidate",
+      "id": "Illustration"
+    },
+    {
+      "label": "Mass",
+      "type": "candidate",
+      "id": "Mass"
+    },
+    {
+      "label": "Maximum",
+      "type": "candidate",
+      "id": "Maximum"
+    },
+    {
+      "label": "Maximum Temperature",
+      "type": "candidate",
+      "id": "Maximum Temperature"
+    },
+    {
+      "label": "Part Number",
+      "type": "candidate",
+      "id": "Part Number"
+    },
+    {
+      "label": "Thickness",
+      "type": "candidate",
+      "id": "Thickness"
+    },
+    {
+      "label": "manufacturer",
+      "type": "candidate",
+      "id": "manufacturer"
+    },
+    {
+      "label": "Wall",
+      "type": "candidate",
+      "id": "Wall"
+    },
+    {
+      "label": "size",
+      "type": "candidate",
+      "id": "size"
+    },
+    {
+      "label": "Color",
+      "type": "candidate",
+      "id": "Color"
+    },
+    {
+      "label": "Alternative",
+      "type": "candidate",
+      "id": "Alternative"
+    },
+    {
+      "label": "identifier",
+      "type": "candidate",
+      "id": "identifier"
+    },
+    {
+      "label": "color",
+      "type": "candidate",
+      "id": "color"
+    },
+    {
+      "label": "Functional Description Reference",
+      "type": "candidate",
+      "id": "Functional Description Reference"
+    },
+    {
+      "label": "Description",
+      "type": "candidate",
+      "id": "Description"
+    },
+    {
+      "label": "Alternative Part Number",
+      "type": "candidate",
+      "id": "Alternative Part Number"
+    },
+    {
+      "label": "Number",
+      "type": "candidate",
+      "id": "Number"
+    },
+    {
+      "label": "Illustration Reference",
+      "type": "candidate",
+      "id": "Illustration Reference"
+    },
+    {
+      "label": "Code",
+      "type": "candidate",
+      "id": "Code"
+    },
+    {
+      "label": "Ident Sleeve (Identification Sleeve)",
+      "type": "heading",
+      "id": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "label": "Sleeve",
+      "type": "candidate",
+      "id": "Sleeve"
+    },
+    {
+      "label": "Ident Sleeve",
+      "type": "candidate",
+      "id": "Ident Sleeve"
+    },
+    {
+      "label": "Ident",
+      "type": "candidate",
+      "id": "Ident"
+    },
+    {
+      "label": "Identification Sleeve",
+      "type": "candidate",
+      "id": "Identification Sleeve"
+    },
+    {
+      "label": "length",
+      "type": "candidate",
+      "id": "length"
+    },
+    {
+      "label": "Length",
+      "type": "candidate",
+      "id": "Length"
+    },
+    {
+      "label": "Material",
+      "type": "candidate",
+      "id": "Material"
+    },
+    {
+      "label": "Identification",
+      "type": "candidate",
+      "id": "Identification"
+    },
+    {
+      "label": "Wire Material",
+      "type": "heading",
+      "id": "Wire Material"
+    },
+    {
+      "label": "Frequency",
+      "type": "candidate",
+      "id": "Frequency"
+    },
+    {
+      "label": "Wire Gauge",
+      "type": "candidate",
+      "id": "Wire Gauge"
+    },
+    {
+      "label": "gauge",
+      "type": "candidate",
+      "id": "gauge"
+    },
+    {
+      "label": "Outer Jacket Color",
+      "type": "candidate",
+      "id": "Outer Jacket Color"
+    },
+    {
+      "label": "Impedance",
+      "type": "candidate",
+      "id": "Impedance"
+    },
+    {
+      "label": "typically",
+      "type": "candidate",
+      "id": "typically"
+    },
+    {
+      "label": "Wire Type",
+      "type": "candidate",
+      "id": "Wire Type"
+    },
+    {
+      "label": "Screen Count",
+      "type": "candidate",
+      "id": "Screen Count"
+    },
+    {
+      "label": "Cores",
+      "type": "candidate",
+      "id": "Cores"
+    },
+    {
+      "label": "diameter",
+      "type": "candidate",
+      "id": "diameter"
+    },
+    {
+      "label": "Outer",
+      "type": "candidate",
+      "id": "Outer"
+    },
+    {
+      "label": "Type",
+      "type": "candidate",
+      "id": "Type"
+    },
+    {
+      "label": "Attenuation",
+      "type": "candidate",
+      "id": "Attenuation"
+    },
+    {
+      "label": "Amperage",
+      "type": "candidate",
+      "id": "Amperage"
+    },
+    {
+      "label": "AC",
+      "type": "candidate",
+      "id": "AC"
+    },
+    {
+      "label": "type",
+      "type": "candidate",
+      "id": "type"
+    },
+    {
+      "label": "Diameter",
+      "type": "candidate",
+      "id": "Diameter"
+    },
+    {
+      "label": "Cable",
+      "type": "candidate",
+      "id": "Cable"
+    },
+    {
+      "label": "Count",
+      "type": "candidate",
+      "id": "Count"
+    },
+    {
+      "label": "impedance",
+      "type": "candidate",
+      "id": "impedance"
+    },
+    {
+      "label": "Screen",
+      "type": "candidate",
+      "id": "Screen"
+    },
+    {
+      "label": "Indicates",
+      "type": "candidate",
+      "id": "Indicates"
+    },
+    {
+      "label": "Resistance",
+      "type": "candidate",
+      "id": "Resistance"
+    },
+    {
+      "label": "Jacket",
+      "type": "candidate",
+      "id": "Jacket"
+    },
+    {
+      "label": "Wire",
+      "type": "candidate",
+      "id": "Wire"
+    },
+    {
+      "label": "number",
+      "type": "candidate",
+      "id": "number"
+    },
+    {
+      "label": "Cable Flag",
+      "type": "candidate",
+      "id": "Cable Flag"
+    },
+    {
+      "label": "Coaxial",
+      "type": "candidate",
+      "id": "Coaxial"
+    },
+    {
+      "label": "Voltage",
+      "type": "candidate",
+      "id": "Voltage"
+    },
+    {
+      "label": "Flag",
+      "type": "candidate",
+      "id": "Flag"
+    },
+    {
+      "label": "Coaxial Cable Flag",
+      "type": "candidate",
+      "id": "Coaxial Cable Flag"
+    },
+    {
+      "label": "Gauge",
+      "type": "candidate",
+      "id": "Gauge"
+    },
+    {
+      "label": "resistance",
+      "type": "candidate",
+      "id": "resistance"
+    },
+    {
+      "label": "Outer Diameter",
+      "type": "candidate",
+      "id": "Outer Diameter"
+    }
+  ],
+  "links": [
+    {
+      "weight": 1,
+      "units": [
+        1
+      ],
+      "source": "Document",
+      "target": "Document"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Wiring Fields Definition",
+      "target": "Definition"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Wiring Fields Definition",
+      "target": "Fields"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Wiring Fields Definition",
+      "target": "This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Wiring Fields Definition",
+      "target": "Wiring"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Wiring Fields Definition",
+      "target": "definitions"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Wiring Fields Definition",
+      "target": "meanings"
+    },
+    {
+      "weight": 1,
+      "units": [
+        2
+      ],
+      "source": "Wiring Fields Definition",
+      "target": "Wiring Fields Definition This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "This",
+      "target": "Standard Part Group"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Standard Part Group",
+      "target": "Part"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Standard Part Group",
+      "target": "Standard"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Standard Part Group",
+      "target": "Standard Part Group This"
+    },
+    {
+      "weight": 1,
+      "units": [
+        3
+      ],
+      "source": "Standard Part Group",
+      "target": "Group"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Part",
+      "target": "Conduit"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Part",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Part",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Functional"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Minimum"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Size"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Manufacturer Code"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Manufacturer"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Temperature"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Wall Thickness"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "weight"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Conduit"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Reference"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "thickness"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Minimum Temperature"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "illustration"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Illustration"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Mass"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Maximum"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Maximum Temperature"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Part Number"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Thickness"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "manufacturer"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Wall"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "size"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Color"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Alternative"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "identifier"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "color"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Functional Description Reference"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Description"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Alternative Part Number"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Number"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Illustration Reference"
+    },
+    {
+      "weight": 2,
+      "units": [
+        4,
+        7
+      ],
+      "source": "Conduit",
+      "target": "Code"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Functional",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Functional",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Minimum",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Size",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Manufacturer Code",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Manufacturer Code",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Manufacturer",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Manufacturer",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Temperature",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "weight",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "weight",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Reference",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Reference",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Minimum Temperature",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "illustration",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "illustration",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Illustration",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Illustration",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Mass",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Mass",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Maximum",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Maximum Temperature",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Part Number",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Part Number",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "manufacturer",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "manufacturer",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "size",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Color",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Alternative",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Alternative",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "identifier",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "identifier",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "color",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Functional Description Reference",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Functional Description Reference",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Description",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Description",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Alternative Part Number",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Alternative Part Number",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Number",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Number",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Illustration Reference",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Illustration Reference",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Code",
+      "target": "Ident Sleeve (Identification Sleeve)"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Code",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ident Sleeve (Identification Sleeve)",
+      "target": "Sleeve"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ident Sleeve (Identification Sleeve)",
+      "target": "Ident Sleeve"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ident Sleeve (Identification Sleeve)",
+      "target": "Ident"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ident Sleeve (Identification Sleeve)",
+      "target": "Identification Sleeve"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ident Sleeve (Identification Sleeve)",
+      "target": "length"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ident Sleeve (Identification Sleeve)",
+      "target": "Length"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ident Sleeve (Identification Sleeve)",
+      "target": "Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        5
+      ],
+      "source": "Ident Sleeve (Identification Sleeve)",
+      "target": "Identification"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Material",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Frequency"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Wire Gauge"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "gauge"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Outer Jacket Color"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Impedance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "typically"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Wire Type"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Screen Count"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Cores"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "diameter"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Outer"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Type"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Attenuation"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Amperage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "AC"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "type"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Diameter"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Wire Material"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Cable"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Count"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "impedance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Screen"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Indicates"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Resistance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Jacket"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Wire"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "number"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Cable Flag"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Coaxial"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Voltage"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Flag"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Coaxial Cable Flag"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Gauge"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "resistance"
+    },
+    {
+      "weight": 1,
+      "units": [
+        6
+      ],
+      "source": "Wire Material",
+      "target": "Outer Diameter"
+    }
+  ]
+}

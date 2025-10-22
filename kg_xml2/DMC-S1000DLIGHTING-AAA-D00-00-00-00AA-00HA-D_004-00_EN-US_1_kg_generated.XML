@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <procid>DMC-004</procid>
+    <revnum>00</revnum>
+    <issuepoint>00</issuepoint>
+  </identification>
+  <title>
+    <techname>Lighting</techname>
+    <infoName>Zones common information repository</infoName>
+  </title>
+  <content>
+    <applicgrp>
+      <applic id="app-0001">
+        <displayText>
+          <simplePara>Mountain storm Mk1</simplePara>
+        </displayText>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>model</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mountain storm</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>version</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mk1</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>versrank</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>1~3</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </applic>
+      <applic id="app-0002">
+        <displayText>
+          <simplePara>Brook trekker Mk9</simplePara>
+        </displayText>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>model</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Brook trekker</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>version</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mk9</applicPropertyValues>
+          </assert>
+          <assert>
+            <applicPropertyIdent>versrank</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>1~2</applicPropertyValues>
+          </assert>
+        </evaluate>
+      </applic>
+      <applic id="app-0003">
+        <displayText>
+          <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+        </displayText>
+        <evaluate>
+          <assert>
+            <applicPropertyIdent>type</applicPropertyIdent>
+            <applicPropertyType>prodattr</applicPropertyType>
+            <applicPropertyValues>Mountain bicycle</applicPropertyValues>
+          </assert>
+          <evaluate>
+            <assert>
+              <applicPropertyIdent>model</applicPropertyIdent>
+              <applicPropertyType>prodattr</applicPropertyType>
+              <applicPropertyValues>Mountain storm</applicPropertyValues>
+            </assert>
+            <assert>
+              <applicPropertyIdent>version</applicPropertyIdent>
+              <applicPropertyType>prodattr</applicPropertyType>
+              <applicPropertyValues>Mk1</applicPropertyValues>
+            </assert>
+            <evaluate>
+              <assert>
+                <applicPropertyIdent>model</applicPropertyIdent>
+                <applicPropertyType>prodattr</applicPropertyType>
+                <applicPropertyValues>Brook trekker</applicPropertyValues>
+              </assert>
+              <assert>
+                <applicPropertyIdent>version</applicPropertyIdent>
+                <applicPropertyType>prodattr</applicPropertyType>
+                <applicPropertyValues>Mk9</applicPropertyValues>
+              </assert>
+            </evaluate>
+          </evaluate>
+        </evaluate>
+      </applic>
+    </applicgrp>
+    <commonrepository>
+      <zonerepository>
+        <zone id="100">
+          <zoneType>majorzone</zoneType>
+          <zoneIdent>100</zoneIdent>
+          <zoneRefGroup>contains (110, 130)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0002">
+              <itemDescr>FRONT ZONE BEGINS BY FRONT TIRE. IT STARTS FROM LENGTH "0 cm" TO LENGTH "50 cm"</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="110">
+          <zoneType>subzone</zoneType>
+          <zoneIdent>110</zoneIdent>
+          <zoneRefGroup>belongsto (100)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0002">
+              <itemDescr>TIRE ZONE INCLUDING THE FRONT TIRE, THE INNER TUBE AND THE SPOKES</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="130">
+          <zoneType>subzone</zoneType>
+          <zoneIdent>130</zoneIdent>
+          <zoneRefGroup>belongsto (100)</zoneRefGroup>
+          <zoneRefGroup>contains (131, 132)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0003">
+              <itemDescr>HANDLE BAR ZONE</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="131">
+          <zoneType>specifzone</zoneType>
+          <zoneIdent>131</zoneIdent>
+          <zoneRefGroup>belongsto (130)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0003">
+              <itemDescr>RIGHT HAND HANDLE BAR ZONE</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="132">
+          <zoneType>specifzone</zoneType>
+          <zoneIdent>132</zoneIdent>
+          <zoneRefGroup>belongsto (130)</zoneRefGroup>
+          <zoneAlts>
+            <zone id="app-0003">
+              <itemDescr>LEFT HAND HANDLE BAR ZONE</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="200">
+          <zoneType>majorzone</zoneType>
+          <zoneIdent>200</zoneIdent>
+          <zoneAlts>
+            <zone id="app-0002">
+              <itemDescr>MIDDLE ZONE. IT STARTS FROM LENGTH "50 cm" TO LENGTH "100 cm"</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+        <zone id="300">
+          <zoneType>majorzone</zoneType>
+          <zoneIdent>300</zoneIdent>
+          <zoneAlts>
+            <zone id="app-0001">
+              <itemDescr>BACK ZONE. IT STARTS FROM LENGTH "100 cm" TO LENGTH "150 cm"</itemDescr>
+            </zone>
+          </zoneAlts>
+        </zone>
+      </zonerepository>
+    </commonrepository>
+  </content>
+</procedure>

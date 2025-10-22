@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataModule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <dmIdent>
+    <dmIdentCode>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-413A-A_010-00_EN-US_1_1_regenerated_1_regenerated_2_regenerated_3_regenerated</dmIdentCode>
+  </dmIdent>
+  <dataModule>
+    <dmIdent>
+      <dmIdentCode>DMC-S1000DLIGHTING-AAA-D00-00-00-00AA-413A-A_010-00_EN-US_1_1_regenerated_1_regenerated_2_regenerated</dmIdentCode>
+    </dmIdent>
+    <dmAddress>
+      <dmIdent>
+        <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+        <systemDiffCode>AAA</systemDiffCode>
+        <systemCode>D00</systemCode>
+        <subSystemCode>0</subSystemCode>
+        <subSubSystemCode>0</subSubSystemCode>
+        <assyCode>00</assyCode>
+        <disassyCode>00</disassyCode>
+        <disassyCodeVariant>AA</disassyCodeVariant>
+        <infoCode>413</infoCode>
+        <infoCodeVariant>A</infoCodeVariant>
+        <itemLocationCode>A</itemLocationCode>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate>
+          <year>2024</year>
+          <month>06</month>
+          <day>19</day>
+        </issueDate>
+        <dmTitle>
+          <techName>Lights</techName>
+          <infoName>Observed fault</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus>
+      <issueType>changed</issueType>
+      <security>
+        <securityClassification>01</securityClassification>
+        <commercialClassification>cc51</commercialClassification>
+        <caveat>cv51</caveat>
+      </security>
+      <dataRestrictions>
+        <restrictionInstructions>
+          <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+          <exportControl>
+            <exportRegistrationStmt>
+              <simplePara>Export of this data module to all countries that are the residence of organizations that are users of S1000D is permitted. Storage of this data module is to be at the discretion of the organization.</simplePara>
+            </exportRegistrationStmt>
+          </exportControl>
+        </restrictionInstructions>
+        <dataHandling>There are no specific handling instructions for this data module.</dataHandling>
+        <dataDestruction>Users may destroy this data module in accordance with their own local procedures.</dataDestruction>
+        <dataDisclosure>There are no dissemination limitations that apply to this data module.</dataDisclosure>
+      </dataRestrictions>
+      <restrictionInfo>
+        <copyright>
+          <copyrightPara>*Copyright (C) 2024* by AeroSpace, Security and Defence Industries Association of Europe - ASD</copyrightPara>
+          <copyrightPara>*Publishers*</copyrightPara>
+          <random list item/>
+        </copyright>
+        <remarks>random remark</remarks>
+      </restrictionInfo>
+      <applicability>random applicability</applicability>
+      <remarks>random remark</remarks>
+    </dmStatus>
+    <additionalDmStatusInformation>
+      <responsibleParty>random responsible party</responsibleParty>
+      <applicability>random applicability</applicability>
+      <remarks>random remark</remarks>
+    </additionalDmStatusInformation>
+    <content>
+      <references>
+        <dmRef>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>0A5</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>A</infoCode>
+          <itemLocationCode>A</itemLocationCode>
+        </dmRef>
+        <dmRef>
+          <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+          <systemDiffCode>AAA</systemDiffCode>
+          <systemCode>D00</systemCode>
+          <subSystemCode>0</subSystemCode>
+          <subSubSystemCode>0</subSubSystemCode>
+          <assyCode>00</assyCode>
+          <disassyCode>0A4</disassyCode>
+          <disassyCodeVariant>AA</disassyCodeVariant>
+          <infoCode>A</infoCode>
+          <itemLocationCode>A</itemLocationCode>
+        </dmRef>
+      </references>
+      <warningsAndCautionsReferences>
+        <warningRef>
+          <id>w001</id>
+          <warningIdentNumber>warning-001</warningIdentNumber>
+          <dmRef>
+            <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>0A4</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>A</infoCode>
+            <itemLocationCode>A</itemLocationCode>
+          </dmRef>
+        </warningRef>
+        <warningRef>
+          <id>w002</id>
+          <warningIdentNumber>warning-002</warningIdentNumber>
+          <dmRef>
+            <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>0A4</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>A</infoCode>
+            <itemLocationCode>A</itemLocationCode>
+          </dmRef>
+        </warningRef>
+        <cautionRef>
+          <id>c001</id>
+          <cautionIdentNumber>caution-001</cautionIdentNumber>
+          <dmRef>
+            <modelIdentCode>S1000DLIGHTING</modelIdentCode>
+            <systemDiffCode>AAA</systemDiffCode>
+            <systemCode>D00</systemCode>
+            <subSystemCode>0</subSystemCode>
+            <subSubSystemCode>0</subSubSystemCode>
+            <assyCode>00</assyCode>
+            <disassyCode>0A5</disassyCode>
+            <disassyCodeVariant>AA</disassyCodeVariant>
+            <infoCode>A</infoCode>
+            <itemLocationCode>A</itemLocationCode>
+          </dmRef>
+        </cautionRef>
+      </warningsAndCautionsReferences>
+      <faultDiagnosis>
+        <reqs>
+          <req>
+            <lreq>
+              <reqType>mandatory</reqType>
+              <reqNumber>1</reqNumber>
+            </lreq>
+          </req>
+        </reqs>
+        <observedFault>
+          <faultDescription>The lights do not operate correctly.</faultDescription>
+          <faultLocation>
+            <lLoc>
+              <lLocType>Electrical</lLocType>
+            </lLoc>
+          </faultLocation>
+          <faultCause>
+            <lCause>
+              <lCauseType>Electrical</lCauseType>
+            </lCause>
+          </faultCause>
+        </observedFault>
+        <troubleShooting>
+          <step>
+            <stepNumber>1</stepNumber>
+            <instruction>Check the power supply.</instruction>
+            <toolRequired>Multimeter</toolRequired>
+          </step>
+          <step>
+            <stepNumber>2</stepNumber>
+            <instruction>Check the wiring connections.</instruction>
+            <toolRequired>Screwdriver</toolRequired>
+          </step>
+        </troubleShooting>
+      </faultDiagnosis>
+    </content>
+  </dataModule>
+</dataModule>

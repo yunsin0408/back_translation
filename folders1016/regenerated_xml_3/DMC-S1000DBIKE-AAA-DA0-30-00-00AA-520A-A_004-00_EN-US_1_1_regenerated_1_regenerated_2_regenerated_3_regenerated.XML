@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/proced.xsd">
+  <identification>
+    <docnumber>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00</docnumber>
+    <title>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00-Content</title>
+  </identification>
+  <content>
+    <section id="1. Ident and Status Section">
+      <heading>1. Ident and Status Section</heading>
+      <subsection id="1.1 General Information">
+        <heading>1.1 General Information</heading>
+        <info>
+          <name>Name</name>
+          <value>Document Title</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>DMC-S1000DBIKE-AAA-DA0-30-00-00AA-520A-A_004-00</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Document Type</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Content</value>
+        </info>
+      </subsection>
+      <subsection id="1.2 Status">
+        <heading>1.2 Status</heading>
+        <info>
+          <name>Name</name>
+          <value>Quality Assurance</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>First Verification (Tab Top)</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>System Breakdown Code</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>BY</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Skill Level</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>sk01</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Reason for Update (rfu_general)</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>S1000D upissued</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Reason for Update (rfu_fig01)</value>
+        </info>
+        <info>
+          <name>Name</name>
+          <value>Figure added</value>
+        </info>
+      </subsection>
+    </section>
+    <section id="2. Content">
+      <heading>2. Content</heading>
+      <subsection id="2.1 Referenced Applic Group">
+        <heading>2.1 Referenced Applic Group</heading>
+        <subsubsection id="2.1.1 Application 1">
+          <heading>2.1.1 Application 1</heading>
+          <info>
+            <name>Name</name>
+            <value>ID</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>app-0002</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Display Text</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Mountain bicycle and Mountain storm Mk1</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Evaluation</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Type = Mountain bicycle AND Model = Mountain storm</value>
+          </info>
+        </subsubsection>
+        <subsubsection id="2.1.2 Application 2">
+          <heading>2.1.2 Application 2</heading>
+          <info>
+            <name>Name</name>
+            <value>ID</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>app-0003</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Display Text</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Mountain bicycle and Brook trekker Mk9</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Evaluation</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Type = Mountain bicycle AND Model = Brook trekker</value>
+          </info>
+        </subsubsection>
+      </subsection>
+      <subsection id="2.2 Warnings and Cautions">
+        <heading>2.2 Warnings and Cautions</heading>
+        <subsubsection id="2.2.1 Caution 1">
+          <heading>2.2.1 Caution 1</heading>
+          <info>
+            <name>Name</name>
+            <value>ID</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>C0001</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Warning/Caution Paragraph</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Be sure to operate on a white surface in order to prevent lost of part that could fall on the floor.</value>
+          </info>
+        </subsubsection>
+      </subsection>
+      <subsection id="2.3 Procedure">
+        <heading>2.3 Procedure</heading>
+        <subsubsection id="2.3.1 Preliminary Requirements">
+          <heading>2.3.1 Preliminary Requirements</heading>
+          <info>
+            <name>Name</name>
+            <value>No Condition</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>No conditions specified.</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Personnel</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>No personnel specified.</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Support Equipment</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Specialist toolset</value>
+            <identification>
+              <manufacturer_code>KZ666</manufacturer_code>
+              <part_number>BSK-TLST-001</part_number>
+              <required_quantity>1 EA</required_quantity>
+            </identification>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supplies</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supply 1</value>
+            <reference_id>SPEC-0012</reference_id>
+            <supply_number>BKO200</supply_number>
+            <supply_number_type>sp01</supply_number_type>
+            <name>BIKEOIL 200</name>
+            <required_quantity>As required</required_quantity>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Supply 2</value>
+            <reference_id>SPEC-0013</reference_id>
+            <supply_number>BKO201</supply_number>
+            <supply_number_type>sp02</supply_number_type>
+            <name>BIKEOIL 201</name>
+            <required_quantity>As required</required_quantity>
+          </info>
+        </subsubsection>
+        <subsubsection id="2.3.2 Procedure Steps">
+          <heading>2.3.2 Procedure Steps</heading>
+          <info>
+            <name>Name</name>
+            <value>Step</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>1. Disconnect the battery.</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Step</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>2. Remove the seat.</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>Step</value>
+          </info>
+          <info>
+            <name>Name</name>
+            <value>3. Remove the fuel tank.</value>
+          </info>
+        </subsubsection>
+      </subsection>
+    </section>
+  </content>
+</procedure>
